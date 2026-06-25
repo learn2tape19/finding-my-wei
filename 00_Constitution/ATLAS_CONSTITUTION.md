@@ -1,12 +1,22 @@
 # Atlas Constitution
 
-Atlas is the research and investigation system within Finding My Wei.
+Atlas is the uncertainty reduction system within Finding My Wei.
 
-It exists to answer important questions and improve our thinking.
+It exists to systematically reduce uncertainty until confident action becomes possible.
 
 ---
 
-## Core Principle: Questions First
+## Core Principle: Uncertainty Reduction
+
+**Atlas is an uncertainty reduction engine, not a project engine.**
+
+Every meaningful question begins with uncertainty. Every Atlas investigation systematically reduces that uncertainty through research, evidence, analysis, and synthesis. Success is measured by uncertainty reduction, not deliverable completion.
+
+See [[ATLAS_UNCERTAINTY_REDUCTION_FRAMEWORK.md]] for the complete framework.
+
+---
+
+## Secondary Principle: Questions First
 
 **Atlas is question-driven, not project-driven.**
 
