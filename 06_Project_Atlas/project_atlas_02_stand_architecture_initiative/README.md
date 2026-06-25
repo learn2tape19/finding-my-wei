@@ -11,13 +11,37 @@
 
 ---
 
+## Primary Question
+
+> **What engineering architecture will produce the safest, lightest, strongest, most manufacturable support stand for Sidekick Air, and what is the complete ecosystem of partners needed to bring it to production?**
+
+---
+
+## Research Hypothesis
+
+Currently, we have:
+- A validated prototype concept
+- Provisional patent filed
+- Clinical use validation
+
+We hypothesize that:
+1. Deployable structural systems from aerospace/military industries can be adapted for therapeutic use
+2. Lightweight load-bearing is a solvable engineering problem (not novel, but proven in adjacent industries)
+3. The right engineering partner exists — someone who sees the clinical/therapeutic opportunity, not just a furniture problem
+4. Manufacturing at reasonable cost is achievable through design for manufacturing (DFM) principles
+5. The knowledge system for finding the right partners is more valuable than any single partner discovered
+
+This hypothesis will be tested through systematic research of engineering firms, adjacent industries, and prototype development.
+
+---
+
 ## Mission
 
 Design, engineer, document, and develop the **complete engineering and manufacturing ecosystem** for the Sidekick Air support stand.
 
-**This is not a project to find a manufacturer.**
+**This is not a transactional project to find a manufacturer.**
 
-This is a project to build the **knowledge system that naturally leads to the right engineering partners, prototype builders, suppliers, and production manufacturers**.
+This is a **question-driven research project** to build the **knowledge system that leads to the right engineering partners, prototype builders, suppliers, and production manufacturers**.
 
 Every artifact generated becomes a permanent asset of the Finding My Wei Intellectual Estate.
 
@@ -25,17 +49,17 @@ Every artifact generated becomes a permanent asset of the Finding My Wei Intelle
 
 ## North Star
 
-The Sidekick Air stand is a **deployable structural system**.
+The Sidekick Air stand is a **deployable structural system** (like military cots, aerospace platforms, emergency shelters).
 
 Treat it as an **engineering platform**, not furniture.
 
-Never search like a furniture designer. Search like a structural engineer seeking solutions to:
+Search like a structural engineer, not a furniture designer. Seek solutions to:
 - Lightweight load-bearing structures
 - Deployable mechanisms
 - Manufacturing at scale
 - Portability and ergonomics
 
-Better knowledge produces better decisions. Better decisions attract better partners.
+**Better knowledge produces better decisions. Better decisions attract better partners.**
 
 ---
 

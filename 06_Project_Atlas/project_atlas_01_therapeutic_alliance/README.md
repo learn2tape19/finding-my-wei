@@ -1,5 +1,26 @@
 # Project Atlas 01: Therapeutic Alliance
 
+## Primary Question
+
+> **How does the therapeutic alliance biologically and psychologically influence clinical outcomes in manual therapy, and how can it be systematically developed, measured, and taught?**
+
+---
+
+## Research Hypothesis
+
+Currently, therapeutic alliance is understood primarily through psychological research (psychotherapy) and general clinical education principles. 
+
+We hypothesize that:
+1. Therapeutic alliance operates through nervous system co-regulation (not just psychological factors)
+2. Alliance quality is measurable in real-time (not just post-treatment satisfaction)
+3. Alliance development is teachable to clinicians at any experience level
+4. Alliance directly correlates with clinical outcomes in manual therapy (not just indirect through compliance)
+5. Permission-based practice depends on alliance as foundational
+
+This hypothesis will be tested through literature review, interviews with experienced clinicians, and pilot teaching.
+
+---
+
 ## Project Overview
 
 **Status**: Research and Framework Development  
@@ -7,15 +28,15 @@
 **Timeline**: Ongoing  
 **Priority**: High (foundational to Tao thesis and teaching)
 
-Therapeutic Alliance is the quality of the relationship between clinician and client as a therapeutic mechanism itself.
+This project investigates therapeutic alliance — the quality of relationship between clinician and client — as a primary mechanism of change (not incidental factor).
 
-This project investigates, documents, and teaches the neuroscience and practice of therapeutic alliance.
+We are investigating the neuroscience, measurable components, teaching approaches, and clinical outcomes associated with therapeutic alliance.
 
 ---
 
 ## Project Thesis
 
-**Core Claim**: The quality of relationship between clinician and client is not incidental to treatment outcomes—it is a primary mechanism of change.
+The quality of relationship between clinician and client is not incidental to treatment outcomes—it is a **primary mechanism of change**.
 
 **Why this matters**: Most clinical education focuses on technique. Relationship is often treated as "soft skill" or nice-to-have. But research suggests relationship quality directly affects nervous system safety, which enables the client's own regulation and change capacity.
 
