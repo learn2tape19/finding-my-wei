@@ -248,9 +248,269 @@ PROFESSIONAL ADOPTION
 
 ---
 
+---
+
+# THE MOVEMENT LAYER
+
+**The campaign does not end when someone reads an article.**
+
+**It ends when they begin changing other clinicians.**
+
+---
+
+## The Advocacy Ladder
+
+The journey from individual understanding to profession-wide movement:
+
+```
+RUNG 1: CURIOSITY
+├─ Experience: "I've never thought about this"
+├─ Asset: Instagram Carousel (creates tension)
+├─ Reader feels: Intrigued, but skeptical
+└─ Question: "Is this real?"
+
+RUNG 2: UNDERSTANDING
+├─ Experience: "The research shows this is true"
+├─ Asset: LinkedIn Article + Website Article (validates)
+├─ Reader feels: Convinced the idea has merit
+└─ Question: "Can I actually do this?"
+
+RUNG 3: EXPERIMENTATION
+├─ Experience: "I tried this with a patient. It worked."
+├─ Asset: Video (60-sec) + CE Course (teaches how-to)
+├─ Reader feels: Confidence they can implement it
+└─ Question: "Is this real in my practice?"
+
+RUNG 4: CONFIDENCE
+├─ Experience: "I've done this 10 times. Outcomes improved."
+├─ Asset: CE Course + Assessment Tools (measure progress)
+├─ Reader feels: Ownership of the framework
+└─ Question: "Why doesn't everyone know this?"
+
+RUNG 5: ADVOCACY
+├─ Experience: "My colleagues noticed the change. They asked why."
+├─ Asset: Paper 1 (peer-reviewed evidence) + Teaching Framework
+├─ Reader feels: Credible enough to share with others
+└─ Question: "How do I teach this?"
+
+RUNG 6: TEACHING
+├─ Experience: "I taught another clinician. They changed their practice."
+├─ Asset: Advanced Training + Curriculum + Teaching Videos
+├─ Reader feels: Professional authority and responsibility
+└─ Question: "How do we scale this?"
+
+RUNG 7: LEADERSHIP
+├─ Experience: "I'm now training educators. The idea is spreading."
+├─ Asset: Leadership Program + Conference Speaking Platform
+├─ Reader feels: Part of a profession-wide movement
+└─ Question: "What's the frontier of this thinking?"
+```
+
+---
+
+## What Creates Movement at Each Rung
+
+### From Curiosity to Understanding
+**What causes the transition:**
+- Credible research (not marketing hype)
+- Peer validation (other clinicians seeing results)
+- Clear mechanism (understanding WHY, not just WHAT)
+
+**Assets that enable it:**
+- LinkedIn Article (research grounding)
+- Website Article (mechanism teaching)
+- Paper 1 (peer-reviewed validation)
+
+**The critical question:**
+"Is this legitimate, or is it trend?"
+
+---
+
+### From Understanding to Experimentation
+**What causes the transition:**
+- Simple first step (not overwhelming)
+- Clear success criteria (how to know if it worked)
+- Safety net (teaching material if it goes wrong)
+
+**Assets that enable it:**
+- Video (shows clinical moment)
+- Newsletter Feature (practical first step)
+- CE Course Phase 1 (teaches basic implementation)
+
+**The critical question:**
+"Can I actually do this with my patients?"
+
+---
+
+### From Experimentation to Confidence
+**What causes the transition:**
+- Repeated success (doing it multiple times)
+- Measurable outcomes (seeing the difference)
+- Integration into workflow (it becomes normal, not novel)
+
+**Assets that enable it:**
+- CE Course (full framework teaching)
+- Assessment Tools (measurement framework)
+- Case Study Examples (seeing themselves in the stories)
+
+**The critical question:**
+"This is working for me. Why isn't everyone doing this?"
+
+---
+
+### From Confidence to Advocacy
+**What causes the transition:**
+- Professional credibility (research they can cite)
+- Peer validation (other professionals endorsing it)
+- Institutional acceptance (it's not fringe)
+
+**Assets that enable it:**
+- Paper 1 (peer-reviewed evidence)
+- Speaking Invitations (being asked to teach)
+- Professional Network (access to other practitioners)
+
+**The critical question:**
+"Am I credible enough to share this with my colleagues?"
+
+---
+
+### From Advocacy to Teaching
+**What causes the transition:**
+- Colleague request ("Will you teach me?")
+- Teaching framework (how to explain it to others)
+- Curriculum materials (structure for teaching)
+
+**Assets that enable it:**
+- Advanced Training Program (how to teach it)
+- Educator Curriculum (lesson plans, guides)
+- Teaching Videos (show, don't just tell)
+- Discussion Guides (facilitate learning)
+
+**The critical question:**
+"How do I teach this so others understand it?"
+
+---
+
+### From Teaching to Leadership
+**What causes the transition:**
+- Repeated teaching success (students are changing)
+- Invitation to bigger platforms (conferences, institutions)
+- Shared responsibility (network of teachers)
+
+**Assets that enable it:**
+- Leadership Program (scaling teaching)
+- Conference Speaking Opportunity (profession-wide reach)
+- Teacher Network (community of practice)
+- Advanced Research (frontier thinking)
+
+**The critical question:**
+"How do we make this the standard, not the exception?"
+
+---
+
+## The Movement Assets (Future Roadmap)
+
+**Currently Created:**
+✅ Instagram Carousel (creates curiosity)
+✅ Website Article (enables understanding)
+✅ LinkedIn Article (validates)
+✅ Conversation Map (shows the journey)
+
+**Dependent on Development:**
+⏳ Paper 1 (enables advocacy)
+⏳ CE Course (enables teaching)
+⏳ Assessment Tools (enables confidence measurement)
+⏳ Teaching Framework (enables teaching)
+⏳ Advanced Training (enables leadership)
+⏳ Conference Speaking Platform (enables leadership visibility)
+⏳ Teacher Network (enables community)
+
+---
+
+## Movement KPIs (The Real Measure)
+
+**NOT:**
+❌ Views (vanity metric)
+❌ Likes (engagement theater)
+❌ Shares (distribution, not understanding)
+❌ Email signups (potential, not action)
+❌ Book sales (consumption, not change)
+
+**YES:**
+✅ Clinicians experimenting with the framework (action)
+✅ Clinicians measuring their outcomes (commitment)
+✅ Clinicians sharing with colleagues (word-of-mouth)
+✅ Clinicians teaching others (advocacy)
+✅ Educators integrating into curriculum (institutional change)
+✅ Conferences inviting speakers (profession-wide reach)
+✅ Papers citing our work (intellectual credibility)
+
+**The Ultimate KPI:**
+How many clinicians began teaching these ideas to someone else in the last 90 days?
+
+---
+
+## The Movement Architecture
+
+```
+THE CAMPAIGN CONVERSATION FLOW
+
+PHASE 1: AWARENESS (Curiosity → Understanding)
+├─ Duration: 0-4 weeks
+├─ Channel: Social (Instagram, LinkedIn)
+├─ Goal: Create tension and validate with research
+├─ KPI: Click-through to articles
+
+PHASE 2: LEARNING (Understanding → Experimentation)
+├─ Duration: 4-12 weeks
+├─ Channel: Email, website, video
+├─ Goal: Enable first implementation
+├─ KPI: Clinicians trying framework
+
+PHASE 3: INTEGRATION (Experimentation → Confidence)
+├─ Duration: 8-20 weeks
+├─ Channel: CE Course, assessment tools
+├─ Goal: Build measurement and ownership
+├─ KPI: Repeated use in practice
+
+PHASE 4: ADVOCACY (Confidence → Advocacy)
+├─ Duration: 12-26 weeks
+├─ Channel: Paper 1 publication, speaking
+├─ Goal: Create professional credibility
+├─ KPI: Clinicians citing the work
+
+PHASE 5: TEACHING (Advocacy → Teaching)
+├─ Duration: 20+ weeks
+├─ Channel: Training programs, curriculum
+├─ Goal: Enable others to teach
+├─ KPI: Clinicians teaching colleagues
+
+PHASE 6: MOVEMENT (Teaching → Leadership)
+├─ Duration: 26+ weeks
+├─ Channel: Conferences, institutions, networks
+├─ Goal: Profession-wide adoption
+├─ KPI: Integration into standard practice
+```
+
+---
+
+## Purpose of This Layer
+
+Campaign 001 is not a marketing campaign.
+
+It is a movement architecture.
+
+Every asset should serve the progression from curiosity to advocacy to teaching to leadership.
+
+The campaign succeeds when clinicians stop consuming content and start creating change.
+
+The profession changes when clinicians teach other clinicians.
+
+---
+
 **Purpose of This Map:**
-Stop publishing assets. Start publishing conversations.
+Stop publishing assets. Start building movements.
 
-Every asset should move the reader closer to understanding, commitment, and practice change.
+Every asset should move the reader up the Advocacy Ladder.
 
-If an asset doesn't serve that conversation, don't create it.
+If an asset doesn't create advocates, don't create it.
