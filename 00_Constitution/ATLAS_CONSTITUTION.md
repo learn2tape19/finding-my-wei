@@ -165,6 +165,24 @@ Examples:
 
 ---
 
+### 8.5. Publication Strategy
+**Before creation, plan the sequence.**
+
+Define how the investigation will be communicated:
+- Single paper or multiple papers?
+- Sequence and why?
+- What audience does each reach?
+- What does each paper assume the reader already knows?
+- How do early papers prepare for later ones?
+
+Publication strategy prevents:
+- Publishing too early (before foundation is established)
+- Overclaiming (before evidence is sufficient)
+- Missing audiences (right content, wrong timing)
+- Losing impact (weak sequencing, not building progressively)
+
+---
+
 ### 9. Creation
 **Only after understanding, create.**
 
@@ -179,6 +197,8 @@ Creation might be:
 **Creation is the final expression of understanding.**
 
 Not the goal. The capstone.
+
+**Note**: Publication strategy guides what and how to create.
 
 ---
 
