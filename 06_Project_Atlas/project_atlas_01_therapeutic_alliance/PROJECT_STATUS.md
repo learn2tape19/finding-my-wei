@@ -1,9 +1,9 @@
 # Project Atlas 01: Current Status
 ## Therapeutic Alliance in Manual Therapy — Framework Development Complete
 
-**Date**: 2026-06-25  
-**Phase**: Sprint 003 Complete — Strategic decisions locked  
-**Next Phase**: Sprint 004 — Paper 1 drafting begins
+**Date**: 2026-06-28  
+**Phase**: Sprint 004 In Progress — Paper 1 draft v1 complete  
+**Next Phase**: Internal review of Paper 1, then Sprint 004 close-out
 
 ---
 
@@ -60,14 +60,14 @@ Rigorously challenged emerging framework. Identified:
 
 ## Publication Sequence (5 Papers)
 
-### Paper 1: Foundation 📋
+### Paper 1: Foundation ✅ (Draft v1)
 **Title**: *The Therapeutic Alliance in Manual Therapy: A Conceptual Review and Research Agenda*  
-**Status**: Detailed outline complete; ready to draft  
-**Timeline**: 2-3 months to draft  
+**Status**: Draft v1 complete — ready for internal review  
 **Purpose**: Establish that alliance research is sparse in manual therapy  
 **Audience**: Researchers  
 **Key sections**: Literature review, specific research gaps, proposed agenda  
-**File**: PAPER_1_OUTLINE.md (complete, detailed, ready to write)
+**File**: `papers/paper_1_therapeutic_alliance_manual_therapy.md` (draft); `PAPER_1_OUTLINE.md` (source outline)  
+**Open before submission**: Drew's clinical-accuracy review, reference verification against primary sources, target-journal formatting
 
 ### Paper 2: Concept Development 📋
 **Title**: *Permission as a Clinical Construct: Toward an Operational Definition*  
