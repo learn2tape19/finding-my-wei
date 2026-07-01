@@ -1,266 +1,522 @@
-# Finding My Wei Constitution
+# Finding My Wei — Repository Constitution
 
-## Preamble
-
-We, the creators and custodians of this Intellectual Operating System, establish this Constitution as the immutable foundation for all work, decisions, and evolution of Finding My Wei.
-
-This document is not intended to be revised. It is the constitutional law against which all other standards, processes, and decisions are measured.
-
----
-
-## Article I: Purpose
-
-Finding My Wei exists to **transform experience into wisdom** through systematic capture, organization, refinement, and publication of ideas throughout an entire lifetime of creative work.
-
-The system preserves not only what was created, but:
-- Why it was created
-- How it evolved
-- What changed
-- What was learned
-
-Every interaction with this system contributes to a permanent intellectual estate.
+## Version 2.0
+## Status: Ratified
+## Date: June 30, 2026
+## Governing Authority: Drew Freedman
 
 ---
 
-## Article II: Guiding Principles
+# Purpose
 
-### Permanence
-Every meaningful idea is a permanent asset. Temporary ideas are not stored here. When in doubt, we ask: "Will this have value in five years?"
+Finding My Wei is not a repository.
 
-### Simplicity
-The system reduces complexity rather than creates it. There is always one logical location for every asset. We refuse to build the largest system. We build the most enduring one.
+It is an **Intellectual Estate.**
 
-### Reflection
-Knowledge is not static. Every project must improve future work. We review, extract learning, and encode it into the system.
+Its purpose is to preserve not merely what Drew Freedman created, but how he thinks, how he decides, how he learns, and how those ideas evolve into enduring contributions.
 
-### Creation
-Every insight is capable of evolving into research, lectures, papers, books, presentations, social media, products, and future ideas. We think in terms of emergence, not endpoints.
+GitHub is the permanent home of that estate.
 
-### Scalability
-The architecture supports decades of work without structural redesign. We choose technologies and patterns that compound rather than degrade.
+Every document, project, investigation, publication, and decision should ultimately strengthen this estate.
 
 ---
 
-## Article III: GitHub as Source of Truth
+# Prime Directive
 
-GitHub is the permanent, authoritative repository for all intellectual assets.
+> **No meaningful knowledge should remain trapped inside conversations.**
 
-### GitHub Rights
-- **Version control**: Complete history of every idea and its evolution
-- **Collaboration**: Multiple minds can contribute and review
-- **Discoverability**: Cross-linking and search enable serendipitous connections
-- **Accessibility**: Open to future technologies and integrations
-- **Longevity**: Outlives proprietary platforms and temporary tools
+Conversations are temporary.
 
-### What Lives in GitHub
-- All original thinking and frameworks
-- Research notes and synthesis
-- Book manuscripts and papers
-- Lecture outlines and teaching materials
-- Presentation decks
-- Project documentation
-- Decision records and rationale
-- Templates and reusable structures
-- Media references and asset catalogs
+Knowledge is permanent.
 
-### What Doesn't Live Here
-- Temporary logistics or casual chatter
-- Unprocessed noise or throwaway drafts
-- Duplicate fragments or partial ideas
-- Proprietary client work (unless explicitly approved)
+Every conversation that produces enduring insight should ultimately become structured repository knowledge.
 
 ---
 
-## Article IV: AI Partnerships
+# Core Philosophy
 
-Claude and ChatGPT operate as complementary collaborators, not replacements for human judgment.
+Finding My Wei is **entity-driven**, not project-driven.
 
-### Claude's Responsibilities
-- **Repository Architecture**: Folder structure, naming standards, organization
-- **Documentation**: Markdown engineering, cross-linking, knowledge graphs
-- **Long-form Writing**: Synthesis, white papers, detailed documentation
-- **Technical Implementation**: Templates, automation, infrastructure
-- **Version Management**: Git workflows, commit discipline
+Projects come and go.
 
-### ChatGPT's Responsibilities
-- **Strategic Thinking**: Big-picture vision, decision frameworks
-- **Creative Exploration**: Ideation, brainstorming, novelty
-- **Coaching & Reflection**: Processing ideas, asking deeper questions
-- **Business Development**: Market research, positioning, strategy
-- **Teaching Refinement**: Pedagogy, course design, learning architecture
+Organizations evolve.
 
-### Handoff Pattern
-ChatGPT generates or refines an idea → Claude converts it into durable repository structure, documentation, templates, and implementation-ready assets → GitHub preserves the result.
+Ideas mature.
 
-### Neither AI Replaces the Other
-They function as complementary systems. Neither is subordinate to the other. When in doubt, engage both perspectives.
+Knowledge compounds.
+
+The repository is designed around entities because entities create projects, projects create assets, and assets become legacy.
 
 ---
 
-## Article V: Creative Production Pipeline
-
-Every idea follows the same lifecycle, regardless of its destination.
+# The Knowledge Hierarchy
 
 ```
-Capture
-   ↓
-Research
-   ↓
-Insight
-   ↓
-Markdown (in GitHub)
-   ↓
-Visual Design (Adobe Express + Firefly)
-   ↓
-Publishing (Buffer)
-   ↓
-Analytics
-   ↓
-Reflection
-   ↓
-Knowledge Preservation
-   ↓
-Future Creation
+People
+
+↓
+
+Organizations
+
+↓
+
+Projects
+
+↓
+
+Assets
+
+↓
+
+Knowledge
+
+↓
+
+Legacy
 ```
 
-Every published asset strengthens the repository. Every piece of feedback feeds into reflection and refinement.
+Everything in the repository should fit somewhere within this hierarchy.
 
 ---
 
-## Article VI: Standards and Naming
+# Repository Pillars
 
-### Permanence in Naming
-File and folder names must be **self-documenting** and **permanent**. We do not rename assets after publication.
+The repository is permanently organized around four foundational pillars.
 
-### Naming Convention
-- **Folders**: PascalCase with underscores for multiples: `00_Constitution`, `06_Project_Atlas`
-- **Files**: kebab-case: `constitution.md`, `core-principles.md`, `master-index.md`
-- **Dates**: ISO 8601 format when necessary: `2026-06-25-project-update.md`
+```
+00_CONSTITUTION
 
-### Internal Linking
-- Link related ideas with `[[name]]` syntax
-- These links are permanent cross-references, not temporary notes
-- Build a knowledge graph, not a note collection
+01_OPERATING_SYSTEM
 
-### Commit Messages
-Format: `[Category] Subject — brief explanation`
+02_PROJECT_ATLAS
+
+03_INTELLECTUAL_ESTATE
+```
+
+These are permanent.
+
+Everything else grows from them.
+
+---
+
+# Organizations
+
+Organizations are the primary organizational layer of Finding My Wei.
+
+Current organizations include:
+
+```
+04_DREW_FREEDMAN
+
+05_THE_BOSTON_BODYWORKER
+
+06_LEARN2TAPE
+
+07_STITCHCORE
+```
+
+Organizations are expected to outlive projects.
+
+Projects belong to organizations.
+
+Organizations never belong to projects.
+
+---
+
+# 04_DREW_FREEDMAN
+
+This entity represents the founder.
+
+It contains:
+
+- Biography
+- Philosophy
+- Personal writings
+- Journals
+- Speaking
+- Interviews
+- Relationships
+- Vision
+- Decision history
+- Origin stories
+- Personal legacy
+
+Everything ultimately begins here.
+
+---
+
+# 05_THE_BOSTON_BODYWORKER
+
+The Boston Bodyworker is **not** an archived massage practice.
+
+It is Drew Freedman's professional publishing platform.
+
+It represents more than thirty years of professional authority, domain history, SEO equity, educational writing, and clinical evolution.
+
+It contains:
+
+- Website
+- Blog archive
+- Clinical articles
+- Educational essays
+- Newsletters
+- Media
+- Historical content
+- SEO assets
+- Publications
+- Clinical philosophy
+
+The Boston Bodyworker is considered an appreciating intellectual asset.
+
+It is not an archive.
+
+---
+
+# 06_LEARN2TAPE
+
+Learn2Tape is the education organization.
+
+It contains:
+
+- Courses
+- K-Cuts
+- Continuing Education
+- Certifications
+- Students
+- Products
+- Marketing
+- LMS
+- Customer systems
+
+---
+
+# 07_STITCHCORE
+
+StitchCore is the innovation organization.
+
+It contains:
+
+- Sidekick Air
+- AeroStitch Core Technology
+- Engineering
+- Patents
+- Manufacturing
+- OEM relationships
+- Investors
+- Product development
+
+---
+
+# Projects
+
+Projects always belong to an organization.
 
 Examples:
-- `[Tao] Complete CE learning objectives — NCBTMB compliant language`
-- `[Learn2Tape] Add testimonials to landing page — social proof section`
-- `[Finding My Wei] Create prompt library scaffold — templates for future prompts`
+
+```
+04_DREW_FREEDMAN
+    Books
+        The Tao of Clinical Touch
+
+06_LEARN2TAPE
+    Products
+        K-Cuts
+
+07_STITCHCORE
+    Products
+        Sidekick Air
+```
+
+Projects may end.
+
+Organizations continue.
 
 ---
 
-## Article VII: Meaningful Content Threshold
+# 02_PROJECT_ATLAS
 
-Not everything belongs in Finding My Wei.
+Project Atlas is the research engine of Finding My Wei.
 
-### Include
-- Principles and frameworks
-- Important decisions and their rationale
-- Project milestones and learnings
-- Research and findings
-- Language worth reusing
-- Teachings and lectures
-- Reflections on failures and successes
-- Strategic insights
-- Assets that could become published work
+Project Atlas does not belong to any single organization.
 
-### Exclude
-- Casual chatter or temporary logistics
-- Throwaway drafts or unprocessed notes
-- Duplicate fragments or fragments
-- Unprocessed noise
-- Proprietary information (unless cleared)
+Every investigation begins with uncertainty.
 
-**When uncertain**: Place in a capture folder for later review during the reflection cycle.
+Every investigation ends with reusable knowledge.
 
----
+Typical outputs include:
 
-## Article VIII: Evolution and Refinement
+- Books
+- Research papers
+- White papers
+- Clinical frameworks
+- Publications
+- Presentations
+- Courses
+- Patents
+- Design decisions
 
-### This Constitution
-This document does not change. It is constitutional law. New standards and processes are created in `02_Core_Principles` and refinement guidelines, not by amending this Constitution.
-
-### Directory Purposes
-Each directory has a README describing its purpose, standards, and templates. These evolve as needed, but always remain compatible with this Constitution.
-
-### Repository Structure
-The 22-directory structure is foundational and does not change. Future additions are subfolders or new files within existing directories, never new top-level directories.
-
-### Processes
-Processes (like publishing workflows, reflection cycles, prompt generation) evolve and are documented in `05_Reflection_Engine` and `19_Prompt_Library`.
+One Atlas investigation may produce outputs for multiple organizations.
 
 ---
 
-## Article IX: Accessibility to Future Collaborators
+# 03_INTELLECTUAL_ESTATE
 
-This system is designed to be understood and contributed to by:
-- Human collaborators and team members
-- Future versions of AI collaborators
-- People discovering this work years from now
+The Intellectual Estate preserves enduring work.
 
-### Self-Documenting
-Every folder has a README explaining its purpose. Every major decision is documented. The knowledge graph is navigable without external guidance.
+It contains:
 
-### Modular
-Folders can be understood independently. A researcher can dive into `07_Research` without needing to understand `12_Social_Content`.
+- Books
+- Papers
+- Frameworks
+- Models
+- Historical timelines
+- Decision logs
+- Methodologies
+- Publications
+- Research
+- Reference material
 
-### Transparent
-Reasoning is documented alongside conclusions. Failures are recorded alongside successes. The system is honest about what's working and what isn't.
-
----
-
-## Article X: Long-term Vision
-
-Finding My Wei is designed to support:
-- A lifetime of creative and intellectual work
-- Multiple projects and businesses
-- Collaboration with others
-- Integration with future technologies
-- Publication in multiple formats and platforms
-- Reflection and continuous improvement
-
-The system does not assume any particular:
-- Business model or career path
-- Technology stack or platform
-- Team size or structure
-- Geographic location or availability
-
-It is fundamentally flexible while remaining fundamentally principled.
+Nothing of long-term value should exist outside the Intellectual Estate.
 
 ---
 
-## Article XI: Governance
+# 01_OPERATING_SYSTEM
 
-### Curator: Drew Freedman
-As the creator and primary voice, Drew Freedman is the curator and final arbiter of what belongs in Finding My Wei and what the system's direction should be.
+The Operating System governs how the estate functions.
 
-### Contributors
-Others may contribute to specific projects or areas with explicit permission. The curator maintains the overall coherence and principle alignment.
+It contains:
 
-### Evolution of Role
-As the system grows and involves others, governance processes may evolve. But the Constitution remains unchanged.
-
----
-
-## Article XII: Call to Permanence
-
-This system calls us to:
-- **Think deeply** about what deserves permanence
-- **Write clearly** so future readers understand our thinking
-- **Link generously** to reveal connections
-- **Reflect regularly** so each project improves the next
-- **Publish boldly** because our ideas have value
-- **Preserve ruthlessly** because someday these ideas will matter to someone else
+- Principles
+- Collaboration protocols
+- Memory systems
+- Automation
+- AI assistant guidelines
+- Decision frameworks
+- Tools
+- Processes
 
 ---
 
-## Ratification
+# Marketing
 
-**Established**: June 2026  
-**Custodian**: Drew Freedman  
-**Status**: Constitutional Foundation — Guides all future work
+Marketing is a horizontal operating layer.
 
-*This document is permanent. It does not sunset, revise, or evolve. It is the law against which all other standards are measured.*
+Marketing does not belong to a single organization.
+
+Marketing serves every organization.
+
+Examples include:
+
+- SEO
+- Analytics
+- Social Media
+- Email
+- Funnels
+- Campaigns
+- Publications
+- Brand Strategy
+
+Each organization may contain local marketing assets while also benefiting from global marketing systems.
+
+---
+
+# Knowledge Flow
+
+Every idea should follow the same lifecycle.
+
+```
+Experience
+
+↓
+
+Conversation
+
+↓
+
+Capture
+
+↓
+
+Reflection
+
+↓
+
+Organization
+
+↓
+
+Research
+
+↓
+
+Publication
+
+↓
+
+Repository
+
+↓
+
+Legacy
+```
+
+Nothing should bypass this process.
+
+---
+
+# Conversation Capture Protocol
+
+Every significant conversation should eventually become one or more repository assets.
+
+Possible outputs include:
+
+- Decision Logs
+- Principles
+- Frameworks
+- Research Questions
+- Publications
+- Marketing Assets
+- Project Updates
+- Historical Records
+
+Conversation is raw material.
+
+The repository stores refined knowledge.
+
+---
+
+# Repository Roles
+
+## GitHub
+
+GitHub is the permanent source of truth.
+
+Every enduring asset ultimately belongs in GitHub.
+
+---
+
+## Claude (Chief Librarian)
+
+Responsibilities include:
+
+- Repository architecture
+- Documentation
+- Folder organization
+- Structural consistency
+- Version control
+- Knowledge preservation
+- Repository maintenance
+
+Claude maintains the estate.
+
+---
+
+## ChatGPT (Chief Strategy and Research Partner)
+
+Responsibilities include:
+
+- Strategic thinking
+- Research
+- Project Atlas investigations
+- Publication development
+- Coaching
+- Systems design
+- Knowledge synthesis
+- Cross-project pattern recognition
+- Decision support
+
+ChatGPT expands the estate.
+
+---
+
+## Drew Freedman (Founder, Curator, Decision-maker)
+
+Finding My Wei exists to preserve Drew's thinking, not replace it.
+
+---
+
+# Public vs Private
+
+Finding My Wei operates with two knowledge layers.
+
+## Public Knowledge
+
+Examples include:
+
+- Books
+- Papers
+- Documentation
+- Articles
+- Research
+- Publications
+
+These are intended for eventual publication or sharing.
+
+---
+
+## Private Operations
+
+Examples include:
+
+- AI prompts
+- Claude Skills
+- Automation
+- Scratch work
+- Internal workflows
+- Credentials
+- API Keys
+- Temporary drafts
+
+Private operational assets should remain outside public repositories or inside protected repositories as appropriate.
+
+---
+
+# Structural Decision Rule
+
+Before changing repository architecture, ask:
+
+> **Will this structure still make sense twenty years from now?**
+
+If the answer is no...
+
+Redesign before implementing.
+
+---
+
+# Repository Success
+
+Finding My Wei succeeds when:
+
+- Knowledge is never lost.
+- Projects remain discoverable.
+- Conversations become assets.
+- Research becomes publications.
+- Publications become legacy.
+- Every AI collaborator understands where knowledge belongs.
+- Future collaborators can understand decades of work without Drew needing to explain it again.
+
+---
+
+# Migration Directive
+
+Effective immediately, all repository organization shall follow this Constitution.
+
+Claude is authorized to:
+
+- Reorganize folders.
+- Consolidate documentation.
+- Remove structural duplication.
+- Improve discoverability.
+- Standardize naming conventions.
+
+Claude shall **not** alter the intent of any intellectual work without explicit approval.
+
+Architectural decisions must always defer to this Constitution.
+
+---
+
+# Founding Principle
+
+> **Finding My Wei does not exist to remember what happened.**
+
+> **It exists to preserve how wisdom was created.**

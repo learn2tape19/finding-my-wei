@@ -1,0 +1,243 @@
+--- /Users/Drewdog19/Desktop/coding-folder/aerostitch_core_technology_definition.md	2026-03-11 13:23:25
++++ /Users/Drewdog19/Desktop/coding-folder/SidekickAir/platform/aerostitch_core_technology_definition.md	2026-03-11 13:48:22
+@@ -1,159 +1,144 @@
+ # AeroStitch Core Technology Definition
+-Author: Drew Freedman  
++
++Author: Drew Freedman
+ Date: March 2026
+ 
+-## Purpose
++---
+ 
+-This document defines AeroStitch Core Technology, the structural engineering system developed by StitchCore for rigid inflatable human support platforms.
++## What is AeroStitch Core Technology
+ 
+-AeroStitch Core Technology represents an evolution of traditional drop-stitch inflatable construction adapted specifically for structural support applications involving the human body.
++AeroStitch Core Technology is the structural engineering system at the heart of all StitchCore products.
+ 
+-The technology enables lightweight inflatable structures to achieve high rigidity and load-bearing performance when pressurized.
++It describes the specific combination of materials, construction methods, and pressure management techniques that allow inflatable panels to achieve the rigidity and load-bearing performance required for professional human-support applications.
+ 
+ ---
+ 
+-# Technology Overview
++## Core Principle
+ 
+-AeroStitch Core Technology is a structural system built around high-pressure drop-stitch textile construction.
++High-pressure drop-stitch inflatable construction creates structural panels that behave like rigid surfaces when pressurized.
+ 
+-The system consists of two outer textile layers connected internally by thousands of vertical structural threads.
++Inside a drop-stitch panel, thousands of fine internal threads connect the top surface to the bottom surface. When the panel is inflated, internal air pressure creates tension across all threads simultaneously. This tension prevents the panel from expanding outward, maintaining a flat, rigid surface geometry.
+ 
+-When the structure is pressurized, these internal threads maintain a fixed distance between the outer layers, creating a rigid load-bearing panel.
++The result is a flexible textile structure that becomes functionally rigid under pressure.
+ 
+-This construction allows inflatable structures to function similarly to rigid boards while remaining lightweight and collapsible.
+-
+ ---
+ 
+-# Core Structural Components
++## Materials
+ 
+-AeroStitch Core Technology is defined by the integration of several structural elements.
++### Preferred Material System
+ 
+-These include:
++TPU-coated woven drop-stitch fabric.
+ 
+-high-strength woven drop-stitch internal thread matrix  
+-TPU-coated textile outer layers  
+-RF or heat welded seam construction  
+-high-pressure inflation architecture  
+-reinforced accessory interface integration  
++TPU (thermoplastic polyurethane) coating applied to a woven polyester or nylon drop-stitch base.
+ 
+-These components work together to create a rigid inflatable structural panel.
++Advantages:
++- lower weight than PVC alternatives
++- greater resistance to UV degradation
++- better cold-temperature flexibility
++- premium product positioning
++- compatible with medical and clinical disinfectants
+ 
+----
++### Alternative Material System
+ 
+-# Pressure Stabilization
++PVC-coated drop-stitch fabric.
+ 
+-AeroStitch Core structures achieve rigidity through controlled internal pressurization.
++Advantages:
++- lower material cost
++- well-established manufacturing supply chain
++- widely available from existing inflatable product manufacturers
+ 
+-Typical operating pressure range:
++### Selection Criteria
+ 
+-10–15 PSI
++Final material selection will be driven by:
++- target product weight
++- manufacturing partner capability
++- unit cost targets
++- brand positioning
+ 
+-At this pressure range, the internal thread matrix prevents the outer textile layers from separating, creating a structurally stable surface capable of supporting significant loads.
+-
+-This system enables inflatable platforms to function as structural support surfaces.
+-
+ ---
+ 
+-# Load Bearing Performance
++## Pressure System
+ 
+-AeroStitch Core Technology is designed to support dynamic human loading conditions.
++### Operating Range
+ 
+-These conditions include:
++10 to 15 PSI.
+ 
+-body weight distribution  
+-downward therapeutic force  
+-shifting practitioner leverage  
+-dynamic treatment movements  
++This pressure range creates the structural rigidity required for professional therapy work while remaining within safe operational bounds for a consumer-held inflatable product.
+ 
+-The structural system must maintain rigidity and stability during these conditions.
++### Valve Architecture
+ 
+----
++Primary inflation valve
++Pressure relief valve
+ 
+-# Structural Thickness
++The pressure relief valve prevents over-inflation and protects seam integrity under dynamic loading conditions.
+ 
+-Typical AeroStitch Core structural thickness ranges between:
++Preferred valve styles include Halkey-Roberts and high-volume paddleboard inflation valves.
+ 
+-4 inches to 6 inches
+-
+-This thickness allows sufficient internal thread length to provide structural rigidity while maintaining portability.
+-
+-The Sidekick Air platform uses a 4 inch structural thickness.
+-
+ ---
+ 
+-# Material System
++## Structural Performance
+ 
+-Preferred materials include:
++### Load Capacity
+ 
+-TPU-coated woven drop-stitch textile
++Target load capacity: up to 650 lbs.
+ 
+-Alternative material systems may include:
++This target accommodates professional bodywork forces including therapist weight distribution, dynamic treatment movements, and accessory loading.
+ 
+-PVC-coated drop-stitch textile
++### Seam Construction
+ 
+-TPU materials provide several advantages including:
++RF welded seams (radiofrequency welding) or heat welded seams.
+ 
+-reduced weight  
+-improved durability  
+-enhanced resistance to environmental degradation  
++Seam construction is the primary determinant of long-term product durability. Seams must withstand:
++- repeated inflation and deflation cycles
++- sustained high-pressure loading
++- dynamic stress from treatment activity
++- transport vibration and compression
+ 
+-Material selection may vary depending on manufacturing partners and application requirements.
+-
+ ---
+ 
+-# Modular Interface Integration
++## Modular Interface System
+ 
+-AeroStitch Core structures incorporate reinforced interface zones for accessory attachment.
++AeroStitch Core Technology includes a standardized modular attachment interface.
+ 
+-These interfaces may include:
++The preferred attachment system uses 3M Dual Lock mushroom fasteners bonded or welded to the inflatable surface.
+ 
+-mushroom-style fastener systems such as Dual Lock  
+-bonded attachment patches  
+-reinforced D-ring anchor points  
++This interface allows modular accessories to be attached and removed without permanent modification to the inflatable structure.
+ 
+-These features allow inflatable platforms to support modular accessory systems.
++Accessory types include:
++- face cradle modules
++- width expander panels
++- length extension panels
++- resistance band anchor points
+ 
+----
++Reinforced D-ring anchor points are also integrated into the platform for additional attachment options.
+ 
+-# Manufacturing Methods
+-
+-Typical manufacturing methods include:
+-
+-RF welding  
+-heat welding  
+-adhesive bonding of accessory patches  
+-
+-Manufacturing partners must have experience producing high-pressure inflatable structures.
+-
+ ---
+ 
+-# Applications
++## Application Architecture
+ 
+-AeroStitch Core Technology enables a range of inflatable structural products.
++AeroStitch Core Technology is designed to be applied across a family of human-support products.
+ 
+-These may include:
++Current application: Sidekick Air (therapy platform)
+ 
+-portable therapy platforms  
+-sports recovery platforms  
+-emergency rescue stretchers  
+-medical transport platforms  
+-field treatment surfaces  
+-consumer recovery systems  
++Future potential applications:
++- Emergency stretchers
++- Medical transport surfaces
++- Sports recovery platforms
++- Portable rehabilitation systems
++- Rescue deployment platforms
+ 
+-The Sidekick Air therapy platform represents the first commercial application of this technology.
++The shared engineering foundation reduces development time and cost for each new product in the StitchCore family.
+ 
+ ---
+ 
+-# Relationship to StitchCore
++## Technology Differentiation
+ 
+-AeroStitch Core Technology is the proprietary structural technology developed by StitchCore.
++What makes AeroStitch Core Technology distinct from other inflatable structures:
+ 
+-All StitchCore products are designed to be built upon the AeroStitch Core structural platform.
++1. Pressure optimization for professional human-support loads
++2. Modular attachment architecture designed from the ground up
++3. Clinical-grade material compatibility for therapy environments
++4. Rapid deployment targets below 3 minutes
++5. Portability engineering that achieves sub-26 lb total system weight
+ 
+----
+-
+-# Summary
+-
+-AeroStitch Core Technology transforms inflatable textile structures into rigid, load-bearing platforms capable of supporting human activity.
+-
+-By combining high-pressure drop-stitch construction with reinforced interface systems and modular architecture, AeroStitch Core provides the structural foundation for the StitchCore product ecosystem.
+\ No newline at end of file
++This combination of properties has not previously been applied to professional therapy or human-support platforms.

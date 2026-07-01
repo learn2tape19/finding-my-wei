@@ -1,0 +1,209 @@
+--- /Users/Drewdog19/Desktop/coding-folder/sidekick_air_technical_specs.md	2026-03-11 11:10:53
++++ /Users/Drewdog19/Desktop/coding-folder/SidekickAir/product/sidekick_air_technical_specs.md	2026-03-11 13:48:28
+@@ -3,91 +3,169 @@
+ Author: Drew Freedman
+ Date: March 2026
+ 
++---
++
+ ## Tabletop Dimensions
+ 
+ Length: 72 inches
+ Width: 30 inches
+ Thickness: 4 inches
+ 
++---
++
+ ## Construction
+ 
+-Drop-stitch inflatable structure using coated textile layers connected by internal threads.
++Drop-stitch inflatable structure using coated textile layers connected by thousands of internal polyester threads.
+ 
+-## Material System
++When pressurized, internal threads maintain flat surface geometry and resist panel expansion, creating structural rigidity equivalent to a rigid panel.
+ 
+-Preferred: TPU-coated woven drop-stitch
++---
+ 
+-Alternative: PVC-coated drop-stitch
++## Material System
+ 
+-Advantages of TPU:
++Preferred: TPU-coated woven drop-stitch fabric
+ 
++Alternative: PVC-coated drop-stitch fabric
++
++TPU advantages:
+ - lower weight
+-- greater durability
+-- premium positioning
++- greater UV and chemical durability
++- better cold-weather flexibility
++- premium product positioning
++- compatible with medical disinfectants
+ 
++---
++
+ ## Operating Pressure
+ 
+-10–15 PSI
++10 to 15 PSI
+ 
++---
++
+ ## Load Capacity
+ 
+-Target capacity: up to 650 lbs
++Target: up to 650 lbs
+ 
++Accounts for client weight plus therapist pressure during treatment.
++
++---
++
+ ## Valve System
+ 
+-Includes:
++Primary inflation valve
++Pressure relief valve
+ 
+-- primary inflation valve
+-- pressure relief valve
++Preferred valve types: Halkey-Roberts style or high-volume paddleboard inflation valves.
+ 
++---
++
+ ## Seam Construction
+ 
+-RF welded or heat welded seams designed to withstand repeated pressurization cycles.
++RF welded seams (radiofrequency welding) or heat welded seams.
+ 
+-## Attachment System
++Seams must withstand:
++- repeated pressurization cycles
++- sustained high-pressure loading
++- dynamic treatment stress
++- transport vibration
+ 
+-3M Dual Lock mushroom fasteners used for modular attachments.
++---
+ 
++## Attachment Interface
++
++3M Dual Lock mushroom fasteners bonded or welded to the inflatable surface.
++
++Enables modular accessory attachment and removal without permanent surface modification.
++
++---
++
++## Reinforcement Points
++
++Reinforced D-ring anchor points integrated into the platform structure.
++
++Uses:
++- accessory anchoring
++- resistance band attachment
++- transport stabilization
++
++---
++
+ ## Accessory Interfaces
+ 
+-- face cradle module
+-- width expanders
+-- length extenders
+-- resistance band anchors
++- Face cradle module
++- Width expander panels
++- Length extension panels
++- Resistance band anchors
+ 
++---
++
+ ## Stand System
+ 
+-Collapsible multi-leg support frame inspired by centipede-style work stands.
++Collapsible multi-leg support frame.
+ 
+-Design goals:
++Design inspiration: centipede-style folding work stands.
+ 
+-- high stability
+-- lightweight structure
+-- fast setup
+-- compact folded form
++Stand requirements:
++- high stability under dynamic loading
++- lightweight construction
++- rapid setup (target: under 2 minutes)
++- compact folded form factor
+ 
+-## Portability Targets
++Materials under consideration: aluminum, composite, or steel-reinforced pivot joints.
+ 
+-Total weight goal: under 26 lbs
++---
+ 
+-Packed dimensions estimate:
++## Portability Targets
+ 
+-30 x 6 x 6 inches
++Total system weight goal: under 26 lbs
++Packed dimensions estimate: 30 × 6 × 6 inches
++Designed to be airline transportable
+ 
++---
++
+ ## Carry System
+ 
+-Rolling travel case with pump and accessory storage.
++Rolling travel case.
+ 
++Must accommodate:
++- inflatable platform
++- pump
++- stand components
++- accessories
++
++Organized accessory compartments required.
++
++---
++
+ ## Inflation System
+ 
+-Manual or electric pump
++Manual or electric pump.
+ 
+-Target inflation time: under 3 minutes
++Target inflation time: under 3 minutes.
+ 
+-## Durability
++Future versions may incorporate integrated inflation systems.
+ 
+-Must withstand repeated inflation cycles, therapist loading, and environmental exposure.
++---
+ 
+-## Cleaning
++## Cleaning and Hygiene
+ 
+-Surface compatible with disinfectant wipes and medical cleaning solutions.
+\ No newline at end of file
++Surface compatible with:
++- disinfectant wipes
++- medical cleaning solutions
++- standard clinic sanitization protocols
++
++---
++
++## Durability Targets
++
++Must withstand:
++- repeated inflation and deflation cycles
++- therapist weight distribution and movement
++- dynamic treatment forces
++- transport and travel environments
++
++Required testing:
++- cycle testing
++- pressure retention testing
++- seam durability testing
++- static and dynamic load testing
