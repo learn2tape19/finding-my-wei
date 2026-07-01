@@ -1,0 +1,376 @@
+--- /Users/Drewdog19/Desktop/coding-folder/sidekick_air_roadmap.md	2026-03-11 11:17:24
++++ /Users/Drewdog19/Desktop/coding-folder/SidekickAir/strategy/sidekick_air_roadmap.md	2026-03-11 13:48:50
+@@ -1,33 +1,26 @@
+ # Sidekick Air Development Roadmap
++
+ Author: Drew Freedman
+ Date: March 2026
+ 
+-Purpose:
+-This document outlines the strategic execution roadmap for the Sidekick Air platform from prototype development to commercial launch and long-term expansion.
++---
+ 
+-The roadmap is divided into phases:
++## Purpose
+ 
+-1. Engineering Lock
+-2. Prototype Validation
+-3. Manufacturing Preparation
+-4. Market Launch
+-5. Platform Expansion
++This document outlines the strategic execution roadmap for the Sidekick Air platform from prototype development through commercial launch and long-term platform expansion.
+ 
+ ---
+ 
+-# Phase 1 — Engineering Lock
+-Timeline: Immediate – 90 Days
++## Phase 1 — Engineering Lock
+ 
+-Goal:
+-Finalize the core engineering architecture so manufacturing and testing can proceed without ambiguity.
++Timeline: Immediate to 90 Days
+ 
+-Key Tasks
++Goal: Finalize the core engineering architecture so manufacturing and testing can proceed without ambiguity.
+ 
+-Create the **Master Engineering Specification**
++Key Tasks:
+ 
+-This document should define:
+-
+-- exact material system
++Create the Master Engineering Specification defining:
++- exact material system (TPU vs PVC)
+ - valve specification
+ - seam welding method
+ - operating PSI range
+@@ -35,260 +28,141 @@
+ - stand geometry
+ - structural load targets
+ 
+-Resolve the **Stand Architecture**
++Resolve Stand Architecture:
++The support stand must achieve high stability, lightweight construction, rapid deployment, and compact folding. This is the most important unresolved engineering decision.
+ 
+-The support stand must achieve:
+-
+-- high stability
+-- lightweight construction
+-- rapid deployment
+-- compact folding
+-
+-The stand decision is currently one of the most important engineering milestones.
+-
+-Lock **Version 1 Product Scope**
+-
++Lock Version 1 Product Scope:
+ Version 1 should include only essential components:
+-
+ - inflatable tabletop
+ - collapsible stand
+ - face cradle attachment
+ - travel bag
+ 
+-Additional accessories should be introduced later.
++Additional accessories introduced later.
+ 
+-Deliverables
+-
++Deliverables:
+ - Master engineering specification
+ - Stand architecture decision
+ - Version 1 product definition
+ 
+ ---
+ 
+-# Phase 2 — Prototype Validation
+-Timeline: 3–6 Months
++## Phase 2 — Prototype Validation
+ 
+-Goal:
+-Demonstrate that the product performs reliably under real professional conditions.
++Timeline: 3 to 6 Months
+ 
+-Key Testing
++Goal: Demonstrate that the product performs reliably under real professional conditions.
+ 
+-Structural testing
++Key Testing:
+ 
++Structural:
+ - static load testing
+ - dynamic load testing
+ - edge load testing
+ 
+-Pressure testing
+-
++Pressure:
+ - pressure retention
+ - seam integrity
+ - inflation cycle durability
+ 
+-Field testing
+-
+-- therapist usability
++Field:
++- therapist usability evaluation
+ - setup time measurement
+-- stability evaluation
+-- outdoor use scenarios
++- stability assessment
++- outdoor and event use scenarios
+ 
+-Deliverables
++Deliverables:
+ 
+ Prototype Validation Report including:
+-
+-- test data
+-- photos and videos
++- test data and performance benchmarks
++- photos and video documentation
+ - therapist feedback
+-- performance benchmarks
++- comparison against traditional therapy table benchmarks
+ 
+-This validation report becomes critical for:
++This validation report is critical for manufacturing partners, investors, and licensing conversations.
+ 
+-- manufacturing partners
+-- investors
+-- licensing opportunities
+-
+ ---
+ 
+-# Phase 3 — Manufacturing Preparation
+-Timeline: 6–12 Months
++## Phase 3 — Manufacturing Preparation
+ 
+-Goal:
+-Establish a reliable manufacturing path for initial production.
++Timeline: 6 to 12 Months
+ 
+-Candidate Partners
++Goal: Establish a reliable manufacturing path for initial production.
+ 
++Candidate Partners:
+ - Wing Inflatables
+ - Third Dimension Textile Solutions
+ - Cooley Group
+ 
+-Key Activities
++Key Activities:
++- Secure drop-stitch material supply
++- Small-batch prototype production runs
++- Cost analysis (BOM, assembly, packaging, shipping)
++- Quality control planning and standards documentation
+ 
+-Material sourcing
++Deliverables:
++- Manufacturing partner agreement
++- Production cost model
++- Pilot production plan
+ 
+-Secure reliable supply for drop-stitch fabric.
+-
+-Prototype manufacturing runs
+-
+-Small batch production for refinement.
+-
+-Cost analysis
+-
+-Determine:
+-
+-- bill of materials
+-- assembly cost
+-- packaging cost
+-- shipping cost
+-
+-Quality control planning
+-
+-Define:
+-
+-- inspection standards
+-- pressure testing requirements
+-- durability standards
+-
+-Deliverables
+-
+-- manufacturing partner agreement
+-- production cost model
+-- pilot production plan
+-
+ ---
+ 
+-# Phase 4 — Market Launch
+-Timeline: 12–18 Months
++## Phase 4 — Market Launch
+ 
+-Goal:
+-Introduce Sidekick Air into a focused professional market.
++Timeline: 12 to 18 Months
+ 
+-Primary Launch Market
++Goal: Introduce Sidekick Air into a focused professional market.
+ 
+-Mobile massage therapists and sports recovery professionals.
++Primary Launch Market: Mobile massage therapists and sports recovery professionals.
+ 
+-This market has:
++This market has strong portability needs, high visibility environments, and rapid word-of-mouth potential.
+ 
+-- strong portability needs
+-- high visibility environments
+-- rapid word-of-mouth potential
++Launch Strategy:
++- Live demonstrations at athletic events, race recovery tents, therapy conferences
++- Influencer adoption by respected therapists and sports recovery practitioners
++- Professional video content highlighting portability, setup speed, and stability
++- Direct online sales and professional distributor partnerships
+ 
+-Launch Strategy
++Deliverables:
++- First production run
++- Professional demonstration content
++- Launch marketing campaign
+ 
+-Demonstration marketing
+-
+-Live demos at:
+-
+-- athletic events
+-- race recovery tents
+-- therapy conferences
+-
+-Influencer adoption
+-
+-Target respected therapists and sports recovery practitioners.
+-
+-Content marketing
+-
+-Produce professional video demonstrations highlighting:
+-
+-- portability
+-- setup speed
+-- structural stability
+-
+-Direct sales channels
+-
+-- online store
+-- professional distributor partnerships
+-
+-Deliverables
+-
+-- first production run
+-- professional demonstration content
+-- launch marketing campaign
+-
+ ---
+ 
+-# Phase 5 — Platform Expansion
+-Timeline: 18–36 Months
++## Phase 5 — Platform Expansion
+ 
+-Goal:
+-Expand the StitchCore platform into multiple product categories.
++Timeline: 18 to 36 Months
+ 
+-Potential Product Extensions
++Goal: Expand the StitchCore platform into multiple product categories.
+ 
+-Emergency stretchers
++Potential Products:
++- Emergency stretchers — portable rescue platforms for field environments
++- Medical gurneys — lightweight inflatable transport systems for clinical settings
++- Sports recovery stations — portable platforms for athletic training facilities
++- Consumer recovery systems — home wellness and rehabilitation products
+ 
+-Portable rescue platforms deployable in field environments.
++Licensing Opportunities:
++The StitchCore platform may be licensed to manufacturers serving healthcare, military, rescue, and sports organization markets.
+ 
+-Medical gurneys
+-
+-Lightweight inflatable support systems for clinical transport.
+-
+-Sports recovery stations
+-
+-Portable therapy platforms used in athletic training environments.
+-
+-Consumer recovery products
+-
+-Portable systems for home wellness and rehabilitation.
+-
+-Licensing Opportunities
+-
+-The StitchCore platform may be licensed to manufacturers serving:
+-
+-- healthcare markets
+-- military applications
+-- rescue services
+-- sports organizations
+-
+ ---
+ 
+-# Strategic Milestone — LA Olympics 2028
++## Strategic Milestone — LA Olympics 2028
+ 
+ The LA Olympics represent a powerful long-term visibility opportunity.
+ 
+-Potential roles for Sidekick Air at the Olympics:
++Potential roles:
++- Sports recovery stations at athlete treatment facilities
++- Portable therapy platforms used by traveling national teams
++- High-visibility presence in elite athletic environments
+ 
+-Sports recovery stations
++This milestone provides a compelling narrative for investors and manufacturing partners from Day 1.
+ 
+-Athlete treatment platforms
+-
+-Portable therapy systems used by traveling teams
+-
+-This milestone provides a compelling narrative for investors and partners.
+-
+ ---
+ 
+-# Key Success Factors
++## Key Success Factors
+ 
+-To achieve success, the project must focus on:
+-
+-Engineering clarity
+-
+-Avoid continuous design changes once the core product is locked.
+-
+-Manufacturing reliability
+-
+-Ensure consistent quality and scalability.
+-
+-Market credibility
+-
+-Demonstrate real professional use and performance.
+-
+-Platform thinking
+-
+-View Sidekick Air as the first product within a larger ecosystem.
+-
+----
+-
+-# Summary
+-
+-Sidekick Air has the potential to become the flagship product within a new category of portable rigid inflatable support platforms.
+-
+-By focusing on:
+-
+-clear engineering decisions  
+-validated performance  
+-strong manufacturing partners  
+-focused market entry
+-
+-the platform can evolve from prototype concept into a scalable commercial product and long-term technology platform.
+\ No newline at end of file
++Engineering clarity — Avoid continuous design changes after core architecture is locked.
++Manufacturing reliability — Consistent quality and scalable production.
++Market credibility — Real professional use demonstrated early.
++Platform thinking — Every decision made with the full product family in mind.

@@ -1,0 +1,132 @@
+--- /Users/Drewdog19/Desktop/coding-folder/sidekick_air_project_master_brief.md	2026-03-11 11:10:17
++++ /Users/Drewdog19/Desktop/coding-folder/SidekickAir/product/sidekick_air_project_master_brief.md	2026-03-11 13:48:22
+@@ -1,73 +1,91 @@
+-# Sidekick Air / StitchCore Project Master Brief
++# Sidekick Air Project Master Brief
+ 
+ Author: Drew Freedman
+ Date: March 2026
+ 
++---
++
+ ## Overview
+ 
+-Sidekick Air is a portable inflatable therapy table platform designed to solve portability and stability problems found in traditional massage tables.
++Sidekick Air is a portable inflatable therapy table platform designed to solve the portability and stability problems found in traditional massage tables.
+ 
+-The project evolved into a broader platform called StitchCore, aiming to create a category of rigid inflatable human-support systems.
++The project evolved into a broader platform called StitchCore, aiming to create a new category of rigid inflatable human-support systems.
+ 
++Sidekick Air is the first product built using AeroStitch Core Technology developed by StitchCore.
++
++---
++
+ ## Core Problem
+ 
+ Traditional therapy tables:
+ 
+-- weigh 28–35 lbs
+-- difficult to transport
++- weigh 28 to 35 lbs
++- are difficult to transport
+ - require complex setup
+ - sacrifice stability when lightweight
+ 
+-Sidekick Air aims to provide:
++Mobile therapists, traveling sports teams, and event recovery professionals deal with significant logistical burden. Many avoid bringing tables into environments where treatment could happen.
+ 
+-- professional treatment stability
+-- reduced transport burden
+-- faster setup and breakdown
+-- modular expandability
+-- travel-ready portability
++The result is a large gap between where therapy could happen and where it actually happens.
+ 
++---
++
++## What Sidekick Air Provides
++
++- Professional treatment stability
++- Reduced transport burden
++- Faster setup and breakdown
++- Modular expandability
++- Travel-ready portability
++
++The entire system can be transported in a compact rolling case, inflated in under 3 minutes, and used in any environment where a therapist can work.
++
++---
++
+ ## Core Technology
+ 
+ High-pressure drop-stitch inflatable construction using coated textile materials.
+ 
+-When pressurized, thousands of internal threads maintain structure rigidity.
++When pressurized to 10 to 15 PSI, thousands of internal threads maintain structural rigidity. The platform supports up to 650 lbs under professional use conditions.
+ 
+-Applications include:
++This same technology class is already used in stand-up paddleboards, inflatable rescue platforms, and high-performance inflatable boats. Sidekick Air is the first professional application in the therapy platform market.
+ 
+-- therapy tables
+-- emergency stretchers
+-- medical gurneys
+-- sports recovery platforms
+-- portable rehabilitation systems
++---
+ 
+ ## Product Architecture
+ 
+-Components include:
++The system has four components:
+ 
+-- inflatable drop-stitch tabletop
+-- collapsible multi-leg support stand
+-- modular accessory system
+-- travel transport system
++1. Inflatable drop-stitch tabletop (72" × 30" × 4")
++2. Collapsible multi-leg support stand
++3. Modular accessory system (face cradle, expanders, anchors)
++4. Rolling travel case with pump storage
+ 
+-## Current Status
++---
+ 
++## Current Status (March 2026)
++
+ Completed:
++- Product concept defined
++- Materials researched
++- Prototype drawings produced
++- Manufacturing candidates identified
++- Provisional patent filed
++- Brand architecture created
+ 
+-- product concept defined
+-- materials researched
+-- prototype drawings produced
+-- manufacturing candidates identified
+-- provisional patent filed
+-- brand architecture created
+-
+ Remaining:
++- Engineering finalization
++- Stand design resolution
++- Prototype validation
++- Manufacturing partner selection
++- Market launch strategy
+ 
+-- engineering finalization
+-- stand design resolution
+-- prototype validation
+-- manufacturing partner selection
+-- market launch strategy
++---
+ 
+ ## Long-Term Vision
+ 
+-Sidekick Air is the first product within the StitchCore ecosystem, which aims to produce a family of inflatable structural support systems for therapy, rescue, medical, and consumer applications.
+\ No newline at end of file
++Sidekick Air is the first product within the StitchCore ecosystem.
++
++The StitchCore platform aims to produce a family of inflatable structural support systems for therapy, rescue, medical, and consumer applications.
++
++StitchCore's long-term milestone is the LA Olympics 2028, where portable treatment systems are in high demand and visibility is global.

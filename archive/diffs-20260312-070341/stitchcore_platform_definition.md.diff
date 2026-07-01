@@ -1,0 +1,155 @@
+--- /Users/Drewdog19/Desktop/coding-folder/stitchcore_platform_definition.md	2026-03-11 13:20:18
++++ /Users/Drewdog19/Desktop/coding-folder/SidekickAir/platform/stitchcore_platform_definition.md	2026-03-11 13:48:22
+@@ -1,115 +1,75 @@
+ # StitchCore Platform Definition
+-Author: Drew Freedman  
++
++Author: Drew Freedman
+ Date: March 2026
+ 
+-## Purpose
+-
+-This document establishes the official architecture and terminology for the StitchCore platform and its associated technologies and products.
+-
+-Maintaining consistent terminology is important for documentation, intellectual property filings, manufacturing discussions, and future product development.
+-
+ ---
+ 
+-# Platform Architecture
++## What is StitchCore
+ 
+-The StitchCore ecosystem is organized into three layers.
++StitchCore is the company and technology platform behind Sidekick Air and all future rigid inflatable human-support products.
+ 
+-StitchCore (Company and Platform)
++StitchCore does not describe a single product. It describes a structural engineering approach, a design philosophy, and a long-term product family architecture.
+ 
+-AeroStitch Core Technology (Structural Technology)
++The name reflects the core technology: drop-stitch construction, where thousands of internal threads (stitches) are bonded between two parallel coated fabric surfaces, creating a rigid structural panel when pressurized.
+ 
+-Sidekick Air (Product)
+-
+-This structure separates the company, the underlying engineering system, and the individual commercial products.
+-
+ ---
+ 
+-# StitchCore
++## Platform Hierarchy
+ 
+-StitchCore is the parent company and platform responsible for developing inflatable structural support systems designed for human use.
++StitchCore (Company and Platform)
++└── AeroStitch Core Technology (Structural Technology)
++    └── Sidekick Air (First Commercial Product)
+ 
+-The StitchCore platform focuses on lightweight, portable, high-strength inflatable structures capable of supporting the human body in clinical, athletic, emergency, and consumer environments.
++All products built by StitchCore use AeroStitch Core Technology as their engineering foundation.
+ 
+-StitchCore represents the long-term technology and product ecosystem.
++Future products may include Sidekick Rescue, Sidekick Medical, Sidekick Sport, and Sidekick Recovery.
+ 
+-Future product categories may include:
+-
+-portable therapy platforms  
+-sports recovery systems  
+-emergency stretchers  
+-medical gurneys  
+-field treatment platforms  
+-portable rehabilitation systems  
+-consumer recovery products
+-
+-Sidekick Air represents the first product built within the StitchCore platform.
+-
+ ---
+ 
+-# AeroStitch Core Technology
++## Why a Platform Architecture
+ 
+-AeroStitch Core Technology is the structural engineering system developed by StitchCore.
++Building around a platform rather than a single product creates several strategic advantages.
+ 
+-This technology uses high-pressure drop-stitch textile construction to create rigid inflatable platforms capable of supporting significant loads while remaining lightweight and portable.
++Engineering leverage
++Core structural knowledge developed for Sidekick Air applies directly to future products. The same materials, seam techniques, valve systems, and pressure specifications can be reused across the product family.
+ 
+-Key characteristics include:
++IP leverage
++Provisional patents filed for the core technology protect not just the first product but the entire class of rigid inflatable human-support platforms. This creates a defensive moat around the category.
+ 
+-woven drop-stitch internal structural matrix  
+-TPU-coated textile layers  
+-high-pressure structural inflation  
+-rigid load-bearing performance  
+-modular attachment interface integration  
++Manufacturing leverage
++Manufacturing relationships built for Sidekick Air can scale to support the full product family without starting over.
+ 
+-AeroStitch Core Technology enables inflatable structures to function as rigid support platforms suitable for clinical and structural applications.
++Market leverage
++Each product within the platform reinforces the others. A therapist who uses Sidekick Air understands the StitchCore value proposition when a Sidekick Sport product enters their environment.
+ 
+-This technology forms the engineering foundation for all StitchCore products.
+-
+ ---
+ 
+-# Sidekick Air
++## StitchCore Mission
+ 
+-Sidekick Air is the first commercial product built using AeroStitch Core Technology.
++To create a new category of rigid inflatable human-support platforms that deliver professional-grade performance with radical portability.
+ 
+-The product is a portable inflatable therapy platform designed to support professional manual therapy, sports recovery treatments, and mobile treatment environments.
+-
+-Sidekick Air demonstrates the capabilities of the AeroStitch Core structural platform.
+-
+-The product integrates:
+-
+-a rigid inflatable treatment surface  
+-a collapsible mechanical support stand  
+-a modular accessory interface system  
+-a portable travel configuration  
+-
+-Sidekick Air represents the initial market entry product for the StitchCore platform.
+-
+ ---
+ 
+-# Platform Expansion
++## Brand Architecture
+ 
+-The StitchCore platform is designed to support a range of future products built using AeroStitch Core Technology.
++StitchCore is the parent brand and technology platform.
+ 
+-Potential product extensions include:
++Sidekick Air is the product brand for the first commercial product.
+ 
+-portable rescue stretchers  
+-lightweight medical transport platforms  
+-field treatment surfaces  
+-sports recovery stations  
+-consumer wellness recovery platforms  
++Future products may carry the Sidekick family name or operate under distinct product brands, depending on market positioning decisions made during expansion.
+ 
+-By building products on a shared structural technology platform, StitchCore enables scalable innovation across multiple industries.
++The brand hierarchy positions StitchCore as the platform credibility layer behind all products.
+ 
+ ---
+ 
+-# Terminology Standard
++## Long-Term Platform Vision
+ 
+-The following terminology should be used consistently in documentation and communication.
++StitchCore's long-term vision is to establish the dominant technology platform for portable rigid inflatable human-support systems across four major markets.
+ 
+-**StitchCore**  
+-The parent company and platform responsible for the technology ecosystem.
++Therapy and wellness
++Sports medicine and recovery
++Emergency response and rescue
++Consumer health and rehabilitation
+ 
+-**AeroStitch Core Technology**  
+-The proprietary structural system used to create rigid inflatable human support platforms.
+-
+-**Sidekick Air**  
+-The first product built using AeroStitch Core Technology.
+\ No newline at end of file
++Each market segment may eventually have dedicated products built on the same AeroStitch Core Technology foundation.

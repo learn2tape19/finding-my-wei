@@ -1,0 +1,307 @@
+--- /Users/Drewdog19/Desktop/coding-folder/stitchcore_product_family_roadmap.md	2026-03-11 13:29:33
++++ /Users/Drewdog19/Desktop/coding-folder/SidekickAir/strategy/stitchcore_product_family_roadmap.md	2026-03-11 13:49:31
+@@ -1,197 +1,172 @@
+ # StitchCore Product Family Roadmap
++
+ Author: Drew Freedman
+ Date: March 2026
+ 
+-## Purpose
+-
+-This document outlines the long-term product ecosystem built on AeroStitch Core Technology developed by StitchCore.
+-
+-While Sidekick Air represents the first commercial product, the underlying technology platform enables a broader family of inflatable structural support systems.
+-
+-The goal of this roadmap is to define the potential product categories that can be developed using the AeroStitch Core structural system.
+-
+ ---
+ 
+-# Platform Vision
++## Purpose
+ 
+-StitchCore is developing a new class of rigid inflatable human support systems.
++This document defines the long-term product family architecture for StitchCore.
+ 
+-These systems combine:
++All products in the StitchCore family are built on AeroStitch Core Technology — the same structural engineering approach used in Sidekick Air.
+ 
+-high-pressure drop-stitch structural technology  
+-lightweight portability  
+-rapid deployment capability  
+-modular accessory integration  
+-
+-This platform architecture enables inflatable systems to replace heavier rigid equipment in multiple industries.
+-
+ ---
+ 
+-# Product Family Overview
++## Product Family Overview
+ 
+-The StitchCore platform can support multiple product categories across healthcare, sports, emergency response, and consumer wellness markets.
++StitchCore intends to build a family of rigid inflatable human-support platforms across five categories.
+ 
+-These product categories are outlined below.
++1. Sidekick Air — Therapy Platform
++2. Sidekick Rescue — Emergency and Field Platform
++3. Sidekick Medical — Clinical Transport Platform
++4. Sidekick Sport — Athletic Recovery Platform
++5. Sidekick Recovery — Consumer Wellness Platform
+ 
+ ---
+ 
+-# Sidekick Air
+-Portable Therapy Platform
++## Product 1: Sidekick Air
+ 
+-Sidekick Air is the first commercial product built using AeroStitch Core Technology.
++Category: Professional Therapy Platform
++Status: In Development (March 2026)
+ 
+-The platform is designed for:
++Primary markets:
++- Mobile massage therapists
++- Sports therapy professionals
++- Event recovery teams
+ 
+-manual therapists  
+-sports recovery teams  
+-mobile treatment professionals  
+-event recovery environments  
++Core value proposition:
++Professional therapy table stability in a portable, rapid-deploy inflatable system.
+ 
+-Key features include:
++Target specs:
++- 72 × 30 × 4 inch inflatable tabletop
++- Under 26 lbs total system weight
++- 10-15 PSI operating pressure
++- Up to 650 lbs load capacity
++- Under 3 minute setup
+ 
+-rigid inflatable treatment surface  
+-collapsible mechanical support stand  
+-modular accessory integration  
+-travel-ready portability  
+-
+-Sidekick Air represents the entry point into the StitchCore ecosystem.
+-
+ ---
+ 
+-# Sidekick Rescue
+-Emergency Response Stretcher
++## Product 2: Sidekick Rescue
+ 
+-Sidekick Rescue is a portable inflatable stretcher designed for emergency response and field rescue environments.
++Category: Emergency and Field Deployment Platform
++Status: Concept Phase
+ 
+-Potential applications include:
++Primary markets:
++- Search and rescue teams
++- Military field operations
++- Disaster response organizations
++- Backcountry emergency services
+ 
+-mountain rescue  
+-wilderness medicine  
+-disaster response  
+-military field operations  
++Core value proposition:
++A lightweight, packable rigid stretcher that deploys rapidly in field environments where conventional equipment cannot be transported.
+ 
+-Key characteristics may include:
++Key design requirements:
++- ultra-compact packed form
++- rapid inflation for emergency deployment
++- multiple carry handle integration
++- high load capacity for adult patient transport
++- ruggedized materials for harsh environments
+ 
+-lightweight deployable stretcher platform  
+-rapid inflation deployment  
+-compact transport configuration  
+-reinforced carry handles  
+-equipment attachment points  
+-
+-Sidekick Rescue leverages the portability advantages of AeroStitch Core technology in difficult environments.
+-
+ ---
+ 
+-# Sidekick Medical
+-Medical Transport Platform
++## Product 3: Sidekick Medical
+ 
+-Sidekick Medical expands the platform into clinical environments.
++Category: Clinical Transport and Treatment Platform
++Status: Concept Phase
+ 
+-Potential applications include:
++Primary markets:
++- Ambulatory care facilities
++- Sports medicine clinics
++- Mobile medical units
++- Event medical teams
+ 
+-temporary treatment stations  
+-medical transport surfaces  
+-field hospital environments  
+-remote healthcare deployment  
++Core value proposition:
++A clinical-grade inflatable transport and treatment surface that meets hygiene requirements and provides reliable patient support in mobile or temporary environments.
+ 
+-Possible features include:
++Key design requirements:
++- clinical-grade antimicrobial surface compatibility
++- smooth, easily cleanable surface geometry
++- compatibility with medical monitoring equipment
++- height-adjustable stand system
+ 
+-sanitary medical-grade surfaces  
+-patient stabilization systems  
+-modular medical equipment mounts  
+-compatibility with existing transport systems  
+-
+ ---
+ 
+-# Sidekick Sport
+-Athletic Recovery Platform
++## Product 4: Sidekick Sport
+ 
+-Sidekick Sport focuses on the sports performance and recovery market.
++Category: Athletic Recovery Platform
++Status: Concept Phase
+ 
+-Potential users include:
++Primary markets:
++- Professional sports teams
++- Athletic training facilities
++- Performance recovery centers
++- Olympic and elite sports programs
+ 
+-professional sports teams  
+-athletic trainers  
+-performance recovery facilities  
+-endurance events  
++Core value proposition:
++A portable treatment and recovery platform purpose-built for elite athletic environments where travel weight and setup speed are critical.
+ 
+-Potential features include:
++Key design requirements:
++- optimized dimensions for athletic body types
++- integrated anchor points for resistance and recovery equipment
++- team-scale portability (multiple units per travel kit)
++- highly visible brand presence for high-profile environments
+ 
+-portable recovery treatment platforms  
+-mobility training surfaces  
+-stretching and rehabilitation modules  
+-resistance training attachment points  
+-
+ ---
+ 
+-# Sidekick Recovery
+-Consumer Wellness Platform
++## Product 5: Sidekick Recovery
+ 
+-Sidekick Recovery adapts the technology for consumer wellness and home recovery environments.
++Category: Consumer Wellness Platform
++Status: Concept Phase
+ 
+-Potential applications include:
++Primary markets:
++- Active consumers
++- Home wellness market
++- Physical therapy home care market
++- Fitness-focused households
+ 
+-home physical therapy  
+-mobility training  
+-stretching platforms  
+-recovery and relaxation systems  
++Core value proposition:
++A consumer-priced portable platform that brings professional recovery and treatment capabilities into everyday home environments.
+ 
+-This product line would focus on simplified consumer-friendly configurations.
++Key design requirements:
++- simplified setup for non-professional users
++- consumer-appropriate price point
++- safety-oriented pressure limits
++- compact storage for residential spaces
+ 
+ ---
+ 
+-# Platform Advantages
++## Shared Platform Elements
+ 
+-All StitchCore products share several core advantages.
++All StitchCore products share:
+ 
+-These include:
++AeroStitch Core Technology foundation
++Drop-stitch pressurized panel construction
++Modular attachment interface system
++Rapid deployment design philosophy
++Compact transport configuration
+ 
+-lightweight portability  
+-compact travel configuration  
+-rapid deployment capability  
+-high structural rigidity when inflated  
+-modular accessory integration  
++Shared engineering reduces development cost and accelerates time-to-market for each new product.
+ 
+-These advantages make the platform uniquely suited for environments where traditional rigid equipment is difficult to transport.
+-
+ ---
+ 
+-# Strategic Market Opportunities
++## Sequencing Strategy
+ 
+-Several large markets intersect with the StitchCore platform.
++The recommended launch sequence prioritizes market credibility and engineering learning:
+ 
+-These include:
++Phase 1 — Sidekick Air (therapy market — establishes product category)
++Phase 2 — Sidekick Sport (athletic market — extends reach and visibility)
++Phase 3 — Sidekick Rescue or Sidekick Medical (institutional markets — platform credibility)
++Phase 4 — Sidekick Recovery (consumer market — volume opportunity)
+ 
+-mobile therapy professionals  
+-sports medicine and recovery environments  
+-emergency and rescue operations  
+-field medicine and remote healthcare  
+-consumer recovery and wellness markets  
++Each phase should build on the engineering, manufacturing, and market lessons of the prior phase.
+ 
+-By building multiple products on a shared structural platform, StitchCore can expand across these markets efficiently.
+-
+ ---
+ 
+-# Long-Term Vision
++## Strategic Milestone
+ 
+-The StitchCore platform is intended to become a foundational technology for portable human support systems.
++LA Olympics 2028 represents the first major platform visibility opportunity.
+ 
+-Sidekick Air represents the first implementation of this technology.
++Sidekick Air in the therapy market and Sidekick Sport in the athletic recovery market both have natural presence at an event of this scale.
+ 
+-Future product lines built on AeroStitch Core Technology will expand the platform into additional industries and use cases.
+-
+----
+-
+-# Summary
+-
+-StitchCore is developing a family of inflatable structural support systems powered by AeroStitch Core Technology.
+-
+-The initial product roadmap includes:
+-
+-Sidekick Air — portable therapy platform  
+-Sidekick Rescue — emergency stretcher platform  
+-Sidekick Medical — clinical transport platform  
+-Sidekick Sport — athletic recovery platform  
+-Sidekick Recovery — consumer wellness platform  
+-
+-Together these products represent the early expansion of the StitchCore technology ecosystem.
+\ No newline at end of file
++If StitchCore products are visible at the LA Olympics, the category definition story becomes significantly more powerful for investors, licensing partners, and future product expansion.
