@@ -526,6 +526,56 @@ This architecture is **scalable enough to support decades of intellectual work.*
 
 ---
 
+# Standing Governance Rule
+
+## Institutional Standards Enforcement
+
+**Effective immediately upon PROJECT_003 approval:**
+
+**No new permanent document may be committed to GitHub unless it conforms to the institutional standards established by PROJECT_003.**
+
+### Standards Required
+
+Every document committed to GitHub must include:
+
+1. **Metadata** — Complete YAML frontmatter with:
+   - title
+   - status (Draft, Working, Review, Approved, Canonical, Archived)
+   - domain (from defined list)
+   - project (if applicable)
+   - owner
+   - created date
+   - updated date
+   - tags (using controlled vocabulary)
+   - aliases (if applicable)
+
+2. **Ownership** — Clear designation of who is responsible for the document
+
+3. **Status Clarity** — Explicit indication of permanence level (Draft through Canonical)
+
+4. **Domain Classification** — Assigned to one of nine defined institutional domains
+
+5. **Tag Conformance** — Uses controlled vocabulary, not ad hoc tags
+
+6. **Purpose Statement** — Clear explanation of why the document exists
+
+### Enforcement
+
+- Claude (as Chief Librarian) must verify conformance before committing to GitHub
+- Non-conforming documents cannot be merged
+- Templates will be provided to ensure automatic conformance
+- This rule applies to all permanent institutional knowledge, effective immediately
+
+### Rationale
+
+This rule prevents the institutional knowledge system from degrading through ad hoc documentation practices.
+
+As Finding My Wei scales, systematic standards become the only way to maintain coherence.
+
+Standards are built into the workflow, not applied retroactively.
+
+---
+
 # Authorization
 
 This project awaits Founder approval to begin execution.
@@ -538,4 +588,5 @@ This project awaits Founder approval to begin execution.
 **Created:** July 8, 2026  
 **Status:** Approved (Awaiting Execution Authorization)  
 **Scope:** Permanent Institutional Initiative  
+**Standing Rule Adopted:** July 8, 2026 — All GitHub commits must conform to PROJECT_003 standards
 
