@@ -388,6 +388,18 @@ Every recommendation in Phase 1 must answer:
 
 **These principles may not be violated.**
 
+### The Primacy of Execution
+
+**Architecture is subordinate to execution.**
+
+No future architectural changes may be proposed unless they solve a demonstrated operational problem.
+
+**Rationale:** Architecture exists to serve work, not the reverse. Theoretical improvements without operational justification lead to churn, complexity, and institutional drift. Every architectural recommendation must begin with a concrete operational problem it solves.
+
+This is the foundation of institutional discipline.
+
+---
+
 ### GitHub Principle
 GitHub preserves institutional memory.
 
