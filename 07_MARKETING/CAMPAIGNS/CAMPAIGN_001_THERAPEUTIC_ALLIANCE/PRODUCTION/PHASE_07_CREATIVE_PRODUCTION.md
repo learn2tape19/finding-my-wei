@@ -17,37 +17,82 @@ Phase 7 transforms Editorial Extraction specifications into visual assets for ea
 3. **QR Code Integration** — Link visuals to canonical blog articles
 4. **Asset Organization** — Store finalized assets for Phase 9 deployment
 
-All images must maintain **Tao Visual Language** standards:
+All images must follow the **Tao Visual Identity System v1.0** (canonical institutional standard):
 - Clinical, not spa/luxury aesthetic
 - Authentic clinical moments (real treatment rooms, real practitioners)
-- Warm natural light; minimal styling
+- Documentary photography (National Geographic, Apple Health, Kinfolk aesthetic)
+- Warm natural light only; minimal styling
 - No stock photography feel
 - Visible presence of nervous system regulation (both therapist and client)
+- Emotional hierarchy: Safety → Presence → Trust → Permission → Possibility → Clinical Confidence
+- Hands as primary storytelling element (communication over action)
+- 85mm lens aesthetic with shallow depth of field
+
+**All images MUST include:**
+1. Canonical chapter symbol (upper left corner, white/linen, 3% image width)
+2. Ripple watermark (canonical artwork, 5–8% opacity, integrated into photograph)
+3. Reference to Master AI Prompt (see Tao Visual Identity System v1.0, section "Master AI Image Prompt")
+
+See `/Users/Drewdog19/finding-my-wei/03_OPERATING_SYSTEM/STANDARDS/TAO_VISUAL_IDENTITY_SYSTEM_v1.0.md` for complete visual constitution and governance.
 
 ---
 
 ## Image Generation Specifications
 
+**IMPORTANT:** All Firefly prompts below are built on the **Master AI Prompt** from the Tao Visual Identity System v1.0. The prompts combine:
+- Master Foundation (universal Tao visual standards)
+- Specific Story (daily theme for Thursday-Sunday)
+- Required Elements (chapter symbol, ripple watermark, grid compliance)
+
+See `/Users/Drewdog19/finding-my-wei/03_OPERATING_SYSTEM/STANDARDS/TAO_VISUAL_IDENTITY_SYSTEM_v1.0.md` section "Master AI Image Prompt" for the authoritative foundation prompt.
+
+---
+
 ### Thursday: Permission Changes Everything
 
-**Primary Firefly Prompt:**
+**Chapter Symbol:** Threshold Line (invitation before intervention)
+
+**Primary Firefly Prompt (Master + Specific):**
+
 ```
-Therapist's hands resting on patient's tissue. No visible compression. 
-No digging. No active pressure. Patient breathing naturally, shoulders 
-soft, jaw relaxed. Therapist's posture appears patient and observant. 
-Warm natural window light. Minimal environment. Both nervous systems 
-regulated. The moment of waiting—hands present, attention present, but 
-no force. Stillness communicating permission. Clinical realism, no 
-massage-stock-photo feeling.
+[MASTER FOUNDATION]
+Premium editorial healthcare documentary photography for The Tao of Clinical Touch.
+Authentic clinical realism. Quiet confidence. Therapeutic alliance. Physiological safety.
+Documentary observation rather than performance. Hands communicate listening instead of doing.
+The therapist is calm, grounded, patient, observant, and fully present.
+The patient appears safe, regulated, breathing naturally, with relaxed shoulders and jaw.
+Warm natural window light. Minimal clinical environment. Natural oak. Warm linen. Muted navy.
+Soft sage. Cream walls. Professional clinical treatment room.
+No spa elements. No luxury wellness styling. No staged smiles. No exaggerated tissue compression.
+No deep tissue marketing imagery. No performance energy.
+The emotional message: permission before intervention. Trust before technique. Presence before pressure.
+Healing through relationship.
+Composition is intimate. 85mm documentary lens aesthetic. Shallow depth of field.
+Photograph centers on hands, tissue, and therapeutic interaction.
+
+[THURSDAY SPECIFIC STORY]
+The core moment of permission: therapist's hands resting on patient's tissue.
+No visible compression. No digging. No active pressure.
+Patient breathing naturally, shoulders soft, jaw relaxed.
+Therapist's posture appears patient and observant—waiting, not acting.
+Both nervous systems regulated and synchronized.
+The moment of waiting: hands present, attention present, but no force.
+Stillness communicating permission and safety.
+
+[REQUIRED ELEMENTS]
+Include canonical Threshold Line chapter symbol in upper-left corner.
+Integrate canonical Tao ripple watermark as large subtle watermark (5–8% opacity), partially cropped.
+Follow Tao Editorial Grid exactly.
+Image should appear as though published in premium healthcare journal, not advertisement.
 ```
 
 **Negative Prompt:**
 ```
-Avoid: aggressive pressure, visible tissue compression, digging thumbs, 
-therapist appearing forceful or busy, patient appearing tense or 
-defended, deep tissue marketing imagery, spa setting, candles or flowers, 
-glamorous styling, high contrast dramatic lighting, forced relaxation 
-expression, performance energy.
+Avoid: aggressive pressure, visible tissue compression, digging thumbs, therapist appearing 
+forceful or busy, patient appearing tense or defended, deep tissue marketing imagery, spa 
+setting, candles or flowers, glamorous styling, high contrast dramatic lighting, forced 
+relaxation expression, performance energy, stock photography aesthetic, heroic therapist 
+imagery, luxury wellness framing.
 ```
 
 **Image Dimensions & Versions:**
@@ -73,23 +118,49 @@ expression, performance energy.
 
 ### Friday: Presence Before Precision
 
-**Primary Firefly Prompt:**
+**Chapter Symbol:** Open Circle (presence, spaciousness, openness, readiness)
+
+**Primary Firefly Prompt (Master + Specific):**
+
 ```
-Therapist preparing before a patient session. Sitting quietly in treatment 
-room. Eyes closed or soft-focused. Visible exhale. Shoulders relaxed, 
-grounded posture. Hands resting. Natural window light illuminating calm 
-space. Treatment table visible but empty. Room organized and intentional. 
-No patient in frame. The image communicates preparation, regulation, 
-readiness, and inner calm. Clinical setting with minimal decoration. 
-Therapist appears collected and present. Warm, peaceful, grounded energy.
+[MASTER FOUNDATION]
+Premium editorial healthcare documentary photography for The Tao of Clinical Touch.
+Authentic clinical realism. Quiet confidence. Therapeutic alliance. Physiological safety.
+Documentary observation rather than performance. Hands communicate listening instead of doing.
+The therapist is calm, grounded, patient, observant, and fully present.
+The patient appears safe, regulated, breathing naturally, with relaxed shoulders and jaw.
+Warm natural window light. Minimal clinical environment. Natural oak. Warm linen. Muted navy.
+Soft sage. Cream walls. Professional clinical treatment room.
+No spa elements. No luxury wellness styling. No staged smiles. No exaggerated tissue compression.
+No deep tissue marketing imagery. No performance energy.
+The emotional message: permission before intervention. Trust before technique. Presence before pressure.
+Healing through relationship.
+Composition is intimate. 85mm documentary lens aesthetic. Shallow depth of field.
+Photograph centers on hands, tissue, and therapeutic interaction.
+
+[FRIDAY SPECIFIC STORY]
+Pre-session preparation: the therapist's nervous system as primary clinical tool.
+Therapist alone in treatment room, preparing before patient arrives.
+Sitting quietly. Eyes closed or soft-focused. Visible exhale. Shoulders relaxed.
+Grounded posture. Hands resting. Treatment table visible but empty.
+Natural window light illuminating calm space. Room organized and intentional.
+No patient in frame—this is about clinician regulation and readiness.
+The image communicates preparation, regulation, readiness, and inner calm.
+Therapist appears collected, centered, and present. Warm, peaceful, grounded energy.
+
+[REQUIRED ELEMENTS]
+Include canonical Open Circle chapter symbol in upper-left corner.
+Integrate canonical Tao ripple watermark as large subtle watermark (5–8% opacity), partially cropped.
+Follow Tao Editorial Grid exactly.
+Image should appear as though published in premium healthcare journal, not advertisement.
 ```
 
 **Negative Prompt:**
 ```
-Avoid: therapist appearing stressed or busy, patient in frame, active 
-treatment, dramatic lighting, performance energy, forced meditation look, 
-spa clichés, glamorous styling, high contrast, heroic imagery, therapist 
-appearing to strain or concentrate hard.
+Avoid: therapist appearing stressed or busy, patient in frame, active treatment, dramatic 
+lighting, performance energy, forced meditation look, spa clichés, glamorous styling, high 
+contrast, heroic imagery, therapist appearing to strain or concentrate hard, yoga-like 
+positioning, mystical aesthetics.
 ```
 
 **Image Dimensions & Versions:**
@@ -115,21 +186,50 @@ appearing to strain or concentrate hard.
 
 ### Saturday: Wu Wei in Clinical Practice
 
-**Primary Firefly Prompt:**
+**Chapter Symbol:** Wave (nervous system regulation, calm, rhythm, adaptability)
+
+**Primary Firefly Prompt (Master + Specific):**
+
 ```
-Therapist's hands on patient's tissue during session. Minimal visible 
-pressure—hands appear patient and observant, not active or pushing. 
-Therapist's posture is calm and attentive. Patient appears relaxed and 
-cooperative. Both nervous systems synchronized. Warm natural light. No 
-strain visible. No heroic effort. The image communicates listening, 
-matching, responsiveness. Clinical realism, authentic cooperation.
+[MASTER FOUNDATION]
+Premium editorial healthcare documentary photography for The Tao of Clinical Touch.
+Authentic clinical realism. Quiet confidence. Therapeutic alliance. Physiological safety.
+Documentary observation rather than performance. Hands communicate listening instead of doing.
+The therapist is calm, grounded, patient, observant, and fully present.
+The patient appears safe, regulated, breathing naturally, with relaxed shoulders and jaw.
+Warm natural window light. Minimal clinical environment. Natural oak. Warm linen. Muted navy.
+Soft sage. Cream walls. Professional clinical treatment room.
+No spa elements. No luxury wellness styling. No staged smiles. No exaggerated tissue compression.
+No deep tissue marketing imagery. No performance energy.
+The emotional message: permission before intervention. Trust before technique. Presence before pressure.
+Healing through relationship.
+Composition is intimate. 85mm documentary lens aesthetic. Shallow depth of field.
+Photograph centers on hands, tissue, and therapeutic interaction.
+
+[SATURDAY SPECIFIC STORY]
+Wu Wei in action: non-imposition, observation, matching, responsiveness.
+Therapist's hands on patient's tissue during session.
+Minimal visible pressure—hands appear patient and observant, not active or pushing.
+Therapist's posture is calm and attentive, listening through touch.
+Patient appears relaxed and cooperative, nervous system receptive.
+Both nervous systems synchronized and working together.
+Warm natural light. No strain visible. No heroic effort. No forcing.
+The image communicates listening, matching, responsiveness.
+Effortless action creating better outcomes than force ever could.
+
+[REQUIRED ELEMENTS]
+Include canonical Wave chapter symbol in upper-left corner.
+Integrate canonical Tao ripple watermark as large subtle watermark (5–8% opacity), partially cropped.
+Follow Tao Editorial Grid exactly.
+Image should appear as though published in premium healthcare journal, not advertisement.
 ```
 
 **Negative Prompt:**
 ```
-Avoid: aggressive technique, visible pressure or force, heroic therapist 
-imagery, dramatic lighting, performance energy, complex tools or equipment, 
-therapist appearing busy or forcing change, patient appearing resistant.
+Avoid: aggressive technique, visible pressure or force, heroic therapist imagery, dramatic 
+lighting, performance energy, complex tools or equipment, therapist appearing busy or forcing 
+change, patient appearing resistant or braced, deep tissue marketing aesthetics, sports 
+massage styling.
 ```
 
 **Image Dimensions & Versions:**
@@ -155,22 +255,48 @@ therapist appearing busy or forcing change, patient appearing resistant.
 
 ### Sunday: Integration and Next Steps
 
-**Primary Firefly Prompt:**
+**Chapter Symbol:** Radiating (ripple effect, influence extending beyond treatment)
+
+**Primary Firefly Prompt (Master + Specific):**
+
 ```
-Treatment room during a session where all elements are present: safety, 
-permission, presence, wu wei—visible as a unified moment of cooperation. 
-Therapist regulated and attentive. Patient relaxed and receiving. Moment 
-of genuine collaboration between two intelligent systems. No performance. 
-No forcing. Just cooperation. Warm light. Treatment table. Authentic 
-moment of clinical alliance. Both nervous systems synchronized and 
-cooperating.
+[MASTER FOUNDATION]
+Premium editorial healthcare documentary photography for The Tao of Clinical Touch.
+Authentic clinical realism. Quiet confidence. Therapeutic alliance. Physiological safety.
+Documentary observation rather than performance. Hands communicate listening instead of doing.
+The therapist is calm, grounded, patient, observant, and fully present.
+The patient appears safe, regulated, breathing naturally, with relaxed shoulders and jaw.
+Warm natural window light. Minimal clinical environment. Natural oak. Warm linen. Muted navy.
+Soft sage. Cream walls. Professional clinical treatment room.
+No spa elements. No luxury wellness styling. No staged smiles. No exaggerated tissue compression.
+No deep tissue marketing imagery. No performance energy.
+The emotional message: permission before intervention. Trust before technique. Presence before pressure.
+Healing through relationship.
+Composition is intimate. 85mm documentary lens aesthetic. Shallow depth of field.
+Photograph centers on hands, tissue, and therapeutic interaction.
+
+[SUNDAY SPECIFIC STORY]
+Integration moment: all five elements (safety, permission, presence, wu wei, alliance) working together.
+Treatment room during a session where all elements are present and unified.
+Therapist regulated and attentive. Patient relaxed and receiving.
+Moment of genuine collaboration between two intelligent systems.
+No performance. No forcing. Just cooperation.
+Warm natural light. Treatment table. Both nervous systems synchronized and cooperating.
+The image captures authentic moment of therapeutic alliance in action.
+This is what happens when the framework works completely.
+
+[REQUIRED ELEMENTS]
+Include canonical Radiating chapter symbol in upper-left corner.
+Integrate canonical Tao ripple watermark as large subtle watermark (5–8% opacity), partially cropped.
+Follow Tao Editorial Grid exactly.
+Image should appear as though published in premium healthcare journal, not advertisement.
 ```
 
 **Negative Prompt:**
 ```
-Avoid: multiple unrelated images, cluttered composition, spa aesthetics, 
-theatrical lighting, forced expressions, heroic imagery, performance 
-energy, lack of clinical authenticity.
+Avoid: multiple unrelated images, cluttered composition, spa aesthetics, theatrical lighting, 
+forced expressions, heroic imagery, performance energy, lack of clinical authenticity, 
+mystical overlays, energy graphics, overly designed layouts.
 ```
 
 **Image Dimensions & Versions:**
@@ -329,21 +455,34 @@ PRODUCTION/WEEK_01/ASSETS/
 
 ## Quality Checklist
 
-Before delivery to Phase 8 (Platform Adaptations):
+Before delivery to Phase 8 (Platform Adaptations), verify against the **Tao Visual Identity System v1.0 Creative Review Checklist** plus campaign-specific requirements:
 
-**Image Quality:**
+**Tao Visual Identity Standards (from canonical system):**
+- [ ] Does this communicate trust before technique?
+- [ ] Does the therapist appear calm rather than forceful?
+- [ ] Does the patient appear safe rather than passive?
+- [ ] Is the environment clinical rather than spa-like?
+- [ ] Are the hands listening rather than imposing?
+- [ ] Is the ripple watermark present (5–8% opacity)?
+- [ ] Is the correct chapter symbol used (upper left, white/linen)?
+- [ ] Is the composition intimate (85mm aesthetic)?
+- [ ] Does the image avoid stock-photo aesthetics?
+- [ ] Would this still look elegant five years from now?
+
+**Campaign Specific Quality:**
 - [ ] All images render at target dimensions without distortion
 - [ ] Natural lighting is warm (3500-4500K range)
 - [ ] No visible spa/luxury aesthetic markers
-- [ ] Clinical authenticity preserved
+- [ ] Clinical authenticity preserved (real treatment room, real practitioners)
 - [ ] Both nervous systems (therapist + patient) visible in their regulated state
 - [ ] Text overlay legible on image (high contrast)
 - [ ] No unintended cropping or composition loss
 
 **Brand Consistency:**
 - [ ] Manrope typography used consistently
-- [ ] Color palette matches Tao brand (see tao_website.md for hex values)
-- [ ] Tao mark/logo placement consistent across all days
+- [ ] Color palette matches Tao Visual Identity System primary palette
+- [ ] Tao mark/Tao signature placement consistent across all days
+- [ ] Visual language recognizable as editorial, not marketing
 - [ ] Visual language recognizable as "Tao" across all four days
 
 **Technical:**
