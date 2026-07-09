@@ -1,4 +1,4 @@
-# Campaign 001 — Week 01 — Friday
+# Campaign 001 - Week 01 - Friday
 ## Presence Before Precision
 
 **Status:** READY FOR PRODUCTION  
@@ -34,7 +34,7 @@ Permission increases. Change accelerates. Tissue reorganizes more fully.
 
 Because now your presence isn't something they have to protect against. It's something they can actually trust.
 
-———
+---
 
 How do you prepare yourself before the first patient of the day?
 
@@ -54,7 +54,7 @@ Presence isn't something you perform. It's something you prepare for.
 
 What does your pre-patient ritual look like? How do you bring your own nervous system into the treatment room?
 
-———
+---
 
 How do you prepare yourself before the first patient of the day?
 
@@ -90,7 +90,7 @@ Slide 5: Presence comes first.
 
 Premium editorial healthcare documentary photography for The Tao of Clinical Touch. Authentic clinical realism. Quiet confidence. Therapeutic alliance. Physiological safety. Documentary observation rather than performance. Hands communicate listening instead of doing. The therapist is calm, grounded, patient, observant, and fully present. Warm natural window light. Minimal clinical environment. Natural oak. Warm linen. Muted navy. Soft sage. Cream walls. Professional clinical treatment room.
 
-Pre-session preparation: the therapist's nervous system as primary clinical tool. Therapist alone in treatment room, preparing before patient arrives. Sitting quietly. Eyes closed or soft-focused. Visible exhale. Shoulders relaxed. Grounded posture. Hands resting. Treatment table visible but empty. Natural window light illuminating calm space. Room organized and intentional. No patient in frame—this is about clinician regulation and readiness. The image communicates preparation, regulation, readiness, and inner calm. Therapist appears collected, centered, and present. Warm, peaceful, grounded energy.
+Pre-session preparation: the therapist's nervous system as primary clinical tool. Therapist alone in treatment room, preparing before patient arrives. Sitting quietly. Eyes closed or soft-focused. Visible exhale. Shoulders relaxed. Grounded posture. Hands resting. Treatment table visible but empty. Natural window light illuminating calm space. Room organized and intentional. No patient in frame; this is about clinician regulation and readiness. The image communicates preparation, regulation, readiness, and inner calm. Therapist appears collected, centered, and present. Warm, peaceful, grounded energy.
 
 Include canonical Open Circle chapter symbol in upper-left corner (SVG: /03_OPERATING_SYSTEM/BRAND_ASSETS/CHAPTER_SYMBOLS/01_open_circle.svg). Integrate canonical Tao ripple watermark as large subtle watermark (5–8% opacity), partially cropped. Follow Tao Editorial Grid exactly. Image should appear as though published in premium healthcare journal, not advertisement.
 
@@ -183,7 +183,7 @@ Avoid: therapist appearing stressed or busy, patient in frame, active treatment,
 - Patients experience technique through the filter of clinician's state
 - Regulation is contagious
 - Your pre-patient nervous system state sets the tone
-- This isn't personality—it's preparation
+- This isn't personality; it's preparation
 
 **Section 2: The Nervous System as Clinical Instrument (180–220 words)**
 - Explain polyvagal theory basics (accessible language)
@@ -199,7 +199,7 @@ Avoid: therapist appearing stressed or busy, patient in frame, active treatment,
 - You can't regulate a patient if your own system is dysregulated
 
 **Section 3: How Presence Gets Created (200–250 words)**
-- Presence isn't natural—it's constructed through ritual
+- Presence isn't natural; it's constructed through ritual
 - Pre-patient preparation practices
 - Concrete examples: breathing, grounding, intention-setting
 - How these practices shift your autonomic state
@@ -234,7 +234,7 @@ Avoid: therapist appearing stressed or busy, patient in frame, active treatment,
 **Talking Points:**
 - Your ritual should be personally meaningful
 - Practice the same ritual, same location, same time
-- Over time it becomes automatic—your body recognizes the signal
+- Over time it becomes automatic; your body recognizes the signal
 - Small investment pays enormous dividends
 
 **Section 6: Closing Reflection (100–150 words)**
@@ -272,7 +272,7 @@ Avoid: therapist appearing stressed or busy, patient in frame, active treatment,
 *"Consider: What's your current pre-patient ritual? Or do you arrive straight from email and running late?"*
 
 **End-of-Article CTA (Primary):**  
-*"**This week:** Design a 5-minute pre-patient ritual. Notice what changes in your sessions. Share what you discovered—this is how we learn."*
+*"**This week:** Design a 5-minute pre-patient ritual. Notice what changes in your sessions. Share what you discovered; this is how we learn."*
 
 **Social Sharing Prompt:**  
 *"Know a therapist running on empty? This might change their practice."*
@@ -340,7 +340,7 @@ It isn't. Presence is preparation. It's clinical. It's learnable.
 
 Your nervous system state is your primary clinical instrument.
 
-Everything else—your hands, your knowledge, your experience—operates through the filter of your regulation.
+Everything else operates through the filter of your regulation: your hands, your knowledge, your experience.
 
 #### How Patients Experience Your State
 
@@ -406,9 +406,9 @@ Some practices that work:
 
 **Grounding:** Standing barefoot in grass or on earth for a few minutes. Noticing your feet on the ground. Bringing attention fully into your body instead of your busy mind.
 
-**Brief movement:** Gentle stretching or walking. Not exercise—movement that feels resourced, not effortful.
+**Brief movement:** Gentle stretching or walking. Not exercise; movement that feels resourced, not effortful.
 
-**Silence:** Sitting quietly, allowing your mind to settle. Not meditation as technique—just quietness.
+**Silence:** Sitting quietly, allowing your mind to settle. Not meditation as technique; just quietness.
 
 **Intention:** Consciously naming what you're about to do. "I'm about to meet with someone who trusts me with their body. I will be regulated. I will be present."
 
@@ -459,5 +459,5 @@ Make sure it's in working order.
 
 ---
 
-**Status: EDITORIAL BOARD APPROVED — READY FOR WORDPRESS BUILD**
+**Status: EDITORIAL BOARD APPROVED - READY FOR WORDPRESS BUILD**
 **Next Post:** Saturday, July 11, 2026 - "Wu Wei in Clinical Practice"
