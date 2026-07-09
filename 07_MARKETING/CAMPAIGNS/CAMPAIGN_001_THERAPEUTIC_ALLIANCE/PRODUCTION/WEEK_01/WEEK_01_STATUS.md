@@ -139,7 +139,7 @@ Each day includes:
 3. Generate QR codes linking to canonical blog articles
 4. Finalize platform-specific adaptations (complete copy + image + CTA)
 5. Schedule posts in Buffer per timeline (7 AM Instagram, 8 AM Facebook, 8:30 AM LinkedIn)
-6. Launch campaign (July 11-14, 2026)
+6. Launch campaign (July 9-12, 2026 — Thursday through Sunday)
 7. Monitor engagement and gather comment insights for Week 2 planning
 
 ---

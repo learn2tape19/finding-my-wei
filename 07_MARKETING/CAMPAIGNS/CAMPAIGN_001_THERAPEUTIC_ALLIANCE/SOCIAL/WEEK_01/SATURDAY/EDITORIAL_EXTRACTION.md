@@ -2,7 +2,7 @@
 
 **Article Canonical Title:** Wu Wei in Clinical Practice: How Effortless Action Creates Better Outcomes  
 **Article Word Count:** 681 words  
-**Publication Date:** July 13, 2026 (Saturday)  
+**Publication Date:** July 11, 2026 (Saturday)  
 **Author:** Drew Freedman
 
 ---

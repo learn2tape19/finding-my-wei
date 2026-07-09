@@ -3,7 +3,7 @@
 
 **Campaign:** Therapeutic Alliance  
 **Phase:** 7 of 11 (Creative Production)  
-**Dates:** Thursday July 11 – Sunday July 14, 2026  
+**Dates:** Thursday July 9 – Sunday July 12, 2026  
 **Status:** Ready to Execute  
 
 ---

@@ -2,7 +2,7 @@
 
 **Article Canonical Title:** The Permission Question: Before You Touch Anything, Ask Yourself This  
 **Article Word Count:** 847 words  
-**Publication Date:** July 11, 2026 (Thursday)  
+**Publication Date:** July 9, 2026 (Thursday)  
 **Author:** Drew Freedman
 
 ---

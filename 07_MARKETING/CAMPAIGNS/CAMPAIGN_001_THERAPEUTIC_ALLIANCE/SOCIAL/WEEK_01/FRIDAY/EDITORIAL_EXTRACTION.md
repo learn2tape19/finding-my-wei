@@ -2,7 +2,7 @@
 
 **Article Canonical Title:** Presence Before Precision: Why Your Nervous System State Is Your Primary Clinical Tool  
 **Article Word Count:** 732 words  
-**Publication Date:** July 12, 2026 (Friday)  
+**Publication Date:** July 10, 2026 (Friday)  
 **Author:** Drew Freedman
 
 ---

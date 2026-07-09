@@ -2,7 +2,7 @@
 
 **Article Canonical Title:** Integration and Next Steps: What This Week Revealed About Clinical Change  
 **Article Word Count:** 648 words  
-**Publication Date:** July 14, 2026 (Sunday)  
+**Publication Date:** July 12, 2026 (Sunday)  
 **Author:** Drew Freedman
 
 ---
