@@ -400,7 +400,25 @@ Never substitute icons.
 
 Never redesign them.
 
-Always use the canonical SVG files.
+Always use the canonical SVG files from `/03_OPERATING_SYSTEM/BRAND_ASSETS/CHAPTER_SYMBOLS/`.
+
+---
+
+## Symbol Files (Canonical SVG Library)
+
+**Location:** `/Users/Drewdog19/finding-my-wei/03_OPERATING_SYSTEM/BRAND_ASSETS/CHAPTER_SYMBOLS/`
+
+- `01_open_circle.svg` — Presence
+- `02_threshold_line.svg` — Permission
+- `03_eye.svg` — Observation
+- `04_arcs.svg` — Therapeutic Alliance
+- `05_wave.svg` — Nervous System Regulation
+- `06_triangle.svg` — Stability
+- `07_parallel.svg` — Synchrony
+- `08_spiral.svg` — Transformation
+- `09_radiating.svg` — Ripple Effect
+
+See `/03_OPERATING_SYSTEM/BRAND_ASSETS/CHAPTER_SYMBOLS/README.md` for complete symbol reference and usage standards.
 
 ---
 
@@ -408,11 +426,12 @@ Always use the canonical SVG files.
 
 - Upper Left
 - Approximately 3% of image width
-- White or Linen color
-- Consistent margin
+- White or Linen color (#f9f8f7 or #f5e6d3)
+- Consistent margin from edges
 - Never rotated
 - Never recolored
 - Never stylized
+- Always SVG format (never PNG/JPG conversion)
 
 ---
 
@@ -575,19 +594,21 @@ No additional graphic clutter.
 
 # CHAPTER SYMBOL MAP
 
-Claude should maintain a permanent lookup table linking blog topics to chapter symbols.
+Claude references this map to select the correct chapter symbol for each article.
 
-| Symbol | Meaning | Visual Language | Use Case |
-|---------|----------|-----------------|----------|
-| Open Circle | Presence | Spaciousness, openness, readiness | Preparation, awareness, regulation |
-| Threshold Line | Permission | Invitation before intervention | Permission, consent, safety |
-| Eye | Observation | Listening, assessment, awareness | Listening, assessment, clinical attention |
-| Arcs | Therapeutic Alliance | Human connection | Relationship, alliance, connection |
-| Wave | Nervous System Regulation | Calm, rhythm, adaptability | Nervous system, regulation, rhythm |
-| Triangle | Stability | Safety, grounding, support | Safety, foundation, stability |
-| Parallel Lines | Synchrony | Therapist and patient regulation | Synchrony, attunement, coordination |
-| Spiral | Transformation | Change emerging from trust | Change, evolution, transformation |
-| Radiating | Ripple Effect | Influence extending beyond treatment | Impact, influence, learning |
+**Canonical SVG Location:** `/03_OPERATING_SYSTEM/BRAND_ASSETS/CHAPTER_SYMBOLS/[number]_[symbol].svg`
+
+| Number | SVG File | Theme | Visual Language | Use Case |
+|--------|----------|-------|-----------------|----------|
+| 01 | open_circle.svg | Presence | Spaciousness, openness, readiness | Preparation, awareness, clinician regulation, readiness |
+| 02 | threshold_line.svg | Permission | Invitation before intervention | Permission, consent, safety, nervous system signaling |
+| 03 | eye.svg | Observation | Listening, assessment, awareness | Listening, assessment, clinical observation, attention |
+| 04 | arcs.svg | Therapeutic Alliance | Human connection | Relationship, alliance, connection, collaboration |
+| 05 | wave.svg | Nervous System Regulation | Calm, rhythm, adaptability | Nervous system, regulation, parasympathetic, rhythm |
+| 06 | triangle.svg | Stability | Safety, grounding, support | Safety, foundation, structural principles |
+| 07 | parallel.svg | Synchrony | Attunement, two systems together | Synchrony, attunement, nervous system mirroring |
+| 08 | spiral.svg | Transformation | Change emerging from trust | Change, evolution, deepening, healing growth |
+| 09 | radiating.svg | Ripple Effect | Influence extending beyond treatment | Impact, influence, institutional learning |
 
 ---
 
