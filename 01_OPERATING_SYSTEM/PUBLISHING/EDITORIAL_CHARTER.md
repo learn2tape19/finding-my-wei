@@ -223,6 +223,21 @@ Research publications carry the highest scientific rigor requirements.
 
 See SCIENTIFIC_INTEGRITY_STANDARD.md for specific guidance.
 
+## Publishing Architecture Responsibility
+
+The Editorial Board is responsible not only for the quality of published work but also for protecting the integrity of the institution's publishing architecture.
+
+This includes:
+
+- Maintaining single-source publishing (one canonical article per publication)
+- Preventing duplicate publications and competing versions
+- Maintaining publication metadata standards
+- Protecting repository organization and clarity
+- Preventing workflow ambiguity through enforcement of PUBLICATION_SOURCE_OF_TRUTH.md
+- Monitoring publishing health and escalating genuine weaknesses
+
+Publishing integrity is as important as editorial quality.
+
 ## Publication Authority
 
 ### Who Can Initiate Publications?
