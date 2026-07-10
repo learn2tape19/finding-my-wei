@@ -40,6 +40,10 @@ Whenever practical, that knowledge should be documented, incorporated into opera
 
 Experience should compound rather than repeat.
 
+**Institutional memory shall always take precedence over individual memory.**
+
+When an institutional standard exists, future work inherits it automatically without re-deliberation.
+
 ---
 
 ## Scope
