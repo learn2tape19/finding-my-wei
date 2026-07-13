@@ -10,61 +10,57 @@
 ### Instagram Post
 
 ```
-A guarded system shows you protection.
+A protected nervous system offers one kind of information.
 
-A regulated system shows you capacity.
+A less guarded nervous system may offer something 
+different.
 
-Are you assessing what's actually possible?
-Or what your patient is protecting against?
+This week we've explored what happens in the greet. 
+The first moments when a patient gathers information 
+about safety. Predictability. Whether this space feels 
+clear or uncertain.
 
-This week, we've explored the nervous system's 
-first question when arriving: Is this safe?
+When someone feels clear, different information may 
+become available to you. Not because they were dishonest 
+before. Because what they express during assessment 
+may be influenced, in part, by how safe and oriented 
+they feel.
 
-If the answer is no, or uncertain, the information 
-you get during assessment is limited by that 
-uncertainty.
+Did you notice this with your patients this week?
 
-If the answer is yes, the nervous system can 
-relax enough to show you what's real.
-
-This is why the greet matters clinically.
-
-Not because you're being nice.
-
-Because accurate assessment depends on it.
-
-What did you notice this week with your patients?
+Link in bio for the full article.
 ```
 
 ### Facebook Post
 
 ```
-A guarded nervous system provides guarded information.
+A protected nervous system provides meaningful information about the patient's current state.
 
-A regulated nervous system provides accurate information.
+A regulated nervous system may provide different information.
 
 This week we've been exploring a framework: the greet 
 is not the time before clinical work. It's where 
 clinical work begins.
 
-When your patient arrives, their nervous system is 
-asking: Is this safe? Is this predictable? Is this 
-person regulated?
+When your patient arrives, they are beginning to gather 
+information about the clinician, the environment, and 
+what will happen next.
 
 How you answer that question (through your pace, 
-your presence, your clarity) determines what they 
+your presence, your clarity) influences what they 
 can report during assessment.
 
 You can have the best assessment skills in the room. 
-But if the nervous system is still in vigilance mode, 
-you're assessing protection, not capacity.
+But if the patient is still uncertain, they may 
+protect tissues or limit motion, and you're assessing 
+their protective response in that moment.
 
 Here's what changes. When you recognize that the 
 therapeutic alliance begins the moment your patient 
 arrives. When you treat the greet as clinical 
 intervention. Your assessment becomes more useful. 
-Your treatment is based on actual capacity, not 
-protective guarding.
+Your treatment is based on what becomes possible when 
+uncertainty eases.
 
 And that changes outcomes.
 
@@ -72,8 +68,8 @@ Next week, we go deeper into assessment itself.
 But first, ask yourself: what nervous system state 
 did I offer my patients this week?
 
-What would change if I made regulation part of my 
-clinical protocol from the very first moment?
+What would change if I made orientation and clarity 
+part of my clinical protocol from the very first moment?
 ```
 
 ### LinkedIn Post
@@ -82,17 +78,17 @@ clinical protocol from the very first moment?
 There's a distinction that separates clinicians with 
 strong outcomes from those with inconsistent results:
 
-The difference between assessing a guarded system and 
-assessing a regulated system.
+The difference between assessing a patient who feels uncertain and 
+assessing a patient who feels oriented.
 
-A nervous system still in vigilance (protecting against 
-pain, uncertainty, or the momentum of the day) shows you 
-limitation. Guarding. Compensation. Protection.
+A patient who is uncertain about what will happen may protect tissues, 
+report heightened limitations, restrict motion. This is clinically 
+useful information. It tells you their protective state.
 
-A nervous system that's been helped to regulate shows 
-you something different: actual capacity. Movement quality. 
-Clear functional limitation separate from protective 
-limitation.
+A patient who is oriented to the session may show something 
+different. As the patient becomes more oriented, the clinician 
+may be better able to distinguish persistent findings from responses 
+influenced by uncertainty.
 
 This week, we've been exploring how this happens. It 
 begins with the greet.
@@ -165,85 +161,44 @@ accurate assessment data.
 ```
 Hi [First Name],
 
-The week's theme was "The Greet Is the First Clinical 
-Intervention."
+One clinical observation from the week:
 
-We started Monday with observation: Your patient walks 
-in still carrying the momentum of their day. Tuesday, we 
-turned the lens on you: Your presence, pace, and state 
-shape what becomes possible. Wednesday, we named the 
-signal you broadcast without realizing it. Your "beard." 
-Thursday, we put it together in the full article.
+When a patient arrives, they're gathering information 
+about safety. Predictability. Whether this moment feels 
+clear or uncertain. That happens before you ask a single 
+question.
 
-And now Friday: the clinical outcome.
+What you offer in the greet—orientation, clarity, your 
+actual presence—shapes what becomes available to them 
+in assessment.
 
-Better data begins with less uncertainty.
+A patient who feels certain about what's coming may 
+report different information than one who's still 
+uncertain. Not because one is honest and one isn't. 
+Because what they express during assessment may be 
+influenced, in part, by how safe and oriented they feel.
 
-When your patient's nervous system is certain this 
-moment is safe, they can show you what's actually 
-possible. When they're uncertain, they show you protection.
+Read Thursday's article for the full exploration.
 
-You can have perfect assessment skills. But if the 
-nervous system is still vigilant, you're not assessing 
-capacity. You're assessing protection.
-
-This is why the first five minutes matter clinically.
-
-The article we published Thursday goes deep on this. It explains why the greet is not the time before work, but where 
-the work begins.
-
-[READ: The Greet Is the First Clinical Intervention]
+[Read: The Greet Is the First Clinical Intervention]
 
 ---
 
-Here's what I'd like you to notice this week and next:
+Here's one practical question for your next patient:
 
-With your next patient, pay attention to the first 
-moments. What happens to their pace, their breathing, 
-their posture when they arrive?
+When they arrived, what pace were you moving at? What 
+state did you bring to that first moment?
 
-Then ask: What change do I notice if I slow down in 
-those first moments? If I'm clear about what comes 
-next? If I offer genuine orientation instead of 
-moving quickly toward evaluation?
-
-What nervous system state do they arrive in?
-
-What nervous system state do I offer them?
-
-The answers to those questions will change how you 
-think about your practice.
+That's not a judgment. It's information.
 
 ---
 
-**What We're Building**
-
-Week 1 established the framework: therapeutic alliance 
-is physiological. Permission precedes intervention. 
-Your state affects the clinical environment.
-
-Week 2 deepened that into practical moment: how those 
-principles show up in the greet, the first clinical 
-interaction.
-
-Next week, we go into assessment itself. How to evaluate 
-a patient whose system has been helped to regulate, and 
-what that makes visible.
-
-Each week builds on the previous framework. Each article 
-gives you language and structure to think differently 
-about your practice.
-
----
+Next week we go into assessment itself—what becomes 
+visible when you've created space for someone to feel 
+less guarded.
 
 Best,
 Drew
-
-P.S. Did something shift this week with your patients? 
-What did you notice? Reply to this email and tell me.
-
-The patterns you're noticing become the evidence we use 
-to refine how we teach this.
 ```
 
 ---

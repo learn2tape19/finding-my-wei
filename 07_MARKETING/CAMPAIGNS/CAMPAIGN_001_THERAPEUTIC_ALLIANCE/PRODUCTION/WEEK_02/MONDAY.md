@@ -10,26 +10,18 @@
 ### Instagram Post (Caption for Story or Feed)
 
 ```
-Your patient walks in.
+Your patient walks in carrying the momentum of their day.
 
-They're not regulated yet. They're not ready for assessment.
-They're still carrying the momentum of whatever happened 
-before they got to your door.
+For most clinicians, this is when the session begins. 
+We greet them, move them toward the table, start our evaluation.
 
-And for most of us, this is exactly when we begin our session.
+But what if the greet itself is clinical work?
 
-What if the clinical work started before they even sat down?
+This week we're exploring what happens in those first 
+moments before you touch anything.
 
-This week, we're exploring the greet as the first 
-clinical intervention. And why it changes everything.
-
-What happens in that first moment sets the tone for 
-what becomes possible next.
-
----
-
-This week: understanding what your patient's nervous 
-system is really asking when they arrive.
+What the patient's nervous system is gathering. What 
+predictability offers. Why orientation matters.
 
 Link in bio for the full article Thursday.
 ```

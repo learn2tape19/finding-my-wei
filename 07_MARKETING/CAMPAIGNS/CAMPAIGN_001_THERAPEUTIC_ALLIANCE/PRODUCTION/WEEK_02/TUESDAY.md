@@ -10,56 +10,44 @@
 ### Instagram / Facebook Post
 
 ```
-Your patient experiences your pace before 
-they experience your technique.
+Your presence registers before your technique does.
 
-This is not metaphor. This is neurology.
+Your pace. Your focus. Whether you seem engaged 
+with this patient or managing your schedule.
 
-When you're still moving at the speed of 
-your last appointment, they inherit that speed.
+These things are available to them before you 
+speak.
 
-Your calm, or your rushing, becomes their 
-baseline for what's possible.
+When you're still moving at the speed of your 
+last appointment, that speed is part of what 
+they encounter.
 
-What happens in your nervous system 
-affects what happens in theirs.
+Before you touch anything, ask yourself: What 
+state am I bringing to this room? What is this 
+patient actually experiencing?
 
-Before you touch anything, ask: What am I 
-bringing into this space? And what is my 
-patient reading in response?
-
-This is not about performing calmness.
-It's about actual presence.
+Not performing calmness. Showing up as you are.
 ```
 
 ### LinkedIn Post
 
 ```
-There's a concept in neuroscience called co-regulation: 
-the nervous system of one person influences the nervous 
-system of another.
+Co-regulation is a term from neuroscience: one nervous 
+system can influence another.
 
-In clinical practice, this means something specific:
+In clinical work, this has a practical meaning. Your 
+state registers. Your pace. Your presence. Whether you 
+seem engaged or split between tasks.
 
-Your state affects their state.
+When you're regulated and focused, the patient may find 
+it easier to organize themselves. When you're rushed or 
+distracted, they experience that too.
 
-When you're regulated, calm, and present, your patient's 
-nervous system has an easier time organizing.
+This is worth considering as part of clinical skill. 
+Not as performance. As actual presence—what you bring 
+to the room before technique begins.
 
-When you're rushed, distracted, or moving between tasks,
-they read that too.
-
-Most clinicians don't think about this as part of their 
-clinical skill. But it may be more important than the 
-techniques we teach.
-
-The best outcomes don't come from better technique alone.
-
-They come from clinicians who understand that presence 
-is a clinical intervention.
-
-What is your nervous system state communicating to 
-your patients?
+What state are you offering in the treatment room?
 ```
 
 ### Instagram Story
@@ -186,4 +174,85 @@ Duration: 5-7 seconds
 
 ---
 
-**Status:** Awaiting Creative Brief Approval + Designer Image Production
+---
+
+## Facebook Post (Platform Adaptation)
+
+```
+Your presence registers before your technique does.
+
+Your pace. Your focus. Whether you seem engaged 
+with this patient or managing your schedule.
+
+These are part of what they encounter before you 
+speak.
+
+When you're still moving at the speed of your 
+last appointment, that speed is part of what 
+they experience.
+
+Before you touch anything, ask yourself: What 
+state am I bringing to this room? What is this 
+patient actually experiencing?
+
+Not performing calmness. Showing up as you are.
+
+---
+
+What state did you bring to your first patient today?
+```
+
+---
+
+## LinkedIn Post (Professional Positioning)
+
+```
+Co-regulation is a term from neuroscience: one nervous 
+system can influence another.
+
+In clinical work, this has a practical meaning. Your 
+state registers. Your pace. Your presence. Whether you 
+seem engaged or split between tasks.
+
+When you're regulated and focused, the patient may find 
+it easier to organize themselves. When you're rushed or 
+distracted, they experience that too.
+
+This is worth considering as part of clinical skill. 
+Not as performance. As actual presence—what you bring 
+to the room before technique begins.
+
+What state are you offering in the treatment room?
+```
+
+---
+
+## Instagram Story (Corrected)
+
+```
+Frame 1 (3 sec):
+Text: "Your pace becomes their pace.
+Your presence shapes their capacity.
+You are part of the clinical environment."
+
+Visual: Clinician in calm posture, natural light, 
+moment of genuine focus/attention
+
+Frame 2 (4 sec):
+Text: "Before you touch anything, notice:
+What state are you in?
+What are they experiencing?"
+
+Visual: Clinician and patient, moment of connection
+
+Frame 3 (5 sec):
+Text: "This week: exploration of what the clinician brings.
+New article Thursday.
+Link in bio."
+
+Visual: Inviting, forward-looking image
+```
+
+---
+
+**Status:** Complete — All platform adaptations written, all Stories created

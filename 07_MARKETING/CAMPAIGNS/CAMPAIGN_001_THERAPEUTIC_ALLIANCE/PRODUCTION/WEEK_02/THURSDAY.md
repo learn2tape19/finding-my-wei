@@ -66,30 +66,21 @@ the-greet-is-first-clinical-intervention
 ### Instagram Post (Article Launch)
 
 ```
-THE GREET IS THE FIRST CLINICAL INTERVENTION
+The clinical session doesn't begin when you place 
+your hands. It begins when the patient arrives.
 
-Your patient walks in. Their nervous system is 
-already working to answer a question: Is this safe?
+What happens in those first moments matters.
 
-The clinical session doesn't start when you touch them.
+The greet as observation. Orientation. Creating 
+space for the patient to land in clarity instead 
+of uncertainty.
 
-It starts when they arrive.
+New article explores what's actually happening 
+when you greet someone for the first time.
 
-This week's article explores why the first moments 
-matter more than most clinicians realize. Discover how 
-a thoughtful greet changes everything that follows.
+Link in bio.
 
-New article live now. Link in bio.
-
----
-
-What does your patient experience in that first moment 
-when they enter your space?
-
-[Read "The Greet Is the First Clinical Intervention"]
-
-#ClinicalExcellence #TherapyProfessional 
-#NervousSystemAwareness
+#ClinicalAwareness #Practice
 ```
 
 **Dimensions:** 1080 × 1350 px  
@@ -105,14 +96,13 @@ THE GREET IS THE FIRST CLINICAL INTERVENTION
 
 The clinical session begins before the formal assessment.
 
-When your patient walks in, before you even speak, 
-their nervous system is already working. It's asking: 
-Is this safe? Is this predictable? Is this person 
-regulated?
+When your patient walks in, they are beginning to gather 
+information about the clinician, the environment, and 
+what will happen next.
 
-The answers to those questions are based on the pace you 
-offer, the clarity you provide, the presence you bring.
-determine what will be possible during everything that 
+The answers to those questions may be based on the pace you 
+offer, the clarity you provide, the presence you bring. 
+These may influence what becomes possible during everything that 
 follows.
 
 This isn't just rapport-building. This is foundational 
@@ -395,6 +385,37 @@ patient outcomes.
 ```
 
 **Note:** This is the only book mention. No hard sell. No urgency. No pricing. Just one dignified invitation.
+
+---
+
+## Thursday Instagram Stories (Article Launch)
+
+```
+Frame 1 (3 sec):
+Text: "New article live now.
+'The Greet Is the First Clinical Intervention'
+Read it. Change how you think about those first moments."
+
+Visual: Article hero image or featured moment
+
+---
+
+Frame 2 (4 sec):
+Text: "Your patient begins gathering information 
+when they arrive.
+What do they experience?"
+
+Visual: Clinician's presence, calm, grounded
+
+---
+
+Frame 3 (5 sec):
+Text: "What happens in those first moments shapes 
+what becomes possible in the session.
+Link in bio."
+
+Visual: Moment of clinical connection, engaging
+```
 
 ---
 

@@ -7,93 +7,95 @@
 
 ## Instagram Carousel (5 slides)
 
-**Slide 1: Hook**
+**Slide 1: The Story**
 
 ```
-Text: "Every clinician has a beard.
+Text: "When I was building my practice in Tampa, 
+I noticed something.
 
-Not facial hair.
+Some people described me as aggressive or 
+intimidating.
 
-A signal."
+This was not my intention.
 
-Visual: Clinician's face in profile or three-quarter view, 
-natural light, calm expression. Focus on authenticity, 
-not perfection. 
+I wasn't changing my technique or how I worked. 
+I was the same clinician offering the same care."
+
+Visual: Portrait or three-quarter view, natural light, 
+thoughtful expression.
 
 Design: Large text, high contrast, minimal background.
 ```
 
 ---
 
-**Slide 2: Meaning**
+**Slide 2: The Change**
 
 ```
-Text: "A 'beard' is something you may not realize 
-a patient's nervous system is reading.
+Text: "So I shaved my beard.
 
-It's not about looking a certain way.
+I didn't change my technique. Didn't change my 
+presence or pace. Didn't change how I practiced.
 
-It's about the signal you're broadcasting 
-without meaning to."
+I removed one signal.
 
-Visual: Two figures at a distance, attentive body language 
-between them. Sense of observation, awareness.
+My client base grew.
 
-Design: Clear text, subtle visual relationship between 
-clinician and patient.
+That result forced me to reconsider the difference 
+between what I intended and what some people 
+experienced."
+
+Visual: Two figures in conversation, approachable 
+posture, genuine engagement.
+
+Design: Clear text, natural interaction.
 ```
 
 ---
 
-**Slide 3: Examples**
+**Slide 3: The Insight**
 
 ```
-Text: "Your beard might be:
+Text: "What I understood:
 
-• The pace you move at
-• The tone of your voice
-• Your posture
-• How quickly you transition between patients
-• The lighting you choose
-• How you handle silence
-• Your level of clinical intensity
-• Whether you seem distracted
+Intention is not what people experience.
 
-Any of these can be your beard.
+What they experience is the signal.
+
+My intention was thoughtful care. But my signal 
+communicated something different to some people.
+
+I wasn't bad at what I did. I was simply unaware 
+of what my presence was broadcasting."
+
+Visual: Clinician and patient in genuine moment, 
+attentive, real.
+
+Design: Powerful typography, white space.
+```
+
+---
+
+**Slide 4: Beyond Appearance**
+
+```
+Text: "Your beard isn't about facial hair.
+
+It's any signal you're broadcasting without 
+realizing it.
+
+Your pace. Your tone. How quickly you transition 
+between patients. How you handle silence. 
+Whether you seem present or distracted.
+
+All of these can be a beard.
+
 What's yours?"
 
-Visual: Multiple subtle moments. Hands moving at pace, 
-patient listening, clinician focused. Composite or montage 
-suggesting multiple dimensions.
+Visual: Multiple subtle moments, different contexts 
+and signals.
 
-Design: Clean list format, readable at mobile size.
-```
-
----
-
-**Slide 4: Clinical Insight**
-
-```
-Text: "Here's what matters:
-
-Your intention isn't what your patient reads.
-
-Your patient's nervous system reads what 
-you actually broadcast.
-
-If you intend to be calm but move rushed, 
-they read rushed.
-
-If you intend to listen but seem impatient, 
-they feel hurried.
-
-The gap between what you intend and what 
-gets received. That's your beard."
-
-Visual: Close-up of clinician and patient in conversation, 
-genuine eye contact or attention. Real moment.
-
-Design: Powerful typography, white space around text.
+Design: Clean, accessible format.
 ```
 
 ---
@@ -101,24 +103,25 @@ Design: Powerful typography, white space around text.
 **Slide 5: Reflection & CTA**
 
 ```
-Text: "What's your beard?
+Text: "Awareness gives us a chance to notice the 
+difference between what we intend and what 
+another person experiences.
 
-The signal you broadcast without realizing it?
+Not to change who you are. But to understand 
+what you're actually communicating.
 
-This week's article explores how awareness 
-of your beard changes what your patient 
-experiences.
+This week's article explores how the first moments 
+with a patient are shaped by signals you may not 
+realize you're sending.
 
-Read the full piece. Understand what your 
-nervous system is communicating.
+Read it. Then ask yourself: what's my beard?
 
 Link in bio."
 
-Visual: Clinician in moment of reflection or presence, 
-calm, grounded. Suggests self-awareness without 
-performance.
+Visual: Clinician in moment of genuine presence, 
+calm, grounded, authentic.
 
-Design: Inviting, open, reflective. CTA clear.
+Design: Inviting, open, reflective.
 ```
 
 ---
@@ -275,23 +278,24 @@ Visual: Open book or article preview
 **Instagram Caption:**
 
 ```
-Every clinician has a "beard". A signal your patient's 
-nervous system reads without you realizing you're 
-broadcasting it.
+Every clinician has a "beard"—not facial hair, but a 
+signal they're broadcasting without realizing it.
 
-It might be your pace. Your tone. Your posture. 
-Your presence or distraction.
+I learned this in Tampa when some people described me 
+as aggressive despite my care. I shaved my beard 
+without changing my technique, and my client base grew. 
+That result made me reconsider the signals patients 
+may notice before the clinical work begins.
 
-What matters isn't what you intend. What matters is 
-what actually gets received.
+What you intend and what people experience aren't 
+always the same.
 
-Swipe through to understand your signal. Then read 
-Thursday's full article to explore what changes when 
-you become aware.
+Swipe through to hear the story. Then read Thursday's 
+article to explore what signals you might be sending.
 
-What's your beard? Drop it in the comments.
+What's your beard?
 
-#TherapyProfessional #ClinicalExcellence #MindfulPractice
+#TherapyProfessional #ClinicalAwareness #Practice
 ```
 
 **Instagram Stories:**
@@ -423,4 +427,116 @@ What's your beard? Drop it in the comments.
 
 ---
 
-**Status:** Awaiting Designer Brief + 5-Slide Carousel Production + Image Photography
+---
+
+## Facebook Post (Beard Concept Adaptation)
+
+```
+Every clinician has a "beard."
+
+Not facial hair. A signal. Something your patient's 
+nervous system is reading, often without you realizing 
+you're broadcasting it.
+
+Your beard might be:
+
+The pace you move at. The tone of your voice. 
+Your posture. How you handle silence. Whether 
+you seem present or distracted.
+
+Here's the clinical insight: Your patient doesn't read 
+your intention. They read what you actually broadcast.
+
+You might intend to be calm, but if you move rushed, 
+they read rushed. You might intend to listen, but if 
+you seem impatient, they feel hurried.
+
+That gap between what you intend and what they receive? That's your beard.
+
+What's yours?
+
+This week, we're exploring what happens when 
+clinicians become aware of what they're actually 
+communicating. It changes everything.
+
+Read this week's article.
+```
+
+---
+
+## LinkedIn Post (Professional Positioning)
+
+```
+There's a concept from Chapter 2 of *The Tao of Clinical 
+Touch* that every clinician should understand: every 
+clinician has a "beard."
+
+Not facial hair. A signal. Something your patient's 
+nervous system reads without you necessarily realizing 
+you're broadcasting it.
+
+It might be your pace. Your tone. Your posture. 
+Your clinical intensity. How present or distracted 
+you seem.
+
+Here's what separates clinicians who build deep 
+practice from those who struggle:
+
+Awareness of the gap between what they intend to 
+communicate and what they actually broadcast.
+
+You might intend to be calm and present. But if you're 
+moving between patients rapidly, if your attention is 
+divided, if your own system is dysregulated, your patient 
+reads that.
+
+This is not about performing serenity. It's about actual 
+presence.
+
+The best clinical outcomes don't come from perfect 
+technique. They come from clinicians who understand 
+that their own presence is a clinical tool.
+
+What signal are you broadcasting without meaning to?
+
+This week we're exploring how awareness of your "beard" 
+changes what becomes possible in your practice.
+
+Read this week's article.
+```
+
+---
+
+## Wednesday Instagram Stories (Beard Concept - Corrected)
+
+```
+Frame 1 (4 sec):
+Text: "Every clinician has a 'beard.'"
+Text: "Not facial hair."  
+Text: "A signal you're broadcasting without realizing it."
+
+Visual: Clinician's face in natural light, thoughtful expression
+
+---
+
+Frame 2 (4 sec):
+Text: "Your pace. Your tone. Your focus."
+Text: "Whether you seem engaged or distracted."
+Text: "These signals may be noticed before touch begins."
+
+Visual: Clinician and patient in conversation, genuine attention
+
+---
+
+Frame 3 (5 sec):
+Text: "What you intend matters."
+Text: "What we intend and what another person experiences 
+are not always the same."
+Text: "Tap the link to read the full story."
+
+Visual: Carousel preview or directing to feed
+```
+
+---
+
+**Status:** Complete — All platform adaptations written, all Wednesday Stories created
