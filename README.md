@@ -35,7 +35,7 @@ Every asset has:
 The IEMS is organized in **6 layers**, from governance to working domains:
 
 ## Layer 0: Constitution
-**[00_CONSTITUTION/](00_CONSTITUTION/)**
+**[00_Constitution/](00_Constitution/)**
 
 The permanent governing charter. Non-negotiable. Changes only through formal amendment.
 
@@ -280,7 +280,7 @@ This means future collaborators can understand the system **without external exp
 1. Propose the amendment with rationale
 2. Assess impact on the system
 3. Drew Freedman reviews and decides
-4. Amendment is documented in [00_CONSTITUTION/AMENDMENTS.md](00_CONSTITUTION/AMENDMENTS.md)
+4. Amendment is documented in [00_Constitution/AMENDMENTS.md](00_Constitution/AMENDMENTS.md)
 5. Effective date is recorded
 
 ---
@@ -317,7 +317,7 @@ This system is designed to:
 
 # Getting Started
 
-1. **Read the Constitution:** [00_CONSTITUTION/CONSTITUTION.md](00_CONSTITUTION/CONSTITUTION.md)
+1. **Read the Constitution:** [00_Constitution/CONSTITUTION.md](00_Constitution/CONSTITUTION.md)
 2. **Understand the layers:** This README
 3. **Find your domain:** [05_DOMAINS/](05_DOMAINS/)
 4. **Read the charter:** [DOMAIN/CHARTER.md](05_DOMAINS/)
