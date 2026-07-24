@@ -1,11 +1,11 @@
 # Campaign 001: Therapeutic Alliance — Publication Index
 
-**Campaign:** Campaign 001  
-**Theme:** Therapeutic Alliance  
-**Week:** 01  
-**Period:** July 8-14, 2026  
-**Established:** July 9, 2026  
-**Last Updated:** July 9, 2026  
+**Campaign:** Campaign 001
+**Theme:** Therapeutic Alliance
+**Week:** 01
+**Period:** July 8-14, 2026
+**Established:** July 9, 2026
+**Last Updated:** July 9, 2026
 
 ---
 
@@ -291,9 +291,116 @@ Each article naturally prepares the reader for the next one.
 
 ---
 
-**Document Status:** Active Publication Index  
-**Last Updated:** July 9, 2026  
-**Next Review:** July 10, 2026 (pre-publication)  
+---
+
+## Week 03 Publication Ledger
+
+### Tuesday, July 22, 2026 — Assessment Begins Before the Test
+
+| Field | Value |
+|-------|-------|
+| **Day** | Tuesday |
+| **Article Title** | Assessment Begins Before the Test |
+| **Theme** | Assessment Context |
+| **Core Message** | Formal testing is necessary but not sufficient |
+| **Status** | Published |
+| **Editorial Review Status** | ✅ APPROVED & PUBLISHED |
+| **Founder Approval** | ✅ Approved |
+| **Repository Location** | `/07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/PRODUCTION/WEEK_03/TUESDAY.md` |
+| **Repository Commit Hash** | ac63839 |
+| **Blog Post Status** | LIVE |
+| **Publication Status** | LIVE |
+| **Actual Publication Time** | Not recorded |
+| **Live Blog URL** | Not recorded |
+| **Last Revision Date** | July 21, 2026 |
+
+---
+
+### Wednesday, July 23, 2026 — Observe Before You Correct
+
+| Field | Value |
+|-------|-------|
+| **Day** | Wednesday |
+| **Article Title** | Observe Before You Correct |
+| **Theme** | Clinician Presence in Assessment |
+| **Core Message** | Observation comes before interpretation |
+| **Status** | Published |
+| **Editorial Review Status** | ✅ APPROVED & PUBLISHED |
+| **Founder Approval** | ✅ Approved |
+| **Repository Location** | `/07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/PRODUCTION/WEEK_03/WEDNESDAY.md` |
+| **Repository Commit Hash** | bf12eca |
+| **Blog Post Status** | LIVE |
+| **Publication Status** | LIVE |
+| **Actual Publication Time** | Not recorded |
+| **Live Blog URL** | Not recorded |
+| **Last Revision Date** | July 22, 2026 |
+
+---
+
+### Thursday, July 24, 2026 — What Are You Actually Assessing?
+
+| Field | Value |
+|-------|-------|
+| **Day** | Thursday |
+| **Article Title** | What Are You Actually Assessing? |
+| **Theme** | Assessment Context & Interpretation |
+| **Core Message** | Assessment findings depend on conditions |
+| **Status** | Published / Complete |
+| **Editorial Review Status** | ✅ APPROVED & PUBLISHED |
+| **Founder Approval** | ✅ Approved |
+| **Repository Location** | `/07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/PRODUCTION/WEEK_03/THURSDAY.md` |
+| **Repository Commit Hash** | 26e88e8 |
+| **Blog Post Status** | LIVE |
+| **Publication Status** | LIVE |
+| **Actual Publication Time** | Not recorded |
+| **Live Blog URL** | Not recorded |
+| **Email Campaign #32** | Sent July 23, 3:02 PM; 11,503 recipients; 247 opens (2.18%); 17 clicks (0.15%) |
+| **Email Campaign #33** | Sent July 23, 4:01 PM; 836 recipients; 55 opens (6.8%); 41 clicks (5.07%) |
+| **Last Revision Date** | July 23, 2026 |
+
+---
+
+### Friday, July 24, 2026 — The Two-Breath Pause
+
+| Field | Value |
+|-------|-------|
+| **Day** | Friday |
+| **Article Title** | The Two-Breath Pause |
+| **Theme** | Practical Assessment Technique |
+| **Core Message** | Pause translates principle into practice |
+| **Status** | Published / Complete |
+| **Editorial Review Status** | ✅ APPROVED & PUBLISHED |
+| **Founder Approval** | ✅ Approved |
+| **Repository Location** | `/07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/PRODUCTION/WEEK_03/FRIDAY.md` |
+| **Repository Commit Hash** | ecb0e8f |
+| **Visual Assets** | 6 v3 logo-branded PNG files (Story frames, feed images) |
+| **Asset Repository Location** | `/07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/PRODUCTION/WEEK_03/ASSETS/FRIDAY/` |
+| **Blog Post Status** | LIVE |
+| **Publication Status** | LIVE |
+| **Actual Publication Time** | Not recorded |
+| **Live Blog URL** | Not recorded |
+| **Last Revision Date** | July 24, 2026 |
+
+---
+
+## Week 03 Publication Status Summary
+
+| Day | Title | Status | Published |
+|-----|-------|--------|-----------|
+| Tuesday | Assessment Begins Before the Test | ✅ LIVE | ✅ Yes |
+| Wednesday | Observe Before You Correct | ✅ LIVE | ✅ Yes |
+| Thursday | What Are You Actually Assessing? | ✅ LIVE | ✅ Yes |
+| Friday | The Two-Breath Pause | ✅ LIVE | ✅ Yes |
+
+**Week 3 Status:** PUBLISHED / COMPLETE
+**Retrospective Location:** `/07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/RETROSPECTIVES/WEEK_03_RETROSPECTIVE.md`
+**Week 4 Status:** NOT STARTED / READY PENDING FOUNDER APPROVAL
+
+---
+
+**Document Status:** Active Publication Index
+**Last Updated:** July 24, 2026
+**Next Review:** Week 4 planning
 **Maintained By:** Editorial Board
 
 ---

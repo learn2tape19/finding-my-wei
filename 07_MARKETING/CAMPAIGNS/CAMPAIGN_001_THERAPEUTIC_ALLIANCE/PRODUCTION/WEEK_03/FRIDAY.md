@@ -38,9 +38,9 @@ The Two-Breath Pause is performed after initial contact meets tissue resistance.
 | Asset | Dimensions | Location | Description |
 |---|---|---|---|
 | Instagram Feed | 1080 × 1350 | INSTAGRAM_FEED/ | "The Two-Breath Pause" with sustained contact, Tao logo |
-| Story Frame 1 | 1080 × 1920 | INSTAGRAM_STORIES/ | "THE INTERPRETATION" — Notice what changes and what does not |
-| Story Frame 2 | 1080 × 1920 | INSTAGRAM_STORIES/ | "THE PRACTICE" — Match resistance, maintain contact, do not deepen |
-| Story Frame 3 | 1080 × 1920 | INSTAGRAM_STORIES/ | "The Two-Breath Pause" — Clinical teaching sequence |
+| Story Frame 1 | 1080 × 1920 | INSTAGRAM_STORIES/ | "The Two-Breath Pause" — Introduction, "When contact meets resistance, pause" |
+| Story Frame 2 | 1080 × 1920 | INSTAGRAM_STORIES/ | "THE PRACTICE" — Match resistance, maintain contact, do not deepen, wait |
+| Story Frame 3 | 1080 × 1920 | INSTAGRAM_STORIES/ | "THE INTERPRETATION" — Notice what changes and what does not |
 | Facebook Feed | 1200 × 628 | FACEBOOK_FEED/ | Landscape: "Match the resistance. Do not push through" with Tao logo |
 | LinkedIn Feed | 1200 × 627 | LINKEDIN_FEED/ | Landscape: "Match the resistance. Do not push through" with Tao logo |
 
@@ -111,13 +111,11 @@ This practice embodies the same principle that shaped Week 3 of our teaching seq
 
 ## INSTAGRAM STORIES SEQUENCE
 
-### Frame 1: THE INTERPRETATION
+### Frame 1: THE TWO-BREATH PAUSE
 
-Overlay text: "Notice what changes—and what does not."
+Overlay text: "The Two-Breath Pause"
 
-Body text: "A change contributes information. It does not determine the cause."
-
-Closing line: "Perception first. Interpretation second."
+Body text: "When contact meets resistance, pause."
 
 ---
 
@@ -132,11 +130,13 @@ Body text:
 
 ---
 
-### Frame 3: THE TWO-BREATH PAUSE
+### Frame 3: THE INTERPRETATION
 
-Overlay text: "The Two-Breath Pause"
+Overlay text: "Notice what changes—and what does not."
 
-Body text: "When contact meets resistance, pause."
+Body text: "A change contributes information. It does not determine the cause."
+
+Closing line: "Perception first. Interpretation second."
 
 ---
 
@@ -148,7 +148,7 @@ Body text: "When contact meets resistance, pause."
 
 ### Story Frame 1 Alt Text
 
-> Warm, light background with sage green accent rule. Large text reads: "THE INTERPRETATION" in capitals, followed by "Notice what changes—and what does not." Below: "A change contributes information. It does not determine the cause." and "Perception first. Interpretation second." Hands-on clinical scene showing sustained contact on patient's back. Tao logo in corner.
+> Light background. Large text: "The Two-Breath Pause" with sage green accent rule. Below: "When contact meets resistance, pause." Practitioner's hand shows sustained contact on patient's back in clinical setting. Tao logo in corner.
 
 ### Story Frame 2 Alt Text
 
@@ -156,7 +156,7 @@ Body text: "When contact meets resistance, pause."
 
 ### Story Frame 3 Alt Text
 
-> Light background. Large text: "The Two-Breath Pause" with sage green accent rule. Below: "Match the resistance. Do not push through it." Practitioner's hand shows sustained contact on patient's back in clinical setting. Tao logo in corner.
+> Warm, light background with sage green accent rule. Large text reads: "THE INTERPRETATION" in capitals, followed by "Notice what changes—and what does not." Below: "A change contributes information. It does not determine the cause." and "Perception first. Interpretation second." Hands-on clinical scene showing sustained contact on patient's back. Tao logo in corner.
 
 ### Facebook Feed Alt Text
 

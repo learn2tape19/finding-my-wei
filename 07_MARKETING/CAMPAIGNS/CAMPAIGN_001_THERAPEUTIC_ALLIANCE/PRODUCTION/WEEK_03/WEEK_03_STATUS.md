@@ -52,6 +52,26 @@
 
 **Week 3 repository status:** Commit ecb0e8f (Friday Two-Breath Pause package)
 
+## Email Campaign Performance History
+
+### Campaign #28 — "What actually creates clinical change?"
+
+- Sent: July 7, 2026 at 3:57 PM
+- Recipients: 11,622
+- Opens: 730 (Open rate: 6.36%)
+- Clicks: 68 (Click rate: 0.59%)
+- Unsubscribed: 32 (Unsubscribe rate: 0.28%)
+- Conversions: 0
+
+### Campaign #31 — "The greet is the first intervention"
+
+- Sent: July 16, 2026 at 4:33 PM
+- Recipients: 6,793
+- Opens: 666 (Open rate: 9.93%)
+- Clicks: 28 (Click rate: 0.42%)
+- Unsubscribed: 22 (Unsubscribe rate: 0.33%)
+- Conversions: 0
+
 ## Email Campaign Performance — Week 3
 
 ### Campaign #32 — "What are you assessing?" (Primary)
