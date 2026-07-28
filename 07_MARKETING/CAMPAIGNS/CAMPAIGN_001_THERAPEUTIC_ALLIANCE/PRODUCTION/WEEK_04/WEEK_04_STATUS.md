@@ -23,8 +23,9 @@
 ### MONDAY — Listening Is a Clinical Intervention
 
 **Campaign Position:** Week 4 Monday  
-**Intended Campaign Date:** July 27, 2026  
-**Actual Publication Status:** Scheduled for July 28, 2026 (Controlled delayed publication)  
+**Intended Campaign Date:** Monday, July 27, 2026  
+**Actual Scheduled Date:** Tuesday, July 28, 2026 (Controlled delayed publication)  
+**Delay Reason:** Production completion and Founder approval timing  
 
 **Platform Status:**
 
@@ -111,26 +112,34 @@
 
 ## Complete Asset Count by Day
 
-| Day | Feed Posts | Story Frames | Total Assets | Total Bytes |
+| Day | Feed Visual Assets | Story Frames | Total Visual Files | Total Bytes |
 |---|---|---|---|---|
 | Monday | 3 (IG, FB, LI) | 3 | 6 | 713,943 |
-| Wednesday | 6 (5 IG carousel + 1 FB + 1 LI) | 3 | 10 | 1,160,214 |
+| Wednesday | 7 (5 IG carousel + 1 FB + 1 LI) | 3 | 10 | 1,160,214 |
 | Thursday | 3 (IG, FB, LI) | 3 | 6 | 594,237 |
 | Friday | 3 (IG, FB, LI) | 3 | 6 | 873,737 |
-| **WEEK 4 TOTAL** | **15** | **12** | **28** | **3,342,131** |
+| **WEEK 4 TOTAL** | **16** | **12** | **28** | **3,342,131** |
+
+**Publication Count Clarification:**
+- **Visual files:** 28 (including Wednesday's 5 carousel slides as separate files in repository)
+- **Feed posts:** 12 (Instagram, Facebook, LinkedIn × 4 days)
+- **Story sequences:** 4 (one per day, each containing 3 frames)
+- **Story frames:** 12 (3 per day × 4 days)
+- **Total individual content units:** 24 (12 feed posts + 12 Story frames when each frame is counted separately)
 
 ---
 
-## Scheduling Schedule (All Times ET)
+## Publishing Schedule (All Times ET)
 
-**Instagram Posting Times:** 7:00 AM (feed), 7:15 AM / 7:20 AM / 7:25 AM (Stories)  
-**Facebook Posting Time:** 8:00 AM (feed)  
-**LinkedIn Posting Time:** 8:30 AM (feed)  
+**Instagram Feed:** 7:00 AM  
+**Facebook Feed:** 8:00 AM  
+**LinkedIn Feed:** 8:30 AM  
+**Instagram Stories:** After Instagram feed post  
 
-**Monday (July 28):** All six posts scheduled (controlled delay from July 27 campaign date)  
-**Wednesday (July 29):** All nine posts scheduled (5 carousel slides + 1 feed + 3 Stories)  
-**Thursday (July 30):** All six posts scheduled  
-**Friday (July 31):** All six posts scheduled (week-closing synthesis)  
+**Monday (July 28):** Six visual assets scheduled (controlled delay from July 27 campaign date; Instagram feed, 3 Story frames, Facebook feed, LinkedIn feed)  
+**Wednesday (July 29):** Nine visual assets scheduled (5 Instagram carousel slides, 1 Facebook feed, 1 LinkedIn feed, 3 Story frames)  
+**Thursday (July 30):** Six visual assets scheduled (Instagram feed, 3 Story frames, Facebook feed, LinkedIn feed)  
+**Friday (July 31):** Six visual assets scheduled (week-closing synthesis; Instagram feed, 3 Story frames, Facebook feed, LinkedIn feed)  
 
 ---
 

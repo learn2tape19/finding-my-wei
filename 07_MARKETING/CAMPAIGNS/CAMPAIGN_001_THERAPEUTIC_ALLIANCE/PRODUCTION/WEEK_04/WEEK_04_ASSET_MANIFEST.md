@@ -7,6 +7,12 @@
 **Visual Standard:** Canonical Social Visual Doctrine v1.0 (Founder-approved July 27, 2026)  
 **Approval Status:** All assets Founder-approved; all checksums verified  
 
+**Checksum Verification Standard:**
+- All 28 files verified against canonical source hashes provided in Founder handoff documents (Wednesday/Thursday/Friday handoffs included SHA-256 checksums)
+- Monday files verified against PUBLICATION_AUTHORIZATION.md and ASSET_INTEGRITY_REPORT.md source comparison
+- Verification method: SHA-256 byte-for-byte comparison between source files and staged repository files
+- All files match source specifications exactly (no conversion, recompression, or regeneration)
+
 ---
 
 ## MONDAY — Listening Is a Clinical Intervention
