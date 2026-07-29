@@ -44,27 +44,39 @@ Work is institutionally preserved when:
 - Commit SHA is recorded in the session log
 - Foundation Closeout Report is generated
 
-Institutional preservation is the act of moving work from planning into the permanent institutional record.
+**Institutional preservation is mechanical.** It answers: "Is this work in the permanent institutional record?" 
+
+Institutional preservation does NOT require Founder approval. It is the act of moving work from planning into the permanent institutional record. A piece of work can be institutionally preserved without being Founder-approved.
+
+### Founder Acceptance
+Work receives Founder acceptance when:
+- Founder has reviewed the preserved work
+- Founder has approved the approach, quality, or governance
+- Founder has recorded their approval in the institutional record
+
+**Founder acceptance is governance.** It answers: "Does the Founder approve this work as institutional law?"
+
+Founder acceptance requires explicit Founder decision and is recorded independently from preservation.
 
 ### Institutional Completion
 Work is institutionally complete when:
-- Institutional preservation is accomplished
-- Founder has reviewed and approved the result
-- The work has been marked as Approved in the institutional record
+- Institutional preservation is accomplished AND
+- Founder acceptance is recorded
 
-Institutional completion includes both preservation and approval.
+Institutional completion represents the full lifecycle: work has been preserved AND approved.
 
 ---
 
 ## LIFECYCLE STATES
 
-Every Foundry work session follows this lifecycle:
+Foundry work sessions follow this lifecycle, where Institutional Preservation and Founder Acceptance are independent events:
 
 ### Phase 1: Operational Completion
 ```
-Status: OPERATIONALLY COMPLETE
-Founder Approval: NOT YET REQUIRED
-Example: Specification written, design finalized, ready for implementation
+Status:                    OPERATIONALLY COMPLETE
+Institutional Preservation: N/A (not yet)
+Founder Acceptance:        N/A (not yet required)
+Example: Specification written, design finalized, ready for repository integration
 ```
 
 At this point:
@@ -74,31 +86,47 @@ At this point:
 - ❌ Work is not yet in the repository
 - ❌ Work is not yet institutional
 
-### Phase 2: Institutional Preservation
+### Phase 2: Institutional Preservation (Independent)
 ```
-Status: INSTITUTIONALLY PENDING
-Founder Approval: PENDING
-Example: Documentation committed to repository, GitHub synchronized
+Status:                    INSTITUTIONALLY PRESERVED
+Institutional Preservation: COMPLETE
+Founder Acceptance:        PENDING (independent decision)
+Example: Documentation committed to repository, GitHub synchronized, work is permanent
 ```
 
 At this point:
 - ✓ Work is in the repository
-- ✓ Changes are committed and pushed
+- ✓ Changes are committed and pushed to GitHub
 - ✓ Repository is clean
 - ✓ Work is preserved for future operators
-- ❌ Work has not yet received Founder approval
+- ✓ Work is protected and permanent
+- ⏳ Founder acceptance is a separate, independent decision
 
-### Phase 3: Institutional Completion
+**Key Point:** Founder does not need to approve the work for it to be institutionally preserved. Preservation is the Repository Steward's responsibility. Acceptance is the Founder's responsibility.
+
+### Phase 3: Founder Acceptance (Independent)
 ```
-Status: INSTITUTIONALLY COMPLETE
-Founder Approval: APPROVED
+Status:                    INSTITUTIONALLY PRESERVED + FOUNDER ACCEPTED
+Institutional Preservation: COMPLETE
+Founder Acceptance:        APPROVED
 Example: Founder has reviewed and approved the preserved work
 ```
 
 At this point:
 - ✓ Work is in the repository
-- ✓ Work has been approved
+- ✓ Work has been Founder-approved
 - ✓ Work is constitutional law
+- ✓ Preservation and acceptance are both recorded
+
+### Phase 4: Institutional Completion
+```
+Status:                    INSTITUTIONALLY COMPLETE
+Institutional Preservation: COMPLETE
+Founder Acceptance:        APPROVED
+Example: Full lifecycle: work is preserved and accepted
+```
+
+At this point, all governance requirements are satisfied.
 
 ---
 
@@ -166,24 +194,23 @@ Generate the mandatory Foundation Closeout Report (detailed below).
 Every Foundry work session shall conclude with this report format:
 
 ```
-═══════════════════════════════════════════════════════════════
+═══════════════════════════════════════════════════════════════════════════
 FOUNDATION CLOSEOUT REPORT
 
-Session:                   [Session Name/Date]
-Repository Updated:        YES / NO
-Git Commit Created:        YES / NO  
-GitHub Synchronized:       YES / NO
-Working Tree Clean:        YES / NO
+Session:                      [Session Name/Date]
+Repository Updated:           YES / NO
+Git Commit Created:           YES / NO  
+GitHub Synchronized:          YES / NO
+Working Tree Clean:           YES / NO
 
 Commit Information:
-  Short SHA:             [7-character SHA]
-  Full SHA:              [40-character SHA]
-  Message:               [Commit message]
-  Remote:                [GitHub URL]
+  Short SHA:                [7-character SHA]
+  Full SHA:                 [40-character SHA]
+  Message:                  [Commit message]
+  Remote:                   [GitHub URL]
 
-Institutional Status:      OPERATIONALLY COMPLETE / INSTITUTIONALLY PENDING / INSTITUTIONALLY COMPLETE
-Founder Approval Required: YES / NO
-Founder Approval Status:   Pending / Approved / N/A
+Institutional Preservation:   COMPLETE / PENDING
+Founder Acceptance:           APPROVED / PENDING / NOT YET REQUIRED
 
 Files Added:
   - [file 1]
@@ -200,10 +227,12 @@ Outstanding Actions:
   2. [Action 2]
   - [Action N]
 
-═══════════════════════════════════════════════════════════════
+═══════════════════════════════════════════════════════════════════════════
 ```
 
 **Note:** This report is the institutional record of what was preserved. It is not optional. Every Foundry session concludes with this report.
+
+**Key:** Institutional Preservation and Founder Acceptance are independent fields. Preservation is mechanical (yes/no). Acceptance is governance (approved/pending/not required).
 
 ---
 
@@ -234,15 +263,27 @@ If any step is incomplete, the session remains: `INSTITUTIONALLY PENDING`
 
 ---
 
-## INSTITUTIONAL PRINCIPLE
+## CONSTITUTIONAL PRINCIPLES
 
+### Institutional Preservation
 **No Foundry work is complete until it is institutionally preserved.**
 
-This is not bureaucracy. This is institutional continuity.
-
-When a Founder retires, when a Repository Steward moves on, when a technology changes — the institutional knowledge must survive. It survives because it is documented, committed, preserved, and approved.
+This is not bureaucracy. This is institutional continuity. When a Founder retires, when a Repository Steward moves on, when a technology changes — the institutional knowledge must survive. It survives because it is documented, committed, preserved, and approved.
 
 Work that stays in conversation disappears. Work that is institutionally preserved survives.
+
+### Preservation and Acceptance
+**Institutional preservation protects the work. Founder acceptance governs the work. These are complementary but independent events.**
+
+- **Institutional Preservation** is the Repository Steward's responsibility. It is mechanical and deterministic. Either the work is in the repository or it is not.
+- **Founder Acceptance** is the Founder's responsibility. It is governance. Either the work is approved or it is not.
+
+A work session can be institutionally preserved without Founder acceptance. But no work session is complete without institutional preservation, regardless of Founder acceptance status.
+
+In practice:
+- Repository Steward preserves all completed Foundry work (mandatory)
+- Founder reviews and accepts work according to governance needs (as required)
+- These responsibilities remain independent and do not block each other
 
 ---
 
