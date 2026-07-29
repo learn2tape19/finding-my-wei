@@ -285,6 +285,16 @@ In practice:
 - Founder reviews and accepts work according to governance needs (as required)
 - These responsibilities remain independent and do not block each other
 
+### Separation of Duties
+**Repository Steward certifies preservation. Founder certifies acceptance. Neither role certifies the responsibilities of the other.**
+
+This separation prevents rubber-stamping and ensures that:
+- Repository Steward cannot declare work Founder-approved (not their role)
+- Founder cannot declare work mechanically preserved (relies on Repository Steward verification)
+- Each role owns their certification and is accountable for its accuracy
+
+Founder Acceptance requires independent review of the institutional artifacts themselves, not automatic approval based on a report that work was completed.
+
 ---
 
 ## ADOPTION
