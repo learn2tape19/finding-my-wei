@@ -234,6 +234,12 @@ Outstanding Actions:
 
 **Key:** Institutional Preservation and Founder Acceptance are independent fields. Preservation is mechanical (yes/no). Acceptance is governance (approved/pending/not required).
 
+**Repository Verification Note:**
+
+Repository operations (commits, synchronization, working tree status, and commit identifiers) are certified by the Repository Steward and remain subject to independent Founder verification. Founder Acceptance is granted only after review of the institutional artifacts and repository state.
+
+This ensures that no work is automatically approved based on technical preservation alone—the Founder must independently verify both the repository operations and the quality of the work itself.
+
 ---
 
 ## DEFINITION OF DONE (For Repository Steward)
