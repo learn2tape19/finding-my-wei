@@ -2,16 +2,49 @@
 
 **Prepared:** July 28, 2026  
 **Previous Week:** Week 4 — The Tao of Listening: Listening Before Explanation (Approved & Scheduled)  
-**Status:** Week 5 production not yet initiated; awaiting Founder editorial and theme specification
+**Status:** ✅ **WEEK 5 MONDAY ISSUE 005 COMPLETE** (July 30, 2026)
+
+---
+
+## 🎯 WEEK 5 MONDAY — ISSUE NO. 005 (ARCHIVED)
+
+**Issue Title:** The Decision Before the Decision  
+**Publishing Authority:** Taylor/ChatGPT (visual production & refinement)  
+**Repository Steward:** Claude (asset preservation & documentation)  
+**Founder Approval:** Drew Freedman (approved for repository archival)  
+
+### Approved Monday Package
+
+| Asset | Filename | Dimensions | Format | Status |
+|-------|----------|-----------|--------|--------|
+| Feed Portrait | `Issue_005_Instagram_Portrait_1080x1350_FINAL.png` | 1080 × 1350 | PNG | ✅ Approved |
+| Feed Landscape | `Issue_005_Facebook_LinkedIn_1200x628_FINAL.png` | 1200 × 628 | PNG | ✅ Approved |
+| Story Frame 1 | `Issue_005_Instagram_Story_Frame_1_1080x1920_FINAL.png` | 1080 × 1920 | PNG | ✅ Approved |
+| Story Frame 2 | `Issue_005_Instagram_Story_Frame_2_1080x1920_FINAL.png` | 1080 × 1920 | PNG | ✅ Approved |
+| Story Frame 3 | `Issue_005_Instagram_Story_Frame_3_1080x1920_FINAL.png` | 1080 × 1920 | PNG | ✅ Approved |
+| Feed Caption | `Issue_005_Monday_Captions.md` | — | Markdown | ✅ Complete |
+| Asset Manifest | `Issue_005_Monday_Manifest.md` | — | Markdown | ✅ Complete |
+
+**Repository Location:** `07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/PRODUCTION/WEEK 5/`
+
+**Visual QA Verification:**
+- ✅ Filenames match manifest
+- ✅ Pixel dimensions verified against specifications
+- ✅ PNG RGB format confirmed
+- ✅ No drip, brush circle, or enso elements
+- ✅ Documentary clinical photography integrated
+- ✅ Book cover used as restrained publication badge only
+- ✅ Story sequence reads as complete three-frame editorial arc
 
 ---
 
 ## Week 5 Status Summary
 
-**Week 5 Production Folder:** Not yet created  
-**Week 5 Editorial Theme:** Not yet specified in repository  
-**Week 5 Social Calendar:** Not yet defined  
-**Week 5 Founder Direction:** Required  
+**Week 5 Production Model:** Issue-based editorial (Issue No. 005)  
+**Week 5 Production Status:** ✅ **MONDAY COMPLETE**  
+**Design Authority:** Taylor (ChatGPT)  
+**Visual Foundation:** July 27 Social Visual Doctrine v1.0  
+**Founder Direction:** Approved for publication and archival  
 
 ---
 
