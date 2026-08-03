@@ -1,412 +1,104 @@
-# Campaign 001: Therapeutic Alliance — Publication Index
+# Campaign 001: Therapeutic Alliance — Publication Ledger
 
-**Campaign:** Campaign 001
-**Theme:** Therapeutic Alliance
-**Week:** 01
-**Period:** July 8-14, 2026
-**Established:** July 9, 2026
-**Last Updated:** July 9, 2026
+**Campaign:** Campaign 001 — Therapeutic Alliance
 
----
+**Coverage:** Issues 001–005 / production Weeks 1–5
 
-## Publication Workflow Reference
+**Record date:** August 3, 2026
 
-```
-Draft
-  ↓
-Editorial Board Review
-  ↓
-Founder Approval
-  ↓
-Repository Updated
-  ↓
-GitHub Verified
-  ↓
-Ready to Publish
-  ↓
-Published
-```
+**Status:** Campaign closeout record
+
+**Authority:** Founder-approved repository evidence
 
 ---
 
-## Week 01 Publication Ledger
+## How to Read This Ledger
 
-### Wednesday, July 10, 2026
+The repository used **Week 01–04** naming before adopting **Publication / Issue No. 005**. This ledger normalizes those cycles as Issues 001–005 without renaming historical files.
 
-| Field | Value |
-|-------|-------|
-| **Day** | Wednesday |
-| **Article Title** | Safety Is the First Intervention: Understanding Physiological Safety in Manual Therapy |
-| **Theme** | Physiological Safety |
-| **Core Message** | Safety isn't emotional—it's the first clinical intervention |
-| **Status** | Editorial Specifications Ready |
-| **Editorial Review Status** | READY FOR FOUNDER APPROVAL |
-| **Founder Approval** | Pending |
-| **Repository Location** | `/07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/PRODUCTION/WEEK_01/WEDNESDAY.md` |
-| **Repository Commit Hash** | TBD (pending update) |
-| **Blog Post Status** | Specifications complete; ready for WordPress |
-| **Publication Status** | NOT YET PUBLISHED |
-| **Scheduled Platform Posts** | Instagram (7 AM), Facebook (8 AM), LinkedIn (8:30 AM) |
-| **Last Revision Date** | July 8, 2026 |
-| **Revision Notes** | Editorial specifications finalized |
+Status terms are deliberately separate:
+
+- **Production complete:** required files exist.
+- **Founder approved:** the Founder approved the package.
+- **Scheduled:** a publication time or queue is documented.
+- **Published:** a live result is verified in the repository.
+- **Unknown / not recorded:** the repository does not contain reliable evidence. No fact has been reconstructed.
 
 ---
 
-### Thursday, July 9, 2026 (Published)
+## Issues 001–005
 
-| Field | Value |
-|-------|-------|
-| **Day** | Thursday |
-| **Article Title** | The Permission Question: Before You Touch Anything, Ask Yourself This |
-| **Theme** | Permission as Physiology |
-| **Core Message** | Permission isn't passive—it's the gateway to change |
-| **Status** | Published |
-| **Editorial Review Status** | APPROVED & PUBLISHED |
-| **Founder Approval** | Approved |
-| **Repository Location** | `/07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/PRODUCTION/WEEK_01/THURSDAY.md` |
-| **Repository Commit Hash** | b431287 |
-| **Blog Post Status** | LIVE (published July 9, 2026) |
-| **Blog URL** | https://taoclinicaltouch.com/blog/2026/07/the-permission-question-before-you-touch-anything-ask-yourself-this/ |
-| **Publication Status** | LIVE |
-| **Scheduled Platform Posts** | Instagram (7 AM), Facebook (8 AM), LinkedIn (8:30 AM) ET |
-| **Last Revision Date** | July 9, 2026 |
-| **Revision Notes** | Published as live blog post; social media scheduling ready |
+| Issue | Production period | Editorial theme | Canonical article source | Verified state | Closeout evidence |
+|---|---|---|---|---|---|
+| **001** | Week 1, July 8–12 | The Invisible Beginning | Four articles in [`BLOG/WEEK_01/`](BLOG/WEEK_01/) plus the Wednesday article in [`BLOG_CONTENT/`](BLOG_CONTENT/) | Thursday article verified live; publication of the other Week 1 articles is not recorded | Week 1 repository consolidation and architecture established in `38bdbe1` and `053caff` |
+| **002** | Week 2, July 13–17 | The Greet Is the First Clinical Intervention | [`BLOG/WEEK_02/THURSDAY.md`](BLOG/WEEK_02/THURSDAY.md) | Written package complete; Campaign #31 email sent July 16; article live verification is not recorded | Week 2 package in `0498942`; status file remained at Founder-approval gate |
+| **003** | Week 3, July 20–24 | The Tao of Assessment: Perception Before Interpretation | Canonical blog article is missing from `BLOG/`; production record is [`PRODUCTION/WEEK_03/THURSDAY.md`](PRODUCTION/WEEK_03/THURSDAY.md) | Tuesday–Friday recorded as published; live URLs and exact publication times are not recorded | Closeout and learning captured in `38ccd5b` |
+| **004** | Week 4, July 27–31 | The Tao of Listening: Listening Before Explanation | No canonical Week 4 article exists in `BLOG/`; production packages are under [`PRODUCTION/WEEK_04/`](PRODUCTION/WEEK_04/) | All content approved and scheduled; live verification and analytics remain unrecorded | Week 4 closeout corrections in `7998db9` |
+| **005** | Week 5, August 3–7 | The Decision Before the Decision | No canonical Issue 005 article exists in `BLOG/`; approved social package is under [`PRODUCTION/WEEK 5/`](PRODUCTION/WEEK%205/) | Monday–Friday social package approved, archived, scheduled, and queued; live verification and performance remain unrecorded | Monday package `b42a483`; full weekly package `4c00682` |
 
 ---
 
-### Friday, July 10, 2026
+## Canonical Article Inventory
 
-| Field | Value |
-|-------|-------|
-| **Day** | Friday |
-| **Article Title** | Presence Before Precision: Why Your Nervous System State Is Your Primary Clinical Tool |
-| **Theme** | Clinician Regulation |
-| **Core Message** | Your nervous system state is your primary clinical tool |
-| **Status** | Editorial Board Review Complete |
-| **Editorial Review Status** | ✅ FULLY COMPLIANT |
-| **Founder Approval** | ✅ APPROVED |
-| **Repository Location** | `/07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/PRODUCTION/WEEK_01/FRIDAY.md` |
-| **Repository Commit Hash** | c836ddf+ (Editorial Board updates applied) |
-| **Blog Post Status** | Complete; All Editorial Board Standards Verified; Ready for WordPress Publication |
-| **Publication Status** | READY FOR IMMEDIATE PUBLICATION |
-| **Article Word Count** | 1,047 words |
-| **Reading Time** | 5-6 minutes |
-| **Paragraph Average** | 85 words (exceeds calm pacing standard) |
-| **Em Dash Compliance** | ✅ Zero em dashes (all replaced with semicolons/periods) |
-| **Scheduled Platform Posts** | Instagram (7 AM), Facebook (8 AM), LinkedIn (8:30 AM) ET |
-| **Last Revision Date** | July 9, 2026 (Editorial corrections applied) |
-| **Revision Notes** | All Editorial Board standards verified and corrected; article ready for publication across all platforms |
+The architectural rule remains: one article, one canonical file in `BLOG/`. The inventory below records what actually exists.
+
+| Cycle | Article | Repository source | Approximate repository word count | Publication evidence |
+|---|---|---|---:|---|
+| Issue 001 | The Permission Question: Before You Touch Anything, Ask Yourself This | [`BLOG/WEEK_01/THURSDAY.md`](BLOG/WEEK_01/THURSDAY.md) | 796 | Live URL recorded in Week 1 production documentation |
+| Issue 001 | Presence Before Precision: Why Your Nervous System State Is Your Primary Clinical Tool | [`BLOG/WEEK_01/FRIDAY.md`](BLOG/WEEK_01/FRIDAY.md) | 791 | Not recorded |
+| Issue 001 | Wu Wei in Clinical Practice: How Effortless Action Creates Better Outcomes | [`BLOG/WEEK_01/SATURDAY.md`](BLOG/WEEK_01/SATURDAY.md) | 701 | Not recorded |
+| Issue 001 | Integration and Next Steps: What This Week Revealed About Clinical Change | [`BLOG/WEEK_01/SUNDAY.md`](BLOG/WEEK_01/SUNDAY.md) | 639 | Not recorded |
+| Issue 001 | Safety Is the First Intervention: Understanding Physiological Safety in Manual Therapy | [`BLOG_CONTENT/WEDNESDAY_Safety_First_Intervention.md`](BLOG_CONTENT/WEDNESDAY_Safety_First_Intervention.md) | 1,721 | Not recorded; location predates the canonical `BLOG/` rule |
+| Issue 002 | The Greet Is the First Clinical Intervention | [`BLOG/WEEK_02/THURSDAY.md`](BLOG/WEEK_02/THURSDAY.md) | 1,104 | Campaign #31 email send recorded; article live verification not recorded |
+| Issues 003–005 | Canonical article files | **Missing from `BLOG/`** | — | Do not infer from production specifications |
+
+Word counts are repository counts and include Markdown metadata where present. They are orientation values, not editorial certification.
 
 ---
 
-### Saturday, July 11, 2026
+## Verified Live References
 
-| Field | Value |
-|-------|-------|
-| **Day** | Saturday |
-| **Article Title** | Wu Wei in Clinical Practice |
-| **Theme** | Effortless Action |
-| **Core Message** | Non-imposition as clinical principle |
-| **Status** | Editorial Specifications Ready |
-| **Editorial Review Status** | READY FOR FOUNDER APPROVAL |
-| **Founder Approval** | Pending |
-| **Repository Location** | `/07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/PRODUCTION/WEEK_01/SATURDAY.md` |
-| **Repository Commit Hash** | TBD (pending update) |
-| **Blog Post Status** | Specifications complete; ready for article writing |
-| **Publication Status** | NOT YET PUBLISHED |
-| **Scheduled Platform Posts** | Instagram (7 AM), Facebook (8 AM), LinkedIn (8:30 AM) ET |
-| **Last Revision Date** | July 9, 2026 |
-| **Revision Notes** | Editorial specifications finalized |
+| Issue | Reference | Evidence |
+|---|---|---|
+| 001 | [The Permission Question](https://taoclinicaltouch.com/blog/2026/07/the-permission-question-before-you-touch-anything-ask-yourself-this/) | URL recorded in `PRODUCTION/WEEK_01/THURSDAY.md` |
+| 002 | `https://taoclinicaltouch.com/blog/the-greet-is-first-clinical-intervention/` | URL documented in Week 2 production files; repository does not record a live verification step |
+
+No additional live URLs are asserted by this closeout.
 
 ---
 
-### Sunday, July 12, 2026
+## Closeout Gaps
 
-| Field | Value |
-|-------|-------|
-| **Day** | Sunday |
-| **Article Title** | Weekly Reflection: Integrating Week One Learning |
-| **Theme** | Integration and Reflection |
-| **Core Message** | Week one in context; preparing for week two |
-| **Status** | Editorial Specifications Ready |
-| **Editorial Review Status** | READY FOR FOUNDER APPROVAL |
-| **Founder Approval** | Pending |
-| **Repository Location** | `/07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/PRODUCTION/WEEK_01/SUNDAY.md` |
-| **Repository Commit Hash** | TBD (pending update) |
-| **Blog Post Status** | Specifications complete; ready for article writing |
-| **Publication Status** | NOT YET PUBLISHED |
-| **Scheduled Platform Posts** | Instagram (7 AM), Facebook (8 AM), LinkedIn (8:30 AM) ET |
-| **Last Revision Date** | July 9, 2026 |
-| **Revision Notes** | Editorial specifications finalized |
+These are stewardship gaps, not invitations to recreate history:
+
+1. Canonical `BLOG/` articles are missing for Issues 003–005.
+2. Week 1 publication outcomes are incomplete outside the verified Thursday article.
+3. Week 2's status file was never reconciled with the later Campaign #31 email send.
+4. Week 3 records publication completion but does not preserve live URLs or exact publication times.
+5. Week 4 records scheduling, not live verification or performance.
+6. Issue 005 records scheduling and queue completion, not live verification or performance.
+7. A post-publication retrospective is absent for Issues 002 and 005.
+
+Missing historical facts remain **Unknown / not recorded** unless direct evidence is added later.
 
 ---
 
-## Campaign Publication Status Summary
+## Forward Rule
 
-| Day | Title | Status | Approval | Published |
-|-----|-------|--------|----------|-----------|
-| Thursday | Permission | ✅ LIVE | ✅ Approved | ✅ Yes |
-| Friday | Presence | ✅ READY | ⏳ Pending | ❌ No |
-| Saturday | Wu Wei | ⏳ READY | ⏳ Pending | ❌ No |
-| Sunday | Reflection | ⏳ READY | ⏳ Pending | ❌ No |
-| Wednesday | Safety | ⏳ READY | ⏳ Pending | ❌ No |
+For every future issue, update this ledger at four gates:
 
-**Note:** Monday and Tuesday articles not yet created; these establish foundational narrative context.
+1. Canonical article approved in `BLOG/`.
+2. Derivative package approved and archived in `PRODUCTION/`.
+3. Scheduled date and channel recorded.
+4. Live URLs and performance evidence recorded after publication.
 
----
-
-## Critical Path to Publication
-
-### Immediate Actions (Today)
-1. ✅ Friday article: Written and Editorial Board approved
-2. ⏳ Friday article: Founder final approval required
-3. ⏳ Wednesday article: Write blog post content (specs ready)
-4. ⏳ Saturday article: Write blog post content (specs ready)
-5. ⏳ Sunday article: Write blog post content (specs ready)
-
-### Before Campaign Launch
-1. All blog articles written and published
-2. All social copy finalized in platforms
-3. All images generated via Firefly and deployed
-4. All QR codes created linking to blog articles
-5. Buffer scheduling verified for all platforms
-6. All internal links verified
-
-### During Campaign (July 10-12)
-1. Monitor social engagement in real-time
-2. Respond to comments within 2 hours of posting
-3. Track blog metrics (views, time on page, scroll depth)
-4. Gather reader feedback and insights
-
-### Post-Campaign (July 13-14)
-1. Conduct editorial reflection
-2. Document learnings and patterns
-3. Update Editorial Standards based on findings
-4. Commit updates to repository
-5. Prepare Week Two planning
+Future canonical blog posts should remain **below 800 words**, unless the Founder explicitly approves an exception.
 
 ---
 
-## Publication Checklist Template
+## Governing References
 
-Every publication must complete this before marking ready:
-
-**Editorial Requirements:**
-- [ ] Article written following narrative specifications
-- [ ] Editorial Board standards applied (see 01_OPERATING_SYSTEM/PUBLISHING/EDITORIAL_STANDARDS.md)
-- [ ] Voice consistent with Finding My Wei (see VOICE_GUIDE.md)
-- [ ] Scientific integrity verified (see SCIENTIFIC_INTEGRITY_STANDARD.md)
-- [ ] Punctuation reviewed (NO EM DASHES)
-- [ ] Story before explanation structure confirmed
-- [ ] Short paragraphs verified (max 150 words)
-- [ ] No AI clichés or marketing language
-
-**Approval Requirements:**
-- [ ] Editorial Board review complete
-- [ ] Founder final approval received
-- [ ] All feedback incorporated
-
-**Publication Requirements:**
-- [ ] Blog article uploaded to WordPress
-- [ ] Featured image deployed (1200×628px minimum)
-- [ ] Meta description set (160 characters)
-- [ ] Internal links placed and verified
-- [ ] Category and tags assigned
-- [ ] Social copy finalized
-- [ ] Images generated and deployed
-- [ ] Buffer scheduling configured
-- [ ] QR codes generated
-- [ ] All platform posts scheduled
-
-**Post-Publication Requirements:**
-- [ ] Blog article live and verified
-- [ ] Social posts live on all platforms
-- [ ] Engagement monitoring active
-- [ ] Comments responded to within 2 hours
-- [ ] Metrics tracked
-
----
-
-## Repository Governance
-
-**Canonical Location:** `/Users/Drewdog19/finding-my-wei/`
-
-**Campaign Directory:** `/07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/`
-
-**Week 01 Directory:** `/PRODUCTION/WEEK_01/`
-
-**Never:** `/Users/Drewdog19/Desktop/Coding-folder/`
-
-All publication work occurs only in the canonical repository.
-
----
-
-## Editorial Board Governance
-
-All publications in this campaign are governed by:
-
-1. **EDITORIAL_STANDARDS.md** — Core principles and philosophy
-2. **VOICE_GUIDE.md** — Specific characteristics of Finding My Wei voice
-3. **SCIENTIFIC_INTEGRITY_STANDARD.md** — Claims, evidence, interpretation
-4. **PUNCTUATION_STANDARD.md** — Grammar, formatting, permanent em dash prohibition
-5. **EDITORIAL_WORKFLOW.md** — Complete publishing sequence
-6. **EDITORIAL_CHECKLIST.md** — Pre-publication verification
-
-These documents are located in: `/01_OPERATING_SYSTEM/PUBLISHING/`
-
----
-
-## Week 01 Theme Narrative Arc
-
-The five published articles should create an intentional narrative:
-
-```
-Monday (MISSING): Technique is not the whole story
-    ↓
-Tuesday (MISSING): Therapeutic Alliance introduced
-    ↓
-Wednesday: Safety — The nervous system's first question
-    ↓
-Thursday: Permission — The gateway to change (PUBLISHED)
-    ↓
-Friday: Presence — The clinician's preparation
-    ↓
-Saturday: Wu Wei — Effortless action
-    ↓
-Sunday: Reflection — Integration and forward look
-```
-
-Each article naturally prepares the reader for the next one.
-
----
-
-## Next Steps
-
-1. **Founder Approval:** Final sign-off on Friday article and Wednesday specifications
-2. **Article Writing:** Complete Wednesday, Saturday, Sunday articles applying Editorial Board standards
-3. **Image Generation:** Firefly prompts ready; generate hero images for all days
-4. **Buffer Scheduling:** Configure all social platform scheduling
-5. **Publication:** Launch campaign July 10, 2026
-6. **Monitoring:** Track engagement and gather insights for Week Two
-
----
-
----
-
-## Week 03 Publication Ledger
-
-### Tuesday, July 22, 2026 — Assessment Begins Before the Test
-
-| Field | Value |
-|-------|-------|
-| **Day** | Tuesday |
-| **Article Title** | Assessment Begins Before the Test |
-| **Theme** | Assessment Context |
-| **Core Message** | Formal testing is necessary but not sufficient |
-| **Status** | Published |
-| **Editorial Review Status** | ✅ APPROVED & PUBLISHED |
-| **Founder Approval** | ✅ Approved |
-| **Repository Location** | `/07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/PRODUCTION/WEEK_03/TUESDAY.md` |
-| **Repository Commit Hash** | ac63839 |
-| **Blog Post Status** | LIVE |
-| **Publication Status** | LIVE |
-| **Actual Publication Time** | Not recorded |
-| **Live Blog URL** | Not recorded |
-| **Last Revision Date** | July 21, 2026 |
-
----
-
-### Wednesday, July 23, 2026 — Observe Before You Correct
-
-| Field | Value |
-|-------|-------|
-| **Day** | Wednesday |
-| **Article Title** | Observe Before You Correct |
-| **Theme** | Clinician Presence in Assessment |
-| **Core Message** | Observation comes before interpretation |
-| **Status** | Published |
-| **Editorial Review Status** | ✅ APPROVED & PUBLISHED |
-| **Founder Approval** | ✅ Approved |
-| **Repository Location** | `/07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/PRODUCTION/WEEK_03/WEDNESDAY.md` |
-| **Repository Commit Hash** | bf12eca |
-| **Blog Post Status** | LIVE |
-| **Publication Status** | LIVE |
-| **Actual Publication Time** | Not recorded |
-| **Live Blog URL** | Not recorded |
-| **Last Revision Date** | July 22, 2026 |
-
----
-
-### Thursday, July 24, 2026 — What Are You Actually Assessing?
-
-| Field | Value |
-|-------|-------|
-| **Day** | Thursday |
-| **Article Title** | What Are You Actually Assessing? |
-| **Theme** | Assessment Context & Interpretation |
-| **Core Message** | Assessment findings depend on conditions |
-| **Status** | Published / Complete |
-| **Editorial Review Status** | ✅ APPROVED & PUBLISHED |
-| **Founder Approval** | ✅ Approved |
-| **Repository Location** | `/07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/PRODUCTION/WEEK_03/THURSDAY.md` |
-| **Repository Commit Hash** | 26e88e8 |
-| **Blog Post Status** | LIVE |
-| **Publication Status** | LIVE |
-| **Actual Publication Time** | Not recorded |
-| **Live Blog URL** | Not recorded |
-| **Email Campaign #32** | Sent July 23, 3:02 PM; 11,503 recipients; 247 opens (2.18%); 17 clicks (0.15%) |
-| **Email Campaign #33** | Sent July 23, 4:01 PM; 836 recipients; 55 opens (6.8%); 41 clicks (5.07%) |
-| **Last Revision Date** | July 23, 2026 |
-
----
-
-### Friday, July 24, 2026 — The Two-Breath Pause
-
-| Field | Value |
-|-------|-------|
-| **Day** | Friday |
-| **Article Title** | The Two-Breath Pause |
-| **Theme** | Practical Assessment Technique |
-| **Core Message** | Pause translates principle into practice |
-| **Status** | Published / Complete |
-| **Editorial Review Status** | ✅ APPROVED & PUBLISHED |
-| **Founder Approval** | ✅ Approved |
-| **Repository Location** | `/07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/PRODUCTION/WEEK_03/FRIDAY.md` |
-| **Repository Commit Hash** | ecb0e8f |
-| **Visual Assets** | 6 v3 logo-branded PNG files (Story frames, feed images) |
-| **Asset Repository Location** | `/07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/PRODUCTION/WEEK_03/ASSETS/FRIDAY/` |
-| **Blog Post Status** | LIVE |
-| **Publication Status** | LIVE |
-| **Actual Publication Time** | Not recorded |
-| **Live Blog URL** | Not recorded |
-| **Last Revision Date** | July 24, 2026 |
-
----
-
-## Week 03 Publication Status Summary
-
-| Day | Title | Status | Published |
-|-----|-------|--------|-----------|
-| Tuesday | Assessment Begins Before the Test | ✅ LIVE | ✅ Yes |
-| Wednesday | Observe Before You Correct | ✅ LIVE | ✅ Yes |
-| Thursday | What Are You Actually Assessing? | ✅ LIVE | ✅ Yes |
-| Friday | The Two-Breath Pause | ✅ LIVE | ✅ Yes |
-
-**Week 3 Status:** PUBLISHED / COMPLETE
-**Retrospective Location:** `/07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/RETROSPECTIVES/WEEK_03_RETROSPECTIVE.md`
-**Week 4 Status:** NOT STARTED / READY PENDING FOUNDER APPROVAL
-
----
-
-**Document Status:** Active Publication Index
-**Last Updated:** July 24, 2026
-**Next Review:** Week 4 planning
-**Maintained By:** Editorial Board
-
----
-
-## Governance Note
-
-This index serves as the source of truth for Campaign 001 publication status. All changes to publication status, approval status, or repository location must be reflected here immediately upon occurrence.
-
-This prevents confusion, ensures accountability, and creates a clear record of publication progression.
+- [`ARCHITECTURE.md`](ARCHITECTURE.md) — canonical source roles
+- [`CURRENT_AUTHORITY_REGISTER.md`](CURRENT_AUTHORITY_REGISTER.md) — current rules and superseded doctrine
+- [`CAMPAIGN_001_CLOSEOUT_AND_TRANSFER.md`](CAMPAIGN_001_CLOSEOUT_AND_TRANSFER.md) — institutional learning and transfer model
+- [`EDITORIAL_ROADMAP.md`](EDITORIAL_ROADMAP.md) — campaign editorial direction

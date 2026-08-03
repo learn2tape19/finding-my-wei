@@ -1,340 +1,97 @@
-# Campaign 001 — Week 5 Readiness Assessment
+# Campaign 001 — Issue No. 005 Closeout Status
 
-**Prepared:** July 28, 2026  
-**Previous Week:** Week 4 — The Tao of Listening: Listening Before Explanation (Approved & Scheduled)  
-**Status:** ✅ **WEEK 5 MONDAY ISSUE 005 COMPLETE** (July 30, 2026)
+**Publication:** Issue No. 005
 
----
+**Title:** The Decision Before the Decision
 
-## 🎯 WEEK 5 MONDAY — ISSUE NO. 005 (ARCHIVED)
+**Production period:** August 3–7, 2026
 
-**Issue Title:** The Decision Before the Decision  
-**Publishing Authority:** Taylor/ChatGPT (visual production & refinement)  
-**Repository Steward:** Claude (asset preservation & documentation)  
-**Founder Approval:** Drew Freedman (approved for repository archival)  
+**Record updated:** August 3, 2026
 
-### Approved Monday Package
+**Production status:** Complete
 
-| Asset | Filename | Dimensions | Format | Status |
-|-------|----------|-----------|--------|--------|
-| Feed Portrait | `Issue_005_Instagram_Portrait_1080x1350_FINAL.png` | 1080 × 1350 | PNG | ✅ Approved |
-| Feed Landscape | `Issue_005_Facebook_LinkedIn_1200x628_FINAL.png` | 1200 × 628 | PNG | ✅ Approved |
-| Story Frame 1 | `Issue_005_Instagram_Story_Frame_1_1080x1920_FINAL.png` | 1080 × 1920 | PNG | ✅ Approved |
-| Story Frame 2 | `Issue_005_Instagram_Story_Frame_2_1080x1920_FINAL.png` | 1080 × 1920 | PNG | ✅ Approved |
-| Story Frame 3 | `Issue_005_Instagram_Story_Frame_3_1080x1920_FINAL.png` | 1080 × 1920 | PNG | ✅ Approved |
-| Feed Caption | `Issue_005_Monday_Captions.md` | — | Markdown | ✅ Complete |
-| Asset Manifest | `Issue_005_Monday_Manifest.md` | — | Markdown | ✅ Complete |
+**Founder approval:** Confirmed
 
-**Repository Location:** `07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/PRODUCTION/WEEK 5/`
-
-**Visual QA Verification:**
-- ✅ Filenames match manifest
-- ✅ Pixel dimensions verified against specifications
-- ✅ PNG RGB format confirmed
-- ✅ No drip, brush circle, or enso elements
-- ✅ Documentary clinical photography integrated
-- ✅ Book cover used as restrained publication badge only
-- ✅ Story sequence reads as complete three-frame editorial arc
+**Repository status:** Archived and pushed
+**Publication status:** Scheduled and queued through Friday; live verification not recorded
 
 ---
 
-## 🎯 WEEK 5 TUESDAY–FRIDAY — ISSUE NO. 005 (SCHEDULED & QUEUED)
+## Approved Package
 
-**Issue Title:** The Decision Before the Decision (continued)  
-**Publishing Authority:** Taylor/ChatGPT (visual production & refinement)  
-**Repository Steward:** Claude (asset preservation & documentation)  
-**Founder Approval Status:** ✅ Approved for repository archival  
-**Publication Status:** ✅ **SCHEDULED & QUEUED FOR DAILY PUBLICATION (TUESDAY–FRIDAY)**  
+### Monday
 
-### Tuesday–Friday Platform Derivatives (16 visuals)
+| Asset | Filename | Dimensions | Status |
+|---|---|---:|---|
+| Instagram portrait | `Issue_005_Instagram_Portrait_1080x1350_FINAL.png` | 1080 × 1350 | Approved |
+| Facebook / LinkedIn landscape | `Issue_005_Facebook_LinkedIn_1200x628_FINAL.png` | 1200 × 628 | Approved |
+| Story frame 1 | `Issue_005_Instagram_Story_Frame_1_1080x1920_FINAL.png` | 1080 × 1920 | Approved |
+| Story frame 2 | `Issue_005_Instagram_Story_Frame_2_1080x1920_FINAL.png` | 1080 × 1920 | Approved |
+| Story frame 3 | `Issue_005_Instagram_Story_Frame_3_1080x1920_FINAL.png` | 1080 × 1920 | Approved |
 
-**Platform Strategy Change:** Facebook now receives a purpose-built 1080 × 1080 square composition. LinkedIn retains the approved 1200 × 628 landscape. (Previously, Facebook and LinkedIn shared a landscape file.)
+Supporting records:
 
-| Day | Facebook 1080×1080 | Instagram Portrait 1080×1350 | LinkedIn 1200×628 | Instagram Story 1080×1920 |
-|---|---|---|---|---|
-| Tuesday | ✅ FINAL | ✅ FINAL | ✅ FINAL | ✅ FINAL |
-| Wednesday | ✅ FINAL | ✅ FINAL | ✅ FINAL | ✅ FINAL |
-| Thursday | ✅ FINAL | ✅ FINAL | ✅ FINAL | ✅ FINAL |
-| Friday | ✅ FINAL | ✅ FINAL | ✅ FINAL | ✅ FINAL |
+- `Issue_005_Monday_Captions.md`
+- `Issue_005_Monday_Manifest.md`
+- Repository commit: `b42a483`
 
-**Documentation:**
-- ✅ `Issue_005_Tuesday_Friday_Captions.md` — Complete editorial copy for all platforms
-- ✅ `Issue_005_Complete_Visual_Manifest.md` — Full asset registry (Monday + Tuesday–Friday)
-- ✅ `Issue_005_Tuesday_Friday_Contact_Sheet.png` — Visual QA proof contact sheet
-- ✅ `Issue_005_Social_Dimension_QA.md` — Dimension verification (all 16 assets PASS)
+### Tuesday–Friday
 
-**Repository Location:** `07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/PRODUCTION/WEEK 5/` (same directory as Monday package)
+Each day includes:
 
-**Visual QA Verification:**
-- ✅ All 16 final files verified against encoded dimensions
-- ✅ Facebook: 1080 × 1080 (square, new composition strategy)
-- ✅ Instagram Portrait: 1080 × 1350 (4 days)
-- ✅ LinkedIn: 1200 × 628 (landscape, continued)
-- ✅ Instagram Story: 1080 × 1920 (4 frames)
-- ✅ PNG RGB format confirmed
-- ✅ Brand palette and visual doctrine maintained
-- ✅ No design regressions from Monday
+- Facebook square: 1080 × 1080
+- Instagram portrait: 1080 × 1350
+- LinkedIn landscape: 1200 × 628
+- Instagram Story: 1080 × 1920
 
-**Deliverables Complete:** All Tuesday–Friday assets archived in repository. **All Publication No. 005 social posts scheduled and queued for daily publication through Friday.** Repository stewardship complete.
+Supporting records:
+
+- `Issue_005_Tuesday_Friday_Captions.md`
+- `Issue_005_Complete_Visual_Manifest.md`
+- `Issue_005_Tuesday_Friday_Contact_Sheet.png`
+- `Issue_005_Social_Dimension_QA.md`
+- `CLAUDE_HANDOFF_ISSUE_005.md`
+- Repository commit: `4c00682`
 
 ---
 
-## Week 5 Status Summary
+## Visual QA Recorded at Handoff
 
-**Week 5 Production Model:** Issue-based editorial (Issue No. 005)  
-**Week 5 Production Status:** ✅ **COMPLETE** — All social posts (Monday–Friday) scheduled and queued for daily publication  
-**Design Authority:** Taylor (ChatGPT)  
-**Visual Foundation:** July 27 Social Visual Doctrine v1.0  
-**Platform Strategy:** Facebook square (new), Instagram portrait, LinkedIn landscape, Instagram Story  
-**Publication Schedule:** Daily posts through Friday  
-**Repository Status:** ✅ Archived — all assets and supporting documentation committed  
-
----
-
-## Week 4 → Week 5 Narrative Continuity
-
-### Week 4 Arc (Completed)
-
-**Theme:** The Tao of Listening: Listening Before Explanation  
-
-**Progression:**
-- **Monday:** Listening is a clinical intervention (Question)
-- **Wednesday:** The symptom is only the first sentence (Recognition)
-- **Thursday:** The timing of explanation (Framework)
-- **Friday:** Let what you heard change what you do next (Application)
-
-**Teaching synthesis:** Listen → Remain curious → Confirm understanding → Let what was heard shape the plan
+- Final filenames and encoded dimensions verified.
+- RGB PNG assets preserved without conversion.
+- Documentary clinical photography used.
+- Canonical ripple used without the falling drip.
+- No brush circle or enso used in the Issue 005 system.
+- Book cover used as a restrained publication badge where appropriate.
+- Story sequencing documented by narrative content.
 
 ---
 
-### Week 5 Status: Theme Not Yet Defined
+## Current Evidence Boundary
 
-**No canonical Week 5 theme exists in the repository.** The editorial calendar, roadmap, and backlog do not establish a defined theme or structure for Week 5.
+The repository proves that the complete Monday–Friday package was approved, archived, scheduled, and queued. It does **not** yet contain:
 
-**Note on Possible Reflection Period:** Campaign planning documentation mentions reflection as an editorial principle (within article content), but does not specify whether Weeks 5–6 are designated as social production pause/reflection periods or whether Week 5 continues with normal Monday–Friday social content production.
+- verified live post URLs;
+- actual publication timestamps;
+- 24-hour, 72-hour, or 7-day performance data;
+- a completed Issue 005 retrospective;
+- a canonical Issue 005 blog article in `BLOG/`.
 
-**Founder decision required:** Define Week 5 as either:
-1. **Normal production week** (continue Monday–Friday social posting with new theme)
-2. **Reflection/analytics week** (pause social production; analyze Week 4 performance; prepare Week 6)
-3. **Hybrid model** (limited posts while conducting analysis)
-
-**If Week 5 is a normal production week, consider these themes** (illustrative only, not canonical):
-- **Option A:** Therapeutic Alliance Deepening — explore trust, transparency, shared decision-making
-- **Option B:** Assessment & Perception — how listening informs clinical observation
-- **Option C:** Intervention & Touch — how informed listening shapes treatment choices
+These values remain **Unknown / not recorded**. Production completion must not be relabeled as publication completion.
 
 ---
 
-## Pre-Production Readiness Checklist
+## Closeout Actions Still Available
 
-Before Week 5 production begins, the following decisions are required:
-
-### 1. Editorial Theme & Narrative Function
-
-**Required Decision:**
-- [ ] Specify Week 5 theme or teaching focus
-- [ ] Define how Week 5 relates to Week 4's completion (builds on it? shifts focus? explores implications?)
-- [ ] Identify narrative arc (what is the week teaching across Mon/Wed/Thu/Fri?)
-
-**Authority:** Founder (Drew Schlabach)
-
-**Example:** "Week 5 explores the patient's experience of being listened to—how does the patient perceive and respond to genuine clinical listening?"
+- [ ] Record live URLs and actual publication times after verification.
+- [ ] Capture platform performance at agreed intervals.
+- [ ] Add Issue 005 retrospective based on real outcomes.
+- [ ] Add or link the canonical article only if an approved article exists.
 
 ---
 
-### 2. Publishing Calendar & Platform Strategy
+## Governing Records
 
-**Required Decision:**
-- [ ] Confirm Week 5 publication dates (July 28-Aug 1? Aug 4-8? Other?)
-- [ ] Confirm platform publishing times (7:00 AM Instagram, 8:00 AM Facebook, 8:30 AM LinkedIn, Stories?)
-- [ ] Identify any platform variations from Week 4 standard (carousel week? Stories-only day? Interview format?)
-
-**Authority:** Founder + Communications
-
----
-
-### 3. Visual Direction & Asset Production
-
-**Required Decision:**
-- [ ] Confirm July 27 Social Visual Doctrine v1.0 continues as authoritative standard
-- [ ] Identify if Editorial v3 / `v1` naming convention continues for Week 5 assets
-- [ ] Specify if Week 5 requires new creative exploration or continues established visual style
-- [ ] Define designer/producer workflow and approval gates (same one-day-at-a-time progression as Week 4?)
-
-**Authority:** Founder (visual standards) + Designer/Producer (workflow)
-
----
-
-### 4. Copy & Tone Alignment
-
-**Required Decision:**
-- [ ] Confirm Founder's voice and tone expectations continue from Week 4 (clinical, direct, human, non-templated)
-- [ ] Specify any tone adjustments or emphasis shifts for Week 5 theme
-- [ ] Identify audience priorities (clinicians primarily? practitioners and patients? educators?)
-- [ ] Confirm platform-specific caption strategy continues (Instagram concise/reflective, Facebook narrative, LinkedIn professional)
-
-**Authority:** Founder
-
----
-
-### 5. Founder Approval Gates
-
-**Required Decision:**
-- [ ] Confirm one-day-at-a-time approval progression continues (Monday → Wednesday → Thursday → Friday)
-- [ ] Specify approval timeline (same-day turnaround? 24-hour window? Weekly batch approval?)
-- [ ] Identify approval contact and decision authority
-
-**Authority:** Founder
-
----
-
-### 6. Analytics & Learning Integration
-
-**Required Decision:**
-- [ ] Specify Week 5 learning goals (which metrics matter most?)
-- [ ] Identify if Week 4 analytics will be reviewed before Week 5 production begins
-- [ ] Define how Week 4 performance informs Week 5 creative decisions
-- [ ] Specify learning questions Week 5 should answer
-
-**Authority:** Founder + Analytics
-
----
-
-## Week 4 Successes to Carry Forward to Week 5
-
-**Approved Systems (No Changes Needed):**
-1. ✅ July 27 Social Visual Doctrine v1.0 — Authoritative for all social visuals
-2. ✅ Editorial v3 creative iteration → canonical `v1` exports naming convention
-3. ✅ Founder-approved assets are immutable; production documentation goes around them, not through them
-4. ✅ One-day-at-a-time approval progression (learning gates, not final checkpoints)
-5. ✅ Platform-specific writing (Instagram concise, Facebook narrative, LinkedIn professional)
-6. ✅ Scientific language restraint (may, can, often, is more likely to)
-7. ✅ Clinician-to-clinician voice (Founder's authentic tone, not templated)
-8. ✅ Coherent weekly narrative arc (each day advances one clinical idea)
-
-**Preventable Failures Checklist (Week 5 Must Avoid):**
-1. ☐ Do not confuse institutional identity (July 9 v1.0) with social doctrine (July 27 v1.0)
-2. ☐ Do not regenerate Founder-approved assets through Firefly or Adobe Express
-3. ☐ Do not treat Editorial v3 as incorrect when final files use canonical `v1` names
-4. ☐ Do not accept browser suffixes (`(1)`, `(2)`) as production filenames
-5. ☐ Do not replace approved JPG with different PNG or other format
-6. ☐ Do not claim checksum verification without actual SHA-256 comparison
-7. ☐ Do not publish to wrong calendar date or reverse Story sequence
-8. ☐ Do not backdate or silently reschedule delayed posts
-9. ☐ Do not describe approved assets as awaiting design
-10. ☐ Do not mark scheduled content Published until verified live
-11. ☐ Do not allow repetitive AI cadence to overpower Founder's voice
-12. ☐ Do not present paraphrased or summarized content as direct quotations
-
----
-
-## Week 5 Repository Structure (Proposed)
-
-When Week 5 theme and dates are confirmed, create:
-
-```
-WEEK_05/
-  MONDAY/
-    MONDAY.md                        (Production specs + captions)
-    FOUNDER_APPROVAL_CHECKLIST.md    (Approval gates)
-    [canonical JPG assets]
-  
-  WEDNESDAY/
-    WEDNESDAY.md                     (Production specs + captions)
-    FOUNDER_APPROVAL_CHECKLIST.md    (Approval gates)
-    [canonical JPG assets]
-  
-  THURSDAY/
-    THURSDAY.md                      (Production specs + captions)
-    FOUNDER_APPROVAL_CHECKLIST.md    (Approval gates)
-    [canonical JPG assets]
-  
-  FRIDAY/
-    FRIDAY.md                        (Production specs + captions)
-    QA_REPORT.md                     (Asset verification)
-    FOUNDER_APPROVAL_CHECKLIST.md    (Final approval gates)
-    [canonical JPG assets]
-  
-  WEEK_05_STATUS.md                  (Week-level tracking)
-  WEEK_05_ASSET_MANIFEST.md          (Complete asset registry)
-```
-
----
-
-## Week 5 Production Timeline (Contingent on Founder Direction)
-
-**Day 1 (Founder Decision):**
-- [ ] Founder confirms Week 5 theme and narrative arc
-- [ ] Founder confirms publishing dates and times
-- [ ] Founder confirms visual and copy direction
-
-**Day 2-3 (Monday Production & Approval):**
-- [ ] Designer receives Monday specifications and delivers assets
-- [ ] Claude stages assets and creates MONDAY.md production documentation
-- [ ] Founder reviews and approves Monday package
-- [ ] Monday scheduled for publication
-
-**Day 4-5 (Wednesday Production & Approval):**
-- [ ] Designer receives Wednesday specifications and delivers assets
-- [ ] Claude stages assets and creates WEDNESDAY.md production documentation
-- [ ] Founder reviews and approves Wednesday package
-- [ ] Wednesday scheduled for publication
-
-**Day 6-7 (Thursday Production & Approval):**
-- [ ] Designer receives Thursday specifications and delivers assets
-- [ ] Claude stages assets and creates THURSDAY.md production documentation
-- [ ] Founder reviews and approves Thursday package
-- [ ] Thursday scheduled for publication
-
-**Day 8-9 (Friday Production & Approval):**
-- [ ] Designer receives Friday specifications and delivers assets
-- [ ] Claude stages assets, creates FRIDAY.md production documentation, and QA_REPORT.md
-- [ ] Founder reviews and approves Friday package
-- [ ] Friday scheduled for publication
-
-**Proposed Week 5 Dates (Monday–Friday):**
-- Monday: August 3, 2026
-- Wednesday: August 5, 2026
-- Thursday: August 6, 2026
-- Friday: August 7, 2026
-
-*(Confirm and adjust based on Founder's decision on Week 5 structure and publishing calendar)*
-
----
-
-## Founder Decision Required
-
-**Before Week 5 production can begin, the following must be specified:**
-
-1. **Week 5 Teaching Theme**
-   - What is Week 5 teaching clinicians?
-   - How does it advance beyond Week 4's listening framework?
-   - What is the narrative arc across Monday → Wednesday → Thursday → Friday?
-
-2. **Publishing Calendar**
-   - Exact dates for Week 5 publication
-   - Confirmation of publishing times (or variations)
-
-3. **Visual & Copy Direction**
-   - Confirmation that July 27 Social Visual Doctrine v1.0 continues
-   - Confirmation that Founder's clinical voice and tone standards carry forward
-   - Any specific emphasis or platform adjustments for Week 5
-
-4. **Production Workflow**
-   - Confirmation that one-day-at-a-time approval progression continues
-   - Confirmation of approval timeline and authority
-
----
-
-## Awaiting Founder Guidance
-
-**Status:** Week 5 is production-ready operationally. The repository systems, documentation standards, asset verification protocols, and approval processes established in Week 4 are proven and repeatable.
-
-**Next Step:** Founder provides Week 5 theme, dates, and direction. Production begins immediately upon Founder confirmation.
-
----
-
-**Readiness Assessment Completed:** July 28, 2026  
-**Owner:** Finding My Wei Communications Office  
-**Authority for Next Steps:** Drew Schlabach, Founder
-
+- [`../PUBLICATION_INDEX.md`](../PUBLICATION_INDEX.md)
+- [`../CURRENT_AUTHORITY_REGISTER.md`](../CURRENT_AUTHORITY_REGISTER.md)
+- [`../CAMPAIGN_001_CLOSEOUT_AND_TRANSFER.md`](../CAMPAIGN_001_CLOSEOUT_AND_TRANSFER.md)
