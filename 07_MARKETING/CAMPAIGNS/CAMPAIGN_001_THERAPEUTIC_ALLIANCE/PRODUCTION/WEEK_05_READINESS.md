@@ -38,13 +38,56 @@
 
 ---
 
+## 🎯 WEEK 5 TUESDAY–FRIDAY — ISSUE NO. 005 (SCHEDULED & QUEUED)
+
+**Issue Title:** The Decision Before the Decision (continued)  
+**Publishing Authority:** Taylor/ChatGPT (visual production & refinement)  
+**Repository Steward:** Claude (asset preservation & documentation)  
+**Founder Approval Status:** ✅ Approved for repository archival  
+**Publication Status:** ✅ **SCHEDULED & QUEUED FOR DAILY PUBLICATION (TUESDAY–FRIDAY)**  
+
+### Tuesday–Friday Platform Derivatives (16 visuals)
+
+**Platform Strategy Change:** Facebook now receives a purpose-built 1080 × 1080 square composition. LinkedIn retains the approved 1200 × 628 landscape. (Previously, Facebook and LinkedIn shared a landscape file.)
+
+| Day | Facebook 1080×1080 | Instagram Portrait 1080×1350 | LinkedIn 1200×628 | Instagram Story 1080×1920 |
+|---|---|---|---|---|
+| Tuesday | ✅ FINAL | ✅ FINAL | ✅ FINAL | ✅ FINAL |
+| Wednesday | ✅ FINAL | ✅ FINAL | ✅ FINAL | ✅ FINAL |
+| Thursday | ✅ FINAL | ✅ FINAL | ✅ FINAL | ✅ FINAL |
+| Friday | ✅ FINAL | ✅ FINAL | ✅ FINAL | ✅ FINAL |
+
+**Documentation:**
+- ✅ `Issue_005_Tuesday_Friday_Captions.md` — Complete editorial copy for all platforms
+- ✅ `Issue_005_Complete_Visual_Manifest.md` — Full asset registry (Monday + Tuesday–Friday)
+- ✅ `Issue_005_Tuesday_Friday_Contact_Sheet.png` — Visual QA proof contact sheet
+- ✅ `Issue_005_Social_Dimension_QA.md` — Dimension verification (all 16 assets PASS)
+
+**Repository Location:** `07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/PRODUCTION/WEEK 5/` (same directory as Monday package)
+
+**Visual QA Verification:**
+- ✅ All 16 final files verified against encoded dimensions
+- ✅ Facebook: 1080 × 1080 (square, new composition strategy)
+- ✅ Instagram Portrait: 1080 × 1350 (4 days)
+- ✅ LinkedIn: 1200 × 628 (landscape, continued)
+- ✅ Instagram Story: 1080 × 1920 (4 frames)
+- ✅ PNG RGB format confirmed
+- ✅ Brand palette and visual doctrine maintained
+- ✅ No design regressions from Monday
+
+**Deliverables Complete:** All Tuesday–Friday assets archived in repository. **All Publication No. 005 social posts scheduled and queued for daily publication through Friday.** Repository stewardship complete.
+
+---
+
 ## Week 5 Status Summary
 
 **Week 5 Production Model:** Issue-based editorial (Issue No. 005)  
-**Week 5 Production Status:** ✅ **MONDAY COMPLETE**  
+**Week 5 Production Status:** ✅ **COMPLETE** — All social posts (Monday–Friday) scheduled and queued for daily publication  
 **Design Authority:** Taylor (ChatGPT)  
 **Visual Foundation:** July 27 Social Visual Doctrine v1.0  
-**Founder Direction:** Approved for publication and archival  
+**Platform Strategy:** Facebook square (new), Instagram portrait, LinkedIn landscape, Instagram Story  
+**Publication Schedule:** Daily posts through Friday  
+**Repository Status:** ✅ Archived — all assets and supporting documentation committed  
 
 ---
 
