@@ -1,8 +1,12 @@
 # Campaign 001 Directory Architecture
 
-**Status:** Permanent Institutional Standard  
-**Established:** July 9, 2026  
-**Authority:** Editorial Board + Founder  
+**Status:** Permanent Institutional Standard
+
+**Established:** July 9, 2026
+
+**Reconciled:** August 3, 2026
+
+**Authority:** Editorial Board + Founder
 
 ---
 
@@ -16,7 +20,7 @@ Campaign 001 contains two separate directory structures with distinctly differen
 
 ## Directory Roles
 
-### BLOG/WEEK_01/
+### BLOG/WEEK_XX/
 
 **Purpose:** Publishing source of truth for all editorial content
 
@@ -50,7 +54,7 @@ BLOG/
 
 ---
 
-### PRODUCTION/WEEK_01/
+### PRODUCTION/WEEK_XX/
 
 **Purpose:** Workflow specification and metadata guide for all production tasks
 
@@ -117,14 +121,16 @@ PRODUCTION/WEEK_01/FRIDAY.md (Workflow Specification)
 
 **THE ARTICLE LIVES HERE:**
 ```
-/07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/BLOG/WEEK_01/FRIDAY.md
+/07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/BLOG/WEEK_XX/[DAY_OR_ARTICLE].md
 ```
 
 **NOT HERE:**
 ```
-❌ /07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/PRODUCTION/WEEK_01/FRIDAY.md
+❌ /07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/PRODUCTION/WEEK_XX/[DAY_OR_ARTICLE].md
    (This is specifications only)
 ```
+
+Historical exception: the Wednesday Week 1 article remains in `BLOG_CONTENT/`. It is a recorded stewardship gap and must not be used as a precedent for new work.
 
 ---
 
@@ -214,6 +220,18 @@ This architecture document is:
 **Before editing ANY Friday file, determine its location:**
 - `BLOG/WEEK_01/FRIDAY.md` → Article source; apply Editorial Board corrections
 - `PRODUCTION/WEEK_01/FRIDAY.md` → Specifications only; never add article content
+
+---
+
+## Campaign-Level Control Records
+
+These records prevent production history from becoming current doctrine by accident:
+
+- [`PUBLICATION_INDEX.md`](PUBLICATION_INDEX.md) — Issues 001–005 evidence ledger
+- [`CURRENT_AUTHORITY_REGISTER.md`](CURRENT_AUTHORITY_REGISTER.md) — current rules and explicit supersessions
+- [`CAMPAIGN_001_CLOSEOUT_AND_TRANSFER.md`](CAMPAIGN_001_CLOSEOUT_AND_TRANSFER.md) — transferable institutional learning
+
+Update the ledger at canonical-source approval, derivative approval, scheduling, live verification, and performance capture. If evidence is absent, record **Unknown / not recorded** rather than inferring a result.
 
 ---
 
