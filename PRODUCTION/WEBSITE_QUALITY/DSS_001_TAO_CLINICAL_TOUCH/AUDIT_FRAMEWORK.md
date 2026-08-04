@@ -39,11 +39,118 @@ Primary audits:
 
 ---
 
-## 2. Evidence Citation Format
+## 2. Two-Pass Audit Methodology
 
-Every audit finding must cite evidence in this standardized format:
+**Critical principle:** Institutional knowledge must not colonize visitor experience evaluation.
 
-### Observation Citation
+Every page receives two complete, separate passes:
+
+### PASS ONE: Visitor Experience
+**When:** FIRST, before any reference to institutional frameworks
+
+**Instructions:** Encounter the page as a first-time visitor would. Do not consult governance documents. Do not apply institutional knowledge. Simply experience the page and answer:
+
+- What do I think this organization is?
+- What promise is it making?
+- What emotion does it create?
+- Do I trust it?
+- What is unclear or confusing?
+- What do I want to do next?
+- What story is this page telling?
+- What would I remember about this organization if I never returned?
+
+**Outcome:** Authentic first impression, unfiltered by institutional framework
+
+**Evidence:** Raw visitor reaction captured without framework overlay
+
+### PASS TWO: Institutional Alignment
+**When:** ONLY AFTER Pass One is complete and documented
+
+**Instructions:** Now compare the page against the seven frozen governing documents:
+
+- Constitution
+- Editorial Manual
+- Visual Doctrine
+- Brand Governance
+- Digital Stewardship Standard
+- Documentary Photography Doctrine
+- Founder's Directives
+
+**Questions:**
+- Why did this page succeed or fail in Pass One?
+- Which institutional standards explain the visitor response?
+- Are there conflicts between visitor impression and institutional intent?
+- Which documents support or challenge the page's approach?
+
+**Outcome:** Understanding of mechanisms, not just outcomes. Explains why a page works or doesn't work.
+
+**Evidence:** Citations to specific governing documents that explain visitor response
+
+### Structural Requirement
+
+Every finding must document BOTH passes:
+
+```
+[PASS ONE: Visitor Experience]
+First impression: {unfiltered visitor reaction}
+Emotional response: {what the page makes me feel}
+Trust assessment: {do I believe this organization?}
+Clarity assessment: {what's unclear?}
+Next action instinct: {what does the page invite me to do?}
+Memorable elements: {what would I remember?}
+
+[PASS TWO: Institutional Alignment]
+Governing document: {which standard explains this?}
+Alignment assessment: {how well does it match doctrine?}
+Mechanism: {why does it work or fail?}
+Conflicts: {any mismatch between visitor impression and institutional intent?}
+```
+
+### Why This Matters
+
+Pass One captures authentic institutional effectiveness. Pass Two explains the mechanism.
+
+Without Pass One, institutional knowledge blinds you to how the institution actually functions.  
+Without Pass Two, you have impressions but no understanding of cause.
+
+Together, they prevent both institutional self-deception (mistaking frameworks for reality) and naive critique (mistaking first impression for complete understanding).
+
+---
+
+## 3. Evidence Citation Format (Pass One & Pass Two)
+
+Every audit finding must cite evidence in standardized format for both passes:
+
+### Pass One Citation Format
+
+```
+[PASS ONE: {audit_document}]
+Page: {page_name}
+URL: {full_url}
+Visitor impression: {unfiltered reaction}
+Emotional response: {feeling}
+Trust assessment: {yes/no/uncertain}
+Clarity: {clear / unclear about}
+Next action: {what visitor wants to do}
+Memorable element: {what stands out}
+```
+
+### Pass Two Citation Format (After Pass One Complete)
+
+```
+[PASS TWO: {audit_document}]
+Page: {page_name}
+URL: {full_url}
+Pass One finding: {reference to visitor response}
+Governing document: {which standard applies}
+Mechanism explanation: {why it works or fails}
+Alignment assessment: {aligned / misaligned / partially aligned}
+Conflicts: {any visitor impression vs. institutional intent mismatch}
+```
+
+### Legacy Observation Citation (for non-finding documentation)
+
+When documenting general observations not tied to Pass One/Two structure:
 ```
 [OBSERVATION: {audit_document}]
 Page: {page_name}
@@ -836,10 +943,19 @@ Before submitting any Gate 1 deliverable:
 - [ ] No assumptions about authorization
 - [ ] No implementation work included
 
+**TWO-PASS METHODOLOGY**
+- [ ] PASS ONE completed first: visitor experience documented WITHOUT institutional framework
+- [ ] PASS ONE answers: what/promise/emotion/trust/unclear/next-action/story/memory
+- [ ] PASS ONE is unfiltered first impression, not influenced by Pass Two
+- [ ] PASS TWO completed after PASS ONE: institutional alignment against 7 documents
+- [ ] PASS TWO explains mechanisms, not just outcomes
+- [ ] Both passes documented in findings with clear separation
+- [ ] Pass One findings used as foundation for Pass Two analysis
+
 **COMPLETENESS**
 - [ ] Deliverable begins with Executive Summary (institutional diagnosis, not issue list)
 - [ ] Executive Summary includes: diagnosis, philosophy, strengths, gaps, surprises, what should never change
-- [ ] Deliverable includes: purpose, methodology, findings, evidence, risks
+- [ ] Deliverable includes: purpose, methodology, findings (both passes), evidence, risks
 - [ ] Finding structure is consistent across all entries
 - [ ] Every finding categorized as Strength / Debt / Decision / Question
 - [ ] No running accounts or progress narratives
