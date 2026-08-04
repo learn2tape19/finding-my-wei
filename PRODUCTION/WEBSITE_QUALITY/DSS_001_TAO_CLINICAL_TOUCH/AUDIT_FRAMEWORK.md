@@ -383,9 +383,74 @@ Status: Pending Founder guidance on mobile audit scope
 
 ---
 
-## 8. Institutional Standards Reference
+## 8. Frozen Institutional Baseline — Authoritative Governing Documents
 
-### Editorial Doctrine (from Editorial Manual)
+### Authority Hierarchy
+
+Before evaluating a single page, the Steward must explicitly identify which governing document supports every standard, principle, and expectation.
+
+**Authoritative Institutional Documents (frozen for DSS-001):**
+
+1. **CONSTITUTION.md** — Institutional identity and foundational principles
+   - How we are structured
+   - What we stand for
+   - Core operating principles
+
+2. **EDITORIAL_MANUAL.md** — Voice, tone, and editorial standards
+   - Editorial voice and tone requirements
+   - Clarity and precision standards
+   - Invitational vs. promotional language
+   - Consistency requirements
+
+3. **VISUAL_DOCTRINE.md** — Visual identity and design standards
+   - Typography standards
+   - Color usage
+   - Visual hierarchy
+   - Spacing and rhythm
+
+4. **DOCUMENTARY_PHOTOGRAPHY_DOCTRINE.md** — Photography standards
+   - Appropriate imagery
+   - Documentary alignment
+   - Authenticity over stock imagery
+
+5. **BRAND_GOVERNANCE_STANDARD.md** — Brand consistency across properties
+   - Brand voice consistency
+   - Logo and wordmark usage
+   - Visual coherence
+
+6. **DIGITAL_STEWARDSHIP_STANDARD.md** (this framework)
+   - Website governance principles
+   - Stewardship standards
+   - Institutional coherence in digital properties
+
+7. **FOUNDER_DIRECTIVES.md (DSS-001)** — Specific decisions for this engagement
+   - Approved governance decisions
+   - Treatment approval status
+   - Site-specific requirements
+
+### How to Use This Baseline
+
+**Every finding must cite which document supports the standard being evaluated.**
+
+**Example:**
+```
+[OBSERVATION: Editorial Audit]
+Page: About
+Standard: Editorial voice consistency (EDITORIAL_MANUAL.md)
+Governing Principle: "The voice is clear, precise, and invitational"
+Finding: Current page text uses promotional language ("amazing", "incredible")
+Institutional Standard Violated: Yes
+Recommendation: Revise to align with Editorial Manual voice standards
+```
+
+**Forbidden approach:**
+- Do not invent a standard and cite it as institutional doctrine
+- Do not assume a standard without locating it in a governing document
+- Do not treat reasonable assumptions as equivalent to documented standards
+
+### Standards by Category
+
+**Editorial Standards (from EDITORIAL_MANUAL.md)**
 - Voice: Clear, precise, invitational
 - Tone: Educational, not promotional
 - Precision over persuasion
@@ -393,7 +458,7 @@ Status: Pending Founder guidance on mobile audit scope
 - Support for therapeutic alliance
 - Respect for reader autonomy
 
-### The Tao of Clinical Touch Philosophy
+**Institutional Philosophy (from CONSTITUTION.md, DIGITAL_STEWARDSHIP_STANDARD.md)**
 - Understanding precedes intervention
 - Safety before technique
 - Permission as protocol
@@ -401,7 +466,7 @@ Status: Pending Founder guidance on mobile audit scope
 - Communication as care
 - Wu Wei (non-imposition)
 
-### North Star (Founder Directive)
+**The North Star (from FOUNDER_DIRECTIVES.md)**
 A first-time visitor immediately understands:
 1. What The Tao of Clinical Touch is
 2. Who Drew Freedman is
@@ -409,7 +474,7 @@ A first-time visitor immediately understands:
 4. How the ideas connect
 5. Where to go next
 
-### Brand Coherence Standards
+**Brand Coherence Standards (from BRAND_GOVERNANCE_STANDARD.md, DIGITAL_STEWARDSHIP_STANDARD.md)**
 - Institutional consistency
 - Visual rhythm
 - Photography alignment
@@ -417,9 +482,84 @@ A first-time visitor immediately understands:
 - CTA language (invitational, not transactional)
 - Publication System integration
 
+**Accessibility Standards** (from general institutional commitment to inclusion)
+- WCAG 2.1 Level AA compliance where observable
+- Clear heading hierarchy
+- Descriptive link text
+- Image alt text standards
+
 ---
 
-## 9. Founder Consensus Items
+## 9. Institutional Impact Rating
+
+Not all findings are equal.
+
+A typo is not equivalent to undermining institutional identity.
+
+Every finding must be assigned an Institutional Impact rating that reflects whether it affects the institution's identity, communication, or user experience.
+
+### Impact Rating Scale
+
+| Rating | Meaning | Example | Consequence |
+|--------|---------|---------|------------|
+| **CRITICAL** | Undermines institutional identity or trust | Placeholder content suggesting the work is unfinished; messaging contradicting Tao philosophy; false claims | Damages credibility; confuses visitor about institutional mission; **must address before launch** |
+| **MAJOR** | Weakens communication or consistency | Missing meta descriptions reducing discoverability; inconsistent editorial voice across pages; broken internal links disrupting reader journey | Reduces effectiveness of institutional communication; creates friction; **should address in this sprint** |
+| **MODERATE** | Creates friction or ambiguity | Unclear CTA language; inconsistent typography; ALT text missing on illustrative images | Affects user experience or accessibility; minor inconsistency; **should address if capacity allows** |
+| **MINOR** | Cosmetic improvement only | Filename optimization; metadata character count fine-tuning; CSS polish with no functional impact | No impact on institutional identity or user experience; **optional; consider for future sprints** |
+
+### How to Assign Impact Rating
+
+Ask these questions in order:
+
+1. **Does this affect institutional identity or trust?** → If YES: **CRITICAL**
+2. **Does this weaken communication or consistency?** → If YES: **MAJOR**
+3. **Does this create friction or ambiguity for the visitor?** → If YES: **MODERATE**
+4. **Is this purely cosmetic?** → If YES: **MINOR**
+
+### Application Rule
+
+**Do not assign CRITICAL or MAJOR impact based on assumptions.** 
+
+Only assign high impact if:
+- Direct evidence supports the impact claim
+- The institutional standard is explicitly documented
+- The consequence affects institutional identity or core communication
+
+### In Treatment Plan
+
+The Treatment Plan will be organized by Institutional Impact, not by page or category.
+
+- CRITICAL findings → must address
+- MAJOR findings → should address
+- MODERATE findings → may address if capacity allows
+- MINOR findings → consider for future sprints
+
+This ensures recommendations focus on institutional preservation, not optimization theater.
+
+---
+
+## 10. Core Purpose Statement — Gate 1
+
+**The purpose of Gate 1 is not to find problems.**
+
+**The purpose of Gate 1 is to understand the institution well enough that any future intervention preserves—and never accidentally damages—its identity.**
+
+This principle governs all audit work:
+
+- Approach each page as a steward would, not as a critic
+- Ask "How does this serve the institution?" not "What's wrong with this?"
+- Identify strengths as carefully as you identify weaknesses
+- Assume good intent; verify impact
+- Distinguish between "imperfect" and "harmful"
+- Recommend only changes that strengthen institutional coherence
+
+If a finding does not directly affect institutional preservation, it should be marked MINOR or logged as emergent, not elevated to the Treatment Plan.
+
+The institution's identity is not something to fix. It is something to preserve and strengthen.
+
+---
+
+## 11. Founder Consensus Items
 
 Findings that require explicit Founder approval before proceeding to Consensus gate:
 
@@ -439,7 +579,7 @@ Items flagged in each audit should identify:
 
 ---
 
-## 10. Quality Assurance Checklist
+## 12. Quality Assurance Checklist
 
 Before submitting any Gate 1 deliverable:
 
@@ -459,10 +599,18 @@ Before submitting any Gate 1 deliverable:
 - [ ] Risks clearly identified and separated from findings
 - [ ] Recommendations clearly separated from findings
 
+**IMPACT RATING**
+- [ ] Every finding assigned Institutional Impact rating (Critical/Major/Moderate/Minor)
+- [ ] Impact rating based on institutional preservation, not optimization
+- [ ] High-impact ratings supported by direct evidence
+- [ ] Cosmetic findings correctly marked MINOR
+
 **STANDARDS**
-- [ ] Each finding references relevant institutional standard
+- [ ] Each finding cites a governing document (Constitution, Editorial Manual, etc.)
+- [ ] Standard is not invented; it is documented in an authoritative source
 - [ ] Consequence or risk identified
 - [ ] Unresolved uncertainties documented
+- [ ] Every standard is justifiable from a governing document, not assumption
 
 **APPROVAL**
 - [ ] Founder Consensus items clearly flagged
