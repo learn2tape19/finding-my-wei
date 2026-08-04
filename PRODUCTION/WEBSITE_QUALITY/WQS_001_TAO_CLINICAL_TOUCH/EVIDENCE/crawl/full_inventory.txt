@@ -1,0 +1,127 @@
+=== FULL PAGE INVENTORY ===
+Generated: Mon Aug  3 19:27:42 EDT 2026
+
+
+---
+URL: https://taoclinicaltouch.com/sample-page/
+Slug: sample-page
+Title: Sample Page &#8211; Tao of Clinical Touch
+Internal Links: 15
+Images: 0
+0
+H2 Headings: 3
+H3 Headings: 0
+0
+Meta Description: (not set)
+
+---
+URL: https://taoclinicaltouch.com/contact/
+Slug: contact
+Title: Contact &#8211; Tao of Clinical Touch
+Internal Links: 9
+Images: 0
+0
+H2 Headings: 3
+H3 Headings: 3
+Meta Description: (not set)
+
+---
+URL: https://taoclinicaltouch.com/about/
+Slug: about
+Title: About &#8211; Tao of Clinical Touch
+Internal Links: 9
+Images: 3
+H2 Headings: 6
+H3 Headings: 2
+Meta Description: (not set)
+
+---
+URL: https://taoclinicaltouch.com/services/
+Slug: services
+Title: Services &#8211; Tao of Clinical Touch
+Internal Links: 9
+Images: 4
+H2 Headings: 4
+H3 Headings: 8
+Meta Description: (not set)
+
+---
+URL: https://taoclinicaltouch.com/
+Slug: 
+Title: Tao of Clinical Touch &#8211; The Neuroscience of Permission
+Tao of Clinical Touch &#8211; The Neuroscience of Permission
+Internal Links: 29
+Images: 41
+H2 Headings: 15
+H3 Headings: 13
+Meta Description: A clinical framework for therapeutic touch — grounded in neuroscience, refined through decades of practice. For practitioners who want better outcomes.
+
+---
+URL: https://taoclinicaltouch.com/chapter-1-the-tao-of-alliance/
+Slug: chapter-1-the-tao-of-alliance
+Title: The Tao of Alliance &#8211; Tao of Clinical Touch
+The Tao of Alliance &#8211; Tao of Clinical Touch
+Internal Links: 10
+Images: 0
+0
+H2 Headings: 6
+H3 Headings: 10
+Meta Description: Read a free chapter from The Tao of Clinical Touch and discover why physiological readiness, alliance, and permission govern effective care.
+
+---
+URL: https://taoclinicaltouch.com/share-your-perspective/
+Slug: share-your-perspective
+Title: Share Your Perspective &#8211; Tao of Clinical Touch
+Share Your Perspective &#8211; Tao of Clinical Touch
+Internal Links: 9
+Images: 8
+H2 Headings: 7
+H3 Headings: 0
+0
+Meta Description: (not set)
+
+---
+URL: https://taoclinicaltouch.com/tao-hero-banner/
+Slug: tao-hero-banner
+Title: Tao Hero Banner &#8211; Tao of Clinical Touch
+Tao Hero Banner &#8211; Tao of Clinical Touch
+Internal Links: 9
+Images: 0
+0
+H2 Headings: 2
+H3 Headings: 0
+0
+Meta Description: (not set)
+
+---
+URL: https://taoclinicaltouch.com/book/
+Slug: book
+Title: book &#8211; Tao of Clinical Touch
+book &#8211; Tao of Clinical Touch
+Internal Links: 30
+Images: 49
+H2 Headings: 9
+H3 Headings: 5
+Meta Description: (not set)
+
+---
+URL: https://taoclinicaltouch.com/blog/
+Slug: blog
+Title: Tao of Clinical Touch Blog &#8211; Tao of Clinical Touch
+Internal Links: 45
+Images: 9
+H2 Headings: 11
+H3 Headings: 0
+0
+Meta Description: (not set)
+
+---
+URL: https://taoclinicaltouch.com/tao-blog-page/
+Slug: tao-blog-page
+Title: Tao Blog Page &#8211; Tao of Clinical Touch
+Tao Blog Page &#8211; Tao of Clinical Touch
+Internal Links: 47
+Images: 29
+H2 Headings: 10
+H3 Headings: 1
+Meta Description: (not set)
