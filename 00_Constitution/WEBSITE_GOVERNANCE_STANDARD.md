@@ -1,9 +1,12 @@
-# Website Governance Standard
+# Digital Stewardship Standard (DSS)
 ## The Operating System for All Digital Properties
 
+**Standard Name:** Digital Stewardship Standard  
+**Previous Name:** Website Governance Standard  
 **Version:** 1.0  
+**Status:** Ratified  
 **Adopted:** August 3, 2026  
-**Scope:** All digital properties governed by Finding My Wei
+**Scope:** All digital properties governed by Finding My Wei (Tao Clinical Touch, Learn2Tape, Sidekick Air, AREA, and future organizations)
 
 ---
 
@@ -15,47 +18,60 @@ The goal is not merely to improve rankings or performance. The goal is to make e
 
 ---
 
-## The Four Gates of Website Stewardship
+## The Five Gates of Digital Stewardship
 
-Website governance follows the same reasoning model taught in clinical practice:
+Digital stewardship follows the same reasoning model taught in clinical practice:
 
 ### Gate 0: Observation
 **What is present?**
 
-- Crawl all discoverable public URLs
-- Inventory all content, structure, and relationships
+- Crawl all discoverable public content
+- Inventory all structure and relationships
 - Record every measurable public signal
-- Capture baseline state
+- Capture complete baseline state
+- Distinguish observations from assumptions
 
-No changes. No assumptions. Fact separated from inference.
+No changes. No modifications. Fact separated from inference.
 
 ### Gate 1: Understanding
 **What does this mean?**
 
-- Audit editorial alignment
+- Audit editorial and institutional alignment
 - Assess accessibility and technical quality
 - Analyze information architecture
-- Develop Treatment Plan
+- Evaluate content governance
+- Develop complete Treatment Plan
 
-No changes. Complete understanding before intervention.
+No changes. Complete understanding before consensus is sought.
 
-### Gate 2: Intervention
+### Gate 2: Consensus
+**Do we all agree?**
+
+- Founder reviews all findings and recommendations
+- Architect validates governance alignment
+- Steward confirms technical feasibility
+- Treatment Plan is approved by all three roles
+
+No intervention occurs until consensus exists among all stakeholders. This gate ensures alignment before action.
+
+### Gate 3: Intervention
 **How do we improve?**
 
 - Execute approved changes in small, verified phases
-- Document every modification
+- Document every modification with rationale
 - Verify after each phase
 - Maintain rollback capability
 
-Only intervene after understanding.
+Only intervene after understanding and consensus.
 
-### Gate 3: Reflection
+### Gate 4: Reflection
 **What did we learn?**
 
 - Compare against baseline
 - Measure improvement
 - Document institutional knowledge
 - Inform future stewardship
+- Identify process improvements
 
 Reflection includes verification, assessment, and learning.
 
@@ -175,32 +191,49 @@ A sprint is accepted only when all four conditions are true:
 
 ## Digital Properties Subject to This Standard
 
-- The Tao of Clinical Touch (`taoclinicaltouch.com`)
-- Learn2Tape
-- Sidekick Air
-- AREA
+- The Tao of Clinical Touch (`taoclinicaltouch.com`) — DSS-001
+- Learn2Tape — DSS-002
+- Sidekick Air — DSS-003
+- AREA — DSS-004
 - Future books, projects, platforms, and organizations
 
 ---
 
-## Sprint Documentation Structure
+## Digital Stewardship Sprint (DSS) Documentation Structure
 
-Each Website Quality Sprint (WQS) produces:
+Each DSS engagement produces:
 
-- **Gate 0 — Observation:** `00_OBSERVATION_BASELINE.md`
-- **Gate 1 — Understanding:** Multiple audit documents
-  - `01_CONTENT_INVENTORY.md`
-  - `02_EDITORIAL_UNDERSTANDING.md`
-  - `03_ACCESSIBILITY_AUDIT.md`
-  - `04_IMAGE_GOVERNANCE.md`
-  - `05_TECHNICAL_SEO_AUDIT.md`
-  - `06_LINK_INTEGRITY_AUDIT.md`
-  - `07_REDIRECT_REGISTER.md`
-  - `08_KNOWLEDGE_GRAPH.md`
-  - `09_TREATMENT_PLAN.md`
-  - `10_LESSONS_LEARNED.md`
-- **Gate 2 — Intervention:** Committed changes with verification
-- **Gate 3 — Reflection:** Final reports and institutional knowledge capture
+**Gate 0 — Observation:**
+- `00_OBSERVATION_BASELINE.md`
+- Evidence files (crawl data, metadata, screenshots)
+
+**Gate 1 — Understanding:**
+- `01_CONTENT_INVENTORY.md`
+- `02_EDITORIAL_AUDIT.md`
+- `03_ACCESSIBILITY_AUDIT.md`
+- `04_IMAGE_GOVERNANCE.md`
+- `05_TECHNICAL_SEO_AUDIT.md`
+- `06_LINK_INTEGRITY_AUDIT.md`
+- `07_REDIRECT_REGISTER.md`
+- `08_KNOWLEDGE_GRAPH.md`
+- `09_TREATMENT_PLAN.md`
+- `10_LESSONS_LEARNED.md`
+- `11_METADATA_REGISTER.md` (when applicable)
+
+**Gate 2 — Consensus:**
+- Founder Directives
+- Approved Treatment Plan
+- Consensus sign-off from all three roles
+
+**Gate 3 — Intervention:**
+- Committed changes with verification
+- Implementation tracking
+- Rollback procedures
+
+**Gate 4 — Reflection:**
+- Final reports and metrics comparison
+- Institutional knowledge capture
+- Process improvements for next DSS engagement
 
 ---
 
