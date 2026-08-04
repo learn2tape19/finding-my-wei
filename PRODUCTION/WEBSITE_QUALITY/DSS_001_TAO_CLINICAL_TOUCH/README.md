@@ -51,20 +51,31 @@ This directory contains the complete governance record for Digital Stewardship S
 ```
 DSS_001_TAO_CLINICAL_TOUCH/
 ├── README.md (this file)
-├── 00_OBSERVATION_BASELINE.md
-├── 01_CONTENT_INVENTORY.md
-├── GATE_0_SUMMARY.md
-├── FOUNDER_DIRECTIVES.md
-├── 02_EDITORIAL_AUDIT.md (Gate 1)
-├── 03_ACCESSIBILITY_AUDIT.md (Gate 1)
-├── 04_IMAGE_GOVERNANCE.md (Gate 1)
-├── 05_TECHNICAL_SEO_AUDIT.md (Gate 1)
-├── 06_LINK_INTEGRITY_AUDIT.md (Gate 1)
-├── 07_REDIRECT_REGISTER.md (Gate 1)
-├── 08_KNOWLEDGE_GRAPH.md (Gate 1)
-├── 09_TREATMENT_PLAN.md (Gate 1)
-├── 10_LESSONS_LEARNED.md (Gate 1)
-├── 11_METADATA_REGISTER.md (Gate 1)
+├── ARCHITECTURAL_RECOMMENDATIONS.md
+├── 
+├── Gate 0 Deliverables:
+├── ├── 00_OBSERVATION_BASELINE.md
+├── ├── 01_CONTENT_INVENTORY.md
+├── ├── GATE_0_SUMMARY.md
+├── └── FOUNDER_DIRECTIVES.md
+├── 
+├── Gate 1 Deliverables:
+├── ├── 02_EDITORIAL_AUDIT.md
+├── ├── 03_ACCESSIBILITY_AUDIT.md
+├── ├── 04_IMAGE_GOVERNANCE.md
+├── ├── 05_TECHNICAL_SEO_AUDIT.md
+├── ├── 06_LINK_INTEGRITY_AUDIT.md
+├── ├── 07_REDIRECT_REGISTER.md
+├── ├── 08_KNOWLEDGE_GRAPH.md
+├── ├── 09_TREATMENT_PLAN.md
+├── ├── 10_LESSONS_LEARNED.md (Gate 1 → used in Gate 4)
+├── ├── 11_METADATA_REGISTER.md
+├── └── 12_BRAND_COHERENCE_AUDIT.md
+├── 
+├── Gate 4 Deliverables:
+├── ├── 10_LESSONS_LEARNED.md (finalized)
+├── └── 13_STEWARDSHIP_REPORT.md
+├── 
 └── EVIDENCE/
     ├── screenshots/
     ├── crawl/
@@ -97,23 +108,32 @@ DSS_001_TAO_CLINICAL_TOUCH/
 ### ⏳ Gate 1 — Understanding (AUTHORIZED - IN PROGRESS)
 
 **Will Deliver:**
-- `02_EDITORIAL_AUDIT.md` — Alignment of each page with Tao doctrine
-- `03_ACCESSIBILITY_AUDIT.md` — Heading hierarchy, semantic structure, ARIA
-- `04_IMAGE_GOVERNANCE.md` — Complete image inventory, ALT text audit, purpose investigation
-- `05_TECHNICAL_SEO_AUDIT.md` — Canonical tags, structured data, schema markup
-- `06_LINK_INTEGRITY_AUDIT.md` — Internal and external link validation
-- `07_REDIRECT_REGISTER.md` — Planned redirects for deleted/consolidated pages
-- `08_KNOWLEDGE_GRAPH.md` — Relationships between core Tao concepts
-- `09_TREATMENT_PLAN.md` — Detailed, sequenced interventions with rationale
-- `10_LESSONS_LEARNED.md` — Institutional knowledge capture
-- `11_METADATA_REGISTER.md` — Metadata inventory with recommendations (not implementation)
+1. `02_EDITORIAL_AUDIT.md` — Alignment of each page with Tao doctrine
+2. `03_ACCESSIBILITY_AUDIT.md` — Heading hierarchy, semantic structure, ARIA
+3. `04_IMAGE_GOVERNANCE.md` — Complete image inventory, ALT text audit, purpose investigation
+4. `05_TECHNICAL_SEO_AUDIT.md` — Canonical tags, structured data, schema markup
+5. `06_LINK_INTEGRITY_AUDIT.md` — Internal and external link validation
+6. `07_REDIRECT_REGISTER.md` — Planned redirects for deleted/consolidated pages
+7. `08_KNOWLEDGE_GRAPH.md` — Relationships between core Tao concepts
+8. `09_TREATMENT_PLAN.md` — Detailed, sequenced interventions with rationale
+9. `10_LESSONS_LEARNED.md` — Institutional knowledge (draft; finalized in Gate 4)
+10. `11_METADATA_REGISTER.md` — Metadata inventory with recommendations (not implementation)
+11. `12_BRAND_COHERENCE_AUDIT.md` — **NEW** Institutional consistency review (typography, visual rhythm, CTAs, photography, publication integration, North Star reinforcement)
 
 **Specific Instructions:**
 - Do not assume image duplication — investigate all 41-49 images
 - Do not write metadata — inventory, propose, prepare for approval
 - Distinguish observations from assumptions
 - Apply Principle of Minimal Necessary Change
-- Areas requiring special scrutiny: images, canonical blog strategy, internal linking, structured data, taxonomy, accessibility beyond ALT text
+- Apply principle: "Understanding precedes intervention"
+- Areas requiring special scrutiny: 
+  - Image duplication vs. legitimate usage
+  - Canonical blog strategy
+  - Internal linking architecture
+  - Structured data opportunities
+  - Taxonomy redesign
+  - Accessibility beyond ALT text
+  - **NEW:** Institutional coherence across all pages
 
 ### ⏳ Gate 2 — Consensus (PENDING)
 
@@ -139,10 +159,30 @@ DSS_001_TAO_CLINICAL_TOUCH/
 
 **Status:** PENDING completion of Gate 3 intervention
 
-**Will Include:**
+**Will Produce Two Deliverables:**
+
+#### Internal Documentation
+**`10_LESSONS_LEARNED.md` (finalized)**
+- Audience: Future Stewards
+- Content: Institutional knowledge, process improvements, what to watch for
+- Purpose: Build institutional wisdom from this engagement
+
+#### Founder Strategic Report
+**`13_STEWARDSHIP_REPORT.md` (NEW)**
+- Audience: Founder
+- Format: Executive briefing (not technical report)
+- Content:
+  - What surprised us?
+  - What strengthened the institution?
+  - What remains unresolved?
+  - What should become policy?
+  - What should never happen again?
+  - Recommendations for DSS-002
+  - Institutional growth observations
+
+**Also Delivers:**
 - Baseline comparison and metrics
 - Impact assessment
-- Institutional knowledge capture
 - Process improvements for future DSS engagements
 
 ---

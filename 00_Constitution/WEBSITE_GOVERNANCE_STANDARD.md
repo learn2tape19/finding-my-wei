@@ -163,6 +163,34 @@ If it merely increases noise, novelty, or optimization without improving underst
 
 ---
 
+## Core Operating Principle
+
+**Understanding precedes intervention.**
+
+This principle governs all digital stewardship:
+
+- Before making changes, understand completely
+- Before recommending solutions, establish the full context
+- Before implementing, ensure alignment across all stakeholders
+
+This principle extends across clinical practice, education, publications, editorial process, and institutional governance.
+
+Whenever uncertainty exists, return to this principle.
+
+---
+
+## Principle Against Bureaucratic Complexity
+
+The standard exists to improve judgment, not to increase bureaucracy.
+
+When a simpler path achieves the same level of clarity, safety, and institutional integrity, the simpler path should be preferred.
+
+Governance should reduce unnecessary complexity, not create it.
+
+If process becomes heavier than the work itself, the framework has failed its purpose.
+
+---
+
 ## Institutional Acceptance Criteria
 
 A sprint is accepted only when all four conditions are true:
