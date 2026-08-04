@@ -538,7 +538,102 @@ This ensures recommendations focus on institutional preservation, not optimizati
 
 ---
 
-## 10. Core Purpose Statement — Gate 1
+## 10. Four Categories of Institutional Observation
+
+Not every inconsistency is a defect. Mature institutions contain deliberate exceptions, historical artifacts, transitional content, and intentional compromises. These are evidence of evolution, not necessarily errors.
+
+Every finding must be categorized as one of four types:
+
+### INSTITUTIONAL STRENGTH
+**Definition:** An element that is working well and should be intentionally preserved.
+
+**Characteristics:**
+- Aligns with institutional mission
+- Serves the reader or institution well
+- Demonstrates institutional values
+- Should not be "optimized away"
+
+**Example:**
+```
+[INSTITUTIONAL STRENGTH: Editorial Audit]
+Page: Homepage
+Element: Reader testimonials section
+Reason: Authentic voices of practitioners using the framework demonstrate real-world value
+Recommendation: Preserve and strengthen; consider adding more voices
+```
+
+---
+
+### INSTITUTIONAL DEBT
+**Definition:** An element that is functional but imperfect; should eventually be improved but is not urgent.
+
+**Characteristics:**
+- Works adequately in current state
+- Represents a compromise or transitional state
+- Does not damage the institution
+- Improvement would strengthen coherence
+- Low priority; can wait for future sprints
+
+**Example:**
+```
+[INSTITUTIONAL DEBT: Editorial Audit]
+Page: About
+Element: Author bio is minimal
+Reason: Current biography lacks the institutional origin story as described in Founder Directive 005
+Impact: Visitor doesn't understand the institutional context of Drew's work
+Recommendation: Eventually replace with institutional origin story (not urgent for Sprint 001)
+Impact Rating: MAJOR
+Status: Deferred to future sprint
+```
+
+---
+
+### INSTITUTIONAL DECISION
+**Definition:** An intentional design choice that should not be "corrected" because it serves a purpose.
+
+**Characteristics:**
+- Deliberately chosen
+- Serves a specific institutional function
+- Might appear inconsistent if context is unknown
+- Should be preserved even if it seems "wrong"
+- May need clarification, not correction
+
+**Example:**
+```
+[INSTITUTIONAL DECISION: Editorial Audit]
+Page: Services
+Element: Uses term "Services" rather than "Clinical Education"
+Reason: Intentional pending Founder Directive 004 renaming (approved by Founder)
+Status: Awaiting Gate 3 implementation
+Recommendation: Do not correct; recognize as approved governance decision
+```
+
+---
+
+### INSTITUTIONAL QUESTION
+**Definition:** An uncertainty requiring Founder clarification before any recommendation can be made.
+
+**Characteristics:**
+- Multiple plausible interpretations
+- Cannot determine intent from public inspection
+- Requires Founder input to proceed
+- Blocks recommendation until clarified
+- Should not be assumed
+
+**Example:**
+```
+[INSTITUTIONAL QUESTION: Editorial Audit]
+Page: Services and About
+Element: Placeholder content suspected but not confirmed
+Question: Is current content intentionally minimal, or is it in transition?
+Evidence: Both pages last modified April 15 (early in project)
+Impact: Cannot recommend replacement without understanding current status
+Required: Founder clarification before proceeding with content recommendations
+```
+
+---
+
+## 11. Core Purpose Statement — Gate 1
 
 **The purpose of Gate 1 is not to find problems.**
 
@@ -550,12 +645,136 @@ This principle governs all audit work:
 - Ask "How does this serve the institution?" not "What's wrong with this?"
 - Identify strengths as carefully as you identify weaknesses
 - Assume good intent; verify impact
-- Distinguish between "imperfect" and "harmful"
+- Distinguish between "imperfect," "intentional," and "harmful"
 - Recommend only changes that strengthen institutional coherence
+- **Preserve institutional memory rather than optimize it away**
+
+Mature institutions contain deliberate exceptions, historical artifacts, transitional content, and intentional compromises. These are evidence of institutional evolution, not necessarily defects to be corrected.
 
 If a finding does not directly affect institutional preservation, it should be marked MINOR or logged as emergent, not elevated to the Treatment Plan.
 
-The institution's identity is not something to fix. It is something to preserve and strengthen.
+The institution's identity is not something to fix. It is something to understand, preserve, and strengthen.
+
+---
+
+## 12. Executive Summary — Per Audit Document
+
+**Every Gate 1 audit deliverable must begin with an Executive Summary.**
+
+**Purpose:** Institutional diagnosis before detailed findings. A narrative that captures institutional character, not a list of issues.
+
+**Not:** "We found 12 problems with the homepage"  
+**Yes:** "The homepage is an excellent expression of institutional positioning, anchored by authentic reader voices. It successfully communicates the North Star. It would benefit from..."
+
+### Executive Summary Structure
+
+**1. Institutional Diagnosis**
+What kind of institution is this? What emerges from the evidence?
+
+**2. Philosophical Coherence**
+What philosophy or principles consistently emerge across pages? What values are visible?
+
+**3. Institutional Strengths**
+Where is the institution strongest? What should be intentionally preserved?
+
+**4. Institutional Coherence Gaps**
+Where is it least coherent? What breaks the narrative?
+
+**5. Institutional Surprises**
+What surprised the auditor? What was unexpected?
+
+**6. What Should Never Change**
+What is core to institutional identity and must be preserved?
+
+**7. Overall Assessment**
+One or two sentences summarizing the institutional health and readiness for intervention.
+
+### Example Executive Summary (Editorial Audit)
+
+```
+## EXECUTIVE SUMMARY — Editorial Audit
+
+### Institutional Diagnosis
+The Tao of Clinical Touch presents as a mature clinical framework being translated into institutional form. 
+The core pages (Homepage, Book, Free Chapter, Blog) embody the philosophy of the work. Transitional pages 
+(About, Contact, Services) represent governance decisions in progress rather than finalized expressions.
+
+### Philosophical Coherence
+Across strong pages, a consistent philosophy emerges: understanding precedes intervention. Precision over 
+persuasion. Alliance and permission as foundations. Invitational rather than promotional language. 
+This philosophy is visible and consistent.
+
+### Institutional Strengths
+- Homepage: Excellent positioning with authentic practitioner voices
+- Free Chapter: Clear, educational, aligned with doctrine
+- Blog: Consistently strong conceptual work
+- Reader Testimonials: Authentic institutional credibility
+
+### Coherence Gaps
+- About: Minimal content; institutional origin story not yet expressed
+- Contact: Placeholder language; scope not yet articulated
+- Services: Conceptual rename (to "Clinical Education") approved but not yet reflected
+- Metadata: 9 pages lack meta descriptions; reduces discoverability but doesn't affect core voice
+
+### Institutional Surprises
+The depth of reader engagement (14+ authentic testimonials) suggests the framework is resonating 
+at scale. The minimal About page suggests intentional focus on the work, not the founder—a deliberate 
+choice that aligns with the philosophy.
+
+### What Should Never Change
+- The invitational, educational voice across all pages
+- The prominence and authenticity of reader perspectives
+- The focus on understanding over technique
+- The North Star clarity (what/who/why/how/where)
+
+### Overall Assessment
+The institution is strong at its core and coherent in its philosophy. Transitional elements (About, Contact, Services) 
+are governance decisions in progress, not institutional failures. The work is ready for clarity-focused intervention 
+that strengthens existing strengths without disrupting working architecture.
+```
+
+---
+
+## 13. Finding Template with Four Categories
+
+Every finding shall include:
+
+**CATEGORY** (one of four):
+- [ ] Institutional Strength (preserve and strengthen)
+- [ ] Institutional Debt (improve eventually)
+- [ ] Institutional Decision (intentional, do not correct)
+- [ ] Institutional Question (requires Founder clarification)
+
+**SUBJECT**
+- Page name and URL
+
+**OBSERVATION**
+- Direct evidence
+
+**CLASSIFICATION**
+- Observation or Inference
+
+**GOVERNING DOCUMENT**
+- Which authority supports this standard
+
+**INSTITUTIONAL STANDARD**
+- The principle or doctrine
+
+**CONSEQUENCE/RISK**
+- What happens if unaddressed
+
+**RECOMMENDATION**
+- Clearly separated from finding
+- Only if category is Debt or requires clarification
+
+**INSTITUTIONAL IMPACT RATING**
+- Critical / Major / Moderate / Minor
+
+**CONFIDENCE LEVEL**
+- High / Medium / Low
+
+**UNRESOLVED UNCERTAINTY**
+- What would change this assessment
 
 ---
 
@@ -618,10 +837,20 @@ Before submitting any Gate 1 deliverable:
 - [ ] No implementation work included
 
 **COMPLETENESS**
+- [ ] Deliverable begins with Executive Summary (institutional diagnosis, not issue list)
+- [ ] Executive Summary includes: diagnosis, philosophy, strengths, gaps, surprises, what should never change
 - [ ] Deliverable includes: purpose, methodology, findings, evidence, risks
 - [ ] Finding structure is consistent across all entries
+- [ ] Every finding categorized as Strength / Debt / Decision / Question
 - [ ] No running accounts or progress narratives
 - [ ] Structured artifact with complete, finished findings
+
+**INSTITUTIONAL MEMORY**
+- [ ] Strengths are identified and explicitly marked for preservation
+- [ ] Institutional Debt is distinguished from institutional defects
+- [ ] Intentional decisions are recognized, not "corrected"
+- [ ] Questions are flagged, not answered by assumption
+- [ ] Recommendations preserve institutional evolution, not erase it
 
 ---
 
