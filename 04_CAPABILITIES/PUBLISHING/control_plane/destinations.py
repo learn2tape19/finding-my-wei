@@ -7,18 +7,34 @@ references without exposing secret values.
 Dependencies: PyYAML (for parsing YAML registry files)
 """
 
-import yaml
+try:
+    import yaml
+except ImportError:
+    # Fallback: try yaml_mock for testing
+    try:
+        from . import yaml_mock as yaml
+    except ImportError:
+        yaml = None
+
 from typing import Dict, Any, Optional
 from .errors import DestinationNotFoundError, DestinationDisabledError, DestinationRegistryError
 
 
 def load_destination_registry(registry_file_path: str) -> Dict[str, Any]:
     """Load destination registry from YAML file."""
+    if yaml is None:
+        raise DestinationRegistryError(
+            "PyYAML is required to load destination registry. "
+            "Install with: pip install PyYAML==6.0.1"
+        )
     try:
         with open(registry_file_path, "r") as f:
             registry = yaml.safe_load(f)
-    except yaml.YAMLError as e:
-        raise DestinationRegistryError(f"Destination registry YAML is malformed: {e}")
+    except AttributeError as e:
+        if hasattr(yaml, 'YAMLError'):
+            raise DestinationRegistryError(f"Destination registry YAML is malformed: {e}")
+        # Fallback yaml_mock doesn't have YAMLError
+        raise DestinationRegistryError(f"Cannot parse destination registry: {e}")
     except Exception as e:
         raise DestinationRegistryError(f"Cannot read destination registry: {e}")
 
