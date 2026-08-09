@@ -1,0 +1,31 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "finding-my-wei://publishing/deployment.receipt.schema.json",
+  "title": "Finding My Wei Deployment Receipt",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "publication_id", "package_hash", "destination_id", "agent", "attempted_at", "status", "verification"],
+  "properties": {
+    "schema_version": {"const": "1.0"},
+    "publication_id": {"type": "string"},
+    "package_hash": {"type": "string", "pattern": "^sha256:[0-9a-f]{64}$"},
+    "destination_id": {"type": "string"},
+    "agent": {"type": "string"},
+    "attempted_at": {"type": "string", "format": "date-time"},
+    "status": {"enum": ["QUEUED", "SCHEDULED", "PUBLISHED", "VERIFIED", "FAILED_TRANSIENT", "BLOCKED_AUTH", "BLOCKED_PLATFORM", "FAILED_REQUIRES_FOUNDER"]},
+    "remote_id": {"type": ["string", "null"]},
+    "public_url": {"type": ["string", "null"], "format": "uri"},
+    "verification": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["passed"],
+      "properties": {
+        "passed": {"type": "boolean"},
+        "checked_at": {"type": ["string", "null"], "format": "date-time"},
+        "details": {"type": ["string", "null"]}
+      }
+    },
+    "error_class": {"type": ["string", "null"]},
+    "error_message": {"type": ["string", "null"]}
+  }
+}
