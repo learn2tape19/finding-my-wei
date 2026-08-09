@@ -218,12 +218,13 @@ class WordPressClient:
         for field_name, file_info in files.items():
             filename = file_info.get("filename", "file")
             file_data = file_info.get("data")  # bytes
+            mime_type = file_info.get("mime_type", "application/octet-stream")
 
             body.write(f'--{boundary}\r\n'.encode())
             body.write(
                 f'Content-Disposition: form-data; name="{field_name}"; filename="{filename}"\r\n'.encode()
             )
-            body.write(b"Content-Type: application/octet-stream\r\n\r\n")
+            body.write(f"Content-Type: {mime_type}\r\n\r\n".encode())
             body.write(file_data)
             body.write(b"\r\n")
 
@@ -343,6 +344,7 @@ class WordPressClient:
             Category record (id, slug, name) or None
 
         Raises:
+            ValueError: If multiple exact matches found (ambiguity)
             WordPressHTTPError: On API errors
         """
         try:
@@ -355,16 +357,22 @@ class WordPressClient:
             if not isinstance(response, list):
                 return None
 
-            # Find exact match
+            # Collect ALL exact matches
+            exact_matches = []
             for category in response:
                 if category.get("name") == category_name:
-                    return {
+                    exact_matches.append({
                         "id": category.get("id"),
                         "slug": category.get("slug"),
                         "name": category.get("name"),
-                    }
+                    })
 
-            return None
+            # Fail closed on ambiguity
+            if len(exact_matches) > 1:
+                raise ValueError(f"Ambiguous category name '{category_name}': found {len(exact_matches)} exact matches")
+
+            # Return single match or None
+            return exact_matches[0] if exact_matches else None
         except WordPressHTTPError:
             raise
 
@@ -376,6 +384,7 @@ class WordPressClient:
             Tag record (id, slug, name) or None
 
         Raises:
+            ValueError: If multiple exact matches found (ambiguity)
             WordPressHTTPError: On API errors
         """
         try:
@@ -388,20 +397,26 @@ class WordPressClient:
             if not isinstance(response, list):
                 return None
 
-            # Find exact match
+            # Collect ALL exact matches
+            exact_matches = []
             for tag in response:
                 if tag.get("name") == tag_name:
-                    return {
+                    exact_matches.append({
                         "id": tag.get("id"),
                         "slug": tag.get("slug"),
                         "name": tag.get("name"),
-                    }
+                    })
 
-            return None
+            # Fail closed on ambiguity
+            if len(exact_matches) > 1:
+                raise ValueError(f"Ambiguous tag name '{tag_name}': found {len(exact_matches)} exact matches")
+
+            # Return single match or None
+            return exact_matches[0] if exact_matches else None
         except WordPressHTTPError:
             raise
 
-    def upload_media(self, filename: str, file_data: bytes, alt_text: str = "") -> Dict[str, Any]:
+    def upload_media(self, filename: str, file_data: bytes, alt_text: str = "", mime_type: str = "application/octet-stream") -> Dict[str, Any]:
         """
         Upload media file.
 
@@ -409,6 +424,7 @@ class WordPressClient:
             filename: Filename to use
             file_data: File contents (bytes)
             alt_text: Alt text for image
+            mime_type: Declared MIME type (e.g., image/png, image/jpeg)
 
         Returns:
             Media record (id, source_url, alt_text)
@@ -420,6 +436,7 @@ class WordPressClient:
             "file": {
                 "filename": filename,
                 "data": file_data,
+                "mime_type": mime_type,
             }
         }
 

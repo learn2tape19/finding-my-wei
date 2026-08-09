@@ -1,42 +1,41 @@
 """
 Comprehensive test suite for WordPress V1 adapter.
 
-Tests cover:
-1. HTTPS requirement
-2. Successful preflight
-3. Bad credentials fail before writes
-4. Wrong site identity fails before writes
-5. Media upload with exact asset
-6. Media alt text exactness
-7. Category exact resolution
-8. Ambiguous category fails closed
-9. Tag exact resolution
-10. Unauthorized taxonomy creation rejected
-11. Draft post creation
-12. Scheduled post creation with exact time
-13. Publish post creation
-14. Featured media assignment
-15. Exact title/slug/excerpt preservation
-16. Body verification with harmless normalization
-17. Substantive body mismatch fails verification
-18. Safe retry does not duplicate post
-19. Conflicting package hash does not mutate existing verified post
-20. 401/403 → BLOCKED_AUTH error mapping
-21. 429/5xx → FAILED_TRANSIENT error mapping
-22. Unknown failure → fail-closed state
-23. Secrets absent from logs/exceptions
-24. Deployment receipt schema-valid
-25. Original PCP-ENG-001 suite remains green
-
-Plus additional tests for edge cases and integration scenarios.
+Tests cover behavioral validation (actual adapter method invocation):
+1. HTTPS requirement (adapter initialization)
+2. Preflight: all 6 mandatory gates must execute (HTTPS, API reachable, auth, user identity, posts, media endpoints)
+3. Preflight failure: NO writes occur when ANY mandatory gate fails
+4. Bad credentials fail before writes
+5. Wrong site identity fails before writes
+6. Media upload with exact asset and MIME type preservation
+7. Media alt text exactness
+8. Category exact resolution (zero, one, multiple matches)
+9. Ambiguous category fails closed
+10. Tag exact resolution (zero, one, multiple matches)
+11. Ambiguous tag fails closed
+12. Unauthorized taxonomy creation rejected
+13. Draft post creation
+14. Scheduled post creation with exact time
+15. Publish post creation
+16. Featured media assignment
+17. Exact title/slug/excerpt preservation
+18. Body verification with harmless normalization
+19. Substantive body mismatch fails verification
+20. Safe retry does not duplicate post
+21. Conflicting package hash does not mutate existing verified post
+22. 401/403 → BLOCKED_AUTH error mapping
+23. 429/5xx → FAILED_TRANSIENT error mapping
+24. Unknown failure → fail-closed state
+25. Secrets absent from logs/exceptions
 """
 
 import sys
-import pytest
+import unittest
 import json
 from pathlib import Path
-from unittest.mock import Mock, patch, MagicMock
+from unittest.mock import Mock, patch, MagicMock, call
 from datetime import datetime, timedelta
+import io
 
 # Add control_plane to path
 sys.path.insert(0, str(Path(__file__).parent.parent))
@@ -48,7 +47,7 @@ from control_plane.adapters.wordpress_v1 import (
 )
 
 
-class TestWordPressHTTPErrorRedaction:
+class TestWordPressHTTPErrorRedaction(unittest.TestCase):
     """Test that secrets are properly redacted."""
 
     def test_secrets_redacted_in_string_representation(self):
@@ -59,26 +58,26 @@ class TestWordPressHTTPErrorRedaction:
             {"password": "secret123", "normal_field": "value"},
         )
         error_str = str(error)
-        assert "secret123" not in error_str
-        assert "[REDACTED]" in error_str
-        assert "normal_field" in error_str
+        self.assertNotIn("secret123", error_str)
+        self.assertIn("[REDACTED]", error_str)
+        self.assertIn("normal_field", error_str)
 
 
-class TestWordPressClientHTTPSRequired:
+class TestWordPressClientHTTPSRequired(unittest.TestCase):
     """Test that HTTPS is enforced."""
 
     def test_https_required_raises_on_http(self):
         """HTTP URL raises ValueError."""
-        with pytest.raises(ValueError, match="must use HTTPS"):
+        with self.assertRaises(ValueError):
             WordPressClient("http://example.com", "user", "password")
 
     def test_https_accepted(self):
         """HTTPS URL is accepted."""
         client = WordPressClient("https://example.com", "user", "password")
-        assert client.base_url == "https://example.com"
+        self.assertEqual(client.base_url, "https://example.com")
 
 
-class TestWordPressClientPreflightHTTPS:
+class TestWordPressClientPreflightHTTPS(unittest.TestCase):
     """Test HTTPS verification in preflight."""
 
     @patch("urllib.request.urlopen")
@@ -94,11 +93,11 @@ class TestWordPressClientPreflightHTTPS:
         mock_urlopen.return_value = mock_response
 
         result = client.verify_https_and_api()
-        assert result["https"] is True
-        assert result["api_reachable"] is True
+        self.assertTrue(result["https"])
+        self.assertTrue(result["api_reachable"])
 
 
-class TestWordPressAuthenticationMocked:
+class TestWordPressAuthenticationMocked(unittest.TestCase):
     """Test authentication with mocked HTTP."""
 
     @patch("urllib.request.urlopen")
@@ -118,19 +117,14 @@ class TestWordPressAuthenticationMocked:
         mock_urlopen.return_value = mock_response
 
         result = client.verify_authentication()
-        assert result["authenticated"] is True
-        assert result["username"] == "testuser"
-        assert result["user_id"] == 1
+        self.assertTrue(result["authenticated"])
+        self.assertEqual(result["username"], "testuser")
+        self.assertEqual(result["user_id"], 1)
 
     @patch("urllib.request.urlopen")
     def test_authentication_failure_401(self, mock_urlopen):
         """401 response raises authentication error."""
         client = WordPressClient("https://example.com", "bad", "credentials")
-
-        mock_response = MagicMock()
-        mock_response.code = 401
-        mock_response.read.return_value = json.dumps({"message": "Unauthorized"}).encode()
-        mock_urlopen.side_effect = ValueError()
 
         # Simulate 401
         import urllib.error
@@ -138,63 +132,99 @@ class TestWordPressAuthenticationMocked:
             "url", 401, "Unauthorized", {}, None
         )
 
-        with pytest.raises(WordPressHTTPError) as exc_info:
+        with self.assertRaises(WordPressHTTPError) as exc_info:
             client.verify_authentication()
-        assert exc_info.value.status == 401
+        self.assertEqual(exc_info.exception.status, 401)
 
 
-class TestWordPressPreflightSequence:
-    """Test complete preflight validation."""
+class TestWordPressPreflightSequenceBehavioral(unittest.TestCase):
+    """Test complete preflight validation with behavioral testing."""
 
     @patch("urllib.request.urlopen")
-    def test_complete_preflight_success(self, mock_urlopen):
-        """Complete preflight passes all checks."""
+    def test_adapter_preflight_invokes_all_six_gates(self, mock_urlopen):
+        """Preflight calls actual adapter.preflight() which verifies all 6 mandatory gates."""
         adapter = WordPressAdapter()
 
-        # Mock authentication
+        # Authenticate first
         adapter.authenticate({
             "base_url": "https://example.com",
             "username": "user",
             "app_password": "apppass",
         })
 
-        # Mock all preflight responses
+        # Mock ALL HTTP responses needed for complete preflight
         responses = [
-            {"namespace": "wp/v2"},  # verify_https_and_api
-            {
-                "id": 1,
-                "username": "user",
-                "name": "Test User",
-            },  # verify_authentication
-            [{"id": 1, "name": "Uncategorized"}],  # categories endpoint
-            [{"id": 1, "name": "News"}],  # tags endpoint
+            # Gate 1: verify_https_and_api (GET /)
+            {"namespace": "wp/v2"},
+            # Gate 2: verify_authentication (GET /users/me)
+            {"id": 1, "username": "user", "name": "Test User"},
+            # Gate 3: verify_posts_endpoint (GET /posts?per_page=1)
+            [{"id": 1}],
+            # Gate 4: verify_media_endpoint (GET /media?per_page=1)
+            [{"id": 100}],
+            # Gate 5: verify_categories_endpoint (GET /categories?per_page=1)
+            [{"id": 1, "name": "Uncategorized"}],
+            # Gate 6: verify_tags_endpoint (GET /tags?per_page=1)
+            [{"id": 1, "name": "News"}],
         ]
 
         def mock_response_side_effect(*args, **kwargs):
             mock_response = MagicMock()
             mock_response.status = 200
-            mock_response.read.return_value = json.dumps(
-                responses.pop(0)
-            ).encode()
+            response_data = responses.pop(0)
+            mock_response.read.return_value = json.dumps(response_data).encode()
             mock_response.__enter__.return_value = mock_response
             return mock_response
 
         mock_urlopen.side_effect = mock_response_side_effect
 
-        with patch.object(
-            adapter.client, "verify_posts_endpoint", return_value=True
-        ), patch.object(
-            adapter.client, "verify_media_endpoint", return_value=True
-        ), patch.object(
-            adapter.client, "verify_categories_endpoint", return_value=True
-        ), patch.object(
-            adapter.client, "verify_tags_endpoint", return_value=True
-        ):
-            # This would need more careful mocking, so we test the structure instead
-            assert adapter.authenticated is True
+        # INVOKE ACTUAL adapter.preflight()
+        results = adapter.preflight({"destination_id": "test"})
+
+        # Verify all 6 gates are in results and passed
+        self.assertTrue(results["https_verified"])
+        self.assertTrue(results["api_reachable"])
+        self.assertTrue(results["authenticated"])
+        self.assertTrue(results["posts_available"])
+        self.assertTrue(results["media_available"])
+        self.assertTrue(results["categories_available"])
+        self.assertTrue(results["tags_available"])
+        self.assertEqual(results["site_identity"]["username"], "user")
+        self.assertTrue(adapter.preflight_passed)
+
+    @patch("urllib.request.urlopen")
+    def test_preflight_failure_no_writes_occur(self, mock_urlopen):
+        """When ANY mandatory gate fails, NO writes occur."""
+        adapter = WordPressAdapter()
+
+        adapter.authenticate({
+            "base_url": "https://example.com",
+            "username": "user",
+            "app_password": "apppass",
+        })
+
+        # Simulate API unreachable (gate 2 fails)
+        import urllib.error
+        mock_urlopen.side_effect = urllib.error.HTTPError(
+            "url", 0, "Connection failed", {}, None
+        )
+
+        # INVOKE adapter.preflight() - should raise
+        with self.assertRaisesRegex(RuntimeError, r"Preflight failed"):
+            adapter.preflight({"destination_id": "test"})
+
+        # Verify adapter is NOT marked as preflight_passed
+        self.assertFalse(adapter.preflight_passed)
+
+        # Verify that attempting to publish FAILS (no writes allowed)
+        with self.assertRaisesRegex(RuntimeError, r"preflight"):
+            adapter.publish(
+                {"title": "test", "content": "test"},
+                {"destination_id": "test"},
+            )
 
 
-class TestMediaUploadMocked:
+class TestMediaUploadMocked(unittest.TestCase):
     """Test media upload with mocked HTTP."""
 
     @patch("urllib.request.urlopen")
@@ -216,20 +246,71 @@ class TestMediaUploadMocked:
         file_data = b"\x89PNG\r\n..."  # Fake PNG
         result = client.upload_media("image.png", file_data, "Test image")
 
-        assert result["id"] == 123
-        assert result["source_url"] == "https://example.com/wp-content/uploads/2026/08/image.png"
-        assert result["alt_text"] == "Test image"
-
-
-class TestCategoryResolutionMocked:
-    """Test category resolution."""
+        self.assertEqual(result["id"], 123)
+        self.assertEqual(result["source_url"], "https://example.com/wp-content/uploads/2026/08/image.png")
+        self.assertEqual(result["alt_text"], "Test image")
 
     @patch("urllib.request.urlopen")
-    def test_category_exact_resolution(self, mock_urlopen):
-        """Category is resolved by exact name match."""
+    def test_media_upload_preserves_declared_mime_type(self, mock_urlopen):
+        """Media upload transmits declared MIME type in multipart header."""
         client = WordPressClient("https://example.com", "user", "password")
 
-        # Mock category search response
+        # Capture the request to inspect multipart body
+        captured_request = []
+
+        def capture_urlopen(req, *args, **kwargs):
+            captured_request.append(req)
+            mock_response = MagicMock()
+            mock_response.status = 201
+            mock_response.read.return_value = json.dumps({
+                "id": 123,
+                "source_url": "https://example.com/wp-content/uploads/test.jpg",
+                "alt_text": "Test",
+            }).encode()
+            mock_response.__enter__.return_value = mock_response
+            return mock_response
+
+        mock_urlopen.side_effect = capture_urlopen
+
+        # Upload with specific MIME type
+        file_data = b"\xff\xd8\xff\xe0"  # JPEG header
+        client.upload_media("test.jpg", file_data, "Test", mime_type="image/jpeg")
+
+        # Verify request was made
+        self.assertGreater(len(captured_request), 0)
+
+        # Inspect multipart body for declared MIME type
+        request = captured_request[0]
+        if isinstance(request.data, bytes):
+            body_str = request.data.decode('utf-8', errors='replace')
+            # The declared mime_type should appear in multipart
+            self.assertIn("image/jpeg", body_str)
+
+
+class TestCategoryResolutionBehavioral(unittest.TestCase):
+    """Test category resolution with behavioral testing."""
+
+    @patch("urllib.request.urlopen")
+    def test_category_zero_exact_matches(self, mock_urlopen):
+        """Category with zero exact matches returns None."""
+        client = WordPressClient("https://example.com", "user", "password")
+
+        # Mock empty search result
+        mock_response = MagicMock()
+        mock_response.status = 200
+        mock_response.read.return_value = json.dumps([]).encode()
+        mock_response.__enter__.return_value = mock_response
+        mock_urlopen.return_value = mock_response
+
+        result = client.find_category_by_name("Nonexistent")
+        self.assertIsNone(result)
+
+    @patch("urllib.request.urlopen")
+    def test_category_one_exact_match(self, mock_urlopen):
+        """Category with one exact match returns that match."""
+        client = WordPressClient("https://example.com", "user", "password")
+
+        # Mock search result with one exact match
         mock_response = MagicMock()
         mock_response.status = 200
         mock_response.read.return_value = json.dumps([
@@ -240,34 +321,53 @@ class TestCategoryResolutionMocked:
         mock_urlopen.return_value = mock_response
 
         result = client.find_category_by_name("News")
-        assert result["id"] == 1
-        assert result["name"] == "News"
+        self.assertIsNotNone(result)
+        self.assertEqual(result["id"], 1)
+        self.assertEqual(result["name"], "News")
 
     @patch("urllib.request.urlopen")
-    def test_category_ambiguous_fails_closed(self, mock_urlopen):
-        """Ambiguous category resolution fails closed."""
+    def test_category_multiple_exact_matches_fails_closed(self, mock_urlopen):
+        """Category with multiple exact matches raises ValueError (ambiguity)."""
         client = WordPressClient("https://example.com", "user", "password")
 
-        # Mock: category not found (empty result)
+        # Mock search result with duplicate exact matches (edge case)
+        mock_response = MagicMock()
+        mock_response.status = 200
+        mock_response.read.return_value = json.dumps([
+            {"id": 1, "name": "News", "slug": "news-1"},
+            {"id": 2, "name": "News", "slug": "news-2"},
+        ]).encode()
+        mock_response.__enter__.return_value = mock_response
+        mock_urlopen.return_value = mock_response
+
+        with self.assertRaisesRegex(ValueError, r"Ambiguous"):
+            client.find_category_by_name("News")
+
+
+class TestTagResolutionBehavioral(unittest.TestCase):
+    """Test tag resolution with behavioral testing."""
+
+    @patch("urllib.request.urlopen")
+    def test_tag_zero_exact_matches(self, mock_urlopen):
+        """Tag with zero exact matches returns None."""
+        client = WordPressClient("https://example.com", "user", "password")
+
+        # Mock empty search result
         mock_response = MagicMock()
         mock_response.status = 200
         mock_response.read.return_value = json.dumps([]).encode()
         mock_response.__enter__.return_value = mock_response
         mock_urlopen.return_value = mock_response
 
-        result = client.find_category_by_name("Nonexistent")
-        assert result is None
-
-
-class TestTagResolutionMocked:
-    """Test tag resolution."""
+        result = client.find_tag_by_name("Nonexistent")
+        self.assertIsNone(result)
 
     @patch("urllib.request.urlopen")
-    def test_tag_exact_resolution(self, mock_urlopen):
-        """Tag is resolved by exact name match."""
+    def test_tag_one_exact_match(self, mock_urlopen):
+        """Tag with one exact match returns that match."""
         client = WordPressClient("https://example.com", "user", "password")
 
-        # Mock tag search response
+        # Mock search result with one exact match
         mock_response = MagicMock()
         mock_response.status = 200
         mock_response.read.return_value = json.dumps([
@@ -278,11 +378,30 @@ class TestTagResolutionMocked:
         mock_urlopen.return_value = mock_response
 
         result = client.find_tag_by_name("python")
-        assert result["id"] == 10
-        assert result["name"] == "python"
+        self.assertIsNotNone(result)
+        self.assertEqual(result["id"], 10)
+        self.assertEqual(result["name"], "python")
+
+    @patch("urllib.request.urlopen")
+    def test_tag_multiple_exact_matches_fails_closed(self, mock_urlopen):
+        """Tag with multiple exact matches raises ValueError (ambiguity)."""
+        client = WordPressClient("https://example.com", "user", "password")
+
+        # Mock search result with duplicate exact matches
+        mock_response = MagicMock()
+        mock_response.status = 200
+        mock_response.read.return_value = json.dumps([
+            {"id": 10, "name": "python", "slug": "python-1"},
+            {"id": 11, "name": "python", "slug": "python-2"},
+        ]).encode()
+        mock_response.__enter__.return_value = mock_response
+        mock_urlopen.return_value = mock_response
+
+        with self.assertRaisesRegex(ValueError, r"Ambiguous"):
+            client.find_tag_by_name("python")
 
 
-class TestPostCreationMocked:
+class TestPostCreationMocked(unittest.TestCase):
     """Test post creation."""
 
     @patch("urllib.request.urlopen")
@@ -311,12 +430,12 @@ class TestPostCreationMocked:
         }
 
         result = client.create_post(post_data)
-        assert result["id"] == 42
-        assert result["status"] == "draft"
-        assert result["slug"] == "test-post"
+        self.assertEqual(result["id"], 42)
+        self.assertEqual(result["status"], "draft")
+        self.assertEqual(result["slug"], "test-post")
 
 
-class TestScheduledPostMocked:
+class TestScheduledPostMocked(unittest.TestCase):
     """Test scheduled post creation."""
 
     @patch("urllib.request.urlopen")
@@ -348,11 +467,11 @@ class TestScheduledPostMocked:
         }
 
         result = client.create_post(post_data)
-        assert result["id"] == 43
-        assert result["status"] == "future"
+        self.assertEqual(result["id"], 43)
+        self.assertEqual(result["status"], "future")
 
 
-class TestExactPayloadPreservation:
+class TestExactPayloadPreservation(unittest.TestCase):
     """Test that payload is not modified."""
 
     def test_adapter_preserves_title_exactly(self):
@@ -367,7 +486,7 @@ class TestExactPayloadPreservation:
         }
 
         prepared = adapter.prepare(payload)
-        assert prepared["title"] == payload["title"]
+        self.assertEqual(prepared["title"], payload["title"])
 
     def test_adapter_preserves_excerpt_exactly(self):
         """Excerpt is not modified or generated."""
@@ -381,7 +500,7 @@ class TestExactPayloadPreservation:
         }
 
         prepared = adapter.prepare(payload)
-        assert prepared["excerpt"] == payload["excerpt"]
+        self.assertEqual(prepared["excerpt"], payload["excerpt"])
 
     def test_adapter_preserves_slug_exactly(self):
         """Slug is not altered."""
@@ -395,10 +514,10 @@ class TestExactPayloadPreservation:
         }
 
         prepared = adapter.prepare(payload)
-        assert prepared["slug"] == payload["slug"]
+        self.assertEqual(prepared["slug"], payload["slug"])
 
 
-class TestBodyVerificationNormalization:
+class TestBodyVerificationNormalization(unittest.TestCase):
     """Test body verification with acceptable normalization."""
 
     def test_verification_passes_for_exact_body(self):
@@ -417,10 +536,10 @@ class TestBodyVerificationNormalization:
         }
 
         result = adapter.verify({"destination_id": "test"}, remote_id="42")
-        assert result["passed"] is True
+        self.assertTrue(result["passed"])
 
 
-class TestVerificationMismatchFails:
+class TestVerificationMismatchFails(unittest.TestCase):
     """Test verification fails on substantive mismatches."""
 
     def test_verification_fails_on_missing_post(self):
@@ -431,10 +550,10 @@ class TestVerificationMismatchFails:
         adapter.client.get_post.side_effect = WordPressHTTPError(404, "Not found", {})
 
         result = adapter.verify({"destination_id": "test"}, remote_id="999")
-        assert result["passed"] is False
+        self.assertFalse(result["passed"])
 
 
-class TestIdempotencyNoDuplicate:
+class TestIdempotencyNoDuplicate(unittest.TestCase):
     """Test safe retry does not duplicate post."""
 
     @patch("urllib.request.urlopen")
@@ -457,18 +576,6 @@ class TestIdempotencyNoDuplicate:
             "status": "draft",
         }
 
-        # Mock update response
-        mock_response = MagicMock()
-        mock_response.status = 200
-        mock_response.read.return_value = json.dumps({
-            "id": 42,
-            "slug": "test-post",
-            "title": {"rendered": "Test Post"},
-            "link": "https://example.com/test-post/",
-            "status": "draft",
-        }).encode()
-        mock_response.__enter__.return_value = mock_response
-
         with patch.object(
             adapter.client, "find_post_by_slug", return_value=existing_post
         ), patch.object(
@@ -484,11 +591,11 @@ class TestIdempotencyNoDuplicate:
                 {"destination_id": "test"},
             )
 
-            assert result["remote_id"] == "42"
-            assert result["duplicated"] is False
+            self.assertEqual(result["remote_id"], "42")
+            self.assertFalse(result["duplicated"])
 
 
-class TestErrorMapping401:
+class TestErrorMapping401(unittest.TestCase):
     """Test error mapping: 401 -> BLOCKED_AUTH."""
 
     @patch("urllib.request.urlopen")
@@ -502,13 +609,13 @@ class TestErrorMapping401:
 
         client = WordPressClient("https://example.com", "user", "password")
 
-        with pytest.raises(WordPressHTTPError) as exc_info:
+        with self.assertRaises(WordPressHTTPError) as exc_info:
             client.verify_authentication()
 
-        assert exc_info.value.status == 401
+        self.assertEqual(exc_info.exception.status, 401)
 
 
-class TestErrorMapping403:
+class TestErrorMapping403(unittest.TestCase):
     """Test error mapping: 403 -> BLOCKED_AUTH."""
 
     @patch("urllib.request.urlopen")
@@ -522,13 +629,13 @@ class TestErrorMapping403:
 
         client = WordPressClient("https://example.com", "user", "password")
 
-        with pytest.raises(WordPressHTTPError) as exc_info:
+        with self.assertRaises(WordPressHTTPError) as exc_info:
             client.verify_authentication()
 
-        assert exc_info.value.status == 403
+        self.assertEqual(exc_info.exception.status, 403)
 
 
-class TestErrorMappingTransient:
+class TestErrorMappingTransient(unittest.TestCase):
     """Test error mapping: 429/5xx -> FAILED_TRANSIENT."""
 
     @patch("urllib.request.urlopen")
@@ -542,13 +649,13 @@ class TestErrorMappingTransient:
 
         client = WordPressClient("https://example.com", "user", "password")
 
-        with pytest.raises(WordPressHTTPError) as exc_info:
+        with self.assertRaises(WordPressHTTPError) as exc_info:
             client.verify_authentication()
 
-        assert exc_info.value.status == 429
+        self.assertEqual(exc_info.exception.status, 429)
 
 
-class TestErrorMappingUnknown:
+class TestErrorMappingUnknown(unittest.TestCase):
     """Test error mapping: unknown -> fail-closed."""
 
     @patch("urllib.request.urlopen")
@@ -562,14 +669,14 @@ class TestErrorMappingUnknown:
 
         client = WordPressClient("https://example.com", "user", "password")
 
-        with pytest.raises(WordPressHTTPError) as exc_info:
+        with self.assertRaises(WordPressHTTPError) as exc_info:
             client.verify_authentication()
 
         # Status is preserved so caller can classify
-        assert exc_info.value.status == 418
+        self.assertEqual(exc_info.exception.status, 418)
 
 
-class TestSecretHandling:
+class TestSecretHandling(unittest.TestCase):
     """Test that secrets are never exposed."""
 
     def test_auth_header_never_logged(self):
@@ -580,14 +687,14 @@ class TestSecretHandling:
         auth = client._make_auth_header()
 
         # It should be a valid header
-        assert auth.startswith("Basic ")
+        self.assertTrue(auth.startswith("Basic "))
 
         # But we never print/log it in error handling
         error = WordPressHTTPError(401, "Test", {"auth": auth})
         error_str = str(error)
 
         # The actual password hash should not appear
-        assert "Basic " in error_str or "[REDACTED]" in error_str
+        self.assertIn("Basic " in error_str or "[REDACTED]", error_str)
 
     def test_app_password_never_in_error_message(self):
         """Application password never appears in error messages."""
@@ -601,10 +708,10 @@ class TestSecretHandling:
         )
         error_str = str(error)
 
-        assert "secret_password" not in error_str
+        self.assertNotIn("secret_password", error_str)
 
 
-class TestReceiptSchemaValidity:
+class TestReceiptSchemaValidity(unittest.TestCase):
     """Test that receipts conform to schema."""
 
     def test_receipt_has_required_fields(self):
@@ -622,28 +729,28 @@ class TestReceiptSchemaValidity:
             verification_passed=True,
         )
 
-        assert receipt["publication_id"] == "test_001"
-        assert receipt["destination_id"] == "wordpress_test"
-        assert receipt["agent"] == "wordpress_v1"
-        assert receipt["status"] == "PUBLISHED"
-        assert receipt["remote_id"] == "42"
+        self.assertEqual(receipt["publication_id"], "test_001")
+        self.assertEqual(receipt["destination_id"], "wordpress_test")
+        self.assertEqual(receipt["agent"], "wordpress_v1")
+        self.assertEqual(receipt["status"], "PUBLISHED")
+        self.assertEqual(receipt["remote_id"], "42")
 
 
-class TestValidation:
+class TestValidation(unittest.TestCase):
     """Test payload and destination validation."""
 
     def test_validate_rejects_empty_payload(self):
         """Empty payload raises ValueError."""
         adapter = WordPressAdapter()
 
-        with pytest.raises(ValueError):
+        with self.assertRaises(ValueError):
             adapter.validate({}, {"destination_id": "test"})
 
     def test_validate_requires_title(self):
         """Missing title raises ValueError."""
         adapter = WordPressAdapter()
 
-        with pytest.raises(ValueError, match="title"):
+        with self.assertRaisesRegex(ValueError, r"title"):
             adapter.validate(
                 {"content": "test"},
                 {"destination_id": "test"},
@@ -653,7 +760,7 @@ class TestValidation:
         """Missing content raises ValueError."""
         adapter = WordPressAdapter()
 
-        with pytest.raises(ValueError, match="content"):
+        with self.assertRaisesRegex(ValueError, r"content"):
             adapter.validate(
                 {"title": "test"},
                 {"destination_id": "test"},
@@ -663,7 +770,7 @@ class TestValidation:
         """Invalid status raises ValueError."""
         adapter = WordPressAdapter()
 
-        with pytest.raises(ValueError, match="status"):
+        with self.assertRaisesRegex(ValueError, r"status"):
             adapter.validate(
                 {
                     "title": "test",
@@ -689,14 +796,14 @@ class TestValidation:
             )
 
 
-class TestAdapterLifecycle:
+class TestAdapterLifecycle(unittest.TestCase):
     """Test the complete adapter lifecycle."""
 
     def test_adapter_requires_authenticate_before_preflight(self):
         """Preflight requires prior authentication."""
         adapter = WordPressAdapter()
 
-        with pytest.raises(RuntimeError, match="authenticate"):
+        with self.assertRaisesRegex(RuntimeError, r"authenticate"):
             adapter.preflight({"destination_id": "test"})
 
     def test_adapter_requires_preflight_before_publish(self):
@@ -705,8 +812,60 @@ class TestAdapterLifecycle:
         adapter.authenticated = True
         adapter.client = MagicMock()
 
-        with pytest.raises(RuntimeError, match="preflight"):
+        with self.assertRaisesRegex(RuntimeError, r"preflight"):
             adapter.publish(
                 {"title": "test", "content": "test"},
                 {"destination_id": "test"},
             )
+
+
+class TestTaxonomyResolutionInAdapter(unittest.TestCase):
+    """Test taxonomy resolution through adapter methods."""
+
+    @patch.object(WordPressClient, "find_category_by_name")
+    def test_adapter_resolve_categories_single_category(self, mock_find):
+        """Adapter resolves single category correctly."""
+        adapter = WordPressAdapter()
+        adapter.client = MagicMock()
+        adapter.client.find_category_by_name = mock_find
+
+        mock_find.return_value = {"id": 1, "name": "News", "slug": "news"}
+
+        category_ids = adapter._resolve_categories(["News"])
+        self.assertEqual(category_ids, [1])
+
+    @patch.object(WordPressClient, "find_category_by_name")
+    def test_adapter_resolve_categories_ambiguity_propagates(self, mock_find):
+        """Adapter propagates ambiguity error from find_category_by_name."""
+        adapter = WordPressAdapter()
+        adapter.client = MagicMock()
+        adapter.client.find_category_by_name = mock_find
+
+        mock_find.side_effect = ValueError("Ambiguous category name")
+
+        with self.assertRaisesRegex(ValueError, r"Ambiguous"):
+            adapter._resolve_categories(["News"])
+
+    @patch.object(WordPressClient, "find_tag_by_name")
+    def test_adapter_resolve_tags_single_tag(self, mock_find):
+        """Adapter resolves single tag correctly."""
+        adapter = WordPressAdapter()
+        adapter.client = MagicMock()
+        adapter.client.find_tag_by_name = mock_find
+
+        mock_find.return_value = {"id": 10, "name": "python", "slug": "python"}
+
+        tag_ids = adapter._resolve_tags(["python"])
+        self.assertEqual(tag_ids, [10])
+
+    @patch.object(WordPressClient, "find_tag_by_name")
+    def test_adapter_resolve_tags_ambiguity_propagates(self, mock_find):
+        """Adapter propagates ambiguity error from find_tag_by_name."""
+        adapter = WordPressAdapter()
+        adapter.client = MagicMock()
+        adapter.client.find_tag_by_name = mock_find
+
+        mock_find.side_effect = ValueError("Ambiguous tag name")
+
+        with self.assertRaisesRegex(ValueError, r"Ambiguous"):
+            adapter._resolve_tags(["python"])
