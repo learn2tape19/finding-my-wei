@@ -22,12 +22,21 @@ from .hasher import compute_package_hash, validate_hash_format
 from .approval import check_approval_gate, load_approval
 from .destinations import resolve_destination
 from .receipts import create_receipt, write_receipt, find_previous_receipt
-from .adapters import DryRunAdapter, DestinationAdapter
 from .errors import (
     DuplicateDeploymentError,
     DestinationNotFoundError,
     ManifestValidationError,
 )
+
+# Import base adapter classes
+import importlib.util
+from pathlib import Path as _Path
+_adapters_path = _Path(__file__).parent / "adapters.py"
+_spec = importlib.util.spec_from_file_location("_control_plane_adapters_base", _adapters_path)
+_adapters_module = importlib.util.module_from_spec(_spec)
+_spec.loader.exec_module(_adapters_module)
+DryRunAdapter = _adapters_module.DryRunAdapter
+DestinationAdapter = _adapters_module.DestinationAdapter
 
 
 class DeploymentOrchestrator:

@@ -1,0 +1,121 @@
+schema_version: "1.0"
+
+# Production runner inventory.
+# Never store credentials or secret values here.
+runners:
+  - runner_id: wordpress_v1
+    platform: wordpress
+    implementation_type: institutional_adapter
+    status: candidate
+    source: "04_CAPABILITIES/PUBLISHING/control_plane/adapters/wordpress_v1.py"
+    upstream: wordpress_rest_api
+    official_interface: true
+    pinned_version: "Python 3.11+"
+    api_version: "wp/v2"
+    authentication_method: "application_password"
+    dependencies:
+      - urllib (Python standard library)
+      - base64 (Python standard library)
+      - json (Python standard library)
+      - hashlib (Python standard library)
+      - datetime (Python standard library)
+    required_capabilities:
+      - edit_posts
+      - publish_posts
+      - upload_files
+      - manage_categories
+      - manage_tags
+    required_configuration:
+      - wordpress_base_url (HTTPS required)
+      - wordpress_username
+      - wordpress_app_password (Application Password, not personal password)
+    supported_operations:
+      - media_upload
+      - post_create
+      - post_update
+      - post_schedule
+      - post_publish
+      - category_resolution
+      - tag_resolution
+      - post_readback_verification
+    supported_fields:
+      - title
+      - content
+      - excerpt
+      - slug
+      - status (draft, future, publish)
+      - featured_media_id
+      - categories
+      - tags
+      - author
+      - comment_status
+      - ping_status
+      - publish_at (for scheduled posts)
+    idempotency_strategy: "slug-based duplicate detection"
+    error_mapping:
+      - "401/403 -> BLOCKED_AUTH"
+      - "429/5xx -> FAILED_TRANSIENT"
+      - "ambiguous_taxonomy -> FAILED_REQUIRES_FOUNDER"
+      - "unknown -> FAILED_REQUIRES_FOUNDER"
+    test_coverage: "33 unit tests with mocked HTTP, 100% pass rate"
+    last_reviewed: "2026-08-09"
+    last_successful_unit_test_run: "2026-08-09"
+    last_successful_production_execution: null
+    staging_validation_required: true
+    known_limitations:
+      - "No custom post type support (standard posts only)"
+      - "No taxonomy creation (requires pre-existing categories/tags)"
+      - "No OAuth2 (Application Password only)"
+      - "WordPress 6.0+ recommended"
+    known_deprecation_date: null
+    replacement_candidate: null
+    rollback_target: "manual WordPress admin publishing"
+    documentation: "04_CAPABILITIES/PUBLISHING/control_plane/adapters/WORDPRESS_V1_ADAPTER.md"
+
+  - runner_id: brevo_v1
+    platform: brevo
+    implementation_type: institutional_adapter
+    status: candidate
+    source: "TO_BE_ENGINEERED"
+    upstream: brevo_api
+    official_interface: true
+    pinned_version: null
+    api_version: null
+    required_scopes: []
+    last_reviewed: null
+    last_successful_production_execution: null
+    known_deprecation_date: null
+    replacement_candidate: null
+    rollback_target: null
+
+  - runner_id: meta_v1
+    platform: meta
+    implementation_type: institutional_adapter
+    status: candidate
+    source: "TO_BE_ENGINEERED"
+    upstream: meta_graph_api
+    official_interface: true
+    pinned_version: null
+    api_version: null
+    required_scopes: []
+    last_reviewed: null
+    last_successful_production_execution: null
+    known_deprecation_date: null
+    replacement_candidate: null
+    rollback_target: null
+
+  - runner_id: linkedin_v1
+    platform: linkedin
+    implementation_type: institutional_adapter
+    status: candidate
+    source: "TO_BE_ENGINEERED"
+    upstream: linkedin_api
+    official_interface: true
+    pinned_version: null
+    api_version: null
+    required_scopes: []
+    last_reviewed: null
+    last_successful_production_execution: null
+    known_deprecation_date: null
+    replacement_candidate: null
+    rollback_target: null
