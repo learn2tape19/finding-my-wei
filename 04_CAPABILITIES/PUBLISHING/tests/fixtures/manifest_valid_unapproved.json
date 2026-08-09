@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.0",
+  "publication_id": "test_001_unapproved",
+  "domain": "test_domain",
+  "canonical_commit": "abc1234",
+  "package_hash": "sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "status": "QA",
+  "publish_at": "2026-08-10T10:00:00Z",
+  "assets": [
+    {
+      "id": "asset_001",
+      "path": "assets/test_image.jpg",
+      "sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+      "media_type": "image/jpeg",
+      "alt_text": "Test image"
+    }
+  ],
+  "destinations": [
+    {
+      "destination_id": "test.wordpress.staging",
+      "payload_ref": "payload_wp_001",
+      "publish_at": "2026-08-10T10:00:00Z"
+    }
+  ],
+  "qa": {
+    "passed": true,
+    "checked_at": "2026-08-09T15:00:00Z",
+    "notes": ["Basic validation passed"]
+  }
+}
