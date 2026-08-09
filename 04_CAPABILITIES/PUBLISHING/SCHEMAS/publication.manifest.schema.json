@@ -1,0 +1,55 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "finding-my-wei://publishing/publication.manifest.schema.json",
+  "title": "Finding My Wei Publication Manifest",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "publication_id", "domain", "canonical_commit", "package_hash", "status", "assets", "destinations"],
+  "properties": {
+    "schema_version": {"const": "1.0"},
+    "publication_id": {"type": "string", "minLength": 1},
+    "domain": {"type": "string", "minLength": 1},
+    "canonical_commit": {"type": "string", "pattern": "^[0-9a-f]{7,40}$"},
+    "package_hash": {"type": "string", "pattern": "^sha256:[0-9a-f]{64}$"},
+    "status": {"enum": ["DRAFT", "PRODUCTION", "QA", "READY_FOR_FOUNDER_APPROVAL", "FOUNDER_APPROVED_FOR_LAUNCH", "QUEUED", "DEPLOYING", "VERIFIED", "BLOCKED_AUTH", "BLOCKED_PLATFORM", "FAILED_TRANSIENT", "FAILED_REQUIRES_FOUNDER", "PARTIALLY_DEPLOYED"]},
+    "publish_at": {"type": ["string", "null"], "format": "date-time"},
+    "assets": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "path", "sha256", "media_type"],
+        "properties": {
+          "id": {"type": "string"},
+          "path": {"type": "string"},
+          "sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+          "media_type": {"type": "string"},
+          "alt_text": {"type": ["string", "null"]}
+        }
+      }
+    },
+    "destinations": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["destination_id", "payload_ref"],
+        "properties": {
+          "destination_id": {"type": "string"},
+          "payload_ref": {"type": "string"},
+          "publish_at": {"type": ["string", "null"], "format": "date-time"},
+          "schedule_window_minutes": {"type": "integer", "minimum": 0}
+        }
+      }
+    },
+    "qa": {
+      "type": "object",
+      "properties": {
+        "passed": {"type": "boolean"},
+        "checked_at": {"type": "string", "format": "date-time"},
+        "notes": {"type": "array", "items": {"type": "string"}}
+      }
+    }
+  }
+}
