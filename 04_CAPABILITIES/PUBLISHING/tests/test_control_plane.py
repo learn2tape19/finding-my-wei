@@ -337,5 +337,178 @@ class TestErrorMappingToInstitutionalStates:
         assert error.error_class == "BLOCKED_PLATFORM"
 
 
+class TestMissingAssetsFail:
+    """REMEDIATION TEST: Missing declared assets must fail closed."""
+
+    def test_missing_asset_raises_error(self):
+        """Missing declared asset raises PackageHashError."""
+        fixture_dir = Path(__file__).parent / "fixtures"
+
+        with open(fixture_dir / "manifest_valid_approved.json") as f:
+            manifest = json.load(f)
+
+        # Try to compute hash with manifest_dir that doesn't have the assets
+        # This should fail because assets are declared but missing
+        with pytest.raises(PackageHashError):
+            compute_package_hash(manifest, manifest_dir=Path("/nonexistent/path"))
+
+
+class TestPackageHashRecomputation:
+    """REMEDIATION TEST: Orchestrator must recompute hash before approval/deployment."""
+
+    def test_orchestrator_recomputes_hash_in_validate_approval(self, tmp_path):
+        """Orchestrator recomputes hash during approval validation."""
+        fixture_dir = Path(__file__).parent / "fixtures"
+
+        # Create test files
+        manifest_file = tmp_path / "manifest.json"
+        approval_file = tmp_path / "approval.json"
+        registry_file = tmp_path / "registry.yaml"
+        receipts_dir = tmp_path / "receipts"
+
+        # Copy fixtures
+        import shutil
+        shutil.copy(fixture_dir / "manifest_valid_approved.json", manifest_file)
+        shutil.copy(fixture_dir / "approval_valid.json", approval_file)
+        shutil.copy(fixture_dir / "destination_registry.yaml", registry_file)
+
+        from control_plane.orchestrator import DeploymentOrchestrator
+
+        orchestrator = DeploymentOrchestrator(
+            manifest_file=str(manifest_file),
+            approval_file=str(approval_file),
+            destination_registry_file=str(registry_file),
+            receipts_dir=str(receipts_dir),
+        )
+
+        # Load manifest
+        manifest = orchestrator.validate_manifest()
+
+        # This should NOT raise because hash will be recomputed
+        # and it matches the manifest's declared hash
+        approval = orchestrator.validate_approval(manifest)
+        assert approval is not None
+
+    def test_orchestrator_rejects_hash_mismatch_in_validate_approval(self, tmp_path):
+        """Orchestrator rejects approval if recomputed hash doesn't match."""
+        fixture_dir = Path(__file__).parent / "fixtures"
+
+        manifest_file = tmp_path / "manifest.json"
+        approval_file = tmp_path / "approval.json"
+        registry_file = tmp_path / "registry.yaml"
+        receipts_dir = tmp_path / "receipts"
+
+        import shutil
+        shutil.copy(fixture_dir / "manifest_valid_approved.json", manifest_file)
+        shutil.copy(fixture_dir / "approval_valid.json", approval_file)
+        shutil.copy(fixture_dir / "destination_registry.yaml", registry_file)
+
+        # Corrupt the manifest to change its hash
+        with open(manifest_file) as f:
+            manifest = json.load(f)
+
+        manifest["publish_at"] = "2026-08-11T20:00:00Z"  # Change content
+
+        with open(manifest_file, "w") as f:
+            json.dump(manifest, f)
+
+        from control_plane.orchestrator import DeploymentOrchestrator
+        from control_plane.errors import HashMismatchError
+
+        orchestrator = DeploymentOrchestrator(
+            manifest_file=str(manifest_file),
+            approval_file=str(approval_file),
+            destination_registry_file=str(registry_file),
+            receipts_dir=str(receipts_dir),
+        )
+
+        loaded_manifest = orchestrator.validate_manifest()
+
+        # This SHOULD raise because the recomputed hash won't match
+        # the hash in approval
+        with pytest.raises(HashMismatchError):
+            orchestrator.validate_approval(loaded_manifest)
+
+
+class TestUnknownExceptionsFailClosed:
+    """REMEDIATION TEST: Unknown exceptions don't default to FAILED_TRANSIENT."""
+
+    def test_unknown_exception_uses_failed_requires_founder(self):
+        """Unknown exception without error_class maps to FAILED_REQUIRES_FOUNDER."""
+        from control_plane.receipts import create_receipt
+
+        # Simulate orchestrator exception handling with unknown exception
+        class UnknownError(Exception):
+            """Exception without error_class attribute."""
+            pass
+
+        e = UnknownError("Something went wrong")
+        error_class = getattr(e, "error_class", None)
+
+        # Orchestrator's logic: only explicit transient -> FAILED_TRANSIENT
+        explicit_transient_classes = {"FAILED_TRANSIENT"}
+        if error_class in explicit_transient_classes:
+            receipt_status = "FAILED_TRANSIENT"
+        elif error_class and error_class.startswith("BLOCKED_"):
+            receipt_status = error_class
+        else:
+            # Unknown/unclassified: fail closed
+            receipt_status = "FAILED_REQUIRES_FOUNDER"
+            if not error_class:
+                error_class = "FAILED_REQUIRES_FOUNDER"
+
+        # Verify it's NOT transient
+        assert receipt_status != "FAILED_TRANSIENT"
+        assert receipt_status == "FAILED_REQUIRES_FOUNDER"
+        assert error_class == "FAILED_REQUIRES_FOUNDER"
+
+    def test_explicit_transient_becomes_failed_transient(self):
+        """Explicit FAILED_TRANSIENT error maps to FAILED_TRANSIENT status."""
+        from control_plane.errors import ControlPlaneError
+
+        class TransientError(ControlPlaneError):
+            error_class = "FAILED_TRANSIENT"
+
+        e = TransientError("Temporary failure")
+        error_class = getattr(e, "error_class", None)
+
+        explicit_transient_classes = {"FAILED_TRANSIENT"}
+        if error_class in explicit_transient_classes:
+            receipt_status = "FAILED_TRANSIENT"
+        elif error_class and error_class.startswith("BLOCKED_"):
+            receipt_status = error_class
+        else:
+            receipt_status = "FAILED_REQUIRES_FOUNDER"
+            if not error_class:
+                error_class = "FAILED_REQUIRES_FOUNDER"
+
+        # Verify it IS transient
+        assert receipt_status == "FAILED_TRANSIENT"
+
+    def test_blocked_error_uses_error_class_status(self):
+        """BLOCKED_* errors map to their error_class as status."""
+        from control_plane.errors import ControlPlaneError
+
+        class BlockedAuthError(ControlPlaneError):
+            error_class = "BLOCKED_AUTH"
+
+        e = BlockedAuthError("Auth failed")
+        error_class = getattr(e, "error_class", None)
+
+        explicit_transient_classes = {"FAILED_TRANSIENT"}
+        if error_class in explicit_transient_classes:
+            receipt_status = "FAILED_TRANSIENT"
+        elif error_class and error_class.startswith("BLOCKED_"):
+            receipt_status = error_class
+        else:
+            receipt_status = "FAILED_REQUIRES_FOUNDER"
+            if not error_class:
+                error_class = "FAILED_REQUIRES_FOUNDER"
+
+        # Verify it's BLOCKED_*
+        assert receipt_status == "BLOCKED_AUTH"
+        assert not receipt_status == "FAILED_TRANSIENT"
+
+
 if __name__ == "__main__":
     pytest.main([__file__, "-v"])

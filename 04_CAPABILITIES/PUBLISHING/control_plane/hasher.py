@@ -91,6 +91,7 @@ def compute_package_hash(manifest: Dict[str, Any], manifest_dir: Optional[Path] 
     Returns: "sha256:<hex_digest>"
 
     Verifies asset hashes match declared values.
+    Fails closed if any declared asset is missing.
     Excludes operational receipts and approval documents.
     """
     # Canonicalize manifest (excludes schema_version, receipts, approval files)
@@ -101,17 +102,26 @@ def compute_package_hash(manifest: Dict[str, Any], manifest_dir: Optional[Path] 
         manifest_dir = Path(manifest_dir)
         for asset in manifest["assets"]:
             asset_path = manifest_dir / asset["path"]
-            if asset_path.exists():
-                computed_hash = compute_file_hash(str(asset_path))
-                if computed_hash != asset["sha256"]:
-                    raise AssetHashMismatchError(
-                        f"Asset {asset['path']} hash mismatch",
-                        {
-                            "asset_id": asset["id"],
-                            "declared": asset["sha256"],
-                            "computed": computed_hash,
-                        },
-                    )
+            # MUST FAIL CLOSED: declared asset must exist
+            if not asset_path.exists():
+                raise PackageHashError(
+                    f"Declared asset missing: {asset['path']}",
+                    {
+                        "asset_id": asset["id"],
+                        "asset_path": str(asset_path),
+                        "error": "asset_not_found",
+                    },
+                )
+            computed_hash = compute_file_hash(str(asset_path))
+            if computed_hash != asset["sha256"]:
+                raise AssetHashMismatchError(
+                    f"Asset {asset['path']} hash mismatch",
+                    {
+                        "asset_id": asset["id"],
+                        "declared": asset["sha256"],
+                        "computed": computed_hash,
+                    },
+                )
 
     # Hash the canonical JSON
     sha256_hash = hashlib.sha256(canonical_json.encode("utf-8"))

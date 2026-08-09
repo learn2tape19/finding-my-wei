@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "publication_id": "test_002_approved",
-  "package_hash": "sha256:3dd8c9b0e49b3c2f1d7e8a6b5c4d3e2f1a0b9c8d7e6f5a4b3c2d1e0f9a8b7",
+  "package_hash": "sha256:aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
   "destination_id": "tao.brevo.production",
   "agent": "brevo_v1",
   "attempted_at": "2026-08-10T14:05:30Z",

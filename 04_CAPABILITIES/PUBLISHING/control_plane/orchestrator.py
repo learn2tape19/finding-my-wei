@@ -68,12 +68,49 @@ class DeploymentOrchestrator:
         manifest = load_manifest(self.manifest_file)
         return manifest
 
+    def _recompute_and_validate_package_hash(self, manifest: Dict[str, Any]) -> str:
+        """
+        Independently compute package hash and validate it matches manifest.
+
+        REQUIRED: Recompute package identity before approval/deployment.
+        Orchestrator must independently call the canonical hasher against
+        the current manifest and require the computed hash to equal
+        manifest["package_hash"] before Founder approval is evaluated or
+        any adapter executes.
+
+        Args:
+            manifest: Publication manifest
+
+        Returns:
+            Recomputed package hash
+
+        Raises:
+            PackageHashError if computed hash does not match declared hash
+        """
+        manifest_dir = Path(self.manifest_file).parent
+        computed_hash = compute_package_hash(manifest, manifest_dir)
+        declared_hash = manifest.get("package_hash")
+
+        if computed_hash != declared_hash:
+            from .errors import HashMismatchError
+            raise HashMismatchError(
+                "Package hash validation failed: computed hash does not match declared hash",
+                {
+                    "computed": computed_hash,
+                    "declared": declared_hash,
+                },
+            )
+
+        return computed_hash
+
     def validate_approval(self, manifest: Dict[str, Any]) -> Dict[str, Any]:
         """Validate founder approval against manifest."""
         publication_id = manifest["publication_id"]
-        package_hash = manifest["package_hash"]
 
-        # For validation, just load and check structure
+        # REQUIRED: Recompute package hash before approval evaluation
+        package_hash = self._recompute_and_validate_package_hash(manifest)
+
+        # Load and check structure
         approval = load_approval(self.approval_file)
 
         # Validate all declared destinations have approvals
@@ -100,7 +137,9 @@ class DeploymentOrchestrator:
         Returns deployment receipt.
         """
         publication_id = manifest["publication_id"]
-        package_hash = manifest["package_hash"]
+
+        # REQUIRED: Recompute package hash before deployment
+        package_hash = self._recompute_and_validate_package_hash(manifest)
 
         # Check approval
         check_approval_gate(
@@ -182,8 +221,22 @@ class DeploymentOrchestrator:
             }
 
         except Exception as e:
-            # Determine error class
-            error_class = getattr(e, "error_class", "FAILED_REQUIRES_FOUNDER")
+            # Determine error class from exception or default to non-retryable
+            error_class = getattr(e, "error_class", None)
+
+            # REQUIRED: Only explicitly recognized transient conditions become FAILED_TRANSIENT
+            # Unknown/unclassified failures must fail closed using non-retryable state
+            explicit_transient_classes = {"FAILED_TRANSIENT"}
+            if error_class in explicit_transient_classes:
+                receipt_status = "FAILED_TRANSIENT"
+            elif error_class and error_class.startswith("BLOCKED_"):
+                receipt_status = error_class
+            else:
+                # Unknown/unclassified exception: fail closed with non-retryable state
+                receipt_status = "FAILED_REQUIRES_FOUNDER"
+                if not error_class:
+                    error_class = "FAILED_REQUIRES_FOUNDER"
+
             error_message = str(e)
 
             # Create failure receipt
@@ -192,7 +245,7 @@ class DeploymentOrchestrator:
                 package_hash=package_hash,
                 destination_id=destination_id,
                 agent=destination.get("adapter", "unknown"),
-                status=error_class if error_class.startswith("BLOCKED_") else "FAILED_TRANSIENT",
+                status=receipt_status,
                 error_class=error_class,
                 error_message=error_message,
             )
