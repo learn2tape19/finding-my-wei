@@ -175,19 +175,17 @@ def test_undeclared_destination_fails():
 test("5. Undeclared destination — rejected", test_undeclared_destination_fails)
 
 def test_disabled_destination_fails():
-    """Disabled destination fails (requires YAML - skipped)."""
-    # This test requires YAML parsing which is not available in test environment
-    # Behavior tested through behavioral test that uses direct JSON
-    raise SkipTest("YAML parser required")
+    """Disabled destination fails."""
+    try:
+        resolve_destination(
+            str(fixture_dir / "destination_registry.yaml"),
+            "test.disabled.destination",
+        )
+        raise AssertionError("Expected DestinationDisabledError")
+    except DestinationDisabledError:
+        pass
 
-class SkipTest(Exception):
-    pass
-
-try:
-    test_disabled_destination_fails()
-except SkipTest:
-    test_results.append(("6. Disabled destination — requires YAML", "SKIP", "Environment limitation"))
-    print("⊘ 6. Disabled destination — requires YAML (skipped)")
+test("6. Disabled destination — rejected", test_disabled_destination_fails)
 
 def test_malformed_manifest_fails():
     """Malformed manifest rejected."""
@@ -476,14 +474,16 @@ for name, status, detail in test_results:
 
 print("="*80)
 print(f"SUMMARY: {passed} passed, {skipped} skipped, {failed} failed, {errors} errors")
-print(f"Total: {total} tests (YAML-dependent tests skipped in this environment)")
+print(f"Total: {total} tests")
 print("="*80)
 
-if failed + errors == 0:
-    print("\n✓ ALL CRITICAL TESTS PASSED")
-    print(f"  Passed: {passed}")
-    print(f"  Skipped: {skipped} (YAML unavailable)")
+if failed + errors + skipped == 0:
+    print("\n✓ ALL TESTS PASSED")
+    print(f"  Passed: {passed}/{total}")
     sys.exit(0)
 else:
-    print(f"\n✗ {failed + errors} TESTS FAILED")
+    if skipped > 0:
+        print(f"\n✗ {skipped} TESTS SKIPPED (should be 0)")
+    if failed + errors > 0:
+        print(f"\n✗ {failed + errors} TESTS FAILED")
     sys.exit(1)
