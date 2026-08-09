@@ -23,8 +23,6 @@ runners:
       - edit_posts
       - publish_posts
       - upload_files
-      - manage_categories
-      - manage_tags
     required_configuration:
       - wordpress_base_url (HTTPS required)
       - wordpress_username
