@@ -4,11 +4,13 @@
 
 | Role | Filename | Dimensions | SHA-256 |
 |---|---|---:|---|
-| Feed | `ISSUE007_FRI_FEED_1080x1350.jpg` | 1080×1350 | `a1fc67a53731de3a99828edd9fe5bca7946f9e7d7e068862f26c3eaf483d44aa` |
-| Story 01 | `ISSUE007_FRI_STORY_FRAME01_1080x1920.jpg` | 1080×1920 | `e8adfc2ea4d2cc34f8f0d6e5f4d6fff1b75f0d5e3804444b02717a00b63378b3` |
-| Story 02 | `ISSUE007_FRI_STORY_FRAME02_1080x1920.jpg` | 1080×1920 | `6bf4c1b252a919a8ca41804460c8f725b3d52113e2c0617d822ef1eae7eab6cb` |
-| Story 03 | `ISSUE007_FRI_STORY_FRAME03_1080x1920.jpg` | 1080×1920 | `b079f10dd712da0bb415c2bc6a735700211ac9d3915fbb44670c7194204b87d3` |
-| Blog/OG | `ISSUE007_FRI_BLOGOG_1200x628.jpg` | 1200×628 | `1af962a413d6566fda3527618b34d73c1c9795bb6dabadfb62baabcb2639b1f4` |
-| Email header | `ISSUE007_FRI_EMAILHEADER_1200x627.jpg` | 1200×627 | `416e0b717715bb2b5bec80809bd8e28b5d15e6a91519dce3f59f7b381ea3505e` |
+| Feed | `ISSUE007_FRI_FEED_1080x1350.jpg` | 1080×1350 | `b1b20b90810a99febdcb63be6a2efc3ff454242120239b73a11901ea5015c576` |
+| Story 01 | `ISSUE007_FRI_STORY_FRAME01_1080x1920.jpg` | 1080×1920 | `9c706ae87023dea1fe19fc12c518392503b27666961dbf1ce3750187d0d7ffbf` |
+| Story 02 | `ISSUE007_FRI_STORY_FRAME02_1080x1920.jpg` | 1080×1920 | `5ebdb567228a146ac0402e550cf9c6bad034329253fb3de237c6ba8b2dc75d80` |
+| Story 03 | `ISSUE007_FRI_STORY_FRAME03_1080x1920.jpg` | 1080×1920 | `eda53ed96e2b04def727687c9672942c1699207373c2eaf19bb521a77f7a6ec8` |
+| Blog/OG | `ISSUE007_FRI_BLOGOG_1200x628.jpg` | 1200×628 | `f2398d1d3e2139281999fc97a768d36fe946502fafa97edc79e8c296ab2c9cd8` |
+| Email header | `ISSUE007_FRI_EMAILHEADER_1200x627.jpg` | 1200×627 | `ec562e802ef75788a3e9ec8802e5ed1e0fb8925f17e4c33b98980a307816f782` |
+
+These checksums correspond to the Founder-approved native-size asset bundle `ISSUE007_WED_FRI_APPROVED_ASSETS.zip` prepared at handoff.
 
 Approved visual doctrine: Friday closes Issue 007 with a quiet treatment room, no people, the real ripple treatment, and the approved `PERMISSION IS A PRACTICE.` message. No downstream redesign or invented copy.
