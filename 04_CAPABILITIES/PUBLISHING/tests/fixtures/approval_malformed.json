@@ -1,0 +1,6 @@
+{
+  "schema_version": "1.0",
+  "publication_id": "test_bad_approval",
+  "state": "DRAFT",
+  "approved_by": "Someone Else"
+}

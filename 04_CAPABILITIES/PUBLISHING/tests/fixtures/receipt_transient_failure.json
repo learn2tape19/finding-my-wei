@@ -1,0 +1,18 @@
+{
+  "schema_version": "1.0",
+  "publication_id": "test_002_approved",
+  "package_hash": "sha256:aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+  "destination_id": "tao.brevo.production",
+  "agent": "brevo_v1",
+  "attempted_at": "2026-08-10T14:05:30Z",
+  "status": "FAILED_TRANSIENT",
+  "remote_id": null,
+  "public_url": null,
+  "verification": {
+    "passed": false,
+    "checked_at": null,
+    "details": null
+  },
+  "error_class": "FAILED_TRANSIENT",
+  "error_message": "Temporary network timeout (429 rate limit). Retry after 60 seconds."
+}

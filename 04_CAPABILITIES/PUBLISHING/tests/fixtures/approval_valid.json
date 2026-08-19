@@ -1,0 +1,13 @@
+{
+  "schema_version": "1.0",
+  "publication_id": "test_002_approved",
+  "package_hash": "sha256:aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+  "state": "FOUNDER_APPROVED_FOR_LAUNCH",
+  "approved_by": "Drew Freedman",
+  "approved_at": "2026-08-09T19:00:00Z",
+  "destinations": [
+    "tao.wordpress.production",
+    "tao.brevo.production"
+  ],
+  "notes": "Approved for launch. Publish at scheduled time."
+}

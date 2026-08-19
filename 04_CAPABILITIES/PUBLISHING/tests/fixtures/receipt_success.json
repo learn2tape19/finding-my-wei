@@ -1,0 +1,18 @@
+{
+  "schema_version": "1.0",
+  "publication_id": "test_002_approved",
+  "package_hash": "sha256:aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+  "destination_id": "tao.wordpress.production",
+  "agent": "wordpress_v1",
+  "attempted_at": "2026-08-10T14:05:00Z",
+  "status": "VERIFIED",
+  "remote_id": "wp_post_12345",
+  "public_url": "https://taoclinicaltouch.com/article-title",
+  "verification": {
+    "passed": true,
+    "checked_at": "2026-08-10T14:06:00Z",
+    "details": "Post found at URL, metadata verified, featured image attached"
+  },
+  "error_class": null,
+  "error_message": null
+}

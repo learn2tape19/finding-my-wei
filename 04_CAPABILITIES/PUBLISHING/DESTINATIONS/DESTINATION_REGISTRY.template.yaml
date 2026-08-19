@@ -1,0 +1,86 @@
+# Finding My Wei Publishing Destination Registry
+# Configuration only. NEVER place secret values in this file.
+schema_version: "1.0"
+
+destinations:
+  - destination_id: tao.wordpress.production
+    domain: tao_of_clinical_touch
+    platform: wordpress
+    enabled: false
+    adapter: wordpress_v1
+    account_ref: "CONFIGURE_SITE_IDENTIFIER"
+    auth:
+      method: "CONFIGURE_SUPPORTED_AUTH_METHOD"
+      secret_refs:
+        - "WORDPRESS_TAO_CREDENTIAL_REF"
+    permissions:
+      - media_upload
+      - post_create
+      - post_update
+      - post_schedule
+      - post_publish
+    verification: wordpress_post_readback
+
+  - destination_id: tao.facebook.production
+    domain: tao_of_clinical_touch
+    platform: meta_facebook
+    enabled: false
+    adapter: meta_v1
+    account_ref: "CONFIGURE_FACEBOOK_PAGE_ID"
+    auth:
+      method: oauth
+      secret_refs:
+        - "META_TAO_TOKEN_REF"
+    permissions:
+      - media_publish
+      - post_publish
+    verification: meta_object_readback
+
+  - destination_id: tao.instagram.production
+    domain: tao_of_clinical_touch
+    platform: meta_instagram
+    enabled: false
+    adapter: meta_v1
+    account_ref: "CONFIGURE_INSTAGRAM_PRO_ACCOUNT_ID"
+    auth:
+      method: oauth
+      secret_refs:
+        - "META_TAO_TOKEN_REF"
+    permissions:
+      - media_publish
+    verification: meta_object_readback
+
+  - destination_id: tao.linkedin.production
+    domain: tao_of_clinical_touch
+    platform: linkedin
+    enabled: false
+    adapter: linkedin_v1
+    account_ref: "CONFIGURE_LINKEDIN_DESTINATION"
+    auth:
+      method: oauth
+      secret_refs:
+        - "LINKEDIN_TAO_TOKEN_REF"
+    permissions:
+      - media_upload
+      - post_publish
+    verification: linkedin_post_readback
+
+  - destination_id: tao.brevo.production
+    domain: tao_of_clinical_touch
+    platform: brevo
+    enabled: false
+    adapter: brevo_v1
+    account_ref: "CONFIGURE_BREVO_ACCOUNT"
+    auth:
+      method: api_key
+      secret_refs:
+        - "BREVO_TAO_API_KEY_REF"
+    permissions:
+      - campaign_create
+      - campaign_schedule
+      - campaign_send
+    verification: brevo_campaign_readback
+
+# Add Learn2Tape, Boston Bodyworker, StitchCore/Sidekick Air,
+# Finding My Wei, and authorized Freedman-Foundry client destinations
+# using the same contract. New domains should be configuration, not architecture.

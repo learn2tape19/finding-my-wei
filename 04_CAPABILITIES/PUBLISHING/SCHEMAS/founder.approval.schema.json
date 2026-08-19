@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "finding-my-wei://publishing/founder.approval.schema.json",
+  "title": "Finding My Wei Founder Launch Approval",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "publication_id", "package_hash", "state", "approved_by", "approved_at", "destinations"],
+  "properties": {
+    "schema_version": {"const": "1.0"},
+    "publication_id": {"type": "string", "minLength": 1},
+    "package_hash": {"type": "string", "pattern": "^sha256:[0-9a-f]{64}$"},
+    "state": {"const": "FOUNDER_APPROVED_FOR_LAUNCH"},
+    "approved_by": {"const": "Drew Freedman"},
+    "approved_at": {"type": "string", "format": "date-time"},
+    "destinations": {"type": "array", "minItems": 1, "items": {"type": "string"}, "uniqueItems": true},
+    "notes": {"type": ["string", "null"]}
+  }
+}

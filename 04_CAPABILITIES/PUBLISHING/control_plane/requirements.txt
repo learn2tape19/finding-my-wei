@@ -1,0 +1,36 @@
+# Publishing Control Plane Dependencies
+# Minimal set required for offline validation and testing
+
+# External dependencies:
+PyYAML==6.0.1
+    # Why: Parse destination registry YAML files
+    # Source: https://github.com/yaml/pyyaml
+    # Maintenance: Active, widely used
+    # Security: No known issues; maintained by community
+    # Why not build internally: YAML parsing is non-trivial; maintaining a custom parser adds risk
+
+pytest==7.4.3
+    # Why: Run comprehensive test suite
+    # Source: https://github.com/pytest-dev/pytest
+    # Maintenance: Active, industry standard
+    # Security: No known issues
+    # Why not build internally: Testing framework is complex; pytest is the standard
+
+# Standard library only (no additional requirements):
+# - json: manifest and receipt serialization
+# - hashlib: SHA-256 package hashing
+# - pathlib: cross-platform filesystem operations
+# - re: manifest validation patterns
+# - datetime: receipt timestamps
+# - abc: abstract base class protocol definition
+# - typing: type hints for IDE support
+
+# Security notes:
+# - No credentials stored or referenced in requirements
+# - All production credential values come from GitHub Actions Secrets at runtime
+# - No version ranges: all versions pinned to ensure reproducibility
+# - Minimal external surface: PyYAML and pytest only
+
+# Testing:
+# pip install -r requirements.txt
+# pytest tests/test_control_plane.py -v
