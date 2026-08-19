@@ -3,7 +3,7 @@
 **Publication:** The Tao of Clinical Touch  
 **Issue:** 007 — Permission Over Time  
 **Day:** Wednesday  
-**Status:** Founder review draft  
+**Status:** FOUNDER APPROVED — CANONICAL ISSUE 007 BLOG  
 **Gate 0 role:** A different answer may appear before it is spoken.
 
 # The Answer May Change Before It Is Spoken
