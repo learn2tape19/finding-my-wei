@@ -177,6 +177,18 @@ Instagram execution packets prepared for Buffer may contain no more than five ha
 
 **Origin:** Issue 007 live review (2026-08-19). Buffer-mediated Instagram posts enforce a five-hashtag maximum. The canonical copy packages retain the full hashtag set as the editorial source of record. Instagram derivatives are bounded at execution time.
 
+### Instagram Story Execution — Automatic Scheduling
+
+Story execution is supported with `schedulingType: automatic` for the canonical Tao Instagram channel (`taoclinicaltouch`). Each Story frame is a separate post object in Buffer — multi-frame sequences are not a single compound post. Canonical Story cadence is **9:00 AM / 11:00 AM / 1:00 PM** America/New_York per publication day.
+
+**Origin:** Issue 007 Story execution (2026-08-19). The Tao Instagram channel holds `instagram_business_content_publish` scope with `defaultToReminders: false`, confirming automatic Story publishing without notification-based fallback.
+
+### Capability Discovery Protocol
+
+Capability discovery (Gate S0 or equivalent) must not create, delete, or mutate external objects unless the Founder has explicitly authorized disposable test objects for that gate. Read-only introspection (schema queries, channel inspection, dry-run validation) is sufficient for most discovery. If a live-object test is genuinely required, state the requirement and obtain explicit Founder authorization before executing.
+
+**Origin:** Issue 007 Gate S0 deviation (2026-08-19). Two disposable Story drafts were created and deleted during a read-only discovery phase without explicit authorization for test-object creation.
+
 ## 14. STOP condition
 
 After the authorized drafts are built and independently verified, **STOP FOR FOUNDER REVIEW**.
