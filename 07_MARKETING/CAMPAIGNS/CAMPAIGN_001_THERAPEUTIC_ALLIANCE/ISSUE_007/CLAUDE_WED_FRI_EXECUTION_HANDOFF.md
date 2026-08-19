@@ -4,7 +4,7 @@
 **Issue:** 007 — Permission Over Time  
 **Scope:** Wednesday, Thursday, Friday  
 **Status:** FOUNDER APPROVED FOR EXECUTION PREP  
-**Editorial authority:** Locked. Claude is executor, not author.  
+**Editorial authority:** Locked. Claude is executor, not author.
 
 ## 1. Purpose
 
@@ -27,7 +27,7 @@ Read completely, in order:
 7. `WEDNESDAY/APPROVED_ASSET_MANIFEST.md`
 8. `THURSDAY/APPROVED_ASSET_MANIFEST.md`
 9. `FRIDAY/APPROVED_ASSET_MANIFEST.md`
-10. `ASSETS/DECODE_APPROVED_ASSETS.py`
+10. `ASSET_IMPORT_INSTRUCTIONS.md`
 11. Current FREEDMAN-FOUNDRY execution standards on `main`, including credential, destination, idempotency, receipt, and Buffer connector authority.
 
 If repository execution authority conflicts with this handoff, **the narrower authority wins** and execution stops for Founder review.
@@ -93,17 +93,23 @@ Prepare the WordPress-ready Wednesday package from `WEDNESDAY/FINAL_COPY_PACKAGE
 
 Wednesday, Thursday, and Friday email derivatives are approved copy packages. Prepare them exactly as written. Do not send or schedule email. Do not create a Brevo external draft unless current Foundry/Brevo authority independently authorizes the requested mutation and all sender/account/list checks pass.
 
-## 8. Approved visual asset reconstruction
+## 8. Approved visual asset import gate
 
-Approved native JPEG assets are stored as encoded ZIP bundles under `ASSETS/ENCODED/` so the exact Founder-approved production can survive handoff through GitHub.
+The 18 Founder-approved native visual files are transferred as the single handoff bundle:
 
-Run:
+`ISSUE007_WED_FRI_APPROVED_ASSETS.zip`
 
-```bash
-python3 07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_007/ASSETS/DECODE_APPROVED_ASSETS.py
-```
+Follow `ASSET_IMPORT_INSTRUCTIONS.md` exactly.
 
-The script must decode the three bundles and verify every SHA-256 checksum from each day's `ASSET_MANIFEST.json`. Checksum mismatch = **BLOCKED**.
+Before any Buffer mutation, Claude must:
+
+1. import the bundle into `ISSUE_007/APPROVED_ASSETS/`;
+2. preserve all exact filenames and native dimensions;
+3. verify all 18 SHA-256 values against the GitHub day manifests;
+4. commit the approved binary assets to the Issue 007 execution branch;
+5. report that asset-import commit SHA.
+
+Missing file or checksum mismatch = **BLOCKED**.
 
 Do not recreate the visuals with generative AI. Do not substitute a different ripple. Do not add drips, slogans, icons, or copy beyond what is already embedded in the approved files.
 
@@ -152,15 +158,16 @@ If a Buffer createPost call times out or returns an ambiguous transport outcome:
 
 Return:
 
-- branch/commit used;
-- decoded asset checksum result;
+- source branch/commit used;
+- approved asset-import commit SHA;
+- asset checksum results;
 - exact packet IDs;
 - exact destination channel IDs;
 - draft IDs created;
 - independent fetched IDs/states;
 - ledger receipt IDs;
 - any BLOCKED or NOT_RUN operations;
-- explicit confirmation: no publish, schedule, queue, delete, or personal-Instagram mutation occurred.
+- explicit confirmation that no publish, schedule, queue, delete, or personal-Instagram mutation occurred.
 
 ## 13. STOP condition
 
