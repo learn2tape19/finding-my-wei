@@ -4,11 +4,13 @@
 
 | Role | Filename | Dimensions | SHA-256 |
 |---|---|---:|---|
-| Feed | `ISSUE007_WED_FEED_1080x1350.jpg` | 1080×1350 | `ef913460ea55eee636278d3ff295c5b69851689fa5689c4fb6b0ae8a473292c5` |
-| Story 01 | `ISSUE007_WED_STORY_FRAME01_1080x1920.jpg` | 1080×1920 | `997d39484c18c1dccdb90ef6d62715121d2b63b7931103797678fd4b55404b0a` |
-| Story 02 | `ISSUE007_WED_STORY_FRAME02_1080x1920.jpg` | 1080×1920 | `5e66a3e11dc299942953e084963e0d08696bd51292d3a35b747d835d2786647a` |
-| Story 03 | `ISSUE007_WED_STORY_FRAME03_1080x1920.jpg` | 1080×1920 | `b638efc7c257272d2f5b4557617f81d69a6aaa404732a3f921030b2f6b40a752` |
-| Blog/OG | `ISSUE007_WED_BLOGOG_1200x628.jpg` | 1200×628 | `8a693212856a5efe9613b5225dd11c4d10f273dfdfa32665c4bccf079cb81201` |
-| Email header | `ISSUE007_WED_EMAILHEADER_1200x627.jpg` | 1200×627 | `e64f975f9015fad5970b06b4eebc9795264568e6b94ef466d30fb3aef6b7744b` |
+| Feed | `ISSUE007_WED_FEED_1080x1350.jpg` | 1080×1350 | `1a252bbe541ad8111b8e7344d1d568d0bc1c2373ef93ea5d85dc70b4345aef9b` |
+| Story 01 | `ISSUE007_WED_STORY_FRAME01_1080x1920.jpg` | 1080×1920 | `5eb14bdf03b526bc947e693ac72a96d84293af375f912faeade81d8b7072d559` |
+| Story 02 | `ISSUE007_WED_STORY_FRAME02_1080x1920.jpg` | 1080×1920 | `752baa46512493744c5124069e595e6a5308b8db62d9af135f2bdc3480af2587` |
+| Story 03 | `ISSUE007_WED_STORY_FRAME03_1080x1920.jpg` | 1080×1920 | `678c96e25ca1eff342e00201cb56fae23021f0c2be532daebf8eda6f51422762` |
+| Blog/OG | `ISSUE007_WED_BLOGOG_1200x628.jpg` | 1200×628 | `385b6cca89b80de5cbb0789b0a8f7a9838be3094b3eecd610b2836f03a228cc6` |
+| Email header | `ISSUE007_WED_EMAILHEADER_1200x627.jpg` | 1200×627 | `dbace80397bb8a160596d273ed311b724c8b9ec45c9313b8f88195fa4aa05c2e` |
 
-Approved visual doctrine: real ripple treatment, no added drip, no invented slogans, no generative re-interpretation downstream.
+These checksums correspond to the Founder-approved native-size asset bundle `ISSUE007_WED_FRI_APPROVED_ASSETS.zip` prepared at handoff.
+
+Approved visual doctrine: real ripple treatment, no added drip, no invented slogans downstream, no generative re-interpretation downstream.
