@@ -169,7 +169,15 @@ Return:
 - any BLOCKED or NOT_RUN operations;
 - explicit confirmation that no publish, schedule, queue, delete, or personal-Instagram mutation occurred.
 
-## 13. STOP condition
+## 13. Platform derivative rules — lessons learned
+
+### Instagram Buffer Hashtag Derivative Rule
+
+Instagram execution packets prepared for Buffer may contain no more than five hashtags. Select those hashtags only from the Founder-approved canonical hashtag set. Do not invent hashtags during execution. Facebook retains the canonical hashtag set unless a platform constraint requires otherwise.
+
+**Origin:** Issue 007 live review (2026-08-19). Buffer-mediated Instagram posts enforce a five-hashtag maximum. The canonical copy packages retain the full hashtag set as the editorial source of record. Instagram derivatives are bounded at execution time.
+
+## 14. STOP condition
 
 After the authorized drafts are built and independently verified, **STOP FOR FOUNDER REVIEW**.
 
