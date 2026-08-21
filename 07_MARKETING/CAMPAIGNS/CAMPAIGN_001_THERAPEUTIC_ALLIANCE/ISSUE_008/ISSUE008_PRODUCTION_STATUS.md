@@ -3,13 +3,13 @@
 **Publication:** The Tao of Clinical Touch
 **Issue:** 008
 **Governing concept:** THE PLAN MUST BE ALLOWED TO CHANGE
-**Status:** IN PRODUCTION
+**Status:** PRODUCTION COMPLETE — FOUNDER LOCKED — EXECUTION HANDOFF READY
 
 ## Founder Lock
 
-Monday is locked for launch.
+All Monday-Friday editorial copy and visual production are Founder-approved.
 
-Approved Monday asset set:
+Each day has the complete approved six-asset set:
 - Feed: 1080x1350
 - Blog/OG: 1200x628
 - Email header: 1200x627
@@ -17,9 +17,9 @@ Approved Monday asset set:
 - Story Frame 2: 1080x1920
 - Story Frame 3: 1080x1920
 
-Monday approved visual language begins with ongoing permission and the working-hypothesis clipboard. This establishes the bridge into the Issue 008 governing concept: permission can change, new information can emerge, and the clinical plan must remain responsive.
+Friday 1200x628 required one correction before approval: the client's arm was corrected so it hangs naturally off the side of the treatment table rather than intersecting the table. Only the corrected render is approved.
 
-## Weekly Editorial Arc
+## Weekly Editorial Arc — LOCKED
 
 - Monday: Permission can change. The initial plan is a working hypothesis.
 - Tuesday: New information should change something.
@@ -31,13 +31,19 @@ Monday approved visual language begins with ongoing permission and the working-h
 
 - Monday copy: LOCKED
 - Monday visuals: LOCKED
-- Tuesday copy: COMPLETE, awaiting visual production
-- Wednesday copy: COMPLETE, awaiting visual production
-- Thursday copy: COMPLETE, awaiting visual production
-- Friday copy: COMPLETE, awaiting visual production
-- Wednesday canonical blog article: COMPLETE
-- Wednesday email: COMPLETE
-- Scheduling/execution: NOT YET AUTHORIZED
+- Tuesday copy: LOCKED
+- Tuesday visuals: LOCKED
+- Wednesday copy: LOCKED
+- Wednesday visuals: LOCKED
+- Thursday copy: LOCKED
+- Thursday visuals: LOCKED
+- Friday copy: LOCKED
+- Friday visuals: LOCKED
+- Wednesday canonical blog article: COMPLETE / LOCKED
+- Wednesday WordPress metadata: COMPLETE / LOCKED
+- Wednesday email: COMPLETE / LOCKED
+- Execution handoff: READY FOR FOUNDER RELEASE
+- Scheduling/execution: NOT YET RELEASED TO CLAUDE
 
 ## Launch Cadence
 
@@ -50,4 +56,6 @@ Monday through Friday:
 
 ## Execution Boundary
 
-Do not schedule or publish Issue 008 yet. Founder will complete and approve Tuesday through Friday visual assets first. After visual completion and Founder confirmation, the complete Issue 008 packet may be handed to Claude for scheduling plus WordPress and Brevo execution.
+Production is complete. Do not schedule, publish, create WordPress content, create Brevo campaigns, or mutate Buffer until the Founder explicitly sends/releases the Issue 008 execution handoff to Claude.
+
+When released, Claude must use the canonical repository copy and the Founder-approved visual assets without editorial rewriting, visual substitution, or inferred URLs. Build/stage first, verify, and stop for Founder review before any final scheduling/publication action unless the release directive explicitly authorizes those actions.
