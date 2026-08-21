@@ -44,11 +44,14 @@ Use only the supplied Founder-approved files. Do not crop one format to create a
 
 **Friday warning:** the first Friday 1200x628 render was rejected because the client's arm intersected the treatment table. Exclude it. Only the corrected Founder-approved 1200x628 image with the arm naturally hanging off the side is canonical.
 
-## LAUNCH WINDOW
+## LAUNCH WINDOW — CANONICAL
 
-Issue 008 is the next Monday-Friday publication week following Issue 007.
-
-Before scheduling, resolve the exact Monday-Friday calendar dates from the canonical campaign/repository scheduling context. **Do not infer dates if the repository does not establish them unambiguously.** If exact dates cannot be verified, complete all staging work and STOP with a date-resolution report rather than scheduling.
+Issue 008 launch week is explicitly:
+- Monday — August 24, 2026
+- Tuesday — August 25, 2026
+- Wednesday — August 26, 2026
+- Thursday — August 27, 2026
+- Friday — August 28, 2026
 
 All times use `America/New_York`.
 
@@ -58,6 +61,8 @@ Daily cadence:
 - Instagram Story Frame 1 — 9:00 AM ET
 - Instagram Story Frame 2 — 11:00 AM ET
 - Instagram Story Frame 3 — 1:00 PM ET
+
+These dates are canonical. Do not substitute another week.
 
 ## EXECUTION AUTHORIZATION
 
@@ -125,7 +130,7 @@ Before the first mutation:
 - search all three platforms for existing Issue 008 objects
 - verify all URLs and CTA destinations from canonical sources
 
-If any identity, date, asset, CTA, recipient set, platform target, or canonical field is ambiguous: **STOP. REPORT. DO NOT INFER.**
+If any identity, asset, CTA, recipient set, platform target, or canonical field is ambiguous: **STOP. REPORT. DO NOT INFER.**
 
 ## EXECUTION ORDER
 
@@ -133,7 +138,7 @@ If any identity, date, asset, CTA, recipient set, platform target, or canonical 
 2. Build and verify all Buffer objects.
 3. Build and verify the Wednesday WordPress article.
 4. Build and verify the Wednesday Brevo campaign.
-5. Schedule only the objects whose exact dates/times are canonically established.
+5. Schedule only the objects whose exact times are canonically established.
 6. Independently re-read each created/scheduled object from its platform.
 7. Verify copy, asset, destination, identity, state, and schedule against the repository.
 8. Write `EXECUTION_RECEIPT.md` inside the Issue 008 directory with all platform IDs, URLs where applicable, states, scheduled timestamps, target identities, asset identities/hashes where available, and verification evidence.
@@ -146,7 +151,7 @@ If any identity, date, asset, CTA, recipient set, platform target, or canonical 
 - No new creative.
 - No visual substitutions.
 - No inferred URLs.
-- No inferred dates or times.
+- No inferred times.
 - No personal-account posting.
 - No publish-now/send-now unless a canonical schedule has already arrived or explicit Founder authorization says immediate publication.
 - No deletion or replacement of existing platform objects without explicit Founder authorization.
