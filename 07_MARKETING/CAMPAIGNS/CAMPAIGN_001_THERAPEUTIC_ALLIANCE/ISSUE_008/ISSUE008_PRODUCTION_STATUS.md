@@ -7,9 +7,9 @@
 
 ## Founder Lock
 
-All Monday-Friday editorial copy and visual production are Founder-approved.
+All Monday-Friday copy and visual production has been Founder-approved.
 
-Each day has the complete approved six-asset set:
+Each day has the following approved asset roles:
 - Feed: 1080x1350
 - Blog/OG: 1200x628
 - Email header: 1200x627
@@ -17,9 +17,18 @@ Each day has the complete approved six-asset set:
 - Story Frame 2: 1080x1920
 - Story Frame 3: 1080x1920
 
-Friday 1200x628 required one correction before approval: the client's arm was corrected so it hangs naturally off the side of the treatment table rather than intersecting the table. Only the corrected render is approved.
+## Launch Dates
 
-## Weekly Editorial Arc — LOCKED
+Issue 008 launch week is explicitly:
+- Monday: August 24, 2026
+- Tuesday: August 25, 2026
+- Wednesday: August 26, 2026
+- Thursday: August 27, 2026
+- Friday: August 28, 2026
+
+Timezone: America/New_York.
+
+## Weekly Editorial Arc
 
 - Monday: Permission can change. The initial plan is a working hypothesis.
 - Tuesday: New information should change something.
@@ -39,11 +48,11 @@ Friday 1200x628 required one correction before approval: the client's arm was co
 - Thursday visuals: LOCKED
 - Friday copy: LOCKED
 - Friday visuals: LOCKED
-- Wednesday canonical blog article: COMPLETE / LOCKED
-- Wednesday WordPress metadata: COMPLETE / LOCKED
-- Wednesday email: COMPLETE / LOCKED
-- Execution handoff: READY FOR FOUNDER RELEASE
-- Scheduling/execution: NOT YET RELEASED TO CLAUDE
+- Wednesday canonical blog article: COMPLETE
+- Wednesday blog metadata: COMPLETE
+- Wednesday email: COMPLETE
+- Claude execution handoff: COMPLETE
+- Founder execution directive: COMPLETE
 
 ## Launch Cadence
 
@@ -54,8 +63,14 @@ Monday through Friday:
 - Story Frame 2: 11:00 AM ET
 - Story Frame 3: 1:00 PM ET
 
+## Known Asset Exception
+
+The first Friday 1200x628 render was rejected because the client's arm visually intersected the treatment table. That render is non-canonical and must never be used. The corrected Founder-approved Friday 1200x628 render is canonical.
+
 ## Execution Boundary
 
-Production is complete. Do not schedule, publish, create WordPress content, create Brevo campaigns, or mutate Buffer until the Founder explicitly sends/releases the Issue 008 execution handoff to Claude.
+Issue 008 is released for Claude execution only under `FOUNDER_EXECUTION_DIRECTIVE_FOR_CLAUDE.md` and `CLAUDE_EXECUTION_HANDOFF.md`.
 
-When released, Claude must use the canonical repository copy and the Founder-approved visual assets without editorial rewriting, visual substitution, or inferred URLs. Build/stage first, verify, and stop for Founder review before any final scheduling/publication action unless the release directive explicitly authorizes those actions.
+Claude must still perform platform authentication, identity verification, duplicate reconciliation, and independent post-write verification before scheduling.
+
+If any required platform credential is unavailable in Claude's runtime, the affected operation remains blocked until that credential is provisioned. Do not infer or substitute credentials.
