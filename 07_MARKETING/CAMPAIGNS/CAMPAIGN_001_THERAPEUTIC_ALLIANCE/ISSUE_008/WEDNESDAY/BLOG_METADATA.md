@@ -26,7 +26,7 @@ A plan gives us somewhere to begin. Clinical reasoning stays active by allowing 
 
 ## OG / Featured Image
 
-Use the Founder-approved Wednesday Issue 008 Blog/OG asset after visual production is complete.
+Use the Founder-approved Wednesday Issue 008 Blog/OG asset from the canonical approved visual packet.
 
 ## Internal Linking
 
@@ -36,4 +36,4 @@ Where natural, link back to Issue 007's discussion of ongoing permission. Do not
 
 Create as draft first. Verify title, slug, body, excerpt, featured image, categories/tags, and public-link destination before Founder publication authorization.
 
-**Status:** METADATA COMPLETE - VISUAL ASSET REQUIRED
+**Status:** METADATA + VISUAL FOUNDER LOCKED — READY FOR EXECUTION
