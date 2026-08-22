@@ -115,30 +115,87 @@
 
 ---
 
-## WordPress — Wednesday blog article
+## WordPress — Wednesday blog article (COMPLETE)
 
-**Status:** BLOCKED — Pending separate execution authorization
+| Field | Value |
+|---|---|
+| Post ID | `1396` |
+| Status | `future` (scheduled) |
+| Title | Changing Course Is Clinical Reasoning |
+| Slug | `changing-course-is-clinical-reasoning` |
+| Scheduled | `2026-08-26T07:00:00` (7:00 AM ET) |
+| Expected permalink | `https://taoclinicaltouch.com/blog/2026/08/changing-course-is-clinical-reasoning/` |
+| Author | Drew Freedman (ID 1) |
+| Featured media | ID 1394 — `ISSUE008_WED_BLOGOG_1200x628.jpg` (1200×628) |
+| Categories | Clinical Practice (36), The Tao of Clinical Touch (35), Therapeutic Alliance (25) |
+| Tags | clinical practice (29), clinical reasoning (42), clinical touch (38), massage therapy (41), therapeutic presence (27), therapeutic-alliance (22) |
+| Excerpt | Canonical excerpt from BLOG_METADATA.md — verified exact |
+| Body verification | 8/8 structural markers PASS, 6/6 H2 sections PASS |
+| Internal link | Issue 007 permalink included per BLOG_METADATA.md directive |
+| Independent verification | Authenticated REST retrieval — all fields confirmed |
 
-Canonical content ready:
-- Title: Changing Course Is Clinical Reasoning
-- Slug: `changing-course-is-clinical-reasoning`
-- Article source: `ISSUE_008/WEDNESDAY/CANONICAL_BLOG_ARTICLE.md`
-- Metadata source: `ISSUE_008/WEDNESDAY/BLOG_METADATA.md`
-- Scheduled for: 7:00 AM ET, August 26, 2026
-- WordPress credential bridge: Verified working (HTTP 200, User ID 1)
+### SEO capability exception
+
+No SEO plugin is installed on taoclinicaltouch.com. The following Founder-approved values are recorded but could not be applied programmatically. This is a platform capability exception, not an editorial omission.
+
+| Field | Approved value |
+|---|---|
+| SEO title | Changing Course Is Clinical Reasoning \| The Tao of Clinical Touch |
+| Meta description | A treatment plan is a working hypothesis. Explore why changing course can be part of clinical reasoning when new information emerges during care. |
+| Focus keyphrase | clinical reasoning in massage therapy |
 
 ---
 
-## Brevo — Wednesday email campaign
+## Brevo — Wednesday email campaign (COMPLETE)
 
-**Status:** BLOCKED — Depends on WordPress article permalink
+| Field | Value |
+|---|---|
+| Campaign ID | `36` |
+| Name | Tao Issue 008 — Changing Course Is Clinical Reasoning |
+| Status | `queued` (scheduled) |
+| Scheduled | `2026-08-26T10:00:00.000-04:00` (10:00 AM America/New_York) |
+| Subject | Changing course is clinical reasoning |
+| Preview text | Revision is not failure. It is what attention looks like when the information changes. |
+| Sender | Drew Freedman \| Tao of Clinical Touch `<drew@mail.taoclinicaltouch.com>` (ID 3) |
+| Reply-to | drew@learn2tape.com |
+| Recipients | 22 lists: `[2, 5, 6, 7, 8, 10, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59]` |
+| Estimated reach | 11,430 |
+| CTA text | Read Issue 008: Changing Course Is Clinical Reasoning → |
+| CTA destination | `https://taoclinicaltouch.com/blog/2026/08/changing-course-is-clinical-reasoning/` |
+| Email header | `ISSUE008_WED_EMAILHEADER_1200x627.jpg` hosted at WP Media 1395 |
+| UTM campaign | `tao issue 008` |
+| Created | `2026-08-22T08:33:13.000-04:00` |
+| Scheduled by | Claude via Brevo MCP `scheduledAt` parameter at creation |
+| Independent verification | MCP authenticated retrieval — all fields confirmed |
 
-Canonical content ready:
-- Email copy source: `ISSUE_008/WEDNESDAY/EMAIL_COPY.md`
-- Subject: Changing course is clinical reasoning
-- Preview: Revision is not failure. It is what attention looks like when the information changes.
-- CTA destination: Requires live WordPress permalink (not yet created)
-- Scheduled for: 10:00 AM ET, August 26, 2026
+---
+
+## WordPress media uploaded
+
+| Media ID | Filename | Role |
+|---|---|---|
+| 1370 | `ISSUE008_MON_FEED_1080x1080.png` | Monday feed (FB + IG) |
+| 1375 | `ISSUE008_TUE_FEED_1080x1080.jpg` | Tuesday feed (FB + IG) |
+| 1376 | `ISSUE008_WED_FEED_1080x1080.jpg` | Wednesday feed (FB + IG) |
+| 1377 | `ISSUE008_THU_FEED_1080x1080.jpg` | Thursday feed (FB + IG) |
+| 1378 | `ISSUE008_FRI_FEED_1080x1080.jpg` | Friday feed (FB + IG) |
+| 1379 | `ISSUE008_MON_STORY_FRAME01_1080x1920.png` | Monday Story 1 |
+| 1380 | `ISSUE008_MON_STORY_FRAME02_1080x1920.png` | Monday Story 2 |
+| 1381 | `ISSUE008_MON_STORY_FRAME03_1080x1920.png` | Monday Story 3 |
+| 1382 | `ISSUE008_TUE_STORY_FRAME01_1080x1920.jpg` | Tuesday Story 1 |
+| 1383 | `ISSUE008_TUE_STORY_FRAME02_1080x1920.jpg` | Tuesday Story 2 |
+| 1384 | `ISSUE008_TUE_STORY_FRAME03_1080x1920.jpg` | Tuesday Story 3 |
+| 1385 | `ISSUE008_WED_STORY_FRAME01_1080x1920.jpg` | Wednesday Story 1 |
+| 1386 | `ISSUE008_WED_STORY_FRAME02_1080x1920.jpg` | Wednesday Story 2 |
+| 1387 | `ISSUE008_WED_STORY_FRAME03_1080x1920.jpg` | Wednesday Story 3 |
+| 1388 | `ISSUE008_THU_STORY_FRAME01_1080x1920.jpg` | Thursday Story 1 |
+| 1389 | `ISSUE008_THU_STORY_FRAME02_1080x1920.jpg` | Thursday Story 2 |
+| 1390 | `ISSUE008_THU_STORY_FRAME03_1080x1920.jpg` | Thursday Story 3 |
+| 1391 | `ISSUE008_FRI_STORY_FRAME01_1080x1920.jpg` | Friday Story 1 |
+| 1393 | `ISSUE008_FRI_STORY_FRAME02_1080x1920.jpg` | Friday Story 2 |
+| 1392 | `ISSUE008_FRI_STORY_FRAME03_1080x1920.jpg` | Friday Story 3 |
+| 1394 | `ISSUE008_WED_BLOGOG_1200x628.jpg` | Blog/OG featured image |
+| 1395 | `ISSUE008_WED_EMAILHEADER_1200x627.jpg` | Email header (Brevo hosted) |
 
 ---
 
@@ -149,10 +206,27 @@ Canonical content ready:
 | Buffer posts scheduled | 25 | 5 FB feed + 5 IG feed + 15 IG stories (Mon–Fri) |
 | Buffer drafts created then deleted | 10 | Created under plan limit, deleted after Essentials upgrade |
 | Buffer test posts created then deleted | 2 | Channel verification + capacity test |
-| WordPress media uploaded | 20 | IDs 1370, 1375–1393 (image hosting for Buffer) |
-| WordPress posts published | 0 | Blocked |
-| Brevo campaigns created | 0 | Blocked |
+| WordPress media uploaded | 22 | IDs 1370, 1375–1395 (20 Buffer images + Blog/OG + email header) |
+| WordPress posts scheduled | 1 | Post 1396 (future, 2026-08-26T07:00:00) |
+| Brevo campaigns created + scheduled | 1 | ID 36 (queued, 2026-08-26T10:00:00-04:00) |
 | Editorial changes | 0 | All copy canonical from repository |
+
+---
+
+## Execution dependency chain
+
+1. Buffer channel verification (FB + IG) — create+delete test drafts ✓
+2. WordPress media uploaded (20 Buffer images) ✓
+3. Buffer 25 posts scheduled (Mon–Fri, all platforms) ✓
+4. WordPress credential verification (HTTP 200, User ID 1, drew@learn2tape.com) ✓
+5. Duplicate reconciliation — no existing Issue 008 article ✓
+6. WordPress Blog/OG image uploaded (Media 1394) ✓
+7. WordPress Email Header image uploaded (Media 1395) ✓
+8. WordPress Post 1396 created as `future` (scheduled 2026-08-26T07:00:00) ✓
+9. WordPress Post 1396 independently verified (8/8 markers, 6/6 H2, Issue 007 link) ✓
+10. Brevo duplicate check — no existing Issue 008 campaign ✓
+11. Brevo Campaign 36 created + scheduled (queued, 2026-08-26T10:00:00-04:00) ✓
+12. Brevo Campaign 36 independently verified (all fields confirmed) ✓
 
 ---
 
@@ -170,8 +244,18 @@ Canonical content ready:
 
 6. **Buffer `post` query requires `input: {id: "..."}` not `id: "..."` as a direct argument.**
 
+7. **WordPress canonical username is `drew@learn2tape.com`, not `drew`.** Application password authentication requires the full email as the username.
+
+8. **Brevo MCP `create_email_campaign` accepts `scheduledAt` and will create in `queued` state directly.** No separate scheduling step needed — unlike Issue 007 which required Founder manual scheduling.
+
 ---
 
-## Execution complete (Buffer)
+## Execution complete
 
-All 25 authorized Buffer objects have been created and independently verified as `scheduled`. No unauthorized mutations occurred. WordPress and Brevo execution remain blocked pending separate authorization.
+All authorized actions across all three platforms have been performed and independently verified. No unauthorized mutations occurred.
+
+| Platform | Objects | Status |
+|---|---|---|
+| Buffer | 25 posts (Mon–Fri) | All `scheduled` |
+| WordPress | Post 1396 | `future` (scheduled 2026-08-26 07:00 ET) |
+| Brevo | Campaign 36 | `queued` (scheduled 2026-08-26 10:00 ET) |
