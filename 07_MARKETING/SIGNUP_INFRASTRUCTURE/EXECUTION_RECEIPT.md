@@ -1,14 +1,14 @@
 # Tao Publication Signup Infrastructure — Execution Receipt
 
 ## Status
-Gate 2 PASS — Founder-approved. Live on blog template.
+Gate 3 PASS — All approved surfaces deployed and Founder-approved.
 
 ## Architecture
 
 ### Frontend Component
 - **Source:** `tao-publication-signup.js` (v1.0.0)
 - **Semantic root:** `#tao-publication-signup`
-- **Source config:** `data-signup-source` attribute (currently: `blog_footer`)
+- **Source config:** `data-signup-source` attribute (per-surface — see Deployment Matrix)
 - **Analytics:** `dataLayer` → GTM only. No `gtag()` calls.
 - **PII boundary:** Email sent only via XHR to server endpoint. Never enters `dataLayer`, GA4, URLs, or logs.
 
@@ -54,15 +54,23 @@ Standard params on all events:
 - `page_path`
 - `publication` (`"tao_clinical_touch"`)
 
-## Supported `signup_source` Values
+## Production Deployment Matrix
+
+| Surface | Page/Template | `signup_source` | Installed By | Status |
+|---|---|---|---|---|
+| Blog articles | Template 863 | `blog_footer` | Programmatic (REST API) | Gate 2 PASS |
+| Book page | Page 493 | `about_book` | Programmatic (REST API) | Gate 3 PASS |
+| Homepage | Page 51 | `homepage` | Programmatic (REST API) | Gate 3 PASS |
+| Standard Shop | Page 1277 | `shop` | Founder (Elementor) | Gate 3 PASS |
+| AMTA Shop | Page 1398 | `shop_amta` | Founder (Elementor) | Gate 3 PASS |
+| Bulk Orders | Page 1291 | `bulk_orders` | Founder (Elementor) | Gate 3 PASS |
+| About page | Page 33 | — | — | Excluded (legacy placeholder) |
+
+### Additional `signup_source` values
 
 | Value | Context |
 |---|---|
-| `blog_footer` | Blog article template (live) |
-| `gate1_test` | Gate 1 test page |
-| `homepage` | Future — Phase 3 |
-| `shop` | Future — Phase 3 |
-| `about_book` | Future — Phase 3 |
+| `gate1_test` | Gate 1 test page (Page 1426, can be deleted) |
 
 ## DOI Flow
 
@@ -74,15 +82,17 @@ Standard params on all events:
 6. Brevo confirms subscription, adds to List 64
 7. Reader redirected to `/subscription-confirmed/`
 
-## Contrast Correction (Founder-Approved)
+## Self-Contained Presentation (Founder-Approved)
 
-Component styled for dark (navy) blog background:
+Component carries its own navy background (`#1a2a3a`) and contrast palette, eliminating dependency on host-page background:
+- Background: `#1a2a3a` (navy, self-contained on component root)
 - Headline: `#f5f0e8` (ivory)
 - Description: `#c8cfd6` (light gray)
 - Button: navy text on ivory background
 - Footer: `#a0aab4`
 - Border-top: `rgba(245, 240, 232, 0.25)`
 - Validation error: `#e74c3c` (bright red for dark bg visibility)
+- Inner wrapper: `.tao-signup-inner` (max-width 640px, centered)
 
 ## Rollback — Template 863
 
@@ -108,6 +118,12 @@ Same lesson as AMTA 2026 Shop: Elementor `text-editor` widgets apply `wp_kses_po
 
 ### Elementor template render cache
 REST API updates to `_elementor_data` do not trigger Elementor's render cache rebuild. After any programmatic template modification, the template must be re-saved in Elementor editor to take effect.
+
+### CSS duplication audit must account for canonical responsive selectors
+The canonical component JS contains multiple `#tao-publication-signup` selectors — one in the main CSS block and one inside the `@media (max-width: 480px)` responsive rule. Duplication tests that count raw selector occurrences will produce false positives. Future audits must distinguish between separate canonical selectors (expected) and duplicated component/style payloads (defect).
+
+### Host-page background must be judged from rendered production surface
+WordPress CSS custom properties (e.g. `--wp--preset--color--base: #FFFFFF`) may not reflect the actual rendered background. Elementor container styles, theme overrides, and inherited section backgrounds can produce a completely different visual context. Always verify against the live rendered page, not preset/variable inspection alone. (Discovered during Book page 493 deployment — preset reported white, production surface rendered navy.)
 
 ## Gate Evidence
 
@@ -135,6 +151,41 @@ REST API updates to `_elementor_data` do not trigger Elementor's render cache re
 - GTM container `GTM-PP2CC4D6` present
 - Retired GA4 `G-FW3PRHTX2P` absent
 - No credential or PII leakage
+
+### Gate 3 — Multi-Surface Propagation
+
+All surfaces verified against canonical `tao-publication-signup.js` (v1.0.0).
+
+**Book Page 493** (`about_book`)
+- Single instance, canonical JS exact match
+- Self-contained background renders correctly on navy host page
+- Structural integrity 7/7, all analytics events, security PASS
+
+**Homepage 51** (`homepage`)
+- Single instance, canonical JS exact match
+- Cloudflare email-decode script injected between div and script (no functional impact)
+- Structural integrity 7/7, all analytics events, security PASS
+- Header/footer/personalization content intact
+
+**Standard Shop 1277** (`shop`)
+- Founder-installed in Elementor, technically verified
+- Source attribution corrected from `about_book` → `shop` (copy-paste artifact)
+- Canonical JS exact match, structural integrity 7/7, security PASS
+- Commerce regression: shop JS, Stripe checkout, personalization, bulk orders link, GTM — all intact
+
+**AMTA Shop 1398** (`shop_amta`)
+- Founder-installed in Elementor, technically verified
+- Source attribution corrected from `about_book` → `shop_amta` (copy-paste artifact)
+- Underscore convention enforced (`shop_amta` not `shop-amta`)
+- Canonical JS exact match, structural integrity 7/7, security PASS
+- Commerce regression: shop JS, Stripe checkout, personalization, bulk orders link, GTM — all intact
+
+**Bulk Orders 1291** (`bulk_orders`)
+- Founder-installed in Elementor, technically verified
+- Canonical JS exact match, structural integrity 7/7, security PASS
+- Bulk order form byte-identical to pre-deployment state (5 fields, submission JS, return-to-shop CTA)
+
+**About Page 33** — intentionally excluded (legacy placeholder content)
 
 ## Branch
 - Branch: `tao-publication-signup`
