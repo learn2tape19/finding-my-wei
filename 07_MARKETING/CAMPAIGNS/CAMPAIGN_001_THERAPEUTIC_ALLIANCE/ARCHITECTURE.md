@@ -230,6 +230,7 @@ These records prevent production history from becoming current doctrine by accid
 - [`PUBLICATION_INDEX.md`](PUBLICATION_INDEX.md) — Issues 001–005 evidence ledger
 - [`CURRENT_AUTHORITY_REGISTER.md`](CURRENT_AUTHORITY_REGISTER.md) — current rules and explicit supersessions
 - [`CAMPAIGN_001_CLOSEOUT_AND_TRANSFER.md`](CAMPAIGN_001_CLOSEOUT_AND_TRANSFER.md) — transferable institutional learning
+- [`../../STANDARDS/CANONICAL_PUBLICATION_WORKFLOW.md`](../../STANDARDS/CANONICAL_PUBLICATION_WORKFLOW.md) **Phase 7A — Production Completeness Gate** — expected-vs-actual asset state, Story/carousel set completeness, and the eight-state persistence rule; enforced by [`../../STANDARDS/verify_production_completeness.py`](../../STANDARDS/verify_production_completeness.py)
 
 Update the ledger at canonical-source approval, derivative approval, scheduling, live verification, and performance capture. If evidence is absent, record **Unknown / not recorded** rather than inferring a result.
 

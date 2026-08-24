@@ -1,6 +1,6 @@
 # Campaign 001 — Current Authority Register
 
-**Effective:** August 3, 2026
+**Effective:** August 3, 2026 (asset-persistence and completeness rules added August 21, 2026)
 
 **Purpose:** Identify the current rule when historical records conflict
 
@@ -42,6 +42,14 @@ Historical files are preserved as evidence. They do not automatically remain cur
 | Story QA | Validate sequence by reading the visual content, not by upload order or filename alone. | Week 3 retrospective |
 | Asset integrity | Preserve approved files without regeneration or conversion; claim checksum verification only when it was actually performed. | Week 4 retrospective |
 | Approval | Founder approval is a substantive learning gate. A package is not approved merely because it is technically complete. | Weeks 3–4 retrospectives |
+| Asset persistence | An approved asset is institutionally complete only after **Produced → Founder Approved → Canonically Named → Manifested → Hash Verified → Committed → Pushed → Remote Verified**. A local-only approved asset is an incomplete production state. | Issue 008 persistence gap; `CANONICAL_PUBLICATION_WORKFLOW.md` Phase 7A |
+| Core daily asset roles | Every Monday–Friday production day accounts for Feed 1080×1350, Story 1080×1920, Blog/social header 1200×628, and Email header 1200×627. The 1200×627 role is required even on days with no scheduled Brevo campaign; scheduling and asset completeness are separate concerns. | Phase 7A |
+| Story sequences | `1080×1920 Story` is a sequence, not a single file. The brief/manifest sets the expected frame count; completeness requires every frame. One valid 1080×1920 file does not satisfy the Story Gate. Preserve established naming (`_STORY_FRAME01_`) rather than renaming approved historical assets. | Phase 7A; Week 3 Story QA rule |
+| Carousels | A carousel is a set. The brief/manifest declares slide count and order; every slide must be present, approved, manifested, hashed, and remotely verified. A carousel is not a feed asset merely because its slides share 1080×1350. | Phase 7A |
+| Role definition | Asset dimensions do not define a production role. The manifest defines the role. | Phase 7A |
+| Conditional roles | Once a conditional role (multi-frame Story, carousel, campaign-specific or promotional variant) is specified or approved for a production, it is required for that production and cannot drop out of the Gate. | Phase 7A |
+| Emerging channels | Reels, TikTok, and Threads are recognized future/conditional channels, **not** current Gate requirements. Do not invent their specifications, cadence, dimensions, naming, or workflow. | Phase 7A extension point |
+| Completeness claims | Do not declare an issue or day production-complete from a ZIP, production packet, Downloads folder, or local working-tree file. Run the deterministic Gate check and report its result. | Issue 008 |
 
 ---
 

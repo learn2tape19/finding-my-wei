@@ -2,6 +2,24 @@
 
 **Status:** FOUNDER APPROVED — LOCKED
 
+## Expected Production Set
+
+Authoritative expected state for this production day. The Gate compares this
+table to what actually exists, is hashed, is committed, and is present on the
+remote. Dimensions do not define a role; this table does.
+
+| Role | Dimensions | Expected | Sequence |
+|---|---|---|---|
+| FEED | 1080x1350 | 1 | no |
+| BLOGOG | 1200x628 | 1 | no |
+| EMAILHEADER | 1200x627 | 1 | no |
+| STORY | 1080x1920 | 3 | yes |
+
+No carousel is specified for this day. No conditional roles were approved
+beyond the three-frame Story sequence.
+
+## Approved Assets
+
 - `ISSUE008_FRI_FEED_1080x1350.jpg` — FEED — 1080x1350 — SHA-256 `da889ee507d4bf8508f21406a28307aeef4981da1e05fad5af319ca76e2f16c1`
 - `ISSUE008_FRI_BLOGOG_1200x628.jpg` — BLOGOG — 1200x628 — SHA-256 `f2401ea1dc00b74d66cb625c68907a9ca9c9425a970dbc63febe89cc4084f003`
 - `ISSUE008_FRI_EMAILHEADER_1200x627.jpg` — EMAILHEADER — 1200x627 — SHA-256 `2897867f9bd62f4119b681f76e5632bd2618ff0e640f6aaff97de67ba8198050`

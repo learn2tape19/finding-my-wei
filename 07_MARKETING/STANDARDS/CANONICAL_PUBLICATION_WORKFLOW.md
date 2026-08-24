@@ -1,6 +1,6 @@
 # Canonical Publication Workflow
 
-**Version:** 1.0  
+**Version:** 1.1  
 **Effective Date:** July 8, 2026  
 **Scope:** All campaigns, brands, and Project Atlas publications  
 **Governance:** This is an institutional standard. All future campaigns inherit this workflow.
@@ -320,6 +320,191 @@ accessibility: "Minimum contrast ratios, readable font sizes"
 
 ---
 
+## Phase 7A: Production Completeness Gate
+
+**Deliverable:** a passing run of `07_MARKETING/STANDARDS/verify_production_completeness.py`
+
+Phase 7 produces creative. Phase 7A proves the production is actually complete and
+actually persisted before Phase 8 deploys anything. No issue or production day may be
+declared complete until this Gate closes.
+
+**Origin:** Issue 008. Canonical assets were correctly produced, Founder-approved, and
+hash-verified locally, then reported as complete while remaining absent from the remote
+canonical repository. Local existence was mistaken for institutional completeness.
+
+### Asset Persistence Rule
+
+An asset is not institutionally complete because it exists on a workstation. Every
+required asset must reach all eight states:
+
+```
+Produced → Founder Approved → Canonically Named → Manifested
+        → Hash Verified → Committed → Pushed → Remote Verified
+```
+
+A local-only approved asset is an **incomplete production state**. For any multi-asset
+deliverable, every member of the set must complete all eight states independently.
+
+### Core Roles
+
+Every Monday–Friday production day must account for the standard core asset roles:
+
+| Role | Dimensions | Purpose |
+|---|---|---|
+| `FEED` | 1080×1350 | Instagram / Facebook feed |
+| `STORY` | 1080×1920 | Story (see sequence rule below) |
+| `BLOGOG` | 1200×628 | Blog / social-link header |
+| `EMAILHEADER` | 1200×627 | Email-header role |
+
+The 1200×627 email-header role is **required for every production day**, including days
+with no scheduled Brevo campaign. Wednesday remains the normal email publication day
+unless Founder direction changes. **Email scheduling and asset completeness are separate
+concerns** — a day does not lose its email-header requirement because nothing is being
+sent that day.
+
+### Conditional Roles
+
+Required only when the approved production plan calls for them:
+
+- multi-frame Story sequences beyond a single frame
+- Instagram carousels
+- additional campaign-specific graphics
+- event or promotional variants
+- other Founder-approved derivative assets
+
+Once a conditional role is specified or approved for a production, **it is required for
+that production**. It cannot later drop out of the Gate on the grounds that it is not
+part of every week's standard set.
+
+### Stories Are Sequences, Not Single Files
+
+`1080×1920 Story` does not mean one asset. Therapeutic Alliance regularly runs multi-frame
+Story sequences of one, two, three, four, or more frames. **The production brief and
+manifest determine the expected frame count for that day.**
+
+If a day calls for three frames, completeness requires Story 1 **and** Story 2 **and**
+Story 3. Finding one valid 1080×1920 file does not satisfy the Story Gate.
+
+Story assets use deterministic sequence naming so order cannot become ambiguous — for
+example `..._STORY_01_1080x1920` or the established `..._STORY_FRAME01_1080x1920`.
+**Preserve existing canonical naming where already established; do not rename approved
+historical assets to fit a newer convention.**
+
+### Carousels Are Sets
+
+Instagram carousel production is a set, not an individual feed asset. When a carousel is
+specified, the brief and manifest declare the expected number and order of slides
+(e.g. `Carousel — 5 slides`), and completeness requires every slide.
+
+A carousel fails the Gate if a slide is missing, slide order is ambiguous, any slide is
+unapproved, any slide is absent from the manifest, any approved slide remains local-only,
+or remote persistence cannot be verified.
+
+**Do not treat a carousel as a feed asset because its slides share the 1080×1350
+dimension. Asset dimensions do not define a production role. The manifest defines the
+role.**
+
+### Manifest as Expected-State Authority
+
+The manifest is not a post-hoc record of what was produced. It is the authority on what is
+*supposed to exist*, so the Gate can compare expected state against actual state.
+
+Each day's `ASSET_MANIFEST.md` carries an `## Expected Production Set` table:
+
+```
+| Role | Dimensions | Expected | Sequence |
+|---|---|---|---|
+| FEED | 1080x1350 | 1 | no |
+| BLOGOG | 1200x628 | 1 | no |
+| EMAILHEADER | 1200x627 | 1 | no |
+| STORY | 1080x1920 | 3 | yes |
+| CAROUSEL | 1080x1350 | 5 | yes |
+```
+
+followed by the approved-asset rows (filename, role, dimensions, SHA-256). Together these
+let the Gate evaluate, per role:
+
+```
+ROLE → EXPECTED COUNT → ACTUAL COUNT → APPROVED → HASH VERIFIED → REMOTE VERIFIED
+```
+
+Manifests without an expected-set table are still checked, with expected counts derived
+from the declared rows; the Gate reports when it is operating in derived mode. A simple
+dimension check is never sufficient.
+
+### The Gate — fifteen checks
+
+Before an issue or day is declared complete:
+
+1. All expected asset roles are known.
+2. Expected asset count for each role is known.
+3. All expected files exist.
+4. Multi-frame Stories contain every required frame.
+5. Carousels contain every required slide.
+6. Sequence order is deterministic.
+7. Filenames follow canonical convention.
+8. Files reside under the correct `APPROVED_ASSETS/<DAY>/` location.
+9. Every required asset appears in the manifest.
+10. Hash verification passes.
+11. Every asset is tracked by Git.
+12. A commit containing each asset exists.
+13. That commit has been pushed.
+14. Every asset is remotely retrievable.
+15. Local HEAD and remote HEAD agree at final handoff.
+
+**If any required asset — or any member of a multi-asset set — remains local-only or
+missing, THE PRODUCTION GATE REMAINS OPEN.**
+
+Completeness is never inferred from the existence of a ZIP, a production packet, a
+Downloads folder, or a local working-tree file.
+
+### Running the check
+
+```
+git fetch origin main
+python3 07_MARKETING/STANDARDS/verify_production_completeness.py \
+    07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_0XX
+```
+
+Exit `0` = gate closed. Exit `1` = gate open, with every failure named. The check fails
+loudly whenever expected state and actual state differ.
+
+### Extension Point — Emerging Platform Roles
+
+The role table above is deliberately extensible. Recognized future channels include
+**Reels, TikTok, Threads**, and other short-form/video/social formats.
+
+These are **not current Gate requirements**. No specifications, cadence, dimensions,
+naming conventions, or publishing workflows are invented for them here. When Founder
+direction defines their production doctrine, they are added as core or conditional roles
+in this section and in the checker's role table — without redesigning the surrounding
+architecture.
+
+### Issue-Level Handoff Standard
+
+Every issue-completion receipt reports:
+
+| Field | Values |
+|---|---|
+| Core asset completeness | PASS / FAIL |
+| Story sequence completeness | PASS / FAIL / N/A |
+| Carousel completeness | PASS / FAIL / N/A |
+| Conditional asset completeness | PASS / FAIL / N/A |
+| Manifest / hash verification | PASS / FAIL |
+| Git tracking | PASS / FAIL |
+| Remote persistence | PASS / FAIL |
+| Working tree | CLEAN / DIRTY |
+| Local/remote HEAD parity | PASS / FAIL |
+| Final SHA | `<sha>` |
+
+Multi-asset productions also report expected versus actual counts, for example
+`Wednesday Stories: 3 expected / 3 verified` and `Tuesday Carousel: 5 expected / 5
+verified`.
+
+**Do not report an issue as production-complete unless every applicable Gate passes.**
+
+---
+
 ## Phase 8: Deployment Layer
 
 **Deliverable:** `DEPLOYMENT/` folder
@@ -409,6 +594,11 @@ WEBSITE
   [ ] URL slug correct
   [ ] Mobile preview checked
   [ ] Links verified (no broken links)
+
+PRODUCTION COMPLETENESS GATE (Phase 7A — required before any deployment)
+  [ ] verify_production_completeness.py exits 0 for this issue
+  [ ] Story/carousel expected vs actual counts recorded
+  [ ] Local HEAD == remote HEAD; working tree clean
 
 BUFFER
   [ ] Instagram post scheduled (7:00 AM ET)
@@ -565,3 +755,8 @@ CAMPAIGN_[NAME]/
 
 **Version History:**
 - v1.0 — July 8, 2026 — Initial institutional standard, derived from Campaign 001 best practices
+- v1.1 — August 21, 2026 — Added Phase 7A: Production Completeness Gate. Establishes the
+  eight-state asset persistence rule, core vs. conditional roles, Story-sequence and
+  carousel set completeness, manifest-as-expected-state, the fifteen-check Gate, the
+  Reels/TikTok/Threads extension point, and the issue-level handoff reporting standard.
+  Origin: Issue 008 local-only asset persistence gap.
