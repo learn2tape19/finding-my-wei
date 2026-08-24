@@ -259,3 +259,70 @@ All authorized actions across all three platforms have been performed and indepe
 | Buffer | 25 posts (Mon–Fri) | All `scheduled` |
 | WordPress | Post 1396 | `future` (scheduled 2026-08-26 07:00 ET) |
 | Brevo | Campaign 36 | `queued` (scheduled 2026-08-26 10:00 ET) |
+
+---
+
+## Production Persistence Closure — Phase 7A
+
+**Recorded:** August 22, 2026
+
+Platform execution above is complete and independently verified. **Asset persistence was
+not.** The 30 Founder-approved Issue 008 binaries were sourced from a temporary directory
+(`/tmp/issue008_assets/…`) and a local working tree, and were never committed to the
+canonical repository. Four of the five day manifests (Tuesday–Friday) were likewise absent
+from `main`. Issue 008 was therefore reported complete while its approved creative existed
+only on one workstation.
+
+This section closes that gap and records the Gate result under
+`CANONICAL_PUBLICATION_WORKFLOW.md` Phase 7A.
+
+### Assets imported to the canonical repository
+
+All 30 binaries now reside under `ISSUE_008/APPROVED_ASSETS/<DAY>/`, byte-for-byte as
+Founder-approved. No asset was regenerated, renamed, recompressed, or modified.
+
+| Day | Files | Format | Manifest |
+|---|---|---|---|
+| MONDAY | 6 | PNG | `MONDAY/ASSET_MANIFEST.md` |
+| TUESDAY | 6 | JPG | `TUESDAY/ASSET_MANIFEST.md` |
+| WEDNESDAY | 6 | JPG | `WEDNESDAY/ASSET_MANIFEST.md` |
+| THURSDAY | 6 | JPG | `THURSDAY/ASSET_MANIFEST.md` |
+| FRIDAY | 6 | JPG | `FRIDAY/ASSET_MANIFEST.md` |
+
+Each day manifest now carries an `## Expected Production Set` table declaring role,
+dimensions, expected count, and whether the role is a sequence — the expected-state
+authority the Gate checks against.
+
+### Five canonical 1200×627 email-header assets
+
+| Day | Path | SHA-256 |
+|---|---|---|
+| MON | `APPROVED_ASSETS/MONDAY/ISSUE008_MON_EMAILHEADER_1200x627.png` | `eaa574bb2ce3c4185511a9642c8ec86dff7d6f91a6248819a4403f5860f2af32` |
+| TUE | `APPROVED_ASSETS/TUESDAY/ISSUE008_TUE_EMAILHEADER_1200x627.jpg` | `1f71cf0bd33d16f26083109695c2d9a8b21e9be178277548a21fd8d313abc5e5` |
+| WED | `APPROVED_ASSETS/WEDNESDAY/ISSUE008_WED_EMAILHEADER_1200x627.jpg` | `b6d63dbe53eceb67a0be87f48737a94d10dca4a0fff4d3c777692ddeca7ceef2` |
+| THU | `APPROVED_ASSETS/THURSDAY/ISSUE008_THU_EMAILHEADER_1200x627.jpg` | `2596f11f4cc981ef6d9b19ec4481e9f53d65bb8a22be9205565ba0bf14af3909` |
+| FRI | `APPROVED_ASSETS/FRIDAY/ISSUE008_FRI_EMAILHEADER_1200x627.jpg` | `2897867f9bd62f4119b681f76e5632bd2618ff0e640f6aaff97de67ba8198050` |
+
+Only Wednesday had a scheduled Brevo campaign. The other four 1200×627 assets are required
+regardless — under Phase 7A, email scheduling and asset completeness are separate concerns.
+
+### Gate result
+
+| Field | Result |
+|---|---|
+| Core asset completeness | PASS — Feed / Story / Blog-OG / Email-header present all five days |
+| Story sequence completeness | PASS — 3 expected / 3 verified, each day (15 frames total) |
+| Carousel completeness | N/A — no carousel specified for Issue 008 |
+| Conditional asset completeness | N/A — no conditional roles approved beyond the 3-frame Story sequences |
+| Manifest / hash verification | PASS — 30/30 |
+| Git tracking | PASS — 30/30 |
+| Remote persistence | See final status recorded at commit time below |
+| Working tree | CLEAN |
+| Local/remote HEAD parity | See final status recorded at commit time below |
+
+Expected versus actual, per day: `Stories 3 expected / 3 verified`;
+`Feed 1 / 1`; `Blog-OG 1 / 1`; `Email header 1 / 1`.
+
+Verified by `07_MARKETING/STANDARDS/verify_production_completeness.py`, which fails loudly
+when expected and actual state differ and does not infer completeness from a ZIP,
+production packet, Downloads folder, or local working-tree file.
