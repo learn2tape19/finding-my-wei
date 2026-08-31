@@ -1,34 +1,17 @@
-# ISSUE 009 — FINAL ASSET VERIFICATION
+# ISSUE 009 — PRODUCTION COMPLETENESS VERIFICATION
 
-**PRODUCTION COMPLETENESS ASSET GATE: PASS**
+**Gate result: PASS — 30/30 locked assets present and exact-dimension verified.**
 
-- Presence: **20/20 PASS**
-- Canonical filenames: **PASS**
-- Exact production dimensions: **PASS**
-- SHA-256 hashes: **PASS**
-- Superseded/rejected Friday drip-heavy feed excluded: **PASS**
-- Normalization authorization: **Founder approved**
-- Method: full approved composition resampled to exact target dimensions; no crop or redesign.
+Checks performed:
+- 5 feed assets at 1080×1350
+- 5 blog/OG assets at 1200×628
+- 5 email-header assets at 1200×627
+- 15 Story assets at 1080×1920 (3 per day)
+- SHA-256 calculated for every production asset
+- Source originals retained separately
+- Rejected/superseded Friday Story attempts are not included
+- Thursday Story 3 uses the approved restrained-ripple rebuild
+- Friday Stories 2/3 use the final approved individual 1080×1920 builds; the rejected triptych is excluded
 
-| Asset | Source | Final |
-|---|---:|---:|
-| `ISSUE009_FRI_BLOG_1200x628.png` | 1734×907 | 1200×628 |
-| `ISSUE009_FRI_EMAIL_1200x627.png` | 1736×906 | 1200×627 |
-| `ISSUE009_FRI_FEED_1080x1350.png` | 1122×1402 | 1080×1350 |
-| `ISSUE009_FRI_VERTICAL_1080x1920.png` | 941×1672 | 1080×1920 |
-| `ISSUE009_MON_BLOG_1200x628.png` | 1734×907 | 1200×628 |
-| `ISSUE009_MON_EMAIL_1200x627.png` | 1736×906 | 1200×627 |
-| `ISSUE009_MON_FEED_1080x1350.png` | 1092×1440 | 1080×1350 |
-| `ISSUE009_MON_VERTICAL_1080x1920.png` | 941×1672 | 1080×1920 |
-| `ISSUE009_THU_BLOG_1200x628.png` | 1734×907 | 1200×628 |
-| `ISSUE009_THU_EMAIL_1200x627.png` | 1734×907 | 1200×627 |
-| `ISSUE009_THU_FEED_1080x1350.png` | 1122×1402 | 1080×1350 |
-| `ISSUE009_THU_VERTICAL_1080x1920.png` | 941×1672 | 1080×1920 |
-| `ISSUE009_TUE_BLOG_1200x628.png` | 1734×907 | 1200×628 |
-| `ISSUE009_TUE_EMAIL_1200x627.png` | 1736×906 | 1200×627 |
-| `ISSUE009_TUE_FEED_1080x1350.png` | 1122×1402 | 1080×1350 |
-| `ISSUE009_TUE_VERTICAL_1080x1920.png` | 941×1672 | 1080×1920 |
-| `ISSUE009_WED_BLOG_1200x628.png` | 1734×907 | 1200×628 |
-| `ISSUE009_WED_EMAIL_1200x627.png` | 1735×906 | 1200×627 |
-| `ISSUE009_WED_FEED_1080x1350.png` | 1122×1402 | 1080×1350 |
-| `ISSUE009_WED_VERTICAL_1080x1920.png` | 941×1672 | 1080×1920 |
+## Execution boundary
+Asset completeness is closed. Platform execution remains subject to credential/access checks. Blog and email publishing remain on HOLD unless canonical body copy and destination configuration are supplied.
