@@ -5,7 +5,7 @@ Issue 009 creative is locked. Execute only the approved package. **NO COPYWRITIN
 
 ## Preflight
 1. Confirm canonical repo/worktree and clean execution branch.
-2. Confirm all 30 files in `ASSETS/` and validate `ISSUE009_CHECKSUMS.sha256`.
+2. Confirm all 30 files in `APPROVED_ASSETS/` and validate `ISSUE009_CHECKSUMS.sha256`.
 3. Confirm exact pixel dimensions from `ISSUE009_ASSET_MANIFEST.md`.
 4. Use `ISSUE009_STORY_COPY_LOCK.md` as Story-copy authority. Do not substitute earlier draft Story copy from the original master document.
 5. Confirm America/New_York timezone and exact Aug 31–Sep 4, 2026 calendar mapping.

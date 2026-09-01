@@ -2,7 +2,7 @@
 
 **Status:** Production-normalized and verified
 
-All 30 locked production assets are present. Source originals are retained in `SOURCE_APPROVED/`. Exact-dimension production derivatives are in `ASSETS/`.
+All 30 locked production assets are present. Source originals are retained in `SOURCE_APPROVED/`. Exact-dimension production derivatives are in `APPROVED_ASSETS/`.
 
 | Day | Asset | Production file | Source px | Production px | SHA-256 |
 |---|---|---|---:|---:|---|
