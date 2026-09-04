@@ -45,7 +45,9 @@ Established Tuesday/Wednesday Issue 009 architecture: stage assets to WordPress 
 
 ## Blog and Email status
 
-**Blog body: NO LONGER HOLD.** The canonical article is Founder-approved and persisted verbatim at `ISSUE010_CANONICAL_BLOG_ARTICLE.md` — title *The Clinical Practice of Possibility*, slug `/blog/issue-010-possibility`.
+**Blog body: NO LONGER HOLD.** The canonical article is Founder-approved and persisted verbatim at `ISSUE010_CANONICAL_BLOG_ARTICLE.md` — title *The Clinical Practice of Possibility*, canonical editorial slug `issue-010-possibility`.
+
+**Production article URL authority:** `https://taoclinicaltouch.com/blog/2026/09/issue-010-possibility/` (site uses `/blog/YYYY/MM/{slug}/`). This is the CTA destination for all Issue 010 downstream execution. Featured/OG visual: `ISSUE010_MON_BLOG_OG_1200x628.png`. Email header: `ISSUE010_MON_EMAIL_HEADER_1200x627.png`. See `ISSUE010_ASSET_MANIFEST.md` for the full Founder resolution.
 
 **Blog publication: NOT AUTHORIZED.** Publication remains a separate Founder gate. WordPress is out of scope.
 

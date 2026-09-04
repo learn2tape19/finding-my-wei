@@ -96,6 +96,41 @@ Preserved unchanged. Source dimensions are the as-generated dimensions and inten
 | FRI | STORY 3 | `ISSUE010_FRI_STORY_03_1080x1920.png` | 941×1672 | `0a708d135b8a84a5c53595578cbfb9764d8c98f7e7987ada791defde476b231b` | `SOURCE_APPROVED/FRIDAY/` |
 | FRI | BLOG/OG | `ISSUE010_FRI_BLOG_OG_1200x628.png` | 1733×907 | `69c70b0f047ca77908d867412515347cda6051d10531c98885bf52d950c4a4d8` | `SOURCE_APPROVED/FRIDAY/` |
 | FRI | EMAIL HEADER | `ISSUE010_FRI_EMAIL_HEADER_1200x627.png` | 1734×907 | `443127d8842db7c102f100ce2966100bac2772fff7749db7c885822f74e1cd77` | `SOURCE_APPROVED/FRIDAY/` |
+## ISSUE 010 — RENDERED VISUAL COPY AUTHORITY
+
+Founder resolution. The 30 approved, checksum-locked production binaries are **authoritative for the text rendered inside the artwork**. They must not be regenerated, edited, replaced, or altered.
+
+`ISSUE010_STORY_COPY_LOCK.md` and the Master Copy feed copy remain canonical **editorial and platform-copy** authorities, but they must **not** be read as requiring the artwork to reproduce every canonical line verbatim.
+
+| Layer | Authority |
+|---|---|
+| Text rendered *inside* an asset | The approved binary |
+| Caption / platform copy accompanying a post | Canonical editorial copy |
+
+Story artwork publishes **as approved**. Do not overlay, reconcile, or supply "missing" Copy Lock language during execution. **Monday's issue-cover treatment is Founder-accepted** as the opening visual treatment for POSSIBILITY and is not a defect.
+
+This resolves the apparent contradiction without rewriting historical editorial copy. The Issue 010 道 / ensō visual exception above is unchanged and remains non-canonical and non-precedent.
+
+## ISSUE 010 — WEEKLY ARTICLE / EMAIL VISUAL AUTHORITY
+
+Founder designation:
+
+- **`ISSUE010_MON_BLOG_OG_1200x628.png` — canonical weekly article / featured / OG visual.**
+- **`ISSUE010_MON_EMAIL_HEADER_1200x627.png` — canonical issue-level email header.**
+
+Tuesday–Friday BLOG/OG and EMAIL HEADER assets remain preserved in the canonical production set but are **not execution authority** for the single weekly article or the single issue-level email.
+
+## ISSUE 010 — SLUG vs PRODUCTION PERMALINK
+
+The canonical editorial slug and the production URL are different things and both are correct:
+
+| | |
+|---|---|
+| Canonical editorial slug | `issue-010-possibility` |
+| Production article URL authority | `https://taoclinicaltouch.com/blog/2026/09/issue-010-possibility/` |
+
+The production site uses a `/blog/YYYY/MM/{slug}/` permalink architecture. Founder accepts it; do not attempt to alter it. The production URL above is the CTA destination for all Issue 010 downstream execution.
+
 ## Checksum authority
 
 - `ISSUE010_CHECKSUMS.sha256` — 30 production derivatives, path-labelled `APPROVED_ASSETS/<DAY>/`
