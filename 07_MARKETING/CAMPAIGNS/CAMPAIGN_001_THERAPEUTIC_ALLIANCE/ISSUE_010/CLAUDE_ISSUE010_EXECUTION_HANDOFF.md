@@ -24,9 +24,25 @@ Issue 010 editorial is authored under Founder approval. Once locked, execute onl
 - Three Instagram Stories per day using the exact Story 1/2/3 assets and schedule.
 - **No Facebook Stories.**
 
-## Holds
-- **Blog publication:** HOLD until canonical article body is Founder-approved. Do not write one during execution.
-- **Email campaign:** HOLD until body copy, CTA, list IDs/send pattern, and working Brevo execution path are Founder-approved/available. Do not create duplicate campaigns or infer missing configuration.
+## Blog and Email status
+- **Blog body:** Founder-approved and persisted verbatim at `ISSUE010_CANONICAL_BLOG_ARTICLE.md`. **No longer HOLD.** Do not rewrite it during execution.
+- **Blog publication:** **NOT AUTHORIZED.** Separate Founder gate. WordPress out of scope.
+- **Email body:** Founder-approved and persisted verbatim at `ISSUE010_EMAIL_COPY.md`. **No longer HOLD.** Do not rewrite it during execution.
+- **Email campaign creation/scheduling:** **NOT AUTHORIZED.** Separate Founder gate. Brevo out of scope; list IDs and send pattern still not established.
+
+Editorial completeness is not publication authority. Do not collapse these gates.
+
+## ISSUE 010 — VISUAL EXCEPTION / NON-PRECEDENT
+
+The Issue 010 visual set contains two decorative elements introduced during visual generation: a gold **道 / TAO character treatment** and a gold **brush-circle / ensō-style treatment**. **These are NOT established canonical Tao visual branding.**
+
+Founder accepted them for **ISSUE 010 — POSSIBILITY ONLY**. Do not remove them from Issue 010, and do not regenerate or modify any Issue 010 image because of their presence.
+
+Acceptance does **not** establish either treatment as canonical branding, does **not** authorize reuse in Issue 011, does **not** modify established Tao visual doctrine, and does **not** supersede previously approved visual authority.
+
+**Beginning with Issue 011**, neither treatment may be introduced unless separately and explicitly Founder-approved *before* visual production. Any proposed symbol, icon, character, decorative mark, motif, or brand device requires Founder approval before visual production. Where a recurring Tao visual identifier is required, return to the established Founder-approved visual system and the canonical natural-water ripple treatment, unless a later Founder directive explicitly supersedes it.
+
+**Classification:** FOUNDER-ACCEPTED VISUAL EXCEPTION · NON-CANONICAL · NON-PRECEDENT · ISSUE 010 ONLY. Full record in `ISSUE010_ASSET_MANIFEST.md`.
 
 ## Accessibility
 Every image object requires objective alt text written from the actual rendered artwork — describing layout and readable text, not marketing language. Issue 009 was the first issue shipped with alt text on every object; that is now the standard, not an improvement.

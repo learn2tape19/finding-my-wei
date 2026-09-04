@@ -43,7 +43,14 @@ Established Tuesday/Wednesday Issue 009 architecture: stage assets to WordPress 
 ## Execution status
 **ARCHITECTURE ONLY.** No assets produced. No WordPress staging. No Buffer objects. Nothing scheduled.
 
-## Holds
-**Blog:** HOLD until a canonical full article body is Founder-approved. Title and thesis exist; the article does not.
+## Blog and Email status
 
-**Email:** HOLD until body copy, CTA destination, list IDs/send pattern, and a working Brevo execution path are Founder-approved and available. Subjects and body direction exist; configuration does not. This hold has carried since Issue 009 and is unresolved.
+**Blog body: NO LONGER HOLD.** The canonical article is Founder-approved and persisted verbatim at `ISSUE010_CANONICAL_BLOG_ARTICLE.md` — title *The Clinical Practice of Possibility*, slug `/blog/issue-010-possibility`.
+
+**Blog publication: NOT AUTHORIZED.** Publication remains a separate Founder gate. WordPress is out of scope.
+
+**Email body: NO LONGER HOLD.** The canonical email is Founder-approved and persisted verbatim at `ISSUE010_EMAIL_COPY.md` — subject, preheader, headline, and CTA all Founder-supplied.
+
+**Email campaign creation and scheduling: NOT AUTHORIZED.** Remains a separate Founder gate. Brevo is out of scope; list IDs and send pattern are still not established.
+
+Editorial completeness is not publication authority. WordPress, Buffer, and Brevo all remain out of scope at this gate.

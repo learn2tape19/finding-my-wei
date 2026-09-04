@@ -4,7 +4,7 @@
 **Status:** BRIEF ONLY — no artwork generated.
 
 **Scope:** 5 Feed (1080×1350) + 15 Stories (1080×1920) = 20 assets.
-**Out of scope this gate:** Blog/OG (1200×628) and Email header (1200×627) remain in the 30-asset architecture but are **HOLD**. Do not generate.
+**Superseded scope note:** Blog/OG (1200×628) and Email header (1200×627) were out of scope when this brief was written. They have since been produced, Founder-approved, and persisted as part of the complete 30-asset set. See `ISSUE010_ASSET_MANIFEST.md` for the authoritative production record. This brief is retained as the visual-direction record for the 20 social assets; it is not the asset inventory.
 
 ---
 

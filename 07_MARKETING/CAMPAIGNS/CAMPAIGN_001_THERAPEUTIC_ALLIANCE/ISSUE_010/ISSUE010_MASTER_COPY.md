@@ -68,6 +68,18 @@ Friday closes an arc that runs beyond this issue:
 > Timing opens possibility.
 
 ## Email
+
+**Founder-approved architecture: ONE ISSUE-LEVEL EMAIL → CANONICAL WEEKLY ARTICLE.**
+
+- Canonical email: `ISSUE010_EMAIL_COPY.md` — subject "I didn't write to you last week."
+- Canonical article: `ISSUE010_CANONICAL_BLOG_ARTICLE.md` — *The Clinical Practice of Possibility*
+
+Body no longer HOLD. Campaign creation and scheduling **NOT AUTHORIZED**; Brevo out of scope. This architecture applies to Issue 010 and carries forward for review in Issue 011. It does not independently authorize publication, Brevo creation, or scheduling.
+
+### SUPERSEDED — NOT EXECUTION AUTHORITY
+
+The five-daily-email subject architecture below is **formally retired**. Preserved as institutional record only. Do not execute from it.
+
 Structure: provocative opening → 2–3 paragraph daily excerpt → takeaway → **Read today's Tao** → publication.
 - Monday: What if you didn't already know?
 - Tuesday: Two things are true at once.
@@ -78,6 +90,7 @@ Structure: provocative opening → 2–3 paragraph daily excerpt → takeaway �
 ## Blog
 **Title:** The Clinical Practice of Possibility
 **Slug:** `/blog/issue-010-possibility`
+**Canonical body:** Founder-approved and persisted at `ISSUE010_CANONICAL_BLOG_ARTICLE.md`. Body no longer HOLD; publication NOT AUTHORIZED.
 
 ## Metadata
 Primary topic: Clinical possibility. Supporting concepts: therapeutic alliance, clinical reasoning, uncertainty tolerance, diagnostic humility, therapeutic communication, touch, manual therapy, massage therapy.
