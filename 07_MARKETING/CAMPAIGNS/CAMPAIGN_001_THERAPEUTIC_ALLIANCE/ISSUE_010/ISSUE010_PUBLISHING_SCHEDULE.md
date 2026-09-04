@@ -41,7 +41,9 @@ Monday Sept 7 is Labor Day (US). Founder has ruled that the holiday **does not a
 Established Tuesday/Wednesday Issue 009 architecture: stage assets to WordPress media library → verify public URL anonymously (HTTP 200 + byte-identical SHA-256) → duplicate-check the destination window → create Buffer objects sequentially with `customScheduled` + `schedulingType: automatic` → verify each receipt via `get_post` before the next mutation → stop immediately on any failure → independently re-query at completion.
 
 ## Execution status
-**ARCHITECTURE ONLY.** No assets produced. No WordPress staging. No Buffer objects. Nothing scheduled.
+**EXECUTED AND SCHEDULED** — September 4, 2026. WordPress Post 1535 scheduled Mon Sept 7, 7:45 AM ET; 25 Buffer objects scheduled Sept 7–11 at canonical cadence; Brevo Campaign 38 queued Mon Sept 7, 10:00 AM ET. Nothing has sent or published yet.
+
+Full evidence, IDs, and verification results: `ISSUE010_EXECUTION_RECEIPT.md` (execution evidence — not canonical authority).
 
 ## Blog and Email status
 
