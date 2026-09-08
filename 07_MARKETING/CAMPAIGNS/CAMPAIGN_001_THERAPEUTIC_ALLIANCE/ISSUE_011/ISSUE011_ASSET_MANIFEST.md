@@ -53,6 +53,44 @@ Both were verified before application: authorized SHA-256 exact match, exact 108
 
 For Thursday alone, `SOURCE_APPROVED/THURSDAY/ISSUE011_THU_FEED_1080x1350.png` (`9111652f…dd2545`) is **provenance only** and does not correspond to the rendered content of the execution binary. It is preserved unchanged as the historical approved original. For all other 29 assets, production and source render the same content.
 
+## Story correction — Founder editorial/copy-lock correction (7 frames)
+
+**Founder decision:** `ISSUE011_STORY_COPY_LOCK.md` is authoritative. Seven Story production derivatives previously rendered copy that diverged from the locked Story copy and were **rejected**. They are superseded by Founder-approved corrected derivatives that render the locked copy exactly.
+
+**Authoritative correction packet:** `ISSUE_011_STORY_CORRECTION_PACKET_4.zip`
+SHA-256 `4a6417571db475547a6cbef47cc08925641d364d6ab95bf6249147fb25ca35e0`
+
+| Frame | Superseded (rejected) | Corrected production SHA-256 | Correction source SHA-256 |
+|---|---|---|---|
+| WED S3 | `68eecba30d805a28…` | `6f2e60d09b316068…` | `9936208dd9b5c00d…` |
+| THU S1 | `bcbfba7f4fbec738…` | `e86d3c36e77af49a…` | `2c9cc40356bd202c…` |
+| THU S2 | `a0c84d90bc2fcc2c…` | `9ed4dd2ae99b042c…` | `0ec299b2da25ed01…` |
+| THU S3 | `76c6b1787503c013…` | `89e19ddaca84e735…` | `188955feee4db124…` |
+| FRI S1 | `b4399f9c6df39568…` | `8da7927d6aebc5f3…` | `7d0548a46e6b77f2…` |
+| FRI S2 | `648c3d209fea0ba7…` | `085d9a57aacfd7bb…` | `18e9b5b7f09ae90b…` |
+| FRI S3 | `efa973121983107d…` | `f3789bdf62833458…` | `5340e074ee5b52a4…` |
+
+> **DO NOT RESTORE THE SUPERSEDED BINARIES.** The hashes in the "superseded" column are **rejected** and carry **no production authority**. A future audit finding them absent from `APPROVED_ASSETS/` is observing the intended state, not drift. They exist only in git history at and before `d44d5244`.
+
+### Superseded correction attempts — no production authority
+
+| Packet | Disposition |
+|---|---|
+| Correction Packet 2 (`1be33f95…`) | **Superseded.** Its seven restyled Story derivatives are not production authority. WED S3 and THU S1–S3 were re-rendered for Packet 4; its FRI S1–S3 derivatives were carried forward unchanged and remain authoritative for Friday. |
+| Correction Packet 3 (directory) | **Rejected — never applied.** Contained no new artwork, and its `APPROVED_ASSETS/` tree was a pre-correction snapshot that would have regressed the corrected **THU FEED** (`3d19e490…` → rejected `07e61b78…`) and **FRI FEED** (`fa439546…` → rejected `72af0a98…`). Do not use it as a source for any asset. |
+
+The corrected **THU FEED `3d19e490…`** and **FRI FEED `fa439546…`** remain execution authority and were preserved byte-for-byte through this correction.
+
+### Provenance note for the seven corrected frames
+
+Packet 4 supplied its own Founder-approved sources (WED/THU 941×1672; FRI already 1080×1920), normalized proportionally to 1080×1920 — aspect delta 0.000299 and 0.000000 respectively, no anamorphic stretch. Per Founder directive these were **not** written into `SOURCE_APPROVED/`; the existing 30 provenance binaries remain untouched and byte-identical to the original approved packet.
+
+Consequently, for these seven frames — as for THU FEED — the `SOURCE_APPROVED/` original renders **superseded copy** and does not correspond to the execution binary. That divergence is **authorized and intentional**. Correction-source hashes are recorded above so the derivation chain stays auditable.
+
+### Verified at correction time
+
+Packet SHA-256 exact · source checksums 7/7 · production checksums 7/7 · dimensions 7/7 exactly 1080×1920 · copy parity vs `ISSUE011_STORY_COPY_LOCK.md` **7/7 exact** · CTA architecture **7/7 correct** (Stories 1 and 2 carry neither the recurring line nor a CTA; Story 3 carries both) · packet contained **no** Feed, Blog/OG, or Email Header assets.
+
 ## Production specifications
 
 | Surface | Dimensions | Count |
@@ -110,19 +148,19 @@ The Issue 010 gold 道 / TAO character and gold brush-circle / ensō treatments 
 | WED | FEED | `ISSUE011_WED_FEED_1080x1350.png` | 1080×1350 | 1080×1350 | `62d7c75b963af5ae2f4caaab6c2b78b3a9ab9979ba79d9ca5678b6149a893fc5` | APPROVED | `APPROVED_ASSETS/WEDNESDAY/` |
 | WED | STORY 1 | `ISSUE011_WED_STORY_01_1080x1920.png` | 1080×1920 | 1080×1920 | `47cb8a11daf892cd0c66d614da3732ad62cd103efc02faef30adfcd92337abf1` | APPROVED | `APPROVED_ASSETS/WEDNESDAY/` |
 | WED | STORY 2 | `ISSUE011_WED_STORY_02_1080x1920.png` | 1080×1920 | 1080×1920 | `93dde271060d09d274f45feba6a1752ce714373ce541c2b5b01b85e1013e21f1` | APPROVED | `APPROVED_ASSETS/WEDNESDAY/` |
-| WED | STORY 3 | `ISSUE011_WED_STORY_03_1080x1920.png` | 1080×1920 | 1080×1920 | `68eecba30d805a28214a6f2ce26cd04596155a81ddb18e7b2c50cef68ab3b5e8` | APPROVED | `APPROVED_ASSETS/WEDNESDAY/` |
+| WED | STORY 3 | `ISSUE011_WED_STORY_03_1080x1920.png` | 1080×1920 | 1080×1920 | `6f2e60d09b3160683bba7dadb60d1937e407b4fd3a93a729c008bcc3d56ec4a9` | **FOUNDER APPROVED — editorial/copy-lock correction** | `APPROVED_ASSETS/WEDNESDAY/` |
 | WED | BLOG/OG | `ISSUE011_WED_BLOG_OG_1200x628.png` | 1200×628 | 1200×628 | `31646c5c70a1fc46b353a68bfb9d1647313041dcc5dd633dca6dad05e549310b` | APPROVED | `APPROVED_ASSETS/WEDNESDAY/` |
 | WED | EMAIL HEADER | `ISSUE011_WED_EMAIL_HEADER_1200x627.png` | 1200×627 | 1200×627 | `e99292b9cda84065470971be19b93e222ad6b7389a247d7d874e59dacbe484a3` | APPROVED | `APPROVED_ASSETS/WEDNESDAY/` |
 | THU | FEED | `ISSUE011_THU_FEED_1080x1350.png` | 1080×1350 | 1080×1350 | `3d19e490de2d8f44cfee7be64787f6d0cca688322729a2bcff53b51c1fe0e881` | APPROVED — editorial/creative correction · **intentionally diverges from provenance source** | `APPROVED_ASSETS/THURSDAY/` |
-| THU | STORY 1 | `ISSUE011_THU_STORY_01_1080x1920.png` | 1080×1920 | 1080×1920 | `bcbfba7f4fbec73847ffbbfcd8a4a966bf83464b1d5a677738d3f93132060def` | APPROVED | `APPROVED_ASSETS/THURSDAY/` |
-| THU | STORY 2 | `ISSUE011_THU_STORY_02_1080x1920.png` | 1080×1920 | 1080×1920 | `a0c84d90bc2fcc2c5eecd89d6e9f1867f1bdd3825b6e2c72f47ad4174fd41e4a` | APPROVED | `APPROVED_ASSETS/THURSDAY/` |
-| THU | STORY 3 | `ISSUE011_THU_STORY_03_1080x1920.png` | 1080×1920 | 1080×1920 | `76c6b1787503c013163e4271b2d2ff5f9ac0401cede8e17e6d10ad8ffe158a69` | APPROVED | `APPROVED_ASSETS/THURSDAY/` |
+| THU | STORY 1 | `ISSUE011_THU_STORY_01_1080x1920.png` | 1080×1920 | 1080×1920 | `e86d3c36e77af49a87c566d7c99f786f7495a9dff4f61bff1c320e0987dccdc9` | **FOUNDER APPROVED — editorial/copy-lock correction** | `APPROVED_ASSETS/THURSDAY/` |
+| THU | STORY 2 | `ISSUE011_THU_STORY_02_1080x1920.png` | 1080×1920 | 1080×1920 | `9ed4dd2ae99b042c7dc95da1a15a21c4ada57edfe01e947474619354676a7556` | **FOUNDER APPROVED — editorial/copy-lock correction** | `APPROVED_ASSETS/THURSDAY/` |
+| THU | STORY 3 | `ISSUE011_THU_STORY_03_1080x1920.png` | 1080×1920 | 1080×1920 | `89e19ddaca84e73518bf1e819ceab4aef36ad9198ff04fa08b34a0cb6d0c7d72` | **FOUNDER APPROVED — editorial/copy-lock correction** | `APPROVED_ASSETS/THURSDAY/` |
 | THU | BLOG/OG | `ISSUE011_THU_BLOG_OG_1200x628.png` | 1200×628 | 1200×628 | `8568655a7639a18d2a3bdb23be57b5c9bf4e2525c2f627ac16fc82acf5532cde` | APPROVED | `APPROVED_ASSETS/THURSDAY/` |
 | THU | EMAIL HEADER | `ISSUE011_THU_EMAIL_HEADER_1200x627.png` | 1200×627 | 1200×627 | `d146ca2749c76bd9c11f37f8790f1784daf47a62f95e8d4f2f28c0c8456a381e` | APPROVED | `APPROVED_ASSETS/THURSDAY/` |
 | FRI | FEED | `ISSUE011_FRI_FEED_1080x1350.png` | 1080×1350 | 1080×1350 | `fa439546797ecb88fc83fe76b24dffeb0f193aa86daeb9f6944b59c5c3e0045d` | APPROVED — proportional 4:5 crop/resize of provenance source | `APPROVED_ASSETS/FRIDAY/` |
-| FRI | STORY 1 | `ISSUE011_FRI_STORY_01_1080x1920.png` | 1080×1920 | 1080×1920 | `b4399f9c6df3956839359d60f8cf85311336b675ae9ddbc2440f416ad4707b4f` | APPROVED | `APPROVED_ASSETS/FRIDAY/` |
-| FRI | STORY 2 | `ISSUE011_FRI_STORY_02_1080x1920.png` | 1080×1920 | 1080×1920 | `648c3d209fea0ba72e1e0ac50cbd4ef0f575c1e21468ba2cb2e7f0d230387a49` | APPROVED | `APPROVED_ASSETS/FRIDAY/` |
-| FRI | STORY 3 | `ISSUE011_FRI_STORY_03_1080x1920.png` | 1080×1920 | 1080×1920 | `efa973121983107dc9635861b4a9918a110c4fab995798eabc00536f3cae6925` | APPROVED | `APPROVED_ASSETS/FRIDAY/` |
+| FRI | STORY 1 | `ISSUE011_FRI_STORY_01_1080x1920.png` | 1080×1920 | 1080×1920 | `8da7927d6aebc5f305fde7acb02939422b5440be72b1c9c03dc0e177c064552c` | **FOUNDER APPROVED — editorial/copy-lock correction** | `APPROVED_ASSETS/FRIDAY/` |
+| FRI | STORY 2 | `ISSUE011_FRI_STORY_02_1080x1920.png` | 1080×1920 | 1080×1920 | `085d9a57aacfd7bba1fa826cd6aa07196ad00fd6698b595729b9609654d7b5e6` | **FOUNDER APPROVED — editorial/copy-lock correction** | `APPROVED_ASSETS/FRIDAY/` |
+| FRI | STORY 3 | `ISSUE011_FRI_STORY_03_1080x1920.png` | 1080×1920 | 1080×1920 | `f3789bdf6283345823742d5fd166c583de6f3d4cb2c9d2c28c201c9bc1491f6a` | **FOUNDER APPROVED — editorial/copy-lock correction** | `APPROVED_ASSETS/FRIDAY/` |
 | FRI | BLOG/OG | `ISSUE011_FRI_BLOG_OG_1200x628.png` | 1200×628 | 1200×628 | `fb91d51ca8cea392f533ce59fba00a17751540eaf6773f56f316dcdeabced087` | APPROVED | `APPROVED_ASSETS/FRIDAY/` |
 | FRI | EMAIL HEADER | `ISSUE011_FRI_EMAIL_HEADER_1200x627.png` | 1200×627 | 1200×627 | `1d52bfeff9aabb4360da331b76002accd1249817b452f44a47716b3b4f851c8c` | APPROVED | `APPROVED_ASSETS/FRIDAY/` |
 ## Source originals — `SOURCE_APPROVED/` (PROVENANCE AUTHORITY)

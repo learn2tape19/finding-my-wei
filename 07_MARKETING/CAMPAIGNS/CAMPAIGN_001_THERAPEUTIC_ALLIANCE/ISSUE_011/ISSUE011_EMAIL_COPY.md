@@ -7,7 +7,7 @@
 |---|---|
 | Gate 0 — Editorial Architecture | **CLOSED / FOUNDER APPROVED** |
 | Gate 1 — Editorial Completeness | **CLOSED / FOUNDER APPROVED** |
-| Visual Production | **HOLD — NOT YET AUTHORIZED** |
+| Gate 2 — Visual Production | **COMPLETE / FOUNDER APPROVED** |
 | External Execution | **HOLD — NOT AUTHORIZED** |
 
 **Campaign role:** One weekly email → canonical weekly article.
