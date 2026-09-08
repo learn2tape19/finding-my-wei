@@ -66,12 +66,12 @@ Established Issue 010 architecture: stage assets to the WordPress media library 
 |---|---|
 | Gate 0 — Editorial Architecture | **CLOSED / FOUNDER APPROVED** |
 | Gate 1 — Editorial Completeness | **CLOSED / FOUNDER APPROVED** |
-| Visual Production | **HOLD — NOT YET AUTHORIZED** |
+| Gate 2 — Visual Production | **COMPLETE / FOUNDER APPROVED / PERSISTENCE PENDING COMMIT** |
 | External Execution | **HOLD — NOT AUTHORIZED** |
 
 **Gate 1 completeness:** 5/5 feed concepts and canonical captions · 15/15 Story frames · 1/1 weekly article · 1/1 issue-level email · subject, preheader, headline, CTA · SEO and metadata · canonical slug/permalink architecture · publication calendar · platform-role authority. Editorial completeness is closed before visual production begins.
 
-**Visual Production — HOLD.** No artwork produced. Asset manifest, visual production brief, checksum authorities, `APPROVED_ASSETS/`, and `SOURCE_APPROVED/` are deliberately deferred to the Visual Production Gate.
+**Gate 2 — Visual Production: COMPLETE / FOUNDER APPROVED / PERSISTENCE PENDING COMMIT.** 30/30 Founder-approved production derivatives and 30/30 source originals persisted from `ISSUE_011_APPROVED_ASSET_PACKET_FIXED.zip`, hash-verified against the packet's supplied authorities. The Thursday and Friday Feed derivatives were corrected under Founder authority after an audit finding and are authorized by explicit SHA-256; Thursday is an editorial/creative correction that intentionally diverges from its provenance source. All 30 `SOURCE_APPROVED/` binaries remain unaltered. Control authorities: `ISSUE011_ASSET_MANIFEST.md`, `ISSUE011_CHECKSUMS.sha256`, `ISSUE011_SOURCE_CHECKSUMS.sha256`.
 
 **External Execution — HOLD.** No WordPress, Buffer, or Brevo objects. Nothing scheduled or published.
 

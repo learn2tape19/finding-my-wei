@@ -13,10 +13,16 @@ Issue 011 editorial is Founder-supplied. Execute only the approved package. **NO
 |---|---|
 | Gate 0 — Editorial Architecture | **CLOSED / FOUNDER APPROVED** |
 | Gate 1 — Editorial Completeness | **CLOSED / FOUNDER APPROVED** |
-| Visual Production | **HOLD — NOT YET AUTHORIZED** |
+| Gate 2 — Visual Production | **COMPLETE / FOUNDER APPROVED / PERSISTENCE PENDING COMMIT** |
 | External Execution | **HOLD — NOT AUTHORIZED** |
 
-Editorial copy is persisted verbatim and closed before visual production begins. No artwork exists — asset manifest, visual brief, checksum authorities, `APPROVED_ASSETS/`, and `SOURCE_APPROVED/` are deferred to the Visual Production Gate by design. No WordPress, Buffer, or Brevo objects exist.
+Editorial copy is persisted verbatim and closed before visual production begins.
+
+**Gate 2 — Visual Production: COMPLETE / FOUNDER APPROVED / PERSISTENCE PENDING COMMIT.** The 30 Founder-approved production derivatives (`APPROVED_ASSETS/` — execution authority) and 30 source originals (`SOURCE_APPROVED/` — provenance authority) are persisted from `ISSUE_011_APPROVED_ASSET_PACKET_FIXED.zip` and hash-verified against the packet's supplied authorities. Visual control authorities: `ISSUE011_ASSET_MANIFEST.md`, `ISSUE011_CHECKSUMS.sha256`, `ISSUE011_SOURCE_CHECKSUMS.sha256`.
+
+**Thursday and Friday Feed derivatives were corrected under Founder authority** after an audit found the originals were anamorphic stretches. Authorized production hashes: THU `3d19e490…e0e881`, FRI `fa439546…e0045d`. **Thursday is an editorial/creative correction** rendering the canonical Thursday feed copy from `ISSUE011_MASTER_COPY.md`, and therefore **intentionally diverges from its `SOURCE_APPROVED/` provenance original** — that divergence is authorized and is not a defect to be "fixed." Friday is a proportional 4:5 crop/resize with no copy change. No anamorphic binary remains in execution authority. See `ISSUE011_ASSET_MANIFEST.md` for the full correction history.
+
+No WordPress, Buffer, or Brevo objects exist.
 
 > **Founder approval is not publication authority.** Approval of copy establishes editorial completeness only. Canonical persistence is not publication authority either. Each gate is separate and requires its own explicit Founder authorization. Lesson carried forward from Issue 010.
 
