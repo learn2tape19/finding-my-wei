@@ -23,9 +23,10 @@
 > - **Historical execution result:** Issue 012 execution was stopped. Zero mutations. That stands.
 > - **Current infrastructure readiness:** the cross-platform path is verified end to end.
 >
-> **Issue 012 itself remains NOT DEPLOYED.** No WordPress article, no media, no Buffer objects,
-> no Brevo campaign. This notice records infrastructure readiness only — it is not deployment
-> authority and does not begin execution.
+> **At the time this notice was written, Issue 012 remained NOT DEPLOYED.** That is no longer
+> true: see **ISSUE 012 — EXECUTION LOG** at the end of this file. WordPress media (25 objects,
+> IDs 1615-1639) and the canonical article (post 1640, `future`) now exist. Buffer and Brevo
+> remain at zero objects. Nothing is publicly visible.
 >
 > Current authority: `04_CAPABILITIES/PUBLISHING/TAO_PUBLISHING_EXECUTION_DOCTRINE.md`
 
@@ -204,3 +205,139 @@ was attempted.
 | Repository SHA at attempt | `b5c695fb889e8026bd749635804ea68dccb3e820` |
 
 **EXECUTION HELD — CREDENTIALS REQUIRED.**
+
+---
+
+# ISSUE 012 — EXECUTION LOG (September 13, 2026)
+
+**Status:** **PARTIAL EXECUTION — HELD AT BUFFER STAGE.**
+
+Supersedes the historical "no platform mutations performed" state above for this date.
+WordPress objects now exist. **Do not re-upload or re-create them.**
+
+## Stage A — Repository: PASS
+- Repository HEAD at execution: `bf4150246e00feba02535bcd6a482f2a51993609`, parity with `origin/main`, tree CLEAN
+- Production completeness gate: **CLOSED**, 0 failures
+- Canonical checksums: **25/25 OK** against `ISSUE012_CHECKSUMS.sha256`
+
+## Stage B — WordPress media: PASS (25/25)
+
+All 25 Founder-approved masters uploaded via authenticated REST multipart POST as user ID 1.
+**This closed the documented multipart-upload residual.** First upload returned HTTP 201.
+
+Every asset was then retrieved **anonymously** over HTTPS and reconciled against its canonical
+repository SHA-256.
+
+**Result: 25/25 anonymous HTTP 200 + SHA-256 byte-identical. 0 mismatches.**
+No regeneration, resize, recompression, or rename occurred. Filenames preserved exactly.
+
+| WP Media ID | Canonical filename | Asset integrity |
+|---|---|---|
+| 1615 | `ISSUE-012_MONDAY_LANDSCAPE_1200x628.png` | VERIFIED |
+| 1616 | `ISSUE-012_FRIDAY_FEED_1080x1350.png` | VERIFIED |
+| 1617 | `ISSUE-012_FRIDAY_LANDSCAPE_1200x628.png` | VERIFIED |
+| 1618 | `ISSUE-012_FRIDAY_STORY-01_1080x1920.png` | VERIFIED |
+| 1619 | `ISSUE-012_FRIDAY_STORY-02_1080x1920.png` | VERIFIED |
+| 1620 | `ISSUE-012_FRIDAY_STORY-03_1080x1920.png` | VERIFIED |
+| 1621 | `ISSUE-012_MONDAY_FEED_1080x1350.png` | VERIFIED |
+| 1622 | `ISSUE-012_MONDAY_STORY-01_1080x1920.png` | VERIFIED |
+| 1623 | `ISSUE-012_MONDAY_STORY-02_1080x1920.png` | VERIFIED |
+| 1624 | `ISSUE-012_MONDAY_STORY-03_1080x1920.png` | VERIFIED |
+| 1625 | `ISSUE-012_THURSDAY_FEED_1080x1350.png` | VERIFIED |
+| 1626 | `ISSUE-012_THURSDAY_LANDSCAPE_1200x628.png` | VERIFIED |
+| 1627 | `ISSUE-012_THURSDAY_STORY-01_1080x1920.png` | VERIFIED |
+| 1628 | `ISSUE-012_THURSDAY_STORY-02_1080x1920.png` | VERIFIED |
+| 1629 | `ISSUE-012_THURSDAY_STORY-03_1080x1920.png` | VERIFIED |
+| 1630 | `ISSUE-012_TUESDAY_FEED_1080x1350.png` | VERIFIED |
+| 1631 | `ISSUE-012_TUESDAY_LANDSCAPE_1200x628.png` | VERIFIED |
+| 1632 | `ISSUE-012_TUESDAY_STORY-01_1080x1920.png` | VERIFIED |
+| 1633 | `ISSUE-012_TUESDAY_STORY-02_1080x1920.png` | VERIFIED |
+| 1634 | `ISSUE-012_TUESDAY_STORY-03_1080x1920.png` | VERIFIED |
+| 1635 | `ISSUE-012_WEDNESDAY_FEED_1080x1350.png` | VERIFIED |
+| 1636 | `ISSUE-012_WEDNESDAY_LANDSCAPE_1200x628.png` | VERIFIED |
+| 1637 | `ISSUE-012_WEDNESDAY_STORY-01_1080x1920.png` | VERIFIED |
+| 1638 | `ISSUE-012_WEDNESDAY_STORY-02_1080x1920.png` | VERIFIED |
+| 1639 | `ISSUE-012_WEDNESDAY_STORY-03_1080x1920.png` | VERIFIED |
+
+URL pattern: `https://taoclinicaltouch.com/wp-content/uploads/2026/09/<filename>`
+
+One transient TLS fault (`SSL_read ... bad record mac`, HTTP 000) interrupted the batch.
+Server state was inspected before any retry and confirmed the failed object had **not** landed;
+no duplicate was created. Retry succeeded.
+
+## Stage C — WordPress article: PASS
+
+| Field | Value |
+|---|---|
+| Post ID | **1640** |
+| Title | The Clinical Practice of Agency |
+| Slug | `issue-012-agency` |
+| Status | `future` |
+| Scheduled | `2026-09-21T11:45:00Z` = **Mon Sep 21, 2026 7:45 AM ET** |
+| Featured media | **1615** — Monday LANDSCAPE 1200x628 |
+| Category | 25 — Therapeutic Alliance |
+| Author | 1 — Drew Freedman |
+| Expected permalink | `https://taoclinicaltouch.com/blog/2026/09/issue-012-agency/` |
+
+Independent authenticated readback: **all 9 field checks PASS.** Body content stored verbatim —
+745 words, 5 `<h3>` section headings, byte-identical to the converted canonical article.
+Anonymous fetch of the permalink returns 404, correct for a `future` post.
+
+Duplicate check before creation: 0 posts with slug `issue-012-agency`.
+
+**Excerpt:** omitted. No Founder-approved excerpt or meta description exists in the Issue 012
+package. Per the handoff EXECUTION HOLD RULE, no editorial copy was invented. The site runs no
+SEO plugin, consistent with the Issue 007 accepted exception.
+
+## Stage D — Buffer: **HELD — NOT EXECUTED**
+
+**0 Buffer objects created.** See the open question below.
+
+## Stage E — Brevo: **NOT REACHED**
+
+**0 Brevo objects created or modified.** Template 39 untouched. Issue 011 Campaign 40 untouched.
+
+## Open question blocking Stage D
+
+`ISSUE-012_AGENCY_VISUAL_HANDOFF.md` presents one block per day headed
+`### Feed copy — LOCKED`, containing: day headline, body, bolded supporting line, hashtags.
+
+Issue 011 — the immediately preceding completed issue, and the reference the handoff's
+EXECUTION HOLD RULE directs us to — used an explicit **two-part** structure:
+`### Feed visual copy` (headline + supporting line, baked into the image) and
+`### Canonical feed caption` (the text actually posted to Buffer). Its published captions
+**excluded** the headline and supporting line.
+
+Issue 012 does not make that separation. The approved Issue 012 feed images already carry both
+the headline and the supporting line as rendered typography.
+
+Therefore the Buffer caption text cannot be established with confidence:
+
+- **Reading A** — post the LOCKED block verbatim, headline and supporting line included.
+  Honors "do not alter approved copy" literally; duplicates text already in the image and
+  departs from the Issue 011 caption convention.
+- **Reading B** — post body + hashtags only, matching Issue 011.
+  Matches convention; requires deleting lines from a block marked LOCKED.
+
+Both readings change public-facing copy on 10 feed objects across Facebook and Instagram.
+Per the handoff rule — *"If the value still cannot be established with confidence, HOLD that
+step and report exactly what is missing. Do not alter approved copy or assets to solve an
+execution problem"* — Stage D was held pending Founder direction.
+
+## Resolved dependency
+
+Brevo renewal confirmed by Founder in the billing interface: Starter, monthly, 40,000 emails/month,
+next credit renewal **September 20, 2026 1:31 PM ET**. The Gates 3-5 billing dependency is
+**CLOSED**. It is no longer a blocker.
+
+## Confirmations
+
+| | |
+|---|---|
+| Approved assets regenerated/resized/recompressed/renamed | **NO** — 25/25 byte-identical |
+| Approved editorial copy rewritten | **NO** |
+| Issue 011 objects modified | **NO** |
+| Brevo Template 39 modified | **NO** |
+| Buffer objects created | **NO** |
+| Brevo objects created | **NO** |
+| Issue 012 publicly visible | **NO** — article is `future`, nothing published |
