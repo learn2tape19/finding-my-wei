@@ -352,15 +352,30 @@ Every Monday–Friday production day must account for the standard core asset ro
 | Role | Dimensions | Purpose |
 |---|---|---|
 | `FEED` | 1080×1350 | Instagram / Facebook feed |
+| `LANDSCAPE` | 1200×628 | Single canonical horizontal master — blog/OG, social-link, LinkedIn, email |
 | `STORY` | 1080×1920 | Story (see sequence rule below) |
-| `BLOGOG` | 1200×628 | Blog / social-link header |
-| `EMAILHEADER` | 1200×627 | Email-header role |
 
-The 1200×627 email-header role is **required for every production day**, including days
-with no scheduled Brevo campaign. Wednesday remains the normal email publication day
-unless Founder direction changes. **Email scheduling and asset completeness are separate
-concerns** — a day does not lose its email-header requirement because nothing is being
-sent that day.
+**`LANDSCAPE` is the single canonical horizontal master.** One Founder-approved 1200×628
+asset serves every compatible downstream horizontal role, including blog/OG, social-link,
+LinkedIn, and email.
+
+**`EMAILHEADER` is a conditional role, not a core daily requirement.** Produce a separate
+email-header visual only when Founder-approved email creative materially differs from the
+landscape master in design, crop, or message. Once specified or approved for a production,
+it becomes required for that production per the Conditional Roles rule below.
+
+`BLOGOG` is the historical name for this role. It normalizes to `LANDSCAPE`. Approved
+historical assets carrying `BLOGOG` in their filename are **not** renamed — the deterministic
+checker accepts the alias.
+
+> **SUPERSEDED — September 13, 2026.** This section previously mandated four core daily roles
+> (`FEED` + `STORY` + `BLOGOG` + `EMAILHEADER`) and stated that the 1200×627 email-header role
+> was "required for every production day, including days with no scheduled Brevo campaign."
+> That requirement is retired by Founder decision. Current authority is `FEED` + `LANDSCAPE` +
+> `STORY`, with `EMAILHEADER` conditional. Historical manifests and completed campaign records
+> that declare the retired four-role set remain valid as history and are not rewritten.
+> See `CURRENT_AUTHORITY_REGISTER.md` and
+> `04_CAPABILITIES/PUBLISHING/TAO_PUBLISHING_EXECUTION_DOCTRINE.md`.
 
 ### Conditional Roles
 
@@ -415,8 +430,7 @@ Each day's `ASSET_MANIFEST.md` carries an `## Expected Production Set` table:
 | Role | Dimensions | Expected | Sequence |
 |---|---|---|---|
 | FEED | 1080x1350 | 1 | no |
-| BLOGOG | 1200x628 | 1 | no |
-| EMAILHEADER | 1200x627 | 1 | no |
+| LANDSCAPE | 1200x628 | 1 | no |
 | STORY | 1080x1920 | 3 | yes |
 | CAROUSEL | 1080x1350 | 5 | yes |
 ```

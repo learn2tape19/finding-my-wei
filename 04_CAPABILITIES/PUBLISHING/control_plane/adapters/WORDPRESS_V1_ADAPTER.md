@@ -46,6 +46,52 @@ WORDPRESS_USERNAME=publisher_user
 WORDPRESS_APP_PASSWORD=xxxx xxxx xxxx xxxx xxxx
 ```
 
+### Tao production credential names (current authority)
+
+Live Tao execution uses these environment variable names:
+
+```
+TAO_WP_USERNAME        # full email-form login, not a short slug
+TAO_WP_APP_PASSWORD    # WordPress Application Password — never commit, log, or print
+```
+
+Destination: `taoclinicaltouch.com`. Publishing identity: Drew Freedman, **user ID 1**,
+role `administrator`.
+
+When a tool requires the secret on a command line, pass it through a `600`-mode config file
+(e.g. `curl --config`) rather than argv, where `ps` can read it — and delete the file when the
+operation completes. Confirm credential presence by name and length only.
+
+### Permission-aware media preflight (required before any upload)
+
+WordPress computes the `Allow` header by running each endpoint's `permission_callback` for the
+current request, so it reflects *this credential's* authorization — not merely what the route
+declares.
+
+| Request | Expected `Allow` |
+|---|---|
+| `OPTIONS /wp-json/wp/v2/media` — anonymous | `GET` |
+| `OPTIONS /wp-json/wp/v2/media` — authenticated | `GET, POST` |
+
+`POST` appearing only under authentication is acceptable pre-mutation evidence that the identity
+passes the media-create permission callback. It proves **authorization, not execution** — record
+that residual rather than overstating it.
+
+**Media upload requires a multipart form body** (`-F`), not a binary payload with a
+`Content-Disposition` header.
+
+### Post-upload checksum reconciliation (required)
+
+A successful upload response does **not** close the asset gate. After every upload, retrieve the
+public object **anonymously** (no auth header, no `Referer`) and require:
+
+```
+canonical repository SHA-256  ==  publicly retrieved SHA-256
+```
+
+A mismatch means the platform transformed the approved master. That is a STOP condition, and no
+downstream Buffer or Brevo object may be built on that URL.
+
 ## Destination Registry Configuration
 
 Example registry entry:

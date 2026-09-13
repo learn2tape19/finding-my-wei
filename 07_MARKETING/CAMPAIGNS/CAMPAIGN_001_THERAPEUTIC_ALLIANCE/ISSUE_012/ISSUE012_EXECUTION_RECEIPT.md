@@ -1,6 +1,36 @@
 # ISSUE 012 — EXECUTION RECEIPT
 
+> ## ⚠️ SUPERSESSION NOTICE — September 13, 2026 (later same day)
+>
+> **This receipt remains a valid historical record. Several of its infrastructure
+> conclusions have since been disproven and are superseded below.**
+>
+> The decision to stop was **correct on the evidence available at that checkpoint.**
+> Nothing here is being retracted as a judgment error. What changed is the evidence,
+> not the standard.
+>
+> A five-gate infrastructure verification completed later the same day established:
+>
+> | Original conclusion | Current status |
+> |---|---|
+> | WordPress **BLOCKED** — no write credential, `/users/me` 401 | **SUPERSEDED.** A WordPress application password was subsequently provisioned. Authenticated REST access is **verified**: `/wp-json/wp/v2/users/me?context=edit` → **HTTP 200**, user ID 1, `administrator`, `upload_files: true`. Permission-aware media preflight confirms `Allow: GET, POST` authenticated vs `GET` anonymous. |
+> | Buffer **BLOCKED** — CLI not installed | **SUPERSEDED AND WITHDRAWN.** Buffer executes via **GraphQL**, not the CLI. Authentication, Tao Facebook and Instagram destination resolution, scheduled-queue readback, and single-object readback by ID all succeed. The missing historical CLI is **irrelevant** and was never a real blocker. |
+> | Brevo constrained — "no Brevo image-upload tool available, so the Monday Landscape master has no path into that slot" | **SUPERSEDED.** The approved architecture **does not require** a Brevo image upload. Externally hosted WordPress HTTPS media is proven: sent campaign 36 carried a raw WordPress `<img src>` with `inlineImageActivation: false`, 11,341 delivered. |
+> | Template 39 is not a reusable shell | **STILL CORRECT.** Re-verified against live HTML. Unchanged and untouched. |
+> | Brevo plan boundary 2026-09-20 — watch item | **STILL CORRECT**, now formally recorded as a Founder/manual billing dependency. Not a technical failure. |
+>
+> **Distinguish carefully:**
+> - **Historical execution result:** Issue 012 execution was stopped. Zero mutations. That stands.
+> - **Current infrastructure readiness:** the cross-platform path is verified end to end.
+>
+> **Issue 012 itself remains NOT DEPLOYED.** No WordPress article, no media, no Buffer objects,
+> no Brevo campaign. This notice records infrastructure readiness only — it is not deployment
+> authority and does not begin execution.
+>
+> Current authority: `04_CAPABILITIES/PUBLISHING/TAO_PUBLISHING_EXECUTION_DOCTRINE.md`
+
 **Status:** **EXECUTION BLOCKED — NO PLATFORM MUTATIONS PERFORMED.**
+*(Historical status as of the attempt below. See supersession notice above.)*
 
 **Attempt date:** September 13, 2026
 **Repository state at attempt:** `b5c695fb889e8026bd749635804ea68dccb3e820` (main)
@@ -47,6 +77,15 @@ among them, so that server cannot reach the Tao site under any plan change.
 
 The Buffer skill shells out to a `buffer` CLI that is not installed on this machine.
 No Buffer API token is available to this session.
+
+> **SUPERSEDED — September 13, 2026.** Both statements are wrong. The `buffer` CLI is
+> obsolete, not required, and its absence is not a blocker. Buffer executes through the
+> first-party **GraphQL API** at `https://api.buffer.com/graphql`, and a working credential
+> **was** available locally the whole time. Verified: authentication, Tao Facebook
+> (`6a3eb95f5ab6d2f106763fc9`) and Tao Instagram (`6a3eb89f5ab6d2f106763ca0`) both connected
+> and unlocked, 25 scheduled objects read back, single-object readback by ID, and 25 of 25
+> scheduled objects successfully using WordPress-hosted HTTPS media.
+> See `control_plane/adapters/BUFFER_V1_ADAPTER.md`.
 
 ### Brevo detail
 
@@ -126,6 +165,19 @@ plan renews and credits are available before the campaign is queued.
    rights — the single blocking dependency for the entire chain.
 2. **A Buffer API token, or the `buffer` CLI installed and authenticated.**
 3. Confirmation of the Brevo plan renewal past 2026-09-20.
+
+> **SUPERSEDED — September 13, 2026.** Current state of this list:
+>
+> 1. **RESOLVED.** Application password provisioned; authenticated REST access verified
+>    (user ID 1, `administrator`, `upload_files: true`).
+> 2. **WITHDRAWN — never a real requirement.** Buffer works via GraphQL with the existing
+>    local credential. No CLI, no new token.
+> 3. **OPEN — Founder/manual billing check.** Confirm Brevo Starter renewal and send credits
+>    beyond 2026-09-20 17:31 UTC before Issue 012 email scheduling. Billing dependency, not a
+>    technical failure.
+>
+> Remaining bounded residual: a live WordPress multipart upload has not yet been executed under
+> the new credential. Authorization is proven; execution resolves at the first real upload.
 
 Per `CLAUDE_ISSUE011_EXECUTION_HANDOFF.md` item 9 — *"If credentials or destination
 identity fail, STOP and record the limitation. Do not route around it."* — execution

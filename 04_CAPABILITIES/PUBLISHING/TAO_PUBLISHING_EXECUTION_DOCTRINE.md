@@ -1,0 +1,368 @@
+# Tao Publishing Execution Doctrine
+
+**Status:** CURRENT AUTHORITY
+**Effective:** September 13, 2026
+**Scope:** Tao of Clinical Touch weekly publication execution across WordPress, Buffer, and Brevo
+**Supersedes:** Buffer CLI execution doctrine; Phase 7A `BLOGOG` + `EMAILHEADER` core-role language
+**Control plane:** This doctrine operates *inside* the Finding My Wei Publishing Control Plane
+(`04_CAPABILITIES/PUBLISHING/control_plane/`). It is not a parallel Tao-specific publishing system.
+
+---
+
+## Why this document exists
+
+The execution path below was verified end to end against live production infrastructure on
+September 13, 2026 across five verification gates. Before that verification, each issue's
+execution rediscovered the same facts — and in at least one case (Issue 012) stopped on a
+blocker that did not exist.
+
+This document converts that verified path into inherited institutional capability so future
+issues execute it rather than re-derive it.
+
+**This is a documentation standard. It authorizes nothing by itself.** Deployment authority
+still comes from Founder approval and the production completeness gate.
+
+---
+
+## 1. The verified architecture
+
+```
+GitHub canonical package
+        ↓  (authenticated WordPress REST API, HTTP Basic over HTTPS)
+WordPress media library
+        ↓  (anonymous public HTTPS + SHA-256 checksum reconciliation)
+Public HTTPS media URL
+        ├─────────────→  Buffer GraphQL scheduled objects
+        └─────────────→  Brevo campaign HTML (external <img src>)
+        ↓
+Independent platform readback
+```
+
+Every link is proven in production, not inferred:
+
+| Link | Evidence |
+|---|---|
+| GitHub → WordPress | 22 `ISSUE011` media items, all `author: 1`, uploaded via REST 2026-09-08 in a 30-second window |
+| WordPress → public HTTPS | Canonical repo SHA-256 == anonymously retrieved SHA-256, byte-identical, no re-encode |
+| Public HTTPS → Buffer | 25 of 25 scheduled Tao objects reference `taoclinicaltouch.com/wp-content/` media |
+| Public HTTPS → Brevo | Campaign 36 (sent) carried a raw WordPress `<img src>` with `inlineImageActivation: false`; 11,341 delivered |
+| Independent readback | Buffer `post(input:{id})` single-object query reconciles destination, time, and media |
+
+---
+
+## 2. WordPress REST doctrine
+
+| Property | Value |
+|---|---|
+| Destination | `taoclinicaltouch.com` |
+| Execution interface | WordPress REST API — `/wp-json/wp/v2/` |
+| Authentication | WordPress Application Password + HTTP Basic authentication, HTTPS only |
+| Publishing identity | Drew Freedman — WordPress user ID **1**, role `administrator` |
+| Credential names | `TAO_WP_USERNAME`, `TAO_WP_APP_PASSWORD` |
+
+`TAO_WP_USERNAME` is the full email-form login, not a short slug.
+
+### Required capabilities
+
+The publishing identity must present, at minimum:
+
+- `upload_files`
+- `edit_posts`
+- `publish_posts`
+- `edit_published_posts`
+
+### Authenticated preflight — required before any mutation
+
+```
+GET /wp-json/wp/v2/users/me?context=edit
+```
+
+Must return **HTTP 200** and the expected user ID, role, and capability set.
+`context=edit` is required: it returns the private capability block, which proves a real
+authenticated session rather than an anonymous read. A 401 here is a STOP condition.
+
+### Permission-aware media preflight
+
+WordPress computes the `Allow` header by running each endpoint's `permission_callback` for the
+current request. The header therefore reflects *this credential's* authorization, not merely
+what the route declares.
+
+| Request | Expected `Allow` |
+|---|---|
+| `OPTIONS /wp-json/wp/v2/media` — anonymous | `GET` |
+| `OPTIONS /wp-json/wp/v2/media` — authenticated | `GET, POST` |
+
+`POST` appearing only under authentication is **acceptable pre-mutation evidence that the
+authenticated identity passes the media-create permission callback.**
+
+**Bounded residual — state it, do not hide it.** This proves *authorization*, not *execution*.
+Environmental failure modes remain possible (uploads-directory permissions, a security plugin
+filtering application-password writes, a WAF rejecting multipart bodies). They are not
+architectural, and they resolve unambiguously at the first real upload. Record the residual in
+the receipt; do not manufacture a disposable test object to chase it without authorization.
+
+### Known platform behaviours
+
+- Media upload requires a **multipart form body** (`-F`), not a binary payload with a
+  `Content-Disposition` header.
+- Elementor pages store rendered content in the `_elementor_data` postmeta, **not**
+  `post_content`. REST updates to `post_content` do not change rendered output.
+- Elementor HTML belongs in the `html.default` widget, not `text-editor` — `text-editor`
+  applies `wp_kses_post`, which strips CSS properties.
+
+---
+
+## 3. Credential-handling doctrine
+
+Secrets must **never** be:
+
+- committed to the repository
+- written into destination registries or repository configuration
+- printed to a terminal, log, or transcript
+- embedded in execution receipts
+- passed in a process argument list where `ps` can read them
+
+**Required handling:**
+
+- Read credentials from the environment or an explicit secret manager reference.
+- When a tool needs the secret on a command line, pass it through a `600`-mode config file
+  (for example `curl --config`) and delete that file when the operation completes.
+- Confirm credential *presence* by reporting name, presence, and length only.
+- Redact secrets from every exception, log line, and error message.
+
+An application password inherits the full capability set of its user. Regenerating the password
+does not change authorization; re-run the preflight in §2 to confirm the new credential.
+
+---
+
+## 4. Media integrity and checksum doctrine
+
+**Canonical visual authority remains GitHub.** WordPress is a transport and hosting surface,
+never the source of truth.
+
+### The production rule
+
+```
+Approved repository binary
+    → WordPress upload
+    → anonymous public HTTPS retrieval (no auth header, no Referer)
+    → SHA-256 comparison against the canonical repository hash
+```
+
+**A successful WordPress upload response alone does not close the asset gate.**
+
+A URL is authorized for Buffer or Brevo use only when:
+
+```
+canonical SHA-256  ==  publicly retrieved SHA-256
+```
+
+A mismatch is a STOP condition. It means the platform transformed the approved master —
+recompression, resize, format conversion, or substitution — and the downstream objects must not
+be built on it.
+
+### Non-regeneration rule (preserved)
+
+No downstream platform may regenerate, resize, recompress, reinterpret, or substitute an
+approved production master unless explicitly authorized by the Founder. Preserve approved files
+byte-for-byte. Claim checksum verification only when it was actually performed.
+
+---
+
+## 5. Buffer execution doctrine
+
+### Current authority: GraphQL
+
+**Buffer executes through the first-party GraphQL API at `https://api.buffer.com/graphql`**
+using `Authorization: Bearer <apiKey>`.
+
+The historical `buffer` CLI is **obsolete and is not an execution blocker.** Its absence from
+`PATH` must never again be recorded as a Buffer blockage. The credential the CLI originally
+wrote remains valid and is read directly.
+
+| Property | Value |
+|---|---|
+| Endpoint | `https://api.buffer.com/graphql` |
+| Auth | `Authorization: Bearer <apiKey>` |
+| Credential | locally stored Buffer config (`apiKey`) — never printed |
+| Organization | `6a3d317b545b077504a4771b` — Drew Freedman |
+| Tao Facebook | `6a3eb95f5ab6d2f106763fc9` — "The Tao of Clinical Touch" |
+| Tao Instagram | `6a3eb89f5ab6d2f106763ca0` — "taoclinicaltouch" |
+
+Also connected but **not Tao**: LinkedIn `bostonbodyworker`, Instagram `drewdog19`. Destination
+IDs must be resolved and asserted, never assumed by position in a list.
+
+### Required execution sequence
+
+1. **Authenticate** — `account { organizations }` returns the expected account and org.
+2. **Resolve destinations** — query `channels(input:{organizationId})`; match Tao Facebook and
+   Tao Instagram by ID.
+3. **Verify availability** — each target must be `isDisconnected: false` **and**
+   `isLocked: false`.
+4. **Duplicate-check the target scheduling window** before creating anything.
+5. **Create only approved publication objects.**
+6. **Capture the returned object ID.**
+7. **Independently retrieve each object by ID** — `post(input:{id})`.
+8. **Reconcile** destination · scheduled timestamp · copy · attached public WordPress media URL.
+
+**A mutation response is not proof of scheduled state.** Only an independent readback is.
+
+### Schema notes
+
+Field names drift; validate against the live schema rather than from memory.
+Verified working shapes: `account { organizations }`;
+`channels(input:{organizationId}) { id service name isDisconnected isLocked }`;
+`posts(first, input:{organizationId, filter:{status:[scheduled]}})`;
+`post(input:{id})`. On `ImageAsset`, `source` is a **scalar String**, not an object.
+Enum values are unquoted; `metadata` uses the `GqlEnum` wrapper.
+
+### Media requirement
+
+Buffer has no upload tool. Images **must** be public HTTPS URLs. Tao uses WordPress media under
+`/wp-content/uploads/`, checksum-verified per §4 before attachment.
+
+---
+
+## 6. Brevo architecture doctrine
+
+### Template 39 is not presently a neutral master
+
+Template 39, currently named **"Tao — Weekly Issue Master"**, is **not** a reusable master. It
+contains Issue 011-specific content end to end: subject line, `ISSUE 011 · RESPONSE` eyebrow,
+the Issue 011 body, and a CTA hard-linked to that issue's article.
+
+Editing it in place would also mutate the object Issue 011's queued campaign was built from.
+**Do not treat template 39 as a shell. Do not modify or delete it.**
+
+### Current reusable doctrine
+
+- Stable Tao branding and layout **may** form a neutral master.
+- Issue-specific editorial content belongs in the **issue campaign object**, composed from the
+  approved issue copy — not in the master.
+- The issue-specific CTA **must** resolve to that issue's canonical WordPress article URL, which
+  must exist before the campaign is composed.
+- Compatible email imagery **may reference the Founder-approved WordPress-hosted 1200×628
+  Landscape master directly** by public HTTPS URL.
+- **A separate Brevo image-library upload is not required** when external HTTPS media is used.
+
+### Precedent
+
+Campaign 36 (Issue 008, status `sent`) carried a raw WordPress `<img src>` with
+`inlineImageActivation: false`. Brevo stored and delivered the external URL without proxying or
+inlining it: 11,341 delivered, 53.24% open rate. No Brevo image-upload capability is required by
+this architecture.
+
+### Sender and recipients
+
+| Property | Value |
+|---|---|
+| Sender | ID **3** — "Drew Freedman \| Tao of Clinical Touch" <drew@mail.taoclinicaltouch.com> |
+| Reply-to | drew@learn2tape.com |
+| Publication list | ID 64 — "Tao — Publication Subscribers" |
+
+Sender and recipient list must be asserted against the approved issue plan before scheduling.
+
+### Controlled-mutation boundary
+
+Creating a neutral reusable master is a **controlled Brevo mutation** requiring its own
+authorization. It is not authorized by this doctrine.
+
+---
+
+## 7. Canonical execution and verification order
+
+Execute in this order. Each stage must verify before the next begins.
+
+### A. Repository
+Verify `HEAD` parity with `origin/main`, clean working tree, production completeness gate CLOSED,
+manifests present, and all declared checksums verified.
+
+### B. WordPress media
+Upload canonical assets → retrieve each public URL **anonymously** → SHA-256 verify against the
+canonical repository hash (§4). No URL proceeds downstream until its checksum matches.
+
+### C. WordPress article
+Create the future-dated canonical article → retrieve the authenticated object → verify slug,
+content, status, scheduled timestamp, and featured/landscape media as applicable.
+
+### D. Buffer
+Duplicate-check the scheduling window → create approved scheduled objects → **independently read
+each object back by ID** → reconcile destination, time, copy, and media URL.
+
+### E. Brevo
+Only after the canonical WordPress article URL exists. Compose the issue-specific campaign from
+approved copy and structure → verify sender, recipient lists, subject, preheader, CTA target,
+image URL, and scheduled timestamp.
+
+### F. Reconciliation
+Compare every external object against the canonical issue publishing schedule — every object,
+every timestamp, every destination.
+
+### G. Receipt
+Persist object IDs, URLs, timestamps, verification results, and any bounded residuals.
+**No credentials. No PII.**
+
+---
+
+## 8. STOP conditions
+
+Execution halts immediately on any of the following. The condition is recorded; the limitation is
+not routed around.
+
+1. Authentication failure on any platform
+2. Destination identity mismatch
+3. Checksum mismatch between canonical and publicly retrieved asset
+4. Unexpected WordPress transformation of an approved master
+5. Duplicate scheduled object detected
+6. Copy mismatch against approved editorial content
+7. Schedule or timezone mismatch against the approved publishing schedule
+8. Media URL not retrievable anonymously over HTTPS
+9. Buffer destination disconnected or locked
+10. Brevo sender or recipient-list mismatch
+11. Unresolved subscription or send-credit eligibility
+12. Any requirement to modify Founder-approved copy or imagery
+
+**No workaround may silently bypass a STOP condition.** No alternate host, substitute asset,
+partial deployment, or "close enough" reconciliation. Stop, record, escalate to the Founder.
+
+---
+
+## 9. Known execution dependencies
+
+### Brevo subscription eligibility — manual Founder check
+
+The Brevo account API exposes the **current plan period only**. It carries no `autoRenew`,
+`renewalDate`, `nextBillingDate`, or `cancelAtPeriodEnd` field, and therefore **cannot**
+distinguish automatic renewal from lapse.
+
+Plan period on record: **2026-08-20 → 2026-09-20 17:31 UTC** (13:31 ET), Starter / paid / active.
+
+**Issue 012 dependency:** Founder or manual check required — confirm Brevo Starter renewal and
+send-credit eligibility beyond **September 20, 2026** before Issue 012 email scheduling.
+Issue 012's email is scheduled 2026-09-21 10:00 ET, approximately 20 hours after the period
+boundary.
+
+This is a **billing dependency, not a technical infrastructure failure.** Do not classify it as
+one. Do not change the subscription programmatically.
+
+---
+
+## Change control
+
+When a Founder decision changes a rule here:
+
+1. Preserve the historical evidence.
+2. Add the new rule with its effective date.
+3. State what it supersedes.
+4. Update affected standards, adapters, and deterministic tooling **before** using them as a
+   release gate.
+5. Do not silently rewrite completed campaign history.
+
+---
+
+## Revision history
+
+- **v1.0 — September 13, 2026** — Established from Gates 1–4 live infrastructure verification.
+  Supersedes Buffer CLI execution doctrine. Records WordPress REST authentication, the
+  checksum-reconciliation asset rule, Buffer GraphQL execution and readback, Brevo external-media
+  architecture, canonical execution order, and STOP conditions.

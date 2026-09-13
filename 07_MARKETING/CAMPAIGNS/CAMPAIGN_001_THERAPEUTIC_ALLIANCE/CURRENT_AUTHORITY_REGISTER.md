@@ -51,6 +51,10 @@ Historical files are preserved as evidence. They do not automatically remain cur
 | Asset location | Approved assets may use an issue-level `APPROVED_ASSETS/` directory when the issue handoff and manifest deterministically identify day, role, sequence, and filename. Day subfolders are not intrinsically required. Historical day-folder structures remain valid. | Issue 012 repository architecture |
 | Conditional roles | Once a conditional role (carousel, campaign-specific graphic, distinct email creative, event or promotional variant) is specified or approved for a production, it is required for that production and cannot drop out of the Gate. | Phase 7A as amended by Issue 012 |
 | Emerging channels | Reels, TikTok, and Threads are recognized future/conditional channels, **not** current Gate requirements. Do not invent their specifications, cadence, dimensions, naming, or workflow. | Phase 7A extension point |
+| Buffer execution | **Buffer executes through the first-party GraphQL API (`api.buffer.com/graphql`) with the locally stored credential. The historical `buffer` CLI is obsolete; its absence from PATH is NOT an execution blocker.** Resolve Tao Facebook and Instagram destinations by ID, verify connected/unlocked, and read every created object back by ID before claiming scheduled state. | Live verification September 13, 2026; `control_plane/adapters/BUFFER_V1_ADAPTER.md` |
+| WordPress execution | WordPress REST API `/wp-json/wp/v2/` with Application Password + HTTP Basic over HTTPS, publishing identity Drew Freedman (user ID 1). Authenticated preflight `GET /users/me?context=edit` must return 200 before any mutation. Credentials `TAO_WP_USERNAME` / `TAO_WP_APP_PASSWORD` — never committed, logged, printed, or embedded in receipts. | Live verification September 13, 2026; `TAO_PUBLISHING_EXECUTION_DOCTRINE.md` |
+| Media integrity | **A successful upload response does not close the asset gate.** After every WordPress upload, retrieve the public object anonymously and require `canonical SHA-256 == publicly retrieved SHA-256` before that URL is authorized for Buffer or Brevo use. | Gate 4 byte-identity verification; `TAO_PUBLISHING_EXECUTION_DOCTRINE.md` §4 |
+| Brevo imagery | Campaign HTML may reference the approved WordPress-hosted 1200×628 Landscape master directly by public HTTPS URL with `inlineImageActivation: false`. A separate Brevo image-library upload is NOT required. Template 39 is not presently a neutral master — it holds Issue 011 content — and must not be modified or deleted. | Sent campaign 36 precedent; `control_plane/adapters/BREVO_V1_ADAPTER.md` |
 | Completeness claims | Do not declare an issue or day production-complete from a ZIP, production packet, Downloads folder, or local working-tree file. Reconcile expected state against approved assets, hashes, Git tracking, remote persistence, and final handoff. The deterministic checker must be maintained to reflect current authority rather than forcing approved production to conform to stale rules. | Issue 008; Issue 012 tooling correction |
 
 ---
@@ -74,6 +78,12 @@ Historical files are preserved as evidence. They do not automatically remain cur
 ## What Is Not Yet Authoritative
 
 - A reusable Tao master template has not been accepted as a canonical `.indt` or equivalent source.
+- **Brevo template 39 ("Tao — Weekly Issue Master") is named a master but is not one.** It holds
+  Issue 011-specific subject, eyebrow, body, and CTA. Creating a genuinely neutral Brevo master is
+  a controlled mutation and is not yet authorized.
+- **A live WordPress multipart media upload under the current application password has not been
+  executed.** Authorization is proven (permission-aware `Allow: GET, POST`) and precedent exists
+  (22 REST uploads on 2026-09-08). This bounded residual resolves at the first real upload.
 - No canonical article files are present for Issues 003–005.
 - Live URLs and performance for Issues 004–005 are not recorded.
 - The brand identities for Learn2Tape and Area Salons must be derived from their own strategy and assets, not copied from Tao.
