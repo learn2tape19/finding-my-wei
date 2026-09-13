@@ -26,8 +26,9 @@
 > **At the time this notice was written, Issue 012 remained NOT DEPLOYED.** That is no longer
 > true: see **ISSUE 012 — EXECUTION LOG** at the end of this file. WordPress media (25 objects,
 > IDs 1615-1639) and the canonical article (post 1640, `future`) now exist. Buffer and Brevo
-> remain at zero objects — **superseded again: Buffer now holds 25 verified scheduled objects.
-> See EXECUTION LOG, PART 2.** Brevo remains at zero. Nothing is publicly visible.
+> remain at zero objects — **superseded: all three platforms are now populated. Buffer holds 25
+> verified scheduled objects and Brevo campaign 41 is queued. See EXECUTION LOG, PART 3 (FINAL)
+> for the authoritative 51/51 state.** Nothing is publicly visible.
 >
 > Current authority: `04_CAPABILITIES/PUBLISHING/TAO_PUBLISHING_EXECUTION_DOCTRINE.md`
 
@@ -349,7 +350,9 @@ next credit renewal **September 20, 2026 1:31 PM ET**. The Gates 3-5 billing dep
 
 # ISSUE 012 — EXECUTION LOG, PART 2 (September 13, 2026)
 
-**Status:** **STAGES A-D COMPLETE AND VERIFIED. STAGE E (BREVO) BLOCKED BY PERMISSION GATE.**
+**Status:** **SUPERSEDED — see EXECUTION LOG, PART 3 (FINAL) at the end of this file.**
+*(Historical: Stage E was blocked by a permission gate at this point. Founder subsequently
+authorized the campaign; Stage E executed and verified as Brevo campaign 41.)*
 
 Supersedes the "HELD AT BUFFER STAGE" status above. The Buffer hold was resolved by Founder
 direction (Reading B) and Stage D executed in full.
@@ -482,3 +485,120 @@ This record. No credentials, tokens, or PII recorded.
 | Brevo Template 39 modified | **NO** |
 | Brevo objects created or modified | **NO** |
 | Anything published publicly yet | **NO** - article `future`, Buffer scheduled, nothing live |
+
+---
+
+# ISSUE 012 — EXECUTION LOG, PART 3 — FINAL (September 13, 2026)
+
+**Status:** **EXECUTION COMPLETE. 51/51 CANONICAL PUBLICATION OBJECTS QUEUED AND VERIFIED.**
+
+Supersedes the "Stage E BLOCKED" status above. Founder authorized the single Issue 012 Brevo
+campaign creation; Stage E executed and verified.
+
+## Stage E — Brevo: PASS
+
+| Field | Value | Verified |
+|---|---|---|
+| Campaign ID | **41** | PASS |
+| Name | Tao Issue 012 — Agency | PASS |
+| Status | `queued` | PASS |
+| Scheduled | `2026-09-21T10:00:00.000-04:00` = **Mon Sep 21, 10:00 AM ET** | PASS — matches canonical schedule |
+| Sender | ID **3** — drew@mail.taoclinicaltouch.com | PASS |
+| Reply-to | drew@learn2tape.com | PASS |
+| Subject | When does the change become theirs? | PASS — exact |
+| Preheader | Better movement is one thing. Owning it is another. | PASS — exact |
+| Recipients | 22 lists `[2,5,6,7,8,10,44-59]` | PASS — identical to Campaigns 36 and 40 |
+| Estimated reach | 11,295 | — |
+| CTA target | `https://taoclinicaltouch.com/blog/2026/09/issue-012-agency/` | PASS — resolves to post 1640 |
+| Image | `.../2026/09/ISSUE-012_MONDAY_LANDSCAPE_1200x628.png` (media 1615) | PASS — anonymous 200, SHA-256 match |
+| inlineImageActivation | `false` | PASS — external WordPress media |
+| utmCampaign | tao issue 012 | PASS |
+| Body | all 20 approved paragraphs, verbatim | PASS |
+
+Independent readback confirmed the stored `htmlContent` is byte-identical to what was submitted.
+
+### Sender-name field note — verified benign, not a mismatch
+
+Campaign 41 stores `sender.name` as the Brevo token `[DEFAULT_FROM_NAME]` rather than the
+literal string, which differs from Campaigns 36, 38, and 40. This was investigated before being
+accepted rather than assumed harmless.
+
+**Campaign 35 (Issue 007) stored the same `[DEFAULT_FROM_NAME]` token with sender ID 3 and sent
+successfully to 11,352 recipients.** The token resolves to the sender record's configured name at
+send time. Sender identity is unchanged and correct. No corrective mutation was made, and none is
+required.
+
+### Creation note
+
+The first create attempt returned HTTP 400 `missing_parameter` — the Brevo write API expects
+`recipients.listIds` while the read API returns `recipients.lists`. No campaign was created by
+that error. The corrected call used the **same 22 list IDs**; no recipient configuration was
+changed.
+
+## Stage F — Final cross-platform reconciliation: 51/51
+
+| Layer | Objects | Verification | Reconciles to canonical schedule |
+|---|---|---|---|
+| WordPress media | 25 | 25/25 anonymous SHA-256 byte-identical | n/a |
+| WordPress article | 1 | 9/9 authenticated field checks | Mon 7:45 AM ET |
+| Buffer | 25 | 25/25 independent readback by ID | 25/25 |
+| Brevo | 1 | 14/14 field checks + body verbatim | Mon 10:00 AM ET |
+| **Total** | **51** | **51/51 VERIFIED** | **51/51** |
+
+### Publication week — Sep 21–25, 2026 (America/New_York, EDT)
+
+| Time (ET) | Object | Platform ID | Status |
+|---|---|---|---|
+| Mon 7:45 AM | Canonical article — The Clinical Practice of Agency | WP post 1640 | `future` |
+| Mon 8:00 AM | Feed — THE CHANGE IS NOT YOURS | Buffer FB + IG | scheduled |
+| Mon 9:00 / 11:00 AM / 1:00 PM | Story 1 / 2 / 3 | Buffer IG ×3 | scheduled |
+| Mon 10:00 AM | Weekly email | Brevo campaign 41 | `queued` |
+| Tue 8:00 AM | Feed — BETTER ON THE TABLE IS NOT THE FINISH LINE | Buffer FB + IG | scheduled |
+| Tue 9:00 / 11:00 AM / 1:00 PM | Story 1 / 2 / 3 | Buffer IG ×3 | scheduled |
+| Wed 8:00 AM | Feed — LET THEM TRY | Buffer FB + IG | scheduled |
+| Wed 9:00 / 11:00 AM / 1:00 PM | Story 1 / 2 / 3 | Buffer IG ×3 | scheduled |
+| Thu 8:00 AM | Feed — KNOW WHEN TO STEP BACK | Buffer FB + IG | scheduled |
+| Thu 9:00 / 11:00 AM / 1:00 PM | Story 1 / 2 / 3 | Buffer IG ×3 | scheduled |
+| Fri 8:00 AM | Feed — THEY HAVE TO OWN THE CHANGE | Buffer FB + IG | scheduled |
+| Fri 9:00 / 11:00 AM / 1:00 PM | Story 1 / 2 / 3 | Buffer IG ×3 | scheduled |
+
+No deviation from `ISSUE012_PUBLISHING_SCHEDULE.md` in any object, date, time, destination, or
+timezone offset.
+
+## Isolation verification — adjacent objects untouched
+
+| Object | Baseline | Current | Result |
+|---|---|---|---|
+| Brevo Campaign 40 (Issue 011) | `modifiedAt` 2026-09-08T19:21:00-04:00 | identical, still `queued` for Sep 14 | **UNTOUCHED** |
+| Brevo Template 39 | `modifiedAt` 2026-09-09T16:21:13Z | identical; still holds the Issue 011 CTA | **UNTOUCHED** |
+| Buffer Issue 011 objects | 25 scheduled Sep 14–18 | unchanged | **UNTOUCHED** |
+| Issue 012 approved assets | 25 canonical SHA-256 | unchanged in repo and byte-identical on WordPress | **UNTOUCHED** |
+| Issue 012 locked editorial copy | committed | unchanged | **UNTOUCHED** |
+
+## Stage G — Receipt
+
+This record. Object IDs, URLs, timestamps, and verification results persisted.
+**No credentials, tokens, or PII recorded.**
+
+## Dependencies — all closed
+
+| Dependency | Status |
+|---|---|
+| WordPress multipart-upload residual | **CLOSED** — first upload HTTP 201; 25/25 succeeded |
+| Brevo renewal past 2026-09-20 | **CLOSED** — Founder confirmed: Starter, monthly, 40,000/month, renews Sep 20 1:31 PM ET |
+| Feed caption interpretation | **CLOSED** — Founder approved Reading B; applied to all 10 Feed objects |
+
+## Final confirmations
+
+| | |
+|---|---|
+| Approved assets regenerated/resized/recompressed/renamed | **NO** — 25/25 byte-identical |
+| Approved editorial copy rewritten or paraphrased | **NO** |
+| Issue 011 objects modified | **NO** |
+| Brevo Template 39 modified | **NO** |
+| Brevo Campaign 40 modified | **NO** |
+| Additional campaigns created | **NO** — exactly one (41) |
+| Buffer objects modified after creation | **NO** |
+| Anything published publicly yet | **NO** — all objects future-dated/queued for Sep 21–25 |
+
+**ISSUE 012 QUEUED AND VERIFIED — 51/51.**
