@@ -56,12 +56,16 @@ external state and access limitations. It is not production authority.
 
 ## Access preflight results
 
-| Platform | Result | Evidence |
-|---|---|---|
-| WordPress — taoclinicaltouch.com | **BLOCKED — no write credential** | Site HTTP 200; `/wp-json/` HTTP 200; `/wp-json/wp/v2/users/me` **HTTP 401** |
-| WordPress.com MCP | **BLOCKED — site not accessible** | `taoclinicaltouch.com` absent from the accessible-site list entirely |
-| Buffer | **BLOCKED — CLI not installed** | `buffer` not on PATH; the `buffer` skill invokes `!buffer context` |
-| Brevo | **AVAILABLE** | Account `drew@learn2tape.com`, org `69e660956a08aaef49055093` |
+**Historical — read every row with the supersession notice at the top of this file.**
+The "current status" column was added September 13, 2026 so no row can be read as current
+authority on its own.
+
+| Platform | Result (historical) | Evidence (historical) | Current status |
+|---|---|---|---|
+| WordPress — taoclinicaltouch.com | **BLOCKED — no write credential** | Site HTTP 200; `/wp-json/` HTTP 200; `/wp-json/wp/v2/users/me` **HTTP 401** | **SUPERSEDED — VERIFIED.** App password provisioned; `/users/me?context=edit` → **200**, user ID 1, `administrator`, `upload_files: true` |
+| WordPress.com MCP | **BLOCKED — site not accessible** | `taoclinicaltouch.com` absent from the accessible-site list entirely | **STILL TRUE, AND IRRELEVANT.** The site is reached via its own REST API, not the WordPress.com MCP server |
+| Buffer | **BLOCKED — CLI not installed** | `buffer` not on PATH; the `buffer` skill invokes `!buffer context` | **SUPERSEDED AND WITHDRAWN.** Never a real blocker. Buffer executes via GraphQL; both Tao destinations connected; queue and single-object readback verified |
+| Brevo | **AVAILABLE** | Account `drew@learn2tape.com`, org `69e660956a08aaef49055093` | **STILL TRUE.** Plus: external WordPress-hosted media proven; no Brevo image upload required |
 
 ### WordPress detail
 
