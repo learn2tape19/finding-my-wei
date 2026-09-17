@@ -1,7 +1,7 @@
 # AREA Salon Studios — Status Record
 
 **Mission Expression:** Freedman-Foundry
-**Status:** Infrastructure build complete; occupancy-focused marketing planning underway; execution not yet launched
+**Status:** Infrastructure build complete; occupancy-first marketing approved — four-week rollout in active execution
 **Last Updated:** September 17, 2026
 **Authority:** Drew Freedman
 
@@ -9,25 +9,23 @@
 
 ## Current Phase
 
-AREA has moved from infrastructure build into occupancy-focused marketing **planning**. The infrastructure has been built and a direction has been proposed, but the four-week vacancy campaign has **not launched**. Execution is ready to begin following ownership alignment.
+AREA has moved from occupancy-focused marketing planning into **active execution**. Marc Harris and Ed Champy have confirmed alignment with the proposed occupancy-first direction, superseding the prior "working assumption / pending alignment" status. The four-week Instagram/Facebook rollout may now proceed using the approved AREA positioning around ownership, independence, profitability, and freedom.
 
-Accurate framing (Founder-confirmed, supersedes earlier "active execution" language):
+> Occupancy-first is approved for execution. The four-week vacancy campaign has moved from planning into active execution.
 
-> AREA has moved from infrastructure build into occupancy-focused marketing planning, with execution ready to begin following ownership alignment.
+## Vacancy Inventory (as of September 17, 2026 — corrected)
 
-## Vacancy Inventory (as of September 17, 2026)
-
-- **AREA 56:** 2 vacant suites
+- **AREA 56:** 1 vacant suite *(corrected from 2)*
 - **AREA 58:** 4 vacant suites — 2 hair, 2 medical/aesthetic
-- **Total:** 6 vacant suites — current marketing target
+- **Total:** 5 vacant suites — current marketing target *(corrected from 6)*
 
-## Working Assumption (pending alignment)
+## Occupancy-First Direction — Approved
 
-Drew's working assumption is that occupancy is the immediate marketing priority, ahead of broader brand/positioning work. This is **pending alignment** from Marc Harris, Ed Champy, and Mark Ohanian — not yet confirmed.
+Marc Harris and Ed Champy have confirmed alignment with occupancy as the immediate marketing priority, ahead of broader brand/positioning work. This supersedes the prior pending-alignment status recorded here on September 17.
 
-Proposed strategy: prioritize the six vacancies through consistent Instagram/Facebook content, introducing AREA's repositioned voice (ownership, independence, profitability, freedom) rather than generic "suite for rent" advertising. AREA 58 Membership is incorporated as a distinct offering. Conversion model: **Visibility → Inquiry → Tour → Tenant**. The initial four-week approach is designed to use existing AREA photography/assets (supplemented selectively) to avoid an ongoing production burden. Longer 3–6 month direction: location/tenant stories, business education, stronger local visibility, and selective paid promotion based on demonstrated response — not upfront paid spend.
+Approved strategy: prioritize the five current vacancies through consistent Instagram/Facebook content, introducing AREA's repositioned voice (ownership, independence, profitability, freedom) rather than generic "suite for rent" advertising. AREA 58 Membership is incorporated as a distinct offering. Primary conversion path: **Visibility → Inquiry → Tour → Tenant**. The four-week approach uses existing AREA photography/assets (supplemented selectively) to avoid an ongoing production burden. Longer 3–6 month direction: location/tenant stories, business education, stronger local visibility, and selective paid promotion based on demonstrated response — not upfront paid spend.
 
-**Status of alignment:** Marc Harris has been sent a flyby outlining the proposed occupancy-first direction, the completed backend work, the initial four-week approach, and the 3–6 month direction. Awaiting his (and Ed Champy's / Mark Ohanian's) response before the detailed rollout is locked.
+**Status of the detailed rollout:** the day-by-day four-week execution plan itself is not captured in this status record — see "Explicitly Not Captured Here" below.
 
 ## Digital / Lead Infrastructure
 
@@ -39,7 +37,7 @@ Proposed strategy: prioritize the six vacancies through consistent Instagram/Fac
 
 ## Known Gap — Lead Automation (unresolved)
 
-Squarespace → Zapier → Google Sheets lead automation has been configured and tested successfully once, but is **not production-stable**: a subsequent live AREA 58 submission did not appear in the sheet. Do not treat this pipeline as reliable until validated. Historical/recent qualified leads are being manually consolidated into the tracker in the meantime. This is the highest-priority open risk given a marketing push is about to start driving inquiries into this pipeline.
+Squarespace → Zapier → Google Sheets lead automation has been configured and tested successfully once, but is **not production-stable**: a subsequent live AREA 58 submission did not appear in the sheet. Do not treat this pipeline as reliable until validated. Historical/recent qualified leads are being manually consolidated into the tracker in the meantime. This is the highest-priority open risk given a marketing push is now actively driving inquiries into this pipeline.
 
 ## Known Issue — Sitemap (monitor, not resolved)
 
@@ -47,4 +45,4 @@ Squarespace Support escalated AREA's sitemap-update problem to engineering and a
 
 ## Explicitly Not Captured Here
 
-The detailed 4-week marketing rollout plan is still being built and is pending Marc/Ed/Mark alignment. It will be institutionalized as its own decision/execution record once locked. This status record should not be read as that plan.
+The detailed day-by-day four-week marketing rollout plan (specific post calendar, copy, assets) is not captured in this status record. Occupancy-first is now approved and execution is active per the sections above, but the granular execution plan itself should be institutionalized as its own decision/execution record when available.
