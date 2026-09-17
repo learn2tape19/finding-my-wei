@@ -63,6 +63,19 @@ This map honors those relationships and commits to partnerships that advance the
 
 ---
 
+# Educational Adoption Signals (Early Stage)
+
+Tracked separately from Primary Collaborators. These are readers or educators whose response signals potential curriculum adoption, not yet a formal partnership.
+
+## Shannon Johnson
+**Signal date:** September 12, 2026 (unsolicited email)
+**Signal:** Stated that *The Tao of Clinical Touch* reflects what she teaches and that she intends to require it for her students.
+**Classification:** Early educational/curriculum-adoption signal — distinct from general reader testimonial.
+**Status:** Has received an initial response from Drew. No formal partnership yet.
+**Why it matters:** A stated intent to require the book for students is a stronger signal than praise alone, and speaks directly to the Educator Networks / School Partnerships gap identified below.
+
+---
+
 # Research Partners
 
 **University Partners** — Methodology, IRB, publishing, funding  
@@ -138,4 +151,3 @@ Through shared commitment to the mission.
 
 **Governed By:** TAO_DOMAIN.md (Mission, Pillars, Research Agenda)  
 **Complements:** TAO_CE_CURRICULUM.md, TAO_MOVEMENT_STRATEGY.md
-
