@@ -6,6 +6,8 @@
 **Scope:** AREA 56 @ The Factory · AREA 58 (58 Kent St) · The Salons at Area 129 · The Salons at Area 207
 **Out of scope:** 80 Langley Road (not touched, not referenced below)
 
+> **Superseded where results differ — see `GBP_EXECUTION_RESULT_2026-09-17.md`.** This document was prepared before any live GBP access existed. Live execution on 2026-09-17 applied, modified, or overrode several of the recommendations below (category selection, public hours, the AREA 129 website destination, and more). Treat this file as historical preparation context; the execution-result record is the current source of truth for what was actually applied to each profile.
+
 ---
 
 ## 0. Access Status (read before using this sheet)
