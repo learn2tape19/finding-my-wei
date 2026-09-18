@@ -162,12 +162,14 @@ and cannot trip it.
    environment. Stage B cannot begin without them. **This is the binding blocker.**
 2. **Canonical slug** — `issue-013-continuity` proposed by pattern from `issue-012-agency`.
    Confirmed free on the live site; not yet Founder-confirmed.
-3. **Recipient reconciliation** — doctrine (`TAO_PUBLISHING_EXECUTION_DOCTRINE.md` §6) names list
-   **64**; Issue 012's verified successful configuration used **22 lists** `[2,5,6,7,8,10,44-59]`
-   (Campaign 41, est. reach 11,295, matching Campaigns 36 and 40). Per the decision above, the
-   *actual successful Issue 012 configuration* is the reconciliation target, not the doctrine line.
-   Doctrine §6 should be corrected under its own change-control process.
+3. ~~**Recipient reconciliation**~~ — **RESOLVED September 18, 2026.** Issue 013's Brevo recipient
+   configuration is **list 64 only**, by explicit double opt-in. The NCB acquisition base
+   (`2,5,6,7,8,10,44-59`) is placed outside the Tao publication architecture. See
+   `07_MARKETING/DECISIONS/2026-09-18_TAO_AUDIENCE_PERMISSION_ARCHITECTURE.md`. Doctrine §6
+   corrected at v1.1/v1.2. **List 64's size at send time is the readership**; a small confirmed
+   audience is the intended outcome, not a shortfall.
 4. **Brevo plan reset** — confirm renewal and send-credit eligibility after September 20, 2026.
+   Credit consumption is prohibited before that reset.
 5. **Root duplicate housekeeping** — 10 byte-identical `ISSUE-013_*.png` strays at repository root
    from commit `95d38b1` ("Add files via upload"). Not canonical. Left in place; Issue 012 cleaned
    an equivalent condition at `b5c695f`.

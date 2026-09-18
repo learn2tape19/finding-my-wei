@@ -46,6 +46,7 @@ Every link is proven in production, not inferred:
 | WordPress → public HTTPS | Canonical repo SHA-256 == anonymously retrieved SHA-256, byte-identical, no re-encode |
 | Public HTTPS → Buffer | 25 of 25 scheduled Tao objects reference `taoclinicaltouch.com/wp-content/` media |
 | Public HTTPS → Brevo | Campaign 36 (sent) carried a raw WordPress `<img src>` with `inlineImageActivation: false`; 11,341 delivered |
+| Metric interpretation | Per-list `campaignStats` rows are **not** disjoint; they must never be summed. See §6 *Metric interpretation*. |
 | Independent readback | Buffer `post(input:{id})` single-object query reconciles destination, time, and media |
 
 ---
@@ -249,8 +250,12 @@ Editing it in place would also mutate the object Issue 011's queued campaign was
 
 Campaign 36 (Issue 008, status `sent`) carried a raw WordPress `<img src>` with
 `inlineImageActivation: false`. Brevo stored and delivered the external URL without proxying or
-inlining it: 11,341 delivered, 53.24% open rate. No Brevo image-upload capability is required by
-this architecture.
+inlining it: **11,341 delivered**. No Brevo image-upload capability is required by this
+architecture.
+
+The delivery figure is the load-bearing evidence here. Campaign 36's reported **53.28% open rate
+is not evidence of engagement** and must not be cited as a performance benchmark — see §6
+*Metric interpretation*.
 
 ### Sender and recipients
 
@@ -291,6 +296,39 @@ recipient set for a new issue is a STOP condition pending that decision.
 
 List 64 is **not retired.** It remains the intended destination for publication opt-ins under the
 signup infrastructure standard; it is simply not yet a viable send target.
+
+### Metric interpretation — verified September 18, 2026
+
+**Per-list `campaignStats` rows are attributions of the same send events, not a partition.** A
+contact on N of a campaign's lists is counted in N rows. Brevo deduplicates recipients at send;
+the per-list breakdown does not. **Summing per-list fields across overlapping lists is invalid.**
+
+Use `globalStats`, which is deduplicated and matches the Brevo UI. It is returned only when
+`statistics=globalStats` is requested explicitly; otherwise it comes back zeroed. `statsByDomain`
+is also a true partition (one address, one domain).
+
+Verified: contacts on two campaign lists show exactly one `messagesSent` and one `delivered` event
+per campaign. **No duplicate delivery has ever occurred.** Summed per-list totals overstated
+Issues 010/011 by ~1.9x.
+
+#### Open rates are not comparable across the Tao issue series
+
+| Issue | Reported open rate | Trackable rate | uniqueViews − (trackable + AppleMPP) |
+|---|---:|---:|---:|
+| 007 | 48.42% | 0.43% | **+5,209 unexplained** |
+| 008 | 53.28% | 0.74% | **+5,597 unexplained** |
+| 010 | 0.14% | 0.14% | 0 |
+| 011 | 3.23% | 0.66% | −2 |
+
+For Issues 010 and 011, `uniqueViews` equals `trackable + appleMppOpens` exactly. For 007 and 008
+it exceeds that sum by over five thousand, and exceeds the sum of the campaign's own per-list rows
+by 6–7x — impossible for a deduplicated count. Those opens are machine pre-fetch and scanner
+traffic against a cold acquired list, not human reads.
+
+**`trackableViewsRate` is the reliable engagement signal**: 0.43% / 0.74% / 0.14% / 0.66% across
+the series. Click rates corroborate it at 0.26–0.37%.
+
+Do not set expectations, compare issues, or evaluate audiences on `opensRate`.
 
 ### Controlled-mutation boundary
 
@@ -391,6 +429,23 @@ When a Founder decision changes a rule here:
 ---
 
 ## Revision history
+
+- **v1.2 — September 18, 2026** — **§6 metric-interpretation correction, and audience decision
+  recorded (change control).** *Prior state:* §1 and §6 cited Campaign 36 as "11,341 delivered,
+  53.24% open rate"; the adapter repeated it. Nothing warned against summing per-list
+  `campaignStats`. *Evidence:* per-contact readback proved contacts on two campaign lists receive
+  exactly one send and one delivery — no duplicate delivery has ever occurred — so per-list rows
+  are attributions, not a partition, and summing them overstated Issues 010/011 by ~1.9x.
+  Campaign 36's reported open rate is genuine Brevo output but is not engagement: its
+  `uniqueViews` exceed `trackable + appleMppOpens` by 5,597 and exceed the sum of its own per-list
+  rows by 7x. *Corrected state:* the open-rate citation is removed from both files, the delivery
+  evidence is preserved, and a **Metric interpretation** subsection records the partition rule,
+  the `statistics=globalStats` requirement, and `trackableViewsRate` as the reliable signal.
+  *Audience decision:* recipient configuration, open since v1.1, is resolved for the Tao
+  publication — see `07_MARKETING/DECISIONS/2026-09-18_TAO_AUDIENCE_PERMISSION_ARCHITECTURE.md`.
+  The NCB acquisition base is placed outside the Tao publication architecture pending results of a
+  Learn2Tape-branded invitation to lists 11 and 65. List 64 becomes the publication destination by
+  explicit opt-in only.
 
 - **v1.1 — September 18, 2026** — **§6 recipient-configuration correction (change control).**
   *Prior state:* §6 listed `Publication list | ID 64 — "Tao — Publication Subscribers"` as the

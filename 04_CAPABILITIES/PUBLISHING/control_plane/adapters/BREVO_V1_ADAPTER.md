@@ -45,7 +45,13 @@ proxying, rewriting, or inlining it.
 ### Precedent
 
 Campaign **36** (Issue 008, status `sent`, 2026-08-26) used exactly this pattern.
-Result: **11,341 delivered**, 11,467 sent, **53.24% open rate**, 13 hard bounces, 1 complaint.
+Result: **11,341 delivered**, 11,467 sent, 13 hard bounces, 1 complaint.
+
+The delivery figure is the evidence. Campaign 36's reported 53.28% open rate is **not** an
+engagement benchmark — its `uniqueViews` exceed `trackable + appleMppOpens` by 5,597 and exceed
+the sum of its own per-list rows by 7x. Use `trackableViewsRate` (0.74% here). Never sum per-list
+`campaignStats`; request `statistics=globalStats` explicitly for deduplicated figures. See
+`TAO_PUBLISHING_EXECUTION_DOCTRINE.md` §6 *Metric interpretation*.
 
 This retires the former belief that a Brevo image-upload capability was required for Tao email
 execution. It was not, and is not.
