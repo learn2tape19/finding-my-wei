@@ -200,6 +200,10 @@ def locate_asset(issue_dir, day, filename):
     candidates = [
         issue_dir / "APPROVED_ASSETS" / day / filename,
         issue_dir / "APPROVED_ASSETS" / filename,
+        # Issue 013 canonical architecture: approved assets live directly in the
+        # issue root. Founder-locked; assets are not moved to satisfy the older
+        # APPROVED_ASSETS/ convention.
+        issue_dir / filename,
     ]
     for p in candidates:
         if p.exists():

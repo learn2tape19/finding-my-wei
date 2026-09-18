@@ -6,7 +6,7 @@
     "filename": "ISSUE-013_MONDAY_FEED_1080x1350.png",
     "intended_dimensions": "1080x1350",
     "actual_binary_dimensions": "1122x1402",
-    "sha256": "077ac177fff0a3d2cb160b339025d7c8b8bcbc7ea8127f2b2e086372f5896778"
+    "sha256": "07f3b2b850c4c8c6935346c4d92c45a3b5d85930e019e754c8d06f63e57eb281"
   },
   {
     "day": "MONDAY",
@@ -14,8 +14,8 @@
     "source_turn_index": 217,
     "filename": "ISSUE-013_MONDAY_LANDSCAPE_1200x628.png",
     "intended_dimensions": "1200x628",
-    "actual_binary_dimensions": "1732x908",
-    "sha256": "75adf5a9a0d6142cc7af8c670db9632d9a5882239b1b271dd64f6c2a4288e996"
+    "actual_binary_dimensions": "1733x907",
+    "sha256": "f62f62c42c8016315ce917256fad96d0ce5ede54eb7a3a517032d4999afe155a"
   },
   {
     "day": "MONDAY",
@@ -24,7 +24,7 @@
     "filename": "ISSUE-013_MONDAY_STORY-01_1080x1920.png",
     "intended_dimensions": "1080x1920",
     "actual_binary_dimensions": "941x1672",
-    "sha256": "6684201846fd416192bfad81ffc105a89bd64503b1e9f70bd819c3fe76ef4273"
+    "sha256": "67340bb4d291786bb1794bd08270f7a171df2de17f1115e2445551618fe98ad4"
   },
   {
     "day": "MONDAY",
@@ -32,8 +32,8 @@
     "source_turn_index": 221,
     "filename": "ISSUE-013_MONDAY_STORY-02_1080x1920.png",
     "intended_dimensions": "1080x1920",
-    "actual_binary_dimensions": "941x1672",
-    "sha256": "18c929df3b01412d0fa8eae67f76002a7ec4290e1a53886c8a0fbd05362aeff0"
+    "actual_binary_dimensions": "941x1671",
+    "sha256": "6167be6b790645201abf893649ad7f01371af0a270554a6bd78228b9f0e64bd7"
   },
   {
     "day": "MONDAY",
@@ -42,7 +42,7 @@
     "filename": "ISSUE-013_MONDAY_STORY-03_1080x1920.png",
     "intended_dimensions": "1080x1920",
     "actual_binary_dimensions": "941x1672",
-    "sha256": "154817279e004bfaf96ee0eb28fb711d308504b5aa61131de5ffa658182377c9"
+    "sha256": "392e79f88fe33b1fb2610ded3ff7fe48357bbb771eaf4fef562b78503c5ba816"
   },
   {
     "day": "TUESDAY",
