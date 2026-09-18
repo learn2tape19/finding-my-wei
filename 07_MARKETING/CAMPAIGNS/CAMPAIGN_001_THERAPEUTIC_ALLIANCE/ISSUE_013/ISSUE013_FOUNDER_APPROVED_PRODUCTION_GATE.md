@@ -7,18 +7,23 @@
 **Theme:** CONTINUITY
 **Weekly movement:** Experience → Familiarity → Reflection → Integration → Ownership
 
-## Non-negotiable production architecture
+## Canonical asset location — LOCKED
+
+The 25 Founder-approved PNG production assets are stored **directly in this `ISSUE_013/` directory**. This root location is intentional and canonical for Issue 013. **Do not require, create, or move assets into an `APPROVED_ASSETS/` subdirectory.**
+
+Canonical asset rule:
+`07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_013/ISSUE-013_*.png`
 
 Five visual masters per day, 25 total per week:
+1. Feed — nominal production role 1080×1350
+2. Landscape — nominal production role 1200×628
+3. Story 1 — nominal production role 1080×1920
+4. Story 2 — nominal production role 1080×1920
+5. Story 3 — nominal production role 1080×1920
 
-1. Feed — 1080×1350
-2. Landscape — 1200×628
-3. Story 1 — 1080×1920
-4. Story 2 — 1080×1920
-5. Story 3 — 1080×1920
+**Binary preservation lock:** These are the Founder-approved originals. Do not crop, resize, recompress, regenerate, substitute, or otherwise modify them merely to force literal pixel dimensions. Filename dimension labels identify the approved production role. Record actual binary dimensions and checksums during validation; any mismatch between nominal role and native binary dimensions is informational, not permission to alter the asset.
 
-Landscape is the shared Facebook/blog/email/LinkedIn header role.
-Stories are sequential narrative frames, not resized Feed repeats.
+Landscape is the shared Facebook/blog/email/LinkedIn header role. Stories are sequential narrative frames, not resized Feed repeats.
 
 ### Brand lock
 - Masthead: **THE TAO OF CLINICAL TOUCH**
@@ -266,9 +271,7 @@ It’s allowing what became possible to become part of a life.
 Claude’s role begins **after** this Founder-approved writing and visual direction.
 
 Claude may:
-- create the canonical Issue 013 folder/package
-- ingest the approved 25 visual assets once they are supplied to the repo
-- normalize filenames without altering images
+- use the 25 approved PNGs located directly in the canonical Issue 013 root
 - create manifests and checksums
 - assemble the canonical blog article, social captions, email copy, schedule, and execution receipt from Founder-approved source material
 - apply the existing Finding My Wei publishing doctrine and Issue 012 execution order
@@ -280,16 +283,17 @@ Claude may **not**:
 - invent replacement headlines or supporting lines
 - reinterpret the weekly arc
 - change image content, crop, resize, recompress, regenerate, or substitute Founder-approved visuals without explicit Founder approval
+- move or rename the approved root PNGs merely to satisfy an obsolete directory assumption
 - reuse stale Issue 011/012 assumptions when Issue 013 source material differs
 - modify prior issues
 
 Before execution, Claude must confirm:
 1. Issue 013 source package exists at canonical path
-2. all 25 approved assets are present
-3. dimensions are exactly 5×1080×1350, 5×1200×628, 15×1080×1920
+2. exactly 25 `ISSUE-013_*.png` approved assets are present directly in the Issue 013 root: 5 Feed, 5 Landscape, 15 Story
+3. actual binary dimensions are recorded without modifying the Founder-approved originals; filename dimensions identify production roles
 4. image checksums are recorded
 5. no branding drift: The Tao of Clinical Touch / taoclinicaltouch.com
 6. copy matches this gate exactly where locked
 7. scheduling follows the institutional sequence: repository → WordPress media → public HTTPS checksum → WordPress article → authenticated readback → Buffer → independent readback → Brevo → independent verification → schedule reconciliation → execution receipt
 
-**No publication execution until all 25 approved assets have been placed in the canonical APPROVED_ASSETS directory and validated.**
+**No publication execution until the 25 canonical root PNG assets have been counted, classified, checksummed, and validated.**
