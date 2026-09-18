@@ -14,10 +14,15 @@
 | Plan | Starter — Marketing, paid, active |
 | Sender | ID **3** — "Drew Freedman \| Tao of Clinical Touch" <drew@mail.taoclinicaltouch.com> |
 | Reply-to | drew@learn2tape.com |
-| Publication list | ID **64** — "Tao — Publication Subscribers" |
 
 Sender ID and recipient lists must be asserted against the approved issue plan before scheduling.
 A mismatch is a STOP condition.
+
+**Recipient configuration is an open Founder decision.** List 64's actual Brevo name is
+"Tao subscriber list", and it holds 1 subscriber with no campaign history. Every Tao issue send to
+date used 22 NCB acquisition lists `[2,5,6,7,8,10,44-59]`, which is historical behavior rather
+than established intent. See `TAO_PUBLISHING_EXECUTION_DOCTRINE.md` §6 for the verified state and
+the conflicting Founder records. Do not assert a recipient set until the Founder resolves it.
 
 ---
 

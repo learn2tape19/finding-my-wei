@@ -258,9 +258,39 @@ this architecture.
 |---|---|
 | Sender | ID **3** — "Drew Freedman \| Tao of Clinical Touch" <drew@mail.taoclinicaltouch.com> |
 | Reply-to | drew@learn2tape.com |
-| Publication list | ID 64 — "Tao — Publication Subscribers" |
 
-Sender and recipient list must be asserted against the approved issue plan before scheduling.
+Sender and recipient lists must be asserted against the approved issue plan before scheduling.
+
+**Recipient configuration is an open Founder decision, not settled doctrine.**
+
+#### Recipient configuration — verified state, September 18, 2026
+
+| | |
+|---|---|
+| List **64** — actual Brevo name | **"Tao subscriber list"** |
+| List 64 — state | created 2026-08-23, **1 subscriber**, **no campaign history** |
+| Configuration used by every Tao issue send to date | **22 lists** `[2,5,6,7,8,10,44-59]` — campaigns 35, 36, 38, 40, 41 (Issues 007, 008, 010, 011, 012); byte-identical in all five |
+| What those 22 lists are | **NCB licensed-massage-therapist acquisition lists** — cold-outreach and warm-up batches, not publication opt-ins |
+
+**That configuration is historical production behavior, not established intent.** Two
+Founder-approved records point the other way, and nothing on record supersedes either:
+
+- `07_MARKETING/STANDARDS/TAO_PUBLICATION_SIGNUP_INFRASTRUCTURE.md` — the publication requires a
+  dedicated double-opt-in subscriber list, and states: *"Do not mix publication subscribers into
+  unrelated marketing/customer lists unless Founder explicitly approves."*
+- `DECISION_INDEX.md` → Email & Marketing → *NCB Campaign Brand* (April 2026) — *"Send as
+  Learn2Tape, not Tao (list knows Drew through CE relationship)"*; *"Tao is new; L2T relationship
+  is 15+ years. Use what's trusted."*
+
+A further anomaly: list **9** (`NCB_MA_Batch_Day5`, 250 contacts) belongs to the documented
+six-day MA warm-up series but is absent from all five sends. The 22-list set is therefore not a
+designed audience boundary.
+
+**Until the Founder resolves this, treat neither configuration as canonical.** Asserting a
+recipient set for a new issue is a STOP condition pending that decision.
+
+List 64 is **not retired.** It remains the intended destination for publication opt-ins under the
+signup infrastructure standard; it is simply not yet a viable send target.
 
 ### Controlled-mutation boundary
 
@@ -361,6 +391,24 @@ When a Founder decision changes a rule here:
 ---
 
 ## Revision history
+
+- **v1.1 — September 18, 2026** — **§6 recipient-configuration correction (change control).**
+  *Prior state:* §6 listed `Publication list | ID 64 — "Tao — Publication Subscribers"` as the
+  recipient configuration. *Evidence:* read-only Brevo verification established list 64's actual
+  name is **"Tao subscriber list"**, created 2026-08-23, with **1 subscriber** and **no campaign
+  history**; campaigns 35/36/38/40/41 (Issues 007/008/010/011/012) each used an identical
+  **22-list** set `[2,5,6,7,8,10,44-59]`, all of which are **NCB licensed-MT acquisition lists**;
+  list 9 belongs to the documented warm-up series yet appears in none of the sends. *Reason:* the
+  prior entry was factually wrong on both the list name and its role, and the 22-list set could
+  not be promoted in its place because two standing Founder-approved records —
+  `TAO_PUBLICATION_SIGNUP_INFRASTRUCTURE.md` ("do not mix publication subscribers into unrelated
+  marketing/customer lists") and `DECISION_INDEX.md` *NCB Campaign Brand*, April 2026 ("send as
+  Learn2Tape, not Tao") — point the other way, and nothing on record supersedes either.
+  *Corrected state:* the false publication-list row is removed; the verified state of both
+  candidate configurations is recorded; recipient configuration is marked an **open Founder
+  decision** and a STOP condition pending resolution. List 64 is **not retired**. Authority was
+  deliberately **not** inferred from repetition. Same correction applied to
+  `control_plane/adapters/BREVO_V1_ADAPTER.md`. No other doctrine altered.
 
 - **v1.0 — September 13, 2026** — Established from Gates 1–4 live infrastructure verification.
   Supersedes Buffer CLI execution doctrine. Records WordPress REST authentication, the
