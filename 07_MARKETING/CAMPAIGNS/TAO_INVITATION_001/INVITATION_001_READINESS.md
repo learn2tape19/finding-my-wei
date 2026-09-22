@@ -45,6 +45,7 @@ membership.
 | Analytics events | **READY** — all four present, PII-free |
 | `l2t_invitation` destination | **READY** — `/join/` live (page 1644), source verified |
 | `SIGNUP_SOURCE` attribution | **READY** — Gate C closed, see `GATE_C_ATTRIBUTION_EVIDENCE.md` |
+| Conversion-path copy + baseline | **READY** — locked, see `INVITATION_001_CONVERSION_PATH_BASELINE.md` |
 | Brevo send credits | **BLOCKED** — 5,754 credits, plan period ends 2026-09-20; consumption prohibited before reset |
 | Campaign creation | **NOT AUTHORIZED** in this gate |
 
@@ -65,10 +66,10 @@ membership.
 - **Test-artifact cleanup.** Contacts 12915 and 12916 are Gate B/C test records inside List 64 and
   will otherwise inflate the Invitation 001 baseline. Deletion is manual — this session's Brevo
   connector has no contact-delete capability. Target post-cleanup List 64 baseline: **2**.
-- **`/join/` post-submit copy.** The success panel reads "One more step" followed by "The next
-  issue … will come to you directly," and never instructs the reader to check their inbox and
-  confirm. Closed at Gate B by Founder direction; recorded here because it sits directly on the
-  conversion path this attribution now measures.
+- ~~**`/join/` post-submit copy.**~~ **RESOLVED** September 22, 2026. The success panel now reads
+  "One more step. / Check your inbox and confirm your subscription to *The Tao of Clinical Touch*.
+  Once confirmed, the next issue will come to you directly." Verified live with the functional
+  surface unchanged. See `INVITATION_001_CONVERSION_PATH_BASELINE.md`.
 
 ## Funnel baseline — to be established, not forecast
 
