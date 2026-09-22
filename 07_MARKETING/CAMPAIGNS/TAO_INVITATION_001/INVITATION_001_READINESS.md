@@ -47,7 +47,7 @@ membership.
 | `SIGNUP_SOURCE` attribution | **READY** — Gate C closed, see `GATE_C_ATTRIBUTION_EVIDENCE.md` |
 | Conversion-path copy + baseline | **READY** — locked, see `INVITATION_001_CONVERSION_PATH_BASELINE.md` |
 | Brevo send credits | **BLOCKED** — 5,754 credits, plan period ends 2026-09-20; consumption prohibited before reset |
-| Campaign creation | **NOT AUTHORIZED** in this gate |
+| Campaign creation | **DONE** — Brevo campaign **42**, `draft`, QA PASS. See `INVITATION_001_CAMPAIGN_OBJECT_QA.md` |
 
 ## Blockers
 
