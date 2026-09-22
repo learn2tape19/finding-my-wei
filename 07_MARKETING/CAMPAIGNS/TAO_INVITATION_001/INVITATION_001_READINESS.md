@@ -43,25 +43,32 @@ membership.
 | Destination list **64** | **READY** — DOI flow proven end to end (`DOUBLE_OPT-IN = 1`) |
 | Confirmation page `/subscription-confirmed/` | **READY** — page 1425, HTTP 200 |
 | Analytics events | **READY** — all four present, PII-free |
-| `l2t_invitation` destination | **BLOCKED** — see `L2T_INVITATION_SOURCE_IMPLEMENTATION.md` |
+| `l2t_invitation` destination | **READY** — `/join/` live (page 1644), source verified |
+| `SIGNUP_SOURCE` attribution | **READY** — Gate C closed, see `GATE_C_ATTRIBUTION_EVIDENCE.md` |
 | Brevo send credits | **BLOCKED** — 5,754 credits, plan period ends 2026-09-20; consumption prohibited before reset |
 | Campaign creation | **NOT AUTHORIZED** in this gate |
 
 ## Blockers
 
-1. **`l2t_invitation` destination does not exist.** The component reads its source only from
-   `data-signup-source` on the root element; it has no query-parameter support. One new placement
-   is required. Credentials alone do not unblock it — Elementor renders from `_elementor_data`,
-   not `post_content`, so REST page creation would not render. Recommended path: Founder creates
-   the page in the Elementor UI, pastes the preserved v1.0.0 source, changes one attribute.
-   Full plan and verification checklist in `L2T_INVITATION_SOURCE_IMPLEMENTATION.md`.
+1. ~~**`l2t_invitation` destination does not exist.**~~ **RESOLVED.** `/join/` published as page
+   1644 carrying `data-signup-source="l2t_invitation"`, verified live.
 
-2. **Brevo plan reset.** Confirm renewal and replenished credits after **2026-09-20**. 849
-   mailable is far below the 5,754 remaining, so credits are not a volume constraint for this
-   campaign — but the Founder prohibition on consumption before the reset stands regardless.
+2. ~~**Brevo plan reset.**~~ **RESOLVED.** The 2026-09-20 boundary has passed. 849 mailable sits
+   far below available credits; credits are not a volume constraint for this campaign.
 
-Neither blocker may be worked around. In particular, the absence of WordPress credentials is not
-permission to attribute Invitation 001 to an existing source.
+3. ~~**Attribution does not persist to Brevo.**~~ **RESOLVED at Gate C**, September 22, 2026.
+   Confirmed opt-ins now carry `SIGNUP_SOURCE`, and existing provenance cannot be overwritten.
+   Full evidence in `GATE_C_ATTRIBUTION_EVIDENCE.md`.
+
+### Outstanding before release
+
+- **Test-artifact cleanup.** Contacts 12915 and 12916 are Gate B/C test records inside List 64 and
+  will otherwise inflate the Invitation 001 baseline. Deletion is manual — this session's Brevo
+  connector has no contact-delete capability. Target post-cleanup List 64 baseline: **2**.
+- **`/join/` post-submit copy.** The success panel reads "One more step" followed by "The next
+  issue … will come to you directly," and never instructs the reader to check their inbox and
+  confirm. Closed at Gate B by Founder direction; recorded here because it sits directly on the
+  conversion path this attribution now measures.
 
 ## Funnel baseline — to be established, not forecast
 
@@ -93,13 +100,10 @@ readership.
 
 ## Next production gate required
 
-**Gate A — `l2t_invitation` destination implementation and verification.**
+**Gate D — Invitation 001 campaign creation.**
 
-Founder creates the placement (or authorizes a credentialed path), then the seven verification
-steps in `L2T_INVITATION_SOURCE_IMPLEMENTATION.md` are executed, including a single controlled
-end-to-end test submission — which needs its own authorization, since it creates a Brevo contact
-and sends a DOI email.
+Prerequisites now satisfied: copy locked, sender locked (ID 2), audience reconciled (919 unique /
+849 mailable, overlap 0), destination live, attribution proven, plan boundary passed.
 
-Only after Gate A closes, and after the September 20 plan reset is confirmed, may a later gate
-authorize **creation** of the Invitation 001 campaign object. Sending remains a separate
-authorization after that.
+Remaining before Gate D opens: test-artifact cleanup, and Founder authorization to create the
+campaign object. Sending remains a separate authorization after creation.
