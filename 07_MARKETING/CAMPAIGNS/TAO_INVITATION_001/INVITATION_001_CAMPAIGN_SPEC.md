@@ -15,8 +15,8 @@ No Brevo object exists for this campaign. Nothing has been created in any platfo
 | Campaign name | `Tao Invitation 001 — Join The Tao of Clinical Touch` |
 | Sender | **ID 2 — `Drew Freedman \| Learn2Tape <drew@mail.learn2tape.com>`** — Founder-locked |
 | Reply-to | `drew@learn2tape.com` |
-| Subject | `I've been working on something beyond technique.` |
-| Preheader | `This time, I'm asking you to opt in.` |
+| Subject | `An invitation to stay in the conversation` |
+| Preheader | `The Tao of Clinical Touch is becoming an ongoing publication. You're invited to join it.` |
 | Recipient lists | **11** and **65** only |
 | Exclusion lists | none required (overlap verified 0) |
 | Unique recipients | **919** |

@@ -10,11 +10,17 @@ Claude may not rewrite, paraphrase, reorder, retitle, or "improve" any text belo
 
 ## Subject
 
-I've been working on something beyond technique.
+An invitation to stay in the conversation
 
 ## Preheader
 
-This time, I'm asking you to opt in.
+The Tao of Clinical Touch is becoming an ongoing publication. You're invited to join it.
+
+> **Superseded September 22, 2026.** The previously locked values were
+> subject *"I've been working on something beyond technique."* and preheader
+> *"This time, I'm asking you to opt in."* Both are replaced by Founder decision.
+> **Body copy is unchanged.** The line *"I've been working on something beyond technique."*
+> remains the opening sentence of the body; it is no longer the subject.
 
 ## Body
 

@@ -15,8 +15,8 @@ Campaign 41 untouched and still suspended.
 |---|---|---|
 | Sender | **ID 2** — `Drew Freedman \| Learn2Tape <drew@mail.learn2tape.com>` | **LOCKED** |
 | Reply-to | `drew@learn2tape.com` | LOCKED |
-| Subject | `I've been working on something beyond technique.` | LOCKED — verbatim |
-| Preheader | `This time, I'm asking you to opt in.` | LOCKED — verbatim |
+| Subject | `An invitation to stay in the conversation` | **LOCKED** — Founder-approved 2026-09-22, supersedes prior value |
+| Preheader | `The Tao of Clinical Touch is becoming an ongoing publication. You're invited to join it.` | **LOCKED** — Founder-approved 2026-09-22, supersedes prior value |
 | Body copy | `INVITATION_001_APPROVED_COPY.md` | LOCKED — 13/13 lines verified verbatim |
 | Audience | lists **11** + **65** only | LOCKED |
 | Unique recipients | **919** | verified |
