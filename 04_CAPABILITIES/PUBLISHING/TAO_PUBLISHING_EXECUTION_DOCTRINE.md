@@ -367,9 +367,22 @@ Consequences, binding:
 
 Both subdomains are Brevo-authenticated with `brevo1`/`brevo2` DKIM selectors resolving, a
 `brevo-code` verification record, and DMARC `p=none`. Neither carries an SPF record on the From
-domain; SPF therefore cannot align, and DMARC passes on DKIM alignment alone. This configuration
-is identical across both and is not by itself a deliverability defect — `mail.taoclinicaltouch.com`
-has delivered 132,009 messages on it.
+domain itself; SPF is evaluated against Brevo's Return-Path, and DMARC passes on DKIM alignment.
+
+**Observed results — Campaign 42 test message, message headers read September 23, 2026:**
+
+| | Result |
+|---|---|
+| SPF | **PASS** |
+| DKIM | **PASS** — signed by `mail.learn2tape.com` |
+| DMARC | **PASS** |
+
+DKIM signs with the From domain, so alignment holds and DMARC passes. **Authentication is
+verified and is not a live deliverability hypothesis for either identity.** Do not modify SPF,
+DKIM, DMARC or sender identity in response to placement problems; the cause lies elsewhere.
+
+The configuration is identical across both subdomains and is not a defect —
+`mail.taoclinicaltouch.com` has delivered 132,009 messages on it.
 
 ### Controlled-mutation boundary
 
@@ -480,6 +493,13 @@ When a Founder decision changes a rule here:
   sender 3 to List 64. Deliverability pressure on one identity is never grounds for borrowing the
   other's reputation. Records the DNS authentication state of both subdomains as verified
   September 22, 2026.
+
+- **v1.3.1 — September 23, 2026** — **Authentication results observed and recorded.** Campaign 42
+  test-message headers returned SPF **PASS**, DKIM **PASS** signed by `mail.learn2tape.com`, and
+  DMARC **PASS**. Supersedes the v1.3 statement that SPF "cannot align" — SPF is evaluated against
+  Brevo's Return-Path and passes, and DKIM signs with the From domain so DMARC aligns. Records
+  authentication as verified rather than inferred, and removes it as a live deliverability
+  hypothesis. No DNS, sender or campaign change made.
 
 - **v1.2 — September 18, 2026** — **§6 metric-interpretation correction, and audience decision
   recorded (change control).** *Prior state:* §1 and §6 cited Campaign 36 as "11,341 delivered,

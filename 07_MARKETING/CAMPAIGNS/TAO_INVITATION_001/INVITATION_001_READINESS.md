@@ -71,6 +71,38 @@ membership.
   Once confirmed, the next issue will come to you directly." Verified live with the functional
   surface unchanged. See `INVITATION_001_CONVERSION_PATH_BASELINE.md`.
 
+## Deliverability — Campaign 42
+
+**Authentication: VERIFIED PASS.** Headers from the Campaign 42 test message, read
+September 23, 2026:
+
+| | Result |
+|---|---|
+| SPF | **PASS** |
+| DKIM | **PASS** — signed by `mail.learn2tape.com` |
+| DMARC | **PASS** |
+
+Authentication is closed as a hypothesis. No DNS, SPF, DKIM, DMARC or sender change is to be made
+in response to placement outcomes.
+
+**Open:** the first Workspace test landed in Junk. Remaining hypotheses, in order of evidential
+support:
+
+1. **Sender-domain reputation** on `mail.learn2tape.com` — 11 sent campaigns totalling 6,272
+   messages, 10 of them cold outreach to acquired NCB lists; 3.05% bounce rate; 0.213% complaint
+   rate; dormant since 2026-07-23. Contrast `mail.taoclinicaltouch.com`: 133,947 sent, 1.68%
+   bounce, 0.070% complaints, weekly cadence.
+2. **Cross-domain link pattern** — sent from `learn2tape.com`, single link to `taoclinicaltouch.com`,
+   no aligned links. Every successful Tao send was self-aligned.
+3. **Mailbox-specific filtering** — first contact from this subdomain to that tenant.
+
+**Pending:** Founder-run seed tests to Gmail, Outlook and Yahoo via the Brevo UI. Three providers
+distinguish systemic placement failure from single-mailbox filtering. This session has no campaign
+test-send capability, so the seeds must be sent manually.
+
+Campaign 42 is **HELD** pending those results. It is not cleared for launch on the evidence
+available.
+
 ## Funnel baseline — to be established, not forecast
 
 Invitation 001 produces the first real measurement of this funnel. **No subscriber conversion
