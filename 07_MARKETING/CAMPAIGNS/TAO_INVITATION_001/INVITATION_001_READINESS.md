@@ -1,6 +1,6 @@
 # Invitation 001 — Readiness Package
 
-**Status:** **PREPARED. NOT CREATED. NOT SCHEDULED. NOT SENT.**
+**Status:** **SENT — Campaign 42, 2026-09-23T09:45:54-04:00.**
 **Gate date:** September 18, 2026
 **Authority:** `07_MARKETING/DECISIONS/2026-09-18_TAO_AUDIENCE_PERMISSION_ARCHITECTURE.md`
 
@@ -47,7 +47,9 @@ membership.
 | `SIGNUP_SOURCE` attribution | **READY** — Gate C closed, see `GATE_C_ATTRIBUTION_EVIDENCE.md` |
 | Conversion-path copy + baseline | **READY** — locked, see `INVITATION_001_CONVERSION_PATH_BASELINE.md` |
 | Brevo send credits | **BLOCKED** — 5,754 credits, plan period ends 2026-09-20; consumption prohibited before reset |
-| Campaign creation | **DONE** — Brevo campaign **42**, `draft`, QA PASS. See `INVITATION_001_CAMPAIGN_OBJECT_QA.md` |
+| Campaign creation | **DONE** — Brevo campaign **42**, QA PASS |
+| **Send** | **EXECUTED 2026-09-23T09:45:54-04:00** — see `INVITATION_001_SEND_RECEIPT.md` |
+| Monitoring baseline | **ESTABLISHED** — see `INVITATION_001_MONITORING_BASELINE.md` |
 
 ## Blockers
 
