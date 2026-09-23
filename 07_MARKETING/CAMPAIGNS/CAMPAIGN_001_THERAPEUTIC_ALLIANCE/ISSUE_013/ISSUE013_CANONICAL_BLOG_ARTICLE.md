@@ -5,123 +5,228 @@
 **Theme:** CONTINUITY
 **Weekly movement:** Experience → Familiarity → Reflection → Integration → Ownership
 **Slug:** `issue-013-continuity`
-**Status:** **ASSEMBLED FROM FOUNDER-APPROVED COPY — REQUIRES FOUNDER REVIEW BEFORE PUBLICATION**
-
----
-
-## Provenance — read this before publishing
-
-**Every sentence below is verbatim from `ISSUE013_FOUNDER_APPROVED_PRODUCTION_GATE.md`.** Nothing
-was rewritten, paraphrased, expanded, or invented. Section headings are the approved day headlines
-and theme names. Ordering follows the approved weekly movement.
-
-**Verified mechanically: 38 of 38 body paragraphs match the approved gate character-for-character**,
-including curly apostrophes, em-dashes and the gate's line breaking, which carries rhythm in this
-publication's style. Two approved headlines reused as in-body statements — `THEN THEY LEAVE.` and
-`IT’S NEW. SO OF COURSE IT FEELS DIFFERENT.` — retain their approved uppercase rather than being
-case-normalised into prose.
-
-**This is an assembly, not an essay.** Issue 012's canonical article was Founder-authored long-form
-prose with original connective writing and a personal clinical story. Issue 013's gate supplies
-per-day editorial copy for the visual assets, not a long-form article. The gate authorises Claude
-to *"assemble the canonical blog article… from Founder-approved source material"* and forbids
-inventing replacement lines — so this article contains only approved text, arranged.
-
-The consequence, stated plainly: it reads as a structured sequence of approved statements rather
-than as flowing prose. If you want Issue 013's article to match Issue 012's register, it needs
-connective writing only you can supply. **That is a Founder decision, not a production blocker** —
-this version is publishable as it stands.
+**Status:** **FOUNDER APPROVED — CANONICAL LONG-FORM ARTICLE**
 
 ---
 
 # Continuity
 
-The session is not the finish line. Something can change in treatment and still need life to reveal
-what becomes available from it.
+The session is not the finish line.
 
-## The Session Is Not the Finish Line
+That can be easy to forget.
 
-A change observed is real. But a change observed is not yet a change integrated.
+A client gets off the table and says, *“That feels different.”* They move the shoulder that was bothering them. Turn their head. Take a deeper breath. Maybe they reach toward the floor and discover something that wasn’t available an hour ago.
+
+We see it.
+
+They feel it.
 
 Something changed here.
 
-THEN THEY LEAVE.
+And there is value in recognizing that moment.
 
-The drive home.
-The desk tomorrow.
-The stairs.
+But a change observed is not yet a change integrated.
+
+Because then something important happens.
+
+**THEN THEY LEAVE.**
+
+The drive home.  
+The desk tomorrow.  
+The stairs.  
 The workout.
 
 Life adds variables the treatment room cannot.
 
 The session can create an experience. Life reveals what becomes available from it.
 
-The session creates an opening. Life determines what happens next. Our role is to set the
-conditions for that possibility.
+That distinction matters.
+
+Our work does not exist so that someone can move beautifully for thirty seconds beside the treatment table. The session creates an opening. What happens with that opening belongs to everything that comes afterward.
+
+Our role is to help create the conditions for that possibility.
+
+## The Session Is Not the Finish Line
+
+There was a time in my career when the immediate change carried enormous weight.
+
+Did the range of motion improve?
+
+Did the pain decrease?
+
+Did the tissue feel different?
+
+Could the client do the thing they couldn't do when they walked through the door?
+
+Those observations still matter. They give us information. They can tell us that something meaningful occurred during the encounter.
+
+But they don't tell us the whole story.
+
+The more interesting question often comes later.
+
+What happens when nobody is watching?
+
+Can they turn to back out of the driveway without thinking about their neck?
+
+Can they reach into the back seat?
+
+Can they get out of bed tomorrow morning and simply move?
+
+Can they return to the gym, the garden, the office, the instrument, the child they pick up from the floor?
+
+That's where the treatment begins meeting the person's actual life.
+
+A change observed is real.
+
+But the session is not the finish line.
+
+It may only be the first place the person experiences what is now possible.
 
 ## New Doesn’t Have to Mean Normal Yet
 
-New does not have to mean normal yet. A newly available movement may still feel unfamiliar.
+What becomes possible in the room still has to become recognizable outside it.
 
-Possibility may happen in a moment. Familiarity takes time.
+That takes time.
 
-Change can be available before it feels familiar. The nervous system needs time to make it home.
+A newly available movement may still feel unfamiliar.
 
-IT’S NEW. SO OF COURSE IT FEELS DIFFERENT.
+**IT’S NEW. SO OF COURSE IT FEELS DIFFERENT.**
 
-Your nervous system is noticing. That’s a good sign.
+We sometimes interpret unfamiliarity as evidence that something isn't working. Clients can do this too.
 
-Change doesn’t become familiar in a single moment. It becomes familiar through repetition,
-experience, and trust.
+But possibility may happen in a moment.
 
-The nervous system remembers—
-not in a moment,
-but through repetition.
+Familiarity takes time.
 
-Be patient with the process. What’s new today can become natural tomorrow.
+The nervous system has history. It has expectations. It has learned patterns of movement, protection, effort and attention. One different experience does not immediately erase all of that.
+
+Nor does it need to.
+
+Change can be available before it feels familiar.
+
+That is an important distinction.
+
+The nervous system remembers—not in a moment, but through repetition.
+
+So perhaps the question after treatment isn't simply, *Does it still feel better?*
+
+Maybe it is:
+
+*What are you noticing now?*
+
+That question leaves room for discovery.
+
+It doesn't demand that the client reproduce what happened on the table. It doesn't turn the treatment into a test they can pass or fail.
+
+It allows something new to remain new for a while.
 
 ## Pause Creates Perspective
 
-Experience becomes more useful when the person has space to recognize what changed and what it
-means.
+And familiarity alone isn't integration.
 
-A moment of reflection turns experience into understanding.
+Sometimes the person needs enough distance from the session to recognize what actually changed.
 
-When we pause, we create the space to see more clearly—
-not just what is happening, but what it means.
+Experience becomes more useful when there is space to understand what it means.
 
-Reflection helps us see beyond the moment and recognize patterns, connections and new
-possibilities.
+That may happen tomorrow.
 
-The same experience can look very different when we give ourselves time to see the bigger picture.
+Or three days from now.
 
-When we take time to make sense of experience, we open the door to better questions, wiser choices
-and more intentional care.
+A client may not notice the change while deliberately checking for it. They may notice it when they reach for something without hesitation, sleep differently, turn their head while driving, or finish an activity and realize afterward that the familiar limitation never entered their awareness.
 
-It’s not a pause to step back from the work. It’s a pause that brings us forward.
+A moment of reflection can turn experience into understanding.
 
-You don’t have to have it all figured out to move forward. Clarity often comes in the space between
-the doing.
+When we pause, we create space to see more clearly—not just what is happening, but what it means.
+
+That is why reflection matters.
+
+It helps us recognize patterns, connections and new possibilities that are difficult to see while we're still standing inside the experience.
+
+And this applies to us as clinicians too.
+
+We don't always need to rush toward the next intervention, explanation or conclusion.
+
+Sometimes better questions emerge in the space between the doing.
+
+What changed?
+
+What remained?
+
+What became easier?
+
+What became possible?
+
+What did the person discover that neither of us predicted?
+
+The pause is not stepping away from the work.
+
+Sometimes the pause is what allows us to understand the work.
 
 ## Change Has to Find a Life Outside the Room
 
-What happens in treatment matters. What becomes usable afterward matters more.
+Eventually, noticing matters less than using.
 
-The work becomes meaningful when they can use it without us.
+What happens in treatment matters.
 
-Everyday movement gives treatment its context. It’s where change becomes useful.
+What becomes usable afterward matters more.
 
-Integration isn’t the end of the work. It’s where the work starts to live.
+This is where clinical success can become deceptively difficult to recognize.
+
+Because when integration really begins, the treatment itself can start disappearing from the story.
+
+The person isn't thinking about the technique.
+
+They aren't thinking about the muscle.
+
+They aren't thinking about the conversation we had or the clever thing we thought we discovered.
+
+They are simply doing something.
+
+Everyday movement gives treatment its context.
+
+It's where change becomes useful.
 
 When she can use it without thinking about the treatment, integration has begun.
 
-The work doesn’t need to stay connected to us. It needs to become connected to her life.
+That is a very different measure of success from needing the client to remember exactly what we did.
+
+The work doesn't need to stay connected to us.
+
+It needs to become connected to her life.
+
+And that changes the role of the clinician.
+
+We can observe.
+
+We can listen.
+
+We can create conditions.
+
+We can offer another experience of movement, touch, safety or possibility.
+
+But ultimately, whatever becomes available has to survive outside the environment we created for it.
+
+Integration isn't the end of the work.
+
+It's where the work starts to live.
 
 ## The Change Was Never Ours to Keep
 
-The clinician can help create possibility. The life that possibility enters belongs to the person.
+And this may be the most important transition of all.
 
-Our work can help make something possible. What they do with that possibility belongs to them.
+There comes a point when the change should no longer belong to the treatment.
+
+The clinician can help create possibility.
+
+The life that possibility enters belongs to the person.
+
+That can challenge us.
+
+We spend years learning how to become more effective. We study. We practice. We refine our touch. We learn anatomy, movement, pain science, communication and technique.
+
+Naturally, we want the work to matter.
+
+But perhaps one of the clearest signs that it mattered is that eventually **we matter less**.
 
 The clinical encounter can open a possibility.
 
@@ -129,9 +234,28 @@ But the next movement, the next choice, the next experience happens in their wor
 
 What became possible in the room can become ordinary somewhere else.
 
-No reminder of the treatment. No need to prove the change. Just life being lived.
+No reminder of the treatment.
 
-Continuity isn’t keeping the treatment alive. It’s allowing what became possible to become part of
-a life.
+No need to prove the change.
 
-The possibility may begin with us. The life it enters belongs to them.
+Just life being lived.
+
+There is something deeply respectful about that.
+
+It removes the clinician from the center of the story.
+
+We were there.
+
+We participated.
+
+Perhaps we helped create the conditions in which something different could happen.
+
+But we don't own what happened next.
+
+And we shouldn't need to.
+
+**Continuity isn't keeping the treatment alive. It's allowing what became possible to become part of a life.**
+
+The possibility may begin with us.
+
+**The life it enters belongs to them.**
