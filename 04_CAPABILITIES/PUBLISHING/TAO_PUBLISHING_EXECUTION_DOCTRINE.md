@@ -330,6 +330,47 @@ the series. Click rates corroborate it at 0.26–0.37%.
 
 Do not set expectations, compare issues, or evaluate audiences on `opensRate`.
 
+### Sending-identity architecture — LOCKED September 23, 2026
+
+Two sending identities exist. They are **not interchangeable**, and the boundary between them is
+a permission boundary, not a branding preference.
+
+| Audience | Sending identity | Sender |
+|---|---|---|
+| Learn2Tape relationship audience (lists 11, 65) | **`mail.learn2tape.com`** | ID **2** — Drew Freedman \| Learn2Tape |
+| Confirmed Tao publication audience (**List 64**) | **`mail.taoclinicaltouch.com`** | ID **3** — Drew Freedman \| Tao of Clinical Touch |
+
+**The governing rule:**
+
+> Learn2Tape-originated communications send from `mail.learn2tape.com`.
+> Tao publication communications to explicitly opted-in List 64 send from `mail.taoclinicaltouch.com`.
+> **An invitation into Tao is not itself permission to begin Tao publication sends.**
+
+Why the boundary matters. The Learn2Tape audience has a relationship with Learn2Tape; they have
+not asked for the Tao publication. Inviting them is legitimate under the Learn2Tape identity.
+Sending them Tao issues is not — that is what Issues 007, 008, 010 and 011 did to the adjacent NCB
+base without opt-in, and Issue 010 breached the 0.30% complaint ceiling as a result.
+
+Consequences, binding:
+
+- **Invitation 001 (Campaign 42) must not be migrated to the Tao sender.** The recipient
+  relationship originates with Learn2Tape; moving the identity would misrepresent its origin, and
+  the copy itself — *"because you know my work through Learn2Tape"* — would become false.
+- **Issue 013 and every subsequent Tao issue send from sender ID 3 to List 64 only.** Not to
+  lists 11 or 65, not to the NCB base.
+- A contact entering List 64 by completing double opt-in is the **only** event that moves someone
+  across this boundary.
+- Deliverability problems on one identity are never grounds for moving traffic to the other.
+  `mail.learn2tape.com` carries a cold-outreach history (10 of its 11 sends, 3.05% bounce rate) and
+  may need warming; that is a reputation problem to solve on its own domain, not by borrowing the
+  Tao domain's reputation.
+
+Both subdomains are Brevo-authenticated with `brevo1`/`brevo2` DKIM selectors resolving, a
+`brevo-code` verification record, and DMARC `p=none`. Neither carries an SPF record on the From
+domain; SPF therefore cannot align, and DMARC passes on DKIM alignment alone. This configuration
+is identical across both and is not by itself a deliverability defect — `mail.taoclinicaltouch.com`
+has delivered 132,009 messages on it.
+
 ### Controlled-mutation boundary
 
 Creating a neutral reusable master is a **controlled Brevo mutation** requiring its own
@@ -429,6 +470,16 @@ When a Founder decision changes a rule here:
 ---
 
 ## Revision history
+
+- **v1.3 — September 23, 2026** — **Sending-identity architecture locked (§6).** Two identities,
+  not interchangeable: Learn2Tape-originated communications from `mail.learn2tape.com` (sender 2)
+  to the relationship audience; Tao publication communications from `mail.taoclinicaltouch.com`
+  (sender 3) to explicitly opted-in List 64 only. An invitation into Tao is not permission to begin
+  Tao publication sends; only completing double opt-in moves a contact across the boundary.
+  Campaign 42 may not be migrated to the Tao sender. Issue 013 and all subsequent issues send from
+  sender 3 to List 64. Deliverability pressure on one identity is never grounds for borrowing the
+  other's reputation. Records the DNS authentication state of both subdomains as verified
+  September 22, 2026.
 
 - **v1.2 — September 18, 2026** — **§6 metric-interpretation correction, and audience decision
   recorded (change control).** *Prior state:* §1 and §6 cited Campaign 36 as "11,341 delivered,

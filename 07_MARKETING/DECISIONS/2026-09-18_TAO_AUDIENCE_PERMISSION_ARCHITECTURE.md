@@ -98,6 +98,22 @@ The funnel is proven end-to-end. It required no audience it did not have; it req
    record.
 4. Email subject and preheader for any issue remain Founder-review items.
 
+## Sending-identity boundary — locked September 23, 2026
+
+| Audience | Sending identity |
+|---|---|
+| Learn2Tape relationship (lists 11, 65) | **`mail.learn2tape.com`** — sender ID 2 |
+| Confirmed Tao publication (**List 64**) | **`mail.taoclinicaltouch.com`** — sender ID 3 |
+
+**An invitation into Tao is not itself permission to begin Tao publication sends.** Completing
+double opt-in into List 64 is the only event that moves a contact across this boundary.
+
+Campaign 42 stays on the Learn2Tape identity — the relationship originates there, and the copy
+says so explicitly. Issue 013 and every subsequent issue send from sender ID 3 to List 64 only.
+
+Full rule, rationale and authentication state: `TAO_PUBLISHING_EXECUTION_DOCTRINE.md` §6
+*Sending-identity architecture*, v1.3.
+
 ## Open items
 
 - Invitation 001 is **prepared, not created and not sent.** See
