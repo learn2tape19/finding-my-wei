@@ -1,0 +1,227 @@
+[
+ {
+  "idx": 0,
+  "id": "6ab3fcce7f7617192ba5d17b",
+  "day": "MONDAY",
+  "role": "FEED",
+  "chn": "Facebook",
+  "due": "2026-09-28T12:00:00.000Z",
+  "url": "https://taoclinicaltouch.com/wp-content/uploads/2026/09/ISSUE-013_MONDAY_FEED_1080x1350-1.png"
+ },
+ {
+  "idx": 1,
+  "id": "6ab3fce0df2f6ddba9de8219",
+  "day": "MONDAY",
+  "role": "FEED",
+  "chn": "Instagram",
+  "due": "2026-09-28T12:00:00.000Z",
+  "url": "https://taoclinicaltouch.com/wp-content/uploads/2026/09/ISSUE-013_MONDAY_FEED_1080x1350-1.png"
+ },
+ {
+  "idx": 2,
+  "id": "6ab3fce17f7617192ba5d367",
+  "day": "MONDAY",
+  "role": "STORY-01",
+  "chn": "Instagram",
+  "due": "2026-09-28T13:00:00.000Z",
+  "url": "https://taoclinicaltouch.com/wp-content/uploads/2026/09/ISSUE-013_MONDAY_STORY-01_1080x1920-1.png"
+ },
+ {
+  "idx": 3,
+  "id": "6ab3fce27f7617192ba5d3a9",
+  "day": "MONDAY",
+  "role": "STORY-02",
+  "chn": "Instagram",
+  "due": "2026-09-28T15:00:00.000Z",
+  "url": "https://taoclinicaltouch.com/wp-content/uploads/2026/09/ISSUE-013_MONDAY_STORY-02_1080x1920-1.png"
+ },
+ {
+  "idx": 4,
+  "id": "6ab3fce3fd4ba40aeaab8daa",
+  "day": "MONDAY",
+  "role": "STORY-03",
+  "chn": "Instagram",
+  "due": "2026-09-28T17:00:00.000Z",
+  "url": "https://taoclinicaltouch.com/wp-content/uploads/2026/09/ISSUE-013_MONDAY_STORY-03_1080x1920-1.png"
+ },
+ {
+  "idx": 5,
+  "id": "6ab3fce47f037588e0bcfa72",
+  "day": "TUESDAY",
+  "role": "FEED",
+  "chn": "Facebook",
+  "due": "2026-09-29T12:00:00.000Z",
+  "url": "https://taoclinicaltouch.com/wp-content/uploads/2026/09/ISSUE-013_TUESDAY_FEED_1080x1350.png"
+ },
+ {
+  "idx": 6,
+  "id": "6ab3fce57f037588e0bcfaa6",
+  "day": "TUESDAY",
+  "role": "FEED",
+  "chn": "Instagram",
+  "due": "2026-09-29T12:00:00.000Z",
+  "url": "https://taoclinicaltouch.com/wp-content/uploads/2026/09/ISSUE-013_TUESDAY_FEED_1080x1350.png"
+ },
+ {
+  "idx": 7,
+  "id": "6ab3fce55c238d8dc5ab0e9d",
+  "day": "TUESDAY",
+  "role": "STORY-01",
+  "chn": "Instagram",
+  "due": "2026-09-29T13:00:00.000Z",
+  "url": "https://taoclinicaltouch.com/wp-content/uploads/2026/09/ISSUE-013_TUESDAY_STORY-01_1080x1920.png"
+ },
+ {
+  "idx": 8,
+  "id": "6ab3fce6df2f6ddba9de8301",
+  "day": "TUESDAY",
+  "role": "STORY-02",
+  "chn": "Instagram",
+  "due": "2026-09-29T15:00:00.000Z",
+  "url": "https://taoclinicaltouch.com/wp-content/uploads/2026/09/ISSUE-013_TUESDAY_STORY-02_1080x1920.png"
+ },
+ {
+  "idx": 9,
+  "id": "6ab3fce7df2f6ddba9de8328",
+  "day": "TUESDAY",
+  "role": "STORY-03",
+  "chn": "Instagram",
+  "due": "2026-09-29T17:00:00.000Z",
+  "url": "https://taoclinicaltouch.com/wp-content/uploads/2026/09/ISSUE-013_TUESDAY_STORY-03_1080x1920.png"
+ },
+ {
+  "idx": 10,
+  "id": "6ab3fce8062c9074d14d5452",
+  "day": "WEDNESDAY",
+  "role": "FEED",
+  "chn": "Facebook",
+  "due": "2026-09-30T12:00:00.000Z",
+  "url": "https://taoclinicaltouch.com/wp-content/uploads/2026/09/ISSUE-013_WEDNESDAY_FEED_1080x1350.png"
+ },
+ {
+  "idx": 11,
+  "id": "6ab3fce9062c9074d14d547d",
+  "day": "WEDNESDAY",
+  "role": "FEED",
+  "chn": "Instagram",
+  "due": "2026-09-30T12:00:00.000Z",
+  "url": "https://taoclinicaltouch.com/wp-content/uploads/2026/09/ISSUE-013_WEDNESDAY_FEED_1080x1350.png"
+ },
+ {
+  "idx": 12,
+  "id": "6ab3fce97f7617192ba5d458",
+  "day": "WEDNESDAY",
+  "role": "STORY-01",
+  "chn": "Instagram",
+  "due": "2026-09-30T13:00:00.000Z",
+  "url": "https://taoclinicaltouch.com/wp-content/uploads/2026/09/ISSUE-013_WEDNESDAY_STORY-01_1080x1920.png"
+ },
+ {
+  "idx": 13,
+  "id": "6ab3fceb5c238d8dc5ab1250",
+  "day": "WEDNESDAY",
+  "role": "STORY-02",
+  "chn": "Instagram",
+  "due": "2026-09-30T15:00:00.000Z",
+  "url": "https://taoclinicaltouch.com/wp-content/uploads/2026/09/ISSUE-013_WEDNESDAY_STORY-02_1080x1920.png"
+ },
+ {
+  "idx": 14,
+  "id": "6ab3fcecdf2f6ddba9de839f",
+  "day": "WEDNESDAY",
+  "role": "STORY-03",
+  "chn": "Instagram",
+  "due": "2026-09-30T17:00:00.000Z",
+  "url": "https://taoclinicaltouch.com/wp-content/uploads/2026/09/ISSUE-013_WEDNESDAY_STORY-03_1080x1920.png"
+ },
+ {
+  "idx": 15,
+  "id": "6ab3fceddf2f6ddba9de83c6",
+  "day": "THURSDAY",
+  "role": "FEED",
+  "chn": "Facebook",
+  "due": "2026-10-01T12:00:00.000Z",
+  "url": "https://taoclinicaltouch.com/wp-content/uploads/2026/09/ISSUE-013_THURSDAY_FEED_1080x1350.png"
+ },
+ {
+  "idx": 16,
+  "id": "6ab3fced062c9074d14d54f1",
+  "day": "THURSDAY",
+  "role": "FEED",
+  "chn": "Instagram",
+  "due": "2026-10-01T12:00:00.000Z",
+  "url": "https://taoclinicaltouch.com/wp-content/uploads/2026/09/ISSUE-013_THURSDAY_FEED_1080x1350.png"
+ },
+ {
+  "idx": 17,
+  "id": "6ab3fcee7f7617192ba5d490",
+  "day": "THURSDAY",
+  "role": "STORY-01",
+  "chn": "Instagram",
+  "due": "2026-10-01T13:00:00.000Z",
+  "url": "https://taoclinicaltouch.com/wp-content/uploads/2026/09/ISSUE-013_THURSDAY_STORY-01_1080x1920.png"
+ },
+ {
+  "idx": 18,
+  "id": "6ab3fcef7f7617192ba5d4b5",
+  "day": "THURSDAY",
+  "role": "STORY-02",
+  "chn": "Instagram",
+  "due": "2026-10-01T15:00:00.000Z",
+  "url": "https://taoclinicaltouch.com/wp-content/uploads/2026/09/ISSUE-013_THURSDAY_STORY-02_1080x1920.png"
+ },
+ {
+  "idx": 19,
+  "id": "6ab3fcf0df2f6ddba9de83f4",
+  "day": "THURSDAY",
+  "role": "STORY-03",
+  "chn": "Instagram",
+  "due": "2026-10-01T17:00:00.000Z",
+  "url": "https://taoclinicaltouch.com/wp-content/uploads/2026/09/ISSUE-013_THURSDAY_STORY-03_1080x1920.png"
+ },
+ {
+  "idx": 20,
+  "id": "6ab3fcf1062c9074d14d5542",
+  "day": "FRIDAY",
+  "role": "FEED",
+  "chn": "Facebook",
+  "due": "2026-10-02T12:00:00.000Z",
+  "url": "https://taoclinicaltouch.com/wp-content/uploads/2026/09/ISSUE-013_FRIDAY_FEED_1080x1350.png"
+ },
+ {
+  "idx": 21,
+  "id": "6ab3fcf2df2f6ddba9de842c",
+  "day": "FRIDAY",
+  "role": "FEED",
+  "chn": "Instagram",
+  "due": "2026-10-02T12:00:00.000Z",
+  "url": "https://taoclinicaltouch.com/wp-content/uploads/2026/09/ISSUE-013_FRIDAY_FEED_1080x1350.png"
+ },
+ {
+  "idx": 22,
+  "id": "6ab3fcf2062c9074d14d557b",
+  "day": "FRIDAY",
+  "role": "STORY-01",
+  "chn": "Instagram",
+  "due": "2026-10-02T13:00:00.000Z",
+  "url": "https://taoclinicaltouch.com/wp-content/uploads/2026/09/ISSUE-013_FRIDAY_STORY-01_1080x1920.png"
+ },
+ {
+  "idx": 23,
+  "id": "6ab3fcf37f037588e0bcfc00",
+  "day": "FRIDAY",
+  "role": "STORY-02",
+  "chn": "Instagram",
+  "due": "2026-10-02T15:00:00.000Z",
+  "url": "https://taoclinicaltouch.com/wp-content/uploads/2026/09/ISSUE-013_FRIDAY_STORY-02_1080x1920.png"
+ },
+ {
+  "idx": 24,
+  "id": "6ab3fcf4fd4ba40aeaab8ec8",
+  "day": "FRIDAY",
+  "role": "STORY-03",
+  "chn": "Instagram",
+  "due": "2026-10-02T17:00:00.000Z",
+  "url": "https://taoclinicaltouch.com/wp-content/uploads/2026/09/ISSUE-013_FRIDAY_STORY-03_1080x1920.png"
+ }
+]
