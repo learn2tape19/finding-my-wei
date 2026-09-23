@@ -139,7 +139,7 @@ and cannot trip it.
 | Brevo | **BLOCKED — by Founder decision and by dependency** | API reachable. Sender ID 3 active. No Issue 013 campaign exists. Plan period ends **2026-09-20** with **5,755** send credits against ~11,300 recipients. Founder has prohibited credit consumption before the Sept 20 reset, and campaign creation is blocked pending recipient reconciliation (§7). |
 
 ### Clean duplicate state confirmed
-- WordPress slug `issue-013-continuity`: **free** (0 posts)
+- WordPress slug `the-session-is-not-the-finish-line`: **free** (0 posts)
 - WordPress media matching `ISSUE-013`: **0**
 - Brevo Issue 013 campaign: **none**
 
@@ -160,7 +160,7 @@ and cannot trip it.
 
 1. **WordPress credentials** — `TAO_WP_USERNAME` / `TAO_WP_APP_PASSWORD` absent from the execution
    environment. Stage B cannot begin without them. **This is the binding blocker.**
-2. **Canonical slug** — `issue-013-continuity` proposed by pattern from `issue-012-agency`.
+2. **Canonical slug** — `the-session-is-not-the-finish-line` proposed by pattern from `issue-012-agency`.
    Confirmed free on the live site; not yet Founder-confirmed.
 3. ~~**Recipient reconciliation**~~ — **RESOLVED September 18, 2026.** Issue 013's Brevo recipient
    configuration is **list 64 only**, by explicit double opt-in. The NCB acquisition base

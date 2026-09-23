@@ -7,7 +7,7 @@
 **Status:** FOUNDER APPROVED / LOCKED
 **Publication week:** September 28 – October 2, 2026
 **Timezone:** America/New_York (EDT, UTC−4)
-**Canonical slug:** `issue-013-continuity`
+**Canonical slug:** `the-session-is-not-the-finish-line`
 **Sending identity:** sender ID **3** — `drew@mail.taoclinicaltouch.com`
 **Email audience:** **List 64 only** — confirmed opt-in subscribers
 

@@ -4,7 +4,7 @@
 **Issue:** 013
 **Theme:** CONTINUITY
 **Weekly movement:** Experience → Familiarity → Reflection → Integration → Ownership
-**Slug:** `issue-013-continuity`
+**Slug:** `the-session-is-not-the-finish-line`
 **Status:** **FOUNDER APPROVED — CANONICAL LONG-FORM ARTICLE**
 
 ---

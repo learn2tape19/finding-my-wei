@@ -68,8 +68,8 @@ Adjust freely — these are descriptive defaults, not approved copy.
 | Field | Value |
 |---|---|
 | **Title** | `Continuity` |
-| **Slug** | `issue-013-continuity` |
-| **Permalink** | `https://taoclinicaltouch.com/blog/2026/09/issue-013-continuity/` |
+| **Slug** | `the-session-is-not-the-finish-line` |
+| **Permalink** | `https://taoclinicaltouch.com/blog/2026/09/the-session-is-not-the-finish-line/` |
 | **Status** | **Scheduled** (`future`) — do not publish immediately |
 | **Publish date/time** | **Monday, September 28, 2026 — 7:45 AM ET** |
 | **Featured image** | Monday Landscape (above) |
