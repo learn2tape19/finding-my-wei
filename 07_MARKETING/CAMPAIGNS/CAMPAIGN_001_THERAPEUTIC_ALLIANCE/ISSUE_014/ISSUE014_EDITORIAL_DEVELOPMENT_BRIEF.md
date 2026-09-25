@@ -2,8 +2,8 @@
 
 **Publication:** The Tao of Clinical Touch  
 **Issue:** 014  
-**Working theme:** COMMUNICATION  
-**Status:** EDITORIAL DEVELOPMENT — NOT YET FOUNDER APPROVED / NOT YET CANONICAL  
+**Theme:** COMMUNICATION  
+**Status:** FOUNDER APPROVED — EDITORIAL DIRECTION LOCKED / CANONICAL ARTICLE NEXT  
 **Preceding arc:** Possibility → Response → Agency → Continuity → Communication
 
 ---
@@ -22,7 +22,7 @@ Communication is therefore not commentary added after treatment. It remains part
 
 ---
 
-## Working Central Proposition
+## Central Proposition — LOCKED
 
 **Words can protect regulation or reintroduce threat.**
 
@@ -36,7 +36,7 @@ The point is not to become timid, vague, or excessively reassuring. The point is
 
 ---
 
-## Core Question
+## Core Question — LOCKED
 
 **What does our language teach the nervous system to expect next?**
 
@@ -54,39 +54,37 @@ Issue 014 should not repeat permission, agency, or continuity. It should show ho
 
 ---
 
-## Proposed Weekly Editorial Movement
+## Weekly Editorial Movement — LOCKED
 
 **Meaning → Anticipation → Framing → Recommendation → Language That Leaves With Them**
 
-This progression is provisional and requires Founder review before copy lock.
-
 ### Monday — WHAT YOU SAY BECOMES PART OF THE TREATMENT
 
-Working thesis: The nervous system continues interpreting the encounter after the hands stop.
+Thesis: The nervous system continues interpreting the encounter after the hands stop.
 
 Supporting idea: Communication is not a summary of care. It is a continuation of care.
 
 ### Tuesday — EXPECTATION CHANGES EXPERIENCE
 
-Working thesis: Anticipated sensation and unanticipated sensation are not processed the same way.
+Thesis: Anticipated sensation and unanticipated sensation are not processed the same way.
 
 Supporting idea: Explain before challenging. Predictability reduces unnecessary threat.
 
 ### Wednesday — DO NOT GIVE PAIN A STORY IT DIDN'T ASK FOR
 
-Working thesis: Labels, certainty, and overly medicalized explanations can increase vigilance.
+Thesis: Labels, certainty, and overly medicalized explanations can increase vigilance.
 
 Supporting idea: Describe experience and function without turning every finding into pathology.
 
 ### Thursday — RECOMMEND WITHOUT CREATING DEPENDENCE
 
-Working thesis: Follow-up recommendations should guide rather than pressure.
+Thesis: Follow-up recommendations should guide rather than pressure.
 
 Supporting idea: Continuity matters, but urgency, fear, and practitioner indispensability undermine agency.
 
 ### Friday — GIVE THEM LANGUAGE THEY CAN LEAVE WITH
 
-Working thesis: The best closing language helps a person understand what changed, what may happen next, and what belongs to them.
+Thesis: The best closing language helps a person understand what changed, what may happen next, and what belongs to them.
 
 Supporting idea: The words that remain after the session should support confidence, not monitoring.
 
@@ -130,20 +128,25 @@ Do not begin visual production from this brief.
 
 Next gate:
 
-1. Founder approves or revises the Issue 014 theme.
-2. Canonical long-form article is written and approved.
-3. Five-day editorial movement is derived from the canonical article.
-4. Feed/story copy is built from that source.
-5. Visual architecture is then developed.
-6. Only after visual approval should publishing schedule, manifests, checksums, WordPress, Buffer, and Brevo execution begin.
+1. Canonical long-form article is written and presented for Founder review.
+2. After Founder approval, the five-day feed/story copy is derived from the canonical article.
+3. Visual architecture is then developed.
+4. Only after visual approval should publishing schedule, manifests, checksums, WordPress, Buffer, and Brevo execution begin.
 
 ---
 
-## Open Founder Decisions
+## Founder Decision — September 25, 2026
 
-1. Confirm **COMMUNICATION** as the Issue 014 theme.
-2. Confirm or revise the central proposition: **Words can protect regulation or reintroduce threat.**
-3. Confirm the five-day editorial movement.
-4. Choose the canonical article title after reviewing the first long-form draft.
+Founder approved the Issue 014 editorial direction without revision.
 
-No downstream production is authorized by this brief.
+Locked by that approval:
+
+1. **COMMUNICATION** as the Issue 014 theme.
+2. Central proposition: **Words can protect regulation or reintroduce threat.**
+3. Five-day editorial movement: **Meaning → Anticipation → Framing → Recommendation → Language That Leaves With Them.**
+
+The canonical article title remains deliberately open until the first long-form draft is reviewed. **The Clinical Practice of Language** remains a working title only and is not yet canonized.
+
+**NEXT AUTHORIZED ACTION:** Draft the Issue 014 canonical long-form article for Founder review.
+
+No visual or downstream platform production is authorized yet.
