@@ -680,5 +680,16 @@
    ],
    "story_native_link": "https://taoclinicaltouch.com/blog/2026/10/the-clinical-practice-of-language/"
   }
- ]
+ ],
+ "wordpress_article": {
+  "title": "The Clinical Practice of Language",
+  "permalink": "https://taoclinicaltouch.com/blog/2026/10/the-clinical-practice-of-language/",
+  "status": "scheduled",
+  "scheduled_et": "2026-10-05 07:45 AM ET",
+  "confirmed_by": "Founder, wp-admin, 2026-09-27",
+  "anonymous_http": 404,
+  "anonymous_404_expected": true,
+  "site_gmt_offset": 0,
+  "note": "Site timezone is UTC; the wp-admin field value that yields 7:45 AM ET is 11:45. Issues 010/011/012 each carry 11:45 site-local. Literal field value pending Founder confirmation."
+ }
 }

@@ -3,7 +3,7 @@
 **Issue:** 014 — COMMUNICATION / The Clinical Practice of Language
 **Publication week:** October 5 – 9, 2026
 **Status:** **ALL 25 BUFFER OBJECTS SCHEDULED AND INDEPENDENTLY VERIFIED. NOTHING PUBLICLY VISIBLE YET.**
-**Receipt date:** September 27, 2026
+**Receipt date:** September 27, 2026 (article status updated same day)
 **Verdict:** **PASS**
 
 Execution scope was Buffer deployment only, under Founder directive
@@ -17,7 +17,7 @@ cadence, or asset was authored, rewritten, or substituted by Claude.
 | Layer | State as of receipt | Verified |
 |---|---|---|
 | WordPress media | 25 assets live, anonymous HTTPS | 25/25 HTTP 200, SHA-256 recorded |
-| WordPress article | Canonical URL not yet publicly resolvable | See *Open dependency* below |
+| WordPress article | `Scheduled` — Oct 5, 2026, 7:45 AM ET, canonical permalink | Founder-confirmed in wp-admin |
 | Buffer | 25 content items / 45 channel posts, all `scheduled` | 25/25 read back by ID |
 | Brevo | Campaign **44** `queued` — Oct 5, 2026 10:00 AM ET, List 64, Sender ID 3 | Read-only confirmation; untouched |
 | **Publication objects** | **51** (25 Buffer + 25 media + 1 email) | |
@@ -140,17 +140,40 @@ Machine-readable evidence: `ISSUE014_BUFFER_OBJECTS.json` (content item IDs, pos
 channels, times, media, checksums), `ISSUE014_MEDIA_STATE.json` (anonymous retrieval state of
 all 25 assets).
 
-## Open dependency — canonical article not yet public
+## WordPress article — Founder-confirmed scheduled
 
-As of this receipt the canonical URL returns **HTTP 404** to anonymous retrieval. The Issue 013
-article, Founder-confirmed as scheduled, returns 404 identically — so this is consistent with a
-scheduled-but-unpublished post and does **not** by itself establish that the Issue 014 article
-is absent. Authenticated WordPress REST access remains unavailable (see *Parked* below), so
-scheduled-vs-absent cannot be distinguished from here.
+The Founder confirmed in wp-admin that *The Clinical Practice of Language* is **`Scheduled`** for
+**October 5, 2026 at 7:45 AM ET** at the canonical permalink already recorded in this receipt.
 
-**The URL must resolve before Oct 5, 12:00Z.** If it does not, 5 Facebook captions and 10 Story
-links point at a 404 on the first publication morning. Requires Founder confirmation of the
-article's status in WordPress.
+The canonical URL returns **HTTP 404** to anonymous retrieval. This is expected pre-publication
+behavior, not a defect: WordPress serves scheduled posts to nobody, and the REST API refuses
+`status=future` to unauthenticated callers (`rest_invalid_param` — "Status is forbidden"). The
+Issue 013 article, likewise Founder-confirmed as scheduled, 404s identically. **Not a production
+blocker.** The previously logged open dependency is **closed**.
+
+Publication order on the first morning is correct: the article goes live at 7:45 AM ET, fifteen
+minutes ahead of the 8:00 AM ET (12:00Z) Feed and Landscape posts. No social object points at an
+unpublished URL at its own send time.
+
+### Site-timezone cross-reference — confirm the wp-admin field value
+
+The site remains on **UTC** (`gmt_offset: 0`), re-verified read-only: published Issues 010, 011
+and 012 all return `date` identical to `date_gmt`. Because wp-admin displays and accepts
+**site-local** time, the value that yields 7:45 AM ET is **`11:45`**, not `07:45`. The three
+prior issues each carry `11:45` site-local and each landed at 7:45 AM ET — that is the
+established production entry.
+
+**This exact trap has already fired once.** The Issue 013 post-close correction records that the
+Founder initially encountered the 7:45 UTC / 3:45 AM Eastern mismatch on that article and
+corrected the editor schedule to 11:45 UTC to preserve the intended 7:45 AM Eastern publication
+(`ISSUE013_EXECUTION_RECEIPT.md`, Stage C). The precedent is why this cross-reference is recorded
+rather than assumed.
+
+If the wp-admin field reads `11:45`, Issue 014 matches the pattern and is correct as confirmed.
+If it reads `07:45`, the post will publish at **3:45 AM ET** — four hours early and ahead of the
+Buffer queue. Claude cannot distinguish the two from outside: authenticated REST is unavailable
+and scheduled posts are not anonymously readable. **Founder confirmation of the literal field
+value is the remaining check.** No change was made to WordPress.
 
 ## Confirmations
 
@@ -163,16 +186,20 @@ article's status in WordPress.
 
 ## Parked / housekeeping
 
-1. **WordPress Application Password** — the `Authorization` header is not reaching PHP despite
+1. **Confirm the wp-admin scheduled-time field reads `11:45`**, per the site-timezone
+   cross-reference above. This is the only outstanding verification for Issue 014.
+2. **WordPress Application Password** — the `Authorization` header is not reaching PHP despite
    the `.htaccess` rewrite. SiteGround support question. Blocks authenticated media upload and
    authenticated post readback; the Manual Bridge remains the compensating control.
-2. **Site timezone** — `gmt_offset: 0`. Change to `America/New_York` after Issue 013 closes,
+3. **Site timezone** — `gmt_offset: 0`. Change to `America/New_York` after Issue 013 closes,
    together with updating the Manual Bridge instruction to Eastern.
-3. **Orphaned public files** — the superseded Friday Feed typo binary and the three Issue 013
+4. **Orphaned public files** — the superseded Friday Feed typo binary and the three Issue 013
    unregistered Monday files.
 
 ## Issue 014 Buffer deployment: PASS
 
 PASS is granted on the basis that all 25 objects were read back from Buffer and verified
-object by object with zero exceptions. It attests to the Buffer queue state only; the canonical
-article dependency above is open and tracked.
+object by object with zero exceptions. The canonical article is Founder-confirmed `Scheduled` at
+the recorded permalink, so no social object references an article that will not exist. The one
+remaining verification is the literal wp-admin time-field value noted above, which affects the
+article's own publication hour and not the Buffer queue.
