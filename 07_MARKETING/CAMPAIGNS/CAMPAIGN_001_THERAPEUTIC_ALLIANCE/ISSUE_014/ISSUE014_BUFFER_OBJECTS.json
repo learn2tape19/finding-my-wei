@@ -1,0 +1,684 @@
+{
+ "issue": "014",
+ "theme": "COMMUNICATION — The Clinical Practice of Language",
+ "publication_week": "October 5 – 9, 2026",
+ "receipt_date": "2026-09-27",
+ "canonical_article_url": "https://taoclinicaltouch.com/blog/2026/10/the-clinical-practice-of-language/",
+ "architecture": {
+  "content_items": 25,
+  "channel_posts": 45,
+  "note": "Buffer createPost accepts a single channelId. Multi-channel objects are created with createContentItem, which groups per-channel posts under one contentItemId. 25 objects, 45 deliveries."
+ },
+ "channel_totals": {
+  "Instagram — drewdog19": 20,
+  "Instagram — The Tao of Clinical Touch": 20,
+  "Facebook — The Tao of Clinical Touch": 5
+ },
+ "content_items": [
+  {
+   "content_item_id": "6ab962941bf030e330b23dac",
+   "issue": "014",
+   "day": "MONDAY",
+   "role": "FEED",
+   "scheduled_utc": "2026-10-05T12:00:00.000Z",
+   "scheduled_et": "8:00 AM",
+   "media_url": "https://taoclinicaltouch.com/wp-content/uploads/2026/09/MONDAY_FEED_1080x1380.png",
+   "media_sha256": "6063fd9a98446cf54dde584fac75aa18a34dcb4c96367498a8149f41d3e01f00",
+   "media_bytes": 1723686,
+   "channel_posts": [
+    {
+     "post_id": "6ab962941bf030e330b23daf",
+     "channel": "Instagram — The Tao of Clinical Touch",
+     "channel_id": "6a3eb89f5ab6d2f106763ca0",
+     "status": "scheduled",
+     "has_caption": true
+    },
+    {
+     "post_id": "6ab962941bf030e330b23db0",
+     "channel": "Instagram — drewdog19",
+     "channel_id": "6a3eba3f5ab6d2f106764339",
+     "status": "scheduled",
+     "has_caption": true
+    }
+   ],
+   "story_native_link": null
+  },
+  {
+   "content_item_id": "6ab962c1612c9e6ac92ef1b6",
+   "issue": "014",
+   "day": "MONDAY",
+   "role": "LANDSCAPE",
+   "scheduled_utc": "2026-10-05T12:00:00.000Z",
+   "scheduled_et": "8:00 AM",
+   "media_url": "https://taoclinicaltouch.com/wp-content/uploads/2026/09/MONDAY_LANDSCAPE_1200x628.png",
+   "media_sha256": "71388828b85cbc645dd97fdcefdd9d71c0bd3f6b91adf6889419f6d583f0a248",
+   "media_bytes": 905330,
+   "channel_posts": [
+    {
+     "post_id": "6ab962c1612c9e6ac92ef1b9",
+     "channel": "Facebook — The Tao of Clinical Touch",
+     "channel_id": "6a3eb95f5ab6d2f106763fc9",
+     "status": "scheduled",
+     "has_caption": true
+    }
+   ],
+   "story_native_link": null
+  },
+  {
+   "content_item_id": "6ab962c2612c9e6ac92ef1e8",
+   "issue": "014",
+   "day": "MONDAY",
+   "role": "STORY-1",
+   "scheduled_utc": "2026-10-05T13:00:00.000Z",
+   "scheduled_et": "9:00 AM",
+   "media_url": "https://taoclinicaltouch.com/wp-content/uploads/2026/09/MONDAY_STORY_1_OF_3_1080x1920.png",
+   "media_sha256": "072136592c98f01d4e2ddb653dbd73e7108adc2e355284d5081967926d55364d",
+   "media_bytes": 2115328,
+   "channel_posts": [
+    {
+     "post_id": "6ab962c2612c9e6ac92ef1eb",
+     "channel": "Instagram — The Tao of Clinical Touch",
+     "channel_id": "6a3eb89f5ab6d2f106763ca0",
+     "status": "scheduled",
+     "has_caption": false
+    },
+    {
+     "post_id": "6ab962c2612c9e6ac92ef1ec",
+     "channel": "Instagram — drewdog19",
+     "channel_id": "6a3eba3f5ab6d2f106764339",
+     "status": "scheduled",
+     "has_caption": false
+    }
+   ],
+   "story_native_link": null
+  },
+  {
+   "content_item_id": "6ab962c354f1e60c7e763684",
+   "issue": "014",
+   "day": "MONDAY",
+   "role": "STORY-2",
+   "scheduled_utc": "2026-10-05T15:00:00.000Z",
+   "scheduled_et": "11:00 AM",
+   "media_url": "https://taoclinicaltouch.com/wp-content/uploads/2026/09/MONDAY_STORY_2_OF_3_1080x1920.png",
+   "media_sha256": "7740db5559607048db353b3949abebc4153f468d7c3b955c7a66490e8be6d640",
+   "media_bytes": 2078179,
+   "channel_posts": [
+    {
+     "post_id": "6ab962c354f1e60c7e763687",
+     "channel": "Instagram — The Tao of Clinical Touch",
+     "channel_id": "6a3eb89f5ab6d2f106763ca0",
+     "status": "scheduled",
+     "has_caption": false
+    },
+    {
+     "post_id": "6ab962c354f1e60c7e763688",
+     "channel": "Instagram — drewdog19",
+     "channel_id": "6a3eba3f5ab6d2f106764339",
+     "status": "scheduled",
+     "has_caption": false
+    }
+   ],
+   "story_native_link": null
+  },
+  {
+   "content_item_id": "6ab962c436a0dcfcb3dfb662",
+   "issue": "014",
+   "day": "MONDAY",
+   "role": "STORY-3",
+   "scheduled_utc": "2026-10-05T17:00:00.000Z",
+   "scheduled_et": "1:00 PM",
+   "media_url": "https://taoclinicaltouch.com/wp-content/uploads/2026/09/MONDAY_STORY_3_OF_3_1080x1920.png",
+   "media_sha256": "1cc13f3aa43a57442826bb92f1e4258407e431405534538b8582ceaea1f4c2ce",
+   "media_bytes": 2089984,
+   "channel_posts": [
+    {
+     "post_id": "6ab962c436a0dcfcb3dfb665",
+     "channel": "Instagram — The Tao of Clinical Touch",
+     "channel_id": "6a3eb89f5ab6d2f106763ca0",
+     "status": "scheduled",
+     "has_caption": false
+    },
+    {
+     "post_id": "6ab962c436a0dcfcb3dfb666",
+     "channel": "Instagram — drewdog19",
+     "channel_id": "6a3eba3f5ab6d2f106764339",
+     "status": "scheduled",
+     "has_caption": false
+    }
+   ],
+   "story_native_link": "https://taoclinicaltouch.com/blog/2026/10/the-clinical-practice-of-language/"
+  },
+  {
+   "content_item_id": "6ab962c536a0dcfcb3dfb6ad",
+   "issue": "014",
+   "day": "TUESDAY",
+   "role": "FEED",
+   "scheduled_utc": "2026-10-06T12:00:00.000Z",
+   "scheduled_et": "8:00 AM",
+   "media_url": "https://taoclinicaltouch.com/wp-content/uploads/2026/09/TUESDAY_FEED_1080x1380.png",
+   "media_sha256": "cb19c585036f011b8006eb49a001fd07449e988707bbaddd8dc92c6d78b67160",
+   "media_bytes": 1792291,
+   "channel_posts": [
+    {
+     "post_id": "6ab962c536a0dcfcb3dfb6b0",
+     "channel": "Instagram — The Tao of Clinical Touch",
+     "channel_id": "6a3eb89f5ab6d2f106763ca0",
+     "status": "scheduled",
+     "has_caption": true
+    },
+    {
+     "post_id": "6ab962c536a0dcfcb3dfb6b1",
+     "channel": "Instagram — drewdog19",
+     "channel_id": "6a3eba3f5ab6d2f106764339",
+     "status": "scheduled",
+     "has_caption": true
+    }
+   ],
+   "story_native_link": null
+  },
+  {
+   "content_item_id": "6ab962c670ec211d1d22f049",
+   "issue": "014",
+   "day": "TUESDAY",
+   "role": "LANDSCAPE",
+   "scheduled_utc": "2026-10-06T12:00:00.000Z",
+   "scheduled_et": "8:00 AM",
+   "media_url": "https://taoclinicaltouch.com/wp-content/uploads/2026/09/TUESDAY_LANDSCAPE_1200x628.png",
+   "media_sha256": "d10db8a12d971a5491cc2142f99ba76e744c0b7d7bb9f91b97cc50dd2deb4894",
+   "media_bytes": 995008,
+   "channel_posts": [
+    {
+     "post_id": "6ab962c670ec211d1d22f04c",
+     "channel": "Facebook — The Tao of Clinical Touch",
+     "channel_id": "6a3eb95f5ab6d2f106763fc9",
+     "status": "scheduled",
+     "has_caption": true
+    }
+   ],
+   "story_native_link": null
+  },
+  {
+   "content_item_id": "6ab962c770ec211d1d22f07b",
+   "issue": "014",
+   "day": "TUESDAY",
+   "role": "STORY-1",
+   "scheduled_utc": "2026-10-06T13:00:00.000Z",
+   "scheduled_et": "9:00 AM",
+   "media_url": "https://taoclinicaltouch.com/wp-content/uploads/2026/09/TUESDAY_STORY_1_OF_3_1080x1920.png",
+   "media_sha256": "f697c9b8d13f750d4cf6ed2a71a5fa1c0517015d7ee4839bd8c3f1ebc53655aa",
+   "media_bytes": 2282020,
+   "channel_posts": [
+    {
+     "post_id": "6ab962c770ec211d1d22f07e",
+     "channel": "Instagram — The Tao of Clinical Touch",
+     "channel_id": "6a3eb89f5ab6d2f106763ca0",
+     "status": "scheduled",
+     "has_caption": false
+    },
+    {
+     "post_id": "6ab962c770ec211d1d22f07f",
+     "channel": "Instagram — drewdog19",
+     "channel_id": "6a3eba3f5ab6d2f106764339",
+     "status": "scheduled",
+     "has_caption": false
+    }
+   ],
+   "story_native_link": null
+  },
+  {
+   "content_item_id": "6ab962c736a0dcfcb3dfb703",
+   "issue": "014",
+   "day": "TUESDAY",
+   "role": "STORY-2",
+   "scheduled_utc": "2026-10-06T15:00:00.000Z",
+   "scheduled_et": "11:00 AM",
+   "media_url": "https://taoclinicaltouch.com/wp-content/uploads/2026/09/TUESDAY_STORY_2_OF_3_1080x1920.png",
+   "media_sha256": "49ef2f1744e93c710a534fd6efb6fe8cfce661995da9b8790f35a76839779e06",
+   "media_bytes": 2308733,
+   "channel_posts": [
+    {
+     "post_id": "6ab962c736a0dcfcb3dfb706",
+     "channel": "Instagram — The Tao of Clinical Touch",
+     "channel_id": "6a3eb89f5ab6d2f106763ca0",
+     "status": "scheduled",
+     "has_caption": false
+    },
+    {
+     "post_id": "6ab962c736a0dcfcb3dfb707",
+     "channel": "Instagram — drewdog19",
+     "channel_id": "6a3eba3f5ab6d2f106764339",
+     "status": "scheduled",
+     "has_caption": false
+    }
+   ],
+   "story_native_link": null
+  },
+  {
+   "content_item_id": "6ab962c8612c9e6ac92ef24a",
+   "issue": "014",
+   "day": "TUESDAY",
+   "role": "STORY-3",
+   "scheduled_utc": "2026-10-06T17:00:00.000Z",
+   "scheduled_et": "1:00 PM",
+   "media_url": "https://taoclinicaltouch.com/wp-content/uploads/2026/09/TUESDAY_STORY_3_OF_3_1080x1920.png",
+   "media_sha256": "f0c31c0bec29a0842b71ace179e800c010c151a802dcd2301fb311b7e8085046",
+   "media_bytes": 2199209,
+   "channel_posts": [
+    {
+     "post_id": "6ab962c8612c9e6ac92ef24d",
+     "channel": "Instagram — The Tao of Clinical Touch",
+     "channel_id": "6a3eb89f5ab6d2f106763ca0",
+     "status": "scheduled",
+     "has_caption": false
+    },
+    {
+     "post_id": "6ab962c8612c9e6ac92ef24e",
+     "channel": "Instagram — drewdog19",
+     "channel_id": "6a3eba3f5ab6d2f106764339",
+     "status": "scheduled",
+     "has_caption": false
+    }
+   ],
+   "story_native_link": "https://taoclinicaltouch.com/blog/2026/10/the-clinical-practice-of-language/"
+  },
+  {
+   "content_item_id": "6ab962c936a0dcfcb3dfb76f",
+   "issue": "014",
+   "day": "WEDNESDAY",
+   "role": "FEED",
+   "scheduled_utc": "2026-10-07T12:00:00.000Z",
+   "scheduled_et": "8:00 AM",
+   "media_url": "https://taoclinicaltouch.com/wp-content/uploads/2026/09/WEDNESDAY_FEED_1080x1380.png",
+   "media_sha256": "de7ad19f32b19cec2518317d6ebc5f9ad15a35ddc2a0332657ba20912e4be79a",
+   "media_bytes": 1859414,
+   "channel_posts": [
+    {
+     "post_id": "6ab962c936a0dcfcb3dfb772",
+     "channel": "Instagram — The Tao of Clinical Touch",
+     "channel_id": "6a3eb89f5ab6d2f106763ca0",
+     "status": "scheduled",
+     "has_caption": true
+    },
+    {
+     "post_id": "6ab962c936a0dcfcb3dfb773",
+     "channel": "Instagram — drewdog19",
+     "channel_id": "6a3eba3f5ab6d2f106764339",
+     "status": "scheduled",
+     "has_caption": true
+    }
+   ],
+   "story_native_link": null
+  },
+  {
+   "content_item_id": "6ab962ca1bf030e330b2408e",
+   "issue": "014",
+   "day": "WEDNESDAY",
+   "role": "LANDSCAPE",
+   "scheduled_utc": "2026-10-07T12:00:00.000Z",
+   "scheduled_et": "8:00 AM",
+   "media_url": "https://taoclinicaltouch.com/wp-content/uploads/2026/09/WEDNESDAY_LANDSCAPE_1200x628.png",
+   "media_sha256": "3f8a57a52023481e5ea1a0d14ec7c3f2e7051050d8a81376835f59dddf74a047",
+   "media_bytes": 1015104,
+   "channel_posts": [
+    {
+     "post_id": "6ab962ca1bf030e330b24091",
+     "channel": "Facebook — The Tao of Clinical Touch",
+     "channel_id": "6a3eb95f5ab6d2f106763fc9",
+     "status": "scheduled",
+     "has_caption": true
+    }
+   ],
+   "story_native_link": null
+  },
+  {
+   "content_item_id": "6ab962cb36a0dcfcb3dfb7bb",
+   "issue": "014",
+   "day": "WEDNESDAY",
+   "role": "STORY-1",
+   "scheduled_utc": "2026-10-07T13:00:00.000Z",
+   "scheduled_et": "9:00 AM",
+   "media_url": "https://taoclinicaltouch.com/wp-content/uploads/2026/09/WEDNESDAY_STORY_1_OF_3_1080x1920.png",
+   "media_sha256": "316e7c314c1b0b7a3888d034785eb25c7d8ae4b98071d4be82ee3f31f9fa3774",
+   "media_bytes": 2344456,
+   "channel_posts": [
+    {
+     "post_id": "6ab962cb36a0dcfcb3dfb7c1",
+     "channel": "Instagram — The Tao of Clinical Touch",
+     "channel_id": "6a3eb89f5ab6d2f106763ca0",
+     "status": "scheduled",
+     "has_caption": false
+    },
+    {
+     "post_id": "6ab962cb36a0dcfcb3dfb7c2",
+     "channel": "Instagram — drewdog19",
+     "channel_id": "6a3eba3f5ab6d2f106764339",
+     "status": "scheduled",
+     "has_caption": false
+    }
+   ],
+   "story_native_link": null
+  },
+  {
+   "content_item_id": "6ab962cb612c9e6ac92ef299",
+   "issue": "014",
+   "day": "WEDNESDAY",
+   "role": "STORY-2",
+   "scheduled_utc": "2026-10-07T15:00:00.000Z",
+   "scheduled_et": "11:00 AM",
+   "media_url": "https://taoclinicaltouch.com/wp-content/uploads/2026/09/WEDNESDAY_STORY_2_OF_3_1080x1920.png",
+   "media_sha256": "e198c1ce7d15d97c3bd43e7867f5c15062059da7f06b0339d1a448b118531c64",
+   "media_bytes": 2569642,
+   "channel_posts": [
+    {
+     "post_id": "6ab962cb612c9e6ac92ef29c",
+     "channel": "Instagram — The Tao of Clinical Touch",
+     "channel_id": "6a3eb89f5ab6d2f106763ca0",
+     "status": "scheduled",
+     "has_caption": false
+    },
+    {
+     "post_id": "6ab962cb612c9e6ac92ef29d",
+     "channel": "Instagram — drewdog19",
+     "channel_id": "6a3eba3f5ab6d2f106764339",
+     "status": "scheduled",
+     "has_caption": false
+    }
+   ],
+   "story_native_link": null
+  },
+  {
+   "content_item_id": "6ab962cc612c9e6ac92ef307",
+   "issue": "014",
+   "day": "WEDNESDAY",
+   "role": "STORY-3",
+   "scheduled_utc": "2026-10-07T17:00:00.000Z",
+   "scheduled_et": "1:00 PM",
+   "media_url": "https://taoclinicaltouch.com/wp-content/uploads/2026/09/WEDNESDAY_STORY_3_OF_3_1080x1920.png",
+   "media_sha256": "0c2229e0b12245bae19c42f5eb6db04cad75a43f02dd45ec7cba9fc7c848afed",
+   "media_bytes": 2431950,
+   "channel_posts": [
+    {
+     "post_id": "6ab962cc612c9e6ac92ef30a",
+     "channel": "Instagram — The Tao of Clinical Touch",
+     "channel_id": "6a3eb89f5ab6d2f106763ca0",
+     "status": "scheduled",
+     "has_caption": false
+    },
+    {
+     "post_id": "6ab962cc612c9e6ac92ef30b",
+     "channel": "Instagram — drewdog19",
+     "channel_id": "6a3eba3f5ab6d2f106764339",
+     "status": "scheduled",
+     "has_caption": false
+    }
+   ],
+   "story_native_link": "https://taoclinicaltouch.com/blog/2026/10/the-clinical-practice-of-language/"
+  },
+  {
+   "content_item_id": "6ab962cd54f1e60c7e763763",
+   "issue": "014",
+   "day": "THURSDAY",
+   "role": "FEED",
+   "scheduled_utc": "2026-10-08T12:00:00.000Z",
+   "scheduled_et": "8:00 AM",
+   "media_url": "https://taoclinicaltouch.com/wp-content/uploads/2026/09/THURSDAY_FEED_1080x1380.png",
+   "media_sha256": "0e7f3364987535a97193e4c8d4b09073de3438a0e085e6a3f89a92fe87115ef7",
+   "media_bytes": 2102561,
+   "channel_posts": [
+    {
+     "post_id": "6ab962cd54f1e60c7e763766",
+     "channel": "Instagram — The Tao of Clinical Touch",
+     "channel_id": "6a3eb89f5ab6d2f106763ca0",
+     "status": "scheduled",
+     "has_caption": true
+    },
+    {
+     "post_id": "6ab962cd54f1e60c7e763767",
+     "channel": "Instagram — drewdog19",
+     "channel_id": "6a3eba3f5ab6d2f106764339",
+     "status": "scheduled",
+     "has_caption": true
+    }
+   ],
+   "story_native_link": null
+  },
+  {
+   "content_item_id": "6ab962ce612c9e6ac92ef349",
+   "issue": "014",
+   "day": "THURSDAY",
+   "role": "LANDSCAPE",
+   "scheduled_utc": "2026-10-08T12:00:00.000Z",
+   "scheduled_et": "8:00 AM",
+   "media_url": "https://taoclinicaltouch.com/wp-content/uploads/2026/09/THURSDAY_LANDSCAPE_1200x628.png",
+   "media_sha256": "11d393b99f9d84975b28b886eb40a4d71f4ceb0046ed87ec54bab40acd1b62bc",
+   "media_bytes": 1132583,
+   "channel_posts": [
+    {
+     "post_id": "6ab962ce612c9e6ac92ef34c",
+     "channel": "Facebook — The Tao of Clinical Touch",
+     "channel_id": "6a3eb95f5ab6d2f106763fc9",
+     "status": "scheduled",
+     "has_caption": true
+    }
+   ],
+   "story_native_link": null
+  },
+  {
+   "content_item_id": "6ab962cf54f1e60c7e7637dd",
+   "issue": "014",
+   "day": "THURSDAY",
+   "role": "STORY-1",
+   "scheduled_utc": "2026-10-08T13:00:00.000Z",
+   "scheduled_et": "9:00 AM",
+   "media_url": "https://taoclinicaltouch.com/wp-content/uploads/2026/09/THURSDAY_STORY_1_OF_3_1080x1920.png",
+   "media_sha256": "40e453600788db4b47dc5f84ab85cc9d9923fd0a84eb9f74197c8753584d47d7",
+   "media_bytes": 2572955,
+   "channel_posts": [
+    {
+     "post_id": "6ab962cf54f1e60c7e7637e0",
+     "channel": "Instagram — The Tao of Clinical Touch",
+     "channel_id": "6a3eb89f5ab6d2f106763ca0",
+     "status": "scheduled",
+     "has_caption": false
+    },
+    {
+     "post_id": "6ab962cf54f1e60c7e7637e1",
+     "channel": "Instagram — drewdog19",
+     "channel_id": "6a3eba3f5ab6d2f106764339",
+     "status": "scheduled",
+     "has_caption": false
+    }
+   ],
+   "story_native_link": null
+  },
+  {
+   "content_item_id": "6ab962d043493a0ede998fec",
+   "issue": "014",
+   "day": "THURSDAY",
+   "role": "STORY-2",
+   "scheduled_utc": "2026-10-08T15:00:00.000Z",
+   "scheduled_et": "11:00 AM",
+   "media_url": "https://taoclinicaltouch.com/wp-content/uploads/2026/09/THURSDAY_STORY_2_OF_3_1080x1920.png",
+   "media_sha256": "31dd1c844896d0c2d536536474390b318e5ea40dd142043dcf38946325c0f0a3",
+   "media_bytes": 2625147,
+   "channel_posts": [
+    {
+     "post_id": "6ab962d043493a0ede998fef",
+     "channel": "Instagram — The Tao of Clinical Touch",
+     "channel_id": "6a3eb89f5ab6d2f106763ca0",
+     "status": "scheduled",
+     "has_caption": false
+    },
+    {
+     "post_id": "6ab962d043493a0ede998ff0",
+     "channel": "Instagram — drewdog19",
+     "channel_id": "6a3eba3f5ab6d2f106764339",
+     "status": "scheduled",
+     "has_caption": false
+    }
+   ],
+   "story_native_link": null
+  },
+  {
+   "content_item_id": "6ab962d11bf030e330b2412c",
+   "issue": "014",
+   "day": "THURSDAY",
+   "role": "STORY-3",
+   "scheduled_utc": "2026-10-08T17:00:00.000Z",
+   "scheduled_et": "1:00 PM",
+   "media_url": "https://taoclinicaltouch.com/wp-content/uploads/2026/09/THURSDAY_STORY_3_OF_3_1080x1920.png",
+   "media_sha256": "c82e9a7b840ca54d296b83fe0925ebc2b3965648c92dfffb2e94e23e8fd332e5",
+   "media_bytes": 2640991,
+   "channel_posts": [
+    {
+     "post_id": "6ab962d11bf030e330b2412f",
+     "channel": "Instagram — The Tao of Clinical Touch",
+     "channel_id": "6a3eb89f5ab6d2f106763ca0",
+     "status": "scheduled",
+     "has_caption": false
+    },
+    {
+     "post_id": "6ab962d11bf030e330b24130",
+     "channel": "Instagram — drewdog19",
+     "channel_id": "6a3eba3f5ab6d2f106764339",
+     "status": "scheduled",
+     "has_caption": false
+    }
+   ],
+   "story_native_link": "https://taoclinicaltouch.com/blog/2026/10/the-clinical-practice-of-language/"
+  },
+  {
+   "content_item_id": "6ab962d243493a0ede999044",
+   "issue": "014",
+   "day": "FRIDAY",
+   "role": "FEED",
+   "scheduled_utc": "2026-10-09T12:00:00.000Z",
+   "scheduled_et": "8:00 AM",
+   "media_url": "https://taoclinicaltouch.com/wp-content/uploads/2026/09/FRIDAY_FEED_1080x1380-1.png",
+   "media_sha256": "6896428d862b7633053f2d37fc742d9dc56fcc3437993208dc0c8c670c1b8260",
+   "media_bytes": 1965546,
+   "channel_posts": [
+    {
+     "post_id": "6ab962d243493a0ede999047",
+     "channel": "Instagram — The Tao of Clinical Touch",
+     "channel_id": "6a3eb89f5ab6d2f106763ca0",
+     "status": "scheduled",
+     "has_caption": true
+    },
+    {
+     "post_id": "6ab962d243493a0ede999048",
+     "channel": "Instagram — drewdog19",
+     "channel_id": "6a3eba3f5ab6d2f106764339",
+     "status": "scheduled",
+     "has_caption": true
+    }
+   ],
+   "story_native_link": null
+  },
+  {
+   "content_item_id": "6ab962d31bf030e330b24174",
+   "issue": "014",
+   "day": "FRIDAY",
+   "role": "LANDSCAPE",
+   "scheduled_utc": "2026-10-09T12:00:00.000Z",
+   "scheduled_et": "8:00 AM",
+   "media_url": "https://taoclinicaltouch.com/wp-content/uploads/2026/09/FRIDAY_LANDSCAPE_1200x628.png",
+   "media_sha256": "86302ddb7810521c98405b4aa340de3b082814f722e4c47ab0aa53f37e9456e1",
+   "media_bytes": 1078677,
+   "channel_posts": [
+    {
+     "post_id": "6ab962d31bf030e330b24177",
+     "channel": "Facebook — The Tao of Clinical Touch",
+     "channel_id": "6a3eb95f5ab6d2f106763fc9",
+     "status": "scheduled",
+     "has_caption": true
+    }
+   ],
+   "story_native_link": null
+  },
+  {
+   "content_item_id": "6ab962d3612c9e6ac92ef3ce",
+   "issue": "014",
+   "day": "FRIDAY",
+   "role": "STORY-1",
+   "scheduled_utc": "2026-10-09T13:00:00.000Z",
+   "scheduled_et": "9:00 AM",
+   "media_url": "https://taoclinicaltouch.com/wp-content/uploads/2026/09/FRIDAY_STORY_1_OF_3_1080x1920.png",
+   "media_sha256": "71a10bf507aa87870d754050c0afca9e4e5c9c2af678311fec1d10acd561b075",
+   "media_bytes": 2483783,
+   "channel_posts": [
+    {
+     "post_id": "6ab962d3612c9e6ac92ef3d1",
+     "channel": "Instagram — The Tao of Clinical Touch",
+     "channel_id": "6a3eb89f5ab6d2f106763ca0",
+     "status": "scheduled",
+     "has_caption": false
+    },
+    {
+     "post_id": "6ab962d3612c9e6ac92ef3d2",
+     "channel": "Instagram — drewdog19",
+     "channel_id": "6a3eba3f5ab6d2f106764339",
+     "status": "scheduled",
+     "has_caption": false
+    }
+   ],
+   "story_native_link": null
+  },
+  {
+   "content_item_id": "6ab962d4612c9e6ac92ef413",
+   "issue": "014",
+   "day": "FRIDAY",
+   "role": "STORY-2",
+   "scheduled_utc": "2026-10-09T15:00:00.000Z",
+   "scheduled_et": "11:00 AM",
+   "media_url": "https://taoclinicaltouch.com/wp-content/uploads/2026/09/FRIDAY_STORY_2_OF_3_1080x1920.png",
+   "media_sha256": "fb4ce8dd5545b377f0d6a92dd674cb1b117d7d0495db58024f3b9103378555ef",
+   "media_bytes": 2435375,
+   "channel_posts": [
+    {
+     "post_id": "6ab962d4612c9e6ac92ef416",
+     "channel": "Instagram — The Tao of Clinical Touch",
+     "channel_id": "6a3eb89f5ab6d2f106763ca0",
+     "status": "scheduled",
+     "has_caption": false
+    },
+    {
+     "post_id": "6ab962d4612c9e6ac92ef417",
+     "channel": "Instagram — drewdog19",
+     "channel_id": "6a3eba3f5ab6d2f106764339",
+     "status": "scheduled",
+     "has_caption": false
+    }
+   ],
+   "story_native_link": null
+  },
+  {
+   "content_item_id": "6ab962d51bf030e330b241f7",
+   "issue": "014",
+   "day": "FRIDAY",
+   "role": "STORY-3",
+   "scheduled_utc": "2026-10-09T17:00:00.000Z",
+   "scheduled_et": "1:00 PM",
+   "media_url": "https://taoclinicaltouch.com/wp-content/uploads/2026/09/FRIDAY_STORY_3_OF_3_1080x1920.png",
+   "media_sha256": "9331b73b7faa611baa6dfc54adc915b1bd4dbb24736305a8d308928b7196aa7b",
+   "media_bytes": 2440518,
+   "channel_posts": [
+    {
+     "post_id": "6ab962d51bf030e330b241fa",
+     "channel": "Instagram — The Tao of Clinical Touch",
+     "channel_id": "6a3eb89f5ab6d2f106763ca0",
+     "status": "scheduled",
+     "has_caption": false
+    },
+    {
+     "post_id": "6ab962d51bf030e330b241fb",
+     "channel": "Instagram — drewdog19",
+     "channel_id": "6a3eba3f5ab6d2f106764339",
+     "status": "scheduled",
+     "has_caption": false
+    }
+   ],
+   "story_native_link": "https://taoclinicaltouch.com/blog/2026/10/the-clinical-practice-of-language/"
+  }
+ ]
+}

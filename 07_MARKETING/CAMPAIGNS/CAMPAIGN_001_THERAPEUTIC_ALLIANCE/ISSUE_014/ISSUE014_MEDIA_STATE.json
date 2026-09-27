@@ -1,0 +1,157 @@
+{
+ "issue": "014",
+ "retrieved": "2026-09-27",
+ "method": "anonymous public HTTPS GET",
+ "assets": {
+  "2026/09/FRIDAY_FEED_1080x1380-1.png": {
+   "url": "https://taoclinicaltouch.com/wp-content/uploads/2026/09/FRIDAY_FEED_1080x1380-1.png",
+   "status": 200,
+   "bytes": 1965546,
+   "sha256": "6896428d862b7633053f2d37fc742d9dc56fcc3437993208dc0c8c670c1b8260"
+  },
+  "2026/09/FRIDAY_LANDSCAPE_1200x628.png": {
+   "url": "https://taoclinicaltouch.com/wp-content/uploads/2026/09/FRIDAY_LANDSCAPE_1200x628.png",
+   "status": 200,
+   "bytes": 1078677,
+   "sha256": "86302ddb7810521c98405b4aa340de3b082814f722e4c47ab0aa53f37e9456e1"
+  },
+  "2026/09/FRIDAY_STORY_1_OF_3_1080x1920.png": {
+   "url": "https://taoclinicaltouch.com/wp-content/uploads/2026/09/FRIDAY_STORY_1_OF_3_1080x1920.png",
+   "status": 200,
+   "bytes": 2483783,
+   "sha256": "71a10bf507aa87870d754050c0afca9e4e5c9c2af678311fec1d10acd561b075"
+  },
+  "2026/09/FRIDAY_STORY_2_OF_3_1080x1920.png": {
+   "url": "https://taoclinicaltouch.com/wp-content/uploads/2026/09/FRIDAY_STORY_2_OF_3_1080x1920.png",
+   "status": 200,
+   "bytes": 2435375,
+   "sha256": "fb4ce8dd5545b377f0d6a92dd674cb1b117d7d0495db58024f3b9103378555ef"
+  },
+  "2026/09/FRIDAY_STORY_3_OF_3_1080x1920.png": {
+   "url": "https://taoclinicaltouch.com/wp-content/uploads/2026/09/FRIDAY_STORY_3_OF_3_1080x1920.png",
+   "status": 200,
+   "bytes": 2440518,
+   "sha256": "9331b73b7faa611baa6dfc54adc915b1bd4dbb24736305a8d308928b7196aa7b"
+  },
+  "2026/09/MONDAY_FEED_1080x1380.png": {
+   "url": "https://taoclinicaltouch.com/wp-content/uploads/2026/09/MONDAY_FEED_1080x1380.png",
+   "status": 200,
+   "bytes": 1723686,
+   "sha256": "6063fd9a98446cf54dde584fac75aa18a34dcb4c96367498a8149f41d3e01f00"
+  },
+  "2026/09/MONDAY_LANDSCAPE_1200x628.png": {
+   "url": "https://taoclinicaltouch.com/wp-content/uploads/2026/09/MONDAY_LANDSCAPE_1200x628.png",
+   "status": 200,
+   "bytes": 905330,
+   "sha256": "71388828b85cbc645dd97fdcefdd9d71c0bd3f6b91adf6889419f6d583f0a248"
+  },
+  "2026/09/MONDAY_STORY_1_OF_3_1080x1920.png": {
+   "url": "https://taoclinicaltouch.com/wp-content/uploads/2026/09/MONDAY_STORY_1_OF_3_1080x1920.png",
+   "status": 200,
+   "bytes": 2115328,
+   "sha256": "072136592c98f01d4e2ddb653dbd73e7108adc2e355284d5081967926d55364d"
+  },
+  "2026/09/MONDAY_STORY_2_OF_3_1080x1920.png": {
+   "url": "https://taoclinicaltouch.com/wp-content/uploads/2026/09/MONDAY_STORY_2_OF_3_1080x1920.png",
+   "status": 200,
+   "bytes": 2078179,
+   "sha256": "7740db5559607048db353b3949abebc4153f468d7c3b955c7a66490e8be6d640"
+  },
+  "2026/09/MONDAY_STORY_3_OF_3_1080x1920.png": {
+   "url": "https://taoclinicaltouch.com/wp-content/uploads/2026/09/MONDAY_STORY_3_OF_3_1080x1920.png",
+   "status": 200,
+   "bytes": 2089984,
+   "sha256": "1cc13f3aa43a57442826bb92f1e4258407e431405534538b8582ceaea1f4c2ce"
+  },
+  "2026/09/THURSDAY_FEED_1080x1380.png": {
+   "url": "https://taoclinicaltouch.com/wp-content/uploads/2026/09/THURSDAY_FEED_1080x1380.png",
+   "status": 200,
+   "bytes": 2102561,
+   "sha256": "0e7f3364987535a97193e4c8d4b09073de3438a0e085e6a3f89a92fe87115ef7"
+  },
+  "2026/09/THURSDAY_LANDSCAPE_1200x628.png": {
+   "url": "https://taoclinicaltouch.com/wp-content/uploads/2026/09/THURSDAY_LANDSCAPE_1200x628.png",
+   "status": 200,
+   "bytes": 1132583,
+   "sha256": "11d393b99f9d84975b28b886eb40a4d71f4ceb0046ed87ec54bab40acd1b62bc"
+  },
+  "2026/09/THURSDAY_STORY_1_OF_3_1080x1920.png": {
+   "url": "https://taoclinicaltouch.com/wp-content/uploads/2026/09/THURSDAY_STORY_1_OF_3_1080x1920.png",
+   "status": 200,
+   "bytes": 2572955,
+   "sha256": "40e453600788db4b47dc5f84ab85cc9d9923fd0a84eb9f74197c8753584d47d7"
+  },
+  "2026/09/THURSDAY_STORY_2_OF_3_1080x1920.png": {
+   "url": "https://taoclinicaltouch.com/wp-content/uploads/2026/09/THURSDAY_STORY_2_OF_3_1080x1920.png",
+   "status": 200,
+   "bytes": 2625147,
+   "sha256": "31dd1c844896d0c2d536536474390b318e5ea40dd142043dcf38946325c0f0a3"
+  },
+  "2026/09/THURSDAY_STORY_3_OF_3_1080x1920.png": {
+   "url": "https://taoclinicaltouch.com/wp-content/uploads/2026/09/THURSDAY_STORY_3_OF_3_1080x1920.png",
+   "status": 200,
+   "bytes": 2640991,
+   "sha256": "c82e9a7b840ca54d296b83fe0925ebc2b3965648c92dfffb2e94e23e8fd332e5"
+  },
+  "2026/09/TUESDAY_FEED_1080x1380.png": {
+   "url": "https://taoclinicaltouch.com/wp-content/uploads/2026/09/TUESDAY_FEED_1080x1380.png",
+   "status": 200,
+   "bytes": 1792291,
+   "sha256": "cb19c585036f011b8006eb49a001fd07449e988707bbaddd8dc92c6d78b67160"
+  },
+  "2026/09/TUESDAY_LANDSCAPE_1200x628.png": {
+   "url": "https://taoclinicaltouch.com/wp-content/uploads/2026/09/TUESDAY_LANDSCAPE_1200x628.png",
+   "status": 200,
+   "bytes": 995008,
+   "sha256": "d10db8a12d971a5491cc2142f99ba76e744c0b7d7bb9f91b97cc50dd2deb4894"
+  },
+  "2026/09/TUESDAY_STORY_1_OF_3_1080x1920.png": {
+   "url": "https://taoclinicaltouch.com/wp-content/uploads/2026/09/TUESDAY_STORY_1_OF_3_1080x1920.png",
+   "status": 200,
+   "bytes": 2282020,
+   "sha256": "f697c9b8d13f750d4cf6ed2a71a5fa1c0517015d7ee4839bd8c3f1ebc53655aa"
+  },
+  "2026/09/TUESDAY_STORY_2_OF_3_1080x1920.png": {
+   "url": "https://taoclinicaltouch.com/wp-content/uploads/2026/09/TUESDAY_STORY_2_OF_3_1080x1920.png",
+   "status": 200,
+   "bytes": 2308733,
+   "sha256": "49ef2f1744e93c710a534fd6efb6fe8cfce661995da9b8790f35a76839779e06"
+  },
+  "2026/09/TUESDAY_STORY_3_OF_3_1080x1920.png": {
+   "url": "https://taoclinicaltouch.com/wp-content/uploads/2026/09/TUESDAY_STORY_3_OF_3_1080x1920.png",
+   "status": 200,
+   "bytes": 2199209,
+   "sha256": "f0c31c0bec29a0842b71ace179e800c010c151a802dcd2301fb311b7e8085046"
+  },
+  "2026/09/WEDNESDAY_FEED_1080x1380.png": {
+   "url": "https://taoclinicaltouch.com/wp-content/uploads/2026/09/WEDNESDAY_FEED_1080x1380.png",
+   "status": 200,
+   "bytes": 1859414,
+   "sha256": "de7ad19f32b19cec2518317d6ebc5f9ad15a35ddc2a0332657ba20912e4be79a"
+  },
+  "2026/09/WEDNESDAY_LANDSCAPE_1200x628.png": {
+   "url": "https://taoclinicaltouch.com/wp-content/uploads/2026/09/WEDNESDAY_LANDSCAPE_1200x628.png",
+   "status": 200,
+   "bytes": 1015104,
+   "sha256": "3f8a57a52023481e5ea1a0d14ec7c3f2e7051050d8a81376835f59dddf74a047"
+  },
+  "2026/09/WEDNESDAY_STORY_1_OF_3_1080x1920.png": {
+   "url": "https://taoclinicaltouch.com/wp-content/uploads/2026/09/WEDNESDAY_STORY_1_OF_3_1080x1920.png",
+   "status": 200,
+   "bytes": 2344456,
+   "sha256": "316e7c314c1b0b7a3888d034785eb25c7d8ae4b98071d4be82ee3f31f9fa3774"
+  },
+  "2026/09/WEDNESDAY_STORY_2_OF_3_1080x1920.png": {
+   "url": "https://taoclinicaltouch.com/wp-content/uploads/2026/09/WEDNESDAY_STORY_2_OF_3_1080x1920.png",
+   "status": 200,
+   "bytes": 2569642,
+   "sha256": "e198c1ce7d15d97c3bd43e7867f5c15062059da7f06b0339d1a448b118531c64"
+  },
+  "2026/09/WEDNESDAY_STORY_3_OF_3_1080x1920.png": {
+   "url": "https://taoclinicaltouch.com/wp-content/uploads/2026/09/WEDNESDAY_STORY_3_OF_3_1080x1920.png",
+   "status": 200,
+   "bytes": 2431950,
+   "sha256": "0c2229e0b12245bae19c42f5eb6db04cad75a43f02dd45ec7cba9fc7c848afed"
+  }
+ }
+}
