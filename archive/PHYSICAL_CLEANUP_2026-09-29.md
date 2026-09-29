@@ -1,7 +1,7 @@
 # Physical Cleanup Pass — September 29, 2026
 
 ## Status
-Executed on `reconciliation-2026-09-29` only.
+Major legacy architecture cleanup executed on `reconciliation-2026-09-29`.
 
 Exact deleted content remains recoverable from Git history and `archive/pre-reconciliation-2026-09-29`.
 
@@ -10,6 +10,7 @@ Exact deleted content remains recoverable from Git history and `archive/pre-reco
 # Complete obsolete live surfaces removed
 
 - `00_CONSTITUTION/` — parallel constitutional architecture reconciled.
+- `_system/` — March AI/status operating generation reconciled.
 - `_projects/` — March project snapshots reconciled.
 - `_support/` — legacy support layer reconciled.
 - `02_Core_Principles/` — durable guidance promoted to Steward Principles.
@@ -22,31 +23,23 @@ Exact deleted content remains recoverable from Git history and `archive/pre-reco
 
 # Tao asset migration
 
-The nine SVG chapter symbols were copied from the legacy `03_OPERATING_SYSTEM` location to:
+The nine SVG chapter symbols were copied to:
 
 `05_DOMAINS/FOUNDER_DOMAIN/TAO/BRAND_ASSETS/CHAPTER_SYMBOLS/`
 
-Git reports the same blob SHAs for the copied SVG files, confirming byte-identical content. The old copies were removed only after the canonical destination existed and was verified.
+Git reports the same blob SHAs for the copied SVG files, confirming byte-identical content. Old copies were removed only after the canonical destination existed and was verified.
 
 ---
 
-# Partially reduced legacy surface
+# Legacy `_system` closure
 
-## `_system/`
+The final pass removed stale AI persona/memory/onboarding material, OpenClaw instructions, March rules, weekly forced-balance machinery, and Sidekick agent starter files.
 
-Removed clearly retired machinery:
+Their useful principles are represented by current constitutional/operating standards; their exact historical wording remains recoverable in Git.
 
-- `HEARTBEAT.md`
-- `INDEX.md`
-- `MASTER_CONTROL.md`
-- `PROJECTS_MAP.md`
-- `SYNC_TODAY_TO_NOTION.md`
-- `TODAY.md`
-- `WEEKLY_REVIEW.md`
+Disposition:
 
-Remaining historically richer AI/collaboration and Sidekick-specific files are held for a final pass.
-
-Disposition: `archive/LEGACY_SYSTEM_2026-03/README.md`
+`archive/LEGACY_SYSTEM_2026-03/README.md`
 
 ---
 
@@ -54,4 +47,4 @@ Disposition: `archive/LEGACY_SYSTEM_2026-03/README.md`
 
 The major duplicate top-level architecture has been physically collapsed while active Issue production remains untouched.
 
-Remaining cleanup is concentrated in the residual `_system/` historical-agent material and final reference/navigation validation.
+Remaining work is validation and reference/navigation cleanup, not another structural redesign.
