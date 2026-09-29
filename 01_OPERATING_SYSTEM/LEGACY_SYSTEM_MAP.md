@@ -1,75 +1,33 @@
 # Legacy System Map
 
 ## Status
-Reconciliation reference
+Reconciliation reference — September 29, 2026
 
-## Date
-September 29, 2026
+`01_OPERATING_SYSTEM/` is the canonical operating-system home.
 
----
+## Legacy `_system/`
 
-# Canonical Operating Home
+The March `_system/` generation is historical, not current doctrine. Its full disposition is recorded in `archive/LEGACY_SYSTEM_2026-03/README.md`.
 
-`01_OPERATING_SYSTEM/` is the current operating-system layer for Finding My Wei.
+The first physical cleanup pass removed the clearly retired control surfaces: HEARTBEAT, INDEX, MASTER_CONTROL, PROJECTS_MAP, SYNC_TODAY_TO_NOTION, TODAY, and WEEKLY_REVIEW.
 
-Legacy operating-system generations remain evidence until their unique knowledge is reconciled.
+The remaining files are being held for a second pass because they contain richer historical AI/collaboration or Sidekick-specific material. Their physical presence does not make them authoritative.
 
----
+## Legacy `03_OPERATING_SYSTEM/`
 
-# `_system/`
+The five legacy standards have been reconciled, promoted or re-homed, and removed from `03_OPERATING_SYSTEM/STANDARDS/`.
 
-`_system/` is a legacy pre-IEMS operating layer.
+The remaining blocker to full retirement is `03_OPERATING_SYSTEM/BRAND_ASSETS/`, which contains the actual Tao SVG chapter-symbol assets. Those assets require controlled migration, not deletion.
 
-Its files must not be treated as current merely because they exist.
+## Precedence
 
-Reconciliation disposition:
-
-- `SOUL.md` — compare against current collaboration/AI guidance; preserve unique principles.
-- `RULES.md` + `MASTER_CONTROL.md` — reconcile into current principles/standards only where still valid.
-- `MEMORY.md` — historical memory artifact; do not treat as authoritative current state without verification.
-- `HEARTBEAT.md` — legacy automation behavior; validate before reuse.
-- `TODAY.md` — ephemeral historical state; not a canonical status surface.
-- `WEEKLY_PROJECT_BALANCE.md` — historical reporting artifact.
-- `WEEKLY_REVIEW.md` — legacy template.
-- `SYNC_TODAY_TO_NOTION.md` — legacy integration instruction unless separately reauthorized.
-- `OPENCLAW_LAUNCHER.md` — tool-specific legacy configuration.
-- `CLAUDE_WELCOME.md` — historical onboarding.
-- `INDEX.md` and `PROJECTS_MAP.md` — superseded navigation.
-- `USER.md` — historical preference record; current Founder direction overrides it.
-
-Until the files are physically archived or deleted, this map controls their status: **legacy, not current doctrine.**
-
----
-
-# `03_OPERATING_SYSTEM/`
-
-This is a later but noncanonical operating-system generation containing substantive standards and brand assets.
-
-It is **not safe to delete wholesale**.
-
-Its standards must be reconciled individually because several remain intellectually useful:
-
-- `KNOWLEDGE_PRODUCTION_PIPELINE.md`
-- `PUBLICATION_SUCCESS_CRITERIA.md`
-- `KNOWLEDGE_LIFECYCLE.md`
-- `GOVERNANCE_PRINCIPLE.md`
-- `TAO_VISUAL_IDENTITY_SYSTEM_v1.0.md`
-
-The current `PRODUCTION_PLAYBOOK.md` governs proven deployment execution. Older pipeline documents may continue to describe upstream knowledge creation, editorial thinking, or visual standards where they do not conflict with current doctrine.
-
----
-
-# Rule of Precedence
-
-When documents conflict, use this order unless a more specific Founder-approved authority explicitly governs the matter:
+When documents conflict:
 
 1. Current Founder direction
 2. Ratified constitutional authority
-3. Current root navigation and `OPERATING_STATE.md` for present attention/state
-4. `01_OPERATING_SYSTEM/` current standards and playbooks
+3. `OPERATING_STATE.md` for present attention/state
+4. Current `01_OPERATING_SYSTEM/` standards and playbooks
 5. Active campaign-specific approved gates and receipts
-6. Legacy operating documents as historical evidence
+6. Legacy material as historical evidence
 
-Do not silently merge contradictory rules.
-
-Surface the conflict and preserve provenance.
+Preserve provenance. Do not let an old file become current merely because it still exists.
