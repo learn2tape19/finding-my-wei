@@ -3,70 +3,56 @@
 ## Status
 Executed on `reconciliation-2026-09-29` only.
 
----
-
-# Purpose
-
-The earlier reconciliation passes established canonical successors and archive manifests. This pass begins removing clearly superseded live files so the repository becomes physically simpler, not merely better documented.
-
 Exact deleted content remains recoverable from Git history and `archive/pre-reconciliation-2026-09-29`.
 
 ---
 
-# Removed: parallel constitutional root
+# Complete obsolete live surfaces removed
 
-Deleted all four files from `00_CONSTITUTION/` after their disposition was established:
+## Parallel constitutional root
 
-- `ARCH-002_IMPLEMENTATION_SPEC.md`
-- `ARCH-002_WORK_ORDER.md`
-- `MASTER_REPOSITORY_MAP.md`
-- `REPOSITORY_ARCHITECTURE.md`
+`00_CONSTITUTION/` has been removed after all four files were reconciled.
 
-Canonical constitutional authority remains in `00_Constitution/`.
+Canonical constitutional authority remains in `00_Constitution/` and durable repository-architecture doctrine now lives in `01_OPERATING_SYSTEM/STANDARDS/REPOSITORY_ARCHITECTURE.md`.
 
-Durable repository-architecture doctrine now lives in:
+## Legacy project status layer
 
-`01_OPERATING_SYSTEM/STANDARDS/REPOSITORY_ARCHITECTURE.md`
+`_projects/` has been removed after its four March snapshots were classified.
 
-Because Git does not preserve empty directories, `00_CONSTITUTION/` now disappears from the branch.
+Disposition: `archive/LEGACY_PROJECT_TRACKS_2026-03/README.md`
 
----
+## Legacy support layer
 
-# Removed: legacy project status layer
+`_support/` has been removed after both support files were classified.
 
-Deleted the four already-reconciled `_projects/` snapshots:
+Disposition: `archive/LEGACY_SUPPORT_2026-03/README.md`
 
-- `tao.md`
-- `sidekick-air.md`
-- `learn2tape.md`
-- `boston-bodyworker.md`
+## June cognitive-engine layer
 
-Their disposition and historical meaning remain documented in:
+The following top-level architecture engines have now been selectively reconciled and removed:
 
-`archive/LEGACY_PROJECT_TRACKS_2026-03/README.md`
+- `02_Core_Principles/`
+- `03_Universal_Insight_Processor/`
+- `04_Decision_Framework/`
+- `05_Reflection_Engine/`
 
-The `_projects/` directory therefore disappears from the branch.
+Durable principles were promoted to `01_OPERATING_SYSTEM/STANDARDS/STEWARD_PRINCIPLES.md`.
 
----
+Knowledge-processing logic is represented by the canonical Knowledge Lifecycle and Knowledge Production Pipeline.
 
-# Removed: legacy support layer
+Decision-record governance remains in the constitutional Decision Record Standard.
 
-Deleted:
+Reflection remains available as a practice when useful, but the former compulsory daily/weekly/monthly/quarterly rhythm is no longer current doctrine.
 
-- `_support/NOTION_SYNC_MAP.md`
-- `_support/stitchcore-partners.md`
-
-Their disposition remains documented in:
-
-`archive/LEGACY_SUPPORT_2026-03/README.md`
-
-The `_support/` directory therefore disappears from the branch.
+Disposition: `archive/JUNE_THINKING_ENGINES/README.md`
 
 ---
 
-# Removed: clearly retired `_system` machinery
+# Partially reduced legacy surfaces
 
-Deleted the files already classified as RETIRE rather than historically valuable operating doctrine:
+## `_system/`
+
+Removed clearly retired machinery:
 
 - `HEARTBEAT.md`
 - `INDEX.md`
@@ -76,41 +62,39 @@ Deleted the files already classified as RETIRE rather than historically valuable
 - `TODAY.md`
 - `WEEKLY_REVIEW.md`
 
-Historical/disposition record:
+Remaining historically richer AI/collaboration and Sidekick-specific files are held for a second pass.
 
-`archive/LEGACY_SYSTEM_2026-03/README.md`
+Disposition: `archive/LEGACY_SYSTEM_2026-03/README.md`
 
-The remaining `_system/` files are intentionally held for a second physical pass because they contain richer historical AI/collaboration or Sidekick-specific material and should not be deleted merely to empty the directory.
+## `03_OPERATING_SYSTEM/`
 
----
+Removed the entire superseded `STANDARDS/` layer after promotion/re-homing of:
 
-# Removed: superseded `03_OPERATING_SYSTEM/STANDARDS`
+- Governance Principle
+- Knowledge Lifecycle
+- Knowledge Production Pipeline
+- Publication Success Criteria
+- Tao Visual Identity System
 
-Deleted the five standards whose durable doctrine has already been promoted/re-homed:
+The remaining `BRAND_ASSETS/CHAPTER_SYMBOLS/` tree contains actual Tao SVG assets and is intentionally protected until controlled asset migration is complete.
 
-- `GOVERNANCE_PRINCIPLE.md`
-- `KNOWLEDGE_LIFECYCLE.md`
-- `KNOWLEDGE_PRODUCTION_PIPELINE.md`
-- `PUBLICATION_SUCCESS_CRITERIA.md`
-- `TAO_VISUAL_IDENTITY_SYSTEM_v1.0.md`
-
-Canonical successors exist in `01_OPERATING_SYSTEM/STANDARDS/` and the Tao domain.
-
-The `03_OPERATING_SYSTEM/BRAND_ASSETS/CHAPTER_SYMBOLS/` tree remains untouched because it contains the actual Tao SVG symbol assets. Those assets require a controlled move/copy rather than deletion.
+Disposition: `archive/LEGACY_OPERATING_SYSTEM_03/README.md`
 
 ---
 
 # Result
 
-This pass removes three complete obsolete live surfaces:
+The reconciliation has moved beyond classification into visible simplification.
+
+Complete top-level obsolete surfaces removed so far:
 
 - `00_CONSTITUTION/`
 - `_projects/`
 - `_support/`
-
-and materially shrinks two more:
-
-- `_system/`
-- `03_OPERATING_SYSTEM/`
+- `02_Core_Principles/`
+- `03_Universal_Insight_Processor/`
+- `04_Decision_Framework/`
+- `05_Reflection_Engine/`
+- `03_OPERATING_SYSTEM/STANDARDS/`
 
 No active Issue production files were modified.
