@@ -11,87 +11,57 @@ September 29, 2026
 - `05_Reflection_Engine/`
 
 ## Status
-ARCHIVE / SELECTIVE PROMOTION
+RECONCILED AND PHYSICALLY RETIRED FROM LIVE BRANCH
 
 ---
 
 # Finding
 
-These directories represent a June architecture generation designed to make learning, decision-making, reflection, and knowledge processing systematic.
+These directories represented a June architecture generation designed to make learning, decision-making, reflection, and knowledge processing systematic.
 
-They contain meaningful ideas, but they also impose a large recurring maintenance burden and reference storage paths and system components that no longer define the current estate.
+They contained meaningful ideas, but they also imposed a large recurring maintenance burden and referenced storage paths and system components that no longer define the current estate.
 
-They should not remain four separate top-level operating engines.
+They no longer remain as separate top-level operating engines.
 
 ---
 
-# `02_Core_Principles/`
+# Disposition
 
-## Disposition
-PROMOTE SELECTIVELY, THEN RETIRE TOP-LEVEL ENGINE
+## Core Principles
 
-Durable principles have been reconciled into:
+Durable principles were selectively promoted into:
 
 `01_OPERATING_SYSTEM/STANDARDS/STEWARD_PRINCIPLES.md`
 
-Important change: fixed review cadence is replaced by consequence-based stewardship and healthy dormancy.
+Fixed review cadence was replaced by consequence-based stewardship and healthy dormancy.
 
----
+## Universal Insight Processor
 
-# `03_Universal_Insight_Processor/`
+Its durable flow — capture, clarify, connect, decide, develop, deploy when warranted, integrate learning, preserve provenance — is represented by:
 
-## Disposition
-ARCHIVE AS DESIGN HISTORY; DURABLE FLOW ALREADY REPRESENTED IN CURRENT STANDARDS
+- `01_OPERATING_SYSTEM/STANDARDS/KNOWLEDGE_LIFECYCLE.md`
+- `01_OPERATING_SYSTEM/STANDARDS/KNOWLEDGE_PRODUCTION_PIPELINE.md`
+- `01_OPERATING_SYSTEM/PRODUCTION_PLAYBOOK.md`
 
-The UIP's central idea — capture raw input, clarify it, connect it, decide what it becomes, create/deploy when warranted, reflect, integrate, and preserve provenance — remains useful.
+The mandatory ten-step journey and obsolete storage paths were not retained.
 
-That durable logic is now substantially covered by:
+## Decision Engine
 
-- `STANDARDS/KNOWLEDGE_LIFECYCLE.md`
-- `STANDARDS/KNOWLEDGE_PRODUCTION_PIPELINE.md`
-- `PRODUCTION_PLAYBOOK.md` for deployment
+The useful emphasis on context, alternatives, reasoning, tradeoffs, outcomes, and review conditions remains represented by:
 
-The mandatory ten-step journey, universal entry requirement, and obsolete archive/template paths are not retained as current doctrine.
+`00_Constitution/DECISION_RECORD_STANDARD.md`
 
----
+The June engine no longer maintains a separate top-level layer or mandatory recurring review schedule.
 
-# `04_Decision_Framework/`
+## Reflection Engine / Daily Workflow
 
-## Disposition
-ARCHIVE AS EXTENDED TEMPLATE / PRESERVE CORE DECISION STANDARD
+Useful reflection questions remain available conceptually, but the compulsory daily, weekly, monthly, quarterly, and annual rhythm has been retired.
 
-The Decision Engine correctly emphasizes context, alternatives, reasoning, tradeoffs, outcomes, lessons, and review conditions.
-
-Current constitutional `DECISION_RECORD_STANDARD.md` remains the governing decision-record standard.
-
-The long June Decision Engine is useful as historical/template depth, but it should not maintain a separate top-level operating engine or force monthly/quarterly review schedules.
-
----
-
-# `05_Reflection_Engine/`
-
-## Disposition
-ARCHIVE AS OPTIONAL REFLECTION TOOLKIT, NOT MANDATORY OPERATING RHYTHM
-
-The core reflection questions remain useful:
-
-- What changed?
-- Why did it matter?
-- What principle emerged?
-- Where else does it apply?
-- What should change because of the learning?
-
-The June files go further and prescribe daily, weekly, monthly, quarterly, and annual reflection work, including substantial time blocks and recurring updates to multiple system surfaces.
-
-That compulsory cadence conflicts with the current dormancy/rest doctrine and creates the exact permanent-vigilance burden identified in the September review.
-
-Reflection is therefore available when useful, not mandatory because a calendar says it is time.
+Reflection is used when it produces meaningful learning; dormancy is permitted when there is nothing useful to process.
 
 ---
 
 # Canonical resolution
-
-The durable model is now simpler:
 
 **Capture / develop knowledge** → Knowledge Lifecycle + Knowledge Production Pipeline
 
@@ -103,14 +73,16 @@ The durable model is now simpler:
 
 **Preserve history** → Git + Intellectual Estate / archive as appropriate
 
-No separate top-level "engine" is required for each cognitive function.
+No separate top-level engine is required for each cognitive function.
 
 ---
 
 # Preservation
 
-Exact June source files remain recoverable from Git history and the preservation branch:
+Exact June source files remain recoverable from Git history and:
 
 `archive/pre-reconciliation-2026-09-29`
 
-Physical retirement of these top-level directories is authorized only after this selective-promotion record and canonical successors exist.
+The physical retirement is also covered by:
+
+`00_Constitution/DECISIONS/DR-2026-09-29-REPOSITORY-RECONCILIATION.md`
