@@ -15,17 +15,17 @@ Drew Freedman
 
 This reconciliation compares the repository's inherited architecture with the system demonstrably operating in September 2026.
 
-It applies the governing architectural rule:
+Governing rule:
 
 > **Integration over Reorganization.**
 
-The objective is not to create another architecture. It is to identify canonical homes, remove ambiguity, preserve history, protect working systems, and retire transitional structures once their knowledge has been accounted for.
+The objective is to identify canonical homes, remove ambiguity, preserve history, protect working systems, and retire transitional structures once their knowledge has been accounted for.
 
 ---
 
-# Safety Boundary
+# Safety boundary
 
-Preservation branch created before destructive cleanup:
+Preservation branch:
 
 `archive/pre-reconciliation-2026-09-29`
 
@@ -33,32 +33,25 @@ Implementation branch:
 
 `reconciliation-2026-09-29`
 
-Active campaign production is outside the cleanup scope unless separately reviewed and approved.
+Active campaign production remains outside structural cleanup unless separately reviewed and approved.
 
 ---
 
-# Canonical authority now established
+# Canonical authority
 
 ## Constitution
 
-Canonical constitutional home:
+`00_Constitution/` is the canonical constitutional home.
 
-`00_Constitution/`
+The parallel `00_CONSTITUTION/` package has been reconciled and removed from the live branch.
 
-The parallel `00_CONSTITUTION/` architecture package has been reconciled and physically retired from this branch.
-
-See:
-
-- `00_Constitution/CANONICAL_PRECEDENCE.md`
-- `archive/PARALLEL_CONSTITUTIONAL_ARCHITECTURE/README.md`
+See `00_Constitution/CANONICAL_PRECEDENCE.md`.
 
 ## Operating System
 
-Canonical reusable operating home:
+`01_OPERATING_SYSTEM/` is the canonical reusable operating home.
 
-`01_OPERATING_SYSTEM/`
-
-Promoted standards now include:
+Current promoted standards include:
 
 - `PRODUCTION_PLAYBOOK.md`
 - `STANDARDS/GOVERNANCE_PRINCIPLE.md`
@@ -66,113 +59,80 @@ Promoted standards now include:
 - `STANDARDS/KNOWLEDGE_PRODUCTION_PIPELINE.md`
 - `STANDARDS/PUBLICATION_SUCCESS_CRITERIA.md`
 - `STANDARDS/REPOSITORY_ARCHITECTURE.md`
+- `STANDARDS/STEWARD_PRINCIPLES.md`
 
 ## Current state
 
 `OPERATING_STATE.md` is the canonical present-attention/state surface.
 
-Historical project trackers, daily status files, dashboards, or AI memory files do not override it without current verification.
+Historical project trackers, daily status files, dashboards, and AI memory artifacts do not override it without current verification.
 
 ## Tao visual identity
 
-Tao-specific visual doctrine now belongs with the Tao domain rather than a global operating-system layer.
-
-Canonical standard:
+Canonical Tao visual doctrine now lives at:
 
 `05_DOMAINS/FOUNDER_DOMAIN/TAO/BRAND_ASSETS/TAO_VISUAL_IDENTITY_SYSTEM_v1.0.md`
 
-The original Tao SVG chapter symbols remain temporarily under `03_OPERATING_SYSTEM/BRAND_ASSETS/CHAPTER_SYMBOLS/` pending controlled asset migration.
+The Tao SVG chapter symbols remain temporarily under `03_OPERATING_SYSTEM/BRAND_ASSETS/CHAPTER_SYMBOLS/` pending controlled asset migration.
 
 ---
 
-# Completed reconciliation passes
+# Completed reconciliation and retirement passes
 
-## Legacy `_system/`
+## Parallel constitutional architecture
 
-Classified file-by-file and documented in:
+`00_CONSTITUTION/` — reconciled and removed.
 
-`archive/LEGACY_SYSTEM_2026-03/README.md`
+## Legacy project tracker
 
-Clearly retired machinery has begun to be physically removed. Historically richer AI/collaboration and Sidekick-specific files remain for a second physical pass.
+`_projects/` — reconciled and removed.
 
-## `03_OPERATING_SYSTEM/`
+## Legacy support layer
 
-Durable standards were promoted or re-homed. The superseded `STANDARDS/` files have been removed from the live branch.
+`_support/` — reconciled and removed.
 
-The remaining blocker to full retirement is the Tao brand-asset tree, especially the SVG chapter symbols.
+## June thinking-engine generation
 
-See:
-
-`archive/LEGACY_OPERATING_SYSTEM_03/README.md`
-
-## `_projects/`
-
-All four March 2026 project snapshots were classified and then removed from the live branch.
-
-Historical record:
-
-`archive/LEGACY_PROJECT_TRACKS_2026-03/README.md`
-
-## `_support/`
-
-Both legacy support files were classified and removed from the live branch.
-
-Historical record:
-
-`archive/LEGACY_SUPPORT_2026-03/README.md`
-
-## Parallel `00_CONSTITUTION/`
-
-All four files were reconciled. Durable repository architecture doctrine was promoted into the canonical Operating System; the unratified/draft architecture package remains recoverable through Git but no longer occupies a parallel constitutional root.
-
----
-
-# Physical cleanup completed so far
-
-The following obsolete live surfaces now disappear from the reconciliation branch because their files have been removed:
-
-- `00_CONSTITUTION/`
-- `_projects/`
-- `_support/`
-- `03_OPERATING_SYSTEM/STANDARDS/`
-
-The following have been materially reduced but intentionally remain pending further review:
-
-- `_system/`
-- `03_OPERATING_SYSTEM/`
-
-See:
-
-`archive/PHYSICAL_CLEANUP_2026-09-29.md`
-
----
-
-# Historical architecture engines still awaiting disposition
-
-The repository still contains a June architecture generation including:
+The following top-level engines were selectively reconciled and removed:
 
 - `02_Core_Principles/`
 - `03_Universal_Insight_Processor/`
 - `04_Decision_Framework/`
 - `05_Reflection_Engine/`
 
-These contain meaningful intellectual material but also prescribe a high-maintenance daily/weekly/monthly/quarterly operating rhythm and obsolete storage paths.
+Durable principles were promoted into `STANDARDS/STEWARD_PRINCIPLES.md`.
 
-They are classified as **ARCHIVE / SELECTIVE PROMOTION**, not current mandatory machinery.
+The UIP's useful knowledge flow is represented by the canonical Knowledge Lifecycle and Knowledge Production Pipeline.
 
-Their durable concepts should be compared against the newly canonical Knowledge Lifecycle, Knowledge Production Pipeline, Governance Principle, and current rest/dormancy doctrine before physical retirement.
+Decision-record governance remains with the constitutional Decision Record Standard.
+
+Reflection remains available when useful, but the inherited compulsory daily/weekly/monthly/quarterly cadence is retired.
+
+See `archive/JUNE_THINKING_ENGINES/README.md`.
+
+## Legacy `03_OPERATING_SYSTEM/STANDARDS/`
+
+All five standards were promoted/re-homed and the old standards directory was removed.
+
+The remaining `03_OPERATING_SYSTEM/` blocker is the Tao brand-asset tree.
+
+## Legacy `_system/`
+
+The clearly retired control machinery has been removed. Historically richer AI/collaboration and Sidekick-specific files remain for a second pass.
+
+See `archive/LEGACY_SYSTEM_2026-03/README.md`.
 
 ---
 
-# Rest / Dormancy resolution
+# Rest / dormancy resolution
 
 DORMANT is a healthy operational state.
 
 No AI collaborator, dashboard, project, or workflow should generate maintenance work solely because an asset exists.
 
-Periodic stewardship review is appropriate for intentionally quiet work. Review cadence should follow consequence and change, not an inherited requirement to touch everything continuously.
+Review cadence follows consequence, change, uncertainty, and learning — not inherited calendar compulsion.
 
-This explicitly supersedes legacy rules that require daily reflection, forced 48-hour project touches, or routine updates without a meaningful trigger.
+This supersedes legacy requirements for daily reflection, forced 48-hour project touches, or routine updates without a meaningful trigger.
 
 ---
 
@@ -182,7 +142,29 @@ This explicitly supersedes legacy rules that require daily reflection, forced 48
 
 Do not migrate or redesign that production system merely to satisfy an older architecture diagram.
 
-The working system takes precedence over cosmetic uniformity.
+Working evidence takes precedence over cosmetic uniformity.
+
+---
+
+# Physical simplification completed
+
+Complete obsolete live surfaces removed so far:
+
+- `00_CONSTITUTION/`
+- `_projects/`
+- `_support/`
+- `02_Core_Principles/`
+- `03_Universal_Insight_Processor/`
+- `04_Decision_Framework/`
+- `05_Reflection_Engine/`
+- `03_OPERATING_SYSTEM/STANDARDS/`
+
+Partially reduced and still under controlled review:
+
+- `_system/`
+- `03_OPERATING_SYSTEM/`
+
+See `archive/PHYSICAL_CLEANUP_2026-09-29.md`.
 
 ---
 
@@ -195,7 +177,7 @@ This reconciliation is complete when:
 - legacy structures no longer masquerade as active systems;
 - every retired location has had its unique knowledge accounted for;
 - Tao chapter-symbol assets have a verified canonical home;
-- the remaining June architecture engines have been selectively preserved or retired;
+- remaining `_system` historical files have final disposition;
 - active campaign production remains undisturbed;
 - historical material remains recoverable through Git and documented archive manifests;
 - the repository is materially simpler to enter and maintain than before reconciliation.
@@ -206,6 +188,6 @@ This reconciliation is complete when:
 
 The repository does not need another architecture.
 
-It is now moving from documented reconciliation into actual simplification.
+The transition from architecture-building to evidence-driven operation is now being completed physically, not merely described.
 
-The working system is being preserved. Durable doctrine is being promoted. Obsolete scaffolding is being removed only after its meaning and successor are known.
+The working system is preserved. Durable doctrine is promoted. Obsolete scaffolding is removed only after its meaning and successor are known.
