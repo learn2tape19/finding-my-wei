@@ -4,65 +4,60 @@
 September 29, 2026
 
 ## Status
-Superseded as an operating-system location; unique doctrine promoted before retirement.
+FULLY RECONCILED AND PHYSICALLY RETIRED FROM LIVE BRANCH
 
 ---
 
 # Resolution
 
-`03_OPERATING_SYSTEM/` represented a substantive intermediate generation of Finding My Wei. It was not empty scaffolding and therefore was not safe to delete wholesale.
-
-Its durable knowledge has now been assigned canonical destinations.
+`03_OPERATING_SYSTEM/` was a substantive intermediate generation, not empty scaffolding. Its durable doctrine and Tao brand assets were therefore reconciled before the live directory was removed.
 
 ---
 
 # Standards disposition
 
-| Legacy asset | Disposition | Canonical destination |
-|---|---|---|
-| `STANDARDS/GOVERNANCE_PRINCIPLE.md` | PROMOTE / MODERNIZE | `01_OPERATING_SYSTEM/STANDARDS/GOVERNANCE_PRINCIPLE.md` |
-| `STANDARDS/KNOWLEDGE_LIFECYCLE.md` | PROMOTE / MODERNIZE | `01_OPERATING_SYSTEM/STANDARDS/KNOWLEDGE_LIFECYCLE.md` |
-| `STANDARDS/PUBLICATION_SUCCESS_CRITERIA.md` | PROMOTE / MODERNIZE | `01_OPERATING_SYSTEM/STANDARDS/PUBLICATION_SUCCESS_CRITERIA.md` |
-| `STANDARDS/KNOWLEDGE_PRODUCTION_PIPELINE.md` | PROMOTE / CLARIFY | `01_OPERATING_SYSTEM/STANDARDS/KNOWLEDGE_PRODUCTION_PIPELINE.md` |
-| `STANDARDS/TAO_VISUAL_IDENTITY_SYSTEM_v1.0.md` | PROMOTE / REHOME | `05_DOMAINS/FOUNDER_DOMAIN/TAO/BRAND_ASSETS/TAO_VISUAL_IDENTITY_SYSTEM_v1.0.md` |
+| Legacy asset | Canonical destination |
+|---|---|
+| `STANDARDS/GOVERNANCE_PRINCIPLE.md` | `01_OPERATING_SYSTEM/STANDARDS/GOVERNANCE_PRINCIPLE.md` |
+| `STANDARDS/KNOWLEDGE_LIFECYCLE.md` | `01_OPERATING_SYSTEM/STANDARDS/KNOWLEDGE_LIFECYCLE.md` |
+| `STANDARDS/PUBLICATION_SUCCESS_CRITERIA.md` | `01_OPERATING_SYSTEM/STANDARDS/PUBLICATION_SUCCESS_CRITERIA.md` |
+| `STANDARDS/KNOWLEDGE_PRODUCTION_PIPELINE.md` | `01_OPERATING_SYSTEM/STANDARDS/KNOWLEDGE_PRODUCTION_PIPELINE.md` |
+| `STANDARDS/TAO_VISUAL_IDENTITY_SYSTEM_v1.0.md` | `05_DOMAINS/FOUNDER_DOMAIN/TAO/BRAND_ASSETS/TAO_VISUAL_IDENTITY_SYSTEM_v1.0.md` |
+
+The Knowledge Production Pipeline governs **raw idea → approved intellectual asset**.
+
+The Production Playbook governs **approved asset → deployed, verified publication**.
+
+They are complementary, not competing operating systems.
 
 ---
 
-# Key architectural clarification
+# Tao chapter-symbol migration
 
-The old Knowledge Production Pipeline and the newer Production Playbook are not duplicates when properly scoped.
+All nine canonical SVG chapter symbols were copied into:
 
-- Knowledge Production Pipeline governs **raw idea → approved intellectual asset**.
-- Production Playbook governs **approved asset → deployed, verified publication**.
+`05_DOMAINS/FOUNDER_DOMAIN/TAO/BRAND_ASSETS/CHAPTER_SYMBOLS/`
 
-This distinction preserves the useful upstream thinking while preventing two competing operating systems.
+The copied SVG blobs retained the same Git blob SHAs as the source assets, confirming byte-identical content.
 
----
+A new canonical chapter-symbol README now lives with the Tao assets.
 
-# Brand assets
+After verification, the old copies and legacy brand-asset manifests were removed.
 
-The legacy `BRAND_ASSETS/` tree contains Tao-specific material, including chapter-symbol binaries.
-
-The governing visual identity standard has been moved conceptually into the Tao domain.
-
-Binary originals should remain untouched until a safe binary move/copy operation is available and references have been checked. They are not global operating-system assets.
+The `03_OPERATING_SYSTEM/` directory therefore no longer exists on the reconciliation branch.
 
 ---
 
 # Authority
 
-After this reconciliation, documents remaining physically under `03_OPERATING_SYSTEM/` are historical sources, not current doctrine, unless explicitly referenced by a canonical successor.
-
 Current operating doctrine lives under `01_OPERATING_SYSTEM/`.
 
-Tao-specific visual identity lives under `05_DOMAINS/FOUNDER_DOMAIN/TAO/BRAND_ASSETS/`.
+Tao-specific visual identity and chapter symbols live under `05_DOMAINS/FOUNDER_DOMAIN/TAO/BRAND_ASSETS/`.
 
 ---
 
 # Recovery
 
-Exact historical content remains recoverable from Git history and the preservation branch:
+Exact historical content remains recoverable from Git history and:
 
 `archive/pre-reconciliation-2026-09-29`
-
-No duplicate copy of the entire legacy tree is necessary for preservation.
