@@ -3,17 +3,23 @@
 
 ---
 
-# What This Is
+# Start Here
 
-**Finding My Wei is not a repository.**
+**Finding My Wei is not merely a repository.**
 
-It is an **Intellectual Estate Management System** — a self-describing, self-governing structure for managing intellectual work across decades.
+It is Drew Freedman's **Intellectual Estate Management System**: a permanent record, working institution, research engine, and stewardship system for decades of intellectual and commercial work.
 
-Think of it as:
-- **A library** (preserving completed knowledge)
-- **A workshop** (creating new ideas)
-- **A governance system** (stewarding how work flows)
-- **A permanent record** (truthful and accessible)
+If you are entering the estate for the first time, do not begin by reading the entire directory tree.
+
+Read these first:
+
+1. **[START_HERE.md](START_HERE.md)** — plain-language orientation and navigation
+2. **[OPERATING_STATE.md](OPERATING_STATE.md)** — what deserves attention now
+3. **[SUCCESSION_BRIEF.md](SUCCESSION_BRIEF.md)** — continuity if stewardship changes
+
+For formal governance, read **[00_Constitution/CONSTITUTION.md](00_Constitution/CONSTITUTION.md)**.
+
+For the proven publication workflow, read **[01_OPERATING_SYSTEM/PRODUCTION_PLAYBOOK.md](01_OPERATING_SYSTEM/PRODUCTION_PLAYBOOK.md)**.
 
 ---
 
@@ -21,157 +27,72 @@ Think of it as:
 
 **Knowledge is managed as a living system, not stored as static files.**
 
-Every asset has:
-- A **location** (which layer, which domain)
-- A **state** (creation, refinement, stable, published, preserved, archive)
-- A **charter** (rules governing what belongs here)
-- **Relationships** (connections to other work)
-- A **steward** (who's responsible)
+The estate preserves meaning, provenance, relationships, decisions, and enduring work.
+
+The operating system exists to make that work easier to create, deploy, understand, and preserve.
+
+**The system is not the work. The system serves the work.**
 
 ---
 
-# System Overview
+# Current Operating Reality
 
-The IEMS is organized in **6 layers**, from governance to working domains:
+The architecture established in June 2026 remains the governing foundation, but real-world use now determines how operations evolve.
 
-## Layer 0: Constitution
-**[00_Constitution/](00_Constitution/)**
+The production pipeline demonstrated through live Tao publication cycles is formally recognized as a canonical operating playbook rather than remaining implicit inside individual campaign receipts.
 
-The permanent governing charter. Non-negotiable. Changes only through formal amendment.
+The estate also distinguishes between:
 
-- What this system is
-- Core principles
-- Roles and authorities
-- Amendment process
+- enduring asset importance, and
+- current Founder attention.
 
----
+A project may be valuable to the estate while requiring little or no work today.
 
-## Layer 1: Operating System
-**[01_OPERATING_SYSTEM/](01_OPERATING_SYSTEM/)**
-
-How the system operates day-to-day.
-
-- Collaboration principles ([SOUL.md](01_OPERATING_SYSTEM/SOUL.md))
-- Memory systems (what we remember and why)
-- Automation (daily operations)
-- AI guidelines (how Claude and ChatGPT work)
-- Tools and infrastructure
+See **[OPERATING_STATE.md](OPERATING_STATE.md)** for the current portfolio state.
 
 ---
 
-## Layer 2: Research Engine
-**[02_PROJECT_ATLAS/](02_PROJECT_ATLAS/)**
+# Major Areas of the Estate
 
-Cross-domain investigations that feed all domains.
+## Founder / Drew Freedman
+Philosophy, writing, decisions, relationships, speaking, creative direction, and personal intellectual legacy.
 
-- Therapeutic Alliance Framework (Paper 1)
-- Stand Architecture Research (Paper 2)
-- Future investigations
-- Working materials while in progress
-- Synthesized findings move to Intellectual Estate
+## The Tao of Clinical Touch
+Book, publication platform, authority body of work, and continuing exploration of therapeutic alliance, permission, safety, expectation, and possibility.
 
----
+## Learn2Tape
+Education, continuing education, kinesiology taping curriculum, K-Cuts, products, learners, and commercial infrastructure.
 
-## Layer 3: Intellectual Estate
-**[03_INTELLECTUAL_ESTATE/](03_INTELLECTUAL_ESTATE/)**
+## StitchCore / Sidekick Air
+Product innovation, AeroStitch Core Technology, engineering, IP, manufacturing, and commercialization.
 
-Permanent library of completed, validated knowledge.
+## The Boston Bodyworker
+Clinical and professional legacy, publishing history, accumulated authority, writing, and historical intellectual value.
 
-- Published books
-- Research papers
-- Frameworks and methodologies
-- Decision logs
-- Historical records
-
-This layer is read-mostly and permanent.
+## Project Atlas
+Cross-domain research capability activated when important uncertainty requires structured investigation.
 
 ---
 
-## Layer 4: Capabilities (Shared Enterprise Services)
-**[04_CAPABILITIES/](04_CAPABILITIES/)**
+# Governance vs. Operations
 
-Shared infrastructure serving all domains.
+The distinction is intentional:
 
-- **MARKETING** — Brand, messaging, campaigns
-- **PUBLISHING** — How work becomes books/papers
-- **RESEARCH** — Investigation methodology and standards
-- **ANALYTICS** — Measurement and reporting
-- **OPERATIONS** — Finance, legal, systems
-- **QUALITY_ASSURANCE** — Review and validation
-- **SYNTHESIS** — How research becomes frameworks
+**The Constitution protects what must remain true.**
 
-Every domain uses some or all of these capabilities.
+**The Operating System defines how recurring work gets done.**
 
----
+**Playbooks capture proven workflows.**
 
-## Layer 5: Domains (Primary Organizational Layer)
-**[05_DOMAINS/](05_DOMAINS/)**
+**Receipts preserve evidence of what actually happened.**
 
-Where intellectual work lives and is managed.
-
-### FOUNDER_DOMAIN
-**[FOUNDER_DOMAIN/](05_DOMAINS/FOUNDER_DOMAIN/)**
-
-Drew Freedman's creative work.
-- Philosophy and principles
-- Personal writing and journals
-- Speaking and interviews
-- In-development projects
-- Decision history and relationships
-
-**Authority:** Drew Freedman
+Governance should protect meaning, authority, provenance, permission, IP, and continuity without forcing unnecessary administrative work.
 
 ---
 
-### PUBLISHING_DOMAIN
-**[PUBLISHING_DOMAIN/](05_DOMAINS/PUBLISHING_DOMAIN/)**
+# Operating Lifecycle
 
-The Boston Bodyworker — a 30+ year publishing platform.
-- Website and digital presence
-- Published writing and articles
-- Educational content
-- Credentials and authority
-- Historical content preservation
-
-**Authority:** Drew Freedman (acting director)
-
-**Note:** This is an appreciating intellectual asset, not an archive.
-
----
-
-### EDUCATION_DOMAIN
-**[EDUCATION_DOMAIN/](05_DOMAINS/EDUCATION_DOMAIN/)**
-
-Learn2Tape — online education and certifications.
-- Courses and curriculum
-- K-Cuts certification program
-- Teaching methodologies
-- Student success tracking
-- Operations and LMS
-
-**Authority:** Drew Freedman (acting director)
-
----
-
-### INNOVATION_DOMAIN
-**[INNOVATION_DOMAIN/](05_DOMAINS/INNOVATION_DOMAIN/)**
-
-StitchCore — product development and innovation.
-- Sidekick Air (product #1)
-- Core technology (AeroStitch)
-- Patents and IP
-- Manufacturing partnerships
-- Future products (architecture-ready)
-
-**Authority:** Drew Freedman (steward)
-
----
-
-# How Work Flows
-
-Work moves through **lifecycle states**, not just folders.
-
-## Lifecycle States
+Operational work may move through:
 
 ```
 CREATION
@@ -180,165 +101,90 @@ REFINEMENT
    ↓
 STABLE
    ↓
-PUBLICATION
+DORMANT
    ↓
-PRESERVATION
-   ↓
-ARCHIVE (if retired)
+ARCHIVE
 ```
 
-**Example: A Book**
+DORMANT is intentional inactivity, not failure.
 
-1. **CREATION** (FOUNDER_DOMAIN/PROJECTS/)
-   - Idea is conceived, draft is written
+A dormant project requires no recurring work until a meaningful trigger reactivates it.
 
-2. **REFINEMENT** (FOUNDER_DOMAIN/PROJECTS/)
-   - Manuscript is edited, feedback gathered
-
-3. **STABLE** (FOUNDER_DOMAIN/PROJECTS/)
-   - Manuscript is finished, ready to publish
-
-4. **PUBLICATION** (PUBLISHING_DOMAIN or 03_INTELLECTUAL_ESTATE/BOOKS/)
-   - Book is published, widely available
-
-5. **PRESERVATION** (03_INTELLECTUAL_ESTATE/BOOKS/)
-   - Published work becomes permanent record
-   - Stays here forever
+Published intellectual assets may separately move into preservation within the Intellectual Estate.
 
 ---
 
-# CHARTER.md Documents
+# Production
 
-Every major directory has a **CHARTER.md** that explains itself.
+The reusable publication system is documented in:
 
-Each charter defines:
+**[01_OPERATING_SYSTEM/PRODUCTION_PLAYBOOK.md](01_OPERATING_SYSTEM/PRODUCTION_PLAYBOOK.md)**
 
-- **Purpose** — Why does this directory exist?
-- **Scope** — What belongs here? What doesn't?
-- **Governance** — Who decides what goes here?
-- **Lifecycle** — How do assets move through this space?
-- **Relationships** — How does this connect to other parts?
-- **Success Metrics** — How do we know this is healthy?
+Its canonical pattern is:
 
-**Example:** [05_DOMAINS/EDUCATION_DOMAIN/CHARTER.md](05_DOMAINS/EDUCATION_DOMAIN/CHARTER.md)
+```
+Editorial Development
+        ↓
+Founder Approval
+        ↓
+Asset Completeness
+        ↓
+Primary Publication
+        ↓
+Distribution
+        ↓
+Independent Reconciliation
+        ↓
+Execution Receipt
+```
 
-This means future collaborators can understand the system **without external explanation**.
-
----
-
-# Key Roles
-
-## Drew Freedman (Steward)
-- Creates intellectual work
-- Makes strategic decisions
-- Approves major changes
-- Sets direction for the estate
-
-## Claude (Librarian)
-- Maintains structure and consistency
-- Enforces charters and governance
-- Preserves relationships between assets
-- Ensures self-documentation
-- Moves assets through lifecycle states
-
-## Repository (Enduring Record)
-- Stores truth
-- Preserves access
-- Maintains history
-- Enables discovery
-- Supports stewardship
+Detailed campaign files remain the evidence record. The playbook captures the reusable operating doctrine.
 
 ---
 
-# Using This System
+# AI Collaborators
 
-## Adding New Work
+## Claude — Librarian / Repository Operations
+Maintains structure, consistency, evidence, repository organization, and operational execution within authorized boundaries.
 
-1. Identify which domain it belongs to (or if it's cross-domain research)
-2. Read that domain's CHARTER.md
-3. Follow the inclusion criteria
-4. Place the work in the appropriate subdirectory
-5. Tag it with its lifecycle state
+## ChatGPT — Strategy and Research Partner
+Supports strategy, research, synthesis, cross-domain thinking, publication development, and decision support.
 
-## Moving Work Through States
+## Drew Freedman — Founder
+Sets direction, creates intellectual work, makes strategic decisions, and retains final authority.
 
-1. Work progresses through CREATION → REFINEMENT → STABLE
-2. When ready, it's published or moved to Intellectual Estate
-3. Significant work moves to PRESERVATION
-4. Retired work moves to ARCHIVE
-
-## Adding a New Capability
-
-1. Identify the need across domains
-2. Propose the capability to Drew Freedman
-3. Write a CHARTER.md defining its scope and governance
-4. Add it to [04_CAPABILITIES/](04_CAPABILITIES/)
-5. Domains begin using it
-
-## Amending the Constitution
-
-1. Propose the amendment with rationale
-2. Assess impact on the system
-3. Drew Freedman reviews and decides
-4. Amendment is documented in [00_Constitution/AMENDMENTS.md](00_Constitution/AMENDMENTS.md)
-5. Effective date is recorded
+AI collaborators are staff functions. They do not create activity merely because a project exists.
 
 ---
 
-# Architecture Freeze
+# Architecture
 
-**Important:** The structural architecture is now **frozen** as of June 30, 2026.
+The constitutional architecture established June 30, 2026 remains the foundation of Finding My Wei.
 
-No more redesign. No more theoretical optimization.
+The architecture is not to be repeatedly redesigned for theoretical elegance.
 
-The system will evolve through:
-- **Real-world use** (what actually works?)
-- **Capability addition** (new services emerge from need)
-- **Domain growth** (new domains only if needed)
-- **Lifecycle refinement** (better state definitions based on experience)
+It evolves when **real-world use demonstrates a genuine operational need**.
 
-Evolution will be **driven by reality, not theory**.
+The September 2026 recognition of the production playbook and dormancy state is an example of that principle working as intended.
 
 ---
 
-# The Promise
+# Stewardship Standard
 
-This system is designed to:
+Finding My Wei succeeds when:
 
-✅ Never lose meaningful knowledge  
-✅ Make work discoverable decades from now  
-✅ Preserve the thinking behind decisions  
-✅ Support stewardship, not just storage  
-✅ Explain itself without external help  
-✅ Scale with growth  
-✅ Adapt to real use  
-
----
-
-# Getting Started
-
-1. **Read the Constitution:** [00_Constitution/CONSTITUTION.md](00_Constitution/CONSTITUTION.md)
-2. **Understand the layers:** This README
-3. **Find your domain:** [05_DOMAINS/](05_DOMAINS/)
-4. **Read the charter:** [DOMAIN/CHARTER.md](05_DOMAINS/)
-5. **Start contributing:** Follow the inclusion criteria in that charter
+- meaningful knowledge is not lost;
+- projects and decisions remain discoverable;
+- research becomes reusable knowledge;
+- publications become enduring assets;
+- current priorities are distinguishable from historical importance;
+- future collaborators can enter through a simple front door;
+- proven operations become easier rather than more bureaucratic;
+- dormant work is allowed to remain quiet;
+- the estate can survive a change in stewardship.
 
 ---
 
-# Contact & Stewardship
-
-**Steward:** Drew Freedman  
-**Librarian:** Claude  
-**Permanent Record:** This repository (GitHub)
-
-This system exists to preserve decades of thinking, innovation, education, and legacy.
-
-It is a stewardship system.
-
-Act accordingly.
-
----
-
-**Status:** IEMS v1.0 live as of June 30, 2026  
-**Architecture Frozen:** Yes (real-world evolution only)  
-**Ready for Use:** Yes
+**Governing authority:** Drew Freedman  
+**Constitution:** v2.0, ratified June 30, 2026  
+**Operating front door updated:** September 29, 2026
