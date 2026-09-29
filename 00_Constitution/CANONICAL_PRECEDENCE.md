@@ -1,7 +1,7 @@
 # Canonical Constitutional Precedence
 
 ## Status
-Reconciliation authority map
+Canonical reconciliation authority map
 
 ## Date
 September 29, 2026
@@ -10,14 +10,14 @@ September 29, 2026
 
 # Purpose
 
-Finding My Wei currently contains two case-variant constitutional directories:
+Finding My Wei inherited two case-variant constitutional directories:
 
 - `00_Constitution/`
 - `00_CONSTITUTION/`
 
-They represent different architectural generations and cannot both be treated as independently canonical.
+They represented different architectural generations and could not both remain independently canonical.
 
-This document establishes precedence while unique knowledge is reconciled.
+The conflict has now been reconciled.
 
 ---
 
@@ -28,11 +28,11 @@ This document establishes precedence while unique knowledge is reconciled.
 Reasons:
 
 1. It contains the ratified Repository Constitution v2.0 dated June 30, 2026.
-2. Its `CHARTER.md` explicitly identifies the layer as the permanent governing charter and states that it governs all other layers.
+2. Its `CHARTER.md` identifies the layer as the permanent governing charter and states that it governs all other layers.
 3. It contains the broader constitutional corpus: authority, governance, amendment, AI collaboration, stewardship, directives, succession, Project Atlas constitutional doctrine, and related institutional standards.
-4. The competing `00_CONSTITUTION/` directory is primarily an FC/ARCH architecture package rather than a complete constitutional layer.
+4. The former `00_CONSTITUTION/` directory was primarily an FC/ARCH architecture package rather than a complete constitutional layer.
 
-Case is therefore meaningful during reconciliation: `00_Constitution/` is current; `00_CONSTITUTION/` is a later/parallel architecture package whose durable knowledge must be integrated rather than allowed to create a second constitution.
+The parallel root was reconciled and physically retired from `reconciliation-2026-09-29` after its durable implementation doctrine received a canonical successor.
 
 ---
 
@@ -51,72 +51,65 @@ A document labeled draft, release candidate, work order, implementation specific
 
 ---
 
-# Treatment of `00_CONSTITUTION/`
-
-`00_CONSTITUTION/` is classified as **RECONCILE THEN RETIRE AS A PARALLEL ROOT**.
-
-Its four current files are handled as follows:
+# Disposition of former `00_CONSTITUTION/`
 
 ## `MASTER_REPOSITORY_MAP.md`
 
-**PROMOTE SELECTIVELY / HISTORICAL ARCHITECTURE EVIDENCE**
+**HISTORICAL ARCHITECTURE EVIDENCE / SELECTIVE CONSTITUTIONAL INPUT**
 
-The document contains valuable institutional framing, including the mission `Helping People Feel Better`, the concept of Mission Expressions, and the distinction between institutional continuity and product creation.
+It contains valuable institutional framing, including the mission `Helping People Feel Better`, the concept of Mission Expressions, and the distinction between institutional continuity and product creation.
 
-However, it is explicitly marked `1.0.0-rc1` and `Draft for Founder Ratification` and describes an architecture that differs from the ratified Constitution v2.0.
+Because it was marked `1.0.0-rc1` and `Draft for Founder Ratification`, it did not independently redefine the permanent repository pillars or organizational model.
 
-It therefore cannot independently redefine the permanent repository pillars or organizational model.
-
-Durable concepts should be incorporated through formal constitutional amendment if the Founder wants them to supersede v2.0.
+If its Mission Expression model is to supersede Constitution v2.0, that change should enter through formal amendment.
 
 ## `REPOSITORY_ARCHITECTURE.md`
 
-**PROMOTE AS IMPLEMENTATION STANDARD**
+**PROMOTED / MODERNIZED**
 
-Its strongest durable doctrine is implementation-level rather than constitutional:
+Durable implementation doctrine now lives at:
+
+`01_OPERATING_SYSTEM/STANDARDS/REPOSITORY_ARCHITECTURE.md`
+
+Preserved principles include:
 
 - Integration over Reorganization
-- inventory before moving or consolidating content
-- one canonical home per document
+- inventory before intervention
+- one canonical home per enduring document
 - cross-reference instead of uncontrolled duplication
-- README as navigation rather than governance
-- preserve coherent existing naming rather than cosmetic churn
-
-These principles remain valid and already guide the current reconciliation.
-
-They should ultimately live under the canonical operating/architecture standards rather than as a competing constitutional root.
+- navigation is not governance
+- preserve coherent existing structure unless change reduces real ambiguity or friction
+- protect active production during cleanup
 
 ## `ARCH-002_IMPLEMENTATION_SPEC.md`
 
-**ARCHIVE AFTER RECONCILIATION**
+**RETIRED AS LIVE FILE / PRESERVED IN GIT**
 
-Implementation artifact for the parallel architecture program. Preserve as execution history; do not treat as constitutional authority.
+Implementation history, not constitutional authority.
 
 ## `ARCH-002_WORK_ORDER.md`
 
-**ARCHIVE AFTER RECONCILIATION**
+**RETIRED AS LIVE FILE / PRESERVED IN GIT**
 
-Work-order artifact. Preserve as migration/reconciliation history; it is not enduring doctrine.
+Migration/work-order history, not enduring doctrine.
 
 ---
 
-# Important conflict resolution
+# Conflict resolution
 
 The ratified Constitution v2.0 defines four permanent repository pillars and an entity-driven hierarchy.
 
-The FC-001 draft describes Finding My Wei as an Institutional Operating System organized around Mission Expressions.
+The former FC-001 draft described Finding My Wei as an Institutional Operating System organized around Mission Expressions.
 
 These ideas may be philosophically compatible, but their directory models are not identical.
 
 Until formally amended, the ratified Constitution controls.
 
-The reconciliation must not convert an unratified architecture proposal into constitutional law merely because it is newer or more detailed.
+The reconciliation does not convert an unratified architecture proposal into constitutional law merely because it is newer or more detailed.
 
 ---
 
 # Current architecture principle
-
-The repository should become simpler through this reconciliation without losing constitutional meaning.
 
 **Constitution defines enduring authority and identity.**
 
@@ -132,13 +125,12 @@ The repository should become simpler through this reconciliation without losing 
 
 ---
 
-# Physical cleanup rule
+# Preservation
 
-Do not delete or rename the parallel constitutional directory until:
+The exact former `00_CONSTITUTION/` contents remain recoverable through Git history and:
 
-- its four files have been individually reconciled;
-- implementation doctrine has a canonical successor;
-- references to `00_CONSTITUTION/` have been identified sufficiently to avoid silent breakage;
-- Git preservation is verified.
+`archive/pre-reconciliation-2026-09-29`
 
-After those conditions are met, `00_CONSTITUTION/` should cease to exist as a live parallel constitutional root.
+Disposition is documented in:
+
+`archive/PARALLEL_CONSTITUTIONAL_ARCHITECTURE/README.md`
