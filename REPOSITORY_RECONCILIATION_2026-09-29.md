@@ -4,7 +4,7 @@
 September 29, 2026
 
 ## Status
-Founder-authorized reconciliation in progress
+Founder-authorized reconciliation in progress — canonical authority resolved; physical cleanup underway
 
 ## Authority
 Drew Freedman
@@ -13,167 +13,199 @@ Drew Freedman
 
 # Purpose
 
-This reconciliation compares the repository's inherited architecture with the system that is demonstrably operating in September 2026.
+This reconciliation compares the repository's inherited architecture with the system demonstrably operating in September 2026.
 
-It applies the Founder-approved architectural rule:
+It applies the governing architectural rule:
 
 > **Integration over Reorganization.**
 
-The objective is not to create another architecture. It is to identify canonical homes, remove ambiguity from navigation, preserve history, and retire transitional structures only when their content has been accounted for.
+The objective is not to create another architecture. It is to identify canonical homes, remove ambiguity, preserve history, protect working systems, and retire transitional structures once their knowledge has been accounted for.
 
 ---
 
 # Safety Boundary
 
-A preservation branch was created before destructive cleanup:
+Preservation branch created before destructive cleanup:
 
 `archive/pre-reconciliation-2026-09-29`
 
-Implementation work is isolated on:
+Implementation branch:
 
 `reconciliation-2026-09-29`
 
-No active campaign assets or production schedules are to be altered by this reconciliation.
+Active campaign production is outside the cleanup scope unless separately reviewed and approved.
 
 ---
 
-# Classification Standard
+# Canonical authority now established
 
-## KEEP
-Valid content already living in a defensible canonical location.
+## Constitution
 
-## PROMOTE
-Content or practice proven by real use that should become an explicit canonical reference.
+Canonical constitutional home:
 
-## ARCHIVE
-Historically meaningful material that should remain available but should no longer present itself as current operating doctrine.
+`00_Constitution/`
 
-## RETIRE
-Transitional or duplicate material whose knowledge has been preserved elsewhere and which should no longer function as a live navigation or operating surface.
+The parallel `00_CONSTITUTION/` architecture package has been reconciled and physically retired from this branch.
+
+See:
+
+- `00_Constitution/CANONICAL_PRECEDENCE.md`
+- `archive/PARALLEL_CONSTITUTIONAL_ARCHITECTURE/README.md`
+
+## Operating System
+
+Canonical reusable operating home:
+
+`01_OPERATING_SYSTEM/`
+
+Promoted standards now include:
+
+- `PRODUCTION_PLAYBOOK.md`
+- `STANDARDS/GOVERNANCE_PRINCIPLE.md`
+- `STANDARDS/KNOWLEDGE_LIFECYCLE.md`
+- `STANDARDS/KNOWLEDGE_PRODUCTION_PIPELINE.md`
+- `STANDARDS/PUBLICATION_SUCCESS_CRITERIA.md`
+- `STANDARDS/REPOSITORY_ARCHITECTURE.md`
+
+## Current state
+
+`OPERATING_STATE.md` is the canonical present-attention/state surface.
+
+Historical project trackers, daily status files, dashboards, or AI memory files do not override it without current verification.
+
+## Tao visual identity
+
+Tao-specific visual doctrine now belongs with the Tao domain rather than a global operating-system layer.
+
+Canonical standard:
+
+`05_DOMAINS/FOUNDER_DOMAIN/TAO/BRAND_ASSETS/TAO_VISUAL_IDENTITY_SYSTEM_v1.0.md`
+
+The original Tao SVG chapter symbols remain temporarily under `03_OPERATING_SYSTEM/BRAND_ASSETS/CHAPTER_SYMBOLS/` pending controlled asset migration.
 
 ---
 
-# Findings
+# Completed reconciliation passes
 
-## KEEP
+## Legacy `_system/`
 
-- `00_Constitution/` as the current ratified constitutional/governance body pending individual conflict resolution.
-- `00_CONSTITUTION/` architecture-engineering documents as an approved implementation layer; capitalization alone is not grounds for destructive consolidation.
-- `01_OPERATING_SYSTEM/` as the current operational home.
-- `02_PROJECT_ATLAS/` as the research capability.
-- `03_INTELLECTUAL_ESTATE/` as preservation layer.
-- `04_CAPABILITIES/` as shared capabilities.
-- `05_DOMAINS/` as domain organization where still referenced by the current estate.
-- `07_MARKETING/` because it contains active campaign production, including the working Tao Issue pipeline. Its June classification as merely transitional is superseded by real-world use.
-- `00_EXECUTIVE/` as historical and operational executive material, but its older status claims must not override the current root navigation or `OPERATING_STATE.md`.
+Classified file-by-file and documented in:
 
-## PROMOTE
+`archive/LEGACY_SYSTEM_2026-03/README.md`
 
-- `START_HERE.md` — canonical human entry point.
-- `OPERATING_STATE.md` — canonical current attention/state layer.
-- `SUCCESSION_BRIEF.md` — canonical continuity entry point.
-- `01_OPERATING_SYSTEM/PRODUCTION_PLAYBOOK.md` — canonical reusable deployment playbook proven by Issues 013 and 014.
-- The Issue 013/014 pattern of bounded Founder gates, independent reconciliation, explicit evidence states, and execution receipts.
+Clearly retired machinery has begun to be physically removed. Historically richer AI/collaboration and Sidekick-specific files remain for a second physical pass.
 
-## ARCHIVE
+## `03_OPERATING_SYSTEM/`
 
-The following are valuable as design or intellectual history but should not compete with current navigation or current operating doctrine:
+Durable standards were promoted or re-homed. The superseded `STANDARDS/` files have been removed from the live branch.
+
+The remaining blocker to full retirement is the Tao brand-asset tree, especially the SVG chapter symbols.
+
+See:
+
+`archive/LEGACY_OPERATING_SYSTEM_03/README.md`
+
+## `_projects/`
+
+All four March 2026 project snapshots were classified and then removed from the live branch.
+
+Historical record:
+
+`archive/LEGACY_PROJECT_TRACKS_2026-03/README.md`
+
+## `_support/`
+
+Both legacy support files were classified and removed from the live branch.
+
+Historical record:
+
+`archive/LEGACY_SUPPORT_2026-03/README.md`
+
+## Parallel `00_CONSTITUTION/`
+
+All four files were reconciled. Durable repository architecture doctrine was promoted into the canonical Operating System; the unratified/draft architecture package remains recoverable through Git but no longer occupies a parallel constitutional root.
+
+---
+
+# Physical cleanup completed so far
+
+The following obsolete live surfaces now disappear from the reconciliation branch because their files have been removed:
+
+- `00_CONSTITUTION/`
+- `_projects/`
+- `_support/`
+- `03_OPERATING_SYSTEM/STANDARDS/`
+
+The following have been materially reduced but intentionally remain pending further review:
+
+- `_system/`
+- `03_OPERATING_SYSTEM/`
+
+See:
+
+`archive/PHYSICAL_CLEANUP_2026-09-29.md`
+
+---
+
+# Historical architecture engines still awaiting disposition
+
+The repository still contains a June architecture generation including:
 
 - `02_Core_Principles/`
 - `03_Universal_Insight_Processor/`
 - `04_Decision_Framework/`
 - `05_Reflection_Engine/`
-- superseded architecture/design documents at root identified by the June reconciliation
-- old project snapshots in `_projects/`
-- obsolete Notion/OpenClaw synchronization instructions when no longer part of the live system
-- legacy operating documents in `_system/` that contain historical value after their current knowledge has been reconciled
 
-Archive means preserve, not erase.
+These contain meaningful intellectual material but also prescribe a high-maintenance daily/weekly/monthly/quarterly operating rhythm and obsolete storage paths.
 
-## RETIRE
+They are classified as **ARCHIVE / SELECTIVE PROMOTION**, not current mandatory machinery.
 
-- `_system/` as a live operating-system location after its surviving knowledge is reconciled into `01_OPERATING_SYSTEM/` or preserved in archive.
-- `_projects/` as a live project-status system after snapshots are preserved.
-- `_support/` as a catch-all location after its two known assets receive canonical homes or archival status.
-- duplicate `INDEX.md` / `PROJECTS_MAP.md` navigation patterns superseded by `START_HERE.md`, README navigation, and current domain/campaign records.
-- redundant March backup sets where Git history and a preservation ref already retain the state and no unique content is found.
+Their durable concepts should be compared against the newly canonical Knowledge Lifecycle, Knowledge Production Pipeline, Governance Principle, and current rest/dormancy doctrine before physical retirement.
 
 ---
 
-# Material Change From the June Reconciliation
+# Rest / Dormancy resolution
 
-The June 30 report classified `07_MARKETING/` largely as transitional content to be moved into Project Atlas.
-
-That recommendation is no longer valid as a blanket rule.
-
-By September, `07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/` contains the live production record for the Tao publication system. Issues 013 and 014 demonstrate that this area is operational, auditable, and productive.
-
-Therefore:
-
-**Do not migrate active campaign production merely to satisfy the June folder model.**
-
-Preserve the working campaign structure and improve navigation around it.
-
----
-
-# Operating-System Conflict
-
-The repository currently contains both:
-
-- `01_OPERATING_SYSTEM/` — current operational layer
-- `03_OPERATING_SYSTEM/` — an older operating-system generation containing standards and Tao brand assets
-
-`03_OPERATING_SYSTEM/` contains valuable intellectual material, including the Knowledge Production Pipeline, publication success criteria, governance principles, and Tao visual identity material. It must not be deleted as a unit.
-
-The canonical resolution is:
-
-1. Treat `01_OPERATING_SYSTEM/` as the current operational home.
-2. Reconcile still-valid standards from `03_OPERATING_SYSTEM/STANDARDS/` against newer doctrine before moving or archiving them.
-3. Move domain-specific brand assets to their appropriate domain/capability only after confirming references.
-4. Retire `03_OPERATING_SYSTEM/` only after every asset has a verified destination.
-
----
-
-# Constitutional Case-Variant Conflict
-
-Both `00_CONSTITUTION/` and `00_Constitution/` contain meaningful Founder-approved material.
-
-This is not a safe case-only rename problem.
-
-`00_Constitution/CONSTITUTION.md` is the ratified June Constitution, while `00_CONSTITUTION/REPOSITORY_ARCHITECTURE.md` is an August Founder-approved engineering specification that explicitly requires integration over reorganization and preservation of validated structures.
-
-Therefore both remain in place during this reconciliation. Canonical cross-references will be clarified before any folder-level consolidation is attempted.
-
----
-
-# Rest / Dormancy Resolution
-
-The estate now recognizes DORMANT as a healthy operational state.
+DORMANT is a healthy operational state.
 
 No AI collaborator, dashboard, project, or workflow should generate maintenance work solely because an asset exists.
 
-Quarterly stewardship review is sufficient for intentionally quiet work unless a meaningful external trigger requires action.
+Periodic stewardship review is appropriate for intentionally quiet work. Review cadence should follow consequence and change, not an inherited requirement to touch everything continuously.
+
+This explicitly supersedes legacy rules that require daily reflection, forced 48-hour project touches, or routine updates without a meaningful trigger.
 
 ---
 
-# Definition of Done
+# Active production protection
+
+`07_MARKETING/` contains proven live Tao campaign production. Issues 013 and 014 demonstrated a functioning gated publication pipeline.
+
+Do not migrate or redesign that production system merely to satisfy an older architecture diagram.
+
+The working system takes precedence over cosmetic uniformity.
+
+---
+
+# Definition of done
 
 This reconciliation is complete when:
 
 - current navigation points to current doctrine;
+- parallel constitutional and operating roots no longer compete for authority;
 - legacy structures no longer masquerade as active systems;
 - every retired location has had its unique knowledge accounted for;
+- Tao chapter-symbol assets have a verified canonical home;
+- the remaining June architecture engines have been selectively preserved or retired;
 - active campaign production remains undisturbed;
-- canonical conflicts are explicit rather than hidden;
-- historical material remains recoverable through Git and documented archive paths;
-- the repository is simpler to enter than it was before the reconciliation.
+- historical material remains recoverable through Git and documented archive manifests;
+- the repository is materially simpler to enter and maintain than before reconciliation.
 
 ---
 
-# Current Verdict
+# Current verdict
 
-The repository does not need a new architecture.
+The repository does not need another architecture.
 
-It needs completion of the transition from architecture-building to evidence-driven operation.
+It is now moving from documented reconciliation into actual simplification.
 
-The working system is being preserved. The obsolete scaffolding is being demoted carefully rather than erased blindly.
+The working system is being preserved. Durable doctrine is being promoted. Obsolete scaffolding is being removed only after its meaning and successor are known.
