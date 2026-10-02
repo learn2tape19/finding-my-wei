@@ -1,5 +1,5 @@
 # Issue 015 — Five-Day Copy and Visual Direction
-**Status:** PRODUCTION PROPOSAL — FOUNDER COPY / VISUAL APPROVAL REQUIRED  
+**Status:** FOUNDER APPROVED — COPY AND VISUAL DIRECTION LOCKED (October 2, 2026)  
 **Source of truth:** Founder-approved canonical article, *The Clinical Practice of Restraint* (October 2, 2026).  
 **Weekly movement:** Indication → Calibration → Reassessment → Decision → Completion.
 
@@ -136,3 +136,7 @@ Copy: Explain what you observed. Respect what remains uncertain. Leave the next 
 3. Maintain an explicit per-day manifest for Feed, Landscape, Story 1, Story 2, Story 3. Use approved originals; do not crop, resize, regenerate, or substitute after lock without approval.
 4. Only after all 25 are approved and validated should scheduling and downstream publication proceed through the established GitHub → WordPress → Buffer → Brevo sequence and reconciliation gates.
 5. No public publication or distribution is authorized by this proposal.
+
+## Founder Approval — October 2, 2026
+
+Founder approved the five-day copy and visual direction without revision. Next authorized action: generate **Monday Feed only**, 1080 × 1350, for Founder visual approval. Do not generate other visual roles, schedule, or distribute before the appropriate subsequent gates.
