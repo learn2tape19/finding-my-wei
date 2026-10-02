@@ -1,6 +1,6 @@
 # Issue 015 — Restraint
 ## The Clinical Practice of Restraint
-**Status:** DRAFT — FOUNDER REVIEW REQUIRED  
+**Status:** FOUNDER APPROVED — CANONICAL ARTICLE LOCKED (October 2, 2026)  
 **Source:** Founder-approved Issue 015 editorial brief, October 2, 2026  
 **Publication:** The Tao of Clinical Touch
 
@@ -78,11 +78,3 @@ Knowing a hundred techniques may expand our options.
 
 Knowing why to choose one, when to change it, and when to put our hands down is what makes those options useful.
 
----
-
-## Editorial review notes (not for publication)
-
-- Verify that the voice reflects Drew's actual treatment-room language; no invented patient anecdote has been attributed to him.
-- Review any claim that sounds too broad or mechanistic. This draft intentionally avoids causal neuroscience claims.
-- Confirm final headline and whether the Wu Wei reference should be more explicit.
-- Founder approval of this canonical article is required before deriving social copy or producing visuals.
