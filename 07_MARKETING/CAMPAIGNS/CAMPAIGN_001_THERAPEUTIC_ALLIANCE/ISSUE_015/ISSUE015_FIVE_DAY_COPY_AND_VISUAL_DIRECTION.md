@@ -144,3 +144,7 @@ Founder approved the five-day copy and visual direction without revision. Next a
 ## Monday Feed Visual Approval
 
 Founder approved the Monday Feed visual depicting the patient naturally holding the back of her neck while the clinician observes, with the approved Monday headline, supporting copy, masthead, tagline and footer. Approved image was generated in conversation and is not yet confirmed stored in the canonical GitHub issue directory. **Do not claim asset manifest/checksum or publication readiness until the exact approved binary is uploaded and verified.** Subsequent Monday roles remain unapproved.
+
+## Monday Landscape Visual Approval
+
+Founder approved the Monday landscape visual with the patient naturally holding the back of her neck and the clinician observing and taking notes, preserving the approved branding and Monday headline. The generated image is approved in conversation, but the exact binary has not yet been confirmed uploaded and checksummed in GitHub. Next: Monday Story 1, independently composed 1080×1920, for visual approval. Story 2 and Story 3 remain pending.
