@@ -140,3 +140,7 @@ Copy: Explain what you observed. Respect what remains uncertain. Leave the next 
 ## Founder Approval — October 2, 2026
 
 Founder approved the five-day copy and visual direction without revision. Next authorized action: generate **Monday Feed only**, 1080 × 1350, for Founder visual approval. Do not generate other visual roles, schedule, or distribute before the appropriate subsequent gates.
+
+## Monday Feed Visual Approval
+
+Founder approved the Monday Feed visual depicting the patient naturally holding the back of her neck while the clinician observes, with the approved Monday headline, supporting copy, masthead, tagline and footer. Approved image was generated in conversation and is not yet confirmed stored in the canonical GitHub issue directory. **Do not claim asset manifest/checksum or publication readiness until the exact approved binary is uploaded and verified.** Subsequent Monday roles remain unapproved.
