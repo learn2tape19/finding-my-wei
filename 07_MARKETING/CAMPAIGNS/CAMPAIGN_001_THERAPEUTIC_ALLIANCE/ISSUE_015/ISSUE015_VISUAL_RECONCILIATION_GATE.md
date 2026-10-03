@@ -1,6 +1,6 @@
 # Issue 015 — Visual Reconciliation Gate
 
-**Status: HOLD — approved in conversation, binary reconciliation and publication verification incomplete.**
+**Status: HOLD for deployment — all 25 approved render roles mapped and dimension-correct derivatives exported locally; GitHub binary upload and remote checksum readback pending.**
 
 ## Editorial and visual approval
 Founder approved 25 visual roles (five per weekday: Feed, Landscape, Story 1–3). The most recent explicit approvals cover Wednesday, Thursday, and Friday, concluding with Friday Story 3. Visual approval is not evidence that the exact binary was uploaded to the repository.
@@ -23,3 +23,6 @@ A runtime scan located **49 candidate PNGs**, including rejected iterations and 
 | Wednesday | approved; binary pending | approved; binary pending | approved; binary pending | approved; binary pending | approved; binary pending |
 | Thursday | approved; binary pending | approved; binary pending | approved; binary pending | approved; binary pending | approved; binary pending |
 | Friday | approved; binary pending | approved; binary pending | approved; binary pending | approved; binary pending | approved; binary pending |
+
+## October 3 export update
+Founder authorized proportional resizing without cropping or composition changes. A 5×5 visual contact sheet was reviewed to map 25 approved versions to Monday–Friday Feed, Landscape and three Stories, excluding superseded renders. Exported 25 publication derivatives: Feed 1080×1350, Landscape 1200×628, Stories 1080×1920. Automated output-dimension verification passed 25/25. The local deliverables are `/mnt/data/issue015_publication_assets.zip` (25 PNGs plus `issue015_verified_asset_manifest.csv`) and `/mnt/data/issue015_contact_sheet_review.jpg`. The CSV contains source and derivative SHA-256 checksums and exact filenames. **These local files are not yet in GitHub or live publishing systems.** Before any publication, transfer exact files to canonical repo/media destinations and independently verify remote checksums; review proportional-fit edge padding in publication preview. No WordPress, Buffer, or Brevo deployment has occurred in this pass.
