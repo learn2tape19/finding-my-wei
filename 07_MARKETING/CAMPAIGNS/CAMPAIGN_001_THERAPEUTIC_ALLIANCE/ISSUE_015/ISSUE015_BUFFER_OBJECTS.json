@@ -1,0 +1,1249 @@
+{
+ "issue": "015",
+ "theme": "RESTRAINT — The Clinical Practice of Restraint",
+ "publication_week": "October 12 – 16, 2026",
+ "receipt_date": "2026-10-06",
+ "canonical_article_url": "https://taoclinicaltouch.com/blog/2026/10/the-clinical-practice-of-restraint/",
+ "wordpress_post_id": 1877,
+ "buffer_organization_id": "6a3d317b545b077504a4771b",
+ "architecture": {
+  "content_items": 25,
+  "channel_posts": 45,
+  "mutation": "createContentItem",
+  "note": "Buffer createPost accepts a single channelId. Multi-channel objects are created with createContentItem, which groups per-channel posts under one contentItemId. 25 objects, 45 deliveries. Matches Issue 014 architecture."
+ },
+ "channel_registry": {
+  "Instagram — The Tao of Clinical Touch": "6a3eb89f5ab6d2f106763ca0",
+  "Instagram — drewdog19": "6a3eba3f5ab6d2f106764339",
+  "Facebook — The Tao of Clinical Touch": "6a3eb95f5ab6d2f106763fc9"
+ },
+ "channel_totals": {
+  "Instagram — The Tao of Clinical Touch": 20,
+  "Instagram — drewdog19": 20,
+  "Facebook — The Tao of Clinical Touch": 5
+ },
+ "verification": {
+  "mutation_response_trusted_as_proof": false,
+  "channel_posts_independently_read_back_by_id": 45,
+  "independent_window_query_oct_12_16": 45,
+  "unexpected_objects_in_window": 0,
+  "created_objects_absent_from_window": 0,
+  "field_level_exceptions": 0,
+  "verdict": "PASS"
+ },
+ "media_state": {
+  "ISSUE015_MON_FEED.png": {
+   "url": "https://taoclinicaltouch.com/wp-content/uploads/2026/10/ISSUE015_MON_FEED.png",
+   "http_status": 200,
+   "retrieved_anonymously": true,
+   "bytes": 1897059,
+   "dimensions": "1080x1350",
+   "sha256_anonymous_retrieval": "7f1688c0ddcaa92ad73b9bf2166343db8a3e307a4bc546d99d05a610c2e3d379",
+   "sha256_canonical_manifest": "7f1688c0ddcaa92ad73b9bf2166343db8a3e307a4bc546d99d05a610c2e3d379",
+   "checksum_reconciled": true,
+   "dimensions_expected": "1080x1350",
+   "dimensions_reconciled": true
+  },
+  "ISSUE015_MON_LANDSCAPE.png": {
+   "url": "https://taoclinicaltouch.com/wp-content/uploads/2026/10/ISSUE015_MON_LANDSCAPE.png",
+   "http_status": 200,
+   "retrieved_anonymously": true,
+   "bytes": 1122807,
+   "dimensions": "1200x628",
+   "sha256_anonymous_retrieval": "531f8f5e80994482df8f18dc7bfc5f214b382e8089f4cd15abfb401f538c6092",
+   "sha256_canonical_manifest": "531f8f5e80994482df8f18dc7bfc5f214b382e8089f4cd15abfb401f538c6092",
+   "checksum_reconciled": true,
+   "dimensions_expected": "1200x628",
+   "dimensions_reconciled": true
+  },
+  "ISSUE015_MON_STORY_1.png": {
+   "url": "https://taoclinicaltouch.com/wp-content/uploads/2026/10/ISSUE015_MON_STORY_1.png",
+   "http_status": 200,
+   "retrieved_anonymously": true,
+   "bytes": 2786042,
+   "dimensions": "1080x1920",
+   "sha256_anonymous_retrieval": "7094421569735e7cd1ee1ee958c69b096962593ef4f4770d53fa0f278a193610",
+   "sha256_canonical_manifest": "7094421569735e7cd1ee1ee958c69b096962593ef4f4770d53fa0f278a193610",
+   "checksum_reconciled": true,
+   "dimensions_expected": "1080x1920",
+   "dimensions_reconciled": true
+  },
+  "ISSUE015_MON_STORY_2.png": {
+   "url": "https://taoclinicaltouch.com/wp-content/uploads/2026/10/ISSUE015_MON_STORY_2.png",
+   "http_status": 200,
+   "retrieved_anonymously": true,
+   "bytes": 2500562,
+   "dimensions": "1080x1920",
+   "sha256_anonymous_retrieval": "746fbd5551bb818461ca0bb0e92a0e6d31b1bfc16916bedd43f65f5c8f3f2364",
+   "sha256_canonical_manifest": "746fbd5551bb818461ca0bb0e92a0e6d31b1bfc16916bedd43f65f5c8f3f2364",
+   "checksum_reconciled": true,
+   "dimensions_expected": "1080x1920",
+   "dimensions_reconciled": true
+  },
+  "ISSUE015_MON_STORY_3.png": {
+   "url": "https://taoclinicaltouch.com/wp-content/uploads/2026/10/ISSUE015_MON_STORY_3.png",
+   "http_status": 200,
+   "retrieved_anonymously": true,
+   "bytes": 2703579,
+   "dimensions": "1080x1920",
+   "sha256_anonymous_retrieval": "7375e7a584710352cf8105e0ca184cd4e5cd43c351c20b00107d0dff25922ed8",
+   "sha256_canonical_manifest": "7375e7a584710352cf8105e0ca184cd4e5cd43c351c20b00107d0dff25922ed8",
+   "checksum_reconciled": true,
+   "dimensions_expected": "1080x1920",
+   "dimensions_reconciled": true
+  },
+  "ISSUE015_TUE_FEED.png": {
+   "url": "https://taoclinicaltouch.com/wp-content/uploads/2026/10/ISSUE015_TUE_FEED.png",
+   "http_status": 200,
+   "retrieved_anonymously": true,
+   "bytes": 2044281,
+   "dimensions": "1080x1350",
+   "sha256_anonymous_retrieval": "6e0748df0892436aa510016824f2043f53dce4bbea306941d47c26f06a04065c",
+   "sha256_canonical_manifest": "6e0748df0892436aa510016824f2043f53dce4bbea306941d47c26f06a04065c",
+   "checksum_reconciled": true,
+   "dimensions_expected": "1080x1350",
+   "dimensions_reconciled": true
+  },
+  "ISSUE015_TUE_LANDSCAPE.png": {
+   "url": "https://taoclinicaltouch.com/wp-content/uploads/2026/10/ISSUE015_TUE_LANDSCAPE.png",
+   "http_status": 200,
+   "retrieved_anonymously": true,
+   "bytes": 1130953,
+   "dimensions": "1200x628",
+   "sha256_anonymous_retrieval": "657e33655be21b13cbfe1c9f6bc5fc93c3c91dec6210557712be6a6fc7bfad60",
+   "sha256_canonical_manifest": "657e33655be21b13cbfe1c9f6bc5fc93c3c91dec6210557712be6a6fc7bfad60",
+   "checksum_reconciled": true,
+   "dimensions_expected": "1200x628",
+   "dimensions_reconciled": true
+  },
+  "ISSUE015_TUE_STORY_1.png": {
+   "url": "https://taoclinicaltouch.com/wp-content/uploads/2026/10/ISSUE015_TUE_STORY_1.png",
+   "http_status": 200,
+   "retrieved_anonymously": true,
+   "bytes": 2838160,
+   "dimensions": "1080x1920",
+   "sha256_anonymous_retrieval": "d0f451dd8da95dee0ffc1e54ff7e9bb13a567995f8b7882b305d55f0ad38fda1",
+   "sha256_canonical_manifest": "d0f451dd8da95dee0ffc1e54ff7e9bb13a567995f8b7882b305d55f0ad38fda1",
+   "checksum_reconciled": true,
+   "dimensions_expected": "1080x1920",
+   "dimensions_reconciled": true
+  },
+  "ISSUE015_TUE_STORY_2.png": {
+   "url": "https://taoclinicaltouch.com/wp-content/uploads/2026/10/ISSUE015_TUE_STORY_2.png",
+   "http_status": 200,
+   "retrieved_anonymously": true,
+   "bytes": 2724150,
+   "dimensions": "1080x1920",
+   "sha256_anonymous_retrieval": "c0c35b29513d9c5f5a43f5ed24bfd5ba399daa39368d19fde13baada067a3300",
+   "sha256_canonical_manifest": "c0c35b29513d9c5f5a43f5ed24bfd5ba399daa39368d19fde13baada067a3300",
+   "checksum_reconciled": true,
+   "dimensions_expected": "1080x1920",
+   "dimensions_reconciled": true
+  },
+  "ISSUE015_TUE_STORY_3.png": {
+   "url": "https://taoclinicaltouch.com/wp-content/uploads/2026/10/ISSUE015_TUE_STORY_3.png",
+   "http_status": 200,
+   "retrieved_anonymously": true,
+   "bytes": 2714095,
+   "dimensions": "1080x1920",
+   "sha256_anonymous_retrieval": "c74f4d1d9f043a6915507e60d8ff1d81775b2881b161e22854a15847d9213e7b",
+   "sha256_canonical_manifest": "c74f4d1d9f043a6915507e60d8ff1d81775b2881b161e22854a15847d9213e7b",
+   "checksum_reconciled": true,
+   "dimensions_expected": "1080x1920",
+   "dimensions_reconciled": true
+  },
+  "ISSUE015_WED_FEED.png": {
+   "url": "https://taoclinicaltouch.com/wp-content/uploads/2026/10/ISSUE015_WED_FEED.png",
+   "http_status": 200,
+   "retrieved_anonymously": true,
+   "bytes": 1980169,
+   "dimensions": "1080x1350",
+   "sha256_anonymous_retrieval": "68f1ef1e9610ee3c5bfc27e53a234df3bed46a6f254c65069d7ace83c5fd20cc",
+   "sha256_canonical_manifest": "68f1ef1e9610ee3c5bfc27e53a234df3bed46a6f254c65069d7ace83c5fd20cc",
+   "checksum_reconciled": true,
+   "dimensions_expected": "1080x1350",
+   "dimensions_reconciled": true
+  },
+  "ISSUE015_WED_LANDSCAPE.png": {
+   "url": "https://taoclinicaltouch.com/wp-content/uploads/2026/10/ISSUE015_WED_LANDSCAPE.png",
+   "http_status": 200,
+   "retrieved_anonymously": true,
+   "bytes": 1151391,
+   "dimensions": "1200x628",
+   "sha256_anonymous_retrieval": "246ff0f089bc2bb23e2402e3ffb364aef25b5942b5fd2fa461748c716ed3d2d9",
+   "sha256_canonical_manifest": "246ff0f089bc2bb23e2402e3ffb364aef25b5942b5fd2fa461748c716ed3d2d9",
+   "checksum_reconciled": true,
+   "dimensions_expected": "1200x628",
+   "dimensions_reconciled": true
+  },
+  "ISSUE015_WED_STORY_1.png": {
+   "url": "https://taoclinicaltouch.com/wp-content/uploads/2026/10/ISSUE015_WED_STORY_1.png",
+   "http_status": 200,
+   "retrieved_anonymously": true,
+   "bytes": 2724637,
+   "dimensions": "1080x1920",
+   "sha256_anonymous_retrieval": "9c97b26904cc2c3b632e341340924905eb4d6b670768577945c30b0aa4de9a15",
+   "sha256_canonical_manifest": "9c97b26904cc2c3b632e341340924905eb4d6b670768577945c30b0aa4de9a15",
+   "checksum_reconciled": true,
+   "dimensions_expected": "1080x1920",
+   "dimensions_reconciled": true
+  },
+  "ISSUE015_WED_STORY_2.png": {
+   "url": "https://taoclinicaltouch.com/wp-content/uploads/2026/10/ISSUE015_WED_STORY_2.png",
+   "http_status": 200,
+   "retrieved_anonymously": true,
+   "bytes": 2729820,
+   "dimensions": "1080x1920",
+   "sha256_anonymous_retrieval": "8a1f75ed8089c6366be26bfe4e84472b5f99b3347ea1bfa26db8223086cf6c62",
+   "sha256_canonical_manifest": "8a1f75ed8089c6366be26bfe4e84472b5f99b3347ea1bfa26db8223086cf6c62",
+   "checksum_reconciled": true,
+   "dimensions_expected": "1080x1920",
+   "dimensions_reconciled": true
+  },
+  "ISSUE015_WED_STORY_3.png": {
+   "url": "https://taoclinicaltouch.com/wp-content/uploads/2026/10/ISSUE015_WED_STORY_3.png",
+   "http_status": 200,
+   "retrieved_anonymously": true,
+   "bytes": 2775485,
+   "dimensions": "1080x1920",
+   "sha256_anonymous_retrieval": "5f6c431a70f323638da17ced2fb4812c1891a6127eeabf31ec7542c5afb4c4ba",
+   "sha256_canonical_manifest": "5f6c431a70f323638da17ced2fb4812c1891a6127eeabf31ec7542c5afb4c4ba",
+   "checksum_reconciled": true,
+   "dimensions_expected": "1080x1920",
+   "dimensions_reconciled": true
+  },
+  "ISSUE015_THU_FEED.png": {
+   "url": "https://taoclinicaltouch.com/wp-content/uploads/2026/10/ISSUE015_THU_FEED.png",
+   "http_status": 200,
+   "retrieved_anonymously": true,
+   "bytes": 1976724,
+   "dimensions": "1080x1350",
+   "sha256_anonymous_retrieval": "10d59736a0d27ff7c2b5a1ebdec2b39075009b7bde00bca985153c0a53cba72f",
+   "sha256_canonical_manifest": "10d59736a0d27ff7c2b5a1ebdec2b39075009b7bde00bca985153c0a53cba72f",
+   "checksum_reconciled": true,
+   "dimensions_expected": "1080x1350",
+   "dimensions_reconciled": true
+  },
+  "ISSUE015_THU_LANDSCAPE.png": {
+   "url": "https://taoclinicaltouch.com/wp-content/uploads/2026/10/ISSUE015_THU_LANDSCAPE.png",
+   "http_status": 200,
+   "retrieved_anonymously": true,
+   "bytes": 1131960,
+   "dimensions": "1200x628",
+   "sha256_anonymous_retrieval": "922cca6dd0837fd377715b7e407199dcd53a1443111f1d463934c8d4f5e02445",
+   "sha256_canonical_manifest": "922cca6dd0837fd377715b7e407199dcd53a1443111f1d463934c8d4f5e02445",
+   "checksum_reconciled": true,
+   "dimensions_expected": "1200x628",
+   "dimensions_reconciled": true
+  },
+  "ISSUE015_THU_STORY_1.png": {
+   "url": "https://taoclinicaltouch.com/wp-content/uploads/2026/10/ISSUE015_THU_STORY_1.png",
+   "http_status": 200,
+   "retrieved_anonymously": true,
+   "bytes": 2638901,
+   "dimensions": "1080x1920",
+   "sha256_anonymous_retrieval": "f6a624fc1fd771454e5debb9a42a7b371e67b1f2f93b24c92a35387285dfa58e",
+   "sha256_canonical_manifest": "f6a624fc1fd771454e5debb9a42a7b371e67b1f2f93b24c92a35387285dfa58e",
+   "checksum_reconciled": true,
+   "dimensions_expected": "1080x1920",
+   "dimensions_reconciled": true
+  },
+  "ISSUE015_THU_STORY_2.png": {
+   "url": "https://taoclinicaltouch.com/wp-content/uploads/2026/10/ISSUE015_THU_STORY_2.png",
+   "http_status": 200,
+   "retrieved_anonymously": true,
+   "bytes": 2737601,
+   "dimensions": "1080x1920",
+   "sha256_anonymous_retrieval": "8ad4c5767027263fb433485823c9ae81d088fa4ae72d37e87658fbee2344a3f6",
+   "sha256_canonical_manifest": "8ad4c5767027263fb433485823c9ae81d088fa4ae72d37e87658fbee2344a3f6",
+   "checksum_reconciled": true,
+   "dimensions_expected": "1080x1920",
+   "dimensions_reconciled": true
+  },
+  "ISSUE015_THU_STORY_3.png": {
+   "url": "https://taoclinicaltouch.com/wp-content/uploads/2026/10/ISSUE015_THU_STORY_3.png",
+   "http_status": 200,
+   "retrieved_anonymously": true,
+   "bytes": 2726112,
+   "dimensions": "1080x1920",
+   "sha256_anonymous_retrieval": "53cec3351aae71db320281bb4701e3d4578706dd9308cac7dd2c0ecb369e0944",
+   "sha256_canonical_manifest": "53cec3351aae71db320281bb4701e3d4578706dd9308cac7dd2c0ecb369e0944",
+   "checksum_reconciled": true,
+   "dimensions_expected": "1080x1920",
+   "dimensions_reconciled": true
+  },
+  "ISSUE015_FRI_FEED.png": {
+   "url": "https://taoclinicaltouch.com/wp-content/uploads/2026/10/ISSUE015_FRI_FEED.png",
+   "http_status": 200,
+   "retrieved_anonymously": true,
+   "bytes": 2025500,
+   "dimensions": "1080x1350",
+   "sha256_anonymous_retrieval": "4041feb83cfaf3371499e905799487ff1385ff56e69e9301838deb2db983249e",
+   "sha256_canonical_manifest": "4041feb83cfaf3371499e905799487ff1385ff56e69e9301838deb2db983249e",
+   "checksum_reconciled": true,
+   "dimensions_expected": "1080x1350",
+   "dimensions_reconciled": true
+  },
+  "ISSUE015_FRI_LANDSCAPE.png": {
+   "url": "https://taoclinicaltouch.com/wp-content/uploads/2026/10/ISSUE015_FRI_LANDSCAPE.png",
+   "http_status": 200,
+   "retrieved_anonymously": true,
+   "bytes": 1137054,
+   "dimensions": "1200x628",
+   "sha256_anonymous_retrieval": "30b109b6c77cbc0d3708eb554d386a73670a97dd1da98b7ad2af6b19ebc1647e",
+   "sha256_canonical_manifest": "30b109b6c77cbc0d3708eb554d386a73670a97dd1da98b7ad2af6b19ebc1647e",
+   "checksum_reconciled": true,
+   "dimensions_expected": "1200x628",
+   "dimensions_reconciled": true
+  },
+  "ISSUE015_FRI_STORY_1.png": {
+   "url": "https://taoclinicaltouch.com/wp-content/uploads/2026/10/ISSUE015_FRI_STORY_1.png",
+   "http_status": 200,
+   "retrieved_anonymously": true,
+   "bytes": 2703189,
+   "dimensions": "1080x1920",
+   "sha256_anonymous_retrieval": "a44cbb7415d5d0568e0a80f667a0667b7f427ff61294bfbc65173ffaf5520003",
+   "sha256_canonical_manifest": "a44cbb7415d5d0568e0a80f667a0667b7f427ff61294bfbc65173ffaf5520003",
+   "checksum_reconciled": true,
+   "dimensions_expected": "1080x1920",
+   "dimensions_reconciled": true
+  },
+  "ISSUE015_FRI_STORY_2.png": {
+   "url": "https://taoclinicaltouch.com/wp-content/uploads/2026/10/ISSUE015_FRI_STORY_2.png",
+   "http_status": 200,
+   "retrieved_anonymously": true,
+   "bytes": 2748696,
+   "dimensions": "1080x1920",
+   "sha256_anonymous_retrieval": "ee74a62d12ecc4592c51dcac47fa1d7a57de592206f3e07b22a02c24ef910ae1",
+   "sha256_canonical_manifest": "ee74a62d12ecc4592c51dcac47fa1d7a57de592206f3e07b22a02c24ef910ae1",
+   "checksum_reconciled": true,
+   "dimensions_expected": "1080x1920",
+   "dimensions_reconciled": true
+  },
+  "ISSUE015_FRI_STORY_3.png": {
+   "url": "https://taoclinicaltouch.com/wp-content/uploads/2026/10/ISSUE015_FRI_STORY_3.png",
+   "http_status": 200,
+   "retrieved_anonymously": true,
+   "bytes": 2703578,
+   "dimensions": "1080x1920",
+   "sha256_anonymous_retrieval": "e43edb90c46f207ab74d7f8f5709454708ae04d73f06bc34235cf1e78106a734",
+   "sha256_canonical_manifest": "e43edb90c46f207ab74d7f8f5709454708ae04d73f06bc34235cf1e78106a734",
+   "checksum_reconciled": true,
+   "dimensions_expected": "1080x1920",
+   "dimensions_reconciled": true
+  }
+ },
+ "content_items": [
+  {
+   "content_item_id": "6ac513a900682644acf2261a",
+   "issue": "015",
+   "day": "MONDAY",
+   "role": "FEED",
+   "scheduled_utc": "2026-10-12T12:00:00.000Z",
+   "scheduled_et": "8:00 AM",
+   "media_url": "https://taoclinicaltouch.com/wp-content/uploads/2026/10/ISSUE015_MON_FEED.png",
+   "media_sha256": "7f1688c0ddcaa92ad73b9bf2166343db8a3e307a4bc546d99d05a610c2e3d379",
+   "media_bytes": 1897059,
+   "media_dimensions": "1080x1350",
+   "caption_present": true,
+   "channel_posts": [
+    {
+     "post_id": "6ac513a900682644acf22618",
+     "channel": "Instagram — The Tao of Clinical Touch",
+     "channel_id": "6a3eb89f5ab6d2f106763ca0",
+     "status": "scheduled",
+     "due_at_readback": "2026-10-12T12:00:00.000Z",
+     "instagram_type": "post",
+     "should_share_to_feed": true,
+     "has_caption": true,
+     "independently_read_back": true
+    },
+    {
+     "post_id": "6ac513a900682644acf22619",
+     "channel": "Instagram — drewdog19",
+     "channel_id": "6a3eba3f5ab6d2f106764339",
+     "status": "scheduled",
+     "due_at_readback": "2026-10-12T12:00:00.000Z",
+     "instagram_type": "post",
+     "should_share_to_feed": true,
+     "has_caption": true,
+     "independently_read_back": true
+    }
+   ],
+   "story_native_link": null
+  },
+  {
+   "content_item_id": "6ac513a9a7c6bca6eb9d9f58",
+   "issue": "015",
+   "day": "MONDAY",
+   "role": "LANDSCAPE",
+   "scheduled_utc": "2026-10-12T12:00:00.000Z",
+   "scheduled_et": "8:00 AM",
+   "media_url": "https://taoclinicaltouch.com/wp-content/uploads/2026/10/ISSUE015_MON_LANDSCAPE.png",
+   "media_sha256": "531f8f5e80994482df8f18dc7bfc5f214b382e8089f4cd15abfb401f538c6092",
+   "media_bytes": 1122807,
+   "media_dimensions": "1200x628",
+   "caption_present": true,
+   "channel_posts": [
+    {
+     "post_id": "6ac513a9a7c6bca6eb9d9f57",
+     "channel": "Facebook — The Tao of Clinical Touch",
+     "channel_id": "6a3eb95f5ab6d2f106763fc9",
+     "status": "scheduled",
+     "due_at_readback": "2026-10-12T12:00:00.000Z",
+     "instagram_type": "post",
+     "should_share_to_feed": null,
+     "has_caption": true,
+     "independently_read_back": true
+    }
+   ],
+   "story_native_link": null
+  },
+  {
+   "content_item_id": "6ac513aafd4ede7c41a1ff11",
+   "issue": "015",
+   "day": "MONDAY",
+   "role": "STORY-1",
+   "scheduled_utc": "2026-10-12T13:00:00.000Z",
+   "scheduled_et": "9:00 AM",
+   "media_url": "https://taoclinicaltouch.com/wp-content/uploads/2026/10/ISSUE015_MON_STORY_1.png",
+   "media_sha256": "7094421569735e7cd1ee1ee958c69b096962593ef4f4770d53fa0f278a193610",
+   "media_bytes": 2786042,
+   "media_dimensions": "1080x1920",
+   "caption_present": false,
+   "channel_posts": [
+    {
+     "post_id": "6ac513aafd4ede7c41a1ff0f",
+     "channel": "Instagram — The Tao of Clinical Touch",
+     "channel_id": "6a3eb89f5ab6d2f106763ca0",
+     "status": "scheduled",
+     "due_at_readback": "2026-10-12T13:00:00.000Z",
+     "instagram_type": "story",
+     "should_share_to_feed": false,
+     "has_caption": false,
+     "independently_read_back": true
+    },
+    {
+     "post_id": "6ac513aafd4ede7c41a1ff10",
+     "channel": "Instagram — drewdog19",
+     "channel_id": "6a3eba3f5ab6d2f106764339",
+     "status": "scheduled",
+     "due_at_readback": "2026-10-12T13:00:00.000Z",
+     "instagram_type": "story",
+     "should_share_to_feed": false,
+     "has_caption": false,
+     "independently_read_back": true
+    }
+   ],
+   "story_native_link": null
+  },
+  {
+   "content_item_id": "6ac513aa0c0a17c2690d5467",
+   "issue": "015",
+   "day": "MONDAY",
+   "role": "STORY-2",
+   "scheduled_utc": "2026-10-12T15:00:00.000Z",
+   "scheduled_et": "11:00 AM",
+   "media_url": "https://taoclinicaltouch.com/wp-content/uploads/2026/10/ISSUE015_MON_STORY_2.png",
+   "media_sha256": "746fbd5551bb818461ca0bb0e92a0e6d31b1bfc16916bedd43f65f5c8f3f2364",
+   "media_bytes": 2500562,
+   "media_dimensions": "1080x1920",
+   "caption_present": false,
+   "channel_posts": [
+    {
+     "post_id": "6ac513aa0c0a17c2690d5465",
+     "channel": "Instagram — The Tao of Clinical Touch",
+     "channel_id": "6a3eb89f5ab6d2f106763ca0",
+     "status": "scheduled",
+     "due_at_readback": "2026-10-12T15:00:00.000Z",
+     "instagram_type": "story",
+     "should_share_to_feed": false,
+     "has_caption": false,
+     "independently_read_back": true
+    },
+    {
+     "post_id": "6ac513aa0c0a17c2690d5466",
+     "channel": "Instagram — drewdog19",
+     "channel_id": "6a3eba3f5ab6d2f106764339",
+     "status": "scheduled",
+     "due_at_readback": "2026-10-12T15:00:00.000Z",
+     "instagram_type": "story",
+     "should_share_to_feed": false,
+     "has_caption": false,
+     "independently_read_back": true
+    }
+   ],
+   "story_native_link": null
+  },
+  {
+   "content_item_id": "6ac513ab00682644acf226e6",
+   "issue": "015",
+   "day": "MONDAY",
+   "role": "STORY-3",
+   "scheduled_utc": "2026-10-12T17:00:00.000Z",
+   "scheduled_et": "1:00 PM",
+   "media_url": "https://taoclinicaltouch.com/wp-content/uploads/2026/10/ISSUE015_MON_STORY_3.png",
+   "media_sha256": "7375e7a584710352cf8105e0ca184cd4e5cd43c351c20b00107d0dff25922ed8",
+   "media_bytes": 2703579,
+   "media_dimensions": "1080x1920",
+   "caption_present": false,
+   "channel_posts": [
+    {
+     "post_id": "6ac513ab00682644acf226e4",
+     "channel": "Instagram — The Tao of Clinical Touch",
+     "channel_id": "6a3eb89f5ab6d2f106763ca0",
+     "status": "scheduled",
+     "due_at_readback": "2026-10-12T17:00:00.000Z",
+     "instagram_type": "story",
+     "should_share_to_feed": false,
+     "has_caption": false,
+     "independently_read_back": true
+    },
+    {
+     "post_id": "6ac513ab00682644acf226e5",
+     "channel": "Instagram — drewdog19",
+     "channel_id": "6a3eba3f5ab6d2f106764339",
+     "status": "scheduled",
+     "due_at_readback": "2026-10-12T17:00:00.000Z",
+     "instagram_type": "story",
+     "should_share_to_feed": false,
+     "has_caption": false,
+     "independently_read_back": true
+    }
+   ],
+   "story_native_link": "https://taoclinicaltouch.com/blog/2026/10/the-clinical-practice-of-restraint/"
+  },
+  {
+   "content_item_id": "6ac513ab0c0a17c2690d54bf",
+   "issue": "015",
+   "day": "TUESDAY",
+   "role": "FEED",
+   "scheduled_utc": "2026-10-13T12:00:00.000Z",
+   "scheduled_et": "8:00 AM",
+   "media_url": "https://taoclinicaltouch.com/wp-content/uploads/2026/10/ISSUE015_TUE_FEED.png",
+   "media_sha256": "6e0748df0892436aa510016824f2043f53dce4bbea306941d47c26f06a04065c",
+   "media_bytes": 2044281,
+   "media_dimensions": "1080x1350",
+   "caption_present": true,
+   "channel_posts": [
+    {
+     "post_id": "6ac513ab0c0a17c2690d54bd",
+     "channel": "Instagram — The Tao of Clinical Touch",
+     "channel_id": "6a3eb89f5ab6d2f106763ca0",
+     "status": "scheduled",
+     "due_at_readback": "2026-10-13T12:00:00.000Z",
+     "instagram_type": "post",
+     "should_share_to_feed": true,
+     "has_caption": true,
+     "independently_read_back": true
+    },
+    {
+     "post_id": "6ac513ab0c0a17c2690d54be",
+     "channel": "Instagram — drewdog19",
+     "channel_id": "6a3eba3f5ab6d2f106764339",
+     "status": "scheduled",
+     "due_at_readback": "2026-10-13T12:00:00.000Z",
+     "instagram_type": "post",
+     "should_share_to_feed": true,
+     "has_caption": true,
+     "independently_read_back": true
+    }
+   ],
+   "story_native_link": null
+  },
+  {
+   "content_item_id": "6ac513ac00682644acf2272e",
+   "issue": "015",
+   "day": "TUESDAY",
+   "role": "LANDSCAPE",
+   "scheduled_utc": "2026-10-13T12:00:00.000Z",
+   "scheduled_et": "8:00 AM",
+   "media_url": "https://taoclinicaltouch.com/wp-content/uploads/2026/10/ISSUE015_TUE_LANDSCAPE.png",
+   "media_sha256": "657e33655be21b13cbfe1c9f6bc5fc93c3c91dec6210557712be6a6fc7bfad60",
+   "media_bytes": 1130953,
+   "media_dimensions": "1200x628",
+   "caption_present": true,
+   "channel_posts": [
+    {
+     "post_id": "6ac513ac00682644acf2272d",
+     "channel": "Facebook — The Tao of Clinical Touch",
+     "channel_id": "6a3eb95f5ab6d2f106763fc9",
+     "status": "scheduled",
+     "due_at_readback": "2026-10-13T12:00:00.000Z",
+     "instagram_type": "post",
+     "should_share_to_feed": null,
+     "has_caption": true,
+     "independently_read_back": true
+    }
+   ],
+   "story_native_link": null
+  },
+  {
+   "content_item_id": "6ac513ada7c6bca6eb9d9fea",
+   "issue": "015",
+   "day": "TUESDAY",
+   "role": "STORY-1",
+   "scheduled_utc": "2026-10-13T13:00:00.000Z",
+   "scheduled_et": "9:00 AM",
+   "media_url": "https://taoclinicaltouch.com/wp-content/uploads/2026/10/ISSUE015_TUE_STORY_1.png",
+   "media_sha256": "d0f451dd8da95dee0ffc1e54ff7e9bb13a567995f8b7882b305d55f0ad38fda1",
+   "media_bytes": 2838160,
+   "media_dimensions": "1080x1920",
+   "caption_present": false,
+   "channel_posts": [
+    {
+     "post_id": "6ac513ada7c6bca6eb9d9fe8",
+     "channel": "Instagram — The Tao of Clinical Touch",
+     "channel_id": "6a3eb89f5ab6d2f106763ca0",
+     "status": "scheduled",
+     "due_at_readback": "2026-10-13T13:00:00.000Z",
+     "instagram_type": "story",
+     "should_share_to_feed": false,
+     "has_caption": false,
+     "independently_read_back": true
+    },
+    {
+     "post_id": "6ac513ada7c6bca6eb9d9fe9",
+     "channel": "Instagram — drewdog19",
+     "channel_id": "6a3eba3f5ab6d2f106764339",
+     "status": "scheduled",
+     "due_at_readback": "2026-10-13T13:00:00.000Z",
+     "instagram_type": "story",
+     "should_share_to_feed": false,
+     "has_caption": false,
+     "independently_read_back": true
+    }
+   ],
+   "story_native_link": null
+  },
+  {
+   "content_item_id": "6ac513ad00682644acf22776",
+   "issue": "015",
+   "day": "TUESDAY",
+   "role": "STORY-2",
+   "scheduled_utc": "2026-10-13T15:00:00.000Z",
+   "scheduled_et": "11:00 AM",
+   "media_url": "https://taoclinicaltouch.com/wp-content/uploads/2026/10/ISSUE015_TUE_STORY_2.png",
+   "media_sha256": "c0c35b29513d9c5f5a43f5ed24bfd5ba399daa39368d19fde13baada067a3300",
+   "media_bytes": 2724150,
+   "media_dimensions": "1080x1920",
+   "caption_present": false,
+   "channel_posts": [
+    {
+     "post_id": "6ac513ad00682644acf22774",
+     "channel": "Instagram — The Tao of Clinical Touch",
+     "channel_id": "6a3eb89f5ab6d2f106763ca0",
+     "status": "scheduled",
+     "due_at_readback": "2026-10-13T15:00:00.000Z",
+     "instagram_type": "story",
+     "should_share_to_feed": false,
+     "has_caption": false,
+     "independently_read_back": true
+    },
+    {
+     "post_id": "6ac513ad00682644acf22775",
+     "channel": "Instagram — drewdog19",
+     "channel_id": "6a3eba3f5ab6d2f106764339",
+     "status": "scheduled",
+     "due_at_readback": "2026-10-13T15:00:00.000Z",
+     "instagram_type": "story",
+     "should_share_to_feed": false,
+     "has_caption": false,
+     "independently_read_back": true
+    }
+   ],
+   "story_native_link": null
+  },
+  {
+   "content_item_id": "6ac513aea7c6bca6eb9da030",
+   "issue": "015",
+   "day": "TUESDAY",
+   "role": "STORY-3",
+   "scheduled_utc": "2026-10-13T17:00:00.000Z",
+   "scheduled_et": "1:00 PM",
+   "media_url": "https://taoclinicaltouch.com/wp-content/uploads/2026/10/ISSUE015_TUE_STORY_3.png",
+   "media_sha256": "c74f4d1d9f043a6915507e60d8ff1d81775b2881b161e22854a15847d9213e7b",
+   "media_bytes": 2714095,
+   "media_dimensions": "1080x1920",
+   "caption_present": false,
+   "channel_posts": [
+    {
+     "post_id": "6ac513aea7c6bca6eb9da02e",
+     "channel": "Instagram — The Tao of Clinical Touch",
+     "channel_id": "6a3eb89f5ab6d2f106763ca0",
+     "status": "scheduled",
+     "due_at_readback": "2026-10-13T17:00:00.000Z",
+     "instagram_type": "story",
+     "should_share_to_feed": false,
+     "has_caption": false,
+     "independently_read_back": true
+    },
+    {
+     "post_id": "6ac513aea7c6bca6eb9da02f",
+     "channel": "Instagram — drewdog19",
+     "channel_id": "6a3eba3f5ab6d2f106764339",
+     "status": "scheduled",
+     "due_at_readback": "2026-10-13T17:00:00.000Z",
+     "instagram_type": "story",
+     "should_share_to_feed": false,
+     "has_caption": false,
+     "independently_read_back": true
+    }
+   ],
+   "story_native_link": "https://taoclinicaltouch.com/blog/2026/10/the-clinical-practice-of-restraint/"
+  },
+  {
+   "content_item_id": "6ac513aefd4ede7c41a1ffe5",
+   "issue": "015",
+   "day": "WEDNESDAY",
+   "role": "FEED",
+   "scheduled_utc": "2026-10-14T12:00:00.000Z",
+   "scheduled_et": "8:00 AM",
+   "media_url": "https://taoclinicaltouch.com/wp-content/uploads/2026/10/ISSUE015_WED_FEED.png",
+   "media_sha256": "68f1ef1e9610ee3c5bfc27e53a234df3bed46a6f254c65069d7ace83c5fd20cc",
+   "media_bytes": 1980169,
+   "media_dimensions": "1080x1350",
+   "caption_present": true,
+   "channel_posts": [
+    {
+     "post_id": "6ac513aefd4ede7c41a1ffe3",
+     "channel": "Instagram — The Tao of Clinical Touch",
+     "channel_id": "6a3eb89f5ab6d2f106763ca0",
+     "status": "scheduled",
+     "due_at_readback": "2026-10-14T12:00:00.000Z",
+     "instagram_type": "post",
+     "should_share_to_feed": true,
+     "has_caption": true,
+     "independently_read_back": true
+    },
+    {
+     "post_id": "6ac513aefd4ede7c41a1ffe4",
+     "channel": "Instagram — drewdog19",
+     "channel_id": "6a3eba3f5ab6d2f106764339",
+     "status": "scheduled",
+     "due_at_readback": "2026-10-14T12:00:00.000Z",
+     "instagram_type": "post",
+     "should_share_to_feed": true,
+     "has_caption": true,
+     "independently_read_back": true
+    }
+   ],
+   "story_native_link": null
+  },
+  {
+   "content_item_id": "6ac513af00682644acf227b5",
+   "issue": "015",
+   "day": "WEDNESDAY",
+   "role": "LANDSCAPE",
+   "scheduled_utc": "2026-10-14T12:00:00.000Z",
+   "scheduled_et": "8:00 AM",
+   "media_url": "https://taoclinicaltouch.com/wp-content/uploads/2026/10/ISSUE015_WED_LANDSCAPE.png",
+   "media_sha256": "246ff0f089bc2bb23e2402e3ffb364aef25b5942b5fd2fa461748c716ed3d2d9",
+   "media_bytes": 1151391,
+   "media_dimensions": "1200x628",
+   "caption_present": true,
+   "channel_posts": [
+    {
+     "post_id": "6ac513af00682644acf227b4",
+     "channel": "Facebook — The Tao of Clinical Touch",
+     "channel_id": "6a3eb95f5ab6d2f106763fc9",
+     "status": "scheduled",
+     "due_at_readback": "2026-10-14T12:00:00.000Z",
+     "instagram_type": "post",
+     "should_share_to_feed": null,
+     "has_caption": true,
+     "independently_read_back": true
+    }
+   ],
+   "story_native_link": null
+  },
+  {
+   "content_item_id": "6ac513afa7c6bca6eb9da0a7",
+   "issue": "015",
+   "day": "WEDNESDAY",
+   "role": "STORY-1",
+   "scheduled_utc": "2026-10-14T13:00:00.000Z",
+   "scheduled_et": "9:00 AM",
+   "media_url": "https://taoclinicaltouch.com/wp-content/uploads/2026/10/ISSUE015_WED_STORY_1.png",
+   "media_sha256": "9c97b26904cc2c3b632e341340924905eb4d6b670768577945c30b0aa4de9a15",
+   "media_bytes": 2724637,
+   "media_dimensions": "1080x1920",
+   "caption_present": false,
+   "channel_posts": [
+    {
+     "post_id": "6ac513afa7c6bca6eb9da0a5",
+     "channel": "Instagram — The Tao of Clinical Touch",
+     "channel_id": "6a3eb89f5ab6d2f106763ca0",
+     "status": "scheduled",
+     "due_at_readback": "2026-10-14T13:00:00.000Z",
+     "instagram_type": "story",
+     "should_share_to_feed": false,
+     "has_caption": false,
+     "independently_read_back": true
+    },
+    {
+     "post_id": "6ac513afa7c6bca6eb9da0a6",
+     "channel": "Instagram — drewdog19",
+     "channel_id": "6a3eba3f5ab6d2f106764339",
+     "status": "scheduled",
+     "due_at_readback": "2026-10-14T13:00:00.000Z",
+     "instagram_type": "story",
+     "should_share_to_feed": false,
+     "has_caption": false,
+     "independently_read_back": true
+    }
+   ],
+   "story_native_link": null
+  },
+  {
+   "content_item_id": "6ac513b0a7c6bca6eb9da0ed",
+   "issue": "015",
+   "day": "WEDNESDAY",
+   "role": "STORY-2",
+   "scheduled_utc": "2026-10-14T15:00:00.000Z",
+   "scheduled_et": "11:00 AM",
+   "media_url": "https://taoclinicaltouch.com/wp-content/uploads/2026/10/ISSUE015_WED_STORY_2.png",
+   "media_sha256": "8a1f75ed8089c6366be26bfe4e84472b5f99b3347ea1bfa26db8223086cf6c62",
+   "media_bytes": 2729820,
+   "media_dimensions": "1080x1920",
+   "caption_present": false,
+   "channel_posts": [
+    {
+     "post_id": "6ac513b0a7c6bca6eb9da0eb",
+     "channel": "Instagram — The Tao of Clinical Touch",
+     "channel_id": "6a3eb89f5ab6d2f106763ca0",
+     "status": "scheduled",
+     "due_at_readback": "2026-10-14T15:00:00.000Z",
+     "instagram_type": "story",
+     "should_share_to_feed": false,
+     "has_caption": false,
+     "independently_read_back": true
+    },
+    {
+     "post_id": "6ac513b0a7c6bca6eb9da0ec",
+     "channel": "Instagram — drewdog19",
+     "channel_id": "6a3eba3f5ab6d2f106764339",
+     "status": "scheduled",
+     "due_at_readback": "2026-10-14T15:00:00.000Z",
+     "instagram_type": "story",
+     "should_share_to_feed": false,
+     "has_caption": false,
+     "independently_read_back": true
+    }
+   ],
+   "story_native_link": null
+  },
+  {
+   "content_item_id": "6ac513b19a4f7a88bc261650",
+   "issue": "015",
+   "day": "WEDNESDAY",
+   "role": "STORY-3",
+   "scheduled_utc": "2026-10-14T17:00:00.000Z",
+   "scheduled_et": "1:00 PM",
+   "media_url": "https://taoclinicaltouch.com/wp-content/uploads/2026/10/ISSUE015_WED_STORY_3.png",
+   "media_sha256": "5f6c431a70f323638da17ced2fb4812c1891a6127eeabf31ec7542c5afb4c4ba",
+   "media_bytes": 2775485,
+   "media_dimensions": "1080x1920",
+   "caption_present": false,
+   "channel_posts": [
+    {
+     "post_id": "6ac513b19a4f7a88bc26164e",
+     "channel": "Instagram — The Tao of Clinical Touch",
+     "channel_id": "6a3eb89f5ab6d2f106763ca0",
+     "status": "scheduled",
+     "due_at_readback": "2026-10-14T17:00:00.000Z",
+     "instagram_type": "story",
+     "should_share_to_feed": false,
+     "has_caption": false,
+     "independently_read_back": true
+    },
+    {
+     "post_id": "6ac513b19a4f7a88bc26164f",
+     "channel": "Instagram — drewdog19",
+     "channel_id": "6a3eba3f5ab6d2f106764339",
+     "status": "scheduled",
+     "due_at_readback": "2026-10-14T17:00:00.000Z",
+     "instagram_type": "story",
+     "should_share_to_feed": false,
+     "has_caption": false,
+     "independently_read_back": true
+    }
+   ],
+   "story_native_link": "https://taoclinicaltouch.com/blog/2026/10/the-clinical-practice-of-restraint/"
+  },
+  {
+   "content_item_id": "6ac513b1fd4ede7c41a20094",
+   "issue": "015",
+   "day": "THURSDAY",
+   "role": "FEED",
+   "scheduled_utc": "2026-10-15T12:00:00.000Z",
+   "scheduled_et": "8:00 AM",
+   "media_url": "https://taoclinicaltouch.com/wp-content/uploads/2026/10/ISSUE015_THU_FEED.png",
+   "media_sha256": "10d59736a0d27ff7c2b5a1ebdec2b39075009b7bde00bca985153c0a53cba72f",
+   "media_bytes": 1976724,
+   "media_dimensions": "1080x1350",
+   "caption_present": true,
+   "channel_posts": [
+    {
+     "post_id": "6ac513b1fd4ede7c41a20092",
+     "channel": "Instagram — The Tao of Clinical Touch",
+     "channel_id": "6a3eb89f5ab6d2f106763ca0",
+     "status": "scheduled",
+     "due_at_readback": "2026-10-15T12:00:00.000Z",
+     "instagram_type": "post",
+     "should_share_to_feed": true,
+     "has_caption": true,
+     "independently_read_back": true
+    },
+    {
+     "post_id": "6ac513b1fd4ede7c41a20093",
+     "channel": "Instagram — drewdog19",
+     "channel_id": "6a3eba3f5ab6d2f106764339",
+     "status": "scheduled",
+     "due_at_readback": "2026-10-15T12:00:00.000Z",
+     "instagram_type": "post",
+     "should_share_to_feed": true,
+     "has_caption": true,
+     "independently_read_back": true
+    }
+   ],
+   "story_native_link": null
+  },
+  {
+   "content_item_id": "6ac513b2fd4ede7c41a200d1",
+   "issue": "015",
+   "day": "THURSDAY",
+   "role": "LANDSCAPE",
+   "scheduled_utc": "2026-10-15T12:00:00.000Z",
+   "scheduled_et": "8:00 AM",
+   "media_url": "https://taoclinicaltouch.com/wp-content/uploads/2026/10/ISSUE015_THU_LANDSCAPE.png",
+   "media_sha256": "922cca6dd0837fd377715b7e407199dcd53a1443111f1d463934c8d4f5e02445",
+   "media_bytes": 1131960,
+   "media_dimensions": "1200x628",
+   "caption_present": true,
+   "channel_posts": [
+    {
+     "post_id": "6ac513b2fd4ede7c41a200d0",
+     "channel": "Facebook — The Tao of Clinical Touch",
+     "channel_id": "6a3eb95f5ab6d2f106763fc9",
+     "status": "scheduled",
+     "due_at_readback": "2026-10-15T12:00:00.000Z",
+     "instagram_type": "post",
+     "should_share_to_feed": null,
+     "has_caption": true,
+     "independently_read_back": true
+    }
+   ],
+   "story_native_link": null
+  },
+  {
+   "content_item_id": "6ac513b2a7c6bca6eb9da17d",
+   "issue": "015",
+   "day": "THURSDAY",
+   "role": "STORY-1",
+   "scheduled_utc": "2026-10-15T13:00:00.000Z",
+   "scheduled_et": "9:00 AM",
+   "media_url": "https://taoclinicaltouch.com/wp-content/uploads/2026/10/ISSUE015_THU_STORY_1.png",
+   "media_sha256": "f6a624fc1fd771454e5debb9a42a7b371e67b1f2f93b24c92a35387285dfa58e",
+   "media_bytes": 2638901,
+   "media_dimensions": "1080x1920",
+   "caption_present": false,
+   "channel_posts": [
+    {
+     "post_id": "6ac513b2a7c6bca6eb9da17b",
+     "channel": "Instagram — The Tao of Clinical Touch",
+     "channel_id": "6a3eb89f5ab6d2f106763ca0",
+     "status": "scheduled",
+     "due_at_readback": "2026-10-15T13:00:00.000Z",
+     "instagram_type": "story",
+     "should_share_to_feed": false,
+     "has_caption": false,
+     "independently_read_back": true
+    },
+    {
+     "post_id": "6ac513b2a7c6bca6eb9da17c",
+     "channel": "Instagram — drewdog19",
+     "channel_id": "6a3eba3f5ab6d2f106764339",
+     "status": "scheduled",
+     "due_at_readback": "2026-10-15T13:00:00.000Z",
+     "instagram_type": "story",
+     "should_share_to_feed": false,
+     "has_caption": false,
+     "independently_read_back": true
+    }
+   ],
+   "story_native_link": null
+  },
+  {
+   "content_item_id": "6ac513b30c0a17c2690d562e",
+   "issue": "015",
+   "day": "THURSDAY",
+   "role": "STORY-2",
+   "scheduled_utc": "2026-10-15T15:00:00.000Z",
+   "scheduled_et": "11:00 AM",
+   "media_url": "https://taoclinicaltouch.com/wp-content/uploads/2026/10/ISSUE015_THU_STORY_2.png",
+   "media_sha256": "8ad4c5767027263fb433485823c9ae81d088fa4ae72d37e87658fbee2344a3f6",
+   "media_bytes": 2737601,
+   "media_dimensions": "1080x1920",
+   "caption_present": false,
+   "channel_posts": [
+    {
+     "post_id": "6ac513b30c0a17c2690d562c",
+     "channel": "Instagram — The Tao of Clinical Touch",
+     "channel_id": "6a3eb89f5ab6d2f106763ca0",
+     "status": "scheduled",
+     "due_at_readback": "2026-10-15T15:00:00.000Z",
+     "instagram_type": "story",
+     "should_share_to_feed": false,
+     "has_caption": false,
+     "independently_read_back": true
+    },
+    {
+     "post_id": "6ac513b30c0a17c2690d562d",
+     "channel": "Instagram — drewdog19",
+     "channel_id": "6a3eba3f5ab6d2f106764339",
+     "status": "scheduled",
+     "due_at_readback": "2026-10-15T15:00:00.000Z",
+     "instagram_type": "story",
+     "should_share_to_feed": false,
+     "has_caption": false,
+     "independently_read_back": true
+    }
+   ],
+   "story_native_link": null
+  },
+  {
+   "content_item_id": "6ac513b39a4f7a88bc2617de",
+   "issue": "015",
+   "day": "THURSDAY",
+   "role": "STORY-3",
+   "scheduled_utc": "2026-10-15T17:00:00.000Z",
+   "scheduled_et": "1:00 PM",
+   "media_url": "https://taoclinicaltouch.com/wp-content/uploads/2026/10/ISSUE015_THU_STORY_3.png",
+   "media_sha256": "53cec3351aae71db320281bb4701e3d4578706dd9308cac7dd2c0ecb369e0944",
+   "media_bytes": 2726112,
+   "media_dimensions": "1080x1920",
+   "caption_present": false,
+   "channel_posts": [
+    {
+     "post_id": "6ac513b39a4f7a88bc2617dc",
+     "channel": "Instagram — The Tao of Clinical Touch",
+     "channel_id": "6a3eb89f5ab6d2f106763ca0",
+     "status": "scheduled",
+     "due_at_readback": "2026-10-15T17:00:00.000Z",
+     "instagram_type": "story",
+     "should_share_to_feed": false,
+     "has_caption": false,
+     "independently_read_back": true
+    },
+    {
+     "post_id": "6ac513b39a4f7a88bc2617dd",
+     "channel": "Instagram — drewdog19",
+     "channel_id": "6a3eba3f5ab6d2f106764339",
+     "status": "scheduled",
+     "due_at_readback": "2026-10-15T17:00:00.000Z",
+     "instagram_type": "story",
+     "should_share_to_feed": false,
+     "has_caption": false,
+     "independently_read_back": true
+    }
+   ],
+   "story_native_link": "https://taoclinicaltouch.com/blog/2026/10/the-clinical-practice-of-restraint/"
+  },
+  {
+   "content_item_id": "6ac513b40c0a17c2690d567c",
+   "issue": "015",
+   "day": "FRIDAY",
+   "role": "FEED",
+   "scheduled_utc": "2026-10-16T12:00:00.000Z",
+   "scheduled_et": "8:00 AM",
+   "media_url": "https://taoclinicaltouch.com/wp-content/uploads/2026/10/ISSUE015_FRI_FEED.png",
+   "media_sha256": "4041feb83cfaf3371499e905799487ff1385ff56e69e9301838deb2db983249e",
+   "media_bytes": 2025500,
+   "media_dimensions": "1080x1350",
+   "caption_present": true,
+   "channel_posts": [
+    {
+     "post_id": "6ac513b40c0a17c2690d567a",
+     "channel": "Instagram — The Tao of Clinical Touch",
+     "channel_id": "6a3eb89f5ab6d2f106763ca0",
+     "status": "scheduled",
+     "due_at_readback": "2026-10-16T12:00:00.000Z",
+     "instagram_type": "post",
+     "should_share_to_feed": true,
+     "has_caption": true,
+     "independently_read_back": true
+    },
+    {
+     "post_id": "6ac513b40c0a17c2690d567b",
+     "channel": "Instagram — drewdog19",
+     "channel_id": "6a3eba3f5ab6d2f106764339",
+     "status": "scheduled",
+     "due_at_readback": "2026-10-16T12:00:00.000Z",
+     "instagram_type": "post",
+     "should_share_to_feed": true,
+     "has_caption": true,
+     "independently_read_back": true
+    }
+   ],
+   "story_native_link": null
+  },
+  {
+   "content_item_id": "6ac513b5a7c6bca6eb9da1fb",
+   "issue": "015",
+   "day": "FRIDAY",
+   "role": "LANDSCAPE",
+   "scheduled_utc": "2026-10-16T12:00:00.000Z",
+   "scheduled_et": "8:00 AM",
+   "media_url": "https://taoclinicaltouch.com/wp-content/uploads/2026/10/ISSUE015_FRI_LANDSCAPE.png",
+   "media_sha256": "30b109b6c77cbc0d3708eb554d386a73670a97dd1da98b7ad2af6b19ebc1647e",
+   "media_bytes": 1137054,
+   "media_dimensions": "1200x628",
+   "caption_present": true,
+   "channel_posts": [
+    {
+     "post_id": "6ac513b5a7c6bca6eb9da1fa",
+     "channel": "Facebook — The Tao of Clinical Touch",
+     "channel_id": "6a3eb95f5ab6d2f106763fc9",
+     "status": "scheduled",
+     "due_at_readback": "2026-10-16T12:00:00.000Z",
+     "instagram_type": "post",
+     "should_share_to_feed": null,
+     "has_caption": true,
+     "independently_read_back": true
+    }
+   ],
+   "story_native_link": null
+  },
+  {
+   "content_item_id": "6ac513b5a7c6bca6eb9da247",
+   "issue": "015",
+   "day": "FRIDAY",
+   "role": "STORY-1",
+   "scheduled_utc": "2026-10-16T13:00:00.000Z",
+   "scheduled_et": "9:00 AM",
+   "media_url": "https://taoclinicaltouch.com/wp-content/uploads/2026/10/ISSUE015_FRI_STORY_1.png",
+   "media_sha256": "a44cbb7415d5d0568e0a80f667a0667b7f427ff61294bfbc65173ffaf5520003",
+   "media_bytes": 2703189,
+   "media_dimensions": "1080x1920",
+   "caption_present": false,
+   "channel_posts": [
+    {
+     "post_id": "6ac513b5a7c6bca6eb9da245",
+     "channel": "Instagram — The Tao of Clinical Touch",
+     "channel_id": "6a3eb89f5ab6d2f106763ca0",
+     "status": "scheduled",
+     "due_at_readback": "2026-10-16T13:00:00.000Z",
+     "instagram_type": "story",
+     "should_share_to_feed": false,
+     "has_caption": false,
+     "independently_read_back": true
+    },
+    {
+     "post_id": "6ac513b5a7c6bca6eb9da246",
+     "channel": "Instagram — drewdog19",
+     "channel_id": "6a3eba3f5ab6d2f106764339",
+     "status": "scheduled",
+     "due_at_readback": "2026-10-16T13:00:00.000Z",
+     "instagram_type": "story",
+     "should_share_to_feed": false,
+     "has_caption": false,
+     "independently_read_back": true
+    }
+   ],
+   "story_native_link": null
+  },
+  {
+   "content_item_id": "6ac513b60c0a17c2690d57cc",
+   "issue": "015",
+   "day": "FRIDAY",
+   "role": "STORY-2",
+   "scheduled_utc": "2026-10-16T15:00:00.000Z",
+   "scheduled_et": "11:00 AM",
+   "media_url": "https://taoclinicaltouch.com/wp-content/uploads/2026/10/ISSUE015_FRI_STORY_2.png",
+   "media_sha256": "ee74a62d12ecc4592c51dcac47fa1d7a57de592206f3e07b22a02c24ef910ae1",
+   "media_bytes": 2748696,
+   "media_dimensions": "1080x1920",
+   "caption_present": false,
+   "channel_posts": [
+    {
+     "post_id": "6ac513b60c0a17c2690d57ca",
+     "channel": "Instagram — The Tao of Clinical Touch",
+     "channel_id": "6a3eb89f5ab6d2f106763ca0",
+     "status": "scheduled",
+     "due_at_readback": "2026-10-16T15:00:00.000Z",
+     "instagram_type": "story",
+     "should_share_to_feed": false,
+     "has_caption": false,
+     "independently_read_back": true
+    },
+    {
+     "post_id": "6ac513b60c0a17c2690d57cb",
+     "channel": "Instagram — drewdog19",
+     "channel_id": "6a3eba3f5ab6d2f106764339",
+     "status": "scheduled",
+     "due_at_readback": "2026-10-16T15:00:00.000Z",
+     "instagram_type": "story",
+     "should_share_to_feed": false,
+     "has_caption": false,
+     "independently_read_back": true
+    }
+   ],
+   "story_native_link": null
+  },
+  {
+   "content_item_id": "6ac513b6e02198815242f029",
+   "issue": "015",
+   "day": "FRIDAY",
+   "role": "STORY-3",
+   "scheduled_utc": "2026-10-16T17:00:00.000Z",
+   "scheduled_et": "1:00 PM",
+   "media_url": "https://taoclinicaltouch.com/wp-content/uploads/2026/10/ISSUE015_FRI_STORY_3.png",
+   "media_sha256": "e43edb90c46f207ab74d7f8f5709454708ae04d73f06bc34235cf1e78106a734",
+   "media_bytes": 2703578,
+   "media_dimensions": "1080x1920",
+   "caption_present": false,
+   "channel_posts": [
+    {
+     "post_id": "6ac513b6e02198815242f027",
+     "channel": "Instagram — The Tao of Clinical Touch",
+     "channel_id": "6a3eb89f5ab6d2f106763ca0",
+     "status": "scheduled",
+     "due_at_readback": "2026-10-16T17:00:00.000Z",
+     "instagram_type": "story",
+     "should_share_to_feed": false,
+     "has_caption": false,
+     "independently_read_back": true
+    },
+    {
+     "post_id": "6ac513b6e02198815242f028",
+     "channel": "Instagram — drewdog19",
+     "channel_id": "6a3eba3f5ab6d2f106764339",
+     "status": "scheduled",
+     "due_at_readback": "2026-10-16T17:00:00.000Z",
+     "instagram_type": "story",
+     "should_share_to_feed": false,
+     "has_caption": false,
+     "independently_read_back": true
+    }
+   ],
+   "story_native_link": "https://taoclinicaltouch.com/blog/2026/10/the-clinical-practice-of-restraint/"
+  }
+ ],
+ "wordpress_article": {
+  "post_id": 1877,
+  "title": "The Clinical Practice of Restraint",
+  "slug": "the-clinical-practice-of-restraint",
+  "status": "future",
+  "scheduled_date": "2026-10-12",
+  "featured_media_id": 1870,
+  "featured_media_url": "https://taoclinicaltouch.com/wp-content/uploads/2026/10/ISSUE015_MON_LANDSCAPE.png",
+  "canonical_url": "https://taoclinicaltouch.com/blog/2026/10/the-clinical-practice-of-restraint/",
+  "canonical_url_anonymous_status": 404,
+  "canonical_url_404_expected_prepublication": true,
+  "site_timezone_string": "America/New_York",
+  "site_gmt_offset": -4,
+  "exact_scheduled_hour_verified": false,
+  "exact_scheduled_hour_note": "Authenticated REST readback unavailable in this environment (no TAO_WP_APP_PASSWORD; Authorization header still not reaching PHP per Issue 014 parked item 2). Anonymous REST returns 401 rest_forbidden for status=future. Founder confirmation of the literal wp-admin time field remains the outstanding check."
+ }
+}
