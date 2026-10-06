@@ -4,7 +4,7 @@
 **Publication week:** October 12–16, 2026
 **Canonical article:** https://taoclinicaltouch.com/blog/2026/10/the-clinical-practice-of-restraint/
 **Record date:** October 6, 2026
-**Verdict:** **PASS — with two open Founder confirmations, both recorded below and neither blocking.**
+**Verdict:** **PASS — CLOSED. Founder confirmations completed October 6, 2026.**
 
 Produced under the `ISSUE015_CLAUDE_EXECUTION_HANDOFF.md` final-reconciliation requirement, which
 conditions this record on Buffer and Brevo both passing. Both have now passed independent readback.
@@ -15,10 +15,10 @@ conditions this record on Buffer and Brevo both passing. Both have now passed in
 
 | System | Object | State | Verdict |
 |---|---|---|---|
-| WordPress | post **1877** | `future`, scheduled October 12, 2026 | **PASS** (exact hour open — §2) |
+| WordPress | post **1877** | `future`, scheduled October 12, 2026 at **7:45 AM ET** | **PASS — Founder confirmed in wp-admin Oct 6** |
 | WordPress media | **25** assets | live, anonymously retrievable, checksum-reconciled | **PASS** |
 | Buffer | **25** content items / **45** channel posts | all `scheduled`, Oct 12–16 | **PASS** (closed; not reopened) |
-| Brevo | campaign **45** | `queued` for 2026-10-12 10:00:00 ET | **PASS** (from-name open — §5) |
+| Brevo | campaign **45** | `queued` for 2026-10-12 10:00:00 ET | **PASS — From name Founder confirmed in Brevo UI Oct 6** |
 
 **Nothing has been published or sent.** Every object is in a scheduled, pre-delivery state.
 
@@ -38,15 +38,7 @@ Confirmed in this pass: anonymous `GET /wp-json/wp/v2/posts/1877` returns **HTTP
 canonical URL returns **HTTP 404**. This is **correct pre-publication behavior** — WordPress serves
 a `future` post to nobody — and it reproduces the state recorded in the Buffer receipt.
 
-**OPEN — carried forward, not newly discovered.** The article's exact scheduled *hour* has never
-been verified by this agent. `TAO_WP_APP_PASSWORD` is **unset**, so no authenticated WordPress read
-was possible in this pass. The site has a documented history of a 7:45 ET / 11:45 UTC scheduling
-trap.
-
-**Founder action:** confirm in wp-admin that post 1877 publishes **before 8:00 AM ET** on October 12.
-It must precede both the 8:00 AM ET social launch and the 10:00 AM ET email, because both link to it.
-This is the single highest-value remaining check in Issue 015 — if the article publishes late, 45
-scheduled social posts and one email point at a 404.
+**FOUNDER CONFIRMED — October 6, 2026.** WordPress wp-admin shows post 1877 scheduled for **October 12, 2026 at 7:45 AM ET**. The site timezone is confirmed as Eastern time. This precedes the 8:00 AM ET social launch and the 10:00 AM ET Brevo campaign.
 
 ## 3. WordPress media — 25/25
 
@@ -113,11 +105,7 @@ Full detail in `ISSUE015_BUFFER_DEPLOYMENT_RECEIPT.md` and `ISSUE015_BUFFER_OBJE
 Every field above confirmed by independent `GET` after the write, not from mutation responses.
 Full detail in `ISSUE015_BREVO_EXECUTION_RECEIPT.md`.
 
-**OPEN — sender display name.** Campaign 45 reports `sender.name` as `""` where the sent Issue 014
-precedent reports the placeholder `[DEFAULT_FROM_NAME]`. Sender 3 is registered and active as
-`Drew Freedman | Tao of Clinical Touch`, which is what should resolve at send time, but the API
-cannot settle which string a recipient sees. No corrective write was improvised.
-**Founder action:** confirm the *From name* on campaign 45 in the Brevo UI.
+**FOUNDER CONFIRMED — October 6, 2026.** The campaign 45 *From name* was checked in the Brevo UI and confirmed correct. No corrective mutation was required.
 
 ## 6. Canonical URL consistency
 
@@ -154,8 +142,8 @@ Every deviation encountered across Issue 015 execution, disclosed:
 | 1 | Campaign 45 `modifiedAt` was 11:48:19 at resume vs 11:31:49 in the hold snapshot; name had been shortened to "Tao Issue 015 — Restraint" | Pre-state drift, rename only; material state (draft, unscheduled, Issue 014 content) exactly as documented | **Disclosed; approved payload name applied** |
 | 2 | Brevo rejected the approved `recipients` object twice — write schema requires `listIds`, and rejects `exclusionListIds: []` as absent | API transport-format asymmetry, not a value change | **Resolved** — readback confirms list 64, no exclusions, no segments |
 | 3 | Brevo strips the trailing newline after `</html>`; stored body is 5,316 bytes vs 5,317 local | Server-side storage normalization; single-opcode diff, first 5,316 bytes identical | **Characterized, both checksums recorded** |
-| 4 | `sender.name` reads `""` vs `[DEFAULT_FROM_NAME]` on the Issue 014 precedent | Representation divergence in a recipient-visible field | **OPEN — Founder confirm (§5)** |
-| 5 | Post 1877's exact scheduled hour never verified; `TAO_WP_APP_PASSWORD` unset | Verification gap, carried from the Buffer pass | **OPEN — Founder confirm (§2)** |
+| 4 | API readback represented `sender.name` differently from the Issue 014 precedent | Representation divergence resolved by direct UI verification | **CLOSED — Founder confirmed From name in Brevo UI Oct 6** |
+| 5 | Agent could not independently verify post 1877's exact scheduled hour | Verification gap resolved by direct wp-admin verification | **CLOSED — Founder confirmed 7:45 AM ET Oct 12 in wp-admin Oct 6** |
 | 6 | Buffer adapter warns against Tao publishing to `drewdog19`, superseded by the Issue 014 Founder-approved precedent | Governance conflict resolved by precedent, as the handoff directs | **Disclosed in Buffer receipt** |
 
 Nothing in this register was silently reconciled away.
@@ -176,5 +164,4 @@ WordPress article scheduled, 25 media assets verified, 25 Buffer content items d
 scheduled channel posts across October 12–16, and Brevo campaign 45 queued for Monday, October 12,
 2026 at 10:00:00 AM ET — all reconciled against Founder-approved sources by independent readback.
 
-**Two Founder confirmations remain open and neither blocks the schedule:** post 1877's publish hour
-(§2) and campaign 45's From name (§5).
+**Founder closure recorded October 6, 2026:** post 1877 is confirmed for **7:45 AM ET on October 12**, and campaign 45's **From name is confirmed correct in Brevo**. No open production confirmations remain for Issue 015.
