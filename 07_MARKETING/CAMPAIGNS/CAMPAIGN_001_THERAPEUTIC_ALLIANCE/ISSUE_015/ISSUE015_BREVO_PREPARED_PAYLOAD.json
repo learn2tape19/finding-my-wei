@@ -1,0 +1,47 @@
+{
+ "_note": "Exact PUT /v3/emailCampaigns/45 payload. htmlContent is the full text of ISSUE015_BREVO_CAMPAIGN.html in this directory — substitute it verbatim. No field here is a suggestion; each is reconciled against an approved source in ISSUE015_BREVO_EXECUTION_RECEIPT.md.",
+ "method": "PUT",
+ "endpoint": "https://api.brevo.com/v3/emailCampaigns/45",
+ "campaign_id": 45,
+ "body": {
+  "name": "Tao Issue 015 — The Clinical Practice of Restraint",
+  "subject": "More Intervention Is Not Automatically More Care",
+  "previewText": "Knowing when to put our hands down is part of knowing how to use them.",
+  "sender": {
+   "id": 3
+  },
+  "replyTo": "drew@learn2tape.com",
+  "recipients": {
+   "lists": [
+    64
+   ],
+   "exclusionLists": [],
+   "segments": [],
+   "excludedSegments": []
+  },
+  "inlineImageActivation": false,
+  "mirrorActive": true,
+  "scheduledAt": "2026-10-12T10:00:00-04:00",
+  "htmlContent": "<<<contents of ISSUE015_BREVO_CAMPAIGN.html>>>"
+ },
+ "html_file": "ISSUE015_BREVO_CAMPAIGN.html",
+ "html_sha256": "7bb4c9c7962086962c8f0afdd3f47364566551aa79319616c5a9c37f8c34c248",
+ "html_bytes": 5317,
+ "hero_image": {
+  "url": "https://taoclinicaltouch.com/wp-content/uploads/2026/10/ISSUE015_MON_LANDSCAPE.png",
+  "http_status": 200,
+  "retrieved_anonymously": true,
+  "referer_sent": false,
+  "bytes": 1122807,
+  "dimensions": "1200x628",
+  "sha256": "531f8f5e80994482df8f18dc7bfc5f214b382e8089f4cd15abfb401f538c6092",
+  "checksum_reconciled_against_manifest": true
+ },
+ "cta_target": "https://taoclinicaltouch.com/blog/2026/10/the-clinical-practice-of-restraint/",
+ "blocked": {
+  "status": "BLOCKED — no available Brevo write path for an existing campaign",
+  "mcp_connector": "exposes create/read only for email campaigns; no update, schedule, or status mutation tool",
+  "local_rest_key": "BREVO_API_KEY present in finding-my-wei/Learn2Tape/.env (xkeysib-, untracked) returns HTTP 401 'API Key is not enabled'",
+  "not_done_deliberately": "Did not create a second campaign. 'Duplicate campaign for the issue' is an explicit STOP condition in BREVO_V1_ADAPTER.md."
+ }
+}
