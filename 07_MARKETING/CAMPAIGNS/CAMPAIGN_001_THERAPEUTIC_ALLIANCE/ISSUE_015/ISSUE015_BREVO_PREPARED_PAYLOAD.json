@@ -39,7 +39,7 @@
  },
  "cta_target": "https://taoclinicaltouch.com/blog/2026/10/the-clinical-practice-of-restraint/",
  "blocked": {
-  "status": "HELD — Founder directive: await restored Brevo write access; campaign 45 unchanged; no campaign 46",
+  "status": "SUPERSEDED 2026-10-06 — write access restored; this payload was applied to campaign 45. Retained for provenance.",
   "mcp_connector": "exposes create/read only for email campaigns; no update, schedule, or status mutation tool",
   "local_rest_key": "BREVO_API_KEY present in finding-my-wei/Learn2Tape/.env (xkeysib-, untracked) returns HTTP 401 'API Key is not enabled'",
   "not_done_deliberately": "Did not create a second campaign. 'Duplicate campaign for the issue' is an explicit STOP condition in BREVO_V1_ADAPTER.md."
@@ -60,6 +60,31 @@
    "scheduledAt": "",
    "modifiedAt": "2026-10-06T11:31:49.000-04:00"
   },
-  "buffer_status": "closed PASS — not to be reopened"
+  "buffer_status": "closed PASS — not to be reopened",
+  "status": "RELEASED 2026-10-06 — see ISSUE015_BREVO_EXECUTION_RECEIPT.md"
+ },
+ "execution_result": {
+  "applied": true,
+  "applied_date": "2026-10-06",
+  "campaign_id": 45,
+  "campaign_status": "queued",
+  "scheduled_at_readback": "2026-10-12T10:00:00.000-04:00",
+  "scheduled_at_utc": "2026-10-12T14:00:00Z",
+  "sent": false,
+  "campaign_46_created": false,
+  "buffer_touched": false,
+  "recipients_write_schema_note": "Brevo write schema requires recipients.listIds and rejects an empty exclusionListIds array; applied as {\"listIds\":[64]}. Readback confirms lists[64], no exclusions, no segments — identical to the approved set above.",
+  "html_stored_sha256": "025298802970194bae9cc9346ce8e97bbe5a399899032cf702a927c9e33e2d6f",
+  "html_stored_bytes": 5316,
+  "html_normalization": "Brevo strips the single trailing newline after </html>. First 5,316 bytes byte-identical to the 5,317-byte repository file.",
+  "reconciliation": "PASS — 0 editorial mismatches, verified by independent GET",
+  "open_items": [
+   "Founder: confirm campaign 45 From name in Brevo UI (sender.name reads \"\")",
+   "Founder: confirm post 1877 publishes before 8:00 AM ET on 2026-10-12"
+  ],
+  "receipts": [
+   "ISSUE015_BREVO_EXECUTION_RECEIPT.md",
+   "ISSUE015_FINAL_RECONCILIATION.md"
+  ]
  }
 }

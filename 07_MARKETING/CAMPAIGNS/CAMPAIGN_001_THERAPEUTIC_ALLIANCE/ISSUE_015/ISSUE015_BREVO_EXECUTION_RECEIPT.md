@@ -2,188 +2,197 @@
 
 **Issue:** 015 — RESTRAINT / The Clinical Practice of Restraint
 **Campaign:** **45** — "Tao Issue 015 — The Clinical Practice of Restraint"
-**Intended send:** Monday, October 12, 2026, 10:00 AM ET (`2026-10-12T10:00:00-04:00`)
+**Status:** **`queued` (scheduled)**
+**Scheduled send:** **Monday, October 12, 2026, 10:00:00 AM ET — `2026-10-12T10:00:00.000-04:00` (= `2026-10-12T14:00:00Z`)**
 **Receipt date:** October 6, 2026
-**Verdict:** **HELD UNDER FOUNDER DIRECTIVE — NO BREVO MUTATION PERFORMED.**
-**Founder directive, October 6, 2026:** subject and preheader **APPROVED**; **hold campaign 45 unchanged** until Brevo write access is restored; **do not create campaign 46**; Buffer remains closed PASS.
+**Verdict:** **PASS — campaign 45 updated and scheduled, verified by independent readback.**
 
-Buffer passed independent reconciliation and its receipt is committed
-(`ISSUE015_BUFFER_DEPLOYMENT_RECEIPT.md`), so the Brevo gate was correctly open. Brevo execution
-then stopped on a capability blocker rather than improvising around it, as the handoff directs.
+The hold recorded in the previous revision of this receipt is **released**. Brevo write access was
+restored by the Founder; the already-approved `ISSUE015_BREVO_PREPARED_PAYLOAD.json` was applied to
+**existing campaign 45**. No campaign 46 was created. Buffer was not reopened or modified.
 
-**Campaign 45 is unchanged. Its status remains `draft`. Nothing was sent, scheduled, created, or
-deleted in Brevo.**
+Nothing has been sent. `statistics.globalStats.sent` = 0, `testSent` = false. The campaign sits in
+the queue awaiting its scheduled time.
 
 ---
 
-## STOP condition 1 — no write path to an existing Brevo campaign
-
-Campaign 45 cannot be modified from this environment. Both available paths are closed:
-
-| Path | State |
-|---|---|
-| Brevo MCP connector | Exposes `create_email_campaign`, `get_email_campaign`, `get_email_campaigns` and read-only list/sender/contact/template tools. **There is no update, schedule, or status-mutation tool for email campaigns.** |
-| Direct Brevo v3 REST | `BREVO_API_KEY` exists locally in `finding-my-wei/Learn2Tape/.env` (`xkeysib-` form, 89 chars, untracked by git — correctly outside the repository). `GET /v3/account` returns **HTTP 401 `{"message":"API Key is not enabled","code":"unauthorized"}`**. It is the only Brevo key present on this machine. |
-
-`PUT /v3/emailCampaigns/45` is therefore unreachable.
-
-### What was deliberately not done
-
-**No second campaign was created.** `BREVO_V1_ADAPTER.md` lists *"Duplicate campaign for the
-issue"* as an explicit STOP condition, and the handoff instructs STOP-and-report over
-improvisation. Creating campaign 46 to work around a missing update capability would have left two
-Issue 015 campaigns against the same list, with the live one determined by whichever was scheduled
-— exactly the failure mode the doctrine prohibits. Nothing was deleted either.
-
-## STOP condition 2 — campaign 45 currently holds Issue 014 content end to end
-
-Independent readback of campaign 45 shows that only its **name** belongs to Issue 015. Every other
-field is Issue 014, carried over verbatim from campaign 44:
-
-| Field | Campaign 45 as read back | Required for Issue 015 |
-|---|---|---|
-| Subject | "What You Say Becomes Part of the Treatment" | Issue 014's subject |
-| Preheader | "Words can protect regulation—or reintroduce threat." | Issue 014's preheader |
-| Eyebrow | `ISSUE 014 · COMMUNICATION` | `ISSUE 015 · RESTRAINT` |
-| Hero image | `2026/09/MONDAY_LANDSCAPE_1200x628.png` | `2026/10/ISSUE015_MON_LANDSCAPE.png` |
-| Hero link | `…/the-clinical-practice-of-language/` | `…/the-clinical-practice-of-restraint/` |
-| CTA href | `…/the-clinical-practice-of-language/` | `…/the-clinical-practice-of-restraint/` |
-| CTA label | `READ ISSUE 014 — LANGUAGE` | `READ ISSUE 015 — RESTRAINT` |
-| Body | Issue 014 *Language* editorial in full | Issue 015 *Restraint* editorial |
-| `<title>` | Issue 014's subject | Issue 015's subject |
-
-Campaign 45 was created 2026-10-06 11:08 ET and last modified 11:31 ET. **If it were scheduled in
-its current state it would send the Issue 014 email to list 64 on October 12 with a CTA pointing
-at the wrong article.** That is the material risk this receipt exists to surface.
-
-## Preflight results — everything verifiable passed
-
-Executed read-only before the blocker was reached:
+## 1. Authentication — PASS
 
 | Gate | Result |
 |---|---|
-| Authentication | **PASS** — organization `69e660956a08aaef49055093`, account drew@learn2tape.com |
-| Send-credit / plan eligibility | **PASS** — Starter, paid, active; period 2026-09-20 → 2026-10-20; **39,085** `sendLimit` credits. The Oct 12 send falls inside the current period, so the adapter's manual billing-boundary dependency **does not apply to this issue** |
-| Duplicate campaign check | **PASS** — campaign 45 is the only Issue 015 campaign; 44 (Issue 014) is `sent`, 43 (Issue 013) `sent` |
-| Canonical article URL exists | Post 1877 `future`, scheduled Oct 12; article must exist before the 10:00 AM ET email — it publishes earlier the same morning |
-| Hero image anonymously retrievable | **PASS** — HTTP 200, no auth header, no `Referer` |
-| Hero image checksum rule | **PASS** — `531f8f5e…6092`, 1,122,807 bytes, 1200×628, identical to `issue015_verified_asset_manifest.csv` |
-| Sender identity | **PASS** — ID **3**, drew@mail.taoclinicaltouch.com, reply-to drew@learn2tape.com, unchanged from Issues 007–014 |
-| Recipient configuration | List **[64]**, no exclusions or segments — **as the Founder already configured it on campaign 45**, byte-identical to campaign 44 |
-| `inlineImageActivation` | `false` — required by the external-media architecture; already correct on 45 |
+| Credential | `BREVO_API_KEY` read from the environment. **Never printed, logged, echoed, committed, or passed in a process argument list.** Supplied to `curl` via a `umask 077` config file held outside the repository in the session scratchpad and deleted at completion. |
+| `GET /v3/emailCampaigns/45` | **HTTP 200** — read-only authentication confirmed before any mutation |
+| `GET /v3/account` | **HTTP 200** — `organization_id` **`69e660956a08aaef49055093`**, account `drew@learn2tape.com` — identical to the organization recorded during the held pass |
+| Plan eligibility | Starter subscription, **39,085** `sendLimit` credits, period 2026-09-20 → 2026-10-20. The October 12 send falls **inside** the current period, so the adapter's billing-boundary dependency does not apply. |
 
-### Recipient configuration — why this is not a third STOP
+## 2. Campaign identity — PASS, with one recorded pre-state drift
 
-`TAO_PUBLISHING_EXECUTION_DOCTRINE.md` §6 states that *asserting* a recipient set for a new issue
-is a STOP condition pending Founder resolution. No recipient set was asserted here. List 64 was
-read back from the campaign the **Founder** created and configured, and it matches the
-Founder-approved Issue 014 send. The prepared payload preserves it rather than choosing it.
-List 64 reports **7** contacts (`remaining: 7`), up from 1 at the September 18 audit — the
-publication opt-in list is now accumulating subscribers as the signup infrastructure standard
-intends.
+Read-only readback before any write:
 
-## Prepared, fully verified payload — one action to unblock
-
-The complete campaign was composed and verified so that execution requires no further authoring:
-
-- **`ISSUE015_BREVO_CAMPAIGN.html`** — the full campaign body.
-  SHA-256 `7bb4c9c7962086962c8f0afdd3f47364566551aa79319616c5a9c37f8c34c248`, 5,317 bytes.
-- **`ISSUE015_BREVO_PREPARED_PAYLOAD.json`** — the exact `PUT /v3/emailCampaigns/45` field set.
-
-| Field | Prepared value |
+| Field | Value at resume |
 |---|---|
-| `subject` | More Intervention Is Not Automatically More Care |
-| `previewText` | Knowing when to put our hands down is part of knowing how to use them. |
-| `sender` | `{"id": 3}` |
-| `replyTo` | drew@learn2tape.com |
-| `recipients` | `{"lists": [64], "exclusionLists": [], "segments": [], "excludedSegments": []}` |
-| `inlineImageActivation` | `false` |
-| `mirrorActive` | `true` |
-| `scheduledAt` | `2026-10-12T10:00:00-04:00` |
+| `id` | 45 |
+| `type` | `classic` |
+| `status` | `draft` |
+| `scheduledAt` | `""` |
+| `createdAt` | 2026-10-06T11:08:58.000-04:00 |
+| `modifiedAt` | **2026-10-06T11:48:19.000-04:00** |
+| Content | Issue 014 end to end — 0 occurrences of `ISSUE 015`, `RESTRAINT`, or the Issue 015 article slug; hero still `2026/09/MONDAY_LANDSCAPE_1200x628.png` |
 
-Scheduled time reproduces the established Monday 10:00 AM ET cadence exactly — Issue 014
-(Oct 5), Issue 013 (Sept 28), Issue 011 (Sept 14), Issue 010 (Sept 7), Issue 008 (Aug 26) and
-Issue 007 (Aug 20) all sent at `10:00:00-04:00`. EDT offset is correct for October 12; the Brevo
-account timezone is `America/New_York`.
+**Recorded drift — not a STOP, disclosed in full.** The hold directive snapshotted campaign 45 at
+`modifiedAt: 2026-10-06T11:31:49.000-04:00` with the name *"Tao Issue 015 — The Clinical Practice
+of Restraint"*. At resume the campaign read `modifiedAt: 11:48:19` and the name
+*"Tao Issue 015 — Restraint"*. Campaign 45 was therefore edited between the hold snapshot and this
+resume — a rename only.
 
-### Editorial provenance — zero invented prose
+Proceeding was judged correct rather than improvisational because:
 
-Layout, colours, typography, header, eyebrow, hero treatment, emphasised-term motif, arc line,
-CTA button, signature and footer are preserved from campaign 44 structurally. Only the
-issue-specific content changed, and **every editorial sentence in the body is verbatim from the
-Founder-approved canonical article**, verified by automated string match against
-`ISSUE015_CANONICAL_ARTICLE_DRAFT.md`:
+- the **material** state was exactly as the hold documented — `draft`, unscheduled, Issue 014
+  content in full, with **no partial Issue 015 edit in flight that could be destroyed**;
+- `name` is internal Brevo metadata, never visible to a recipient; and
+- `name` is itself a Founder-approved field in the prepared payload, so applying the payload
+  applies an approved value rather than a chosen one.
 
-- 11 of 11 body paragraphs matched the canonical article verbatim.
-- The arc line *"Indication → Calibration → Reassessment → Decision → Completion"* is the
-  Founder-approved weekly movement from `ISSUE015_FIVE_DAY_COPY_AND_VISUAL_DIRECTION.md`.
-- `RESTRAINT.` mirrors Issue 014's `LANGUAGE.` emphasised-term slot.
-- *"That is the idea at the center of this week's The Tao of Clinical Touch:"* is the established
-  Issue 014 layout connective sentence, reused unchanged.
-- No new claim, hashtag, emoji, hook, or rewritten passage was introduced.
+The approved long-form name was restored by the payload. **If the shorter name was a deliberate
+Founder preference, it is the one field to re-set — it has no effect on the email itself.**
 
-### Subject line and preheader — FOUNDER APPROVED, October 6, 2026
+## 3. Payload integrity — PASS
 
-**No Founder-approved Issue 015 subject line or preheader exists** in the canonical article, the
-editorial brief, the five-day copy file, or the handoff. Issue 014's subject was authored during
-that issue's production and is not a template.
+| Artifact | Expected | Verified |
+|---|---|---|
+| `ISSUE015_BREVO_CAMPAIGN.html` SHA-256 | `7bb4c9c7962086962c8f0afdd3f47364566551aa79319616c5a9c37f8c34c248` | **match** |
+| `ISSUE015_BREVO_CAMPAIGN.html` bytes | 5,317 | **match** |
+| Hero image, anonymous HTTPS, no `Referer` | HTTP 200 | **HTTP 200** |
+| Hero bytes | 1,122,807 | **match** |
+| Hero SHA-256 | `531f8f5e80994482df8f18dc7bfc5f214b382e8089f4cd15abfb401f538c6092` | **match** |
+| Hero dimensions | 1200×628 | **match** (read from PNG IHDR) |
+| Recipient list 64 | exists, populated | `Tao subscriber list`, **7** subscribers, 0 blacklisted |
+| Sender 3 | registered, active | `Drew Freedman \| Tao of Clinical Touch` / drew@mail.taoclinicaltouch.com, active |
+| Oct 12, 2026 is a Monday | yes | **confirmed** |
+| `-04:00` is correct EDT offset for Oct 12, 2026 | yes | **confirmed** |
 
-Rather than author new copy under PRODUCTION ONLY, both were taken **verbatim from Founder-approved
-Issue 015 language** — the Friday Feed/Landscape support and closing lines:
+## 4. Mutation log — three requests, one effective write
 
-- Subject ← *"More intervention is not automatically more care."* (case adjusted to title case to
-  match the established subject-line convention; **wording unchanged**)
-- Preheader ← *"Knowing when to put our hands down is part of knowing how to use them."*
-  (verbatim, unchanged)
+Content and schedule were applied as **two separate steps** so that every editorial field could be
+reconciled *before* the campaign was ever placed in a sendable state.
 
-This is reuse of approved language, not invention.
+| # | Request | Result | Effect |
+|---|---|---|---|
+| 1 | `PUT /v3/emailCampaigns/45` — payload `recipients` verbatim (`lists`/`exclusionLists`/`segments`) | **HTTP 400** `missing_parameter: Either the listIds or segmentIds are mandatory in recipients` | **None.** Rejected atomically — confirmed by readback: `modifiedAt` still 11:48:19, subject still Issue 014's. |
+| 2 | Same, `recipients: {listIds:[64], exclusionListIds:[]}` | **HTTP 400** `missing_parameter: exclusionListIds are missing` | **None.** Brevo rejects an empty array as absent. |
+| 3 | Same, `recipients: {listIds:[64]}` | **HTTP 204** | **Content applied.** |
+| 4 | `PUT /v3/emailCampaigns/45` — `{"scheduledAt":"2026-10-12T10:00:00-04:00"}` | **HTTP 204** | **Scheduled.** |
 
-**Founder approved both values explicitly on October 6, 2026.** The subject line
-*"More Intervention Is Not Automatically More Care"* and the preheader
-*"Knowing when to put our hands down is part of knowing how to use them."* are now
-Founder-approved Issue 015 copy and carry the same authority as the rest of the issue package.
-The authority gap recorded above is **closed**. No further approval is required to apply them.
+**On the recipient remap.** Brevo's read schema returns `recipients.lists`; its write schema
+requires `recipients.listIds`. This is a transport-format asymmetry in the Brevo API, not a change
+of approved value. The recipient set applied is **list 64, no exclusions, no segments** — byte-identical
+in meaning to the approved payload, and confirmed by readback in §5 to have produced exactly
+`{"lists":[64],"exclusionLists":[],"segments":[],"excludedSegments":[]}`.
 
-## Founder actions required
+## 5. Independent readback reconciliation — PASS
 
-1. **Restore Brevo write access.** Enable a Brevo API key with campaign write scope (the local
-   `BREVO_API_KEY` is disabled). The Founder has taken this item; execution resumes on his signal.
-   Once enabled, this execution completes end to end with independent readback.
-2. ~~Approve or replace the subject line and preheader.~~ **CLOSED — approved October 6, 2026.**
-3. **Campaign 45 is on hold and must not be scheduled in its current state.** It would send
-   Issue 014's email and article link. Held by Founder directive pending write access.
-4. **Confirm post 1877's wp-admin time is before 8:00 AM ET on October 12** — carried from the
-   Buffer receipt, and it must also precede the 10:00 AM ET email. **Still open.**
+Re-fetched with a fresh `GET /v3/emailCampaigns/45` after the write. **No field below is taken from
+a mutation response.**
 
-## Confirmations
+| Field | Approved value | Read back | |
+|---|---|---|---|
+| `id` | 45 | 45 | PASS |
+| `name` | Tao Issue 015 — The Clinical Practice of Restraint | identical | PASS |
+| `subject` | More Intervention Is Not Automatically More Care | identical | PASS |
+| `previewText` (preheader) | Knowing when to put our hands down is part of knowing how to use them. | identical | PASS |
+| `sender.id` | 3 | 3 | PASS |
+| `sender.email` | drew@mail.taoclinicaltouch.com | identical | PASS |
+| `replyTo` | drew@learn2tape.com | identical | PASS |
+| `recipients.lists` | `[64]` | `[64]` | PASS |
+| `recipients.exclusionLists` | `[]` | `[]` | PASS |
+| `recipients.segments` | `[]` | `[]` | PASS |
+| `recipients.excludedSegments` | `[]` | `[]` | PASS |
+| `inlineImageActivation` | `false` | `false` | PASS |
+| `mirrorActive` | `true` | `true` | PASS |
+| `type` | `classic` | `classic` | PASS |
+| `<title>` | More Intervention Is Not Automatically More Care | identical | PASS |
+| CTA / article href | `…/blog/2026/10/the-clinical-practice-of-restraint/` | identical, sole non-unsubscribe href | PASS |
+| CTA label | `READ ISSUE 015 — RESTRAINT` | identical | PASS |
+| Hero image `src` | `…/uploads/2026/10/ISSUE015_MON_LANDSCAPE.png` | identical, sole `<img>` | PASS |
+| Eyebrow | `ISSUE 015` present | present | PASS |
+| Issue 014 residue | 0 | **0** occurrences of `ISSUE 014`, `the-clinical-practice-of-language`, `MONDAY_LANDSCAPE_1200x628` | PASS |
+| `htmlContent` | 5,317 bytes / `7bb4c9c7…c248` | 5,316 bytes / `02529880…2d6f` | **normalized — see below** |
 
-- **No Brevo mutation of any kind was performed.** Campaign 45 remains `draft` and byte-unchanged;
-  campaigns 44 and 43 were read-only; no campaign was created or deleted.
-- No WordPress or Buffer object was touched in this pass.
-- The Brevo key was confirmed by name, length and prefix form only. It was never printed, logged,
-  committed, or passed in a process argument list. The prepared payload and campaign HTML contain
-  no credential.
+### The one-byte difference, characterized exactly
 
-## Hold status — October 6, 2026
+A character-level diff of the local file against the stored content returns **exactly one opcode**:
 
-Campaign 45 is **held unchanged by Founder directive** until Brevo write access is restored.
-Confirmed by readback at the time of this update: `status: draft`, `scheduledAt: ""`,
-`modifiedAt: 2026-10-06T11:31:49.000-04:00` — unchanged since before this execution began.
+```
+delete: local[5316:5317] = '\n'   remote[5316:5316] = ''
+```
 
-**No campaign 46 will be created.** This is both the Founder's explicit instruction and the
-standing adapter STOP condition on duplicate campaigns for an issue.
+Brevo strips the single trailing newline following `</html>`. Every one of the first 5,316 bytes is
+identical, and `sha256(local_file.rstrip('\n'))` == `02529880…2d6f` == the stored content hash
+exactly. Trailing whitespace after the closing tag is insignificant to every mail renderer.
 
-When write access is restored, the resume path is mechanical and requires no further authoring or
-approval: apply `ISSUE015_BREVO_PREPARED_PAYLOAD.json` to campaign 45, then independently read
-back sender, list, subject, preheader, body, CTA target, hero image URL and `scheduledAt`, and
-record the result.
+This is **server-side storage normalization, not a content discrepancy**, and it is recorded here
+rather than silently reconciled away. Both checksums are preserved above so the delta stays auditable.
 
-## Issue 015 Brevo: HELD
+**Editorial reconciliation: 0 mismatches.**
 
-Buffer is complete and verified (**closed PASS** — see `ISSUE015_BUFFER_DEPLOYMENT_RECEIPT.md`;
-not reopened or revisited by this update). Brevo is fully prepared, provenance-checked, and
-Founder-approved on copy, held at a reported capability blocker with the material risk in
-campaign 45 surfaced and no mutation performed.
+## 6. Scheduling verification — PASS
 
-**No final Issue 015 reconciliation record is produced, because the handoff conditions it on
-Buffer and Brevo both passing.** It will be written when Brevo closes.
+Verified by a **third** independent `GET` issued after the scheduling write:
+
+| Check | Result |
+|---|---|
+| `status` | **`queued`** — scheduled, not sent, not draft |
+| `scheduledAt` | **`2026-10-12T10:00:00.000-04:00`** |
+| Parsed instant equals approved `2026-10-12T10:00:00-04:00` | **exact match** |
+| UTC equivalent | `2026-10-12T14:00:00+00:00` |
+| Weekday | **Monday** |
+| UTC offset | **−04:00**, correct EDT for October 12, 2026 |
+| Cadence | Matches Issues 007, 008, 010, 011, 013, 014 — all `10:00:00-04:00` Monday |
+| `testSent` | `false` |
+| `statistics.globalStats.sent` | **0** — nothing dispatched |
+| Content survived scheduling | `htmlContent` SHA-256 still `02529880…2d6f` | 
+
+No scheduling ambiguity arose: the account timezone is `America/New_York`, the offset was supplied
+explicitly in the request rather than inferred, and the stored value was read back and re-parsed.
+
+## 7. Open item carried forward — sender display name
+
+**This is a verification gap, not a known defect, and it is not being passed off as verified.**
+
+The approved payload specifies `sender: {"id": 3}`, and that is exactly what was sent. Before the
+write, campaign 45 reported `sender.name` as the Brevo placeholder `[DEFAULT_FROM_NAME]` (inherited
+when it was duplicated from campaign 44). After the write it reports `sender.name` as `""`.
+
+- Sender **3** is registered and active as **`Drew Freedman | Tao of Clinical Touch`**, so the
+  from-name resolves from the sender record at send time — the expected consequence of addressing a
+  sender by `id`, which is what the approved payload instructs.
+- Campaign 44 — the sent Issue 014 precedent — reads `[DEFAULT_FROM_NAME]`, so this is a
+  **divergence in representation from the precedent**, in a recipient-visible field.
+
+`[DEFAULT_FROM_NAME]` is a read-side placeholder token, not a writable value; writing that literal
+string would set the from-name to that literal. **No corrective write was improvised.** The API
+cannot settle which string a recipient will see.
+
+**Founder action — 30 seconds in the Brevo UI:** open campaign 45 and confirm the *From name* field
+shows **Drew Freedman | Tao of Clinical Touch** and not a blank. If blank, set it there; the
+campaign stays scheduled either way, and there are six days of margin.
+
+## 8. Confirmations
+
+- Only **campaign 45** was mutated. **No campaign 46 was created.** Nothing was deleted.
+- **Buffer was not reopened, read, or modified** — it remains closed PASS per
+  `ISSUE015_BUFFER_DEPLOYMENT_RECEIPT.md`.
+- WordPress was not modified. Media were read-only.
+- Campaigns 44 and 43 were read-only, for precedent comparison.
+- No editorial copy was authored, altered, or regenerated in this pass. The applied body is the
+  Founder-approved `ISSUE015_BREVO_CAMPAIGN.html`, unchanged.
+- `BREVO_API_KEY` was never printed, logged, committed, or placed in a process argument list. The
+  transient curl config holding it lived outside the repository under `umask 077` and was deleted.
+  This receipt, the prepared payload, and the campaign HTML contain no credential.
+
+## Issue 015 Brevo: PASS
+
+Campaign **45** is scheduled and verified for **Monday, October 12, 2026 at 10:00:00 AM ET**, to
+list **64**, from sender **3**, with the Founder-approved Issue 015 subject, preheader, body, hero
+image and canonical CTA — every field confirmed by independent readback, with one documented
+trailing-newline normalization and one open from-name confirmation for the Founder.
