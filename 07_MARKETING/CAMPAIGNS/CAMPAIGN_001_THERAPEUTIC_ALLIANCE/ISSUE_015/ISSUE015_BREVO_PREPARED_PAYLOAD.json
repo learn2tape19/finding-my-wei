@@ -39,9 +39,27 @@
  },
  "cta_target": "https://taoclinicaltouch.com/blog/2026/10/the-clinical-practice-of-restraint/",
  "blocked": {
-  "status": "BLOCKED — no available Brevo write path for an existing campaign",
+  "status": "HELD — Founder directive: await restored Brevo write access; campaign 45 unchanged; no campaign 46",
   "mcp_connector": "exposes create/read only for email campaigns; no update, schedule, or status mutation tool",
   "local_rest_key": "BREVO_API_KEY present in finding-my-wei/Learn2Tape/.env (xkeysib-, untracked) returns HTTP 401 'API Key is not enabled'",
   "not_done_deliberately": "Did not create a second campaign. 'Duplicate campaign for the issue' is an explicit STOP condition in BREVO_V1_ADAPTER.md."
+ },
+ "founder_approval": {
+  "date": "2026-10-06",
+  "subject_approved": true,
+  "preview_text_approved": true,
+  "approved_subject": "More Intervention Is Not Automatically More Care",
+  "approved_preview_text": "Knowing when to put our hands down is part of knowing how to use them.",
+  "note": "Founder approved subject and preheader explicitly. No further copy approval required to apply this payload."
+ },
+ "hold_directive": {
+  "date": "2026-10-06",
+  "instruction": "Hold campaign 45 unchanged until Founder restores Brevo write access. Do not create campaign 46.",
+  "campaign_45_state_at_hold": {
+   "status": "draft",
+   "scheduledAt": "",
+   "modifiedAt": "2026-10-06T11:31:49.000-04:00"
+  },
+  "buffer_status": "closed PASS — not to be reopened"
  }
 }

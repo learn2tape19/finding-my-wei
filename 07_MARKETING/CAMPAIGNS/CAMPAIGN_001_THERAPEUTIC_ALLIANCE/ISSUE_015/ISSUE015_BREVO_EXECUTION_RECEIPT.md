@@ -4,7 +4,8 @@
 **Campaign:** **45** — "Tao Issue 015 — The Clinical Practice of Restraint"
 **Intended send:** Monday, October 12, 2026, 10:00 AM ET (`2026-10-12T10:00:00-04:00`)
 **Receipt date:** October 6, 2026
-**Verdict:** **BLOCKED — STOP CONDITION REPORTED. NO BREVO MUTATION PERFORMED.**
+**Verdict:** **HELD UNDER FOUNDER DIRECTIVE — NO BREVO MUTATION PERFORMED.**
+**Founder directive, October 6, 2026:** subject and preheader **APPROVED**; **hold campaign 45 unchanged** until Brevo write access is restored; **do not create campaign 46**; Buffer remains closed PASS.
 
 Buffer passed independent reconciliation and its receipt is committed
 (`ISSUE015_BUFFER_DEPLOYMENT_RECEIPT.md`), so the Brevo gate was correctly open. Brevo execution
@@ -121,7 +122,7 @@ Founder-approved canonical article**, verified by automated string match against
   Issue 014 layout connective sentence, reused unchanged.
 - No new claim, hashtag, emoji, hook, or rewritten passage was introduced.
 
-### Subject line and preheader — authority gap, flagged for Founder decision
+### Subject line and preheader — FOUNDER APPROVED, October 6, 2026
 
 **No Founder-approved Issue 015 subject line or preheader exists** in the canonical article, the
 editorial brief, the five-day copy file, or the handoff. Issue 014's subject was authored during
@@ -135,19 +136,24 @@ Issue 015 language** — the Friday Feed/Landscape support and closing lines:
 - Preheader ← *"Knowing when to put our hands down is part of knowing how to use them."*
   (verbatim, unchanged)
 
-This is reuse of approved language, not invention. **It is nonetheless a Founder decision and is
-flagged for explicit approval before the campaign is scheduled.**
+This is reuse of approved language, not invention.
+
+**Founder approved both values explicitly on October 6, 2026.** The subject line
+*"More Intervention Is Not Automatically More Care"* and the preheader
+*"Knowing when to put our hands down is part of knowing how to use them."* are now
+Founder-approved Issue 015 copy and carry the same authority as the rest of the issue package.
+The authority gap recorded above is **closed**. No further approval is required to apply them.
 
 ## Founder actions required
 
-1. **Decide the write path.** Either enable a Brevo API key with campaign write scope (the local
-   `BREVO_API_KEY` is disabled), or apply the prepared payload directly in the Brevo UI. If a key
-   is enabled, this execution can complete end to end with independent readback.
-2. **Approve or replace the subject line and preheader** above.
-3. **Do not schedule campaign 45 in its current state.** It would send Issue 014's email and
-   article link.
+1. **Restore Brevo write access.** Enable a Brevo API key with campaign write scope (the local
+   `BREVO_API_KEY` is disabled). The Founder has taken this item; execution resumes on his signal.
+   Once enabled, this execution completes end to end with independent readback.
+2. ~~Approve or replace the subject line and preheader.~~ **CLOSED — approved October 6, 2026.**
+3. **Campaign 45 is on hold and must not be scheduled in its current state.** It would send
+   Issue 014's email and article link. Held by Founder directive pending write access.
 4. **Confirm post 1877's wp-admin time is before 8:00 AM ET on October 12** — carried from the
-   Buffer receipt, and it must also precede the 10:00 AM ET email.
+   Buffer receipt, and it must also precede the 10:00 AM ET email. **Still open.**
 
 ## Confirmations
 
@@ -158,9 +164,26 @@ flagged for explicit approval before the campaign is scheduled.**
   committed, or passed in a process argument list. The prepared payload and campaign HTML contain
   no credential.
 
-## Issue 015 Brevo: BLOCKED
+## Hold status — October 6, 2026
 
-Buffer is complete and verified. Brevo is prepared, provenance-checked, and stopped at a reported
-capability blocker with the material risk in campaign 45 surfaced. **No final Issue 015
-reconciliation record is produced, because the handoff conditions it on Buffer and Brevo both
-passing.** It will be written when Brevo closes.
+Campaign 45 is **held unchanged by Founder directive** until Brevo write access is restored.
+Confirmed by readback at the time of this update: `status: draft`, `scheduledAt: ""`,
+`modifiedAt: 2026-10-06T11:31:49.000-04:00` — unchanged since before this execution began.
+
+**No campaign 46 will be created.** This is both the Founder's explicit instruction and the
+standing adapter STOP condition on duplicate campaigns for an issue.
+
+When write access is restored, the resume path is mechanical and requires no further authoring or
+approval: apply `ISSUE015_BREVO_PREPARED_PAYLOAD.json` to campaign 45, then independently read
+back sender, list, subject, preheader, body, CTA target, hero image URL and `scheduledAt`, and
+record the result.
+
+## Issue 015 Brevo: HELD
+
+Buffer is complete and verified (**closed PASS** — see `ISSUE015_BUFFER_DEPLOYMENT_RECEIPT.md`;
+not reopened or revisited by this update). Brevo is fully prepared, provenance-checked, and
+Founder-approved on copy, held at a reported capability blocker with the material risk in
+campaign 45 surfaced and no mutation performed.
+
+**No final Issue 015 reconciliation record is produced, because the handoff conditions it on
+Buffer and Brevo both passing.** It will be written when Brevo closes.
