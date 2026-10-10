@@ -1,6 +1,6 @@
 # Issue 016 — Trust: Five-Day Copy and Visual Direction
 
-**Status:** PROPOSED — FOUNDER REVIEW REQUIRED
+**Status:** FOUNDER APPROVED — FIVE-DAY COPY AND VISUAL DIRECTION LOCKED (October 10, 2026)
 **Article:** The Clinical Practice of Trust (Founder-approved October 10, 2026)
 **Proposed week:** October 19–23, 2026 (ET)
 
@@ -72,5 +72,5 @@ Those actions give someone reasons to trust us. They do not entitle us to that t
 - Stories have no separate Buffer caption; story text is baked into approved imagery.
 - No invented outcomes, unsupported neuroscience, before/after implications, or decorative medical diagrams.
 - No new hashtags or platform hooks without approval. Apply approved link treatment only after canonical URL is established.
-- All visual assets, captions, schedule, and destinations require Founder approval before WordPress/Buffer/Brevo mutation.
+- Five-day copy and visual direction approved October 10, 2026. Individual rendered assets still require visual QA; schedule and destinations require Founder approval before WordPress/Buffer/Brevo mutation.
 - Proposed WordPress Monday 7:45 AM, Buffer 8:00/9:00/11:00/1:00, Brevo Monday 10:00 AM ET; not authorized by this document.
