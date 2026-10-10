@@ -1,6 +1,6 @@
 # Issue 016 — Trust
 ## The Clinical Practice of Trust
-**Status:** EDITORIAL DRAFT — FOUNDER REVIEW REQUIRED
+**Status:** FOUNDER APPROVED — CANONICAL ARTICLE LOCKED (October 10, 2026)
 **Publication:** The Tao of Clinical Touch
 **Proposed week:** October 19–23, 2026
 
