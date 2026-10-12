@@ -1,7 +1,9 @@
 # ISSUE No. 016 — Production closeout
 
 **Title:** The Clinical Practice of Trust
-**Status:** CLOSED — FOUNDER APPROVED; PRODUCTION AND SCHEDULING COMPLETE
+**Publication status:** READY TO PUBLISH
+**Production task:** CLOSED; Founder approved production and scheduling.
+**Institutional preservation:** Reconciled by the accompanying October 12 commit and remote verification receipt.
 **Closed:** October 12, 2026, at Drew’s explicit instruction
 **Publishing week:** October 19–23, 2026
 **Timezone:** America/New_York (EDT, UTC−04:00)
@@ -10,7 +12,7 @@ Closure covers approved content, visual production, media uploads and platform s
 
 ## Canonical source and approval
 
-- Article locked October 10: `ISSUE016_ARTICLE_DRAFT.md`, blob `4702f0b2dcce8218a2052cfee1ec8da63bd08088`.
+- Article locked October 10: [Canonical BLOG article](../BLOG/ISSUE_016/ISSUE016_ARTICLE.md), original approved blob `4702f0b2dcce8218a2052cfee1ec8da63bd08088`.
 - Five-day copy locked October 10: `ISSUE016_FIVE_DAY_COPY_AND_VISUAL_DIRECTION.md`, blob `b6db1cf92c4c3353d15b3cc7eb2e701dcbff1227`.
 - Founder approved all 25 final visuals, blog/email/social drafts, and the final rollout in this production conversation.
 - Editorial identification: ISSUE No. 016. TRUST remains dominant, followed by day and daily headline/message; charcoal, teal and cream editorial treatment.
@@ -101,3 +103,10 @@ Local production evidence directory: `output/issue-016/publishing-week-2026-10-1
 - [x] Founder requested Issue 016 closure and commit.
 
 No immediate publication/send, new audience, new channel, additional production or monitoring automation was added. Delivery results can be reviewed after the scheduled publishing week without reopening completed production.
+
+
+## Institutional reconciliation, October 12
+
+The original closeout summarized operational completion but did not preserve all approved originals or detailed evidence. This update retains the originals in APPROVED_ASSETS, receipts and QA in EVIDENCE, one canonical BLOG article, and the inherited lesson in the existing institutional playbook and decision log. See [issue navigation](README.md) and [Foundation Closeout Report](ISSUE016_FOUNDATION_CLOSEOUT_REPORT.md).
+
+The earlier claim of a completed task does not assert PUBLISHED, ARCHIVED or verified future delivery. Browser queue readback is recorded accurately; individual Buffer IDs/native link fields were not retrieved. Site-wide Open Graph image remains the book-cover default. These limitations remain visible and do not silently become verified checks.

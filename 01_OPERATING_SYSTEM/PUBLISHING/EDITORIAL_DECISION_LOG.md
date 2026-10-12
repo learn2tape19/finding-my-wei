@@ -214,6 +214,20 @@ Decisions are never revisited without evidence of material limitation.
 
 ---
 
+## Decision 008
+
+**Date:** October 12, 2026  
+**Owner and authority:** Drew Freedman, Founder  
+**Status:** Active operating preference  
+**Decision:** Keep the complete production flow in Work when practical and make institutional preservation part of closeout.  
+**Scope:** Tao and other projects, subject to their review and approval requirements.
+
+Issue 016 was simpler for Drew than the previous Chat-to-Claude handoff. A later check exposed incomplete repository preservation. The durable response is integrated production with retained review roles, exact evidence, authoritative decision logging and remote verification. AI memory is context, not the institutional source.
+
+Reasoning, alternatives, consequences, review trigger and explicit limits are in [DR-2026-10-12-WORK-PRODUCTION-AND-PRESERVATION](../../00_Constitution/DECISIONS/DR-2026-10-12-WORK-PRODUCTION-AND-PRESERVATION.md). The [Production Playbook](../PRODUCTION_PLAYBOOK.md) is the single reusable execution authority. [Issue 016](../../07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_016/README.md) retains its evidence.
+
+---
+
 ## Amendment Process
 
 Any future amendment to these decisions requires:
@@ -240,4 +254,4 @@ This log protects institutional wisdom from being forgotten or endlessly re-liti
 **Established:** July 9, 2026  
 **Authority:** Founder + Editorial Board  
 **Status:** Permanent Institutional Memory  
-**Last Review:** July 9, 2026
+**Last Review:** October 12, 2026

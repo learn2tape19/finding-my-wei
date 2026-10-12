@@ -1,0 +1,289 @@
+{
+  "timezone": "America/New_York",
+  "wordpress": {
+    "id": 1924,
+    "status": "future",
+    "date": "2026-10-19T07:45:00-04:00"
+  },
+  "brevo": {
+    "id": 46,
+    "status": "scheduled",
+    "date": "2026-10-19T10:00:00-04:00",
+    "list": 64,
+    "current_recipients": 7
+  },
+  "buffer": [
+    {
+      "channel": "facebook",
+      "date": "2026-10-19",
+      "time_et": "8:00 AM",
+      "label": "Post scheduled for The Tao of Clinical Touch facebook channel on Oct 19, 8:00 AM (America/New York)"
+    },
+    {
+      "channel": "facebook",
+      "date": "2026-10-20",
+      "time_et": "8:00 AM",
+      "label": "Post scheduled for The Tao of Clinical Touch facebook channel on Oct 20, 8:00 AM (America/New York)"
+    },
+    {
+      "channel": "facebook",
+      "date": "2026-10-21",
+      "time_et": "8:00 AM",
+      "label": "Post scheduled for The Tao of Clinical Touch facebook channel on Oct 21, 8:00 AM (America/New York)"
+    },
+    {
+      "channel": "facebook",
+      "date": "2026-10-22",
+      "time_et": "8:00 AM",
+      "label": "Post scheduled for The Tao of Clinical Touch facebook channel on Oct 22, 8:00 AM (America/New York)"
+    },
+    {
+      "channel": "facebook",
+      "date": "2026-10-23",
+      "time_et": "8:00 AM",
+      "label": "Post scheduled for The Tao of Clinical Touch facebook channel on Oct 23, 8:00 AM (America/New York)"
+    },
+    {
+      "channel": "tao",
+      "date": "2026-10-19",
+      "time_et": "8:00 AM",
+      "label": "Post scheduled for taoclinicaltouch instagram channel on Oct 19, 8:00 AM (America/New York)"
+    },
+    {
+      "channel": "tao",
+      "date": "2026-10-19",
+      "time_et": "9:00 AM",
+      "label": "Post scheduled for taoclinicaltouch instagram channel on Oct 19, 9:00 AM (America/New York)"
+    },
+    {
+      "channel": "tao",
+      "date": "2026-10-19",
+      "time_et": "11:00 AM",
+      "label": "Post scheduled for taoclinicaltouch instagram channel on Oct 19, 11:00 AM (America/New York)"
+    },
+    {
+      "channel": "tao",
+      "date": "2026-10-19",
+      "time_et": "1:00 PM",
+      "label": "Post scheduled for taoclinicaltouch instagram channel on Oct 19, 1:00 PM (America/New York)"
+    },
+    {
+      "channel": "tao",
+      "date": "2026-10-20",
+      "time_et": "8:00 AM",
+      "label": "Post scheduled for taoclinicaltouch instagram channel on Oct 20, 8:00 AM (America/New York)"
+    },
+    {
+      "channel": "tao",
+      "date": "2026-10-20",
+      "time_et": "9:00 AM",
+      "label": "Post scheduled for taoclinicaltouch instagram channel on Oct 20, 9:00 AM (America/New York)"
+    },
+    {
+      "channel": "tao",
+      "date": "2026-10-20",
+      "time_et": "11:00 AM",
+      "label": "Post scheduled for taoclinicaltouch instagram channel on Oct 20, 11:00 AM (America/New York)"
+    },
+    {
+      "channel": "tao",
+      "date": "2026-10-20",
+      "time_et": "1:00 PM",
+      "label": "Post scheduled for taoclinicaltouch instagram channel on Oct 20, 1:00 PM (America/New York)"
+    },
+    {
+      "channel": "tao",
+      "date": "2026-10-21",
+      "time_et": "8:00 AM",
+      "label": "Post scheduled for taoclinicaltouch instagram channel on Oct 21, 8:00 AM (America/New York)"
+    },
+    {
+      "channel": "tao",
+      "date": "2026-10-21",
+      "time_et": "9:00 AM",
+      "label": "Post scheduled for taoclinicaltouch instagram channel on Oct 21, 9:00 AM (America/New York)"
+    },
+    {
+      "channel": "tao",
+      "date": "2026-10-21",
+      "time_et": "11:00 AM",
+      "label": "Post scheduled for taoclinicaltouch instagram channel on Oct 21, 11:00 AM (America/New York)"
+    },
+    {
+      "channel": "tao",
+      "date": "2026-10-21",
+      "time_et": "1:00 PM",
+      "label": "Post scheduled for taoclinicaltouch instagram channel on Oct 21, 1:00 PM (America/New York)"
+    },
+    {
+      "channel": "tao",
+      "date": "2026-10-22",
+      "time_et": "8:00 AM",
+      "label": "Post scheduled for taoclinicaltouch instagram channel on Oct 22, 8:00 AM (America/New York)"
+    },
+    {
+      "channel": "tao",
+      "date": "2026-10-22",
+      "time_et": "9:00 AM",
+      "label": "Post scheduled for taoclinicaltouch instagram channel on Oct 22, 9:00 AM (America/New York)"
+    },
+    {
+      "channel": "tao",
+      "date": "2026-10-22",
+      "time_et": "11:00 AM",
+      "label": "Post scheduled for taoclinicaltouch instagram channel on Oct 22, 11:00 AM (America/New York)"
+    },
+    {
+      "channel": "tao",
+      "date": "2026-10-22",
+      "time_et": "1:00 PM",
+      "label": "Post scheduled for taoclinicaltouch instagram channel on Oct 22, 1:00 PM (America/New York)"
+    },
+    {
+      "channel": "tao",
+      "date": "2026-10-23",
+      "time_et": "8:00 AM",
+      "label": "Post scheduled for taoclinicaltouch instagram channel on Oct 23, 8:00 AM (America/New York)"
+    },
+    {
+      "channel": "tao",
+      "date": "2026-10-23",
+      "time_et": "9:00 AM",
+      "label": "Post scheduled for taoclinicaltouch instagram channel on Oct 23, 9:00 AM (America/New York)"
+    },
+    {
+      "channel": "tao",
+      "date": "2026-10-23",
+      "time_et": "11:00 AM",
+      "label": "Post scheduled for taoclinicaltouch instagram channel on Oct 23, 11:00 AM (America/New York)"
+    },
+    {
+      "channel": "tao",
+      "date": "2026-10-23",
+      "time_et": "1:00 PM",
+      "label": "Post scheduled for taoclinicaltouch instagram channel on Oct 23, 1:00 PM (America/New York)"
+    },
+    {
+      "channel": "drew",
+      "date": "2026-10-19",
+      "time_et": "8:00 AM",
+      "label": "Post scheduled for drewdog19 instagram channel on Oct 19, 8:00 AM (America/New York)"
+    },
+    {
+      "channel": "drew",
+      "date": "2026-10-19",
+      "time_et": "9:00 AM",
+      "label": "Post scheduled for drewdog19 instagram channel on Oct 19, 9:00 AM (America/New York)"
+    },
+    {
+      "channel": "drew",
+      "date": "2026-10-19",
+      "time_et": "11:00 AM",
+      "label": "Post scheduled for drewdog19 instagram channel on Oct 19, 11:00 AM (America/New York)"
+    },
+    {
+      "channel": "drew",
+      "date": "2026-10-19",
+      "time_et": "1:00 PM",
+      "label": "Post scheduled for drewdog19 instagram channel on Oct 19, 1:00 PM (America/New York)"
+    },
+    {
+      "channel": "drew",
+      "date": "2026-10-20",
+      "time_et": "8:00 AM",
+      "label": "Post scheduled for drewdog19 instagram channel on Oct 20, 8:00 AM (America/New York)"
+    },
+    {
+      "channel": "drew",
+      "date": "2026-10-20",
+      "time_et": "9:00 AM",
+      "label": "Post scheduled for drewdog19 instagram channel on Oct 20, 9:00 AM (America/New York)"
+    },
+    {
+      "channel": "drew",
+      "date": "2026-10-20",
+      "time_et": "11:00 AM",
+      "label": "Post scheduled for drewdog19 instagram channel on Oct 20, 11:00 AM (America/New York)"
+    },
+    {
+      "channel": "drew",
+      "date": "2026-10-20",
+      "time_et": "1:00 PM",
+      "label": "Post scheduled for drewdog19 instagram channel on Oct 20, 1:00 PM (America/New York)"
+    },
+    {
+      "channel": "drew",
+      "date": "2026-10-21",
+      "time_et": "8:00 AM",
+      "label": "Post scheduled for drewdog19 instagram channel on Oct 21, 8:00 AM (America/New York)"
+    },
+    {
+      "channel": "drew",
+      "date": "2026-10-21",
+      "time_et": "9:00 AM",
+      "label": "Post scheduled for drewdog19 instagram channel on Oct 21, 9:00 AM (America/New York)"
+    },
+    {
+      "channel": "drew",
+      "date": "2026-10-21",
+      "time_et": "11:00 AM",
+      "label": "Post scheduled for drewdog19 instagram channel on Oct 21, 11:00 AM (America/New York)"
+    },
+    {
+      "channel": "drew",
+      "date": "2026-10-21",
+      "time_et": "1:00 PM",
+      "label": "Post scheduled for drewdog19 instagram channel on Oct 21, 1:00 PM (America/New York)"
+    },
+    {
+      "channel": "drew",
+      "date": "2026-10-22",
+      "time_et": "8:00 AM",
+      "label": "Post scheduled for drewdog19 instagram channel on Oct 22, 8:00 AM (America/New York)"
+    },
+    {
+      "channel": "drew",
+      "date": "2026-10-22",
+      "time_et": "9:00 AM",
+      "label": "Post scheduled for drewdog19 instagram channel on Oct 22, 9:00 AM (America/New York)"
+    },
+    {
+      "channel": "drew",
+      "date": "2026-10-22",
+      "time_et": "11:00 AM",
+      "label": "Post scheduled for drewdog19 instagram channel on Oct 22, 11:00 AM (America/New York)"
+    },
+    {
+      "channel": "drew",
+      "date": "2026-10-22",
+      "time_et": "1:00 PM",
+      "label": "Post scheduled for drewdog19 instagram channel on Oct 22, 1:00 PM (America/New York)"
+    },
+    {
+      "channel": "drew",
+      "date": "2026-10-23",
+      "time_et": "8:00 AM",
+      "label": "Post scheduled for drewdog19 instagram channel on Oct 23, 8:00 AM (America/New York)"
+    },
+    {
+      "channel": "drew",
+      "date": "2026-10-23",
+      "time_et": "9:00 AM",
+      "label": "Post scheduled for drewdog19 instagram channel on Oct 23, 9:00 AM (America/New York)"
+    },
+    {
+      "channel": "drew",
+      "date": "2026-10-23",
+      "time_et": "11:00 AM",
+      "label": "Post scheduled for drewdog19 instagram channel on Oct 23, 11:00 AM (America/New York)"
+    },
+    {
+      "channel": "drew",
+      "date": "2026-10-23",
+      "time_et": "1:00 PM",
+      "label": "Post scheduled for drewdog19 instagram channel on Oct 23, 1:00 PM (America/New York)"
+    }
+  ],
+  "buffer_total": 45,
+  "verified_story_date_time_matches": 30
+}

@@ -100,3 +100,14 @@ When a Founder decision changes a rule:
 4. Update the publication ledger and affected manifest.
 5. Update deterministic tooling/checkers to reflect the new authority before using them as a release gate.
 6. Do not silently rewrite completed campaign history.
+
+
+## October 12, 2026: Issue 016 bounded overrides and retained learning
+
+- Reusable tool preference and preservation behavior follow the [Production Playbook](../../../01_OPERATING_SYSTEM/PRODUCTION_PLAYBOOK.md) and [Founder decision](../../../00_Constitution/DECISIONS/DR-2026-10-12-WORK-PRODUCTION-AND-PRESERVATION.md).
+- Issue 016 specifically uses ISSUE No. 016, dominant TRUST, charcoal/teal/cream, Feed 1080×1380, Landscape 1200×628, and three Stories/day at 1080×1920. Formats were independently composed. These Founder-directed overrides supersede conflicting historical visual rules for Issue 016 only.
+- Founder approved the supplied Issue 016 article unchanged. Its length and punctuation are bounded exceptions; general under-800-word and punctuation standards continue for future work unless explicitly excepted.
+- Article authority is [BLOG/ISSUE_016/ISSUE016_ARTICLE.md](BLOG/ISSUE_016/ISSUE016_ARTICLE.md). Old issue draft path is a reference. Approved images are in [ISSUE_016/APPROVED_ASSETS/](ISSUE_016/APPROVED_ASSETS/); metadata and receipts are in [EVIDENCE](ISSUE_016/EVIDENCE/README.md).
+- Buffer was executed and verified through the authenticated browser after Founder sign-in. Queue readback verifies content/media/date/time and counts; individual Buffer object IDs and native Story link fields were not retrieved. Do not represent this as the adapter's stronger by-ID verification. No future API doctrine is silently changed.
+- WordPress public-original byte equality was verified for all 25 approved media objects. The earlier upload-unexecuted note now describes historical September state, not this issue.
+- Production closure and scheduled status are separate from live publication, delivery and performance. Publication is READY TO PUBLISH pending live verification.

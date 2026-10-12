@@ -1,0 +1,47 @@
+[
+  {
+    "file": "ISSUE016_FRI_FEED_BUILD1_1080x1380_v01_DRAFT.png",
+    "dimensions": [
+      1080,
+      1380
+    ],
+    "independent_decode": "PASS",
+    "sha256": "c9cfff4516fefe6b8f64a12e7c0e6bbd4c1f18fd339a6c353d02ba54a4aa1367"
+  },
+  {
+    "file": "ISSUE016_FRI_LANDSCAPE_BUILD2_1200x628_v01_DRAFT.png",
+    "dimensions": [
+      1200,
+      628
+    ],
+    "independent_decode": "PASS",
+    "sha256": "ec9c5c82d13741262b7d81f9caea2a8fc3a00ed732ea7b7113ad56a271effc22"
+  },
+  {
+    "file": "ISSUE016_FRI_STORY01_1080x1920_v01_DRAFT.png",
+    "dimensions": [
+      1080,
+      1920
+    ],
+    "independent_decode": "PASS",
+    "sha256": "a620a297d5977b650c3d4c9a0c0fbf281f834a953d6082a11f7fee043f2517c6"
+  },
+  {
+    "file": "ISSUE016_FRI_STORY02_1080x1920_v01_DRAFT.png",
+    "dimensions": [
+      1080,
+      1920
+    ],
+    "independent_decode": "PASS",
+    "sha256": "f4878ff910680b4cc8e8f38b52a8476e20c8d56527afe5ac4864852dd596e2af"
+  },
+  {
+    "file": "ISSUE016_FRI_STORY03_1080x1920_v01_DRAFT.png",
+    "dimensions": [
+      1080,
+      1920
+    ],
+    "independent_decode": "PASS",
+    "sha256": "5670466d2d5c91d8bc3a274cefde950ce21ccb485ad46ebee45d6c9651ee36c0"
+  }
+]

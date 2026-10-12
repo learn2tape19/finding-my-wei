@@ -1,0 +1,29 @@
+[
+  {
+    "file": "ISSUE016_TUE_STORY01_1080x1920_v01_DRAFT.png",
+    "dimensions": [
+      1080,
+      1920
+    ],
+    "independent_decode": "PASS",
+    "sha256": "c59561316b1c20c0e28b9e385ea0cb65f246d5864e14464fd21a54330bfd5afc"
+  },
+  {
+    "file": "ISSUE016_TUE_STORY02_1080x1920_v01_DRAFT.png",
+    "dimensions": [
+      1080,
+      1920
+    ],
+    "independent_decode": "PASS",
+    "sha256": "508045c5728ce28620c94f4d014d1f205ce1d7159f93eec58412b85d4eb0e951"
+  },
+  {
+    "file": "ISSUE016_TUE_STORY03_1080x1920_v01_DRAFT.png",
+    "dimensions": [
+      1080,
+      1920
+    ],
+    "independent_decode": "PASS",
+    "sha256": "50b61ed3ec0d7cbb1cbbf3148f2f4e4bdda2da689d3fc93a2b08fbe5038b09ac"
+  }
+]

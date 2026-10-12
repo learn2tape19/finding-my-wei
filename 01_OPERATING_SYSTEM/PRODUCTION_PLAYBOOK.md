@@ -152,3 +152,15 @@ The playbook is the reusable operating doctrine; the receipts are the historical
 This playbook was formalized after the production patterns demonstrated by Tao Issues 013 and 014 in September 2026.
 
 It is intentionally shorter than the evidence packages it governs.
+
+
+# October 12, 2026: Inherited Work and preservation rules
+
+Authority: [DR-2026-10-12-WORK-PRODUCTION-AND-PRESERVATION](../00_Constitution/DECISIONS/DR-2026-10-12-WORK-PRODUCTION-AND-PRESERVATION.md), based on Issue 016 and Founder direction.
+
+- Keep the complete approved production flow in Work when practical; required reviewer independence and Founder approval remain intact. Use other tools or a bounded manual bridge when warranted by outcome or access.
+- Resolve repository authority before building. Preserve exact approved source language and explicit issue exceptions. Independently compose each required image format; verify the canvas before production and exported pixels afterward; proof every rendered word.
+- Match an execution target by its exact caption, asset or object ID. List position and upload order alone are insufficient. Read back content, destination, date, timezone and status before claiming completion.
+- Stage E includes institutional preservation: approved originals, manifests/hashes, QA and execution receipts, decision or lesson record, updated parent indexes/current authority, descriptive commit, push, remote readback and clean isolated working tree.
+- Separate production task closure from publication lifecycle. A future scheduled article is READY TO PUBLISH, not PUBLISHED or ARCHIVED. Verify live delivery and capture reflection at the defined consequence-based trigger.
+- When a gap is found, fix the smallest complete system and retain the lesson. Do not regenerate approved work, rewrite historical evidence, invent approval or label an unperformed check PASS.

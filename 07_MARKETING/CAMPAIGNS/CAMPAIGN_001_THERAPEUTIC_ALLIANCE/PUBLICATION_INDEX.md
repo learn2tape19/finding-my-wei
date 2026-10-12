@@ -2,9 +2,9 @@
 
 **Campaign:** Campaign 001 — Therapeutic Alliance
 
-**Coverage:** Issues 001–005 / production Weeks 1–5
+**Coverage:** Historical Issues 001–005; Issue 016 production and scheduling reconciliation. Issues 006–015 are not newly audited by this update.
 
-**Record date:** August 3, 2026
+**Record date:** August 3, 2026; Issue 016 update October 12, 2026
 
 **Status:** Campaign closeout record
 
@@ -102,3 +102,16 @@ Future canonical blog posts should remain **below 800 words**, unless the Founde
 - [`CURRENT_AUTHORITY_REGISTER.md`](CURRENT_AUTHORITY_REGISTER.md) — current rules and superseded doctrine
 - [`CAMPAIGN_001_CLOSEOUT_AND_TRANSFER.md`](CAMPAIGN_001_CLOSEOUT_AND_TRANSFER.md) — institutional learning and transfer model
 - [`EDITORIAL_ROADMAP.md`](EDITORIAL_ROADMAP.md) — campaign editorial direction
+
+
+## Issue 016: Current publication record
+
+**Publication status: READY TO PUBLISH.** Production and scheduling task closed by Founder October 12; live publication and delivery are future events, not yet verified.
+
+| Issue | Period | Article authority | Production and schedule | Evidence |
+|---|---|---|---|---|
+| ISSUE No. 016 | October 19–23, 2026 | [Canonical BLOG article](BLOG/ISSUE_016/ISSUE016_ARTICLE.md), unchanged approved bytes | 25 approved originals preserved; WordPress 1924 October 19 7:45 AM ET; 45 Buffer posts October 19–23; Brevo 46 October 19 10 AM ET | [Issue record](ISSUE_016/README.md), [closeout](ISSUE_016/ISSUE016_PRODUCTION_CLOSEOUT.md), [evidence](ISSUE_016/EVIDENCE/README.md) |
+
+Founder explicitly approved the supplied article unchanged, including its approximately 912-word length and punctuation; this is an Issue 016 exception, not a new general editorial rule. Feed 1080×1380 and charcoal/teal/cream treatment are explicit Issue 016 overrides. No issue is renamed or regenerated to satisfy a stale checker.
+
+Next lifecycle trigger: verify the article is live after October 19 7:45 AM ET and reconcile scheduled delivery after execution. Then update to PUBLISHED based on evidence. Reflection within one week of publication informs archival; no outcome is presumed and no new automation was created.

@@ -1,0 +1,47 @@
+[
+  {
+    "file": "ISSUE016_WED_FEED_BUILD1_1080x1380_v01_DRAFT.png",
+    "dimensions": [
+      1080,
+      1380
+    ],
+    "independent_decode": "PASS",
+    "sha256": "68907559b53e9bb4dd511894daee48f5f562f05bd303a1ae3e01767afb078712"
+  },
+  {
+    "file": "ISSUE016_WED_LANDSCAPE_BUILD2_1200x628_v01_DRAFT.png",
+    "dimensions": [
+      1200,
+      628
+    ],
+    "independent_decode": "PASS",
+    "sha256": "6aa781949a0bf0b54a219ef70f8064c7d169d6a9f95377229e828fac405d3525"
+  },
+  {
+    "file": "ISSUE016_WED_STORY01_1080x1920_v01_DRAFT.png",
+    "dimensions": [
+      1080,
+      1920
+    ],
+    "independent_decode": "PASS",
+    "sha256": "09b0f72371492f8c512da546100b663c83db926a621e576c3e12d4481b5a66c7"
+  },
+  {
+    "file": "ISSUE016_WED_STORY02_1080x1920_v01_DRAFT.png",
+    "dimensions": [
+      1080,
+      1920
+    ],
+    "independent_decode": "PASS",
+    "sha256": "f51ae587eb2bb507aee9b70ec8fc98a17d38241547b572ea2c865a046fd51eaf"
+  },
+  {
+    "file": "ISSUE016_WED_STORY03_1080x1920_v01_DRAFT.png",
+    "dimensions": [
+      1080,
+      1920
+    ],
+    "independent_decode": "PASS",
+    "sha256": "0aa4a58782844170f79bede7fa4bdbac63b5d8ba077d6dd75d083f676645baa3"
+  }
+]
