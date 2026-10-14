@@ -1,0 +1,9 @@
+pilot_id,original_issue,window,eligible_recipients,delivered,raw_opens,raw_clicks,unique_article_clickers,automation_filter_status,substantive_responders_verified,new_confirmed_subscribers_known_source,new_confirmed_subscribers_unknown_source,ga4_article_users,ga4_article_sessions,comments,saves,shares,unsubscribes,bounces,complaints,attributable_orders,operator_hours,source_receipt,limitations
+SR01,001,24h,,,,,,,,,,,,,,,,,,,,,
+SR01,001,7d,,,,,,,,,,,,,,,,,,,,,
+SR02,002,24h,,,,,,,,,,,,,,,,,,,,,
+SR02,002,7d,,,,,,,,,,,,,,,,,,,,,
+SR03,003,24h,,,,,,,,,,,,,,,,,,,,,
+SR03,003,7d,,,,,,,,,,,,,,,,,,,,,
+SR04,004,24h,,,,,,,,,,,,,,,,,,,,,
+SR04,004,7d,,,,,,,,,,,,,,,,,,,,,
