@@ -44,3 +44,8 @@ Founder replied “approved” to proceeding from the approved storyboard to thr
 ## Three final Story exports approved
 
 Founder approved the three rendered frames presented at source commit `b8b9ef32c8baaa45906c3e4f043dce1dbf5ce242`. Exact files, order, hashes and scope: `ISSUE_017/STORY_CANDIDATES_v01/FINAL_STORY_APPROVAL.json`. No image bytes or filenames changed. Native link placement/functionality, other issue assets and release remain pending.
+
+
+## Monday Feed/Landscape production authorized
+
+Founder said ready to producing these next visuals. Independent v01 candidates and hashes are in `ISSUE_017/MONDAY_FEED_LANDSCAPE_v01/`; exact rendered approval remains pending.

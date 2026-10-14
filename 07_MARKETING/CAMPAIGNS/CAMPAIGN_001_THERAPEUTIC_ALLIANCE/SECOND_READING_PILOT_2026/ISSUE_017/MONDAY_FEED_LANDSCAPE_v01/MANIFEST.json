@@ -1,0 +1,32 @@
+[
+  {
+    "role": "FEED",
+    "file": "ISSUE017_MON_FEED_1080x1350_v01_REVIEW.png",
+    "dimensions": [
+      1080,
+      1350
+    ],
+    "sha256": "5a1104cb1407dbf99c26f0a8faa97e882c15fd6abb1e05236d2e53cf6343fbea",
+    "source_dimensions": [
+      1122,
+      1402
+    ],
+    "status": "REVIEW \u2014 FOUNDER RENDERED APPROVAL PENDING",
+    "export": "Proportional resample; minimal center edge crop if needed; no stretch"
+  },
+  {
+    "role": "LANDSCAPE",
+    "file": "ISSUE017_MON_LANDSCAPE_1200x628_v01_REVIEW.png",
+    "dimensions": [
+      1200,
+      628
+    ],
+    "sha256": "1561169eb9689118f8f9b40df11be498fa211041c4cc6bfd23381db95397d886",
+    "source_dimensions": [
+      1734,
+      907
+    ],
+    "status": "REVIEW \u2014 FOUNDER RENDERED APPROVAL PENDING",
+    "export": "Proportional resample; minimal center edge crop if needed; no stretch"
+  }
+]
