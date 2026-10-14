@@ -22,6 +22,13 @@ Major decisions made across all projects, with rationale and context.
 
 ## The Tao of Clinical Touch
 
+### Second Reading GitHub continuity — October 14, 2026
+
+**Decision:** Existing Finding My Wei GitHub repository remains mandatory canonical authority; Second Reading inherits its editorial workflow, publishing control plane, original-source preservation and Founder gates.
+**Authority/status:** Explicit Founder instruction; active at Tao Second Reading scope. Reviewed branch push authorized; merge and relaunch release are not.
+**Record:** [DR-2026-10-14-TAO-SECOND-READING-GITHUB-CONTINUITY](00_Constitution/DECISIONS/DR-2026-10-14-TAO-SECOND-READING-GITHUB-CONTINUITY.md).
+**Pilot:** [Second Reading review area](07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/SECOND_READING_PILOT_2026/README.md). Copy, cadence, assets and release remain pending approval.
+
 ### Pricing Strategy
 **Decision**: Hold $14.99 for 30 days, then increase to $17.99 → $19.99 → $22.95  
 **Date**: April 2026  

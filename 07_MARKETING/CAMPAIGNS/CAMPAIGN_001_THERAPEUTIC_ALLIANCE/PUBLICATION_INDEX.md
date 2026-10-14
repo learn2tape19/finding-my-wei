@@ -1,5 +1,9 @@
 # Campaign 001: Therapeutic Alliance — Publication Ledger
 
+## Second Reading navigation — added October 14, 2026
+
+[Second Reading pilot review package](SECOND_READING_PILOT_2026/README.md) — **DRAFT / NOT APPROVED FOR PRODUCTION OR RELEASE**. Inherits existing Finding My Wei standards and publishing control plane. [Continuity audit](SECOND_READING_PILOT_2026/GITHUB_CONTINUITY_AUDIT.md). Founder approved GitHub continuity and reviewed branch preservation only. Original issue records, articles, dates, URLs and assets below are unchanged. No pilot publishing, scheduling, sending or merge authorized.
+
 **Campaign:** Campaign 001 — Therapeutic Alliance
 
 **Coverage:** Historical Issues 001–005; Issue 016 production and scheduling reconciliation. Issues 006–015 are not newly audited by this update.

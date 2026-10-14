@@ -2,6 +2,10 @@
 
 Prepared October 14, 2026. **DRAFT FOR FOUNDER REVIEW — NO RELEASE AUTHORITY.**
 
+**Mandatory GitHub continuity:** `learn2tape19/finding-my-wei` is canonical. This area is a campaign package governed by the existing standards, not a parallel editorial operating system. See [continuity audit and standards mapping](GITHUB_CONTINUITY_AUDIT.md) and the [Founder decision](../../../../00_Constitution/DECISIONS/DR-2026-10-14-TAO-SECOND-READING-GITHUB-CONTINUITY.md). The numbered pilot checklist does not replace existing gates. Approved originals and canonical articles remain in their existing locations.
+
+`PILOT_COPY.md` is the unapproved reflection/treatment working source. `emails/` are derived review exports; reconcile them after source edits. Evidence snapshots are historical readbacks, not replacement canonical manuscripts. Continuity approval does not approve pilot direction, cadence, copy, assets, audience or release.
+
 My recommendation: revisit Issues 001–004 in order, with a short new reflection that gives returning readers a reason to look again. Send one email and publish three social treatments per week. Measure confirmed subscriptions and substantive reader responses before extending to the remaining issues. Do not repeat the original high-volume production by default.
 
 ## Review package
@@ -32,4 +36,4 @@ Completed: isolated clone of Finding My Wei at `273535f9e6e45879c225048aa3177247
 
 Pending: scientific/editorial review, Drew's voice and direction approval, final visual production and approval, fresh audience eligibility/count, exact-version release approval, platform draft creation, scheduling, publication and delivery verification. Nothing has been created, scheduled, published or sent in WordPress, Buffer or Brevo by this task.
 
-This folder is the working deliverable. The same package is preserved as a new, separate pilot directory in the local Finding My Wei checkout. Historical campaign files and synced `sources/` remain unchanged. No remote push or merge is claimed.
+This repository directory is the authoritative Second Reading working package. Workspace output copies and ZIPs are review exports and may be stale; edit this repository source and regenerate exports when needed. Historical issue files/assets and synced project `sources/` remain unchanged. Reviewed branch push is authorized; remote verification is recorded in `evidence/CONTINUITY_VERIFICATION.json`. No merge or production release is claimed.

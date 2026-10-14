@@ -1,0 +1,202 @@
+{
+  "date": "2026-10-14",
+  "canonical_remote": "https://github.com/learn2tape19/finding-my-wei.git",
+  "branch": "codex/tao-second-reading-pilot",
+  "source_base_sha": "273535f9e6e45879c225048aa3177247df4e871d",
+  "initial_review_commit": "3bd062e3e61c25be022cf192468e845e5ca3931b",
+  "reviewed_file_count_before_receipt": 46,
+  "scope_review": "PASS: pilot additions plus new continuity decision and additive navigation entries only",
+  "scan_method": "Local bounded text-pattern scan: private keys, GitHub/AWS/Stripe/Google/Brevo tokens, assigned secrets, auth headers, credential URLs and JWTs; no specialist scanner installed",
+  "scan_findings": [],
+  "scan_limit": "Pattern review is not a guarantee of detecting every possible secret; no new binary assets or credential files included",
+  "original_issue_changes": 0,
+  "approved_asset_changes": 0,
+  "platform_writes": 0,
+  "production_verification": "NOT PERFORMED; no production execution authorized",
+  "merge_authorized": false,
+  "release_authorized": false,
+  "remote_preservation": "PENDING push and independent readback",
+  "reviewed_files": [
+    {
+      "path": "00_Constitution/DECISIONS/DR-2026-10-14-TAO-SECOND-READING-GITHUB-CONTINUITY.md",
+      "sha256": "a567fefc4564559276778b33b173101cb2c307cd07c257e4c0bad3097d4c163a"
+    },
+    {
+      "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/PUBLICATION_INDEX.md",
+      "sha256": "a1e68133608b841b7b2420832d4e70b0887311f874e887b49d286af4ae53fa56"
+    },
+    {
+      "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/SECOND_READING_PILOT_2026/GITHUB_CONTINUITY_AUDIT.md",
+      "sha256": "82b0e836e690c9bce5411026884a2d37af2bf1f7e088e1f0e8a2fd782bd209e7"
+    },
+    {
+      "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/SECOND_READING_PILOT_2026/ISSUE_AUDIT.md",
+      "sha256": "1706d75d99744a7423e4c1dbf5756024c3ddba0999be0aa0371bf6f6f910fdc6"
+    },
+    {
+      "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/SECOND_READING_PILOT_2026/PILOT_COPY.md",
+      "sha256": "7fe24e3fe0a38721721d2cba0273fac78555d8e7ffc7afa50457904e6f69fefb"
+    },
+    {
+      "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/SECOND_READING_PILOT_2026/README.md",
+      "sha256": "f1b536641b484841cc95fe4e7ee1e7458c74da4c44e019c0462c6f4043abe075"
+    },
+    {
+      "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/SECOND_READING_PILOT_2026/RELAUNCH_PLAN.md",
+      "sha256": "bf832d2841bc4e5aa2a67dac1882405e935155c2fc5918f00559c2334f4a7c19"
+    },
+    {
+      "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/SECOND_READING_PILOT_2026/TRACKING_AND_QA.md",
+      "sha256": "de56f7f854131cb7338cd1d1eb61613f9846f5bb8ce33bc4bade26aef3617716"
+    },
+    {
+      "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/SECOND_READING_PILOT_2026/asset_inventory.csv",
+      "sha256": "0d5f72d7f34b9f0300b6fe1b3fcafeffbac49d25ff535290cd2b03abc220d69c"
+    },
+    {
+      "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/SECOND_READING_PILOT_2026/calendar.csv",
+      "sha256": "998a8e9d57c0f9c69b6ecb67810692207bd96480fe5c1f6c58774d7efd799d9b"
+    },
+    {
+      "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/SECOND_READING_PILOT_2026/emails/SR01_EMAIL_DRAFT.md",
+      "sha256": "3488d3b7709b205c03656adfd4d126b221a010ab4d8308e9853690f5cc3c893c"
+    },
+    {
+      "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/SECOND_READING_PILOT_2026/emails/SR02_EMAIL_DRAFT.md",
+      "sha256": "47760fe1c96c564d78ea1bd726b951fcf1571fded2dfdfcb6965ad369c3c7b02"
+    },
+    {
+      "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/SECOND_READING_PILOT_2026/emails/SR03_EMAIL_DRAFT.md",
+      "sha256": "40bb13def388839950831a4f37fe45343980f41a5b090daade6ee343304c7842"
+    },
+    {
+      "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/SECOND_READING_PILOT_2026/emails/SR04_EMAIL_DRAFT.md",
+      "sha256": "2ef074f0ff6c2a19c6b3e9a4179fd68ecb4d1cdfb76275ea2795ad62a037f55a"
+    },
+    {
+      "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/SECOND_READING_PILOT_2026/evidence/REPORTING_READBACK_2026-10-14.md",
+      "sha256": "1be37ecdf8d0d6a681f6dbf85bcbc3f0a0f478541391983cf37bedc89c23ad07"
+    },
+    {
+      "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/SECOND_READING_PILOT_2026/evidence/WORKFLOW_RECEIPT.md",
+      "sha256": "4f2a5b7572da0941b04a030e25a25e0bf8bec5816033a33b1b5a0519831ed382"
+    },
+    {
+      "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/SECOND_READING_PILOT_2026/evidence/original-articles/ORIG001_WP1016.txt",
+      "sha256": "c915b68b93cf656c52e757d44cb126fac5c9ad0584f2efcb61486df3ec34921d"
+    },
+    {
+      "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/SECOND_READING_PILOT_2026/evidence/original-articles/ORIG001_WP1045.txt",
+      "sha256": "0d92d45991440ebd01eb504eba51ec205f24ead34ef69dec2048603510443163"
+    },
+    {
+      "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/SECOND_READING_PILOT_2026/evidence/original-articles/ORIG001_WP1080.txt",
+      "sha256": "e7b013fba2ad1548826c7cfafa859969387afc6774b279c61ab0bea5577e572b"
+    },
+    {
+      "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/SECOND_READING_PILOT_2026/evidence/original-articles/ORIG001_WP891.txt",
+      "sha256": "93067242b38ce7c91a90c5d32584e0c7380c3edd416c77dbde648a17fe5540e8"
+    },
+    {
+      "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/SECOND_READING_PILOT_2026/evidence/original-articles/ORIG001_WP995.txt",
+      "sha256": "ce42bccadab1cb338369961f47caad38504f2b27064367c7c3ba910702c215bb"
+    },
+    {
+      "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/SECOND_READING_PILOT_2026/evidence/original-articles/ORIG002_WP1105.txt",
+      "sha256": "876bf4ba8bc664a93a3b936086f1bab4b8809e12b096e9d1003b345a2795993a"
+    },
+    {
+      "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/SECOND_READING_PILOT_2026/evidence/original-articles/ORIG003_WP1193.txt",
+      "sha256": "4a4655c7fc419e8e6d01f50f96ea074357f4a6aa473be356c322aa5de09bfd4a"
+    },
+    {
+      "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/SECOND_READING_PILOT_2026/evidence/original-articles/ORIG004_WP1208.txt",
+      "sha256": "0305907ebb5b902a2aeba9aad2a4df009f7eb043932ed9ccd7acaa233f1b3767"
+    },
+    {
+      "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/SECOND_READING_PILOT_2026/evidence/original-articles/ORIG005_WP1216.txt",
+      "sha256": "7763c2cf754da9ccce50c9eeb8cbf21e5ac04235248d1c03984375287a192a4a"
+    },
+    {
+      "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/SECOND_READING_PILOT_2026/evidence/original-articles/ORIG006_WP1263.txt",
+      "sha256": "3fb62ed0bb97d02d918b21307c75b4435a74af435a51c8f7deb65acb54ce626c"
+    },
+    {
+      "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/SECOND_READING_PILOT_2026/evidence/original-articles/ORIG007_WP1271.txt",
+      "sha256": "769e7e043d4f8a4a43c40be33f1bd7cc68bc915c8ae8324467f4e6131e778a4a"
+    },
+    {
+      "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/SECOND_READING_PILOT_2026/evidence/original-articles/ORIG008_WP1396.txt",
+      "sha256": "9172ac2a8f07979637f92485ec7bbfdd0b0aa468d96d863d20ddcceda6aac530"
+    },
+    {
+      "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/SECOND_READING_PILOT_2026/evidence/original-articles/ORIG010_WP1535.txt",
+      "sha256": "35f614140dd8a6c0b5274a60bf0cbe13908bc80f07c83451527b09c50ded32a0"
+    },
+    {
+      "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/SECOND_READING_PILOT_2026/evidence/original-articles/ORIG011_WP1582.txt",
+      "sha256": "81cca24a24eea14107db8ba411f72aad4c84a9a3a96a47798ed29a8176fe777c"
+    },
+    {
+      "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/SECOND_READING_PILOT_2026/evidence/original-articles/ORIG012_WP1640.txt",
+      "sha256": "6a2fd0d980ff591b0b92ec144eccdc6c83ad67ad0c8abc4360639d3fb4bbe668"
+    },
+    {
+      "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/SECOND_READING_PILOT_2026/evidence/original-articles/ORIG013_WP1721.txt",
+      "sha256": "1e54ae1016516ca3986a1223d1a194604d6ec15745d51b7232c19c4e6ccce1be"
+    },
+    {
+      "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/SECOND_READING_PILOT_2026/evidence/original-articles/ORIG014_WP1734.txt",
+      "sha256": "57476494b190d6bf78cf3855444df6211d09e597030bead893160f6c9c8d3313"
+    },
+    {
+      "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/SECOND_READING_PILOT_2026/evidence/original-articles/ORIG015_WP1877.txt",
+      "sha256": "5c52a6f51032ec5d3e909ee5f183a3307435a4c027120afb99afe536a17a797d"
+    },
+    {
+      "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/SECOND_READING_PILOT_2026/evidence/original-articles/ORIG016_WP1924.txt",
+      "sha256": "0959e203361da9323c45d71431458df867dad4e3796592d73bf7a46e330b6c91"
+    },
+    {
+      "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/SECOND_READING_PILOT_2026/evidence/package-checks.json",
+      "sha256": "b6e50e5204d8a0d3d18ef34f21543c758fd107a9f353f41c3619a9b70ec67794"
+    },
+    {
+      "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/SECOND_READING_PILOT_2026/evidence/repository-authority-hashes.json",
+      "sha256": "061d87a77d903a2e921db2b4990163c35575df19782c4d31a5bfc49f953e8d21"
+    },
+    {
+      "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/SECOND_READING_PILOT_2026/evidence/wordpress-content-2026-10-14.json",
+      "sha256": "cf8470093d7a762cc5dd88492739ab7aa86dbdcf2350d8980cfbfe8cf10d26da"
+    },
+    {
+      "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/SECOND_READING_PILOT_2026/evidence/wordpress-featured-media-2026-10-14.json",
+      "sha256": "c351517b199f6e7cec2969ebdfc71ac9f85f9b67b414385420fa96fa7c3b78fd"
+    },
+    {
+      "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/SECOND_READING_PILOT_2026/evidence/wordpress-posts-2026-10-14.json",
+      "sha256": "ef5a7b54c3ef1ffa6f4cc77784d203368379b749acb93fc260caa57f2f459980"
+    },
+    {
+      "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/SECOND_READING_PILOT_2026/issue_inventory.csv",
+      "sha256": "6d91f28c2eb564d25f16b1f29eaac4100a5ef61e49546f26b1c15929a93564bc"
+    },
+    {
+      "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/SECOND_READING_PILOT_2026/planned_asset_manifest.csv",
+      "sha256": "3ce94dd116e4f3a3214d62ed5f5829b1edd8b45bf30c56a3ab1a116c2031f542"
+    },
+    {
+      "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/SECOND_READING_PILOT_2026/scorecard.csv",
+      "sha256": "b0c7838a4f31add34bc03f9fb959715f85162c6c74a5aad6b936cb9bfd8e6d8b"
+    },
+    {
+      "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/SECOND_READING_PILOT_2026/tracked_links.csv",
+      "sha256": "bdcdc6e61a87896afd2793cd0556d638c3a1fe7300d8551e6f76b21235e0ded5"
+    },
+    {
+      "path": "DECISION_INDEX.md",
+      "sha256": "d4307e3b871921112cb41437ae37372cd03fc14260d42680b23f9e8bbd46a212"
+    }
+  ],
+  "manifest_note": "package_hashes.json hashes the package including this receipt; it is not included in receipt file hashes to avoid a circular digest"
+}

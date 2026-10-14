@@ -1,5 +1,10 @@
 [
   {
+    "file": "GITHUB_CONTINUITY_AUDIT.md",
+    "bytes": 6162,
+    "sha256": "82b0e836e690c9bce5411026884a2d37af2bf1f7e088e1f0e8a2fd782bd209e7"
+  },
+  {
     "file": "ISSUE_AUDIT.md",
     "bytes": 14741,
     "sha256": "1706d75d99744a7423e4c1dbf5756024c3ddba0999be0aa0371bf6f6f910fdc6"
@@ -11,8 +16,8 @@
   },
   {
     "file": "README.md",
-    "bytes": 3860,
-    "sha256": "f779f426d81b77c3511561c423ac179d3f783364ced6be8396da0fbc04168dcb"
+    "bytes": 4911,
+    "sha256": "f1b536641b484841cc95fe4e7ee1e7458c74da4c44e019c0462c6f4043abe075"
   },
   {
     "file": "RELAUNCH_PLAN.md",
@@ -53,6 +58,11 @@
     "file": "emails/SR04_EMAIL_DRAFT.md",
     "bytes": 2423,
     "sha256": "2ef074f0ff6c2a19c6b3e9a4179fd68ecb4d1cdfb76275ea2795ad62a037f55a"
+  },
+  {
+    "file": "evidence/CONTINUITY_VERIFICATION.json",
+    "bytes": 11487,
+    "sha256": "cfb17d530a3f4f344208346f63fb9001bd895862f734eafefc79423ebf04fbd7"
   },
   {
     "file": "evidence/REPORTING_READBACK_2026-10-14.md",
