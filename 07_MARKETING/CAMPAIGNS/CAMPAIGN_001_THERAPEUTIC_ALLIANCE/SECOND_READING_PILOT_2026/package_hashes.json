@@ -5,9 +5,14 @@
     "sha256": "51a070e909635d21d6d67dbaeab828b84b4abb42fde05f63bf8cc8dfa6ca47cf"
   },
   {
+    "file": "DRAFT_STORYBOARDS/ISSUE017_MON_STORYBOARD_v02_RIPPLE_DRAFT.png",
+    "bytes": 1645677,
+    "sha256": "362e31b3c84c408f991f4d706352480faf713e88633a468a2a4797df3dbcea40"
+  },
+  {
     "file": "DRAFT_STORYBOARDS/README.md",
-    "bytes": 821,
-    "sha256": "74f4adb618e0ffa930738d413f3e87d0d10c92c02c3d830fd370cec94e412be8"
+    "bytes": 1454,
+    "sha256": "f6198d3778c6083a094a72abe59c60f7f81776f902bdaa12dd1501233fa8a67f"
   },
   {
     "file": "GITHUB_CONTINUITY_AUDIT.md",
