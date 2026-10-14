@@ -1,0 +1,26 @@
+{
+  "publication": "Issue No. 017",
+  "planned_publication_date": "2026-10-26",
+  "internal_id": "SR01",
+  "original_source_issue": "001",
+  "approval_owner": "Drew Freedman, Founder",
+  "approval_evidence": "Direct user reply: approved, following display and description of v02 ripple storyboard",
+  "recorded_at": "2026-10-14T07:55:27-04:00",
+  "source_commit": "ad0971fbdcd3e52b42811e48ff99240f8a937dc3",
+  "approved_file": "ISSUE017_MON_STORYBOARD_v02_RIPPLE_DRAFT.png",
+  "sha256": "362e31b3c84c408f991f4d706352480faf713e88633a468a2a4797df3dbcea40",
+  "composite_dimensions": [
+    1536,
+    1024
+  ],
+  "status": "FOUNDER APPROVED \u2014 EXACT v02 STORYBOARD COMPOSITE",
+  "scope": "Three-frame sequence, rendered wording and ripple visual treatment as shown in this composite",
+  "limitations": [
+    "Composite review proof is not three final 1080x1920 Story assets",
+    "ARTICLE LINK is a static layout placeholder, not a working sticker",
+    "Individual Story exports require independent composition/pixel QA and final rendered approval",
+    "Other email/feed captions and assets not approved by this reply",
+    "No scientific or independent editorial review inferred",
+    "No scheduling, sending, publishing or merge authorized"
+  ]
+}

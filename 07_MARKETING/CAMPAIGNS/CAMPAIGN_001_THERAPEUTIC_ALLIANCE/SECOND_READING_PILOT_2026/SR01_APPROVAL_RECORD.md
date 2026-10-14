@@ -20,12 +20,17 @@ Source version reviewed for direction: `7549f0e3fbf054a9aebbaa55fa21089e189f8fce
 | Founder direction: issue/angle and presented SR01 cadence | APPROVED; bounded by linked decision |
 | Scientific review | PENDING |
 | Distinct editorial review | PENDING |
-| Founder exact reflection/email/social/Story copy | Reflection v02 APPROVED; full email/social/Story treatments PENDING |
-| Final production specifications and rendered assets | PENDING |
-| Phase 7A completeness, hashes and remote approved-asset verification | OPEN; no new rendered assets |
+| Founder exact reflection/email/social/Story copy | Reflection v02 APPROVED; rendered Story wording in v02 composite APPROVED; other distribution copy pending |
+| Final production specifications and rendered assets | v02 ripple storyboard composite APPROVED; final individual exports and other assets PENDING |
+| Phase 7A completeness, hashes and remote approved-asset verification | OPEN; approved composite recorded with hash; final platform asset set incomplete |
 | Audience eligibility/count and exact timing | PENDING |
 | Platform drafts/readback | NOT CREATED |
 | Founder release | NOT AUTHORIZED |
 | Publication/delivery verification | NOT PERFORMED |
 
-This is a campaign record under existing governance, not a separate approval system. No approval of SR02–SR04, final copy, visuals or public execution is inferred. No production platforms changed.
+This is a campaign record under existing governance, not a separate approval system. No approval of SR02–SR04, other final copy/visuals or public execution is inferred. No production platforms changed.
+
+
+## October 14: v02 ripple storyboard approved
+
+Exact approved composite: `DRAFT_STORYBOARDS/ISSUE017_MON_STORYBOARD_v02_RIPPLE_DRAFT.png`, SHA-256 `362e31b3c84c408f991f4d706352480faf713e88633a468a2a4797df3dbcea40`, source commit `ad0971fbdcd3e52b42811e48ff99240f8a937dc3`. Approval covers the shown sequence, rendered wording and visual treatment. Its DRAFT filename is preserved. This does not approve the unrendered platform assets or authorize deployment.

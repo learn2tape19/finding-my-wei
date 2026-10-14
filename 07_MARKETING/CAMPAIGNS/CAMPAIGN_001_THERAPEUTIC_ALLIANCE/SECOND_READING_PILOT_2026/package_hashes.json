@@ -11,8 +11,13 @@
   },
   {
     "file": "DRAFT_STORYBOARDS/README.md",
-    "bytes": 1454,
-    "sha256": "f6198d3778c6083a094a72abe59c60f7f81776f902bdaa12dd1501233fa8a67f"
+    "bytes": 1856,
+    "sha256": "e59b7183a269aff509e8605e927f65991d660d7666c6bae101d3564e6e683767"
+  },
+  {
+    "file": "DRAFT_STORYBOARDS/STORYBOARD_v02_APPROVAL.json",
+    "bytes": 1251,
+    "sha256": "d4fc070ea0fddbda0b17ee874c08bb28d2fb573c8522fc5012991f055c73107e"
   },
   {
     "file": "GITHUB_CONTINUITY_AUDIT.md",
@@ -46,13 +51,13 @@
   },
   {
     "file": "SR01_APPROVAL_RECORD.md",
-    "bytes": 2910,
-    "sha256": "bf52df301f2e818623f95588ac70de9b6f9b4efbc84d3a331c1b36cef03e3019"
+    "bytes": 3551,
+    "sha256": "6798cbac3a9b1a493781975ec607ec26c1e72ab3bca0d4d7d3771e4aacdaf43c"
   },
   {
     "file": "TRACKING_AND_QA.md",
-    "bytes": 11791,
-    "sha256": "ae10444b4a6313fe2d4cc094ee0cedb5c8cec1677495729ddf5969eddd84868a"
+    "bytes": 11856,
+    "sha256": "694de42b9857e737d895fd8884d7e22e1fe90c61d64c6a7d10086b6b7477cad0"
   },
   {
     "file": "asset_inventory.csv",

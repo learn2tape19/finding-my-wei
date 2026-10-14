@@ -12,3 +12,8 @@ Composite dimensions: 1536×1024. SHA-256: `51a070e909635d21d6d67dbaeab828b84b4a
 Added tonal navy water ripple backgrounds with restrained gold reflections, no falling drip. User requested the ripple; final rendered approval remains pending. v01 preserved unchanged. All three frames remain legible with the same wording and layout. This is a decorative background treatment, not a claim of exact canonical-logo reproduction. ARTICLE LINK remains a static placeholder. No production platforms changed.
 
 File: `ISSUE017_MON_STORYBOARD_v02_RIPPLE_DRAFT.png`; composite 1536×1024; SHA-256 `362e31b3c84c408f991f4d706352480faf713e88633a468a2a4797df3dbcea40`.
+
+
+## Founder approval — v02 composite
+
+Drew approved the exact v02 ripple storyboard on October 14, 2026. See `STORYBOARD_v02_APPROVAL.json` for asset hash, source commit and bounded scope. The historic DRAFT filename and embedded concept footer are preserved unchanged. Approval covers this shown composite; final individual Story exports, live link functionality and public release remain pending.
