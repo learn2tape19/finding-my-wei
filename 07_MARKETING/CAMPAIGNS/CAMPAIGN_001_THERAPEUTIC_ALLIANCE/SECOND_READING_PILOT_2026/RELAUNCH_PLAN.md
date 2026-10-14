@@ -1,5 +1,7 @@
 # Execution plan
 
+**October 14 correction — overrides public wording below:** Second Reading is an internal campaign name only. New public copy/artwork uses the clinical topic without read-again/recycled labels or claims of newly published original articles. Taylor's repo voice guidance is the voice reference. SR01 v02 wording is unapproved; later treatments are held for equivalent framing revision. Original content/URLs, architecture, cadence and release gates remain intact. Authority: `DR-2026-10-14-TAO-PUBLIC-FRAMING-AND-VOICE`.
+
 **State: review-ready plan and copy; production/release HOLD.** Prepared October 14, 2026. All times America/New_York.
 
 ## Business purpose

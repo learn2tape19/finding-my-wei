@@ -1,5 +1,7 @@
 # The Tao of Clinical Touch — Second Reading + New Reflections
 
+**Current public-framing authority:** Second Reading is internal only. New outward treatments lead with their clinical topic and do not announce reused material. Taylor’s repository voice guidance governs revision. SR01 v02 is draft for voice review; SR02–SR04 public treatments are HOLD until their old framing is revised. See [Founder decision](../../../../00_Constitution/DECISIONS/DR-2026-10-14-TAO-PUBLIC-FRAMING-AND-VOICE.md).
+
 Prepared October 14, 2026. **DRAFT FOR FOUNDER REVIEW — NO RELEASE AUTHORITY.**
 
 **SR01 update:** Drew approved October 26 direction and the presented weekly cadence on October 14. [Approval record](SR01_APPROVAL_RECORD.md). Exact copy, required reviews, visuals, final audience/timing and release remain pending. SR02–SR04 are not approved by this decision.

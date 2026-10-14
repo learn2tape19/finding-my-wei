@@ -1,5 +1,7 @@
 # SR01 approval record — October 26, 2026
 
+**Later Founder correction:** public Second Reading/recycled-material framing is superseded. Internal lineage remains. Source and email revised to v02 using the repo voice guide; Taylor/Founder voice approval, scientific and distinct editorial reviews remain pending. See [framing/voice decision](../../../../00_Constitution/DECISIONS/DR-2026-10-14-TAO-PUBLIC-FRAMING-AND-VOICE.md). The earlier direction approval is not approval of revised wording.
+
 **Direction:** APPROVED by Drew on October 14, 2026, in direct response to the presented direction proposal.
 
 Decision authority: [DR-2026-10-14-TAO-SR01-DIRECTION](../../../../00_Constitution/DECISIONS/DR-2026-10-14-TAO-SR01-DIRECTION.md).

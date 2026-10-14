@@ -1,80 +1,79 @@
-# Four-week pilot copy — v01
+# Four-week pilot copy — SR01 revised v02; SR02–SR04 held for framing revision
 
 **DRAFT, NOT FOUNDER AUTHORED OR APPROVED UNTIL DREW CONFIRMS.** These are proposed first-person reflections, not quotations or reports of new clinical events. No patient anecdotes, reader responses or changed personal beliefs have been invented. Drew should edit any sentence that does not match his view. Scientific and distinct editorial review remain pending.
+
+**Public framing authority, October 14:** Second Reading is internal only. New public treatments lead with the clinical topic, without reused-material labels or claims that an old article was newly published. SR02–SR04 below retain superseded public framing as draft history and are HOLD until revised. Taylor is the Founder-preferred voice authority; use repository VOICE_GUIDE.md and EDITORIAL_STANDARDS.md. No independent Taylor review is claimed.
 
 For every week: email sender/reply-to and consent boundary follow RELAUNCH_PLAN.md. Email includes working unsubscribe/preferences footer from the verified Brevo setup; do not paste a literal placeholder as a functional unsubscribe link. Original title/URL stays unchanged. Link tokens below resolve to `tracked_links.csv`; they are production instructions, not visible copy. Social hashtags, optional: #TheTaoOfClinicalTouch #ClinicalReasoning #TherapeuticAlliance. Do not put clinical suggestions in front of patients as individualized advice.
 
 ## SR01 — Monday October 26 — Original Issue No. 001
 
-**Original cycle:** The Invisible Beginning. **Selected original:** The Permission Question: Before You Touch Anything, Ask Yourself This. **New reflection title:** Leave room for a different answer.
+**Internal mapping only:** Original cycle The Invisible Beginning; anchor The Permission Question: Before You Touch Anything, Ask Yourself This. **Public reflection title:** Leave room for a different answer. **Version:** v02 — voice and framing revision; wording unapproved.
 
 ### New author reflection — full draft
 
-Returning to the permission question, I want to place the emphasis on what happens after we ask it.
+We ask someone whether the pressure feels comfortable. They say yes, and we continue.
 
-An invitation matters only if a different answer can change what happens next. If I ask about pressure but continue at the same pace regardless of the response, the question has done very little. If I invite someone to speak but make disagreement feel inconvenient, I have more work to do.
+But the experience may change. The position becomes uncomfortable. They want less pressure. They would like us to pause.
 
-That is the practical question I want to bring into this second reading: have I made it easy for this person to tell me something I did not expect?
+How easy have we made it for them to tell us?
 
-There is also a distinction worth keeping clear. What we notice in a person's breathing, movement or expression does not give us access to their private experience. An observation can be a reason to ask. It cannot answer for them. Nor does the language of physiological permission replace explicit consent or the person's right to withdraw it.
+Asking the question is part of the work. What we do with the answer matters just as much. If someone asks for something different, our response tells them whether that invitation was real.
 
-I do not want permission to become another way of grading how relaxed someone looks. I want it to keep the encounter open to their choices.
+It may be a small adjustment. Less pressure. A different position. A moment to explain what comes next. Sometimes it means stopping.
 
-Read the original with that question beside it. Then consider one ordinary moment in your own work: when someone wants a different position, a different pressure, a pause, or no further touch, how easy have you made it for them to say so?
+We can notice a change in breathing, movement or expression, but the observation does not tell us what someone is experiencing. It gives us a reason to ask. It does not answer for them, and it does not replace their consent.
+
+The question I want to keep close is this: have I made it easy for this person to tell me something I did not expect?
+
+Permission needs room for a different answer.
 
 ### Email — complete draft
 
 **Campaign name:** TAO_SR01_ORIG001_2026-10-26_DRAFT  
-**Subject:** The permission question, read again  
-**Preheader:** A new reflection on leaving room for a different answer.
+**Subject:** Is there room for a different answer?  
+**Preheader:** Asking is part of the work. What happens next matters too.
 
-We're returning to the beginning of The Tao of Clinical Touch.
+**The Tao of Clinical Touch**
 
-Over the next four Mondays, I'll revisit four foundational issues with a new reflection and a question to carry into practice. If you're new here, this is a place to begin. If you've read them before, bring what you notice now.
-
-**Second Reading · Original Issue No. 001**  
-**The Permission Question: Before You Touch Anything, Ask Yourself This**
-
-**New reflection — October 26, 2026**
+**Leave room for a different answer**
 
 [Insert the full SR01 author reflection above, verbatim after approval.]
 
-**Button: Read the original permission question** → SR01/email/mon_primary
+**Button: Read The Permission Question** → SR01/email/mon_primary
 
-What helps someone tell you they want something different? Hit reply with a sentence from your own practice. Please leave out names and identifying patient details.
+What helps someone tell you they want something different? You're welcome to reply with an observation from your own practice. Please leave out identifying patient details.
 
 — Drew
 
-The original article remains in its original place. This reflection is new.
-
 ### Monday — Tao Facebook / Tao Instagram
 
-We're opening The Tao of Clinical Touch for a Second Reading.
+We ask someone whether the pressure feels comfortable. They say yes, and we continue.
 
-Four foundational issues. A new reflection each Monday. One question to carry into practice.
+But the experience may change.
 
-We begin with The Permission Question, from Original Issue No. 001.
+How easy have we made it for them to tell us?
 
-My question this time: have I made it easy for someone to tell me something I did not expect?
+Asking is part of the work. Our response tells them whether the invitation was real.
 
-Read the original with that question beside it.
-
-**Facebook ending:** Read the original: [SR01/facebook/mon_primary]  
-**Instagram ending:** Read the original through the Second Reading link in my bio. [Verify bio destination and use SR01/instagram_tao/mon_bio.]
+**Facebook ending:** Read The Permission Question: [SR01/facebook/mon_primary]  
+**Instagram ending:** The Permission Question is linked in our bio. [Verify the approved route; SR01/instagram_tao/mon_bio.]
 
 ### Monday — Drew Instagram variant
 
-I'm returning to the first issues of The Tao of Clinical Touch with a fresh reflection each week.
+When I ask someone to tell me if they want something different, I want to notice what happens when they do.
 
-The permission question is where I'm starting. Not because the question has a final answer, but because the encounter needs to remain open to a different one.
+Do I make the adjustment? Do I give them room to explain? Do I make disagreement feel inconvenient?
 
-Original Issue No. 001 is this week's Second Reading. Link in bio.
+An invitation matters when the answer can change what happens next.
+
+The Permission Question is linked in my bio.
 
 ### Monday — Story sequence, frames 01–03
 
-1. **SECOND READING** / Original Issue No. 001 / The Permission Question
-2. **Have I made room for a different answer?** / An observation can invite a question. It cannot answer for someone.
-3. **READ THE ORIGINAL** / A new reflection. An original issue worth returning to. / [Link sticker to SR01/instagram_tao/mon_story if supported; otherwise “Link in bio.”]
+1. **THE TAO OF CLINICAL TOUCH** / Leave room for a different answer.
+2. **“LET ME KNOW IF YOU WANT SOMETHING DIFFERENT.”** / What happens when they do?
+3. **THE PERMISSION QUESTION** / Read the article. / [Verified native link or “Link in bio.”]
 
 ### Wednesday — practice prompt, all three feed channels
 
@@ -82,25 +81,27 @@ Original Issue No. 001 is this week's Second Reading. Link in bio.
 
 What happens after we say it matters.
 
-For this week's Second Reading, consider whether the next question leaves room for a response that could change the plan.
+If the answer is less pressure, a different position or a pause, does our response make it easier for someone to speak the next time?
 
-What words help you make that invitation clear?
+What have you noticed in your own practice?
 
-Original Issue No. 001 · The Permission Question. [Facebook: SR01/facebook/wed_practice; Instagram: verified bio route for the corresponding account.]
+[Facebook article link: SR01/facebook/wed_practice. Instagram: verified account bio route.]
 
 ### Friday — discussion / join, all three feed channels
 
-Permission has to leave room for a different answer.
+Permission needs room for a different answer.
 
-As we close the first Second Reading, here's the question I'm keeping: what helps someone tell you they want something different?
+The adjustment may be small. Our willingness to make it tells someone whether their experience can influence the encounter.
 
-Share a sentence, without identifying patient details. If you'd like next Monday's reflection by email, you can join The Tao.
+What helps you make that invitation clear?
 
-[Facebook: SR01/facebook/fri_join. Instagram: join route in approved bio; do not claim a clickable caption link.]
+You're welcome to share an observation without identifying patient details. If you'd like these clinical reflections by email, you can join The Tao.
+
+[Facebook: SR01/facebook/fri_join. Instagram: approved join bio route.]
 
 ### Artwork brief
 
-Monday headline **LEAVE ROOM FOR A DIFFERENT ANSWER**; Wednesday **CAN THE ANSWER CHANGE THE PLAN?**; Friday **WHAT MAKES IT EASIER TO SPEAK?** Use a new restrained type-led composition, Second Reading label and Original Issue No. 001. Keep “The Permission Question” as the source title line. The original image is WP media 1239, 1200×628; its reuse is optional and remains subject to review. No new claim about reading a person's nervous system from appearance.
+Monday headline **LEAVE ROOM FOR A DIFFERENT ANSWER**; Wednesday **WHAT HAPPENS WHEN THEY DO?**; Friday **PERMISSION NEEDS ROOM FOR A DIFFERENT ANSWER**. Public masthead: The Tao of Clinical Touch. Article title: The Permission Question. No Second Reading, original-issue, return, replay, recycled-material or new-article claims in new creative. Internal manifests retain SR01/ORIG001 lineage. Keep approved original image bytes unchanged; new compositions are separate files. Existing WP media 1239 remains the original featured image. Final visual direction/rendered artwork approval remains pending.
 
 ## SR02 — Monday November 2 — Original Issue No. 002
 

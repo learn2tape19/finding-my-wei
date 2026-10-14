@@ -24,6 +24,8 @@ Major decisions made across all projects, with rationale and context.
 
 ### Second Reading GitHub continuity — October 14, 2026
 
+Public framing and voice: [Founder correction](00_Constitution/DECISIONS/DR-2026-10-14-TAO-PUBLIC-FRAMING-AND-VOICE.md) — internal Second Reading tracking; topic-led public presentation; Taylor/repository voice guidance; revised copy unapproved.
+
 Related direction decision: [SR01 October 26 direction approval](00_Constitution/DECISIONS/DR-2026-10-14-TAO-SR01-DIRECTION.md) — anchor, emphasis and presented SR01 cadence approved; copy, visuals, audience/timing and release remain pending. No approval of later weeks.
 
 **Decision:** Existing Finding My Wei GitHub repository remains mandatory canonical authority; Second Reading inherits its editorial workflow, publishing control plane, original-source preservation and Founder gates.

@@ -1,36 +1,33 @@
-DRAFT FOR REVIEW — NOT APPROVED / NOT SENT
+DRAFT v02 FOR TAYLOR / FOUNDER VOICE REVIEW — NOT APPROVED / NOT SENT
 
 **Campaign name:** TAO_SR01_ORIG001_2026-10-26_DRAFT  
-**Subject:** The permission question, read again  
-**Preheader:** A new reflection on leaving room for a different answer.
+**Subject:** Is there room for a different answer?  
+**Preheader:** Asking is part of the work. What happens next matters too.
 
-We're returning to the beginning of The Tao of Clinical Touch.
+**The Tao of Clinical Touch**
 
-Over the next four Mondays, I'll revisit four foundational issues with a new reflection and a question to carry into practice. If you're new here, this is a place to begin. If you've read them before, bring what you notice now.
+**Leave room for a different answer**
 
-**Second Reading · Original Issue No. 001**  
-**The Permission Question: Before You Touch Anything, Ask Yourself This**
+We ask someone whether the pressure feels comfortable. They say yes, and we continue.
 
-**New reflection — October 26, 2026**
+But the experience may change. The position becomes uncomfortable. They want less pressure. They would like us to pause.
 
-Returning to the permission question, I want to place the emphasis on what happens after we ask it.
+How easy have we made it for them to tell us?
 
-An invitation matters only if a different answer can change what happens next. If I ask about pressure but continue at the same pace regardless of the response, the question has done very little. If I invite someone to speak but make disagreement feel inconvenient, I have more work to do.
+Asking the question is part of the work. What we do with the answer matters just as much. If someone asks for something different, our response tells them whether that invitation was real.
 
-That is the practical question I want to bring into this second reading: have I made it easy for this person to tell me something I did not expect?
+It may be a small adjustment. Less pressure. A different position. A moment to explain what comes next. Sometimes it means stopping.
 
-There is also a distinction worth keeping clear. What we notice in a person's breathing, movement or expression does not give us access to their private experience. An observation can be a reason to ask. It cannot answer for them. Nor does the language of physiological permission replace explicit consent or the person's right to withdraw it.
+We can notice a change in breathing, movement or expression, but the observation does not tell us what someone is experiencing. It gives us a reason to ask. It does not answer for them, and it does not replace their consent.
 
-I do not want permission to become another way of grading how relaxed someone looks. I want it to keep the encounter open to their choices.
+The question I want to keep close is this: have I made it easy for this person to tell me something I did not expect?
 
-Read the original with that question beside it. Then consider one ordinary moment in your own work: when someone wants a different position, a different pressure, a pause, or no further touch, how easy have you made it for them to say so?
+Permission needs room for a different answer.
 
-**Button: Read the original permission question** → https://taoclinicaltouch.com/blog/2026/07/the-permission-question-before-you-touch-anything-ask-yourself-this/?utm_source=brevo&utm_medium=email&utm_campaign=tao_second_reading_2026_pilot&utm_content=sr01_orig001_mon_primary
+**Button: Read The Permission Question** → https://taoclinicaltouch.com/blog/2026/07/the-permission-question-before-you-touch-anything-ask-yourself-this/?utm_source=brevo&utm_medium=email&utm_campaign=tao_second_reading_2026_pilot&utm_content=sr01_orig001_mon_primary
 
-What helps someone tell you they want something different? Hit reply with a sentence from your own practice. Please leave out names and identifying patient details.
+What helps someone tell you they want something different? You're welcome to reply with an observation from your own practice. Please leave out identifying patient details.
 
 — Drew
 
-The original article remains in its original place. This reflection is new.
-
-[Production: add verified functional Brevo unsubscribe/preferences and sender footer. Not a sendable final HTML.]
+[Production: add verified functional Brevo unsubscribe/preferences and sender footer. Not final sendable HTML.]

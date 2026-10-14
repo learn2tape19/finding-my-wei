@@ -1,5 +1,7 @@
 # Tracking, QA and approval record
 
+**Current framing QA:** New outward copy/artwork must not use Second Reading, reread/recycled or original-versus-new labels. Retain original-issue lineage internally and preserve original-page metadata. Earlier checklist wording requiring old/new public labels is superseded by DR-2026-10-14-TAO-PUBLIC-FRAMING-AND-VOICE. Taylor/repository voice review is pending; no independent reviewer approval is claimed.
+
 **No configuration changes, test submissions, test emails or platform drafts were executed.** Proposed instrumentation and release checks below are pending.
 
 ## Attribution contract

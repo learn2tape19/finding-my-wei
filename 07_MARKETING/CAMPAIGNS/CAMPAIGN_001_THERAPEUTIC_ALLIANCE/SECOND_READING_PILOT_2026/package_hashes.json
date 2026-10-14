@@ -11,28 +11,28 @@
   },
   {
     "file": "PILOT_COPY.md",
-    "bytes": 20547,
-    "sha256": "7fe24e3fe0a38721721d2cba0273fac78555d8e7ffc7afa50457904e6f69fefb"
+    "bytes": 20232,
+    "sha256": "278da3af18167688eecf23d1d7103e204d9615f9f922f786b5958e37db4d6ff7"
   },
   {
     "file": "README.md",
-    "bytes": 5192,
-    "sha256": "5634d18577f00d4adb22665d43e930873214db0f18391a00ff3ef6aaf51b6970"
+    "bytes": 5630,
+    "sha256": "d8a13e77276637b7854b5b6259ba533dad587b69de4abcb70bd624a6023ed3aa"
   },
   {
     "file": "RELAUNCH_PLAN.md",
-    "bytes": 11224,
-    "sha256": "bf832d2841bc4e5aa2a67dac1882405e935155c2fc5918f00559c2334f4a7c19"
+    "bytes": 11747,
+    "sha256": "99dc8047700d4b96cd2339b7bb754feb178e7027a6a2b1fc89d99467ffac8499"
   },
   {
     "file": "SR01_APPROVAL_RECORD.md",
-    "bytes": 1355,
-    "sha256": "4c1cf35b41cd5c6d0fc8d19f592fa73dc39dd0ef611313463c29c93e1f57cca6"
+    "bytes": 1806,
+    "sha256": "dca623fc0d306f3975e813c4218d63a302aa217e3956e457b20954b51a59e56f"
   },
   {
     "file": "TRACKING_AND_QA.md",
-    "bytes": 11380,
-    "sha256": "0189b9d3c4b22c76155113f7984653d4b9c5fca1b908a5dfdf8b689bae129c42"
+    "bytes": 11791,
+    "sha256": "ae10444b4a6313fe2d4cc094ee0cedb5c8cec1677495729ddf5969eddd84868a"
   },
   {
     "file": "asset_inventory.csv",
@@ -46,8 +46,8 @@
   },
   {
     "file": "emails/SR01_EMAIL_DRAFT.md",
-    "bytes": 2595,
-    "sha256": "3488d3b7709b205c03656adfd4d126b221a010ab4d8308e9853690f5cc3c893c"
+    "bytes": 1865,
+    "sha256": "901c067c3d12c756d8f385c89ed85881da45680c84b4d7ca73b3697a371d9063"
   },
   {
     "file": "emails/SR02_EMAIL_DRAFT.md",
