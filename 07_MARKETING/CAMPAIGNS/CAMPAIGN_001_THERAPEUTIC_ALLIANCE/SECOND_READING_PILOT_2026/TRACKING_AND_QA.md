@@ -55,7 +55,7 @@ Book orders remain a secondary observation. There is no spend, paid campaign or 
 | 0: Direction | Exact original mapping, new purpose, cadence exception, format choice, audience boundary | SR01 anchor/emphasis and presented cadence APPROVED by Drew Oct 14; see SR01_APPROVAL_RECORD.md. Final format/audience details remain pending. SR02–SR04 direction pending |
 | 1: Scientific | Review old/new distinction; flag historical overstated physiology; confirm new copy does not diagnose or replace consent | Named scientific reviewer — PENDING |
 | 2: Editorial | Distinct reviewer; voice, continuity, source fidelity, no invented personal history | Named editorial reviewer — PENDING |
-| 3: Founder copy | Exact reflection, subject, preheader, caption, Story and CTA versions | Drew — PENDING |
+| 3: Founder copy | Exact reflection, subject, preheader, caption, Story and CTA versions | Monday Issue 017 APPROVED; exact text/hashes in ISSUE_017/MONDAY_DISTRIBUTION_COPY_APPROVAL.json. Wed/Fri and later issues pending |
 | 4: Rendered assets | Actual pixels, proofreading, legibility, clipping, image/context review and exact manifest hashes | SR01 Monday: v02 storyboard, 3 final Story exports, Feed and Landscape APPROVED; later-week visuals pending |
 | 5: Platform drafts | Account/site/list identity, sender/reply-to, recipient count, original links, duplicate/object reconciliation | Operator — NOT CREATED |
 | 6: Release | Explicit schedule/send authority naming versions, channels, dates/times and audience | Drew — NOT AUTHORIZED |

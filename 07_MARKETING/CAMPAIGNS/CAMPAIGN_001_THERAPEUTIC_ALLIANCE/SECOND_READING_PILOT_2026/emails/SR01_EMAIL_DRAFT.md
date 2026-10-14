@@ -1,4 +1,4 @@
-ISSUE No. 017 — DISTRIBUTION DRAFT FOR REVIEW. Reflection v02 Founder-approved; full email, visuals and release pending.
+ISSUE No. 017 — EMAIL WORDING FOUNDER APPROVED October 14; Monday visuals approved. Platform composition/footer/link QA, required reviews, audience/timing and release pending.
 
 **Campaign name:** TAO_SR01_ORIG001_2026-10-26_DRAFT  
 **Subject:** Is there room for a different answer?  

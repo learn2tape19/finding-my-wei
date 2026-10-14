@@ -30,6 +30,16 @@
     "sha256": "d97d1e6310672c3a18d47a4fb00e02016c899bb6f42f3da0d2eb038654d781e4"
   },
   {
+    "file": "ISSUE_017/MONDAY_APPROVED_COPY.md",
+    "bytes": 2917,
+    "sha256": "c7790e8a9538924613907d39c1ee03a72758320241f478173a30484a314b9090"
+  },
+  {
+    "file": "ISSUE_017/MONDAY_DISTRIBUTION_COPY_APPROVAL.json",
+    "bytes": 4571,
+    "sha256": "e74bb6954bf52becb05823bda31fc4761fe9b601fa34dc621de7dd962d8a3813"
+  },
+  {
     "file": "ISSUE_017/MONDAY_FEED_LANDSCAPE_v01/FINAL_VISUAL_APPROVAL.json",
     "bytes": 1298,
     "sha256": "b50b9157ee25ec09c963beffd4e2e066e982bd2980b0fd99ff712fe5c155c669"
@@ -121,8 +131,8 @@
   },
   {
     "file": "README.md",
-    "bytes": 5630,
-    "sha256": "d8a13e77276637b7854b5b6259ba533dad587b69de4abcb70bd624a6023ed3aa"
+    "bytes": 5730,
+    "sha256": "79cc86df65137f4645ef41ad2d56cc15d5b7634f3016f3a71d64d256a1d795f9"
   },
   {
     "file": "RELAUNCH_PLAN.md",
@@ -131,13 +141,13 @@
   },
   {
     "file": "SR01_APPROVAL_RECORD.md",
-    "bytes": 5017,
-    "sha256": "64b5ee1eb39b6699159b87f3ac04c69fc480475a9e7cbf475cc384049261def0"
+    "bytes": 5556,
+    "sha256": "4e455e002114781100d6eb319d2d8e9f2dadfbcd4dc314993631df51a5a1e340"
   },
   {
     "file": "TRACKING_AND_QA.md",
-    "bytes": 11852,
-    "sha256": "6a6bb95e018f6fda0c1b5a2e99492f2a613ba4dccb4cb9853b372b37a0c99d61"
+    "bytes": 11966,
+    "sha256": "a42cb1f2df6b8519e150cfc30d7cb5a6f4ce9acb2f2c0b65cd8a3e9f5531c926"
   },
   {
     "file": "asset_inventory.csv",
@@ -151,8 +161,8 @@
   },
   {
     "file": "emails/SR01_EMAIL_DRAFT.md",
-    "bytes": 1925,
-    "sha256": "708a7989eff1b519e0a1e40e264d490ed4794b457896f0bbb8a9bb170f32e025"
+    "bytes": 1980,
+    "sha256": "aa1f8db3cc80124da028ebec79dd705c2f06877139306aa872a0396e1bc9b546"
   },
   {
     "file": "emails/SR02_EMAIL_DRAFT.md",

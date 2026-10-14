@@ -1,0 +1,48 @@
+{
+  "publication": "Issue No. 017",
+  "planned_date": "2026-10-26",
+  "internal_id": "SR01",
+  "approval_owner": "Drew Freedman, Founder",
+  "recorded_at": "2026-10-14T08:12:49-04:00",
+  "approval_evidence": "Direct reply approevd to explicit request approving subject, preview line, email and three captions in writing blocks 91726 and 91727",
+  "reviewed_source_commit": "c7184e501ef386ec260e12f40e77b371fbe8758f",
+  "writing_blocks": [
+    "91726",
+    "91727"
+  ],
+  "status": "FOUNDER APPROVED — MONDAY DISTRIBUTION WORDING",
+  "artifacts": {
+    "email_subject": {
+      "text": "Is there room for a different answer?",
+      "sha256_utf8": "c8e15e9cbe8b0f127275cb62e9f008e85c7707ae22c18ff59587dbe50ca93d6e"
+    },
+    "email_preheader": {
+      "text": "Asking is part of the work. What happens next matters too.",
+      "sha256_utf8": "3aa0c8a26c8105ce14dbb2f18986430278cffbfabb13ac264b0cf1f91f923404"
+    },
+    "email_body": {
+      "text": "**The Tao of Clinical Touch · Issue No. 017 · October 26, 2026**\n\n### Leave room for a different answer\n\nWe ask someone whether the pressure feels comfortable. They say yes, and we continue.\n\nBut the experience may change. The position becomes uncomfortable. They want less pressure. They would like us to pause.\n\nHow easy have we made it for them to tell us?\n\nAsking the question is part of the work. What we do with the answer matters just as much. If someone asks for something different, our response tells them whether that invitation was real.\n\nIt may be a small adjustment. Less pressure. A different position. A moment to explain what comes next. Sometimes it means stopping.\n\nWe can notice a change in breathing, movement or expression, but the observation does not tell us what someone is experiencing. It gives us a reason to ask. It does not answer for them, and it does not replace their consent.\n\nThe question I want to keep close is this: have I made it easy for this person to tell me something I did not expect?\n\nPermission needs room for a different answer.\n\n**[Read The Permission Question](https://taoclinicaltouch.com/blog/2026/07/the-permission-question-before-you-touch-anything-ask-yourself-this/)**\n\nWhat helps someone tell you they want something different? You're welcome to reply with an observation from your own practice. Please leave out identifying patient details.\n\n— Drew",
+      "sha256_utf8": "8340cebf6ea16ac21eafafee291c5698195075bf3de21d61da0f212b05e9901d"
+    },
+    "tao_facebook_caption": {
+      "text": "We ask someone whether the pressure feels comfortable. They say yes, and we continue.\n\nBut the experience may change.\n\nHow easy have we made it for them to tell us?\n\nAsking is part of the work. Our response tells them whether the invitation was real.\n\n[Read The Permission Question](https://taoclinicaltouch.com/blog/2026/07/the-permission-question-before-you-touch-anything-ask-yourself-this/)",
+      "sha256_utf8": "0de4fd142c68868ca736d28718263b4c1dd0f638bff287699611f4cd44da3a3d"
+    },
+    "tao_instagram_caption": {
+      "text": "We ask someone whether the pressure feels comfortable. They say yes, and we continue.\n\nBut the experience may change.\n\nHow easy have we made it for them to tell us?\n\nAsking is part of the work. Our response tells them whether the invitation was real.\n\nThe Permission Question is linked in our bio.",
+      "sha256_utf8": "3480fe6c5bb2bc0330739ca885fac28061fa74b49170730ac3417fcd45698d73"
+    },
+    "drew_instagram_caption": {
+      "text": "When I ask someone to tell me if they want something different, I want to notice what happens when they do.\n\nDo I make the adjustment? Do I give them room to explain? Do I make disagreement feel inconvenient?\n\nAn invitation matters when the answer can change what happens next.\n\nThe Permission Question is linked in my bio.",
+      "sha256_utf8": "a67284b0b8d7963c666581ba812e8e9a6f319a9331c08af0427b788d7297ee74"
+    }
+  },
+  "link_handling": "Displayed canonical article link approved. Existing placement-specific UTMs may be applied during authorized draft preparation; redirect/query retention still requires QA. Instagram bio destinations are not yet verified or changed.",
+  "footer": "Brevo unsubscribe/preferences and sender footer require platform QA; not omitted by wording approval",
+  "scientific_review": "PENDING",
+  "distinct_editorial_review": "PENDING",
+  "audience_and_schedule": "NOT APPROVED",
+  "platform_draft_creation": "NOT AUTHORIZED BY THIS COPY APPROVAL",
+  "release_authorized": false,
+  "platform_writes": 0
+}
