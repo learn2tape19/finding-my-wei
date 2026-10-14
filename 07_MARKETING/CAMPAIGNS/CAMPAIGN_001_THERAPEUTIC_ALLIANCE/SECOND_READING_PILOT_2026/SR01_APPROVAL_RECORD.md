@@ -21,8 +21,8 @@ Source version reviewed for direction: `7549f0e3fbf054a9aebbaa55fa21089e189f8fce
 | Scientific review | PENDING |
 | Distinct editorial review | PENDING |
 | Founder exact reflection/email/social/Story copy | Reflection v02 APPROVED; rendered Story wording in v02 composite APPROVED; other distribution copy pending |
-| Final production specifications and rendered assets | v02 ripple storyboard composite APPROVED; final individual exports and other assets PENDING |
-| Phase 7A completeness, hashes and remote approved-asset verification | OPEN; approved composite recorded with hash; final platform asset set incomplete |
+| Final production specifications and rendered assets | v02 storyboard and all three exact 1080×1920 Story exports APPROVED; other assets pending |
+| Phase 7A completeness, hashes and remote approved-asset verification | OPEN for full issue; three Story exports approved and hash-verified; other required roles incomplete |
 | Audience eligibility/count and exact timing | PENDING |
 | Platform drafts/readback | NOT CREATED |
 | Founder release | NOT AUTHORIZED |
@@ -39,3 +39,8 @@ Exact approved composite: `DRAFT_STORYBOARDS/ISSUE017_MON_STORYBOARD_v02_RIPPLE_
 ## Individual Story production authorized
 
 Founder replied “approved” to proceeding from the approved storyboard to three individual Story frames. Candidates are in `ISSUE_017/STORY_CANDIDATES_v01/`; source generations preserved, final exports 1080×1920, exact image hashes in MANIFEST.json. Newly rendered files require final visual approval. No release authorization inferred.
+
+
+## Three final Story exports approved
+
+Founder approved the three rendered frames presented at source commit `b8b9ef32c8baaa45906c3e4f043dce1dbf5ce242`. Exact files, order, hashes and scope: `ISSUE_017/STORY_CANDIDATES_v01/FINAL_STORY_APPROVAL.json`. No image bytes or filenames changed. Native link placement/functionality, other issue assets and release remain pending.

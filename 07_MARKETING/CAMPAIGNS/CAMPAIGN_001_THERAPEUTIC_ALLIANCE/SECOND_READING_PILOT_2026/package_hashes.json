@@ -30,6 +30,11 @@
     "sha256": "d97d1e6310672c3a18d47a4fb00e02016c899bb6f42f3da0d2eb038654d781e4"
   },
   {
+    "file": "ISSUE_017/STORY_CANDIDATES_v01/FINAL_STORY_APPROVAL.json",
+    "bytes": 1375,
+    "sha256": "bf76b0190bf064467ff6cd2b6bb828ab718eafa2ccd3c9ecbd722ef3c4e518b5"
+  },
+  {
     "file": "ISSUE_017/STORY_CANDIDATES_v01/ISSUE017_MON_STORY01_1080x1920_v01_REVIEW.png",
     "bytes": 1936299,
     "sha256": "41c0f25f08d2bbe4b0b668dce6ae139a7823d168bab0df76004df39017f71b20"
@@ -46,13 +51,13 @@
   },
   {
     "file": "ISSUE_017/STORY_CANDIDATES_v01/MANIFEST.json",
-    "bytes": 1359,
-    "sha256": "5572f8e93019b3da9a7123f4e90888b046c235d9292ed4aa769f3a59a6d524b7"
+    "bytes": 1599,
+    "sha256": "cba7e86dbea2106c1a69bb7edb3fb85607014ea2cf5a710f8d62ec53b47ea3c2"
   },
   {
     "file": "ISSUE_017/STORY_CANDIDATES_v01/QA_AND_PRODUCTION_RECEIPT.md",
-    "bytes": 2133,
-    "sha256": "cf09138074316e6361be5ff44f7a67ce0e4bd3d3c391994f3f7b2d2349b59c99"
+    "bytes": 2668,
+    "sha256": "5f7f14a0b5a47a17cc144ddbdc8f6ae487afbc89242d67776289fd53c52ada39"
   },
   {
     "file": "ISSUE_017/STORY_CANDIDATES_v01/SOURCE_GENERATIONS/ISSUE017_MON_STORY01_SOURCE_v01.png",
@@ -91,13 +96,13 @@
   },
   {
     "file": "SR01_APPROVAL_RECORD.md",
-    "bytes": 3937,
-    "sha256": "b860379c9e12d1f63a09b3dc333992ec00a80fd6182ac683ee85761cbe3f3ca6"
+    "bytes": 4330,
+    "sha256": "ade96b568e27c07bcd6238cde3bc14f60ebb23f92b5f7a1551cd15f191964c50"
   },
   {
     "file": "TRACKING_AND_QA.md",
-    "bytes": 11856,
-    "sha256": "694de42b9857e737d895fd8884d7e22e1fe90c61d64c6a7d10086b6b7477cad0"
+    "bytes": 11857,
+    "sha256": "23742085a8e842badc057ce82a13c9d366acbf4ce910c38651a8e3f46246a250"
   },
   {
     "file": "asset_inventory.csv",

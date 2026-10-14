@@ -56,7 +56,7 @@ Book orders remain a secondary observation. There is no spend, paid campaign or 
 | 1: Scientific | Review old/new distinction; flag historical overstated physiology; confirm new copy does not diagnose or replace consent | Named scientific reviewer — PENDING |
 | 2: Editorial | Distinct reviewer; voice, continuity, source fidelity, no invented personal history | Named editorial reviewer — PENDING |
 | 3: Founder copy | Exact reflection, subject, preheader, caption, Story and CTA versions | Drew — PENDING |
-| 4: Rendered assets | Actual pixels, proofreading, legibility, clipping, image/context review and exact manifest hashes | SR01 v02 ripple storyboard composite APPROVED; final Story/feed/landscape exports and their QA/approval PENDING |
+| 4: Rendered assets | Actual pixels, proofreading, legibility, clipping, image/context review and exact manifest hashes | SR01 v02 storyboard and three final Story exports APPROVED; feed/landscape exports and their QA/approval PENDING |
 | 5: Platform drafts | Account/site/list identity, sender/reply-to, recipient count, original links, duplicate/object reconciliation | Operator — NOT CREATED |
 | 6: Release | Explicit schedule/send authority naming versions, channels, dates/times and audience | Drew — NOT AUTHORIZED |
 | 7: Delivery | IDs, status, public URL, sent/delivery receipts; limits stated | Operator — FUTURE |

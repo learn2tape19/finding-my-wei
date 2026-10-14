@@ -11,3 +11,8 @@ Production adaptation: storyboard's fake ARTICLE LINK button is omitted from fra
 These are review candidates, not APPROVED_ASSETS. Current filename/manifest status is not a claim of Phase 7A closure. Other issue assets, required independent reviews, eligible audience/timing, final package approval and release remain pending. No WordPress/Buffer/Brevo/GA4 writes, send, schedule, publication or merge performed. Preserve original Issues 001–016 and URLs.
 
 Final-export readback complete: sips confirms all three 1080×1920; final files visually inspected after export, complete wording retained, no clipping, consistent navy/ivory/gold ripple treatment. Native link sticker and Founder final-render approval remain pending.
+
+
+## Final rendered approval
+
+Drew approved all three exact exported files on October 14, 2026. See FINAL_STORY_APPROVAL.json and updated MANIFEST.json. All three image hashes and 1080×1920 PNG dimensions reverified unchanged at approval. Historic REVIEW filenames and source directory are intentionally preserved. Earlier candidate/pending language above describes the pre-approval stage; this approval supersedes it for these three files only. Actual link sticker, other issue assets, independent review and release remain pending.

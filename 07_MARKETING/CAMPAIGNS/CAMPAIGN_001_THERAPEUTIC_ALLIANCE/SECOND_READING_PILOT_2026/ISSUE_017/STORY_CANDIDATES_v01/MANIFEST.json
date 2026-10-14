@@ -5,12 +5,14 @@
     "width": 1080,
     "height": 1920,
     "sha256": "41c0f25f08d2bbe4b0b668dce6ae139a7823d168bab0df76004df39017f71b20",
-    "status": "REVIEW CANDIDATE \u2014 FINAL FOUNDER APPROVAL PENDING",
+    "status": "FOUNDER APPROVED \u2014 EXACT RENDERED FILE",
     "source_dimensions": [
       941,
       1672
     ],
-    "export": "Proportional resample to height 1920, center crop 1 horizontal pixel to width 1080; no stretching"
+    "export": "Proportional resample to height 1920, center crop 1 horizontal pixel to width 1080; no stretching",
+    "approval_owner": "Drew Freedman",
+    "approval_record": "FINAL_STORY_APPROVAL.json"
   },
   {
     "sequence": 2,
@@ -18,12 +20,14 @@
     "width": 1080,
     "height": 1920,
     "sha256": "d8c316b8f647791adf22606c39ec62103dbb34b05d72b13d48e5e36f9272e6c9",
-    "status": "REVIEW CANDIDATE \u2014 FINAL FOUNDER APPROVAL PENDING",
+    "status": "FOUNDER APPROVED \u2014 EXACT RENDERED FILE",
     "source_dimensions": [
       941,
       1672
     ],
-    "export": "Proportional resample to height 1920, center crop 1 horizontal pixel to width 1080; no stretching"
+    "export": "Proportional resample to height 1920, center crop 1 horizontal pixel to width 1080; no stretching",
+    "approval_owner": "Drew Freedman",
+    "approval_record": "FINAL_STORY_APPROVAL.json"
   },
   {
     "sequence": 3,
@@ -31,11 +35,13 @@
     "width": 1080,
     "height": 1920,
     "sha256": "18e6dbbc58fd8088fe7edd4181826a61e103b3bf3c0d3fc70a2ee501b9a67579",
-    "status": "REVIEW CANDIDATE \u2014 FINAL FOUNDER APPROVAL PENDING",
+    "status": "FOUNDER APPROVED \u2014 EXACT RENDERED FILE",
     "source_dimensions": [
       941,
       1672
     ],
-    "export": "Proportional resample to height 1920, center crop 1 horizontal pixel to width 1080; no stretching"
+    "export": "Proportional resample to height 1920, center crop 1 horizontal pixel to width 1080; no stretching",
+    "approval_owner": "Drew Freedman",
+    "approval_record": "FINAL_STORY_APPROVAL.json"
   }
 ]
