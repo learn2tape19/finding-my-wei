@@ -5,14 +5,19 @@
     "sha256": "82b0e836e690c9bce5411026884a2d37af2bf1f7e088e1f0e8a2fd782bd209e7"
   },
   {
+    "file": "ISSUE017_FULL_CONTENT_REVIEW.md",
+    "bytes": 4741,
+    "sha256": "d97d1e6310672c3a18d47a4fb00e02016c899bb6f42f3da0d2eb038654d781e4"
+  },
+  {
     "file": "ISSUE_AUDIT.md",
     "bytes": 14741,
     "sha256": "1706d75d99744a7423e4c1dbf5756024c3ddba0999be0aa0371bf6f6f910fdc6"
   },
   {
     "file": "PILOT_COPY.md",
-    "bytes": 20232,
-    "sha256": "278da3af18167688eecf23d1d7103e204d9615f9f922f786b5958e37db4d6ff7"
+    "bytes": 20386,
+    "sha256": "ebe6ab8dbc54b85b4232d3064fbac5214a1e81d7de964a6c1b51290c5bbf648a"
   },
   {
     "file": "README.md",
@@ -26,8 +31,8 @@
   },
   {
     "file": "SR01_APPROVAL_RECORD.md",
-    "bytes": 1806,
-    "sha256": "dca623fc0d306f3975e813c4218d63a302aa217e3956e457b20954b51a59e56f"
+    "bytes": 2910,
+    "sha256": "bf52df301f2e818623f95588ac70de9b6f9b4efbc84d3a331c1b36cef03e3019"
   },
   {
     "file": "TRACKING_AND_QA.md",
@@ -46,8 +51,8 @@
   },
   {
     "file": "emails/SR01_EMAIL_DRAFT.md",
-    "bytes": 1865,
-    "sha256": "901c067c3d12c756d8f385c89ed85881da45680c84b4d7ca73b3697a371d9063"
+    "bytes": 1925,
+    "sha256": "708a7989eff1b519e0a1e40e264d490ed4794b457896f0bbb8a9bb170f32e025"
   },
   {
     "file": "emails/SR02_EMAIL_DRAFT.md",

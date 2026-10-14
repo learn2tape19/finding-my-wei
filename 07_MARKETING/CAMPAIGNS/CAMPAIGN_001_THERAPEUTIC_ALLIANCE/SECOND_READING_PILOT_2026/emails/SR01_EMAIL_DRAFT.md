@@ -1,10 +1,10 @@
-DRAFT v02 FOR TAYLOR / FOUNDER VOICE REVIEW — NOT APPROVED / NOT SENT
+ISSUE No. 017 — DISTRIBUTION DRAFT FOR REVIEW. Reflection v02 Founder-approved; full email, visuals and release pending.
 
 **Campaign name:** TAO_SR01_ORIG001_2026-10-26_DRAFT  
 **Subject:** Is there room for a different answer?  
 **Preheader:** Asking is part of the work. What happens next matters too.
 
-**The Tao of Clinical Touch**
+**The Tao of Clinical Touch · Issue No. 017 · October 26, 2026**
 
 **Leave room for a different answer**
 
@@ -30,4 +30,4 @@ What helps someone tell you they want something different? You're welcome to rep
 
 — Drew
 
-[Production: add verified functional Brevo unsubscribe/preferences and sender footer. Not final sendable HTML.]
+[Production: retain verified functional unsubscribe/preferences and sender footer.]

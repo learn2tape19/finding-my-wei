@@ -8,7 +8,7 @@ For every week: email sender/reply-to and consent boundary follow RELAUNCH_PLAN.
 
 ## SR01 — Monday October 26 — Original Issue No. 001
 
-**Internal mapping only:** Original cycle The Invisible Beginning; anchor The Permission Question: Before You Touch Anything, Ask Yourself This. **Public reflection title:** Leave room for a different answer. **Version:** v02 — voice and framing revision; wording unapproved.
+**Internal mapping only:** Original cycle The Invisible Beginning; anchor The Permission Question: Before You Touch Anything, Ask Yourself This. **Public reflection title:** Leave room for a different answer. **Public publication:** Issue No. 017 — October 26, 2026. **Reflection:** v02 Founder-approved October 14; distribution treatments remain for review.
 
 ### New author reflection — full draft
 
@@ -34,7 +34,7 @@ Permission needs room for a different answer.
 **Subject:** Is there room for a different answer?  
 **Preheader:** Asking is part of the work. What happens next matters too.
 
-**The Tao of Clinical Touch**
+**The Tao of Clinical Touch · Issue No. 017 · October 26, 2026**
 
 **Leave room for a different answer**
 
@@ -71,7 +71,7 @@ The Permission Question is linked in my bio.
 
 ### Monday — Story sequence, frames 01–03
 
-1. **THE TAO OF CLINICAL TOUCH** / Leave room for a different answer.
+1. **THE TAO OF CLINICAL TOUCH · ISSUE No. 017** / Leave room for a different answer.
 2. **“LET ME KNOW IF YOU WANT SOMETHING DIFFERENT.”** / What happens when they do?
 3. **THE PERMISSION QUESTION** / Read the article. / [Verified native link or “Link in bio.”]
 
@@ -101,7 +101,7 @@ You're welcome to share an observation without identifying patient details. If y
 
 ### Artwork brief
 
-Monday headline **LEAVE ROOM FOR A DIFFERENT ANSWER**; Wednesday **WHAT HAPPENS WHEN THEY DO?**; Friday **PERMISSION NEEDS ROOM FOR A DIFFERENT ANSWER**. Public masthead: The Tao of Clinical Touch. Article title: The Permission Question. No Second Reading, original-issue, return, replay, recycled-material or new-article claims in new creative. Internal manifests retain SR01/ORIG001 lineage. Keep approved original image bytes unchanged; new compositions are separate files. Existing WP media 1239 remains the original featured image. Final visual direction/rendered artwork approval remains pending.
+Monday headline **LEAVE ROOM FOR A DIFFERENT ANSWER**; Wednesday **WHAT HAPPENS WHEN THEY DO?**; Friday **PERMISSION NEEDS ROOM FOR A DIFFERENT ANSWER**. Public masthead: The Tao of Clinical Touch · ISSUE No. 017. Article title: The Permission Question. No Second Reading, original-issue, return, replay, recycled-material or new-article claims in new creative. Internal manifests retain SR01/ORIG001 lineage. Keep approved original image bytes unchanged; new compositions are separate files. Existing WP media 1239 remains the original featured image. Final visual direction/rendered artwork approval remains pending.
 
 ## SR02 — Monday November 2 — Original Issue No. 002
 
