@@ -1,0 +1,35 @@
+{
+  "publication": "Issue No. 017",
+  "planned_date": "2026-10-26",
+  "internal_id": "SR01",
+  "approval_owner": "Drew Freedman, Founder",
+  "recorded_at": "2026-10-14T08:04:08-04:00",
+  "approval_evidence": "Direct user reply visuals approevd to explicit request to approve the two displayed rendered visuals",
+  "reviewed_source_commit": "79fcd9a01ff270b636cde7f6c6e47fa29ced0384",
+  "scope": "Exact Monday Feed 1080x1350 and Landscape 1200x628 rendered files",
+  "approved_files": [
+    {
+      "file": "ISSUE017_MON_FEED_1080x1350_v01_REVIEW.png",
+      "role": "FEED",
+      "dimensions": [
+        1080,
+        1350
+      ],
+      "sha256": "5a1104cb1407dbf99c26f0a8faa97e882c15fd6abb1e05236d2e53cf6343fbea"
+    },
+    {
+      "file": "ISSUE017_MON_LANDSCAPE_1200x628_v01_REVIEW.png",
+      "role": "LANDSCAPE",
+      "dimensions": [
+        1200,
+        628
+      ],
+      "sha256": "1561169eb9689118f8f9b40df11be498fa211041c4cc6bfd23381db95397d886"
+    }
+  ],
+  "file_bytes_changed": false,
+  "filenames_preserved": true,
+  "release_authorized": false,
+  "platform_writes": 0,
+  "other_limits": "Does not approve remaining distribution wording, audience/timing, independent reviews, platform drafts, native Story link or later-week assets; no merge/publish/schedule/send authorization"
+}

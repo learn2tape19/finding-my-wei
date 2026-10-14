@@ -21,7 +21,7 @@ Source version reviewed for direction: `7549f0e3fbf054a9aebbaa55fa21089e189f8fce
 | Scientific review | PENDING |
 | Distinct editorial review | PENDING |
 | Founder exact reflection/email/social/Story copy | Reflection v02 APPROVED; rendered Story wording in v02 composite APPROVED; other distribution copy pending |
-| Final production specifications and rendered assets | v02 storyboard and all three exact 1080×1920 Story exports APPROVED; other assets pending |
+| Final production specifications and rendered assets | Monday: 3 Stories + Feed 1080×1350 + Landscape 1200×628 APPROVED; later-week visuals pending |
 | Phase 7A completeness, hashes and remote approved-asset verification | OPEN for full issue; three Story exports approved and hash-verified; other required roles incomplete |
 | Audience eligibility/count and exact timing | PENDING |
 | Platform drafts/readback | NOT CREATED |
@@ -49,3 +49,8 @@ Founder approved the three rendered frames presented at source commit `b8b9ef32c
 ## Monday Feed/Landscape production authorized
 
 Founder said ready to producing these next visuals. Independent v01 candidates and hashes are in `ISSUE_017/MONDAY_FEED_LANDSCAPE_v01/`; exact rendered approval remains pending.
+
+
+## Monday Feed and Landscape approved
+
+Founder approved both exact files at source commit `79fcd9a01ff270b636cde7f6c6e47fa29ced0384`. Scope, dimensions and hashes: `ISSUE_017/MONDAY_FEED_LANDSCAPE_v01/FINAL_VISUAL_APPROVAL.json`. Monday now has five approved masters, all preserved unchanged. Full issue remains incomplete: later-week assets, final distribution copy, audience/timing, required reviews, platform verification and release remain pending.

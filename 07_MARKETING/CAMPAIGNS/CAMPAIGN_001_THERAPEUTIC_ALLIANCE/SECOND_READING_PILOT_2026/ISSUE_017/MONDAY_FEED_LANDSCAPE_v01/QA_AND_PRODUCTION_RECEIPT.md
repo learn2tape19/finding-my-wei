@@ -11,3 +11,8 @@ Source images preserved in SOURCE_GENERATIONS. Export uses proportional resampli
 No WordPress/Buffer/Brevo/GA4 write, scheduling, send, publication or merge performed. Final exact-version Founder approval, remaining copy/reviews/audience/timing and release remain pending.
 
 Final QA readback: sips independently confirms Feed 1080×1350 and Landscape 1200×628, matching PNG IHDR. Both exact final exports visually inspected: all masthead/issue/title words and punctuation correct, readable contrast, no clipped text or unwanted anatomy/people/droplet/enso. No stretch. Exact rendered Founder approval remains pending.
+
+
+## Final rendered approval
+
+Founder approved both exact displayed exports October 14, 2026. See FINAL_VISUAL_APPROVAL.json. SHA-256 and PNG dimensions reverified unchanged; historical REVIEW filenames retained. Earlier pending language above describes the prior stage and is superseded for these two files only. No production platform action or release authorized.

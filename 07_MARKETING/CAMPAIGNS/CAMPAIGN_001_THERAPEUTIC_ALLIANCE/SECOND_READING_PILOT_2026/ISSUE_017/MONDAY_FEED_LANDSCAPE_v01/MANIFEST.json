@@ -11,8 +11,10 @@
       1122,
       1402
     ],
-    "status": "REVIEW \u2014 FOUNDER RENDERED APPROVAL PENDING",
-    "export": "Proportional resample; minimal center edge crop if needed; no stretch"
+    "status": "FOUNDER APPROVED \u2014 EXACT RENDERED FILE",
+    "export": "Proportional resample; minimal center edge crop if needed; no stretch",
+    "approval_owner": "Drew Freedman",
+    "approval_record": "FINAL_VISUAL_APPROVAL.json"
   },
   {
     "role": "LANDSCAPE",
@@ -26,7 +28,9 @@
       1734,
       907
     ],
-    "status": "REVIEW \u2014 FOUNDER RENDERED APPROVAL PENDING",
-    "export": "Proportional resample; minimal center edge crop if needed; no stretch"
+    "status": "FOUNDER APPROVED \u2014 EXACT RENDERED FILE",
+    "export": "Proportional resample; minimal center edge crop if needed; no stretch",
+    "approval_owner": "Drew Freedman",
+    "approval_record": "FINAL_VISUAL_APPROVAL.json"
   }
 ]

@@ -30,6 +30,11 @@
     "sha256": "d97d1e6310672c3a18d47a4fb00e02016c899bb6f42f3da0d2eb038654d781e4"
   },
   {
+    "file": "ISSUE_017/MONDAY_FEED_LANDSCAPE_v01/FINAL_VISUAL_APPROVAL.json",
+    "bytes": 1298,
+    "sha256": "b50b9157ee25ec09c963beffd4e2e066e982bd2980b0fd99ff712fe5c155c669"
+  },
+  {
     "file": "ISSUE_017/MONDAY_FEED_LANDSCAPE_v01/ISSUE017_MON_FEED_1080x1350_v01_REVIEW.png",
     "bytes": 1517439,
     "sha256": "5a1104cb1407dbf99c26f0a8faa97e882c15fd6abb1e05236d2e53cf6343fbea"
@@ -41,13 +46,13 @@
   },
   {
     "file": "ISSUE_017/MONDAY_FEED_LANDSCAPE_v01/MANIFEST.json",
-    "bytes": 864,
-    "sha256": "58cee9ee4bd653cd169a094f9323e073796ddbd3a1d2c9bc489ea80a47b46a6e"
+    "bytes": 1040,
+    "sha256": "a3ac90a2fdede6fbb01d07cdb607147c8b28d1053838dd23dabad3b4058146d1"
   },
   {
     "file": "ISSUE_017/MONDAY_FEED_LANDSCAPE_v01/QA_AND_PRODUCTION_RECEIPT.md",
-    "bytes": 1840,
-    "sha256": "5fef636b50d48b87f1ce8393fdde14a453a522f2e9f88c90a99994e4de5827bc"
+    "bytes": 2207,
+    "sha256": "344ba3ef453faba7acf9c3ae42521278d11ff6a4991257852668d1c054ec4242"
   },
   {
     "file": "ISSUE_017/MONDAY_FEED_LANDSCAPE_v01/SOURCE_GENERATIONS/ISSUE017_MON_FEED_SOURCE_v01.png",
@@ -126,13 +131,13 @@
   },
   {
     "file": "SR01_APPROVAL_RECORD.md",
-    "bytes": 4558,
-    "sha256": "41a88cc730cbac575be34904e13fd2e09be9b520da348c4c3786f7877e79d1e0"
+    "bytes": 5017,
+    "sha256": "64b5ee1eb39b6699159b87f3ac04c69fc480475a9e7cbf475cc384049261def0"
   },
   {
     "file": "TRACKING_AND_QA.md",
-    "bytes": 11857,
-    "sha256": "23742085a8e842badc057ce82a13c9d366acbf4ce910c38651a8e3f46246a250"
+    "bytes": 11852,
+    "sha256": "6a6bb95e018f6fda0c1b5a2e99492f2a613ba4dccb4cb9853b372b37a0c99d61"
   },
   {
     "file": "asset_inventory.csv",
