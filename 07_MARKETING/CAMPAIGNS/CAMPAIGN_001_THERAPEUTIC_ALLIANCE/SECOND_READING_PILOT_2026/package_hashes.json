@@ -1,5 +1,15 @@
 [
   {
+    "file": "DRAFT_STORYBOARDS/ISSUE017_MON_STORYBOARD_v01_DRAFT.png",
+    "bytes": 1383381,
+    "sha256": "51a070e909635d21d6d67dbaeab828b84b4abb42fde05f63bf8cc8dfa6ca47cf"
+  },
+  {
+    "file": "DRAFT_STORYBOARDS/README.md",
+    "bytes": 821,
+    "sha256": "74f4adb618e0ffa930738d413f3e87d0d10c92c02c3d830fd370cec94e412be8"
+  },
+  {
     "file": "GITHUB_CONTINUITY_AUDIT.md",
     "bytes": 6162,
     "sha256": "82b0e836e690c9bce5411026884a2d37af2bf1f7e088e1f0e8a2fd782bd209e7"
