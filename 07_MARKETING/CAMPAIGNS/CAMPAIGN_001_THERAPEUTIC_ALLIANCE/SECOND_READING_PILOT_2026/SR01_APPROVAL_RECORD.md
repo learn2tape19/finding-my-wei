@@ -34,3 +34,8 @@ This is a campaign record under existing governance, not a separate approval sys
 ## October 14: v02 ripple storyboard approved
 
 Exact approved composite: `DRAFT_STORYBOARDS/ISSUE017_MON_STORYBOARD_v02_RIPPLE_DRAFT.png`, SHA-256 `362e31b3c84c408f991f4d706352480faf713e88633a468a2a4797df3dbcea40`, source commit `ad0971fbdcd3e52b42811e48ff99240f8a937dc3`. Approval covers the shown sequence, rendered wording and visual treatment. Its DRAFT filename is preserved. This does not approve the unrendered platform assets or authorize deployment.
+
+
+## Individual Story production authorized
+
+Founder replied “approved” to proceeding from the approved storyboard to three individual Story frames. Candidates are in `ISSUE_017/STORY_CANDIDATES_v01/`; source generations preserved, final exports 1080×1920, exact image hashes in MANIFEST.json. Newly rendered files require final visual approval. No release authorization inferred.

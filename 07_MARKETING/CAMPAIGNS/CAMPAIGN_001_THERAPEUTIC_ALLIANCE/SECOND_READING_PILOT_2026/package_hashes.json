@@ -30,6 +30,46 @@
     "sha256": "d97d1e6310672c3a18d47a4fb00e02016c899bb6f42f3da0d2eb038654d781e4"
   },
   {
+    "file": "ISSUE_017/STORY_CANDIDATES_v01/ISSUE017_MON_STORY01_1080x1920_v01_REVIEW.png",
+    "bytes": 1936299,
+    "sha256": "41c0f25f08d2bbe4b0b668dce6ae139a7823d168bab0df76004df39017f71b20"
+  },
+  {
+    "file": "ISSUE_017/STORY_CANDIDATES_v01/ISSUE017_MON_STORY02_1080x1920_v01_REVIEW.png",
+    "bytes": 2038952,
+    "sha256": "d8c316b8f647791adf22606c39ec62103dbb34b05d72b13d48e5e36f9272e6c9"
+  },
+  {
+    "file": "ISSUE_017/STORY_CANDIDATES_v01/ISSUE017_MON_STORY03_1080x1920_v01_REVIEW.png",
+    "bytes": 1981975,
+    "sha256": "18e6dbbc58fd8088fe7edd4181826a61e103b3bf3c0d3fc70a2ee501b9a67579"
+  },
+  {
+    "file": "ISSUE_017/STORY_CANDIDATES_v01/MANIFEST.json",
+    "bytes": 1359,
+    "sha256": "5572f8e93019b3da9a7123f4e90888b046c235d9292ed4aa769f3a59a6d524b7"
+  },
+  {
+    "file": "ISSUE_017/STORY_CANDIDATES_v01/QA_AND_PRODUCTION_RECEIPT.md",
+    "bytes": 2133,
+    "sha256": "cf09138074316e6361be5ff44f7a67ce0e4bd3d3c391994f3f7b2d2349b59c99"
+  },
+  {
+    "file": "ISSUE_017/STORY_CANDIDATES_v01/SOURCE_GENERATIONS/ISSUE017_MON_STORY01_SOURCE_v01.png",
+    "bytes": 1553080,
+    "sha256": "de2138fa413f7138786d053064f489a1c4dac7451defd4a140ed3270984be4e7"
+  },
+  {
+    "file": "ISSUE_017/STORY_CANDIDATES_v01/SOURCE_GENERATIONS/ISSUE017_MON_STORY02_SOURCE_v01.png",
+    "bytes": 1612343,
+    "sha256": "54fbf56bc99b92a21861551a6da7afa636206bcd9962739d7a46583f19d31b55"
+  },
+  {
+    "file": "ISSUE_017/STORY_CANDIDATES_v01/SOURCE_GENERATIONS/ISSUE017_MON_STORY03_SOURCE_v01.png",
+    "bytes": 1574674,
+    "sha256": "66fbf0a62ff5bd7139429b4c4705e981bbceac2f9d3b4f59008e9d09961011c0"
+  },
+  {
     "file": "ISSUE_AUDIT.md",
     "bytes": 14741,
     "sha256": "1706d75d99744a7423e4c1dbf5756024c3ddba0999be0aa0371bf6f6f910fdc6"
@@ -51,8 +91,8 @@
   },
   {
     "file": "SR01_APPROVAL_RECORD.md",
-    "bytes": 3551,
-    "sha256": "6798cbac3a9b1a493781975ec607ec26c1e72ab3bca0d4d7d3771e4aacdaf43c"
+    "bytes": 3937,
+    "sha256": "b860379c9e12d1f63a09b3dc333992ec00a80fd6182ac683ee85761cbe3f3ca6"
   },
   {
     "file": "TRACKING_AND_QA.md",
