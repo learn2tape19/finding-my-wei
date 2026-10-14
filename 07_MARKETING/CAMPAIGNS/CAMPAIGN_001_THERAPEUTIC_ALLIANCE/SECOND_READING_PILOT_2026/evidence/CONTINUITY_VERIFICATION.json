@@ -15,7 +15,7 @@
   "production_verification": "NOT PERFORMED; no production execution authorized",
   "merge_authorized": false,
   "release_authorized": false,
-  "remote_preservation": "BLOCKED: native Git push failed because HTTPS credentials are unavailable; gh auth status confirms signed out",
+  "remote_preservation": "VERIFIED: review branch pushed to existing canonical GitHub repository; main unchanged",
   "reviewed_files": [
     {
       "path": "00_Constitution/DECISIONS/DR-2026-10-14-TAO-SECOND-READING-GITHUB-CONTINUITY.md",
@@ -200,11 +200,21 @@
   ],
   "manifest_note": "package_hashes.json hashes the package including this receipt; it is not included in receipt file hashes to avoid a circular digest",
   "continuity_documentation_commit": "f4a478d9a852a26904fc09b3d71b29083e241388",
-  "push_attempt": {
+  "working_tree_at_initial_review": "clean",
+  "remote_main_at_fetch": "273535f9e6e45879c225048aa3177247df4e871d",
+  "prior_failed_push_attempt": {
     "command": "git push -u origin codex/tao-second-reading-pilot",
     "result": "failed before upload: could not read Username for https://github.com",
     "remote_branch_verified": false
   },
-  "working_tree_at_initial_review": "clean",
-  "remote_main_at_fetch": "273535f9e6e45879c225048aa3177247df4e871d"
+  "successful_push_verification": {
+    "package_commit": "ef237fc5678899dd211d9eb3e562c10cafcc1ecb",
+    "remote_branch_sha": "ef237fc5678899dd211d9eb3e562c10cafcc1ecb",
+    "remote_main_sha": "273535f9e6e45879c225048aa3177247df4e871d",
+    "method": "git ls-remote plus independent GitHub contents API read",
+    "remote_readme_blob_sha": "63c6ec5f9f2bbab30d04acebc05669f24992a1d3",
+    "local_readme_blob_sha": "63c6ec5f9f2bbab30d04acebc05669f24992a1d3",
+    "merge_performed": false,
+    "production_execution_performed": false
+  }
 }
