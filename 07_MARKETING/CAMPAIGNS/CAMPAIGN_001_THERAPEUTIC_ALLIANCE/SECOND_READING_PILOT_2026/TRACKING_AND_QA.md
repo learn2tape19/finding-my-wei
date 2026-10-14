@@ -46,11 +46,11 @@ Use four equal seven-day exposure windows from each Monday 00:00 through Sunday 
 
 Book orders remain a secondary observation. There is no spend, paid campaign or ROAS target in this pilot.
 
-## Approval ledger — all pending
+## Approval ledger — bounded SR01 direction approval recorded
 
 | Gate | Required evidence | Approver / status |
 |---|---|---|
-| 0: Direction | Exact original mapping, new purpose, cadence exception, format choice, audience boundary | Drew — PENDING |
+| 0: Direction | Exact original mapping, new purpose, cadence exception, format choice, audience boundary | SR01 anchor/emphasis and presented cadence APPROVED by Drew Oct 14; see SR01_APPROVAL_RECORD.md. Final format/audience details remain pending. SR02–SR04 direction pending |
 | 1: Scientific | Review old/new distinction; flag historical overstated physiology; confirm new copy does not diagnose or replace consent | Named scientific reviewer — PENDING |
 | 2: Editorial | Distinct reviewer; voice, continuity, source fidelity, no invented personal history | Named editorial reviewer — PENDING |
 | 3: Founder copy | Exact reflection, subject, preheader, caption, Story and CTA versions | Drew — PENDING |

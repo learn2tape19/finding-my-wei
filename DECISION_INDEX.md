@@ -24,6 +24,8 @@ Major decisions made across all projects, with rationale and context.
 
 ### Second Reading GitHub continuity — October 14, 2026
 
+Related direction decision: [SR01 October 26 direction approval](00_Constitution/DECISIONS/DR-2026-10-14-TAO-SR01-DIRECTION.md) — anchor, emphasis and presented SR01 cadence approved; copy, visuals, audience/timing and release remain pending. No approval of later weeks.
+
 **Decision:** Existing Finding My Wei GitHub repository remains mandatory canonical authority; Second Reading inherits its editorial workflow, publishing control plane, original-source preservation and Founder gates.
 **Authority/status:** Explicit Founder instruction; active at Tao Second Reading scope. Reviewed branch push authorized; merge and relaunch release are not.
 **Record:** [DR-2026-10-14-TAO-SECOND-READING-GITHUB-CONTINUITY](00_Constitution/DECISIONS/DR-2026-10-14-TAO-SECOND-READING-GITHUB-CONTINUITY.md).

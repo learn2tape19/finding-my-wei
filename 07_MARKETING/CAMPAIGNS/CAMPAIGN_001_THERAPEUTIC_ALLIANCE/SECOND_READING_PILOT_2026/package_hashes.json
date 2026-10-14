@@ -16,8 +16,8 @@
   },
   {
     "file": "README.md",
-    "bytes": 4911,
-    "sha256": "f1b536641b484841cc95fe4e7ee1e7458c74da4c44e019c0462c6f4043abe075"
+    "bytes": 5192,
+    "sha256": "5634d18577f00d4adb22665d43e930873214db0f18391a00ff3ef6aaf51b6970"
   },
   {
     "file": "RELAUNCH_PLAN.md",
@@ -25,9 +25,14 @@
     "sha256": "bf832d2841bc4e5aa2a67dac1882405e935155c2fc5918f00559c2334f4a7c19"
   },
   {
+    "file": "SR01_APPROVAL_RECORD.md",
+    "bytes": 1355,
+    "sha256": "4c1cf35b41cd5c6d0fc8d19f592fa73dc39dd0ef611313463c29c93e1f57cca6"
+  },
+  {
     "file": "TRACKING_AND_QA.md",
-    "bytes": 11195,
-    "sha256": "de56f7f854131cb7338cd1d1eb61613f9846f5bb8ce33bc4bade26aef3617716"
+    "bytes": 11380,
+    "sha256": "0189b9d3c4b22c76155113f7984653d4b9c5fca1b908a5dfdf8b689bae129c42"
   },
   {
     "file": "asset_inventory.csv",

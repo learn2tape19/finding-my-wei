@@ -2,6 +2,8 @@
 
 Prepared October 14, 2026. **DRAFT FOR FOUNDER REVIEW — NO RELEASE AUTHORITY.**
 
+**SR01 update:** Drew approved October 26 direction and the presented weekly cadence on October 14. [Approval record](SR01_APPROVAL_RECORD.md). Exact copy, required reviews, visuals, final audience/timing and release remain pending. SR02–SR04 are not approved by this decision.
+
 **Mandatory GitHub continuity:** `learn2tape19/finding-my-wei` is canonical. This area is a campaign package governed by the existing standards, not a parallel editorial operating system. See [continuity audit and standards mapping](GITHUB_CONTINUITY_AUDIT.md) and the [Founder decision](../../../../00_Constitution/DECISIONS/DR-2026-10-14-TAO-SECOND-READING-GITHUB-CONTINUITY.md). The numbered pilot checklist does not replace existing gates. Approved originals and canonical articles remain in their existing locations.
 
 `PILOT_COPY.md` is the unapproved reflection/treatment working source. `emails/` are derived review exports; reconcile them after source edits. Evidence snapshots are historical readbacks, not replacement canonical manuscripts. Continuity approval does not approve pilot direction, cadence, copy, assets, audience or release.
