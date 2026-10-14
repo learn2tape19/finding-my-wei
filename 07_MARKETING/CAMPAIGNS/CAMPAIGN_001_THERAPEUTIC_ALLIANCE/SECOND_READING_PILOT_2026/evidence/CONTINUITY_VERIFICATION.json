@@ -15,11 +15,11 @@
   "production_verification": "NOT PERFORMED; no production execution authorized",
   "merge_authorized": false,
   "release_authorized": false,
-  "remote_preservation": "PENDING push and independent readback",
+  "remote_preservation": "BLOCKED: native Git push failed because HTTPS credentials are unavailable; gh auth status confirms signed out",
   "reviewed_files": [
     {
       "path": "00_Constitution/DECISIONS/DR-2026-10-14-TAO-SECOND-READING-GITHUB-CONTINUITY.md",
-      "sha256": "a567fefc4564559276778b33b173101cb2c307cd07c257e4c0bad3097d4c163a"
+      "sha256": "d9c8efaf768209bfe809a44febe0abc570701954f620f6bf593c1636d0beac18"
     },
     {
       "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/PUBLICATION_INDEX.md",
@@ -198,5 +198,13 @@
       "sha256": "d4307e3b871921112cb41437ae37372cd03fc14260d42680b23f9e8bbd46a212"
     }
   ],
-  "manifest_note": "package_hashes.json hashes the package including this receipt; it is not included in receipt file hashes to avoid a circular digest"
+  "manifest_note": "package_hashes.json hashes the package including this receipt; it is not included in receipt file hashes to avoid a circular digest",
+  "continuity_documentation_commit": "f4a478d9a852a26904fc09b3d71b29083e241388",
+  "push_attempt": {
+    "command": "git push -u origin codex/tao-second-reading-pilot",
+    "result": "failed before upload: could not read Username for https://github.com",
+    "remote_branch_verified": false
+  },
+  "working_tree_at_initial_review": "clean",
+  "remote_main_at_fetch": "273535f9e6e45879c225048aa3177247df4e871d"
 }

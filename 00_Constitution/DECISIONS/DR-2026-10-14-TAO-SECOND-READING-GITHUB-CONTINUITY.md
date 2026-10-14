@@ -1,9 +1,9 @@
 # Tao Second Reading: mandatory GitHub continuity
 
-**ID:** DR-2026-10-14-TAO-SECOND-READING-GITHUB-CONTINUITY  
-**Date:** October 14, 2026  
-**Decision owner:** Drew Freedman, Founder  
-**Status:** Active — explicitly directed by Founder in the October 14 Second Reading conversation  
+**ID:** DR-2026-10-14-TAO-SECOND-READING-GITHUB-CONTINUITY
+**Date:** October 14, 2026
+**Decision owner:** Drew Freedman, Founder
+**Status:** Active — explicitly directed by Founder in the October 14 Second Reading conversation
 **Scope:** Tao Second Reading work and its preservation inside Finding My Wei; no institution-wide promotion beyond existing authority.
 
 ## Context
