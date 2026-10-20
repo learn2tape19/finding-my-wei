@@ -1,0 +1,2281 @@
+{
+  "inspected_commit": "adcf1ae445bcd4394f59ea8299a94191e88e3cb0",
+  "recorded_date": "2026-10-20",
+  "issues": [
+    {
+      "issue": "007",
+      "theme": "Permission Over Time",
+      "candidate_files": [
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_007/APPROVED_ASSETS/FRIDAY/ISSUE007_FRI_BLOGOG_1200x628.jpg",
+          "git_blob_sha": "600ac23d0e805a9763f08353c565090149b38986",
+          "size": 125238
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_007/APPROVED_ASSETS/FRIDAY/ISSUE007_FRI_EMAILHEADER_1200x627.jpg",
+          "git_blob_sha": "6302edd8d33e1a42f479a03de52681196de665f2",
+          "size": 132499
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_007/APPROVED_ASSETS/FRIDAY/ISSUE007_FRI_FEED_1080x1350.jpg",
+          "git_blob_sha": "b5cdf7a4cffc4b48dfcdf717e0c6bc16c4d5b66c",
+          "size": 191714
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_007/APPROVED_ASSETS/FRIDAY/ISSUE007_FRI_STORY_FRAME01_1080x1920.jpg",
+          "git_blob_sha": "5487c933cb82c4e0f25db994f0e5bed131052c76",
+          "size": 257370
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_007/APPROVED_ASSETS/FRIDAY/ISSUE007_FRI_STORY_FRAME02_1080x1920.jpg",
+          "git_blob_sha": "4fc3075ad26e6c2ecb3b8bd5d2bd23fb3c8f5b13",
+          "size": 258558
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_007/APPROVED_ASSETS/FRIDAY/ISSUE007_FRI_STORY_FRAME03_1080x1920.jpg",
+          "git_blob_sha": "35307d962a3654210e86491132af544eeb3e4c0f",
+          "size": 259667
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_007/APPROVED_ASSETS/THURSDAY/ISSUE007_THU_BLOGOG_1200x628.jpg",
+          "git_blob_sha": "ed4abbbf297d960b65d45ae1fe8f2798abda0c2b",
+          "size": 128328
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_007/APPROVED_ASSETS/THURSDAY/ISSUE007_THU_EMAILHEADER_1200x627.jpg",
+          "git_blob_sha": "b0c427778c22a69ddb96057a1fdf768374ebde8c",
+          "size": 138345
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_007/APPROVED_ASSETS/THURSDAY/ISSUE007_THU_FEED_1080x1350.jpg",
+          "git_blob_sha": "4cd1f956393e5af61611b454d6c46fc48647a35a",
+          "size": 216370
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_007/APPROVED_ASSETS/THURSDAY/ISSUE007_THU_STORY_FRAME01_1080x1920.jpg",
+          "git_blob_sha": "c76a2fcc56858fb80c1c72c8e434aa113fdb9f6a",
+          "size": 281718
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_007/APPROVED_ASSETS/THURSDAY/ISSUE007_THU_STORY_FRAME02_1080x1920.jpg",
+          "git_blob_sha": "04ba724d6d57a4f75a89aec97cdcb70651b4e9d7",
+          "size": 266854
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_007/APPROVED_ASSETS/THURSDAY/ISSUE007_THU_STORY_FRAME03_1080x1920.jpg",
+          "git_blob_sha": "f56ae0f3f116579d65907775431a2bf3f8d51806",
+          "size": 277550
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_007/APPROVED_ASSETS/WEDNESDAY/ISSUE007_WED_BLOGOG_1200x628.jpg",
+          "git_blob_sha": "d950d5df2afdeb829f4119c6eaaf8553249866fe",
+          "size": 80452
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_007/APPROVED_ASSETS/WEDNESDAY/ISSUE007_WED_EMAILHEADER_1200x627.jpg",
+          "git_blob_sha": "ee18923a413c8d1285acd3566d45ab427b817e29",
+          "size": 100298
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_007/APPROVED_ASSETS/WEDNESDAY/ISSUE007_WED_FEED_1080x1350.jpg",
+          "git_blob_sha": "426deb0e045b794c0cddcfff0c6f0394bed1f5b2",
+          "size": 170051
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_007/APPROVED_ASSETS/WEDNESDAY/ISSUE007_WED_STORY_FRAME01_1080x1920.jpg",
+          "git_blob_sha": "00b7ead31c8e7b1d12fc7eb420dd05cfdc8ad0c5",
+          "size": 160891
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_007/APPROVED_ASSETS/WEDNESDAY/ISSUE007_WED_STORY_FRAME02_1080x1920.jpg",
+          "git_blob_sha": "b4c0e0a1199682acac825494d1084c6e9dacbab4",
+          "size": 158667
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_007/APPROVED_ASSETS/WEDNESDAY/ISSUE007_WED_STORY_FRAME03_1080x1920.jpg",
+          "git_blob_sha": "5547e801255779aa5ff188317716de0854932802",
+          "size": 164231
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_007/ASSET_IMPORT_INSTRUCTIONS.md",
+          "git_blob_sha": "bd1985de74444b3d184907fd1fd1de2400c4915f",
+          "size": 2764
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_007/CLAUDE_WED_FRI_EXECUTION_HANDOFF.md",
+          "git_blob_sha": "f5aa48d8685b2faaec4d72b0386fc112f0955502",
+          "size": 8861
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_007/FOUNDER_APPROVAL_GATE_0.md",
+          "git_blob_sha": "1ee5385d46a1adadaede42d10aeddb96eba8091a",
+          "size": 1897
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_007/FRIDAY/APPROVED_ASSET_MANIFEST.md",
+          "git_blob_sha": "45834e0d9968c07dde5efce5aef7fab8fb1e42c3",
+          "size": 1307
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_007/FRIDAY/FINAL_COPY_PACKAGE.md",
+          "git_blob_sha": "bd7d11b39e3f67497de6c9c68fead81463920396",
+          "size": 5910
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_007/THURSDAY/APPROVED_ASSET_MANIFEST.md",
+          "git_blob_sha": "b544692bc808762fe5a6c4e62f0f22a4f0409738",
+          "size": 1265
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_007/THURSDAY/FINAL_COPY_PACKAGE.md",
+          "git_blob_sha": "fdc0d0c88cf77b69a4dc72b02b7b4e903c9a4acc",
+          "size": 5594
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_007/WEDNESDAY/APPROVED_ASSET_MANIFEST.md",
+          "git_blob_sha": "f174b173724a279b73d13951813f3943ba392850",
+          "size": 1238
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_007/WEDNESDAY/CLAUDE_EXECUTION_HANDOFF.md",
+          "git_blob_sha": "548ada24d6b3a990602284a0df136ec92982833a",
+          "size": 6469
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_007/WEDNESDAY/EXECUTION_LESSON_BREVO_SCHEDULING.md",
+          "git_blob_sha": "2add73b9705d2ce4fcfdac2b82653b242f9c5344",
+          "size": 2015
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_007/WEDNESDAY/EXECUTION_RECEIPT.md",
+          "git_blob_sha": "1b2985e1c5f9baccce06f5142eafab66ba91d8b6",
+          "size": 5396
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_007/WEDNESDAY/FINAL_COPY_PACKAGE.md",
+          "git_blob_sha": "e51ccb00156770a12412cbe6d662d5fd6732d7c0",
+          "size": 4408
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_007/WEDNESDAY/WEDNESDAY_CANONICAL_SOURCE.md",
+          "git_blob_sha": "c2be4f5c7ff87deff463e97634fee73045a354db",
+          "size": 5065
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_007/WEDNESDAY/WEDNESDAY_COPY_PACKAGE.md",
+          "git_blob_sha": "71adc60c473059579212730f141251951c572d44",
+          "size": 6894
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_007/WEDNESDAY/WEDNESDAY_VISUAL_PRODUCTION_BRIEF.md",
+          "git_blob_sha": "fa44890902344a455e921cc0d1df547ab9ef30db",
+          "size": 7765
+        }
+      ],
+      "note": "Git blob identity, not a fresh SHA-256 or pixel QA. File presence alone is not approval."
+    },
+    {
+      "issue": "008",
+      "theme": "The Plan Must Be Allowed to Change",
+      "candidate_files": [
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_008/APPROVED_ASSETS/FRIDAY/ISSUE008_FRI_BLOGOG_1200x628.jpg",
+          "git_blob_sha": "d630b8a36c5a0a38449cb82c15a6ad72eb98affa",
+          "size": 288747
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_008/APPROVED_ASSETS/FRIDAY/ISSUE008_FRI_EMAILHEADER_1200x627.jpg",
+          "git_blob_sha": "17380dc042cd0a7e94d55c1c11bcd69a543e10db",
+          "size": 287261
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_008/APPROVED_ASSETS/FRIDAY/ISSUE008_FRI_FEED_1080x1350.jpg",
+          "git_blob_sha": "860ffac2513b0fc6c2be8a251c2f0803ff21e58c",
+          "size": 465421
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_008/APPROVED_ASSETS/FRIDAY/ISSUE008_FRI_STORY_FRAME01_1080x1920.jpg",
+          "git_blob_sha": "96782e408b500f19415fa17bba18a7ecf4602faf",
+          "size": 628911
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_008/APPROVED_ASSETS/FRIDAY/ISSUE008_FRI_STORY_FRAME02_1080x1920.jpg",
+          "git_blob_sha": "2bf25e688629c1046e57893ebd54afe23eedc1e5",
+          "size": 569921
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_008/APPROVED_ASSETS/FRIDAY/ISSUE008_FRI_STORY_FRAME03_1080x1920.jpg",
+          "git_blob_sha": "25df23a8e1294d9c9f88994c54e3f1b3080d2ab3",
+          "size": 552468
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_008/APPROVED_ASSETS/ISSUE008_TUE_FRI_MASTER_MANIFEST.json",
+          "git_blob_sha": "cb0afbcaf1dd03fcdb95ff62bc48a9412302494a",
+          "size": 5614
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_008/APPROVED_ASSETS/MONDAY/ISSUE008_MON_BLOGOG_1200x628.png",
+          "git_blob_sha": "9560a0449d80831d6b94d81e1c2d8f82592983c8",
+          "size": 1029132
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_008/APPROVED_ASSETS/MONDAY/ISSUE008_MON_EMAILHEADER_1200x627.png",
+          "git_blob_sha": "2c4c543c3e62c86bccc66af68b99df440cb7ff1d",
+          "size": 1019413
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_008/APPROVED_ASSETS/MONDAY/ISSUE008_MON_FEED_1080x1350.png",
+          "git_blob_sha": "be7a64144a0edc004b40c46d9632098bb67db70b",
+          "size": 1809103
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_008/APPROVED_ASSETS/MONDAY/ISSUE008_MON_STORY_FRAME01_1080x1920.png",
+          "git_blob_sha": "23f6aa33fe14ad1b9e906e47ab60b97b2c5d07bf",
+          "size": 2512542
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_008/APPROVED_ASSETS/MONDAY/ISSUE008_MON_STORY_FRAME02_1080x1920.png",
+          "git_blob_sha": "b23827a842d86cffc3f19472122c65a51ec27a76",
+          "size": 2380535
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_008/APPROVED_ASSETS/MONDAY/ISSUE008_MON_STORY_FRAME03_1080x1920.png",
+          "git_blob_sha": "2dc4eba81517c1862b3601da1882fb83c0db0cc8",
+          "size": 2319434
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_008/APPROVED_ASSETS/THURSDAY/ISSUE008_THU_BLOGOG_1200x628.jpg",
+          "git_blob_sha": "9b685119e6a476efd0ad9de024f9429daa996367",
+          "size": 274242
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_008/APPROVED_ASSETS/THURSDAY/ISSUE008_THU_EMAILHEADER_1200x627.jpg",
+          "git_blob_sha": "2806a85a8354dfa2c296733e6419706b20c49084",
+          "size": 278108
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_008/APPROVED_ASSETS/THURSDAY/ISSUE008_THU_FEED_1080x1350.jpg",
+          "git_blob_sha": "02e60046a0e1c97ace859bc2c8c93f217309ca0e",
+          "size": 452292
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_008/APPROVED_ASSETS/THURSDAY/ISSUE008_THU_STORY_FRAME01_1080x1920.jpg",
+          "git_blob_sha": "5448a898a9c77c7c9b1cf45c030209ece12c10f7",
+          "size": 637177
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_008/APPROVED_ASSETS/THURSDAY/ISSUE008_THU_STORY_FRAME02_1080x1920.jpg",
+          "git_blob_sha": "e7b2face4964907c5a602c87c65486deb43234f9",
+          "size": 607840
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_008/APPROVED_ASSETS/THURSDAY/ISSUE008_THU_STORY_FRAME03_1080x1920.jpg",
+          "git_blob_sha": "a82c9250a6c7c0911f1cc2ca340050d423a49f86",
+          "size": 621748
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_008/APPROVED_ASSETS/TUESDAY/ISSUE008_TUE_BLOGOG_1200x628.jpg",
+          "git_blob_sha": "104442a1653d6db6a45d0483556bb961dd8a6245",
+          "size": 295759
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_008/APPROVED_ASSETS/TUESDAY/ISSUE008_TUE_EMAILHEADER_1200x627.jpg",
+          "git_blob_sha": "ea88d228d04050de238c16462832428a771e4b81",
+          "size": 293344
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_008/APPROVED_ASSETS/TUESDAY/ISSUE008_TUE_FEED_1080x1350.jpg",
+          "git_blob_sha": "b56755bd7588ad09f478d937d8a74dadb1222ab0",
+          "size": 507174
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_008/APPROVED_ASSETS/TUESDAY/ISSUE008_TUE_STORY_FRAME01_1080x1920.jpg",
+          "git_blob_sha": "40b2b98aeebb545d02dae58618a3f1001e759db4",
+          "size": 466084
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_008/APPROVED_ASSETS/TUESDAY/ISSUE008_TUE_STORY_FRAME02_1080x1920.jpg",
+          "git_blob_sha": "ff48a709f193f309da314d8125a975ad5a3c8b07",
+          "size": 582425
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_008/APPROVED_ASSETS/TUESDAY/ISSUE008_TUE_STORY_FRAME03_1080x1920.jpg",
+          "git_blob_sha": "60dac98deadbdf30e25357cbcae56f599aab39db",
+          "size": 576770
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_008/APPROVED_ASSETS/WEDNESDAY/ISSUE008_WED_BLOGOG_1200x628.jpg",
+          "git_blob_sha": "8bf86e56d6b49dff7ea6d15a969260ebdf3d8963",
+          "size": 283499
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_008/APPROVED_ASSETS/WEDNESDAY/ISSUE008_WED_EMAILHEADER_1200x627.jpg",
+          "git_blob_sha": "ee1a3bf9a1e2c9992c3acd2d52cf7567d01e343b",
+          "size": 268307
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_008/APPROVED_ASSETS/WEDNESDAY/ISSUE008_WED_FEED_1080x1350.jpg",
+          "git_blob_sha": "734be1546f81f68c9352a63a2c912e6cb3d46540",
+          "size": 454516
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_008/APPROVED_ASSETS/WEDNESDAY/ISSUE008_WED_STORY_FRAME01_1080x1920.jpg",
+          "git_blob_sha": "2d82705c06f94a99b3e022e6a1dc20bfca03fc23",
+          "size": 614751
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_008/APPROVED_ASSETS/WEDNESDAY/ISSUE008_WED_STORY_FRAME02_1080x1920.jpg",
+          "git_blob_sha": "c2fe38abfc1b92b300703e9e85b9a5d454b37bb2",
+          "size": 611144
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_008/APPROVED_ASSETS/WEDNESDAY/ISSUE008_WED_STORY_FRAME03_1080x1920.jpg",
+          "git_blob_sha": "d70aaa856f71471edf82283eca46a181c6012404",
+          "size": 628659
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_008/CLAUDE_EXECUTION_HANDOFF.md",
+          "git_blob_sha": "cc951a317d22ad3bc7b82fbb68d64706a416b3e9",
+          "size": 4831
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_008/CLAUDE_EXECUTION_HOLD.md",
+          "git_blob_sha": "b2c9a22894defdb7a3ec38ac2c68fbdfaa65f7d3",
+          "size": 2482
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_008/EXECUTION_RECEIPT.md",
+          "git_blob_sha": "cc81479a3428ca5beabb7d9568ecc16b5d4a87e7",
+          "size": 17835
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_008/FOUNDER_EXECUTION_DIRECTIVE_FOR_CLAUDE.md",
+          "git_blob_sha": "1d8c11bd81b765b585b33bac3b059a91e3303ab6",
+          "size": 5332
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_008/FRIDAY/ASSET_MANIFEST.md",
+          "git_blob_sha": "630648adebdf192c80382a7348860c51d620230c",
+          "size": 1544
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_008/FRIDAY/FINAL_COPY.md",
+          "git_blob_sha": "677a594bdf6ba52e26c7d0aed429b83433d85283",
+          "size": 2152
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_008/ISSUE008_PRODUCTION_STATUS.md",
+          "git_blob_sha": "a67eebff90993ea5a4aba5ffa08db436eb1d4786",
+          "size": 2430
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_008/MONDAY/ASSET_MANIFEST.md",
+          "git_blob_sha": "d0250de487d27460bc6a70f2fb1ea74d4228d580",
+          "size": 1829
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_008/MONDAY/FINAL_COPY.md",
+          "git_blob_sha": "2e11d7a83c0018c3e4d50f85eb0f5c4ebaa2ce4f",
+          "size": 2359
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_008/THURSDAY/ASSET_MANIFEST.md",
+          "git_blob_sha": "6173105dae36f0cd434a101319f16a18c5b2bb7d",
+          "size": 1546
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_008/THURSDAY/FINAL_COPY.md",
+          "git_blob_sha": "1b7485992f3f75aef4c84b93d35b686fa6256f3f",
+          "size": 2006
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_008/TUESDAY/ASSET_MANIFEST.md",
+          "git_blob_sha": "2dd3e8d8096a67a75dfab8cf2829a4ceba5c9f24",
+          "size": 1545
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_008/TUESDAY/FINAL_COPY.md",
+          "git_blob_sha": "936549687b4393b65f45c37c1df7839b69fab380",
+          "size": 2251
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_008/WEDNESDAY/ASSET_MANIFEST.md",
+          "git_blob_sha": "6d6c149c75634029967c51c78ae4ddd9e06b6ed2",
+          "size": 1547
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_008/WEDNESDAY/BLOG_METADATA.md",
+          "git_blob_sha": "254a745b1ddaf3387a08192277ab086e94340aec",
+          "size": 1150
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_008/WEDNESDAY/CANONICAL_BLOG_ARTICLE.md",
+          "git_blob_sha": "ca2739f9ca70069ddc73b52e5d61272dae7ac14a",
+          "size": 5360
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_008/WEDNESDAY/EMAIL_COPY.md",
+          "git_blob_sha": "c73f804991dbc4754c6ac3a3ffb3a61006cd3d11",
+          "size": 1902
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_008/WEDNESDAY/FINAL_COPY.md",
+          "git_blob_sha": "4e6ce7975053fca1457e659dbb54a1fcad7e76af",
+          "size": 2145
+        }
+      ],
+      "note": "Git blob identity, not a fresh SHA-256 or pixel QA. File presence alone is not approval."
+    },
+    {
+      "issue": "009",
+      "theme": "Timing",
+      "candidate_files": [
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_009/APPROVED_ASSETS/ISSUE009_FRI_BLOG_1200x628.png",
+          "git_blob_sha": "b6ca19d266d4f5333dfd6a9d8126b3586769ced8",
+          "size": 908113
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_009/APPROVED_ASSETS/ISSUE009_FRI_EMAIL_1200x627.png",
+          "git_blob_sha": "c32df5824df2279f42e85dbacc0d700adaaad522",
+          "size": 974645
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_009/APPROVED_ASSETS/ISSUE009_FRI_FEED_1080x1350.png",
+          "git_blob_sha": "3efe79e1182bf051c93c9df18d347f999e9d127c",
+          "size": 1791694
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_009/APPROVED_ASSETS/ISSUE009_FRI_STORY1_1080x1920.png",
+          "git_blob_sha": "ce56c5ed8b78932c0d419faa67d1111f64ac1026",
+          "size": 2326747
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_009/APPROVED_ASSETS/ISSUE009_FRI_STORY2_1080x1920.png",
+          "git_blob_sha": "eec1c88c605232e8b230ad40231011ce98b5ef0e",
+          "size": 2171163
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_009/APPROVED_ASSETS/ISSUE009_FRI_STORY3_1080x1920.png",
+          "git_blob_sha": "afc557bbc39a141cea65336941f12ded6d43fbcb",
+          "size": 2320882
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_009/APPROVED_ASSETS/ISSUE009_MON_BLOG_1200x628.png",
+          "git_blob_sha": "9b5e2bc8a69b2d58887a64e3d16ef9b451244a2d",
+          "size": 971107
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_009/APPROVED_ASSETS/ISSUE009_MON_EMAIL_1200x627.png",
+          "git_blob_sha": "1c8b02b4aff4a6ea5ebefc646366a9f389258b30",
+          "size": 954894
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_009/APPROVED_ASSETS/ISSUE009_MON_FEED_1080x1350.png",
+          "git_blob_sha": "ef5bc7ff2618faefe0c6f3888ea315a338204db7",
+          "size": 1805835
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_009/APPROVED_ASSETS/ISSUE009_MON_STORY1_1080x1920.png",
+          "git_blob_sha": "d02e3a3b228c60e51efc80ab56fd16f616a9557e",
+          "size": 2143948
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_009/APPROVED_ASSETS/ISSUE009_MON_STORY2_1080x1920.png",
+          "git_blob_sha": "91bb1711767c92e66d0691a8cbefa4a18ac773c0",
+          "size": 2300342
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_009/APPROVED_ASSETS/ISSUE009_MON_STORY3_1080x1920.png",
+          "git_blob_sha": "35f1d0ee0bbc37fdd056b8cc85ec290c4c4cda43",
+          "size": 2393866
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_009/APPROVED_ASSETS/ISSUE009_THU_BLOG_1200x628.png",
+          "git_blob_sha": "fffc5ad1db8da57f817a8a42a624f6e1d00e7ff7",
+          "size": 945304
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_009/APPROVED_ASSETS/ISSUE009_THU_EMAIL_1200x627.png",
+          "git_blob_sha": "6892362c36ec7f0fc2e4e6de0aecbea2f63996e5",
+          "size": 1032958
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_009/APPROVED_ASSETS/ISSUE009_THU_FEED_1080x1350.png",
+          "git_blob_sha": "8a2a7e5c4e911d8dca1c7232d609dea37bd4df37",
+          "size": 1769675
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_009/APPROVED_ASSETS/ISSUE009_THU_STORY1_1080x1920.png",
+          "git_blob_sha": "d2193d6761f904bbeb2c19bbda97f0f18b65f9c6",
+          "size": 2265257
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_009/APPROVED_ASSETS/ISSUE009_THU_STORY2_1080x1920.png",
+          "git_blob_sha": "f278ce380c355243dd31efc2f5fc7abe04612946",
+          "size": 2309726
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_009/APPROVED_ASSETS/ISSUE009_THU_STORY3_1080x1920.png",
+          "git_blob_sha": "1589a55a8e5ca6bbb174122e1007b69c9dde1d6b",
+          "size": 2393663
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_009/APPROVED_ASSETS/ISSUE009_TUE_BLOG_1200x628.png",
+          "git_blob_sha": "499de9742df42d3ed1bac9a1d23e395abbdc56b3",
+          "size": 934324
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_009/APPROVED_ASSETS/ISSUE009_TUE_EMAIL_1200x627.png",
+          "git_blob_sha": "a6d25ce0e29eaa82b7acd959c2e61c4715ae1b03",
+          "size": 960371
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_009/APPROVED_ASSETS/ISSUE009_TUE_FEED_1080x1350.png",
+          "git_blob_sha": "5051fe36f42290d294678b3a7d4eeb7156535344",
+          "size": 1811864
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_009/APPROVED_ASSETS/ISSUE009_TUE_STORY1_1080x1920.png",
+          "git_blob_sha": "b4f94e5a4e4c3cc28b21c4b14206d99856265b9e",
+          "size": 2344443
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_009/APPROVED_ASSETS/ISSUE009_TUE_STORY2_1080x1920.png",
+          "git_blob_sha": "61727ec35bb75cc8e252887032b4f5b478849ed9",
+          "size": 2315651
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_009/APPROVED_ASSETS/ISSUE009_TUE_STORY3_1080x1920.png",
+          "git_blob_sha": "5b3d1ad4f528e78d22a0a124a808c504b0af84e5",
+          "size": 2332925
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_009/APPROVED_ASSETS/ISSUE009_WED_BLOG_1200x628.png",
+          "git_blob_sha": "a340fe6a59a3f6dbe4c72cea38d27c4b848e5725",
+          "size": 908178
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_009/APPROVED_ASSETS/ISSUE009_WED_EMAIL_1200x627.png",
+          "git_blob_sha": "f73b4eea12aafa1bcff438896a4f46ffb33a8921",
+          "size": 969847
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_009/APPROVED_ASSETS/ISSUE009_WED_FEED_1080x1350.png",
+          "git_blob_sha": "843ae23c03af2d9cd87584080564da2705ff5a59",
+          "size": 1755168
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_009/APPROVED_ASSETS/ISSUE009_WED_STORY1_1080x1920.png",
+          "git_blob_sha": "d843bce9dba7804dc28637848b7a84b0c14a1d08",
+          "size": 2334269
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_009/APPROVED_ASSETS/ISSUE009_WED_STORY2_1080x1920.png",
+          "git_blob_sha": "3e4fc7fa3bb0b2dc1f627e5dc7b6107aa120f876",
+          "size": 2474826
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_009/APPROVED_ASSETS/ISSUE009_WED_STORY3_1080x1920.png",
+          "git_blob_sha": "af29dcead6123d6a2d0e70779b93d6761db40947",
+          "size": 2479391
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_009/CLAUDE_ISSUE009_EXECUTION_HANDOFF.md",
+          "git_blob_sha": "95a18045a58e5d449ecf85700554874ae83f8a3f",
+          "size": 1754
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_009/ISSUE009_ASSET_MANIFEST.md",
+          "git_blob_sha": "3fd7581bd920cbb16310b3e305a5b792cd1711a8",
+          "size": 5147
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_009/ISSUE009_ASSET_VERIFICATION.md",
+          "git_blob_sha": "2934509b46c6e236152c9ff049d8349287c7a731",
+          "size": 847
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_009/ISSUE009_CHECKSUMS.sha256",
+          "git_blob_sha": "cc6cc429daf8ed5d6fbc7dfbc1c18e1db540fde8",
+          "size": 3445
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_009/ISSUE009_MASTER_COPY.md",
+          "git_blob_sha": "3fdfc41e135a6242103aab8e7f1a73585e717465",
+          "size": 4901
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_009/ISSUE009_PUBLISHING_SCHEDULE.md",
+          "git_blob_sha": "f6756449dd9d586c5e6abd202d36a6b4bc2a299d",
+          "size": 1427
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_009/ISSUE009_STORY_COPY_LOCK.md",
+          "git_blob_sha": "56ad13925672a3a1105ebcfd3595e733fae54fc4",
+          "size": 2919
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_009/PREFLIGHT_AND_EXECUTION_HOLD.md",
+          "git_blob_sha": "92f78b19d8817c28fdcfa6711d4349169ef8851c",
+          "size": 7421
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_009/SOURCE_APPROVED/FRI_BLOG__a_clean_elegant_graphic_banner_cover_art_for_a_pu.png",
+          "git_blob_sha": "cac4d4a970d7b2424e54f670de6e88b80f411f43",
+          "size": 1515461
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_009/SOURCE_APPROVED/FRI_EMAIL__a_clean_professional_editorial_poster_graphic_des.png",
+          "git_blob_sha": "60c3d071fd792e57cbf597eebcfb86725d36331f",
+          "size": 1698820
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_009/SOURCE_APPROVED/FRI_FEED__ISSUE009_FRI_FEED_REPLACEMENT_LOCKED.png",
+          "git_blob_sha": "d59ef7ca3aa44942acbed346d5c558e993a4e40d",
+          "size": 1747526
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_009/SOURCE_APPROVED/FRI_STORY1__ISSUE009_FRI_VERTICAL_1080x1920(1).png",
+          "git_blob_sha": "7fc6adbbf8898a1cf320388705ce040c29d4422f",
+          "size": 3201828
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_009/SOURCE_APPROVED/FRI_STORY2__a_clean_vertical_graphic_poster_instagram_story_s.png",
+          "git_blob_sha": "e5183f2d9b751060b7e9a790f380e2a0de36549e",
+          "size": 1470276
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_009/SOURCE_APPROVED/FRI_STORY3__a_clean_vertical_poster_graphic_design_image_with.png",
+          "git_blob_sha": "b09f7c3b89e1c086444ecd63c49c7048c6230acd",
+          "size": 1597418
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_009/SOURCE_APPROVED/MON_BLOG__a_wide_rectangular_poster_graphic_design_with_a_ca.png",
+          "git_blob_sha": "d383bac024c54b4a7ba48d5b2f4e6ec0543c06dd",
+          "size": 1740364
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_009/SOURCE_APPROVED/MON_EMAIL__a_clean_minimal_elegant_poster_graphic_layout_sc.png",
+          "git_blob_sha": "97cca7324966c5728b9d25a8e51bef723363ed09",
+          "size": 1680185
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_009/SOURCE_APPROVED/MON_FEED__a_clean_minimalist_graphic_poster_cover_design.png",
+          "git_blob_sha": "720d76c1e98d88a36fc3061cb20ca72bd7f18c74",
+          "size": 1702321
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_009/SOURCE_APPROVED/MON_STORY1__ISSUE009_MON_VERTICAL_1080x1920.png",
+          "git_blob_sha": "87044848cfaa86c442450cb98531e0436466540f",
+          "size": 3011294
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_009/SOURCE_APPROVED/MON_STORY2__a_clean_vertical_poster_graphic_design_scene_with.png",
+          "git_blob_sha": "7605b88ef6792d3fdedaf761e8e39c2cb922abe6",
+          "size": 1586763
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_009/SOURCE_APPROVED/MON_STORY3__a_clean_vertical_poster_motivational_graphic._ove.png",
+          "git_blob_sha": "7dc037ce60521a774e3aa998d53211450a26d17c",
+          "size": 1668171
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_009/SOURCE_APPROVED/THU_BLOG__a_clean_professional_magazine_style_banner_soci.png",
+          "git_blob_sha": "d0016fcf77ffa3985ab9f3f5ccf125556ee94e86",
+          "size": 1615083
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_009/SOURCE_APPROVED/THU_EMAIL__a_clean_elegant_editorial_infographic_poster_layo.png",
+          "git_blob_sha": "1cfe4b3683a7b383e206c0ba5f2189657cdd73d8",
+          "size": 1824271
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_009/SOURCE_APPROVED/THU_FEED__ISSUE009_THU_FEED_REPLACEMENT_LOCKED.png",
+          "git_blob_sha": "b12aa445fbff9bab376b9dc7d4a15132a995b332",
+          "size": 1718757
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_009/SOURCE_APPROVED/THU_STORY1__ISSUE009_THU_VERTICAL_1080x1920.png",
+          "git_blob_sha": "080abb2f5d2ff83b1730fca90c015bd5a976eba7",
+          "size": 3137941
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_009/SOURCE_APPROVED/THU_STORY2__a_clean_elegant_poster_graphic_design_with_a_mini.png",
+          "git_blob_sha": "6459748e6bdc315cf5329c9b6dc1f7b4beef5afd",
+          "size": 1603846
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_009/SOURCE_APPROVED/THU_STORY3__a_clean_elegant_poster_graphic_design_scene_vert.png",
+          "git_blob_sha": "6c3ec49114d94c760f5ddd7192bebd279407fcab",
+          "size": 1672063
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_009/SOURCE_APPROVED/TUE_BLOG__a_clean_elegant_editorial_poster_graphic_layout_w.png",
+          "git_blob_sha": "c03c2e04a30fe918cd18f7b4e5acfcbd6bf0b5c1",
+          "size": 1614850
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_009/SOURCE_APPROVED/TUE_EMAIL__a_clean_professional_branded_graphic_poster_slid.png",
+          "git_blob_sha": "acd014d1c1f1b6bb734a8279a1bf12126bda2dad",
+          "size": 1672981
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_009/SOURCE_APPROVED/TUE_FEED__a_clean_elegant_poster_cover_design_neutral_beig.png",
+          "git_blob_sha": "b68a638bafbe18057a056fa8bfd1a88a8b7eefc7",
+          "size": 1707517
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_009/SOURCE_APPROVED/TUE_STORY1__ISSUE009_TUE_VERTICAL_1080x1920.png",
+          "git_blob_sha": "0d0b0f1945ae4df512e8aafb9b10441706eaeaa2",
+          "size": 3237605
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_009/SOURCE_APPROVED/TUE_STORY2__a_clean_elegant_vertical_poster_graphic_design_sc.png",
+          "git_blob_sha": "29616e109acbe194c87d05d8f4ca84be0f27ab73",
+          "size": 1609881
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_009/SOURCE_APPROVED/TUE_STORY3__a_vertical_poster_graphic_design_overall_scene_a.png",
+          "git_blob_sha": "07e20cf59d9f37609962cafbf6bc60ab14a2bac4",
+          "size": 1627522
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_009/SOURCE_APPROVED/WED_BLOG__wide_landscape_polished_editorial_poster_cover_ba.png",
+          "git_blob_sha": "1d01fe0c1f80edf693d341e6bc58c10f4fcb001f",
+          "size": 1489705
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_009/SOURCE_APPROVED/WED_EMAIL__a_wide_elegant_graphic_poster_cover_design_overa.png",
+          "git_blob_sha": "5a8fbd318093d1392cc7b99ce0993003ed210306",
+          "size": 1694421
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_009/SOURCE_APPROVED/WED_FEED__ISSUE009_WED_FEED_REPLACEMENT_LOCKED.png",
+          "git_blob_sha": "e19cf38243d6243834b6c8a72055b5328b1cfcb1",
+          "size": 1705928
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_009/SOURCE_APPROVED/WED_STORY1__ISSUE009_WED_VERTICAL_1080x1920.png",
+          "git_blob_sha": "e8471ccb8403f6aeed9f500a0603a648e596dfd2",
+          "size": 3222274
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_009/SOURCE_APPROVED/WED_STORY2__a_vertical_poster_graphic_design_image_clean_and.png",
+          "git_blob_sha": "4868371f04e253ec8a923a4566ebbf30cdf2c033",
+          "size": 1743567
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_009/SOURCE_APPROVED/WED_STORY3__a_vertical_poster_cover_design_clean_editorial_gr.png",
+          "git_blob_sha": "6efb6bc255d35f41ad7d9bce1515768a206be47a",
+          "size": 1746025
+        }
+      ],
+      "note": "Git blob identity, not a fresh SHA-256 or pixel QA. File presence alone is not approval."
+    },
+    {
+      "issue": "010",
+      "theme": "Possibility",
+      "candidate_files": [
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_010/APPROVED_ASSETS/FRIDAY/ISSUE010_FRI_BLOG_OG_1200x628.png",
+          "git_blob_sha": "3dc5c850610ee9428ee18ec7f59b404583c26821",
+          "size": 1023850
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_010/APPROVED_ASSETS/FRIDAY/ISSUE010_FRI_EMAIL_HEADER_1200x627.png",
+          "git_blob_sha": "be7041b16450cabeb0f7f14208c9e91bfcbcc5b8",
+          "size": 1031070
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_010/APPROVED_ASSETS/FRIDAY/ISSUE010_FRI_FEED_1080x1350.png",
+          "git_blob_sha": "db1b4d6ee42f0cf561fb230263a78688c9f531db",
+          "size": 1763352
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_010/APPROVED_ASSETS/FRIDAY/ISSUE010_FRI_STORY_01_1080x1920.png",
+          "git_blob_sha": "2a526ecad03f36b383e7b17f83b56e967e59487e",
+          "size": 2177939
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_010/APPROVED_ASSETS/FRIDAY/ISSUE010_FRI_STORY_02_1080x1920.png",
+          "git_blob_sha": "b4fb18d285ad1e82cdf08ad5545b38f2f8d5c77a",
+          "size": 2330479
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_010/APPROVED_ASSETS/FRIDAY/ISSUE010_FRI_STORY_03_1080x1920.png",
+          "git_blob_sha": "833bd0f2fd241579c72a9e83abd373cccf37edb3",
+          "size": 2403164
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_010/APPROVED_ASSETS/MONDAY/ISSUE010_MON_BLOG_OG_1200x628.png",
+          "git_blob_sha": "b2176db83a313389c44f2cd576c38674ad3457e1",
+          "size": 880530
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_010/APPROVED_ASSETS/MONDAY/ISSUE010_MON_EMAIL_HEADER_1200x627.png",
+          "git_blob_sha": "9c9d7c0c5aeabbc59c83570c6b65d0cfba9bb356",
+          "size": 909690
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_010/APPROVED_ASSETS/MONDAY/ISSUE010_MON_FEED_1080x1350.png",
+          "git_blob_sha": "2b1396b489ce88590cefd502bbb70f29aeaa9a15",
+          "size": 1549840
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_010/APPROVED_ASSETS/MONDAY/ISSUE010_MON_STORY_01_1080x1920.png",
+          "git_blob_sha": "83f2fa817f4c12d03fade3feeab9107c48d46489",
+          "size": 1900315
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_010/APPROVED_ASSETS/MONDAY/ISSUE010_MON_STORY_02_1080x1920.png",
+          "git_blob_sha": "969d6824b5de2b417344dc0b8bff39ed16c48200",
+          "size": 1956621
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_010/APPROVED_ASSETS/MONDAY/ISSUE010_MON_STORY_03_1080x1920.png",
+          "git_blob_sha": "64864777b592a6a59a82d010ddd02c0d2430da82",
+          "size": 2011514
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_010/APPROVED_ASSETS/THURSDAY/ISSUE010_THU_BLOG_OG_1200x628.png",
+          "git_blob_sha": "a7b8e06fef842d725e92f5d090e6785f642c1503",
+          "size": 998254
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_010/APPROVED_ASSETS/THURSDAY/ISSUE010_THU_EMAIL_HEADER_1200x627.png",
+          "git_blob_sha": "a02267e26911302bbabf70677174e7a0f1f0103c",
+          "size": 937656
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_010/APPROVED_ASSETS/THURSDAY/ISSUE010_THU_FEED_1080x1350.png",
+          "git_blob_sha": "610aa4b8896431f1656ec6ba26333867ede9b40d",
+          "size": 1675677
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_010/APPROVED_ASSETS/THURSDAY/ISSUE010_THU_STORY_01_1080x1920.png",
+          "git_blob_sha": "aa4f455bad07bad85a5152e14a222e4eed53d7f4",
+          "size": 2128163
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_010/APPROVED_ASSETS/THURSDAY/ISSUE010_THU_STORY_02_1080x1920.png",
+          "git_blob_sha": "890222a1954d5c18b4a22bc066842bcece797e45",
+          "size": 2186887
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_010/APPROVED_ASSETS/THURSDAY/ISSUE010_THU_STORY_03_1080x1920.png",
+          "git_blob_sha": "87ec91c98e7322ddf64af267bf98ff215e1333f6",
+          "size": 2225985
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_010/APPROVED_ASSETS/TUESDAY/ISSUE010_TUE_BLOG_OG_1200x628.png",
+          "git_blob_sha": "2f7bd4728e6ad8d6c95303383993c5fdac51aef0",
+          "size": 988781
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_010/APPROVED_ASSETS/TUESDAY/ISSUE010_TUE_EMAIL_HEADER_1200x627.png",
+          "git_blob_sha": "3f31d7c65c21a82e48dd0d8320e44e7e099a489c",
+          "size": 959519
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_010/APPROVED_ASSETS/TUESDAY/ISSUE010_TUE_FEED_1080x1350.png",
+          "git_blob_sha": "4d415fcb15c5c3ce350ba10a5793ad847684f36d",
+          "size": 1723502
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_010/APPROVED_ASSETS/TUESDAY/ISSUE010_TUE_STORY_01_1080x1920.png",
+          "git_blob_sha": "b86f7600c148f1fecaf611f361d26c9f2b374ae3",
+          "size": 2306268
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_010/APPROVED_ASSETS/TUESDAY/ISSUE010_TUE_STORY_02_1080x1920.png",
+          "git_blob_sha": "e6d4b76b728634336b441f333f44f27a81be2259",
+          "size": 2115892
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_010/APPROVED_ASSETS/TUESDAY/ISSUE010_TUE_STORY_03_1080x1920.png",
+          "git_blob_sha": "5a790e6032e9a2905a7b84e99d7cac1b51c3c6c9",
+          "size": 2173156
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_010/APPROVED_ASSETS/WEDNESDAY/ISSUE010_WED_BLOG_OG_1200x628.png",
+          "git_blob_sha": "406a457017cc06797b4d6710ac7884d59ce93e0d",
+          "size": 955333
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_010/APPROVED_ASSETS/WEDNESDAY/ISSUE010_WED_EMAIL_HEADER_1200x627.png",
+          "git_blob_sha": "a2093c682b14555a120f858998b357c5c78a2ed2",
+          "size": 944998
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_010/APPROVED_ASSETS/WEDNESDAY/ISSUE010_WED_FEED_1080x1350.png",
+          "git_blob_sha": "bcde18abedda873a8a3d6cd8a5bcdf49d60ceb45",
+          "size": 1681156
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_010/APPROVED_ASSETS/WEDNESDAY/ISSUE010_WED_STORY_01_1080x1920.png",
+          "git_blob_sha": "dab6f6e65763e3c7c57b2a521b67beeaf17ad66d",
+          "size": 2136045
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_010/APPROVED_ASSETS/WEDNESDAY/ISSUE010_WED_STORY_02_1080x1920.png",
+          "git_blob_sha": "b44955f472b25fddce14398016e7bb02cad12285",
+          "size": 2083492
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_010/APPROVED_ASSETS/WEDNESDAY/ISSUE010_WED_STORY_03_1080x1920.png",
+          "git_blob_sha": "26cdc6e2be63332b273e672c030556f84ef399dc",
+          "size": 2163076
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_010/CLAUDE_ISSUE010_EXECUTION_HANDOFF.md",
+          "git_blob_sha": "194530109c11809ef04f67d2228a0e2d9c81043d",
+          "size": 5548
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_010/ISSUE010_ASSET_MANIFEST.md",
+          "git_blob_sha": "651c5a0a2ae66fd6c9d4c61e7cdbc73b9bff6ea5",
+          "size": 17439
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_010/ISSUE010_CANONICAL_BLOG_ARTICLE.md",
+          "git_blob_sha": "89aa3f4e4aa9c5a1345a94b74abf70ca13f438f0",
+          "size": 6314
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_010/ISSUE010_CHECKSUMS.sha256",
+          "git_blob_sha": "ddc02bf915ee5fb029c581361b87790590741517",
+          "size": 3771
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_010/ISSUE010_EMAIL_COPY.md",
+          "git_blob_sha": "1310f9f666a1e1d5c2f87c36b1b812193e52b3bf",
+          "size": 2885
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_010/ISSUE010_EXECUTION_RECEIPT.md",
+          "git_blob_sha": "3a176867287726ecda661da2525e17ce0a13e3be",
+          "size": 10751
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_010/ISSUE010_MASTER_COPY.md",
+          "git_blob_sha": "f9c664f0152a39ce4e3c5721be54cd153de965e7",
+          "size": 6784
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_010/ISSUE010_PUBLISHING_SCHEDULE.md",
+          "git_blob_sha": "1cf25a5b6b8f50275a4f1700aaafe4673f24aafe",
+          "size": 3631
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_010/ISSUE010_SOURCE_CHECKSUMS.sha256",
+          "git_blob_sha": "9321b6d0602645dd6b1767386de9079feca403e5",
+          "size": 3771
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_010/ISSUE010_STORY_COPY_LOCK.md",
+          "git_blob_sha": "f60acfe812081930790fa01a21f10d221eec1acf",
+          "size": 3756
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_010/ISSUE010_VISUAL_PRODUCTION_BRIEF.md",
+          "git_blob_sha": "0c1a0970047e032f9b91772c30c43fb56c71e57d",
+          "size": 11537
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_010/SOURCE_APPROVED/FRIDAY/ISSUE010_FRI_BLOG_OG_1200x628.png",
+          "git_blob_sha": "03947498786f759a96edf0fa1197ff6306ece65f",
+          "size": 1909538
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_010/SOURCE_APPROVED/FRIDAY/ISSUE010_FRI_EMAIL_HEADER_1200x627.png",
+          "git_blob_sha": "c7c72e7f09992bbbdf847b9807ad6df6317f5152",
+          "size": 1938693
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_010/SOURCE_APPROVED/FRIDAY/ISSUE010_FRI_FEED_1080x1350.png",
+          "git_blob_sha": "c74d09b1a59a2c24d7c99494d7397d8adccaa44e",
+          "size": 1865833
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_010/SOURCE_APPROVED/FRIDAY/ISSUE010_FRI_STORY_01_1080x1920.png",
+          "git_blob_sha": "9e2fc7aeef79c823c075025c9e2e39e893537340",
+          "size": 1761551
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_010/SOURCE_APPROVED/FRIDAY/ISSUE010_FRI_STORY_02_1080x1920.png",
+          "git_blob_sha": "da264ed7c924ef5bee61680e6fae010a93067d42",
+          "size": 1883922
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_010/SOURCE_APPROVED/FRIDAY/ISSUE010_FRI_STORY_03_1080x1920.png",
+          "git_blob_sha": "10b898a12e9dbda5db6fd7353587f388a70b919f",
+          "size": 1938378
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_010/SOURCE_APPROVED/MONDAY/ISSUE010_MON_BLOG_OG_1200x628.png",
+          "git_blob_sha": "0b1ec3e21adc4a8ed8223b5b9cfc99692639c1e6",
+          "size": 1703921
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_010/SOURCE_APPROVED/MONDAY/ISSUE010_MON_EMAIL_HEADER_1200x627.png",
+          "git_blob_sha": "2e85feffbab3aa9402dd466d5df8df231dd661d1",
+          "size": 1800182
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_010/SOURCE_APPROVED/MONDAY/ISSUE010_MON_FEED_1080x1350.png",
+          "git_blob_sha": "b6a9ea417096b4da3b73d4e26e521696c0602ebb",
+          "size": 1642858
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_010/SOURCE_APPROVED/MONDAY/ISSUE010_MON_STORY_01_1080x1920.png",
+          "git_blob_sha": "385e7267dc834cf12b2b96c480cdf78a73a28685",
+          "size": 1536701
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_010/SOURCE_APPROVED/MONDAY/ISSUE010_MON_STORY_02_1080x1920.png",
+          "git_blob_sha": "f501da9d85b4fff10aa54d0f179c573fe076730d",
+          "size": 1575999
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_010/SOURCE_APPROVED/MONDAY/ISSUE010_MON_STORY_03_1080x1920.png",
+          "git_blob_sha": "cc5efb546c37b081f05856e616a72e9414277a4b",
+          "size": 1624004
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_010/SOURCE_APPROVED/THURSDAY/ISSUE010_THU_BLOG_OG_1200x628.png",
+          "git_blob_sha": "33082bde8d2c904f20db14619672f56092ce61eb",
+          "size": 1866728
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_010/SOURCE_APPROVED/THURSDAY/ISSUE010_THU_EMAIL_HEADER_1200x627.png",
+          "git_blob_sha": "404d4a473a82c66ba208ea73066379201aa2715d",
+          "size": 1753231
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_010/SOURCE_APPROVED/THURSDAY/ISSUE010_THU_FEED_1080x1350.png",
+          "git_blob_sha": "fb0383abfc8e4f918bde523ecba7d9155737186e",
+          "size": 1775499
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_010/SOURCE_APPROVED/THURSDAY/ISSUE010_THU_STORY_01_1080x1920.png",
+          "git_blob_sha": "c1ffc183b87d52166a7269c2a7104b93de3df804",
+          "size": 1716435
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_010/SOURCE_APPROVED/THURSDAY/ISSUE010_THU_STORY_02_1080x1920.png",
+          "git_blob_sha": "fee8738fed530b1f72ab7a923428142c15805227",
+          "size": 1764729
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_010/SOURCE_APPROVED/THURSDAY/ISSUE010_THU_STORY_03_1080x1920.png",
+          "git_blob_sha": "bdf7fed4315fbc7df757654b9fdcb564a32359e6",
+          "size": 1798772
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_010/SOURCE_APPROVED/TUESDAY/ISSUE010_TUE_BLOG_OG_1200x628.png",
+          "git_blob_sha": "103f212200314a488a328d67b25e6c2a424bd7ba",
+          "size": 1900211
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_010/SOURCE_APPROVED/TUESDAY/ISSUE010_TUE_EMAIL_HEADER_1200x627.png",
+          "git_blob_sha": "8f4a4da1f8a0e0e1e6a6c0a3a80d7c9cca9b930f",
+          "size": 1860255
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_010/SOURCE_APPROVED/TUESDAY/ISSUE010_TUE_FEED_1080x1350.png",
+          "git_blob_sha": "f3c0a61fa9b5d182de222afc8b5d75dd6010cfff",
+          "size": 1843888
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_010/SOURCE_APPROVED/TUESDAY/ISSUE010_TUE_STORY_01_1080x1920.png",
+          "git_blob_sha": "12bdf5bbb40e37acd7cc8bb551961a2d78d2c198",
+          "size": 1853249
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_010/SOURCE_APPROVED/TUESDAY/ISSUE010_TUE_STORY_02_1080x1920.png",
+          "git_blob_sha": "b6a1a99d25bf7f15b6d302b0be89dcd4e8c6f8b2",
+          "size": 1705326
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_010/SOURCE_APPROVED/TUESDAY/ISSUE010_TUE_STORY_03_1080x1920.png",
+          "git_blob_sha": "50c665eac40e657ff5ce8bf7fd3356bc40e060a3",
+          "size": 1753702
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_010/SOURCE_APPROVED/WEDNESDAY/ISSUE010_WED_BLOG_OG_1200x628.png",
+          "git_blob_sha": "224241ac409319cbc15749b619cfe9693a1b01b6",
+          "size": 1773350
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_010/SOURCE_APPROVED/WEDNESDAY/ISSUE010_WED_EMAIL_HEADER_1200x627.png",
+          "git_blob_sha": "67351c679fde8352e0d6f8b4bf09e083642e6a7f",
+          "size": 1773621
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_010/SOURCE_APPROVED/WEDNESDAY/ISSUE010_WED_FEED_1080x1350.png",
+          "git_blob_sha": "331d2956564642e3dfd9e8485cf36758c3f3a560",
+          "size": 1781929
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_010/SOURCE_APPROVED/WEDNESDAY/ISSUE010_WED_STORY_01_1080x1920.png",
+          "git_blob_sha": "9a8425b42041501c415eba5078c5554541e3a8a8",
+          "size": 1723043
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_010/SOURCE_APPROVED/WEDNESDAY/ISSUE010_WED_STORY_02_1080x1920.png",
+          "git_blob_sha": "0c0b862024d2c0c1b3afc0889f9571def11e25c2",
+          "size": 1683627
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_010/SOURCE_APPROVED/WEDNESDAY/ISSUE010_WED_STORY_03_1080x1920.png",
+          "git_blob_sha": "2f32983a6d4eb4d591c054a85176dd1c69335c0a",
+          "size": 1746292
+        }
+      ],
+      "note": "Git blob identity, not a fresh SHA-256 or pixel QA. File presence alone is not approval."
+    },
+    {
+      "issue": "011",
+      "theme": "Response",
+      "candidate_files": [
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_011/APPROVED_ASSETS/FRIDAY/ISSUE011_FRI_BLOG_OG_1200x628.png",
+          "git_blob_sha": "0f837c61607b93155a95b68980e7390ea15df2c4",
+          "size": 1091352
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_011/APPROVED_ASSETS/FRIDAY/ISSUE011_FRI_EMAIL_HEADER_1200x627.png",
+          "git_blob_sha": "c578f4b4467318cdbbcbf593806d87c16a942d6d",
+          "size": 1072302
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_011/APPROVED_ASSETS/FRIDAY/ISSUE011_FRI_FEED_1080x1350.png",
+          "git_blob_sha": "a50b1e07cd30d6f193c65c1d6fa16b11213ee4ba",
+          "size": 1925108
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_011/APPROVED_ASSETS/FRIDAY/ISSUE011_FRI_STORY_01_1080x1920.png",
+          "git_blob_sha": "a0503d5e0061399c70b1d8524293d4e300eabd97",
+          "size": 2191207
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_011/APPROVED_ASSETS/FRIDAY/ISSUE011_FRI_STORY_02_1080x1920.png",
+          "git_blob_sha": "cc81edcf36f39c83971d91ed858de34c357b2780",
+          "size": 2126645
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_011/APPROVED_ASSETS/FRIDAY/ISSUE011_FRI_STORY_03_1080x1920.png",
+          "git_blob_sha": "348b77ebc431ce7300b11edfcf8789394bed0770",
+          "size": 2082694
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_011/APPROVED_ASSETS/MONDAY/ISSUE011_MON_BLOG_OG_1200x628.png",
+          "git_blob_sha": "f9032e722c18cb573c4313f710bc09a7def3c8a9",
+          "size": 812795
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_011/APPROVED_ASSETS/MONDAY/ISSUE011_MON_EMAIL_HEADER_1200x627.png",
+          "git_blob_sha": "bffeef4b560bd78690dc9c11b7ef1f4f01b945df",
+          "size": 830716
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_011/APPROVED_ASSETS/MONDAY/ISSUE011_MON_FEED_1080x1350.png",
+          "git_blob_sha": "3452a90fb55b3ab0e647824cc0fff1fbba479f05",
+          "size": 1526126
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_011/APPROVED_ASSETS/MONDAY/ISSUE011_MON_STORY_01_1080x1920.png",
+          "git_blob_sha": "6e5fe8615f199ebd977771f31964cc8ad98aa9e9",
+          "size": 1902730
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_011/APPROVED_ASSETS/MONDAY/ISSUE011_MON_STORY_02_1080x1920.png",
+          "git_blob_sha": "fadcc247c01237f8e46ff88c0b1c07eb80db0189",
+          "size": 1910180
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_011/APPROVED_ASSETS/MONDAY/ISSUE011_MON_STORY_03_1080x1920.png",
+          "git_blob_sha": "c8c2dfaeab6a8ef0e52cdaeac7c65aff967ba0d8",
+          "size": 1951943
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_011/APPROVED_ASSETS/THURSDAY/ISSUE011_THU_BLOG_OG_1200x628.png",
+          "git_blob_sha": "d2987bee2115d59dc8e67f71000a284674e71faa",
+          "size": 1132075
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_011/APPROVED_ASSETS/THURSDAY/ISSUE011_THU_EMAIL_HEADER_1200x627.png",
+          "git_blob_sha": "c1a6b95b31d422d16c809f1fb8b52cf424f69884",
+          "size": 1046688
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_011/APPROVED_ASSETS/THURSDAY/ISSUE011_THU_FEED_1080x1350.png",
+          "git_blob_sha": "152eb9da935cfa0b327aaac1c5cb27493fe4c1bb",
+          "size": 1889598
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_011/APPROVED_ASSETS/THURSDAY/ISSUE011_THU_STORY_01_1080x1920.png",
+          "git_blob_sha": "3d5ea106c47a3e2636197cd8a0f17140eab218be",
+          "size": 2141780
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_011/APPROVED_ASSETS/THURSDAY/ISSUE011_THU_STORY_02_1080x1920.png",
+          "git_blob_sha": "4b4e9bc59c40dac60101342b20b1d1a657ebcc2c",
+          "size": 2202961
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_011/APPROVED_ASSETS/THURSDAY/ISSUE011_THU_STORY_03_1080x1920.png",
+          "git_blob_sha": "dc037636573cd54db6e2ab1e124c49c93109c90e",
+          "size": 2206971
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_011/APPROVED_ASSETS/TUESDAY/ISSUE011_TUE_BLOG_OG_1200x628.png",
+          "git_blob_sha": "16714487d9b86541d250fc3598933e2299269556",
+          "size": 876623
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_011/APPROVED_ASSETS/TUESDAY/ISSUE011_TUE_EMAIL_HEADER_1200x627.png",
+          "git_blob_sha": "d86f104895b2b7b1d222046f645cb728b7c48abb",
+          "size": 837768
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_011/APPROVED_ASSETS/TUESDAY/ISSUE011_TUE_FEED_1080x1350.png",
+          "git_blob_sha": "95320695fdcf897f8633c3332a6332bf3083ebb0",
+          "size": 1504337
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_011/APPROVED_ASSETS/TUESDAY/ISSUE011_TUE_STORY_01_1080x1920.png",
+          "git_blob_sha": "04f5e9529e3306a073546ff3e05b5483c043dc40",
+          "size": 1813072
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_011/APPROVED_ASSETS/TUESDAY/ISSUE011_TUE_STORY_02_1080x1920.png",
+          "git_blob_sha": "af3d52f03253721796b7ba2b6a8bcbe00733f76a",
+          "size": 2130303
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_011/APPROVED_ASSETS/TUESDAY/ISSUE011_TUE_STORY_03_1080x1920.png",
+          "git_blob_sha": "0514638fcf2377dd94b4f228bc6bb28f5edb297a",
+          "size": 1980437
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_011/APPROVED_ASSETS/WEDNESDAY/ISSUE011_WED_BLOG_OG_1200x628.png",
+          "git_blob_sha": "1ff608a78f2995ae87f9e03b1b706c7640084801",
+          "size": 792254
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_011/APPROVED_ASSETS/WEDNESDAY/ISSUE011_WED_EMAIL_HEADER_1200x627.png",
+          "git_blob_sha": "21340965fde7b7f7a241e5769f2d4d5b5a73ceda",
+          "size": 785164
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_011/APPROVED_ASSETS/WEDNESDAY/ISSUE011_WED_FEED_1080x1350.png",
+          "git_blob_sha": "5347bf2fad19e8978b3a29408ca4cefc509f1c23",
+          "size": 1454954
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_011/APPROVED_ASSETS/WEDNESDAY/ISSUE011_WED_STORY_01_1080x1920.png",
+          "git_blob_sha": "34019185efc6ff44e8f7d215239903c0e0673819",
+          "size": 1846633
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_011/APPROVED_ASSETS/WEDNESDAY/ISSUE011_WED_STORY_02_1080x1920.png",
+          "git_blob_sha": "43c531d1087aa455b509f50a4fcf9d8b1019ec30",
+          "size": 1919643
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_011/APPROVED_ASSETS/WEDNESDAY/ISSUE011_WED_STORY_03_1080x1920.png",
+          "git_blob_sha": "a3e48f42b7e6697b074fe98f42890c6743e3d261",
+          "size": 1903752
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_011/CLAUDE_ISSUE011_EXECUTION_HANDOFF.md",
+          "git_blob_sha": "9b8c8abd1f53115132d538bcb7f80dcb2b7c5bc8",
+          "size": 7300
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_011/ISSUE011_ASSET_MANIFEST.md",
+          "git_blob_sha": "866ea5fec2e1a54528f3c8fa8acabc82a11a87fd",
+          "size": 23222
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_011/ISSUE011_CANONICAL_BLOG_ARTICLE.md",
+          "git_blob_sha": "69231e2a98d449aeae9306c6022b3772499136be",
+          "size": 6670
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_011/ISSUE011_CHECKSUMS.sha256",
+          "git_blob_sha": "e46d6894fde3856d474ddfc8651c9c1dd4147dd8",
+          "size": 3771
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_011/ISSUE011_EMAIL_COPY.md",
+          "git_blob_sha": "3192ff9d006eec59816fa648b05f0912586d8c4d",
+          "size": 3298
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_011/ISSUE011_EXECUTION_RECEIPT.md",
+          "git_blob_sha": "5ffbdf47bc0a56f5334ec73cc013ce2d1f8ac3eb",
+          "size": 12615
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_011/ISSUE011_MASTER_COPY.md",
+          "git_blob_sha": "75933940ab1fd56cd336b5b464670798b4f80c9a",
+          "size": 9488
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_011/ISSUE011_PUBLISHING_SCHEDULE.md",
+          "git_blob_sha": "5b3c1a7d04e6f14fc1cca43e8a6f27131917bddd",
+          "size": 5153
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_011/ISSUE011_SOURCE_CHECKSUMS.sha256",
+          "git_blob_sha": "e4ad4819e4bb19cafeabc9655b8d24c6f18f34da",
+          "size": 3771
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_011/ISSUE011_STORY_COPY_LOCK.md",
+          "git_blob_sha": "818040373d91197a2288de4ef7caf869ea52bc55",
+          "size": 5019
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_011/SOURCE_APPROVED/FRIDAY/ISSUE011_FRI_BLOG_OG_1200x628.png",
+          "git_blob_sha": "70c1ad01e4d00ae223c58d3fbc71609a23ced00e",
+          "size": 2075773
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_011/SOURCE_APPROVED/FRIDAY/ISSUE011_FRI_EMAIL_HEADER_1200x627.png",
+          "git_blob_sha": "b15999225aafd746611986f8bfce90c32cf4b9b0",
+          "size": 2028151
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_011/SOURCE_APPROVED/FRIDAY/ISSUE011_FRI_FEED_1080x1350.png",
+          "git_blob_sha": "019c58a9e205e944870c7aded7f6eaeae2abe0a9",
+          "size": 2031967
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_011/SOURCE_APPROVED/FRIDAY/ISSUE011_FRI_STORY_01_1080x1920.png",
+          "git_blob_sha": "0eb416c88e1b9a5d8eef81986ee7705fd0dd8c40",
+          "size": 1972000
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_011/SOURCE_APPROVED/FRIDAY/ISSUE011_FRI_STORY_02_1080x1920.png",
+          "git_blob_sha": "12408f10f2e7f5839ec11619d49278998354cfc2",
+          "size": 1941448
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_011/SOURCE_APPROVED/FRIDAY/ISSUE011_FRI_STORY_03_1080x1920.png",
+          "git_blob_sha": "8c9c0bb7ad19c39d05dbc381e782e00d5dd6450a",
+          "size": 1930321
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_011/SOURCE_APPROVED/MONDAY/ISSUE011_MON_BLOG_OG_1200x628.png",
+          "git_blob_sha": "d41ef7ce8da6d752e7d9b5f716f2c9c12327ce18",
+          "size": 1521712
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_011/SOURCE_APPROVED/MONDAY/ISSUE011_MON_EMAIL_HEADER_1200x627.png",
+          "git_blob_sha": "69c27ce1b3d8a2b5d3554e178fe1571f35b7020b",
+          "size": 1558861
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_011/SOURCE_APPROVED/MONDAY/ISSUE011_MON_FEED_1080x1350.png",
+          "git_blob_sha": "2a01ee5b9991c73ec01e7e36d0c6ae93323ea934",
+          "size": 1602467
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_011/SOURCE_APPROVED/MONDAY/ISSUE011_MON_STORY_01_1080x1920.png",
+          "git_blob_sha": "218b83ce94e945b1b8ec013bee7b31e831d9cf79",
+          "size": 1530320
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_011/SOURCE_APPROVED/MONDAY/ISSUE011_MON_STORY_02_1080x1920.png",
+          "git_blob_sha": "36df17642d7dd5e172ada136d623a8c260dd37cf",
+          "size": 1535149
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_011/SOURCE_APPROVED/MONDAY/ISSUE011_MON_STORY_03_1080x1920.png",
+          "git_blob_sha": "301dcb2d44c2162f53553db142a0b9adddfd4996",
+          "size": 1571259
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_011/SOURCE_APPROVED/THURSDAY/ISSUE011_THU_BLOG_OG_1200x628.png",
+          "git_blob_sha": "8a12c14a17f5b2f4a85f956748272b2edc8b7aa2",
+          "size": 2167561
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_011/SOURCE_APPROVED/THURSDAY/ISSUE011_THU_EMAIL_HEADER_1200x627.png",
+          "git_blob_sha": "03fecdeb4071881a77bd0c9de072975b8251a3bf",
+          "size": 1984021
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_011/SOURCE_APPROVED/THURSDAY/ISSUE011_THU_FEED_1080x1350.png",
+          "git_blob_sha": "1652436151f32babeb8b7bc81299c3e9c87ad730",
+          "size": 1861506
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_011/SOURCE_APPROVED/THURSDAY/ISSUE011_THU_STORY_01_1080x1920.png",
+          "git_blob_sha": "0ccc74d4fbe45cb27e683638c58d5c0a2ff0a7ed",
+          "size": 1752655
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_011/SOURCE_APPROVED/THURSDAY/ISSUE011_THU_STORY_02_1080x1920.png",
+          "git_blob_sha": "7959e53dd4e180f02e72c1bbe452a0f67f057464",
+          "size": 1611359
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_011/SOURCE_APPROVED/THURSDAY/ISSUE011_THU_STORY_03_1080x1920.png",
+          "git_blob_sha": "90714d9dd339a7181180bd10e4961e0aeaa82c83",
+          "size": 2002942
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_011/SOURCE_APPROVED/TUESDAY/ISSUE011_TUE_BLOG_OG_1200x628.png",
+          "git_blob_sha": "1ec8c6d9c17dc3432a3e978d351dba97665708a0",
+          "size": 1663797
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_011/SOURCE_APPROVED/TUESDAY/ISSUE011_TUE_EMAIL_HEADER_1200x627.png",
+          "git_blob_sha": "a8e5a103dae136d015be3cdcfc205ca6ed259846",
+          "size": 1579859
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_011/SOURCE_APPROVED/TUESDAY/ISSUE011_TUE_FEED_1080x1350.png",
+          "git_blob_sha": "b28fab6cc41cde9b7288e1ee3b9a68743c0c302a",
+          "size": 1584704
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_011/SOURCE_APPROVED/TUESDAY/ISSUE011_TUE_STORY_01_1080x1920.png",
+          "git_blob_sha": "9f7ac53cc3858105baaeedc4e181359963a39cb3",
+          "size": 1460542
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_011/SOURCE_APPROVED/TUESDAY/ISSUE011_TUE_STORY_02_1080x1920.png",
+          "git_blob_sha": "971dbbcbb3c303950b5b796430743c5e534c5517",
+          "size": 1712603
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_011/SOURCE_APPROVED/TUESDAY/ISSUE011_TUE_STORY_03_1080x1920.png",
+          "git_blob_sha": "c20ef4c60a9ddde18b6a3af8bf749b37c9645c69",
+          "size": 1594212
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_011/SOURCE_APPROVED/WEDNESDAY/ISSUE011_WED_BLOG_OG_1200x628.png",
+          "git_blob_sha": "3746908e316517c3959f0d203003a5e1b21de3e6",
+          "size": 1510049
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_011/SOURCE_APPROVED/WEDNESDAY/ISSUE011_WED_EMAIL_HEADER_1200x627.png",
+          "git_blob_sha": "336f94eaee580cb620a06c34597c12a5c4504366",
+          "size": 1481828
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_011/SOURCE_APPROVED/WEDNESDAY/ISSUE011_WED_FEED_1080x1350.png",
+          "git_blob_sha": "ec4cd7a2ece45be7fc9e42e79b762ac7578d294b",
+          "size": 1524889
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_011/SOURCE_APPROVED/WEDNESDAY/ISSUE011_WED_STORY_01_1080x1920.png",
+          "git_blob_sha": "f237775c426ec670e5b6c27aaa5288404393367a",
+          "size": 1490982
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_011/SOURCE_APPROVED/WEDNESDAY/ISSUE011_WED_STORY_02_1080x1920.png",
+          "git_blob_sha": "078ea04232a475f4659eb1fb07ab4290eb6bf3b6",
+          "size": 1538653
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_011/SOURCE_APPROVED/WEDNESDAY/ISSUE011_WED_STORY_03_1080x1920.png",
+          "git_blob_sha": "399aea73b1f1ae2e7b4b723280190d7374ebad57",
+          "size": 1516543
+        }
+      ],
+      "note": "Git blob identity, not a fresh SHA-256 or pixel QA. File presence alone is not approval."
+    },
+    {
+      "issue": "012",
+      "theme": "Agency",
+      "candidate_files": [
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_012/APPROVED_ASSETS/.gitkeep",
+          "git_blob_sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+          "size": 0
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_012/APPROVED_ASSETS/ISSUE-012_FRIDAY_FEED_1080x1350.png",
+          "git_blob_sha": "0398c197a41456a0b95bd5d9d931675c5c041d69",
+          "size": 1771188
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_012/APPROVED_ASSETS/ISSUE-012_FRIDAY_LANDSCAPE_1200x628.png",
+          "git_blob_sha": "bcecd7e30d35d350283e5d9bc934f2e260dd4b61",
+          "size": 976334
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_012/APPROVED_ASSETS/ISSUE-012_FRIDAY_STORY-01_1080x1920.png",
+          "git_blob_sha": "954eefd32eb27adb070ce01367ce6730ce984cb3",
+          "size": 2318070
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_012/APPROVED_ASSETS/ISSUE-012_FRIDAY_STORY-02_1080x1920.png",
+          "git_blob_sha": "5333ad1a65976a9ac1ea23344f259e1954f49363",
+          "size": 2258127
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_012/APPROVED_ASSETS/ISSUE-012_FRIDAY_STORY-03_1080x1920.png",
+          "git_blob_sha": "76d030d9bd01ed304eeff962556f880e2f1c65ff",
+          "size": 2334558
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_012/APPROVED_ASSETS/ISSUE-012_MONDAY_FEED_1080x1350.png",
+          "git_blob_sha": "78313a7cd4abce8f85af45e395812678f13f30e9",
+          "size": 1773275
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_012/APPROVED_ASSETS/ISSUE-012_MONDAY_LANDSCAPE_1200x628.png",
+          "git_blob_sha": "c5a4802727572debc5b3fcd5536b3d896000d5b9",
+          "size": 985871
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_012/APPROVED_ASSETS/ISSUE-012_MONDAY_STORY-01_1080x1920.png",
+          "git_blob_sha": "bd94fc9499702e06cbdfed43e46e783aba2f7549",
+          "size": 2159977
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_012/APPROVED_ASSETS/ISSUE-012_MONDAY_STORY-02_1080x1920.png",
+          "git_blob_sha": "db97d8303d7304be6663a905600a104d1b308749",
+          "size": 2148635
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_012/APPROVED_ASSETS/ISSUE-012_MONDAY_STORY-03_1080x1920.png",
+          "git_blob_sha": "634732430630cec29b8e91efa53a679ca65cfb81",
+          "size": 2156430
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_012/APPROVED_ASSETS/ISSUE-012_THURSDAY_FEED_1080x1350.png",
+          "git_blob_sha": "3391f94d1bf3d6357c70b1c4db7e4da905215e47",
+          "size": 1692116
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_012/APPROVED_ASSETS/ISSUE-012_THURSDAY_LANDSCAPE_1200x628.png",
+          "git_blob_sha": "013c3832be0540429284cb7fa7e188a68f77813d",
+          "size": 932602
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_012/APPROVED_ASSETS/ISSUE-012_THURSDAY_STORY-01_1080x1920.png",
+          "git_blob_sha": "ae386023eeded5a057d4005f3ffaaf79929a5750",
+          "size": 2072769
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_012/APPROVED_ASSETS/ISSUE-012_THURSDAY_STORY-02_1080x1920.png",
+          "git_blob_sha": "63d0faebe74a102dcca963e19e616b165aa1e71f",
+          "size": 2086731
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_012/APPROVED_ASSETS/ISSUE-012_THURSDAY_STORY-03_1080x1920.png",
+          "git_blob_sha": "c68e41622c19e015610d93cb68136c2c538f5996",
+          "size": 2074138
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_012/APPROVED_ASSETS/ISSUE-012_TUESDAY_FEED_1080x1350.png",
+          "git_blob_sha": "7c46918cd32943a2e08ce7a0fd5ee3a949eb3ea8",
+          "size": 1764853
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_012/APPROVED_ASSETS/ISSUE-012_TUESDAY_LANDSCAPE_1200x628.png",
+          "git_blob_sha": "828819aeb322c02edd3158b0f6ea76342de337d6",
+          "size": 988797
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_012/APPROVED_ASSETS/ISSUE-012_TUESDAY_STORY-01_1080x1920.png",
+          "git_blob_sha": "c62ae13e2b39acbb551e780cb32e57d54273e44b",
+          "size": 2220560
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_012/APPROVED_ASSETS/ISSUE-012_TUESDAY_STORY-02_1080x1920.png",
+          "git_blob_sha": "e28f56bbdadc56bbdcbd55237ac31175d0a10a27",
+          "size": 2226561
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_012/APPROVED_ASSETS/ISSUE-012_TUESDAY_STORY-03_1080x1920.png",
+          "git_blob_sha": "4b0f0b73be8272a0dd773263d9a5c6800ca8cdd9",
+          "size": 2163848
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_012/APPROVED_ASSETS/ISSUE-012_WEDNESDAY_FEED_1080x1350.png",
+          "git_blob_sha": "9f1a50f1375a482385ece79bf57f005cb29ebcd8",
+          "size": 1644125
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_012/APPROVED_ASSETS/ISSUE-012_WEDNESDAY_LANDSCAPE_1200x628.png",
+          "git_blob_sha": "3d284e2581db7b18ff80d239187f8bee6ecb6880",
+          "size": 934464
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_012/APPROVED_ASSETS/ISSUE-012_WEDNESDAY_STORY-01_1080x1920.png",
+          "git_blob_sha": "6b2fbf0fe807e630f0437fd766152701a3f24dcc",
+          "size": 1812849
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_012/APPROVED_ASSETS/ISSUE-012_WEDNESDAY_STORY-02_1080x1920.png",
+          "git_blob_sha": "4b4c03ea522c2eb1b9c0eae5c51dc66f71de95b0",
+          "size": 2144916
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_012/APPROVED_ASSETS/ISSUE-012_WEDNESDAY_STORY-03_1080x1920.png",
+          "git_blob_sha": "48a7185daf6ce1ada3f1a75de297b206d2964a47",
+          "size": 2127340
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_012/FRIDAY_ASSET_MANIFEST.md",
+          "git_blob_sha": "cb056f00005b94c4ce897b5fbfcc5e90ea4ca55b",
+          "size": 980
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_012/ISSUE-012_AGENCY_VISUAL_HANDOFF.md",
+          "git_blob_sha": "0ed0ea9d72715b2f2a3afa7ab66403056b2be528",
+          "size": 13839
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_012/ISSUE012_CANONICAL_BLOG_ARTICLE.md",
+          "git_blob_sha": "d9e0ce0d3f072d9c5561507d162bb61162fad48b",
+          "size": 4871
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_012/ISSUE012_CHECKSUMS.sha256",
+          "git_blob_sha": "cc0ef85a545ff5856d864752728d096c44a71551",
+          "size": 3060
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_012/ISSUE012_EMAIL_COPY.md",
+          "git_blob_sha": "0225455d0963a8e8394e0c97cf047cc7734b4f04",
+          "size": 2312
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_012/ISSUE012_EXECUTION_RECEIPT.md",
+          "git_blob_sha": "93b15ceb682c7e2ac8e196c5a04c596d02b720a2",
+          "size": 32307
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_012/ISSUE012_PUBLISHING_SCHEDULE.md",
+          "git_blob_sha": "e1d8a079960ff8c86bb18bde5c932146fe38e9a5",
+          "size": 2246
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_012/MONDAY_ASSET_MANIFEST.md",
+          "git_blob_sha": "a851c16ef45ee8339f08fe2dbfa536db7be35daf",
+          "size": 980
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_012/THURSDAY_ASSET_MANIFEST.md",
+          "git_blob_sha": "950ce7f1dc6c241f7ea03865e9202235ffd8b58e",
+          "size": 992
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_012/TUESDAY_ASSET_MANIFEST.md",
+          "git_blob_sha": "09792b316a853e9ee5cb72232753a494b163f821",
+          "size": 986
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_012/WEDNESDAY_ASSET_MANIFEST.md",
+          "git_blob_sha": "f24bce67dbe28439a0cf9c1ed1f6a052ee41f6a6",
+          "size": 1227
+        }
+      ],
+      "note": "Git blob identity, not a fresh SHA-256 or pixel QA. File presence alone is not approval."
+    },
+    {
+      "issue": "013",
+      "theme": "Continuity",
+      "candidate_files": [
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_013/FRIDAY_ASSET_MANIFEST.md",
+          "git_blob_sha": "56119a189cc9f49e8f6071873707a128533a864f",
+          "size": 1995
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_013/ISSUE-013_FRIDAY_FEED_1080x1350.png",
+          "git_blob_sha": "f0b16c05a5595a4764729465eb0aaabac81bd5cb",
+          "size": 2229721
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_013/ISSUE-013_FRIDAY_LANDSCAPE_1200x628.png",
+          "git_blob_sha": "83aebbe825efa7531c33aea683045cc8ce7c4f89",
+          "size": 2170253
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_013/ISSUE-013_FRIDAY_STORY-01_1080x1920.png",
+          "git_blob_sha": "a43c9f0272c618cc2edbfa5496b5fc162a686ba2",
+          "size": 2213223
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_013/ISSUE-013_FRIDAY_STORY-02_1080x1920.png",
+          "git_blob_sha": "c96cc8f4857be9866d00b053341bdf1aa1b3667d",
+          "size": 2192937
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_013/ISSUE-013_FRIDAY_STORY-03_1080x1920.png",
+          "git_blob_sha": "c154240c046556dccffb73a932523e306f3759a8",
+          "size": 2192001
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_013/ISSUE-013_MONDAY_FEED_1080x1350.png",
+          "git_blob_sha": "0166acca2bf14576dafe8eb96b04111ad7d314fa",
+          "size": 2165046
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_013/ISSUE-013_MONDAY_LANDSCAPE_1200x628.png",
+          "git_blob_sha": "942f90415380162914e5a6997bb12dc2f37dc17a",
+          "size": 1959673
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_013/ISSUE-013_MONDAY_STORY-01_1080x1920.png",
+          "git_blob_sha": "7521edbe629c0aca4d9b14c5d312b4730876ad01",
+          "size": 2061851
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_013/ISSUE-013_MONDAY_STORY-02_1080x1920.png",
+          "git_blob_sha": "b929cf1cfd5f57b75166cd8eb8a2b2b494d41095",
+          "size": 1966688
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_013/ISSUE-013_MONDAY_STORY-03_1080x1920.png",
+          "git_blob_sha": "0c8d3063df98d3775c35b08a5b5d2decc10bba15",
+          "size": 2059849
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_013/ISSUE-013_THURSDAY_FEED_1080x1350.png",
+          "git_blob_sha": "74b5a46bc35f2cade013c1b209ec4f632dee7b5a",
+          "size": 1923566
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_013/ISSUE-013_THURSDAY_LANDSCAPE_1200x628.png",
+          "git_blob_sha": "67a98b806db5b0ddd9957526e7319cbf3cca0366",
+          "size": 1975246
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_013/ISSUE-013_THURSDAY_STORY-01_1080x1920.png",
+          "git_blob_sha": "dbe6ccfa52afe82ecd926e2f570f7c5c715fdb2a",
+          "size": 1920689
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_013/ISSUE-013_THURSDAY_STORY-02_1080x1920.png",
+          "git_blob_sha": "0b6ad3c619be85a47e0b2d5415cf4a019d45b8b6",
+          "size": 2047232
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_013/ISSUE-013_THURSDAY_STORY-03_1080x1920.png",
+          "git_blob_sha": "ef9f98f1e11d1f26841f2eb3c8a751ed7338e904",
+          "size": 2245593
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_013/ISSUE-013_TUESDAY_FEED_1080x1350.png",
+          "git_blob_sha": "0d239663a9ed8152be02d0d93812d2f9b0070e5a",
+          "size": 1894237
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_013/ISSUE-013_TUESDAY_LANDSCAPE_1200x628.png",
+          "git_blob_sha": "d27d5edb84b0dbcdaf1b264ffd3f01361a96ea95",
+          "size": 1846953
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_013/ISSUE-013_TUESDAY_STORY-01_1080x1920.png",
+          "git_blob_sha": "db5d47c46fb41ec5981a824257614a21c0c33065",
+          "size": 1855930
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_013/ISSUE-013_TUESDAY_STORY-02_1080x1920.png",
+          "git_blob_sha": "c610a5db18294542de099d1ba3fea0bf4918e33e",
+          "size": 1951344
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_013/ISSUE-013_TUESDAY_STORY-03_1080x1920.png",
+          "git_blob_sha": "1b9fa8240383cdf64a1842bccddab332d8a7e5e5",
+          "size": 1983359
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_013/ISSUE-013_WEDNESDAY_FEED_1080x1350.png",
+          "git_blob_sha": "22e08ec04a5c3984a6762d312ecf7d942e289031",
+          "size": 1935655
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_013/ISSUE-013_WEDNESDAY_LANDSCAPE_1200x628.png",
+          "git_blob_sha": "bc21aefb3d664adb6e2d15bdb97fd3a0bc0ee150",
+          "size": 2007400
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_013/ISSUE-013_WEDNESDAY_STORY-01_1080x1920.png",
+          "git_blob_sha": "d368991e95f424234b1785cc5394443375dfe4f4",
+          "size": 1951939
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_013/ISSUE-013_WEDNESDAY_STORY-02_1080x1920.png",
+          "git_blob_sha": "eba98b3ec2362e74e09b4f9d593d50ddd8c74839",
+          "size": 1721491
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_013/ISSUE-013_WEDNESDAY_STORY-03_1080x1920.png",
+          "git_blob_sha": "1e080461bed31f7707e0e33b1f9f145be1beea31",
+          "size": 1786832
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_013/ISSUE013_BUFFER_OBJECTS.json",
+          "git_blob_sha": "379eab13198126fd4930c9f0c46dd606fa208379",
+          "size": 6552
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_013/ISSUE013_CANONICAL_BLOG_ARTICLE.md",
+          "git_blob_sha": "77fe9018bcca4603b1f438b377c7fe88b0d47267",
+          "size": 7617
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_013/ISSUE013_CHECKSUMS.sha256",
+          "git_blob_sha": "9a4c569976ec227f0c133bc6682c525ce6d3674e",
+          "size": 2660
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_013/ISSUE013_EMAIL_COPY.md",
+          "git_blob_sha": "d90a8491746ac963a375dca4c4b61bc6d0e7bb67",
+          "size": 2831
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_013/ISSUE013_EXECUTION_RECEIPT.md",
+          "git_blob_sha": "309cae883d288e8300965cb9b88a12c7a022d983",
+          "size": 5455
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_013/ISSUE013_FOUNDER_APPROVED_PRODUCTION_GATE.md",
+          "git_blob_sha": "850e8ba84395df7f8f866ab59242402952873fa7",
+          "size": 10322
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_013/ISSUE013_FOUNDER_MANUAL_BRIDGE.md",
+          "git_blob_sha": "34fa143b954edea624fa2738dc44e2f4cbf49277",
+          "size": 9785
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_013/ISSUE013_PREFLIGHT_RECEIPT.md",
+          "git_blob_sha": "29c632ae2f1616231381d5c15adc7898f775d45e",
+          "size": 11070
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_013/ISSUE013_PUBLISHING_SCHEDULE.md",
+          "git_blob_sha": "75dcf85773591fadd92ab8cb33d72cb8191f3825",
+          "size": 3288
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_013/ISSUE013_SOCIAL_CAPTIONS.md",
+          "git_blob_sha": "9134ab2a0b6b8d385a0fa5511e832a1e4e7a3c2c",
+          "size": 6187
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_013/ISSUE013_STAGE_B_RECONCILIATION.md",
+          "git_blob_sha": "6385bdc9b4567d9741770bfbaafcd43e3438f77d",
+          "size": 7505
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_013/ISSUE013_STAGE_D_BUFFER_RECEIPT.md",
+          "git_blob_sha": "49ed4518e2a675923871afc510bf57bc0e072c6b",
+          "size": 6466
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_013/ISSUE013_WORDPRESS_MEDIA_MAP.json",
+          "git_blob_sha": "130fd574b9909f72759a00f9f68b09514d0f6a0c",
+          "size": 4457
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_013/ISSUE013_WORDPRESS_TIMEZONE_FINDING.md",
+          "git_blob_sha": "aa4ae90500c98a57c356f4de894f238a9e094efe",
+          "size": 2566
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_013/MANIFEST.json",
+          "git_blob_sha": "8ee2db6d25a9a000ddd53024e1b49b284995c767",
+          "size": 7753
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_013/MONDAY_ASSET_MANIFEST.md",
+          "git_blob_sha": "f45d4b759a2c1493dd66a2fc79be2f82cc69856d",
+          "size": 2356
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_013/THURSDAY_ASSET_MANIFEST.md",
+          "git_blob_sha": "e9bf9bef9f0e22bdca397385803f52e66e744637",
+          "size": 2017
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_013/TUESDAY_ASSET_MANIFEST.md",
+          "git_blob_sha": "dba3359ad3aabca1060bbc3bdaa812188d6b5a8a",
+          "size": 2006
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_013/WEDNESDAY_ASSET_MANIFEST.md",
+          "git_blob_sha": "7d0ab6cdcc317a6e3dc04eaf703a35c66c2fc553",
+          "size": 2028
+        }
+      ],
+      "note": "Git blob identity, not a fresh SHA-256 or pixel QA. File presence alone is not approval."
+    },
+    {
+      "issue": "014",
+      "theme": "Language",
+      "candidate_files": [
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_014/ISSUE014_BUFFER_DEPLOYMENT_RECEIPT.md",
+          "git_blob_sha": "4aa207868dfb6e67c3546595595133581b656a27",
+          "size": 9967
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_014/ISSUE014_BUFFER_OBJECTS.json",
+          "git_blob_sha": "e43a489c7ecef84e1fc5a201e2a1cc6637a1fea6",
+          "size": 22995
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_014/ISSUE014_EDITORIAL_DEVELOPMENT_BRIEF.md",
+          "git_blob_sha": "1c3a3a65d1bcb588e92f8aca9c4b6a15fef4b367",
+          "size": 5702
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_014/ISSUE014_MEDIA_STATE.json",
+          "git_blob_sha": "dce2fdd722fd77ec4730cb8038edcf917f07a1c1",
+          "size": 6946
+        }
+      ],
+      "note": "Git blob identity, not a fresh SHA-256 or pixel QA. File presence alone is not approval."
+    },
+    {
+      "issue": "015",
+      "theme": "Restraint",
+      "candidate_files": [
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_015/ISSUE015_BREVO_CAMPAIGN.html",
+          "git_blob_sha": "d19faca9b532b914343733c617a44a894b789545",
+          "size": 5317
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_015/ISSUE015_BREVO_EXECUTION_RECEIPT.md",
+          "git_blob_sha": "6f5310539dcf799de009a397d3590ff2b4859ab9",
+          "size": 11699
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_015/ISSUE015_BREVO_PREPARED_PAYLOAD.json",
+          "git_blob_sha": "7f352ff8b5b791c6dc3d841bc561ce290954ba3b",
+          "size": 4188
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_015/ISSUE015_BUFFER_DEPLOYMENT_RECEIPT.md",
+          "git_blob_sha": "a96af03dcb8dfac71d790ac33aa25de63710688f",
+          "size": 14595
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_015/ISSUE015_BUFFER_OBJECTS.json",
+          "git_blob_sha": "35c9a59d99adc4e1c0ec2a14353fdcf44ad0490b",
+          "size": 46189
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_015/ISSUE015_CANONICAL_ARTICLE_DRAFT.md",
+          "git_blob_sha": "eb4f69be2d34ed45bd9c12e8c7d2fa09937a5ac3",
+          "size": 6626
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_015/ISSUE015_CLAUDE_EXECUTION_HANDOFF.md",
+          "git_blob_sha": "92894e78928033aa186ab7f6e33c2f8e529d4b82",
+          "size": 10647
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_015/ISSUE015_EDITORIAL_DEVELOPMENT_BRIEF.md",
+          "git_blob_sha": "42dfe8eae0b020357b2e76d041f22bc262f88d6d",
+          "size": 7073
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_015/ISSUE015_FINAL_RECONCILIATION.md",
+          "git_blob_sha": "796d095f8cd914c34979e90d79daab95efcc457a",
+          "size": 9388
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_015/ISSUE015_FIVE_DAY_COPY_AND_VISUAL_DIRECTION.md",
+          "git_blob_sha": "74f52761a96ef85ebd76b0e9d4f399839c740a9f",
+          "size": 10512
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_015/ISSUE015_MEDIA_STATE.json",
+          "git_blob_sha": "ea2b1eff83121bd6659f6617b0b8897a9625072b",
+          "size": 13829
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_015/ISSUE015_VISUAL_RECONCILIATION_GATE.md",
+          "git_blob_sha": "81217169e43619604f35189c31516bcd30cec834",
+          "size": 4033
+        }
+      ],
+      "note": "Git blob identity, not a fresh SHA-256 or pixel QA. File presence alone is not approval."
+    },
+    {
+      "issue": "016",
+      "theme": "Trust",
+      "candidate_files": [
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_016/APPROVED_ASSETS/ISSUE016_FRI_FEED_BUILD1_1080x1380_v01_APPROVED.png",
+          "git_blob_sha": "4913dddef321d144849926f76c8f81bec6ae7ffe",
+          "size": 1817942
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_016/APPROVED_ASSETS/ISSUE016_FRI_LANDSCAPE_BUILD2_1200x628_v01_APPROVED.png",
+          "git_blob_sha": "5bd06b4a718793824f1f5e4277f008116d0e0a0d",
+          "size": 1063510
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_016/APPROVED_ASSETS/ISSUE016_FRI_STORY01_1080x1920_v01_APPROVED.png",
+          "git_blob_sha": "b5bf38dcdd16d165947097778e5a0d794f557014",
+          "size": 2082089
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_016/APPROVED_ASSETS/ISSUE016_FRI_STORY02_1080x1920_v01_APPROVED.png",
+          "git_blob_sha": "ebbc1cc8d3d8526db30aa73b350d45c0d9eb0cad",
+          "size": 1518352
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_016/APPROVED_ASSETS/ISSUE016_FRI_STORY03_1080x1920_v01_APPROVED.png",
+          "git_blob_sha": "251ad5d1aa0126b1f47119152b4b621017259820",
+          "size": 1533347
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_016/APPROVED_ASSETS/ISSUE016_MON_FEED_BUILD1_1080x1380_REBUILD_v01_APPROVED.png",
+          "git_blob_sha": "5de55605f0102519216d68ef9e735b515ea06837",
+          "size": 1839721
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_016/APPROVED_ASSETS/ISSUE016_MON_LANDSCAPE_BUILD2_1200x628_REBUILD_v01_APPROVED.png",
+          "git_blob_sha": "fc4f3ce016e33afe33587df0f35a2461364515ed",
+          "size": 1040758
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_016/APPROVED_ASSETS/ISSUE016_MON_STORY01_1080x1920_REBUILD_v01_APPROVED.png",
+          "git_blob_sha": "00d0ec501885535e14cb047ece1c9bc02ba5b84c",
+          "size": 2000853
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_016/APPROVED_ASSETS/ISSUE016_MON_STORY02_1080x1920_REBUILD_v01_APPROVED.png",
+          "git_blob_sha": "eef3ea0a1fa4da049b64de9af9a90841d75740a4",
+          "size": 2051746
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_016/APPROVED_ASSETS/ISSUE016_MON_STORY03_1080x1920_REBUILD_v01_APPROVED.png",
+          "git_blob_sha": "5ec6722daf5b8cfad5d91a3d3cd0fd89d5647401",
+          "size": 1889680
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_016/APPROVED_ASSETS/ISSUE016_THU_FEED_BUILD1_1080x1380_v01_APPROVED.png",
+          "git_blob_sha": "a9f749f08ae3230959283ec86f40bf44280374d3",
+          "size": 1862757
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_016/APPROVED_ASSETS/ISSUE016_THU_LANDSCAPE_BUILD2_1200x628_v01_APPROVED.png",
+          "git_blob_sha": "f548a1cf9e8af51a1147088c962064e50723177e",
+          "size": 1066642
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_016/APPROVED_ASSETS/ISSUE016_THU_STORY01_1080x1920_v01_APPROVED.png",
+          "git_blob_sha": "2417c7ffa2d83e91df93fb6d76e1e4d811a909d5",
+          "size": 1880805
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_016/APPROVED_ASSETS/ISSUE016_THU_STORY02_1080x1920_v01_APPROVED.png",
+          "git_blob_sha": "620d4a7b7388fc28073e1393d2fd63b8c21aaf61",
+          "size": 1550882
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_016/APPROVED_ASSETS/ISSUE016_THU_STORY03_1080x1920_v01_APPROVED.png",
+          "git_blob_sha": "e91be3436156d6bef9c082e0c00620f03b0ee7f5",
+          "size": 1571073
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_016/APPROVED_ASSETS/ISSUE016_TUE_FEED_BUILD1_1080x1380_v02_APPROVED.png",
+          "git_blob_sha": "5f0747634bfee051c25f24cbecd67a06b522ab2d",
+          "size": 1812806
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_016/APPROVED_ASSETS/ISSUE016_TUE_LANDSCAPE_BUILD2_1200x628_v02_APPROVED.png",
+          "git_blob_sha": "821589ab19a62809e18c201f33d5058aa662aa79",
+          "size": 1035921
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_016/APPROVED_ASSETS/ISSUE016_TUE_STORY01_1080x1920_v01_APPROVED.png",
+          "git_blob_sha": "e06263272666b38b3db97bd78faa1bbfd6086adf",
+          "size": 1590944
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_016/APPROVED_ASSETS/ISSUE016_TUE_STORY02_1080x1920_v01_APPROVED.png",
+          "git_blob_sha": "9326b96e74b1f953bbad6e5362528e18daa3b2da",
+          "size": 1559141
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_016/APPROVED_ASSETS/ISSUE016_TUE_STORY03_1080x1920_v01_APPROVED.png",
+          "git_blob_sha": "6e408c778e1fd130938cde2c5037f6e5cdb89e6d",
+          "size": 1577480
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_016/APPROVED_ASSETS/ISSUE016_WED_FEED_BUILD1_1080x1380_v01_APPROVED.png",
+          "git_blob_sha": "cc153ad198c09ff6de5e85cc999c24db7a78f2f7",
+          "size": 1904400
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_016/APPROVED_ASSETS/ISSUE016_WED_LANDSCAPE_BUILD2_1200x628_v01_APPROVED.png",
+          "git_blob_sha": "01d8a8d8b01b8c9bf239dcebad091355e2c1e4e9",
+          "size": 1082183
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_016/APPROVED_ASSETS/ISSUE016_WED_STORY01_1080x1920_v01_APPROVED.png",
+          "git_blob_sha": "dcc831c9aea64166e497aa2b5a9c87c9ef3ae7a4",
+          "size": 2077972
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_016/APPROVED_ASSETS/ISSUE016_WED_STORY02_1080x1920_v01_APPROVED.png",
+          "git_blob_sha": "8799d2be38c7c00b0d8628c90db1c3021983f2f5",
+          "size": 2089072
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_016/APPROVED_ASSETS/ISSUE016_WED_STORY03_1080x1920_v01_APPROVED.png",
+          "git_blob_sha": "880cc3b1850aff56f364cc610f488fc27bf618ce",
+          "size": 1572506
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_016/EVIDENCE/BREVO_EMAIL_DRAFT.json",
+          "git_blob_sha": "3bfa0828abbc37302ce419ce799b6ffdcd7fef61",
+          "size": 1005
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_016/EVIDENCE/BREVO_EMAIL_SAVED.html",
+          "git_blob_sha": "3e41cfe55a844fcd2ef7408040d1ebfc7f85afb6",
+          "size": 4121
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_016/EVIDENCE/BUFFER_CONTENT_DRAFTS.json",
+          "git_blob_sha": "1ee34f8d27bba152fc9c51957d37940784ff169d",
+          "size": 15851
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_016/EVIDENCE/BUFFER_SCHEDULE_READBACK.json",
+          "git_blob_sha": "0f9868dd8cf4b7897fd1a9b38f6eaf842f93c15c",
+          "size": 36584
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_016/EVIDENCE/BUFFER_STORY_ASSET_MAPPING.json",
+          "git_blob_sha": "578f41c39e3401f40777700777923df756f5ef2c",
+          "size": 11877
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_016/EVIDENCE/ISSUE016_APPROVED_ASSET_MANIFEST.json",
+          "git_blob_sha": "bc9652f63782a039d77a14f70d79101508961702",
+          "size": 19217
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_016/EVIDENCE/ISSUE016_FRIDAY_QA_REPORT.md",
+          "git_blob_sha": "882d736031af5b10da98851f3f8350cf39d57009",
+          "size": 20905
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_016/EVIDENCE/ISSUE016_MONDAY_REBUILD_QA_REPORT.md",
+          "git_blob_sha": "5695cd64cbb35af8bd75789f3fed8e59e2be431d",
+          "size": 20034
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_016/EVIDENCE/ISSUE016_SCHEDULE_RECEIPT.json",
+          "git_blob_sha": "647263db6a8abaa7a2899796090db9bb34eaa9a4",
+          "size": 9419
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_016/EVIDENCE/ISSUE016_THURSDAY_QA_REPORT.md",
+          "git_blob_sha": "a4befc4f98ca83e3e1801751d05982e5566efc7a",
+          "size": 21095
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_016/EVIDENCE/ISSUE016_TUESDAY_QA_REPORT.md",
+          "git_blob_sha": "ae1afe9be2233da36721535ec5fb7af173aeb913",
+          "size": 8605
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_016/EVIDENCE/ISSUE016_TUESDAY_STORIES_QA_REPORT.md",
+          "git_blob_sha": "4666f65b5fd44d3c037f0cb09f373391d18d3f92",
+          "size": 14042
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_016/EVIDENCE/ISSUE016_WEDNESDAY_QA_REPORT.md",
+          "git_blob_sha": "d9c4bc78bb0d06c27dff94d13321e8d92340e55d",
+          "size": 19072
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_016/EVIDENCE/README.md",
+          "git_blob_sha": "5fccdd1daad805e0a5cc8e332609fa9b8b850722",
+          "size": 2751
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_016/EVIDENCE/WORDPRESS_METADATA_RECEIPT.json",
+          "git_blob_sha": "d54d040e79c1e53272d1f2a473b35ff326eb1efb",
+          "size": 746
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_016/EVIDENCE/friday-v01_dimension-verification.json",
+          "git_blob_sha": "32373a42b72304fdeb7df88373ee99315b8cc955",
+          "size": 1184
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_016/EVIDENCE/monday-rebuild-v01_dimension-verification.json",
+          "git_blob_sha": "5a49d9fb7d0e392e5fe39bbf9a15b050475240fa",
+          "size": 1224
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_016/EVIDENCE/thursday-v01_dimension-verification.json",
+          "git_blob_sha": "f8f0eed4173b56f57526ee855bfedbc826e05079",
+          "size": 1184
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_016/EVIDENCE/tuesday-stories-v01_dimension-verification.json",
+          "git_blob_sha": "85b6938274dfccfb486e736cca6394b684d79374",
+          "size": 705
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_016/EVIDENCE/wednesday-v01_dimension-verification.json",
+          "git_blob_sha": "9bffb694df5ae8759545435404c21f628235907f",
+          "size": 1184
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_016/ISSUE016_ARTICLE_DRAFT.md",
+          "git_blob_sha": "1a39a9ce9b29e4b77ea4dfdedf954662180737bb",
+          "size": 466
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_016/ISSUE016_FIVE_DAY_COPY_AND_VISUAL_DIRECTION.md",
+          "git_blob_sha": "b6db1cf92c4c3353d15b3cc7eb2e701dcbff1227",
+          "size": 4412
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_016/ISSUE016_FOUNDATION_CLOSEOUT_REPORT.md",
+          "git_blob_sha": "96e5ec5be8b0d989ac5a366221b8c6a042e456a4",
+          "size": 2215
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_016/ISSUE016_PRODUCTION_BRIEF.md",
+          "git_blob_sha": "3dc691b3cfd6f199c52149e380224d47a8fbcea0",
+          "size": 3644
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_016/ISSUE016_PRODUCTION_CLOSEOUT.md",
+          "git_blob_sha": "6f5a3a21cdc31d2fc81525e409bd27265f9f429a",
+          "size": 13012
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_016/ISSUE016_REPOSITORY_VERIFICATION_RECEIPT.md",
+          "git_blob_sha": "e4653508c03117dd4ae39b012f606a3ef98ad370",
+          "size": 2061
+        },
+        {
+          "path": "07_MARKETING/CAMPAIGNS/CAMPAIGN_001_THERAPEUTIC_ALLIANCE/ISSUE_016/README.md",
+          "git_blob_sha": "837efe6a019e859735e468b203f15e7067816a18",
+          "size": 1230
+        }
+      ],
+      "note": "Git blob identity, not a fresh SHA-256 or pixel QA. File presence alone is not approval."
+    }
+  ]
+}

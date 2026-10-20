@@ -1,3 +1,7 @@
+# Current direction: start with Issue 007
+
+**Superseded opening plan, October 20, 2026:** Drew selected sequential reuse of Issues 007–016. The 001–004 pilot and approved Issue 017 work below remain preserved and are not the current launch sequence. See [current resend package](../RESEND_007_016_2026/README.md). No production release is authorized by this navigation update.
+
 # The Tao of Clinical Touch — Second Reading + New Reflections
 
 **Current public-framing authority:** Second Reading is internal only. New outward treatments lead with their clinical topic and do not announce reused material. Taylor’s repository voice guidance governs revision. Issue 017 Monday copy and five visual masters are Founder-approved. SR02–SR04 were revised October 20 and await exact-copy approval and required reviews. See [Founder decision](../../../../00_Constitution/DECISIONS/DR-2026-10-14-TAO-PUBLIC-FRAMING-AND-VOICE.md).
