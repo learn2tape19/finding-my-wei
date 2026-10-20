@@ -1,39 +1,33 @@
-DRAFT FOR REVIEW — NOT APPROVED / NOT SENT
+DRAFT FOR EXACT-COPY REVIEW / NOT SENT
 
 **Campaign name:** TAO_SR04_ORIG004_2026-11-16_DRAFT  
-**Subject:** Are we prepared for “No, that's not quite it”?  
-**Preheader:** Our fourth Second Reading: Listening Before Explanation.
+**Subject:** Did I understand their priority?  
+**Preheader:** Hearing the details can still leave something important unheard.
 
-This is the fourth reflection in our Second Reading pilot.
+**The Tao of Clinical Touch · November 16, 2026**
 
-**Original Issue No. 004 · Listening Before Explanation**
+**Let the answer change something**
 
-**New reflection — November 16, 2026**
+“Did I get that right?”
 
-The sentence I want to keep beside this second reading is simple: “Did I get that right?”
+The question can help me check whether I understood the person's priority.
 
-It can sound like a small courtesy. What matters is whether I am prepared for the answer to be no.
+I may have heard where the discomfort is while missing what it interrupts. I may have followed the history while overlooking the question they most wanted to ask.
 
-The original issue asks us to listen before explanation. On this reading, I want to look at the next step. After I clarify what someone meant, can their answer still alter the plan?
+A summary can repeat the details accurately and still miss what matters most to the person telling them.
 
-There is a difference between summarizing someone's words and understanding their priority. I may have heard where the discomfort is while missing what it interrupts. I may have followed the history while overlooking the question they most wanted to ask.
+What are they hoping to be able to do? What concerns them about the visit? What would they like me to understand before we begin?
 
-I do not need to turn every conversation into a longer one. I need to check whether the conversation we are having is useful to the person in front of me.
+These questions do not all need to be asked at once. I want to notice whether the next question follows what the person has told me, or simply follows my usual sequence.
 
-Sometimes clarification may support the plan already taking shape. Sometimes it may change the emphasis, the next question, or whether the next step belongs within my role at all.
+Their answer may help clarify a useful goal for the session. It may reveal a concern that needs more discussion, or something that belongs outside my role.
 
-That is the thread I want these first four Second Readings to hold together. Leave room for a different answer. Make the process understandable. Separate observation from explanation. Let what you hear influence what you choose.
+Listening gives us information about the person as well as the symptom. Before I explain what I think, have I understood what they want help with?
 
-The value of returning to an issue is not simply remembering its language. It is finding somewhere in our own work where the question is still alive.
+**Button: Read Listening Before Explanation** → https://taoclinicaltouch.com/blog/2026/08/listening-before-explanation/?utm_source=brevo&utm_medium=email&utm_campaign=tao_second_reading_2026_pilot&utm_content=sr04_orig004_mon_primary
 
-**Button: Read the original listening issue** → https://taoclinicaltouch.com/blog/2026/08/listening-before-explanation/?utm_source=brevo&utm_medium=email&utm_campaign=tao_second_reading_2026_pilot&utm_content=sr04_orig004_mon_primary
+What question helps you understand what matters most to someone? You're welcome to reply with an observation from your practice. Please leave out identifying patient details.
 
-When did a client's answer last change what you did next? Hit reply with what you learned, without identifying patient details.
-
-If you've followed these four reflections, I'd also welcome a sentence about what made returning to the issues useful—or what you would change.
-
-— Drew
-
-Thank you for reading with me.
+Drew
 
 [Production: add verified functional Brevo unsubscribe/preferences and sender footer. Not a sendable final HTML.]
