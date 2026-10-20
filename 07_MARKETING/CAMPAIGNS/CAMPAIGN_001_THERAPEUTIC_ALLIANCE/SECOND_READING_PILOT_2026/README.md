@@ -1,6 +1,6 @@
 # The Tao of Clinical Touch — Second Reading + New Reflections
 
-**Current public-framing authority:** Second Reading is internal only. New outward treatments lead with their clinical topic and do not announce reused material. Taylor’s repository voice guidance governs revision. SR01 v02 is draft for voice review; SR02–SR04 public treatments are HOLD until their old framing is revised. See [Founder decision](../../../../00_Constitution/DECISIONS/DR-2026-10-14-TAO-PUBLIC-FRAMING-AND-VOICE.md).
+**Current public-framing authority:** Second Reading is internal only. New outward treatments lead with their clinical topic and do not announce reused material. Taylor’s repository voice guidance governs revision. Issue 017 Monday copy and five visual masters are Founder-approved. SR02–SR04 were revised October 20 and await exact-copy approval and required reviews. See [Founder decision](../../../../00_Constitution/DECISIONS/DR-2026-10-14-TAO-PUBLIC-FRAMING-AND-VOICE.md).
 
 Prepared October 14, 2026. **DRAFT FOR FOUNDER REVIEW — NO RELEASE AUTHORITY.**
 
@@ -8,7 +8,7 @@ Prepared October 14, 2026. **DRAFT FOR FOUNDER REVIEW — NO RELEASE AUTHORITY.*
 
 **Mandatory GitHub continuity:** `learn2tape19/finding-my-wei` is canonical. This area is a campaign package governed by the existing standards, not a parallel editorial operating system. See [continuity audit and standards mapping](GITHUB_CONTINUITY_AUDIT.md) and the [Founder decision](../../../../00_Constitution/DECISIONS/DR-2026-10-14-TAO-SECOND-READING-GITHUB-CONTINUITY.md). The numbered pilot checklist does not replace existing gates. Approved originals and canonical articles remain in their existing locations.
 
-`PILOT_COPY.md` is the unapproved reflection/treatment working source. `emails/` are derived review exports; reconcile them after source edits. Evidence snapshots are historical readbacks, not replacement canonical manuscripts. Continuity approval does not approve pilot direction, cadence, copy, assets, audience or release.
+`PILOT_COPY.md` is the reflection/treatment working source. Issue 017's exact approved Monday files and approval records take precedence over older summaries. `emails/` are derived review exports; reconcile them after source edits. Evidence snapshots are historical readbacks, not replacement canonical manuscripts. Continuity approval does not approve pilot direction, cadence, copy, assets, audience or release.
 
 My recommendation: revisit Issues 001–004 in order, with a short new reflection that gives returning readers a reason to look again. Send one email and publish three social treatments per week. Measure confirmed subscriptions and substantive reader responses before extending to the remaining issues. Do not repeat the original high-volume production by default.
 
@@ -30,7 +30,7 @@ My recommendation: revisit Issues 001–004 in order, with a short new reflectio
 
 1. Issue 001 is **The Invisible Beginning**, a multi-article historical cycle with five current live articles. The pilot selects **The Permission Question** as its anchor; it is not the sole original Issue 001 title.
 2. Issues 002–004 map to **The Greet Is the First Clinical Intervention**, **What Are You Actually Assessing?**, and **Listening Before Explanation**. Historical filenames and live titles differ in places.
-3. Issue 009 has a Timing production package but no published article in the current WordPress post inventory. Its execution-hold record must remain visible. Issue 016 is still a future post for October 19.
+3. Issue 009 has a Timing production package but no published article in the current WordPress post inventory. Its execution-hold record must remain visible. Drew confirmed October 20 that Issue 016 is posted; this is Founder confirmation, not a fresh operator readback.
 4. Recent email reach is seven subscribers, while earlier campaigns used much larger audiences. These are different cohorts. Brevo includes automated opens/clicks. Neither the original “less than 20 people” estimate nor the reported click rates establish unique human readers.
 5. The pilot preserves original post IDs, titles, bodies, dates, slugs, canonical URLs and approved originals. New reflections live in email/social for this pilot; there is no dependency on modifying old articles or creating duplicate blog posts.
 
@@ -38,6 +38,10 @@ My recommendation: revisit Issues 001–004 in order, with a short new reflectio
 
 Completed: isolated clone of Finding My Wei at `273535f9e6e45879c225048aa3177247df4e871d`; current authenticated WordPress post/content/media reads; live Buffer/Brevo/GA4 report inspection; source mapping; four-week draft copy; calendar/tracking/approval package.
 
-Pending: scientific/editorial review, Drew's voice and direction approval, final visual production and approval, fresh audience eligibility/count, exact-version release approval, platform draft creation, scheduling, publication and delivery verification. Nothing has been created, scheduled, published or sent in WordPress, Buffer or Brevo by this task.
+Pending: required independent scientific/editorial review, exact-copy approval of revised SR02–SR04 and remaining Issue 017 treatments, later visual production/approval, final links and platform previews, exact-version release approval and delivery verification. Drew owns Brevo audience updates for future emails; selected audience/count must still be recorded at release. Nothing has been created, scheduled, published or sent in WordPress, Buffer or Brevo by this task.
 
 This repository directory is the authoritative Second Reading working package. Workspace output copies and ZIPs are review exports and may be stale; edit this repository source and regenerate exports when needed. Historical issue files/assets and synced project `sources/` remain unchanged. Reviewed branch push is authorized; remote verification is recorded in `evidence/CONTINUITY_VERIFICATION.json`. No merge or production release is claimed.
+
+## October 20 revision receipt
+
+Drew authorized the revision and status pass after confirming Issue 016 is posted and taking ownership of future Brevo audience updates. SR02–SR04 now lead with clinical topics; assembled emails match their source reflections. Existing Issue 017 approved files and all original articles/assets remain unchanged. This authorization does not release, schedule, send or merge the package. See [revision record](evidence/REVISION_RECEIPT_2026-10-20.md).
