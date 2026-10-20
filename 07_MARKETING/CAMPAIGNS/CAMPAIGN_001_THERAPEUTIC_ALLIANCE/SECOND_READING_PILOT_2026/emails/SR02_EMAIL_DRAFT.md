@@ -1,35 +1,33 @@
-DRAFT FOR REVIEW — NOT APPROVED / NOT SENT
+DRAFT FOR EXACT-COPY REVIEW / NOT SENT
 
 **Campaign name:** TAO_SR02_ORIG002_2026-11-02_DRAFT  
 **Subject:** What are we leaving people to figure out?  
-**Preheader:** A Second Reading of The Greet Is the First Clinical Intervention.
+**Preheader:** An introduction, a clear next step, and room for a question.
 
-This week's Second Reading returns to the moment someone arrives.
+**The Tao of Clinical Touch · November 2, 2026**
 
-**Original Issue No. 002 · The Greet Is the First Clinical Intervention**
+**Tell them what happens next**
 
-**New reflection — November 2, 2026**
+You know the room. You know the process. The person arriving may know neither.
 
-What I want to notice on this reading is how practical a welcome can be.
+They may be wondering where to put their belongings, how the session will begin, or whether there will be time to explain what brought them in.
 
-Warmth matters, but it is not the only thing a person may need when they arrive. They may want to know where to put their belongings, how the session will begin, or whether there will be time to explain what brought them in.
+Those are ordinary questions. They are easy to overlook when the setting is familiar to us.
 
-Those are ordinary questions. They are easy to overlook when the room and the process are familiar to us.
+What am I leaving someone to figure out on their own?
 
-The original issue asks us to recognize that the encounter begins before touch. This time, I want to translate that idea into a smaller question: what am I leaving someone to figure out on their own?
+A welcome can include a brief explanation of what comes next. We can introduce ourselves, explain where we will begin, and leave room for a question before moving on.
 
-I do not need a polished welcome or a script that makes every arrival sound the same. I need to notice where I have assumed understanding. A brief explanation of what comes next can create an opportunity for someone to ask a question or express a preference.
+That pause gives me a chance to notice my own momentum. Am I meeting this person, or moving them through a process I have already decided upon?
 
-It also gives me a chance to check my own momentum. Am I meeting this person, or moving them through a process I have already decided upon?
+I do not need a script that makes every arrival sound the same. I want to notice where I have assumed understanding.
 
-The greet does not have to accomplish everything. It can begin with something modest: an introduction, a clear next step, and enough room for the person to tell us whether that works for them.
+The greet does not have to accomplish everything. An introduction, a clear next step, and enough time to ask a question may be a useful beginning.
 
-**Button: Read the original issue on the greet** → https://taoclinicaltouch.com/blog/2026/07/the-greet-is-the-first-clinical-intervention/?utm_source=brevo&utm_medium=email&utm_campaign=tao_second_reading_2026_pilot&utm_content=sr02_orig002_mon_primary
+**Button: Read The Greet Is the First Clinical Intervention** → https://taoclinicaltouch.com/blog/2026/07/the-greet-is-the-first-clinical-intervention/?utm_source=brevo&utm_medium=email&utm_campaign=tao_second_reading_2026_pilot&utm_content=sr02_orig002_mon_primary
 
-What do you explain before the first assessment question? Hit reply with one thing you make clear. Please leave out identifying patient details.
+What do you make clear before the first assessment question? You're welcome to reply with an observation from your practice. Please leave out identifying patient details.
 
-— Drew
-
-New to Second Reading? Each Monday pairs an original Tao issue with a new reflection. You can begin here.
+Drew
 
 [Production: add verified functional Brevo unsubscribe/preferences and sender footer. Not a sendable final HTML.]
