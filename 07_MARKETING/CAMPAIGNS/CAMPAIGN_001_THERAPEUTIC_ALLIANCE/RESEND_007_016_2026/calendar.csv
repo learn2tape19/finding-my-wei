@@ -1,5 +1,5 @@
-week,source_issue,monday,friday,timezone,email_day,email_time,blog_action,existing_article_url,status
-1,007,2026-10-26,2026-10-30,America/New_York,Wednesday,10:00,LINK_EXISTING_ONLY,https://taoclinicaltouch.com/blog/2026/08/the-answer-may-change-before-it-is-spoken/,PREPARATION_ONLY
+week,source_issue,start_date,end_date,timezone,email_day,email_time,blog_action,existing_article_url,status
+1,007,2026-10-28,2026-10-30,America/New_York,Wednesday,10:00,LINK_EXISTING_ONLY,https://taoclinicaltouch.com/blog/2026/08/the-answer-may-change-before-it-is-spoken/,PREPARATION_ONLY
 2,008,2026-11-02,2026-11-06,America/New_York,SKIP,,SKIP,,PREPARATION_ONLY
 3,009,2026-11-09,2026-11-13,America/New_York,SKIP,,SKIP,,PREPARATION_ONLY
 4,010,2026-11-16,2026-11-20,America/New_York,Monday,10:00,LINK_EXISTING_ONLY,https://taoclinicaltouch.com/blog/2026/09/issue-010-possibility/,PREPARATION_ONLY
