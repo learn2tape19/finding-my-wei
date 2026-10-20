@@ -1,10 +1,10 @@
-# Four-week pilot copy — SR01 revised v02; SR02–SR04 held for framing revision
+# Four-week pilot copy — SR01 preserved; SR02–SR04 revised October 20
 
 **DRAFT, NOT FOUNDER AUTHORED OR APPROVED UNTIL DREW CONFIRMS.** These are proposed first-person reflections, not quotations or reports of new clinical events. No patient anecdotes, reader responses or changed personal beliefs have been invented. Drew should edit any sentence that does not match his view. Scientific and distinct editorial review remain pending.
 
-**Public framing authority, October 14:** Second Reading is internal only. New public treatments lead with the clinical topic, without reused-material labels or claims that an old article was newly published. SR02–SR04 below retain superseded public framing as draft history and are HOLD until revised. Taylor is the Founder-preferred voice authority; use repository VOICE_GUIDE.md and EDITORIAL_STANDARDS.md. No independent Taylor review is claimed.
+**Public framing authority, October 14:** Second Reading is internal only. New public treatments lead with the clinical topic, without reused-material labels or claims that an old article was newly published. SR02–SR04 have been revised below and await exact-copy approval. Taylor is the Founder-preferred voice authority; use repository VOICE_GUIDE.md and EDITORIAL_STANDARDS.md. No independent Taylor review is claimed.
 
-For every week: email sender/reply-to and consent boundary follow RELAUNCH_PLAN.md. Email includes working unsubscribe/preferences footer from the verified Brevo setup; do not paste a literal placeholder as a functional unsubscribe link. Original title/URL stays unchanged. Link tokens below resolve to `tracked_links.csv`; they are production instructions, not visible copy. Social hashtags, optional: #TheTaoOfClinicalTouch #ClinicalReasoning #TherapeuticAlliance. Do not put clinical suggestions in front of patients as individualized advice.
+For every week: email sender/reply-to and consent boundary follow RELAUNCH_PLAN.md. Email includes working unsubscribe/preferences footer from the verified Brevo setup; do not paste a literal placeholder as a functional unsubscribe link. Original title/URL stays unchanged. Link tokens below resolve to `tracked_links.csv`; they are production instructions, not visible copy. Do not add hashtags under the repository voice guide. Do not put clinical suggestions in front of patients as individualized advice.
 
 ## SR01 — Monday October 26 — Original Issue No. 001
 
@@ -103,285 +103,288 @@ You're welcome to share an observation without identifying patient details. If y
 
 Monday headline **LEAVE ROOM FOR A DIFFERENT ANSWER**; Wednesday **WHAT HAPPENS WHEN THEY DO?**; Friday **PERMISSION NEEDS ROOM FOR A DIFFERENT ANSWER**. Public masthead: The Tao of Clinical Touch · ISSUE No. 017. Article title: The Permission Question. No Second Reading, original-issue, return, replay, recycled-material or new-article claims in new creative. Internal manifests retain SR01/ORIG001 lineage. Keep approved original image bytes unchanged; new compositions are separate files. Existing WP media 1239 remains the original featured image. Final visual direction/rendered artwork approval remains pending.
 
-## SR02 — Monday November 2 — Original Issue No. 002
+## SR02 · Monday November 2 · Internal source mapping: Original Issue 002
 
-**Original:** The Greet Is the First Clinical Intervention. **New reflection title:** Tell them what happens next.
+**Source article:** The Greet Is the First Clinical Intervention. **Reflection:** Tell them what happens next. Revised October 20; exact copy and rendered assets await approval. Public issue numbering beyond 017 is not assigned here.
 
-### New author reflection — full draft
-
-What I want to notice on this reading is how practical a welcome can be.
-
-Warmth matters, but it is not the only thing a person may need when they arrive. They may want to know where to put their belongings, how the session will begin, or whether there will be time to explain what brought them in.
-
-Those are ordinary questions. They are easy to overlook when the room and the process are familiar to us.
-
-The original issue asks us to recognize that the encounter begins before touch. This time, I want to translate that idea into a smaller question: what am I leaving someone to figure out on their own?
-
-I do not need a polished welcome or a script that makes every arrival sound the same. I need to notice where I have assumed understanding. A brief explanation of what comes next can create an opportunity for someone to ask a question or express a preference.
-
-It also gives me a chance to check my own momentum. Am I meeting this person, or moving them through a process I have already decided upon?
-
-The greet does not have to accomplish everything. It can begin with something modest: an introduction, a clear next step, and enough room for the person to tell us whether that works for them.
-
-### Email — complete draft
-
-**Campaign name:** TAO_SR02_ORIG002_2026-11-02_DRAFT  
-**Subject:** What are we leaving people to figure out?  
-**Preheader:** A Second Reading of The Greet Is the First Clinical Intervention.
-
-This week's Second Reading returns to the moment someone arrives.
-
-**Original Issue No. 002 · The Greet Is the First Clinical Intervention**
-
-**New reflection — November 2, 2026**
-
-[Insert the full SR02 author reflection above, verbatim after approval.]
-
-**Button: Read the original issue on the greet** → SR02/email/mon_primary
-
-What do you explain before the first assessment question? Hit reply with one thing you make clear. Please leave out identifying patient details.
-
-— Drew
-
-New to Second Reading? Each Monday pairs an original Tao issue with a new reflection. You can begin here.
-
-### Monday — Tao Facebook / Tao Instagram
+### New author reflection
 
 You know the room. You know the process. The person arriving may know neither.
 
-This week's Second Reading returns to The Greet Is the First Clinical Intervention, Original Issue No. 002.
+They may be wondering where to put their belongings, how the session will begin, or whether there will be time to explain what brought them in.
 
-My new reflection asks: what are we leaving someone to figure out on their own?
+Those are ordinary questions. They are easy to overlook when the setting is familiar to us.
 
-A welcome can begin with an introduction, a clear next step, and room for a question.
+What am I leaving someone to figure out on their own?
 
-**Facebook:** Read the original: [SR02/facebook/mon_primary]  
-**Instagram:** Read the original through the Second Reading link in bio.
+A welcome can include a brief explanation of what comes next. We can introduce ourselves, explain where we will begin, and leave room for a question before moving on.
 
-### Monday — Drew Instagram variant
+That pause gives me a chance to notice my own momentum. Am I meeting this person, or moving them through a process I have already decided upon?
 
-The greet is easy to turn into a familiar routine. That familiarity belongs to us; it may not belong to the person walking in.
+I do not need a script that makes every arrival sound the same. I want to notice where I have assumed understanding.
 
-I'm revisiting Original Issue No. 002 this week with a question about orientation: what have I assumed someone already understands?
+The greet does not have to accomplish everything. An introduction, a clear next step, and enough time to ask a question may be a useful beginning.
 
-The Greet Is the First Clinical Intervention. Second Reading link in bio.
+### Email
 
-### Monday — Story sequence
+**Campaign name:** TAO_SR02_ORIG002_2026-11-02_DRAFT  
+**Subject:** What are we leaving people to figure out?  
+**Preheader:** An introduction, a clear next step, and room for a question.
 
-1. **SECOND READING** / Original Issue No. 002 / The Greet Is the First Clinical Intervention
-2. **YOU KNOW THE PROCESS. DO THEY?** / What have we left someone to figure out?
-3. **READ THE ORIGINAL** / An introduction. A clear next step. Room for a question. / [Approved Story link or bio instruction.]
+**The Tao of Clinical Touch · November 2, 2026**
 
-### Wednesday — practice prompt
+**Tell them what happens next**
 
-Before your first assessment question, what have you made clear?
+You know the room. You know the process. The person arriving may know neither.
 
-Where to begin. What happens next. How someone can ask a question or express a preference.
+They may be wondering where to put their belongings, how the session will begin, or whether there will be time to explain what brought them in.
 
-For this week's Second Reading, notice one part of your process that is obvious to you and may be unfamiliar to someone arriving.
+Those are ordinary questions. They are easy to overlook when the setting is familiar to us.
 
-Original Issue No. 002 · The Greet Is the First Clinical Intervention. [Facebook original link / Instagram verified bio route.]
+What am I leaving someone to figure out on their own?
 
-### Friday — discussion / join
+A welcome can include a brief explanation of what comes next. We can introduce ourselves, explain where we will begin, and leave room for a question before moving on.
 
-What do you explain before the first assessment question?
+That pause gives me a chance to notice my own momentum. Am I meeting this person, or moving them through a process I have already decided upon?
 
-One ordinary sentence can tell us more about a welcome than a long description of good communication.
+I do not need a script that makes every arrival sound the same. I want to notice where I have assumed understanding.
 
-Share yours, without identifying patient details. Next Monday's Second Reading moves from arrival to assessment. Join The Tao if you'd like the reflection by email.
+The greet does not have to accomplish everything. An introduction, a clear next step, and enough time to ask a question may be a useful beginning.
+
+**Button: Read The Greet Is the First Clinical Intervention** → SR02/email/mon_primary
+
+What do you make clear before the first assessment question? You're welcome to reply with an observation from your practice. Please leave out identifying patient details.
+
+Drew
+
+### Monday · Tao Facebook / Tao Instagram
+
+You know the room. You know the process. The person arriving may know neither.
+
+An introduction, a clear next step, and room for a question.
+
+**Facebook:** Read The Greet Is the First Clinical Intervention: [SR02/facebook/mon_primary]
+**Instagram:** The Greet Is the First Clinical Intervention is linked in our bio. [Verify approved account route.]
+
+### Monday · Drew Instagram
+
+What have I assumed someone already understands when they arrive? A familiar routine can leave ordinary questions unanswered.
+
+The Greet Is the First Clinical Intervention is linked in my bio. [Verify approved route.]
+
+### Monday · Story sequence
+
+1. **THE TAO OF CLINICAL TOUCH** / Tell them what happens next.
+2. **TELL THEM WHAT HAPPENS NEXT** / An introduction, a clear next step, and room for a question.
+3. **THE GREET IS THE FIRST CLINICAL INTERVENTION** / Read the article. / [Verified native link or approved bio route.]
+
+### Wednesday · Practice prompt
+
+What do you make clear before the first assessment question?
+
+Consider one part of the visit that is familiar to you and may be unfamiliar to someone arriving.
+
+[Facebook SR02/facebook/wed_practice / Instagram verified article bio route.]
+
+### Friday · Discussion / join
+
+What do you make clear before the first assessment question?
+
+You're welcome to share an observation without identifying patient details. If you'd like these clinical reflections by email, you can join The Tao.
 
 [Facebook SR02/facebook/fri_join / Instagram approved join bio route.]
 
 ### Artwork brief
 
-Monday **TELL THEM WHAT HAPPENS NEXT**; Wednesday **WHAT HAVE YOU ASSUMED THEY KNOW?**; Friday **HOW DO YOU BEGIN?** Label Second Reading / Original Issue No. 002, use original article title as source line. Existing featured media 1243 is 1200×628 and named “The Session Begins Before Touch”; do not mistake that filename for the article's live title. New masters remain separately named.
+Topic headline: **TELL THEM WHAT HAPPENS NEXT**. Public masthead: The Tao of Clinical Touch. Source title: The Greet Is the First Clinical Intervention. No Second Reading, rereading, original-issue or new-publication claims. Preserve original artwork bytes; create separate new masters. Actual rendered assets require review. Internal lineage remains SR02/ORIG002.
 
-## SR03 — Monday November 9 — Original Issue No. 003
+## SR03 · Monday November 9 · Internal source mapping: Original Issue 003
 
-**Original:** What Are You Actually Assessing? **New reflection title:** Keep the observation separate from the explanation.
+**Source article:** What Are You Actually Assessing?. **Reflection:** Keep the observation separate from the explanation. Revised October 20; exact copy and rendered assets await approval. Public issue numbering beyond 017 is not assigned here.
 
-### New author reflection — full draft
+### New author reflection
 
-On this reading, I want to stay with the moment between noticing something and deciding what it means.
+“The movement became smaller.”
 
-“The movement became smaller” is an observation. The explanation we attach to it is another step. Experience may make that step feel immediate, but it still deserves examination.
+That describes something we noticed. Why it happened is a separate question.
 
-That is what I want to preserve from the original issue: a finding belongs to the conditions in which it appeared. Our instructions, the person's understanding of the task, and the way we organize the encounter are part of the context we need to consider.
+Perhaps the instruction was unclear. Perhaps the person understood the task differently than we intended. Perhaps another question would help us understand what changed. These are possibilities to explore, rather than conclusions the movement alone can establish.
 
-This does not make every finding uncertain in the same way, and it does not make assessment useless. It asks us to be clear about which part of our account we observed and which part we inferred.
+Experience can make an explanation arrive quickly. I still want to be able to trace it back to what I observed.
 
-A useful second reading might begin with the language in our notes. Can I describe what happened before I write why I think it happened? What else would I need to know before treating that explanation as settled?
+The language in our notes offers one place to look. Can I describe what happened before writing why I think it happened? Have I recorded the conditions of the task clearly enough to compare it later?
 
-I am not looking for endless hesitation. Decisions still need to be made. I want the decision to retain a path back to the evidence that supports it, and room to change when that evidence changes.
+We still need to make decisions. A working explanation helps us choose what to ask or assess next. Calling it a working explanation also leaves room to revise it.
 
-Clinical confidence can include the ability to say: this is what I noticed, this is my working explanation, and this is what I still need to clarify.
+Clinical confidence can include being clear about all three: what I noticed, what I think it may mean, and what I still need to clarify.
 
-### Email — complete draft
+### Email
 
 **Campaign name:** TAO_SR03_ORIG003_2026-11-09_DRAFT  
-**Subject:** What did you observe—and what did you infer?  
-**Preheader:** Returning to What Are You Actually Assessing?
+**Subject:** What did you observe, and what did you infer?  
+**Preheader:** A finding and its explanation deserve separate attention.
 
-This week's Second Reading returns to assessment and the explanations we bring to it.
+**The Tao of Clinical Touch · November 9, 2026**
 
-**Original Issue No. 003 · What Are You Actually Assessing?**
+**Keep the observation separate from the explanation**
 
-**New reflection — November 9, 2026**
+“The movement became smaller.”
 
-[Insert the full SR03 author reflection above, verbatim after approval.]
+That describes something we noticed. Why it happened is a separate question.
 
-**Button: Read the original assessment issue** → SR03/email/mon_primary
+Perhaps the instruction was unclear. Perhaps the person understood the task differently than we intended. Perhaps another question would help us understand what changed. These are possibilities to explore, rather than conclusions the movement alone can establish.
 
-What observation has made you reconsider your first explanation? Hit reply with the reasoning, leaving out identifying patient details.
+Experience can make an explanation arrive quickly. I still want to be able to trace it back to what I observed.
 
-— Drew
+The language in our notes offers one place to look. Can I describe what happened before writing why I think it happened? Have I recorded the conditions of the task clearly enough to compare it later?
 
-The original issue stays unchanged; this reflection invites another look at it.
+We still need to make decisions. A working explanation helps us choose what to ask or assess next. Calling it a working explanation also leaves room to revise it.
 
-### Monday — Tao Facebook / Tao Instagram
+Clinical confidence can include being clear about all three: what I noticed, what I think it may mean, and what I still need to clarify.
+
+**Button: Read What Are You Actually Assessing?** → SR03/email/mon_primary
+
+What observation has made you reconsider your first explanation? You're welcome to reply with an observation from your practice. Please leave out identifying patient details.
+
+Drew
+
+### Monday · Tao Facebook / Tao Instagram
 
 “The movement became smaller.”
 
 What we observed and why we think it happened are two different parts of the account.
 
-This week's Second Reading returns to What Are You Actually Assessing?, Original Issue No. 003.
+A finding and its explanation deserve separate attention.
 
-My new reflection asks us to keep the observation visible while we examine the explanation.
+**Facebook:** Read What Are You Actually Assessing?: [SR03/facebook/mon_primary]
+**Instagram:** What Are You Actually Assessing? is linked in our bio. [Verify approved account route.]
 
-**Facebook:** Read the original: [SR03/facebook/mon_primary]  
-**Instagram:** Second Reading link in bio.
+### Monday · Drew Instagram
 
-### Monday — Drew Instagram variant
+Experience can make an explanation arrive quickly. I want to keep what I observed visible while I decide what to ask next.
 
-Experience can make an explanation arrive quickly. I still want to be able to trace it back to what I actually noticed.
+What Are You Actually Assessing? is linked in my bio. [Verify approved route.]
 
-I'm returning to What Are You Actually Assessing? this week, with a new reflection on observation and inference.
+### Monday · Story sequence
 
-Original Issue No. 003. Second Reading link in bio.
+1. **THE TAO OF CLINICAL TOUCH** / Keep the observation separate from the explanation.
+2. **OBSERVATION BEFORE EXPLANATION** / A finding and its explanation deserve separate attention.
+3. **WHAT ARE YOU ACTUALLY ASSESSING?** / Read the article. / [Verified native link or approved bio route.]
 
-### Monday — Story sequence
-
-1. **SECOND READING** / Original Issue No. 003 / What Are You Actually Assessing?
-2. **WHAT DID YOU OBSERVE?** / What did you infer? / Keep both parts visible.
-3. **READ THE ORIGINAL** / A working explanation needs room for new information. / [Approved Story link or bio instruction.]
-
-### Wednesday — practice prompt
-
-An observation. A working explanation. A question still open.
-
-For this week's Second Reading, consider whether you can identify all three in your own reasoning.
-
-What would you need to clarify before treating your first explanation as settled?
-
-Original Issue No. 003 · What Are You Actually Assessing? [Facebook original link / Instagram verified bio route.]
-
-### Friday — discussion / join
+### Wednesday · Practice prompt
 
 What observation has made you reconsider your first explanation?
 
-We're closing the assessment Second Reading with a question about changing our minds. Share the reasoning, without names or identifying patient details.
+An observation. A working explanation. A question still open. Can you identify each in your reasoning?
 
-Next Monday we return to Listening Before Explanation. Join The Tao if you'd like the new reflection by email.
+[Facebook SR03/facebook/wed_practice / Instagram verified article bio route.]
+
+### Friday · Discussion / join
+
+What observation has made you reconsider your first explanation?
+
+You're welcome to share an observation without identifying patient details. If you'd like these clinical reflections by email, you can join The Tao.
 
 [Facebook SR03/facebook/fri_join / Instagram approved join bio route.]
 
 ### Artwork brief
 
-Monday **OBSERVATION BEFORE EXPLANATION**; Wednesday **WHAT STILL NEEDS CLARIFYING?**; Friday **WHAT CHANGED YOUR MIND?** Label Second Reading / Original Issue No. 003 and source title. Existing featured media 1244 is 1200×628. Avoid diagnostic diagrams or claims that a visible posture proves a hidden emotional or neurological state.
+Topic headline: **OBSERVATION BEFORE EXPLANATION**. Public masthead: The Tao of Clinical Touch. Source title: What Are You Actually Assessing?. No Second Reading, rereading, original-issue or new-publication claims. Preserve original artwork bytes; create separate new masters. Actual rendered assets require review. Internal lineage remains SR03/ORIG003.
 
-## SR04 — Monday November 16 — Original Issue No. 004
+## SR04 · Monday November 16 · Internal source mapping: Original Issue 004
 
-**Original:** Listening Before Explanation. **New reflection title:** Let the answer change something.
+**Source article:** Listening Before Explanation. **Reflection:** Let the answer change something. Revised October 20; exact copy and rendered assets await approval. Public issue numbering beyond 017 is not assigned here.
 
-### New author reflection — full draft
-
-The sentence I want to keep beside this second reading is simple: “Did I get that right?”
-
-It can sound like a small courtesy. What matters is whether I am prepared for the answer to be no.
-
-The original issue asks us to listen before explanation. On this reading, I want to look at the next step. After I clarify what someone meant, can their answer still alter the plan?
-
-There is a difference between summarizing someone's words and understanding their priority. I may have heard where the discomfort is while missing what it interrupts. I may have followed the history while overlooking the question they most wanted to ask.
-
-I do not need to turn every conversation into a longer one. I need to check whether the conversation we are having is useful to the person in front of me.
-
-Sometimes clarification may support the plan already taking shape. Sometimes it may change the emphasis, the next question, or whether the next step belongs within my role at all.
-
-That is the thread I want these first four Second Readings to hold together. Leave room for a different answer. Make the process understandable. Separate observation from explanation. Let what you hear influence what you choose.
-
-The value of returning to an issue is not simply remembering its language. It is finding somewhere in our own work where the question is still alive.
-
-### Email — complete draft
-
-**Campaign name:** TAO_SR04_ORIG004_2026-11-16_DRAFT  
-**Subject:** Are we prepared for “No, that's not quite it”?  
-**Preheader:** Our fourth Second Reading: Listening Before Explanation.
-
-This is the fourth reflection in our Second Reading pilot.
-
-**Original Issue No. 004 · Listening Before Explanation**
-
-**New reflection — November 16, 2026**
-
-[Insert the full SR04 author reflection above, verbatim after approval.]
-
-**Button: Read the original listening issue** → SR04/email/mon_primary
-
-When did a client's answer last change what you did next? Hit reply with what you learned, without identifying patient details.
-
-If you've followed these four reflections, I'd also welcome a sentence about what made returning to the issues useful—or what you would change.
-
-— Drew
-
-Thank you for reading with me.
-
-### Monday — Tao Facebook / Tao Instagram
+### New author reflection
 
 “Did I get that right?”
 
-The question matters most when we're prepared for the answer to be no.
+The question can help me check whether I understood the person's priority.
 
-Our fourth Second Reading returns to Listening Before Explanation, Original Issue No. 004.
+I may have heard where the discomfort is while missing what it interrupts. I may have followed the history while overlooking the question they most wanted to ask.
 
-The new reflection asks what happens next: can the answer still change the plan?
+A summary can repeat the details accurately and still miss what matters most to the person telling them.
 
-**Facebook:** Read the original: [SR04/facebook/mon_primary]  
-**Instagram:** Second Reading link in bio.
+What are they hoping to be able to do? What concerns them about the visit? What would they like me to understand before we begin?
 
-### Monday — Drew Instagram variant
+These questions do not all need to be asked at once. I want to notice whether the next question follows what the person has told me, or simply follows my usual sequence.
 
-I'm closing this four-week Second Reading pilot with a question I want to keep using: “Did I get that right?”
+Their answer may help clarify a useful goal for the session. It may reveal a concern that needs more discussion, or something that belongs outside my role.
 
-Not as a phrase to perform. As an opportunity to hear something that could change my next decision.
+Listening gives us information about the person as well as the symptom. Before I explain what I think, have I understood what they want help with?
 
-Listening Before Explanation, Original Issue No. 004. Second Reading link in bio.
+### Email
 
-### Monday — Story sequence
+**Campaign name:** TAO_SR04_ORIG004_2026-11-16_DRAFT  
+**Subject:** Did I understand their priority?  
+**Preheader:** Hearing the details can still leave something important unheard.
 
-1. **SECOND READING** / Original Issue No. 004 / Listening Before Explanation
-2. **“DID I GET THAT RIGHT?”** / Are we prepared for a different answer?
-3. **READ THE ORIGINAL** / Let what you hear influence what you choose. / [Approved Story link or bio instruction.]
+**The Tao of Clinical Touch · November 16, 2026**
 
-### Wednesday — practice prompt
+**Let the answer change something**
 
-Did I understand the symptom, or the person's priority?
+“Did I get that right?”
 
-Those may overlap. They may also need another question.
+The question can help me check whether I understood the person's priority.
 
-For this week's Second Reading, notice whether a clarification can still change the next step.
+I may have heard where the discomfort is while missing what it interrupts. I may have followed the history while overlooking the question they most wanted to ask.
 
-Original Issue No. 004 · Listening Before Explanation. [Facebook original link / Instagram verified bio route.]
+A summary can repeat the details accurately and still miss what matters most to the person telling them.
 
-### Friday — discussion / join
+What are they hoping to be able to do? What concerns them about the visit? What would they like me to understand before we begin?
 
-Four Second Readings. One continuing question: what changed in the way you looked at your own work?
+These questions do not all need to be asked at once. I want to notice whether the next question follows what the person has told me, or simply follows my usual sequence.
 
-Permission. The greet. Assessment. Listening.
+Their answer may help clarify a useful goal for the session. It may reveal a concern that needs more discussion, or something that belongs outside my role.
 
-Which would you like us to explore more closely? Share a sentence, without identifying patient details. You can join The Tao to hear what comes next after we review the pilot.
+Listening gives us information about the person as well as the symptom. Before I explain what I think, have I understood what they want help with?
 
-[Facebook SR04/facebook/fri_join / Instagram approved join bio route. Do not promise a fifth Monday issue before the continuation decision.]
+**Button: Read Listening Before Explanation** → SR04/email/mon_primary
+
+What question helps you understand what matters most to someone? You're welcome to reply with an observation from your practice. Please leave out identifying patient details.
+
+Drew
+
+### Monday · Tao Facebook / Tao Instagram
+
+“Did I get that right?”
+
+A summary can repeat the details accurately and still miss the person's priority.
+
+Hearing the details can still leave something important unheard.
+
+**Facebook:** Read Listening Before Explanation: [SR04/facebook/mon_primary]
+**Instagram:** Listening Before Explanation is linked in our bio. [Verify approved account route.]
+
+### Monday · Drew Instagram
+
+I may understand the history and still need to ask what matters most to the person telling it.
+
+Listening Before Explanation is linked in my bio. [Verify approved route.]
+
+### Monday · Story sequence
+
+1. **THE TAO OF CLINICAL TOUCH** / Let the answer change something.
+2. **DID I UNDERSTAND THEIR PRIORITY?** / Hearing the details can still leave something important unheard.
+3. **LISTENING BEFORE EXPLANATION** / Read the article. / [Verified native link or approved bio route.]
+
+### Wednesday · Practice prompt
+
+What question helps you understand what matters most to someone?
+
+Did I understand the symptom, or the person's priority? Those may overlap. They may also need another question.
+
+[Facebook SR04/facebook/wed_practice / Instagram verified article bio route.]
+
+### Friday · Discussion / join
+
+What question helps you understand what matters most to someone?
+
+You're welcome to share an observation without identifying patient details. If you'd like these clinical reflections by email, you can join The Tao.
+
+[Facebook SR04/facebook/fri_join / Instagram approved join bio route.]
 
 ### Artwork brief
 
-Monday **CAN THE ANSWER CHANGE THE PLAN?**; Wednesday **DID I UNDERSTAND THEIR PRIORITY?**; Friday **WHAT DESERVES ANOTHER LOOK?** Label Second Reading / Original Issue No. 004 and source title. Existing featured media 1257 is 1200×628. Type-led new masters can carry the question without implying a staged patient photograph is an actual case.
+Topic headline: **DID I UNDERSTAND THEIR PRIORITY?**. Public masthead: The Tao of Clinical Touch. Source title: Listening Before Explanation. No Second Reading, rereading, original-issue or new-publication claims. Preserve original artwork bytes; create separate new masters. Actual rendered assets require review. Internal lineage remains SR04/ORIG004.
+
