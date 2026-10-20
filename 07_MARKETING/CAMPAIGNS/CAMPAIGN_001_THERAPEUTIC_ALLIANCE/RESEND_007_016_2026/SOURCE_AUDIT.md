@@ -22,3 +22,7 @@ Tree identity confirms paths and Git blob SHAs, not fresh image decoding or HTTP
 ## Decision record
 
 Drew explicitly chose 007→016, existing visuals/copy/email/blog reuse, social-only weeks when blog/email are omitted, and optional Founder last-minute additions. “Approved. go” authorizes this calendar/package reconciliation. It does not remove the previously retained separate release gate.
+
+## Superseding Founder direction
+
+October 20: Issue 007 starts Wednesday October 28 and uses only its existing Wed–Fri material. Missing Mon/Tue source files are no longer a launch dependency. No content is moved to a different weekday. Issue 014 email location is Brevo, confirmed by Drew; retrieve the exact existing campaign for review, rather than create replacement copy. Campaign ID/content are not yet read back. Earlier gap notes remain historical findings, superseded in scope by this direction.
