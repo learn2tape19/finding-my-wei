@@ -1,5 +1,7 @@
 # Tracking, QA and approval record
 
+**October 20 status:** Issue 016 posted per Drew; future Brevo audience updates owned by Drew. SR02–SR04 framing revisions completed; exact-copy approval and independent reviews remain pending. The former seven-contact cohort is historical evidence, not a required future audience. Record Drew's selected permissioned audience and actual eligible count at release.
+
 **Current framing QA:** New outward copy/artwork must not use Second Reading, reread/recycled or original-versus-new labels. Retain original-issue lineage internally and preserve original-page metadata. Earlier checklist wording requiring old/new public labels is superseded by DR-2026-10-14-TAO-PUBLIC-FRAMING-AND-VOICE. Taylor/repository voice review is pending; no independent reviewer approval is claimed.
 
 **No configuration changes, test submissions, test emails or platform drafts were executed.** Proposed instrumentation and release checks below are pending.
@@ -14,7 +16,7 @@ External links go to the preserved original page or existing `/join/`. Do not ta
 
 | Metric | Source of truth | Definition / denominator |
 |---|---|---|
-| Eligible audience | Brevo list 64 at release | Subscribed, permissioned, unsuppressed contacts; record exact count before send |
+| Eligible audience | Drew-selected Tao audience at release | Subscribed, permissioned, unsuppressed contacts; record exact count before send |
 | Delivered | Brevo campaign report | Successful deliveries, not selected list size |
 | Reported clicks | Brevo/Buffer | Keep raw counts and provider definition; never label human readers without validation |
 | Unique article clickers | Brevo link-level report, bot-filtered if supported | Unique contacts clicking the original-article CTA / delivered; exclude unsubscribe and preference links; if filtering unavailable mark raw/unknown |
@@ -52,7 +54,7 @@ Book orders remain a secondary observation. There is no spend, paid campaign or 
 
 | Gate | Required evidence | Approver / status |
 |---|---|---|
-| 0: Direction | Exact original mapping, new purpose, cadence exception, format choice, audience boundary | SR01 anchor/emphasis and presented cadence APPROVED by Drew Oct 14; see SR01_APPROVAL_RECORD.md. Final format/audience details remain pending. SR02–SR04 direction pending |
+| 0: Direction | Exact original mapping, new purpose, cadence exception, format choice, audience boundary | SR01 anchor/emphasis and presented cadence APPROVED by Drew Oct 14; see SR01_APPROVAL_RECORD.md. Final format/audience details remain pending. SR02–SR04 revision pass authorized Oct 20; exact revised copy approval pending |
 | 1: Scientific | Review old/new distinction; flag historical overstated physiology; confirm new copy does not diagnose or replace consent | Named scientific reviewer — PENDING |
 | 2: Editorial | Distinct reviewer; voice, continuity, source fidelity, no invented personal history | Named editorial reviewer — PENDING |
 | 3: Founder copy | Exact reflection, subject, preheader, caption, Story and CTA versions | Monday Issue 017 APPROVED; exact text/hashes in ISSUE_017/MONDAY_DISTRIBUTION_COPY_APPROVAL.json. Wed/Fri and later issues pending |
@@ -70,10 +72,10 @@ No gate is PASS because a checklist exists. Do not fabricate reviewer independen
 - [ ] Preserve original WP IDs, bodies, dates, titles, slugs, canonicals and approved asset bytes. Hash snapshots before and after any future permitted operations; no overwrite is part of this plan.
 - [ ] Anonymous original-page GET returns expected page, correct title and canonical; follow redirects and record destination. External web reader failed to access pilot originals during this audit, so this remains pending despite authenticated WP publish state.
 - [ ] Verify public join page and existing opt-in destination; no synthetic/live submission without separate authorization.
-- [ ] Word-by-word proof full email/mobile preview, social truncation and Story order, old-versus-new labels, correct original issue number and original title.
+- [ ] Word-by-word proof full email/mobile preview, social truncation and Story order, topic-led public framing, internal source mapping and correct article title.
 - [ ] Validate all 36 proposed asset masters, exact dimensions independently, no stretching/clipping; original featured-image metadata is not final pilot QA.
 - [ ] Reconcile 48 Buffer objects, 4 email campaigns, 0 new WP posts against calendar after approved draft creation; no unintended duplicates. Do not run old five-day completeness check unchanged for this reduced pilot.
-- [ ] Confirm list 64 membership, suppressions and consent; no cross-brand expansion. Verify sender/reply-to and functional unsubscribe.
+- [ ] Confirm Drew-selected audience membership, suppressions and consent; no cross-brand expansion. Verify sender/reply-to and functional unsubscribe.
 - [ ] Verify Monday 8/9/10 AM plus Wed/Fri 8 AM, America/New_York; Oct 26 EDT (UTC−04), Nov dates EST (UTC−05).
 - [ ] Verify native Story link fields, not merely link text. Independently approve bio changes if necessary.
 - [ ] Save exact-version preview/screenshots before release; final release evidence separate from draft evidence.
