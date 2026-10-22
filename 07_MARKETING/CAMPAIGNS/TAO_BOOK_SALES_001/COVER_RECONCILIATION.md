@@ -1,6 +1,6 @@
 # Cover-source reconciliation — Creative 03
 Date: October 21, 2026
-Result: HOLD — published design identified, definitive production source not yet certified.
+Result: PASS for visual reconciliation of the clean v4 PDF front design; KDP upload-file identity remains unverified. Final placed-cover fidelity QA remains pending.
 
 ## Live authority inspected
 Amazon product B0GVTZZS99 opened live; product image enlarged in its image viewer.
@@ -23,7 +23,7 @@ Root: /Users/Drewdog19/Desktop/Coding-folder/Tao/ . Read-only.
 | Tao_Clinical_Touch_Cover_front.png | 700×823 from file metadata | Lower resolution and different ratio; not selected |
 | Tao_Clinical_Touch_Cover_front_shadow.png | 584×760, previously visually inspected | Small product derivative; not selected as source master |
 | Tao_Clinical_Touch_Cover_v4.psd | PSD header 3727×2775, 8-bit RGB, 4 channels; hashed | Dimensions align to clean JPG wrap; layer visibility and final saved front not visually certified |
-| Tao_Clinical_Touch_Cover_v4.pdf | Hashed only | Not rendered/compared; do not claim final print approval |
+| Tao_Clinical_Touch_Cover_v4.pdf | One-page 894.48×666 pt wrap; Photoshop PDF, modified March 30, 2026; rendered and visually inspected | Clean front design agrees with enlarged Amazon image in title/subtitle/author, ripple and overall hierarchy; preferred reproduction source |
 
 SHA-256:
 - v4 copy.png: 54478014c5beda14930eec56defe4ed994f29e07d40a0286f402c356e24eb00c
@@ -34,11 +34,9 @@ SHA-256:
 Builder script tao_cover_build_v4_barcode_locked.jsx was read as historical evidence, not executed. It specifies 300 dpi, 12.414×9.25-inch wrap and front trim guides x=6.289..12.289 inches, y=.125..9.125 inches. That would imply a 1800×2700 front panel. However, script copy differs from saved JPG; it is not proof that the JPG/PSD retains those exact bounds or represents the published uploaded edition.
 
 ## Reconciliation conclusion
-All inspected candidates show the correct title/subtitle/author and recognizable published design. None has yet been linked by a final export/approval receipt to the Amazon-published cover. A visual resemblance is not an exact source certification. No crop, resample, font replacement, reconstruction or generated cover was made.
-Recommended source to resolve first: clean v4 JPG/PSD front panel, compared at its actual trim bounds against the published front; preserve the wrap unchanged.
-
-Smallest Founder bridge: identify which existing file is the final cover uploaded to KDP, or explicitly confirm the clean v4 JPG/PSD front as the approved campaign reproduction source after visual comparison. Existing full-resolution files are already located; no need to recreate artwork.
-Until then, copy review proceeds and image production remains held.
+The clean v4 PDF is selected as the source for the front-cover reproduction, with the matching clean JPG and layered PSD retained as provenance candidates. Its front was visually compared with the enlarged Amazon image: exact words, line structure, relative placement and original ripple design agree. The PDF was last modified March 30, preceding the March 31 publication date shown on Amazon. That timing supports, but does not prove, the source chain.
+This is visual reconciliation, not byte equality or certification of which file was uploaded to KDP. Amazon's processed JPEG and the source wrap are different artifacts. Back-cover differences disqualify the PNG as a whole-wrap authority but do not require changing any front artwork.
+No front-panel crop or campaign image was created in this pass. After copy approval, extract only the genuine front panel from the clean PDF at the verified trim bounds, compare the extracted front again against Amazon, and place it proportionally. If that comparison fails, stop production and resolve the source; never stretch, regenerate or retype the cover. Final cover fidelity stays pending until that actual export is inspected.
 
 ## Ripple resolution for this layout
 Standalone ripple omitted under the October 21 Founder instruction. No substitution. Existing printed ripple on the book remains intact. This resolves the standalone-mark dependency for Creative 03 without claiming a new canonical mark.

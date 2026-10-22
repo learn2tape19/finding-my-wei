@@ -46,7 +46,7 @@ Background: Warm Ivory #F7F4EE, flat editorial field.
 Safe working inset: 72 px on every side; final legibility QA still required.
 Headline: upper-left, Cormorant Garamond Semibold, Deep Clinical Navy #182633; two lines exactly as above. Approximate 78 px starting size, adjusted only for legibility without copy change.
 Supporting line: beneath headline, Source Sans Pro Regular, Charcoal #3A3A3A, approximately 32 px, wrap as needed.
-Book: authentic, full-resolution front artwork, proportionally reduced and fully visible, centered in the middle/lower field; no regenerated text, recropping of title/author or color retouch. Prefer flat cover reproduction with a restrained external shadow rather than an invented physical spine. Exact source selection is still pending.
+Book: authentic, full-resolution front artwork, proportionally reduced and fully visible, centered in the middle/lower field; no regenerated text, recropping of title/author or color retouch. Prefer flat cover reproduction with a restrained external shadow rather than an invented physical spine. Use the clean v4 PDF front design documented in COVER_RECONCILIATION.md; verify the extracted front again against Amazon before placement.
 Offer: below book, Source Sans Pro Semibold, navy, approximately 32 px.
 Tax disclosure: Source Sans Pro Regular, charcoal, approximately 24 px.
 CTA: lower-left or centered beneath offer, Source Sans Pro Semibold, navy, approximately 34 px; restrained gold rule #B8860B as separation. Text is a visual invitation, not a fake functional button.
@@ -60,8 +60,8 @@ PASS: full price/shipping/tax disclosed; no free-shipping or delivery promise.
 PASS: no unlicensed testimonial or simulated signature.
 PASS: current campaign font/palette/format inherited; cover's own published typography must not be replaced by campaign fonts.
 PENDING: Founder exact-copy/composition approval.
-PENDING: definitive published cover source.
+PASS, visual source reconciliation: clean v4 PDF front design selected; upload-file identity unverified. Extracted/placed-cover fidelity remains pending.
 NOT PERFORMED: rendered typography, clipping, actual export pixel dimensions, final cover fidelity. No image exists yet.
 
 ## Approval requested
-Approve the exact on-image copy, Meta text/fields and composition in this file, or identify changes. This approval would allow one feed master only after cover-source reconciliation. It would not approve the resulting image, derivatives, publication, platform configuration or spending.
+Approve the exact on-image copy, Meta text/fields and composition in this file, or identify changes. This approval would allow one feed master only after the extracted cover passes its final fidelity check. It would not approve the resulting image, derivatives, publication, platform configuration or spending.
