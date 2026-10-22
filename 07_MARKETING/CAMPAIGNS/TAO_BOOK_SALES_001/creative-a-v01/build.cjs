@@ -1,0 +1,20 @@
+const fs=require('fs'),path=require('path');
+const rt='/Users/Drewdog19/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/';
+const sharp=require(rt+'sharp');
+const {createCanvas,GlobalFonts,loadImage}=require(rt+'@napi-rs/canvas');
+const assets=path.join(__dirname,'../creative03-v01');
+for(const [file,name] of [['CormorantGaramond.ttf','Cormorant Garamond'],['SourceSansPro-Regular.ttf','Source Sans Pro'],['SourceSansPro-Semibold.ttf','Source Sans Pro Semibold']])GlobalFonts.registerFromPath(path.join(assets,'fonts',file),name);
+(async()=>{
+const c=createCanvas(1080,1350),x=c.getContext('2d');
+x.fillStyle='#F7F4EE';x.fillRect(0,0,1080,1350);
+x.fillStyle='#182633';x.font='600 65px "Cormorant Garamond"';
+['This book is not intended','to replace technique.','It is intended to govern it.'].forEach((t,i)=>x.fillText(t,72,115+i*71));
+x.strokeStyle='#B8860B';x.lineWidth=2;x.beginPath();x.moveTo(74,307);x.lineTo(148,307);x.stroke();
+const cover=await sharp(path.join(assets,'PUBLISHED_COVER_FRONT_1800x2700.png')).resize(500,750,{kernel:'lanczos3'}).png().toBuffer();
+x.save();x.shadowColor='rgba(24,38,51,0.23)';x.shadowBlur=30;x.shadowOffsetX=12;x.shadowOffsetY=18;x.drawImage(await loadImage(cover),448,366,500,750);x.restore();
+x.fillStyle='#3A3A3A';x.font='30px "Source Sans Pro"';
+['Alliance.','Presence.','Communication.','Permission.'].forEach((t,i)=>x.fillText(t,76,915+i*43));
+x.strokeStyle='#B8860B';x.beginPath();x.moveTo(74,1200);x.lineTo(1006,1200);x.stroke();
+x.fillStyle='#182633';x.font='34px "Source Sans Pro Semibold"';x.fillText('Explore the Book',76,1265);
+const out=path.join(__dirname,'TAO_BOOK_SALES_001_CREATIVE_A_FEED_1080x1350_v01_REVIEW.png');fs.writeFileSync(out,c.toBuffer('image/png'));console.log(await sharp(out).metadata());
+})();
