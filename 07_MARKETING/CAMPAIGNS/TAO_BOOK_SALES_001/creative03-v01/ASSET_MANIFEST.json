@@ -1,0 +1,16 @@
+{
+  "status": "FOUNDER_VISUAL_REVIEW",
+  "dimensions": [
+    1080,
+    1350
+  ],
+  "files": {
+    "creative03-v01/PUBLISHED_COVER_FRONT_1800x2700.png": "b7c6423e25de155c2536a8ceffbce826f89435badf4946abe226435b4fa5700c",
+    "creative03-v01/TAO_BOOK_SALES_001_CREATIVE03_FEED_1080x1350_v01_REVIEW.png": "712b2739fba332c5f2647e2109ea35d99f206eac99c8dda632b2a6275534ebaa",
+    "creative03-v01/TAO_BOOK_SALES_001_CREATIVE03_FEED_1080x1350_v01_REVIEW.svg": "67fd69b19e6b92d4c9695a9d6bcd154f4130b34634a714daebe170034195a011",
+    "creative03-v01/build.cjs": "215ba03ce32385a923e3bb83bc9e69424df95ffb4fa007d680f90829023590bb",
+    "creative03-v01/fonts/CormorantGaramond.ttf": "b20b7d9626dd956b2c5e558692ad328b1f19e3275e2782db4fa07670d83f35e0",
+    "creative03-v01/fonts/SourceSansPro-Regular.ttf": "c6f835b6a6d942b196e2607bf73a7b086407ae8dbdc928c23a2fb4893ec383f6",
+    "creative03-v01/fonts/SourceSansPro-Semibold.ttf": "72bf9aa2e78b8c78444ae74b6be09411d5fb5bf0eb9bcdfd47082cc5d9b536df"
+  }
+}
