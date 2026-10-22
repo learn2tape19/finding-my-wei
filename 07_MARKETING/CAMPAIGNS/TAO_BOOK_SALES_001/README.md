@@ -3,7 +3,10 @@ Current authority: [October 21 strategic pivot](FOUNDER_PIVOT_2026-10-21.md).
 Current Founder review: [Book-led campaign and Shop change plan](FOUNDER_PIVOT_REVIEW.md).
 Evidence: [Reader evidence and rights register](READER_EVIDENCE_AND_RIGHTS_REGISTER.md).
 
-## Current state
+## Current selection
+Founder selected the supplied poster on October 22, superseding the agent-produced Creative A layout. See [selection and source distinctions](CREATIVE_A_FOUNDER_SELECTION.md). Original 1122×1402 preserved unchanged; exact feed export and supplied mockup cover fidelity are separate outstanding checks.
+
+## Prior production state
 Creative A editorial/composition and the Shop change plan approved October 22. The single finished Creative A feed master awaits separate Founder visual approval; see [approval and feed QA](CREATIVE_A_APPROVAL_AND_FEED_QA.md). B/C testimonial execution remains held for rights and editorial approval. No website/tracking change, scheduling, paid activation or spending authorized. The $210/14-day ceiling is planning only.
 All initial paid ads are proposed to direct to the existing Shop. Its Amazon button exists; the proposal improves hierarchy and placement while preserving Stripe checkout.
 
