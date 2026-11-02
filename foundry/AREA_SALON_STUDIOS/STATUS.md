@@ -1,3 +1,34 @@
+# AREA Salon Studios — Current Status
+
+**Last updated:** November 2, 2026 (America/New_York)  
+**Authority:** Drew Freedman
+
+## Current operating memory
+
+- **Website live:** October 31 site-only release of homepage and AREA 56/58/80/129/207 at original Squarespace URLs. Current Library release records supersede their nested prelaunch holds. Original production forms and routing retained.
+- **Monday Instagram published:** Drew confirmed November 2 that Monday has been posted. Record as user-confirmed publication. Exact live post URLs, per-item settings, posted binary and outcome metrics remain to be captured; do not duplicate the campaign.
+- **BFC held:** Not live or in public navigation. November 3 staff walkthrough does not itself authorize activation. Explicit subsequent approval from Drew is required. Six-question direction supersedes the historical eight-question note below; offer conversation after question three and use approved “within 3 months” timeline wording.
+- **HQ direction unchanged:** AREA HQ is intended system of record. Verify prospect creation, routing, notification and returning-prospect/duplicate handling before activation; website launch did not prove BFC-to-HQ completion.
+- **Brand memory:** “You’ve mastered your craft.” Use only the approved original black-and-white Marc portrait, unchanged. Directory tiles remain monochromatic until consistent transparent color logos arrive; specialty filtering remains future work.
+- **Quality memory:** One approved media master, phone review of the actual final export, compact overlays that reveal the space, and explicit separation of artwork readiness/native stickers/publication. Buffer and native Instagram handoffs require duplicate prevention.
+- **Measurement pending:** Capture post IDs and native results; compare 24–48 hour engagement/inquiries and seven-day qualified inquiries/tours without inventing attribution or assuming views equal reach.
+- **Website follow-up:** Sitemap stale calculator entries, indexing confirmation, live performance and broader accessibility remain open. No full WCAG or complete booking-transaction claim.
+- **Scope:** Documentation update only. No new ad spend, public posting, production edits or recurring automation.
+
+Full weekly recap, source precedence, acceptance evidence and learning loop: [WEEKLY_REVIEW_2026-11-02.md](WEEKLY_REVIEW_2026-11-02.md).
+
+## Immediate priorities
+
+1. Reconcile Monday live post IDs/assets/native features with Buffer queue and collect results.
+2. Complete November 3 BFC/HQ walkthrough and controlled acceptance checks; preserve activation hold.
+3. Close live website sitemap/indexing/performance follow-through and incorporate staff feedback.
+
+---
+
+## Historical status — October 1, 2026
+
+The record below is retained intact for architectural and operating history. Current facts above supersede conflicting dates, priorities and calculator scope. Historical access, vacancy, communications and GBP statements are not current verification.
+
 # AREA Salon Studios — Status Record
 
 **Mission Expression:** Freedman-Foundry  
