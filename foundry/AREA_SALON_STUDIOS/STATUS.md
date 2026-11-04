@@ -1,9 +1,13 @@
 # AREA Salon Studios — Current Status
 
-**Last updated:** November 2, 2026 (America/New_York)  
+**Last updated:** November 4, 2026 (America/New_York)  
 **Authority:** Drew Freedman
 
 ## Current operating memory
+
+- **November 4 homepage released:** Drew approved the revised video homepage; enabled as HOME at root and /home. Previous homepage retained disabled as Home — Backup 2026-11-04. New corporate header/footer logos, Jana/Leslie hero excerpts with video anchors, and a 12-image labeled interior lightbox gallery are live. AREA 58 has a high-page Membership Suite 3D-tour shortcut.
+- **Typography preference:** DM Sans for main hero type; classic readable Georgia italic for owner excerpts. Playful script rejected as too whimsical. Leslie's excerpt is an editorial summary, not a verbatim quote.
+- **Release follow-through:** Anonymous feature-video playback remains unverified; file-access authorization is pending after automatic approval review rejected the check. Verify HOME/logo navigation after cutover; navigation-group moves did not persist. An older logo remains embedded in the video cover. Details: [WEBSITE_RELEASE_2026-11-04.md](WEBSITE_RELEASE_2026-11-04.md).
 
 - **Website live:** October 31 site-only release of homepage and AREA 56/58/80/129/207 at original Squarespace URLs. Current Library release records supersede their nested prelaunch holds. Original production forms and routing retained.
 - **Monday Instagram published:** Drew confirmed November 2 that Monday has been posted. Record as user-confirmed publication. Exact live post URLs, per-item settings, posted binary and outcome metrics remain to be captured; do not duplicate the campaign.
@@ -13,11 +17,13 @@
 - **Quality memory:** One approved media master, phone review of the actual final export, compact overlays that reveal the space, and explicit separation of artwork readiness/native stickers/publication. Buffer and native Instagram handoffs require duplicate prevention.
 - **Measurement pending:** Capture post IDs and native results; compare 24–48 hour engagement/inquiries and seven-day qualified inquiries/tours without inventing attribution or assuming views equal reach.
 - **Website follow-up:** Sitemap stale calculator entries, indexing confirmation, live performance and broader accessibility remain open. No full WCAG or complete booking-transaction claim.
-- **Scope:** Documentation update only. No new ad spend, public posting, production edits or recurring automation.
+- **Scope:** November 4 website release was approved and executed. This closeout updates documentation/tracking only; no new social publication, ad spend, BFC activation or recurring automation.
 
 Full weekly recap, source precedence, acceptance evidence and learning loop: [WEEKLY_REVIEW_2026-11-02.md](WEEKLY_REVIEW_2026-11-02.md).
 
 ## Immediate priorities
+
+0. Resolve homepage feature-video visitor playback with authorized access; verify HOME/logo navigation and cover branding. See November 4 release record.
 
 1. Reconcile Monday live post IDs/assets/native features with Buffer queue and collect results.
 2. Complete November 3 BFC/HQ walkthrough and controlled acceptance checks; preserve activation hold.
