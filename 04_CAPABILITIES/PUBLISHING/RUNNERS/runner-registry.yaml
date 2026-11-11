@@ -59,10 +59,13 @@ runners:
     last_reviewed: "2026-11-11"
     security_review:
       upstream_security_release: "WordPress 7.1.4 (2026-10-28)"
-      production_patch_verified: false
+      production_patch_verified: true
       staging_patch_verified: false
-      certification_gate: "BLOCKED_ENVIRONMENT_AND_PATCH_VERIFICATION"
-      note: "Do not interpret false as vulnerable; installed versions not yet inspected."
+      production_verified_version: "7.1.4"
+      production_verified_at: "2026-11-11T12:21:13Z"
+      production_verification_method: "authenticated WPVibe site_info read-only"
+      certification_gate: "BLOCKED_ENVIRONMENT_AND_STAGING_PATCH_VERIFICATION"
+      note: "Production WP core reported 7.1.4; staging does not yet exist or has not been verified. This is not a plugin/theme vulnerability audit."
     last_successful_unit_test_run: "2026-08-09"
     last_successful_production_execution: null
     staging_validation_required: true
