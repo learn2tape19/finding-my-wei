@@ -72,9 +72,14 @@ destinations:
     adapter: brevo_v1
     account_ref: "CONFIGURE_BREVO_ACCOUNT"
     auth:
-      method: api_key
+      method: "oauth2_client_credentials_m2m_CANDIDATE"
+      token_endpoint: "https://api.brevo.com/realms/partner/oauth/token"
+      explicit_scopes_required: true
+      scopes: [] # Select and verify actual supported campaign scopes during PCP-ENG-003
       secret_refs:
-        - "BREVO_TAO_API_KEY_REF"
+        - "BREVO_TAO_CLIENT_ID_REF"
+        - "BREVO_TAO_CLIENT_SECRET_REF"
+      note: "Disabled design template only; no Brevo M2M app or production credential configured"
     permissions:
       - campaign_create
       - campaign_schedule
