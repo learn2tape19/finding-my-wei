@@ -55,8 +55,14 @@ runners:
       - "429/5xx -> FAILED_TRANSIENT"
       - "ambiguous_taxonomy -> FAILED_REQUIRES_FOUNDER"
       - "unknown -> FAILED_REQUIRES_FOUNDER"
-    test_coverage: "33 unit tests with mocked HTTP, 100% pass rate"
-    last_reviewed: "2026-08-09"
+    test_coverage: "PCP-ENG-002: 42 WordPress tests reported passing; staging certification pending"
+    last_reviewed: "2026-11-11"
+    security_review:
+      upstream_security_release: "WordPress 7.1.4 (2026-10-28)"
+      production_patch_verified: false
+      staging_patch_verified: false
+      certification_gate: "BLOCKED_ENVIRONMENT_AND_PATCH_VERIFICATION"
+      note: "Do not interpret false as vulnerable; installed versions not yet inspected."
     last_successful_unit_test_run: "2026-08-09"
     last_successful_production_execution: null
     staging_validation_required: true
@@ -79,8 +85,17 @@ runners:
     official_interface: true
     pinned_version: null
     api_version: null
+    authentication_design:
+      recommended: oauth2_client_credentials_m2m
+      decision_status: evaluate_during_PCP_ENG_003
+      token_endpoint: "https://api.brevo.com/realms/partner/oauth/token"
+      token_lifetime: "approximately 1 hour"
+      request_explicit_scopes: true
+      scope_set: "TO_BE_SELECTED_FROM_ACTUAL_CAMPAIGN_OPERATIONS"
+      secret_refs: [BREVO_CLIENT_ID_REF, BREVO_CLIENT_SECRET_REF]
+      api_key_fallback: "only after justified design review; no production credential change"
     required_scopes: []
-    last_reviewed: null
+    last_reviewed: "2026-11-11"
     last_successful_production_execution: null
     known_deprecation_date: null
     replacement_candidate: null
