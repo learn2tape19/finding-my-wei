@@ -1,7 +1,7 @@
 # PCP-CERT-001 — SiteGround Staging Recovery and Security Gate
 
 **Recorded:** 2026-11-11
-**Status:** BLOCKED_ENVIRONMENT — NO PRODUCTION PUBLICATION AUTHORIZED
+**Status:** BLOCKED_ENVIRONMENT — PRODUCTION WORDPRESS CORE VERIFIED 7.1.4; STAGING STILL UNAVAILABLE; NO PRODUCTION PUBLICATION AUTHORIZED
 **Scope:** The Tao of Clinical Touch WordPress staging certification
 **Incident:** SiteGround WordPress > Staging failed with "Failed to clone database" when attempting staging copy `pcp-cert-001`.
 
@@ -11,12 +11,12 @@
 - The previous SiteGround interface displayed the installation as `http://taoclinicaltouch.com/`; this display alone does not establish whether the public site uses HTTPS. Verify the actual WordPress Site Address/Home URL and SSL configuration before adapter certification.
 - The current official SiteGround staging guide states: database must be **under 5 GB**, fewer than **500 tables**, account must have **more than 51% free disk** and **more than 20% free inodes**, at most 10 staging environments and 15 operations daily; Multisite is unsupported. Source: https://www.siteground.com/tutorials/staging/create-staging
 - WordPress issued security release **7.1.4 on 2026-10-28**. Source: https://wordpress.org/news/2026/10/wordpress-7-1-4/
-- The installed WordPress version on production and staging has **NOT BEEN VERIFIED**. Do not claim patched or vulnerable without inspection.
+- **Verified 2026-11-11:** authenticated read-only WPVibe `site_info` for `https://taoclinicaltouch.com` reports **WordPress 7.1.4**, PHP 8.2.35, and HTTPS site URL. This verifies the production core version only, not all plugin/theme or hosting security. **Staging version remains unverified**, and the failed clone has not been repaired.
 
 ## Recovery procedure (non-destructive)
 
-1. Confirm a current restorable production backup in SiteGround before any update or staging changes.
-2. Inspect the production WordPress version in Dashboard > Updates or Site Tools (authenticated). If below a release with the applicable October 28 fixes, plan the host-supported security update with backup and maintenance safeguards. **No production update is authorized by this runbook alone.**
+1. Confirm a current restorable production backup in SiteGround before any staging changes. **Production core is already 7.1.4 according to authenticated read-only site metadata; do not re-update it without an independent reason.**
+2. Confirm the production WordPress 7.1.4 result in SiteGround/WordPress admin if needed; do not treat an already patched core as the cause of the staging database clone failure. **No production update is authorized by this runbook alone.**
 3. Check SiteGround disk and inode usage, MySQL database size/table count, number of staging sites, daily staging operations and Multisite status.
 4. Examine whether a partial `pcp-cert-001` staging entry/subdomain/database was left behind; do not delete without validating ownership and backup state.
 5. If published limits are satisfied, request that **SiteGround Support inspect internal staging database clone logs** for the exact failure: MySQL permission, table corruption, timeout/resource limit, staging service issue, or other specific cause.
@@ -32,7 +32,7 @@ SiteGround Support: In Site Tools > WordPress > Staging, creating `pcp-cert-001`
 
 ## Evidence required to clear the gate
 
-- production WordPress core version (or security-backport verification);
+- production WordPress core version: **7.1.4 reported 2026-11-11 by authenticated WPVibe site_info**;
 - verified working production HTTPS (no credentials);
 - backup verification;
 - database size/table count and quota checks;
