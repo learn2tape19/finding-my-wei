@@ -44,6 +44,9 @@ Innovation and product-development platform. Sidekick Air is the current major c
 ## The Boston Bodyworker
 Professional and clinical legacy: decades of authority, writing, history, relationships, and intellectual value from Drew's clinical career.
 
+## AREA Salon Studios / Freedman-Foundry
+Current AREA work, content sources, reuse records and operating evidence are accessible through the [AREA project front door](foundry/AREA_SALON_STUDIOS/README.md).
+
 ## Project Atlas
 Research capability used when important uncertainty requires structured investigation.
 
@@ -98,3 +101,4 @@ Complexity is justified only when it protects meaning, evidence, permission, val
 The system is not the work.
 
 **The system exists to serve the work.**
+

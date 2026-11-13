@@ -1,7 +1,7 @@
 # Finding My Wei — Operating State
 
 ## Date
-September 29, 2026
+Portfolio baseline: September 29, 2026. AREA-only addendum: November 13, 2026. Other portfolio states were not re-reviewed in this addendum.
 
 ## Purpose
 
@@ -77,6 +77,18 @@ The former clinical business does not require reconstruction as an active operat
 
 ---
 
+## AREA Salon Studios / Freedman-Foundry — ACTIVE
+
+**Current role:** Consulting/operations, qualified occupancy demand and the independent-business community.
+
+**Founder attention:** Offer and inventory decisions, qualified prospect progression, owner relationships, approved publication and meaningful operational exceptions.
+
+**System attention:** Preserve content, exact copy, source/approval identities, distribution evidence and outcomes without making Drew reconstruct prior work.
+
+**Operating entry:** [AREA start here](foundry/AREA_SALON_STUDIOS/README.md) and [current status](foundry/AREA_SALON_STUDIOS/STATUS.md). The November 13 review corrects a documentation backlog; it does not authorize new publishing, spend or recurring administrative work.
+
+---
+
 ## Project Atlas — MAINTAIN AS CAPABILITY
 
 **Current role:** Research engine used when genuine uncertainty requires investigation.
@@ -116,3 +128,4 @@ When a project becomes dormant:
 Review this document when the operating reality materially changes, or during a quarterly stewardship review.
 
 Do not update it continuously for cosmetic freshness.
+

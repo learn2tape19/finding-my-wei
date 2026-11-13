@@ -69,6 +69,9 @@ Product innovation, AeroStitch Core Technology, engineering, IP, manufacturing, 
 ## The Boston Bodyworker
 Clinical and professional legacy, publishing history, accumulated authority, writing, and historical intellectual value.
 
+## AREA Salon Studios / Freedman-Foundry
+Operations, qualified demand, community and reusable content. Start with the [AREA project index](foundry/AREA_SALON_STUDIOS/README.md).
+
 ## Project Atlas
 Cross-domain research capability activated when important uncertainty requires structured investigation.
 
@@ -188,3 +191,4 @@ Finding My Wei succeeds when:
 **Governing authority:** Drew Freedman  
 **Constitution:** v2.0, ratified June 30, 2026  
 **Operating front door updated:** September 29, 2026
+

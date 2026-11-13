@@ -1,9 +1,38 @@
 # AREA Salon Studios — Current Status
 
-**Last updated:** November 4, 2026 (America/New_York)  
-**Authority:** Drew Freedman
+**Last updated:** November 13, 2026 (America/New_York)  
+**Authority:** Drew Freedman  
+**Review:** [AREA-REVIEW-20261113](REVIEW_2026-11-13.md)
 
-## Current operating memory
+## Current operating memory — November 13
+
+- **Start with the content index:** [CONTENT_INDEX.md](CONTENT_INDEX.md) connects recent images, videos, exact copy, editable originals and saved distribution records to their protected sources. See the [searchable work review](https://chatgpt.com/library?file_id=libfile_fde3_f-ad4b8ace1cbc81918cfcaf08125ff915_a742c44b3aa08191b02cd5a0d458574b&account_id=personal).
+- **Controlling marketing direction:** use the [November 12 brief](https://chatgpt.com/library?file_id=libfile_e9216ffc412c8191be57b9a1f66742af&account_id=personal) for current Kent Street team-studio, dedicated-med-spa and membership priorities. Revalidate offer accuracy before reusing historical creative. Do not infer current availability from old content.
+- **Outcome standard:** qualified inquiries, attended tours/consultations, sustainable agreements and membership days. Engagement and traffic are diagnostic measures, not the business result.
+- **BFC historical correction:** the [November 7 Google audit](https://chatgpt.com/library?file_id=libfile_fde3_f-d7359f72f62881918dc9414dcbe4874e_a742c44b3aa08191b02cd5a0d458574b&account_id=personal) records a successful BFC lead-event/HQ-notification test. This supersedes the November 4 launch hold below as historical state. Current form delivery, offer/source persistence and paid-platform conversion readiness still require their own evidence.
+- **HQ remains the prospect and licensee record.** The content catalog references work and evidence; it is not another contact database.
+- **Social status:** retain November 2 Founder-confirmed publication. Recent saved handoffs record schedules, including the November 16 noon Choose Your Team platform posts. The prior November 13 “8 AM · published” claim was withdrawn. Current Buffer/native objects were not available during this review, so live delivery is not asserted.
+- **Distinct review drafts:** later Marc reel concepts have their own files and notes. They are not the two recorded platform posts of the earlier reel.
+- **Profile/community rollout:** the [November 13 plan](https://chatgpt.com/library?file_id=libfile_fde3_f-c5090fdba1e08191b6e9109d95eece28_a742c44b3aa08191b02cd5a0d458574b&account_id=personal) preserves the approved profile requirements and documented prototype state. Specification, implementation, owner approval and public release remain separate.
+- **Paid campaigns:** retain the joint Google/Meta launch hold in the latest campaign brief. No paid campaign or spend changed during this review.
+- **Brand constraints:** authentic AREA identity; accurate property features; approved Marc portrait unchanged; readable overlays; complete video ending; channel copy and native Story elements recorded separately.
+- **Preservation:** 248 file records and 110 Adobe source records indexed; ten packages checked. Metadata-only records are labeled. Not every source is an approved asset or verified live post.
+
+## Immediate bounded next actions
+
+1. Restore authenticated Buffer access and reconcile existing objects with actual native posts. Capture IDs/permalinks, exact asset/copy and actual time; avoid duplicate posting.
+2. Match Adobe source revisions and final exports to approval evidence. Keep corrections and superseded assets visible.
+3. Complete current inquiry/attribution acceptance before paid launch, and connect content IDs to HQ outcomes.
+4. Use the next authorized content cycle to close the dedicated-med-spa, membership and specific four-chair coverage gaps.
+
+The review changed documentation only. Full publication/preservation closeout remains HOLD where evidence is absent. See [review](REVIEW_2026-11-13.md) and [receipt](PRESERVATION_RECEIPT_2026-11-13.md).
+
+---
+
+## Historical checkpoint — November 4, 2026
+
+The following checkpoint is retained as historical evidence. The dated November 13 record above supersedes conflicting launch/status statements; it does not retroactively change what was known on November 4.
+
 
 - **November 4 homepage released:** Drew approved the revised video homepage; enabled as HOME at root and /home. Previous homepage retained disabled as Home — Backup 2026-11-04. New corporate header/footer logos, Jana/Leslie hero excerpts with video anchors, and a 12-image labeled interior lightbox gallery are live. AREA 58 has a high-page Membership Suite 3D-tour shortcut.
 - **Typography preference:** DM Sans for main hero type; classic readable Georgia italic for owner excerpts. Playful script rejected as too whimsical. Leslie's excerpt is an editorial summary, not a verbatim quote.
@@ -471,3 +500,4 @@ It is the construction of a connected operating system:
 > **Generate attention → qualify intelligently → remember every prospect → manage opportunity → convert deliberately → onboard consistently.**
 
 The immediate institutional build is **AREA Prospect OS**, centered on AREA HQ.
+
