@@ -31,3 +31,7 @@ Each create returned success and local identity metadata was applied. Existing o
 The commit containing this receipt is the repository write record. Remote file content/blob readback must match the prepared documentation before reporting the update as saved. This change uses GitHub's Git-data API with an expected-head lease; no local clone or local working-tree cleanliness is claimed. Existing unrelated tree entries must remain unchanged.
 
 Current source links are in [CONTENT_INDEX.md](CONTENT_INDEX.md). Findings and open criteria are in [REVIEW_2026-11-13.md](REVIEW_2026-11-13.md). Historical AREA receipts are retained.
+
+## Remote verification completed
+
+On November 13, 2026, commit `1f6e72c8eecfd39a2fe7d8af147ce28b934c838d` was read back from GitHub. All eight prepared file contents matched exactly, and `main` pointed to that commit. Comparison with the baseline showed exactly four added and four modified documentation files; no unrelated files or historical AREA receipts changed. Protected deliverable saves had already succeeded before these links were committed. Publication and clean-room rebuild gaps remain as stated above.
