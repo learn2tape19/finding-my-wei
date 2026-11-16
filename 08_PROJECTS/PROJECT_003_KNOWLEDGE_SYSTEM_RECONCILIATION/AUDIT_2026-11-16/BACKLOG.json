@@ -1,0 +1,154 @@
+{
+  "schema_version": 1,
+  "as_of": "2026-11-16",
+  "base_commit": "64720b81a422e9e0fc3d0bceeded1347d3907538",
+  "status": "OPEN_RECONCILIATION",
+  "items": [
+    {
+      "id": "FMW-001",
+      "project": "Portfolio",
+      "finding": "Historical root indexes imply current facts",
+      "state": "OPEN",
+      "evidence": [
+        "../../../DECISION_INDEX.md",
+        "../../../ASSET_INDEX.md"
+      ],
+      "next_action": "Reconcile material current claims with owning dated sources; retain old entries.",
+      "suggested_owner": "Repository steward; Drew for changed decisions",
+      "review_trigger": "Before relying on an index claim",
+      "closure_test": "Current pointers, lineage and evidence dates cover material claims.",
+      "closure_evidence": []
+    },
+    {
+      "id": "FMW-002",
+      "project": "Tao editorial",
+      "finding": "Recent editorial and resend evidence is outside main",
+      "state": "OPEN",
+      "evidence": [
+        "https://github.com/learn2tape19/finding-my-wei/tree/ee4093c1e6a7f96e5deee970e09b2089a4606751"
+      ],
+      "next_action": "Review the 39 branch-only commits against 12 main-only commits, record supersession and selectively integrate approved scope.",
+      "suggested_owner": "Repository steward; Drew for scope",
+      "review_trigger": "Before next resend/reuse or integration",
+      "closure_test": "Reviewed integration preserves approved originals and updates current authority; exact remote commit verified.",
+      "closure_evidence": []
+    },
+    {
+      "id": "FMW-003",
+      "project": "Tao book sales",
+      "finding": "Discovery branch does not establish later production/release state",
+      "state": "OPEN",
+      "evidence": [
+        "https://github.com/learn2tape19/finding-my-wei/tree/8866359f3a20245f416e8f1050a69932a10d1d18"
+      ],
+      "next_action": "Reconcile later exact approved masters and protected rights/release records with the discovery branch.",
+      "suggested_owner": "Campaign steward; Drew for rights/release",
+      "review_trigger": "Before next creative reuse or campaign decision",
+      "closure_test": "Exact master/source/approval identities, protected storage recovery, release scope and main navigation reconcile.",
+      "closure_evidence": []
+    },
+    {
+      "id": "FMW-004",
+      "project": "AREA",
+      "finding": "Publication, native edits and outcome evidence remain incomplete",
+      "state": "HOLD",
+      "evidence": [
+        "../../../foundry/AREA_SALON_STUDIOS/REVIEW_2026-11-13.md",
+        "https://github.com/learn2tape19/finding-my-wei/issues/8"
+      ],
+      "next_action": "Read existing queue/native objects through authorized access and match them to approved assets, copy and results.",
+      "suggested_owner": "AREA operator/repository steward",
+      "review_trigger": "At next reporting or content reuse",
+      "closure_test": "Actual object IDs/permalinks, native edits, approval mapping and measured-window outcome references reconcile; unresolved parts remain explicit.",
+      "closure_evidence": []
+    },
+    {
+      "id": "FMW-005",
+      "project": "Learn2Tape",
+      "finding": "Post-October-8 web/policy/measurement work lacks successor repository record",
+      "state": "OPEN",
+      "evidence": [
+        "../../../05_DOMAINS/EDUCATION_DOMAIN/LEARN2TAPE_2026-10-08_DECISION_AND_MEASUREMENT_RECORD.md"
+      ],
+      "next_action": "Recover dated later evidence; reconcile policy decision, page/product versions, release state, rollback and campaign status.",
+      "suggested_owner": "Website/marketing steward; Drew for public promises",
+      "review_trigger": "Before next policy, launch or Ads decision",
+      "closure_test": "Successor decision/release record cites exact versions and approvals; purchase, access, tracking and commercial evidence are separately classified.",
+      "closure_evidence": []
+    },
+    {
+      "id": "FMW-006",
+      "project": "Sidekick Air / StitchCore",
+      "finding": "Recent engineering milestones are not established by the audited engineering subtrees",
+      "state": "OPEN",
+      "evidence": [
+        "../../STITCHCORE/ADVISORS.md",
+        "../../../06_Project_Atlas/project_atlas_02_stand_architecture/PRODUCT_DEFINITION/README.md"
+      ],
+      "next_action": "Create protected evidence register and link decisions, current drawing revision, requirements and test criteria; retain old baselines.",
+      "suggested_owner": "Engineering coordinator; Drew for design/fabrication decisions",
+      "review_trigger": "Next engineering gate",
+      "closure_test": "Current baseline and open/deferred decisions trace to exact drawings and acceptance tests; approval and fabrication permission are explicit.",
+      "closure_evidence": []
+    },
+    {
+      "id": "FMW-007",
+      "project": "Boston Bodyworker",
+      "finding": "Active-publishing plan conflicts with later preservation state; archive recovery not established",
+      "state": "OPEN",
+      "evidence": [
+        "../../../05_DOMAINS/PUBLISHING_DOMAIN/BOSTON_BODYWORKER_PRESERVATION_PLAN.md",
+        "../../../OPERATING_STATE.md"
+      ],
+      "next_action": "Locate exports/backups, inventory URLs/media and conduct one bounded recovery check; reconcile knowledge-map instructions.",
+      "suggested_owner": "Repository steward; Drew for disposition",
+      "review_trigger": "Before hosting/domain disposition or material reuse",
+      "closure_test": "Protected export/media inventory, missing items, recovery evidence and current-state lineage recorded; no unnecessary recurring work created.",
+      "closure_evidence": []
+    },
+    {
+      "id": "FMW-008",
+      "project": "Learning",
+      "finding": "Retrospective placeholders are not evidence of integrated learning",
+      "state": "OPEN",
+      "evidence": [
+        "../../../06_Project_Atlas/project_atlas_02_stand_architecture_initiative/living_documents/LESSONS_LEARNED.md",
+        "../../../00_Constitution/INSTITUTIONAL_PROMOTION_RULE.md"
+      ],
+      "next_action": "Capture one source-grounded engineering retrospective at the next real milestone; identify its next application.",
+      "suggested_owner": "Executing collaborator; Drew for promotion",
+      "review_trigger": "Next actual design/test outcome",
+      "closure_test": "Observed result and changed assumption link to next-use evidence; promoted standards have explicit Founder approval.",
+      "closure_evidence": []
+    },
+    {
+      "id": "FMW-009",
+      "project": "Publishing capability",
+      "finding": "Staging certification remains blocked in recorded runbook",
+      "state": "HOLD",
+      "evidence": [
+        "https://github.com/learn2tape19/finding-my-wei/issues/9"
+      ],
+      "next_action": "Continue the existing recovery issue/runbook; append fresh evidence when the external blocker changes.",
+      "suggested_owner": "Publishing steward; hosting support through authorized channel",
+      "review_trigger": "New staging recovery evidence",
+      "closure_test": "Existing certification acceptance conditions pass on isolated staging; no production substitution.",
+      "closure_evidence": []
+    },
+    {
+      "id": "FMW-010",
+      "project": "Governance / storage",
+      "finding": "Public repository and limited branch enforcement require an explicit review choice",
+      "state": "OPEN",
+      "evidence": [
+        "https://github.com/learn2tape19/finding-my-wei",
+        "../../../00_Constitution/CANONICAL_PRECEDENCE.md"
+      ],
+      "next_action": "Review public/private storage and desired review controls with Drew using protected findings; prepare any separately authorized changes.",
+      "suggested_owner": "Drew; repository steward for implementation",
+      "review_trigger": "Before importing sensitive sources or changing access",
+      "closure_test": "Storage/access and review-control decision recorded; any executed changes have scoped authorization and verification.",
+      "closure_evidence": []
+    }
+  ]
+}

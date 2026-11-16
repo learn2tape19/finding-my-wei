@@ -1,5 +1,7 @@
 # Finding My Wei — Start Here
 
+November 16 preservation review: [cross-project evidence, gaps and proposed learning workflow](08_PROJECTS/PROJECT_003_KNOWLEDGE_SYSTEM_RECONCILIATION/AUDIT_2026-11-16/README.md). Audit findings are not certification of complete preservation or authorization to release work.
+
 ## What This Is
 
 Finding My Wei is Drew Freedman's Intellectual Estate Management System.

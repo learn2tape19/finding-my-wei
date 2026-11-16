@@ -1,5 +1,7 @@
 # Decision Index
 
+> November 16, 2026 navigation notice: the original June 25 entries below are historical summaries, not verified current operating facts. Consult [canonical precedence](00_Constitution/CANONICAL_PRECEDENCE.md), [dated decisions](00_Constitution/DECISIONS/), current project records and the [preservation audit](08_PROJECTS/PROJECT_003_KNOWLEDGE_SYSTEM_RECONCILIATION/AUDIT_2026-11-16/README.md). In particular, historical pricing, role assignments and tracking claims require source verification before reuse. Original entries are retained unchanged.
+
 Major decisions made across all projects, with rationale and context.
 
 ---

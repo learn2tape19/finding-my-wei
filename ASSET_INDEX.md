@@ -1,5 +1,7 @@
 # Asset Index
 
+> November 16, 2026 navigation notice: the June 25 inventory below is historical and is not a current availability, rights, backup, pricing or tracking certification. Use the [AREA content index](foundry/AREA_SALON_STUDIOS/CONTENT_INDEX.md), issue/campaign manifests and the [cross-project preservation audit](08_PROJECTS/PROJECT_003_KNOWLEDGE_SYSTEM_RECONCILIATION/AUDIT_2026-11-16/README.md) for later evidence. Original inventory entries are retained unchanged.
+
 All media, production files, and publishable assets.
 
 ---

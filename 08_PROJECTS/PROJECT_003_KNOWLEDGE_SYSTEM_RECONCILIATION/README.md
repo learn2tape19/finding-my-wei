@@ -1,4 +1,6 @@
 # PROJECT 003
+
+November 16, 2026 scoped continuation: [cross-project preservation audit and proposed learning workflow](AUDIT_2026-11-16/README.md). This audit does not reactivate the historical Notion/Obsidian migration scope below.
 ## Knowledge System Reconciliation
 
 **Status:** Approved (Awaiting Execution Authorization)  
