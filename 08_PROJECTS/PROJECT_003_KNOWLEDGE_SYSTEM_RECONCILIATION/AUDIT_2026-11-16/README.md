@@ -66,3 +66,9 @@ Each item is tracked in [BACKLOG.json](BACKLOG.json) with a closure test. Sugges
 This folder provides a [proposed capture/review workflow](WORKFLOW.md), [reusable record](RECORD_TEMPLATE.md), seeded backlog and a structural validator. Parent navigation and historical-index notices make it discoverable. Existing campaigns, standards, source files and approvals remain intact. No automatic schedule or institutional promotion is created. The workflow becomes adopted policy only through the approval required by existing governance.
 
 **Audit status:** findings recorded; reconciliation HOLD. **Workflow:** proposed, exercised on this audit. **Live systems:** not modified. **Founder acceptance:** pending review, distinct from whether this change has been preserved on a remote branch.
+
+## November 16 continuation — Sidekick and Learn2Tape
+
+The original findings above remain dated audit evidence. Current main advanced during this continuation to `e39042d7bd068941711d2cd779c04dea9533ef40`, adding a Learn2Tape audit and completion plan; that work was incorporated and preserved. Read the [Learn2Tape provenance successor](../../../05_DOMAINS/EDUCATION_DOMAIN/LEARN2TAPE_2026-10-23_TO_11-16_PROVENANCE.md), [current Learn2Tape work order](../../../05_DOMAINS/EDUCATION_DOMAIN/LEARN2TAPE_2026-11-16_AUDIT_RECORD_AND_COMPLETION_PLAN.md) and [Sidekick continuity record](../../STITCHCORE/PRESERVATION_2026-11-16.md) for the later capture state.
+
+Recovered protected sources were manifested and independently extracted/hash-checked locally. The [safe preservation register](PRESERVATION_REGISTER_2026-11-16.json) retains package identity without disclosing originals. Documentation capture is recorded for these bounded sources; operational gates, original release provenance and independent off-device preservation remain distinct open items. The backlog now has 11 records; no unperformed operational check was marked CLOSED.

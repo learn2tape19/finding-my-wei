@@ -1,5 +1,11 @@
 # Lessons Learned
 
+## November 16, 2026 — engineering source reconciliation
+
+The [current Sidekick continuity record](../../../08_PROJECTS/STITCHCORE/PRESERVATION_2026-11-16.md) documents a completed source-recovery and comparison exercise. Preserve supplier drawing, Founder intent and accepted manufacturing baseline as separate revisions; record actual deltas and distinguish targets from tested performance. The next application is the existing engineering gate, using the protected delta/test register. Its outcome remains pending. This is a project-local lesson; no institutional promotion is claimed.
+
+The original June sprint template below remains historical and does not establish that its planned retrospective occurred.
+
 Systematic capture of what we learn from research, conversations, and experience.
 
 Updated at the end of every sprint and after significant research sessions.

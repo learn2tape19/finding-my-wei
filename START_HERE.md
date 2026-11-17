@@ -43,6 +43,8 @@ Education business and existing commercial asset built around kinesiology taping
 ## StitchCore / Sidekick Air
 Innovation and product-development platform. Sidekick Air is the current major commercialization effort.
 
+Current navigation and protected-source continuity: [StitchCore / Sidekick Air records](08_PROJECTS/STITCHCORE/README.md).
+
 ## The Boston Bodyworker
 Professional and clinical legacy: decades of authority, writing, history, relationships, and intellectual value from Drew's clinical career.
 

@@ -1,4 +1,6 @@
 # Sidekick Air S4 Engineering Design Package
+
+> November 16, 2026 continuity note: retain this June baseline as historical requirements/assumptions. The [current Sidekick entry](../../../08_PROJECTS/STITCHCORE/README.md) links later protected drawing, review and decision evidence. This package's targets and READY language do not certify current engineering acceptance, tested ratings or fabrication release.
 ## Product Definition Documents (v1.0)
 
 **Project:** Project Atlas 02 — Stand Architecture Initiative  

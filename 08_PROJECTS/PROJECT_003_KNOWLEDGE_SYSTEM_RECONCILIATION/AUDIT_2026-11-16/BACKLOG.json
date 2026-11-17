@@ -68,13 +68,19 @@
       "finding": "Post-October-8 web/policy/measurement work lacks successor repository record",
       "state": "OPEN",
       "evidence": [
-        "../../../05_DOMAINS/EDUCATION_DOMAIN/LEARN2TAPE_2026-10-08_DECISION_AND_MEASUREMENT_RECORD.md"
+        "../../../05_DOMAINS/EDUCATION_DOMAIN/LEARN2TAPE_2026-10-08_DECISION_AND_MEASUREMENT_RECORD.md",
+        "../../../05_DOMAINS/EDUCATION_DOMAIN/LEARN2TAPE_2026-11-16_AUDIT_RECORD_AND_COMPLETION_PLAN.md"
       ],
-      "next_action": "Recover dated later evidence; reconcile policy decision, page/product versions, release state, rollback and campaign status.",
+      "next_action": "Follow the current November 16 work order; recover original release provenance and perform remaining authorized downloads/measurement/student checks at its existing triggers. Do not repeat completed fixes.",
       "suggested_owner": "Website/marketing steward; Drew for public promises",
       "review_trigger": "Before next policy, launch or Ads decision",
       "closure_test": "Successor decision/release record cites exact versions and approvals; purchase, access, tracking and commercial evidence are separately classified.",
-      "closure_evidence": []
+      "closure_evidence": [],
+      "documentation_state": "RECORDED_AND_LOCALLY_RECOVERABLE",
+      "documentation_evidence": [
+        "../../../05_DOMAINS/EDUCATION_DOMAIN/LEARN2TAPE_2026-10-23_TO_11-16_PROVENANCE.md",
+        "PRESERVATION_REGISTER_2026-11-16.json"
+      ]
     },
     {
       "id": "FMW-006",
@@ -85,11 +91,16 @@
         "../../STITCHCORE/ADVISORS.md",
         "../../../06_Project_Atlas/project_atlas_02_stand_architecture/PRODUCT_DEFINITION/README.md"
       ],
-      "next_action": "Create protected evidence register and link decisions, current drawing revision, requirements and test criteria; retain old baselines.",
+      "next_action": "Use the recovered protected drawing/decision/test delta register at the next engineering gate; record exact revision acceptance, scope and agreed test criteria. Engineering readiness remains open.",
       "suggested_owner": "Engineering coordinator; Drew for design/fabrication decisions",
       "review_trigger": "Next engineering gate",
       "closure_test": "Current baseline and open/deferred decisions trace to exact drawings and acceptance tests; approval and fabrication permission are explicit.",
-      "closure_evidence": []
+      "closure_evidence": [],
+      "documentation_state": "RECORDED_AND_LOCALLY_RECOVERABLE",
+      "documentation_evidence": [
+        "../../STITCHCORE/PRESERVATION_2026-11-16.md",
+        "PRESERVATION_REGISTER_2026-11-16.json"
+      ]
     },
     {
       "id": "FMW-007",
@@ -115,11 +126,16 @@
         "../../../06_Project_Atlas/project_atlas_02_stand_architecture_initiative/living_documents/LESSONS_LEARNED.md",
         "../../../00_Constitution/INSTITUTIONAL_PROMOTION_RULE.md"
       ],
-      "next_action": "Capture one source-grounded engineering retrospective at the next real milestone; identify its next application.",
+      "next_action": "Apply the captured project lessons at the next actual engineering and student/download tests; record observed outcomes before considering institutional promotion.",
       "suggested_owner": "Executing collaborator; Drew for promotion",
       "review_trigger": "Next actual design/test outcome",
       "closure_test": "Observed result and changed assumption link to next-use evidence; promoted standards have explicit Founder approval.",
-      "closure_evidence": []
+      "closure_evidence": [],
+      "documentation_state": "LOCAL_LESSONS_CAPTURED",
+      "documentation_evidence": [
+        "../../STITCHCORE/PRESERVATION_2026-11-16.md",
+        "../../../05_DOMAINS/EDUCATION_DOMAIN/LEARN2TAPE_2026-10-23_TO_11-16_PROVENANCE.md"
+      ]
     },
     {
       "id": "FMW-009",
@@ -149,6 +165,21 @@
       "review_trigger": "Before importing sensitive sources or changing access",
       "closure_test": "Storage/access and review-control decision recorded; any executed changes have scoped authorization and verification.",
       "closure_evidence": []
+    },
+    {
+      "id": "FMW-011",
+      "project": "Protected preservation",
+      "finding": "Local recovery is proven; independent off-device backup is not established.",
+      "state": "OPEN",
+      "evidence": [
+        "PRESERVATION_REGISTER_2026-11-16.json"
+      ],
+      "next_action": "At the next preservation/backup decision, retain the package in an existing approved private off-device store and verify access plus byte identity; do not create a public share link.",
+      "suggested_owner": "Drew as access custodian; repository steward for verification",
+      "review_trigger": "Before source retirement, device migration or archival-completeness certification",
+      "closure_test": "Restricted-access off-device identity and recovery evidence retained privately; public status updated safely.",
+      "closure_evidence": []
     }
-  ]
+  ],
+  "last_reconciled": "2026-11-16"
 }
