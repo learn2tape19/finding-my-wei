@@ -1,4 +1,6 @@
 # Boston Bodyworker Preservation Plan
+
+> November 16, 2026 authority note: this June plan is retained as historical evidence. The later [Operating State](../../OPERATING_STATE.md) identifies Boston Bodyworker as SUNSET / PRESERVE; the [project track](../../BostonBodyworker/the-boston-bodyworker.md) addresses remaining asset/endgame decisions. The active-publishing and recurring-work assumptions below do not establish current authorization. Export, backup and recovery completeness remain unverified; see the [preservation audit](../../08_PROJECTS/PROJECT_003_KNOWLEDGE_SYSTEM_RECONCILIATION/AUDIT_2026-11-16/README.md).
 ## Active Publishing Platform — Incremental Approach
 ## Date: June 30, 2026
 ## Status: APPROVED

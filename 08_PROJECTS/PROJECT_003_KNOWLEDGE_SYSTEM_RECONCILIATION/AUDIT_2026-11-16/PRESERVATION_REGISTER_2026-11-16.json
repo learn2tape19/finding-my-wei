@@ -1,0 +1,23 @@
+{
+  "record_id": "FMW-PROTECTED-2026-11-16-01",
+  "as_of": "2026-11-16",
+  "classification": "PROTECTED_ORIGINALS_PUBLIC_INDEX_ONLY",
+  "custodian": "Drew Freedman",
+  "public_record_ids": [
+    "SK-CONTINUITY-2026-11-16",
+    "L2T-CONTINUITY-2026-11-16"
+  ],
+  "private_locator": "Available through Drew; private package registry retains filesystem/provider locators.",
+  "manifest_sha256": "c47f3f987c7c3ac86ea75935da35afb83e7f4d31d065d5de0e7affb01e499b3f",
+  "recovery_archive_sha256": "f169bad1b87a33ccbf6da38061ba4f6331d5c4b59acfc56c1c042de2cc4f5ab7",
+  "source_records_checked": 76,
+  "local_copy_and_recovery": "PASS",
+  "off_device_backup": "NOT_VERIFIED",
+  "encryption": "NOT_CONFIGURED",
+  "limitations": [
+    "Local owner-only filesystem permissions do not establish encryption or independent off-device backup.",
+    "Selected correspondence snapshots are not full mailbox backups.",
+    "Native engineering CAD and the private comprehensive audit referenced by the current Learn2Tape work order were not recovered.",
+    "Operational acceptance and original release provenance remain separately tracked."
+  ]
+}

@@ -1,5 +1,7 @@
 # StitchCore Advisory Team
 
+> November 16 continuity note: retain this July snapshot as history. Consult the [current project entry](README.md) and [protected-evidence preservation summary](PRESERVATION_2026-11-16.md) before relying on statuses or next actions. Later protected engagement/engineering decisions are not inferred from this historical role map.
+
 **Date:** July 7, 2026  
 **Status:** Strategic roles defined and stable  
 **Authority:** Drew Freedman, Founder  
