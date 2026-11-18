@@ -103,3 +103,6 @@ Removed a remaining FAQ claim describing notes as a platform feature. Replaced i
 
 ## November 18 approved ongoing eBook access
 Founder accepted ongoing eBook downloads while retaining the certification deadline. Bundled eBook future download expiry changed to unlimited (-1) through WooCommerce REST and read back successfully; download count remains unlimited. Existing permission records were reviewed against current orders and refunds. A narrowly scoped removal of expiry on confirmed paid, unrefunded purchases is prepared but NOT executed: the connector requires an interactive approval for this legacy-permissions database write. Zero-dollar, refunded and unresolved records remain untouched pending entitlement review. No student records or grading changed.
+
+## November 18 existing-download approval completed
+Founder completed the connector approval. Readback confirms all five targeted, paid and unrefunded bundled-eBook permissions now have NULL access_expires (no expiry). Future product downloads were already verified unlimited. This supersedes the pending approval above. Other historical permissions remain unchanged pending entitlement review; student-side download execution still requires independent verification. Certification deadline remains one year.
