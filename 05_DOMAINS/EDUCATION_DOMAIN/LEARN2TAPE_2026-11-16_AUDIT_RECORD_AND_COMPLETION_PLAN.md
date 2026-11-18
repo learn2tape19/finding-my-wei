@@ -87,3 +87,10 @@ The October 8 decision record remains a dated historical snapshot, including its
 The June knowledge map contains historical estimates and platform descriptions, not verified current financial or operational facts. Do not use its enrollment/revenue estimates or tracking identifiers as current truth. Current commercial outcomes require actual orders and dated measurement evidence.
 
 This document intentionally excludes customer records, transaction identifiers, credentials, private screenshots and detailed operational findings.
+
+## November 18 progress
+- Authenticated site read access succeeded. Requirements PDF, actual bundled eBook and methods handout all returned successful downloads and opened as PDFs. This closes the file-availability uncertainty, not customer-entitlement testing.
+- Prepared a corrected requirements PDF with seven wording/punctuation changes, retaining the existing three-page layout, application options and grading rubric. Both changed pages were visually checked. Publication remains pending: the connected browser was unavailable and the available media-upload capabilities support images rather than PDF bytes.
+- Confirmed the bundled eBook still has a one-year download expiry. The existing ongoing-materials promise needs policy reconciliation before changing entitlements.
+- Reviewed current missing-page logs and verified two obsolete image URLs are missing. Targeted published page-body and Elementor searches found no active references; do not create speculative redirects. Request counts do not establish human traffic.
+- No live-site mutations were made in this pass. Independent student tests remain deferred. Next: publish the prepared PDF, reconcile download policy, and trace obsolete-image referrers.
