@@ -94,3 +94,6 @@ This document intentionally excludes customer records, transaction identifiers, 
 - Confirmed the bundled eBook still has a one-year download expiry. The existing ongoing-materials promise needs policy reconciliation before changing entitlements.
 - Reviewed current missing-page logs and verified two obsolete image URLs are missing. Targeted published page-body and Elementor searches found no active references; do not create speculative redirects. Request counts do not establish human traffic.
 - No live-site mutations were made in this pass. Independent student tests remain deferred. Next: publish the prepared PDF, reconcile download policy, and trace obsolete-image referrers.
+
+## November 18 PDF publication follow-up
+Drew uploaded the revised requirements PDF. Media attachment 49994 is present at the versioned November 2026 URL. Updated the certification course's post-body and Elementor requirements links, one exact replacement in each; confirmed revised URL persisted in Elementor data. Original PDF retained. Automated public retrieval returned a 202 challenge response, so live rendered link and exact published PDF byte comparison remain unverified. This supersedes the earlier upload blocker, but does not close student access testing.
