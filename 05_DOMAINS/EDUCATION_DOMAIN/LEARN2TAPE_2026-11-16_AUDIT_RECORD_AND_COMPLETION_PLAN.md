@@ -97,3 +97,6 @@ This document intentionally excludes customer records, transaction identifiers, 
 
 ## November 18 PDF publication follow-up
 Drew uploaded the revised requirements PDF. Media attachment 49994 is present at the versioned November 2026 URL. Updated the certification course's post-body and Elementor requirements links, one exact replacement in each; confirmed revised URL persisted in Elementor data. Original PDF retained. Automated public retrieval returned a 202 challenge response, so live rendered link and exact published PDF byte comparison remain unverified. This supersedes the earlier upload blocker, but does not close student access testing.
+
+## November 18 FAQ and expiry follow-up
+Removed a remaining FAQ claim describing notes as a platform feature. Replaced it with supported-device and larger-screen guidance in both post content (two occurrences) and Elementor (one occurrence); persisted Elementor content verified. Live browser rendering not independently checked. Download-expiry investigation confirms the current bundled eBook has dated permission records while the separate historical eBook has non-expiring permissions. Existing FAQs and package copy promise ongoing course-material access. No entitlement records changed; decision on whether ongoing access includes repeat eBook downloads remains open.
