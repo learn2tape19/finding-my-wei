@@ -15,7 +15,7 @@ Decide the right endgame for The Boston Bodyworker assets and entity after closu
 
 ## Blockers
 - The business has already closed, so the key issue is now asset/endgame strategy rather than growth operations.
-- Emotional residue from the closure and bankruptcy makes it harder to assess the remaining assets cleanly.
+- The closure makes it important to assess the remaining assets on their practical and strategic merits.
 - Need hard data on site value before choosing keep vs sell vs sunset.
 
 ## Funnel Tasks Needing Attention
@@ -31,7 +31,7 @@ Decide the right endgame for The Boston Bodyworker assets and entity after closu
 - The LLC is still active, but dissolution should not happen casually; it needs legal/accounting review.
 
 ## Notes
-- Drewdog had to file personal bankruptcy after the closure; this is a sensitive business lane and should be handled with care.
+- Preserve the business history and lessons from the closure for future decisions.
 - The site may still have strategic value because of age, authority, and possible SEO equity.
 - Core current question: should the site help promote other properties, be sold, or be shut down cleanly?
 - Create this track so Boston Bodyworker context does not get mixed into Learn2Tape, Tao, or Sidekick Air work.
